@@ -7,6 +7,7 @@ clauses:
     LexicalSense: A
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - Constituent: God
       LexicalSense: A
@@ -18,7 +19,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -31,7 +34,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: person
@@ -45,7 +50,9 @@ clauses:
       Polarity: Affirmative
       Proximity: Contextually Near
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Destination
     Sequence: Not in a Sequence
   - children:
@@ -64,7 +71,9 @@ clauses:
         Person: First
         Polarity: Affirmative
         Surface Realization: Noun
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Agent-like
       Sequence: Not in a Sequence
     - children:
@@ -77,7 +86,9 @@ clauses:
         Mood: Indicative
         Polarity: Affirmative
         Time: Present
+      - Part: Space
       Part: VP
+      Implicit: 'No'
       Sequence: Not in a Sequence
     - children:
       - Constituent: person
@@ -90,7 +101,9 @@ clauses:
         Person: Second
         Polarity: Affirmative
         Surface Realization: Noun
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Destination
       Sequence: Not in a Sequence
     - children:
@@ -104,7 +117,9 @@ clauses:
           Part: Adjective
           SemanticComplexityLevel: '1'
           Degree: No Degree
+        - Part: Space
         Part: AdjP
+        Implicit: 'No'
         Sequence: Not in a Sequence
         Usage: Attributive
       - Constituent: plant
@@ -129,7 +144,9 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Semantic Role: Most Agent-like
           Sequence: Not in a Sequence
         - children:
@@ -142,7 +159,9 @@ clauses:
             Mood: Indicative
             Polarity: Affirmative
             Time: Present
+          - Part: Space
           Part: VP
+          Implicit: 'No'
           Sequence: Not in a Sequence
         - children:
           - Constituent: seed
@@ -155,7 +174,9 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Semantic Role: Most Patient-like
           Sequence: Not in a Sequence
         - children:
@@ -173,8 +194,11 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Sequence: Not in a Sequence
+        - Part: Space
         Part: Clause
         Discourse Genre: Climactic Narrative Story
         Illocutionary Force: Declarative
@@ -184,7 +208,9 @@ clauses:
         Speaker`s Attitude: Neutral
         Topic NP: Most Agent-like
         Type: Restrictive Thing Modifier (Relative Clause)
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Patient-like
       Sequence: First Coordinate
     - children:
@@ -192,6 +218,7 @@ clauses:
         LexicalSense: B
         Part: Conjunction
         SemanticComplexityLevel: '1'
+        Implicit: 'No'
       - children:
         - Constituent: -Subgroup
           LexicalSense: A
@@ -202,7 +229,9 @@ clauses:
           Part: Adjective
           SemanticComplexityLevel: '1'
           Degree: No Degree
+        - Part: Space
         Part: AdjP
+        Implicit: 'No'
         Sequence: Not in a Sequence
         Usage: Attributive
       - Constituent: tree
@@ -227,7 +256,9 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Semantic Role: Most Agent-like
           Sequence: Not in a Sequence
         - children:
@@ -240,7 +271,9 @@ clauses:
             Mood: Indicative
             Polarity: Affirmative
             Time: Present
+          - Part: Space
           Part: VP
+          Implicit: 'No'
           Sequence: Not in a Sequence
         - children:
           - Constituent: fruit
@@ -265,7 +298,9 @@ clauses:
                 Person: Third
                 Polarity: Affirmative
                 Surface Realization: Noun
+              - Part: Space
               Part: NP
+              Relativized: 'No'
               Semantic Role: Most Agent-like
               Sequence: Not in a Sequence
             - children:
@@ -278,7 +313,9 @@ clauses:
                 Mood: Indicative
                 Polarity: Affirmative
                 Time: Present
+              - Part: Space
               Part: VP
+              Implicit: 'No'
               Sequence: Not in a Sequence
             - children:
               - Constituent: seed
@@ -291,9 +328,12 @@ clauses:
                 Person: Third
                 Polarity: Affirmative
                 Surface Realization: Noun
+              - Part: Space
               Part: NP
+              Relativized: 'No'
               Semantic Role: Most Patient-like
               Sequence: Not in a Sequence
+            - Part: Space
             Part: Clause
             Discourse Genre: Climactic Narrative Story
             Illocutionary Force: Declarative
@@ -303,9 +343,12 @@ clauses:
             Speaker`s Attitude: Neutral
             Topic NP: Most Agent-like
             Type: Restrictive Thing Modifier (Relative Clause)
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Semantic Role: Most Patient-like
           Sequence: Not in a Sequence
+        - Part: Space
         Part: Clause
         Discourse Genre: Climactic Narrative Story
         Illocutionary Force: Declarative
@@ -315,9 +358,12 @@ clauses:
         Speaker`s Attitude: Neutral
         Topic NP: Most Agent-like
         Type: Restrictive Thing Modifier (Relative Clause)
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Patient-like
       Sequence: Last Coordinate
+    - Part: Space
     Part: Clause
     Discourse Genre: Climactic Narrative Story
     Illocutionary Force: Declarative
@@ -327,6 +373,8 @@ clauses:
     Speaker`s Attitude: Neutral
     Topic NP: Most Agent-like
     Type: Patient (Object Complement)
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -345,7 +393,9 @@ clauses:
       Person: Second
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -358,7 +408,9 @@ clauses:
       Mood: '''may'' (permissive)'
       Polarity: Affirmative
       Time: Immediate Future
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: plant
@@ -372,7 +424,9 @@ clauses:
       Polarity: Affirmative
       Proximity: Contextually Near
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: First Coordinate
   - children:
@@ -380,6 +434,7 @@ clauses:
       LexicalSense: B
       Part: Conjunction
       SemanticComplexityLevel: '1'
+      Implicit: 'No'
     - Constituent: fruit
       LexicalSense: A
       NounListIndex: '6'
@@ -391,9 +446,13 @@ clauses:
       Polarity: Affirmative
       Proximity: Contextually Near
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Last Coordinate
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative

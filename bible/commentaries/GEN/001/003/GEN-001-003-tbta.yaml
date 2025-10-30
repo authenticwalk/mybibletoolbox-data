@@ -7,6 +7,7 @@ clauses:
     LexicalSense: A
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - Constituent: God
       LexicalSense: A
@@ -18,7 +19,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -31,7 +34,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: -QuoteBegin
@@ -49,7 +54,9 @@ clauses:
         Person: Third
         Polarity: Affirmative
         Surface Realization: Noun
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Agent-like
       Sequence: Not in a Sequence
     - children:
@@ -62,12 +69,15 @@ clauses:
         Mood: Indicative
         Polarity: Affirmative
         Time: Immediate Future
+      - Part: Space
       Part: VP
+      Implicit: 'No'
       Sequence: Not in a Sequence
     - Constituent: -QuoteEnd
       LexicalSense: A
       Part: Particle
       SemanticComplexityLevel: '1'
+    - Part: Space
     Part: Clause
     Discourse Genre: Climactic Narrative Story
     Illocutionary Force: Jussive
@@ -77,6 +87,8 @@ clauses:
     Speaker`s Attitude: Neutral
     Topic NP: Most Agent-like
     Type: Patient (Object Complement)
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -88,6 +100,7 @@ clauses:
     LexicalSense: D
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - Constituent: light
       LexicalSense: A
@@ -99,7 +112,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -112,8 +127,12 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative

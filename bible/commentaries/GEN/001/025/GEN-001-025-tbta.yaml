@@ -14,7 +14,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -27,7 +29,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - children:
@@ -40,7 +44,9 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Attributive
     - children:
@@ -49,7 +55,9 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Attributive
     - Constituent: animal
@@ -62,7 +70,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: First Coordinate
   - children:
@@ -76,7 +86,9 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Attributive
     - Constituent: livestock
@@ -89,7 +101,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Coordinate
   - children:
@@ -97,6 +111,7 @@ clauses:
       LexicalSense: B
       Part: Conjunction
       SemanticComplexityLevel: '1'
+      Implicit: 'No'
     - children:
       - Constituent: -Subgroup
         LexicalSense: A
@@ -107,7 +122,9 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Attributive
     - Constituent: animal
@@ -132,7 +149,9 @@ clauses:
           Person: Third
           Polarity: Affirmative
           Surface Realization: Noun
+        - Part: Space
         Part: NP
+        Relativized: 'No'
         Semantic Role: Most Agent-like
         Sequence: Not in a Sequence
       - children:
@@ -145,7 +164,9 @@ clauses:
           Mood: Indicative
           Polarity: Affirmative
           Time: Present
+        - Part: Space
         Part: VP
+        Implicit: 'No'
         Sequence: Not in a Sequence
       - children:
         - Constituent: 'on'
@@ -162,17 +183,24 @@ clauses:
           Person: Third
           Polarity: Affirmative
           Surface Realization: Noun
+        - Part: Space
         Part: NP
+        Relativized: 'No'
         Sequence: Not in a Sequence
+      - Part: Space
       Part: Clause
       Discourse Genre: Climactic Narrative Story
       Illocutionary Force: Declarative
       Sequence: Not in a Sequence
       Topic NP: Most Agent-like
       Type: Restrictive Thing Modifier (Relative Clause)
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Last Coordinate
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -192,7 +220,9 @@ clauses:
       Polarity: Affirmative
       Proximity: Contextually Near
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -205,7 +235,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: baby
@@ -230,7 +262,9 @@ clauses:
           Person: Third
           Polarity: Affirmative
           Surface Realization: Noun
+        - Part: Space
         Part: NP
+        Relativized: 'No'
         Semantic Role: Most Agent-like
         Sequence: Not in a Sequence
       - children:
@@ -243,7 +277,9 @@ clauses:
           Mood: Indicative
           Polarity: Affirmative
           Time: Discourse
+        - Part: Space
         Part: VP
+        Implicit: 'No'
         Sequence: Not in a Sequence
       - children:
         - children:
@@ -257,7 +293,9 @@ clauses:
               Part: Adjective
               SemanticComplexityLevel: '1'
               Degree: No Degree
+            - Part: Space
             Part: AdjP
+            Implicit: 'No'
             Sequence: Not in a Sequence
             Usage: Attributive
           - Constituent: kind
@@ -270,7 +308,9 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Sequence: Not in a Sequence
         - Constituent: animal
           LexicalSense: A
@@ -282,16 +322,21 @@ clauses:
           Person: Third
           Polarity: Affirmative
           Surface Realization: Noun
+        - Part: Space
         Part: NP
+        Relativized: 'No'
         Semantic Role: State
         Sequence: Not in a Sequence
+      - Part: Space
       Part: Clause
       Discourse Genre: Climactic Narrative Story
       Illocutionary Force: Declarative
       Sequence: Not in a Sequence
       Topic NP: Most Agent-like
       Type: Restrictive Thing Modifier (Relative Clause)
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Not in a Sequence
   - children:
@@ -300,8 +345,12 @@ clauses:
       Part: Adverb
       SemanticComplexityLevel: '1'
       Degree: No Degree
+    - Part: Space
     Part: AdvP
+    Implicit: 'No'
     Sequence: Not in a Sequence
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -320,7 +369,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -333,7 +384,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - children:
@@ -346,7 +399,9 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Attributive
     - Constituent: animal
@@ -360,9 +415,13 @@ clauses:
       Polarity: Affirmative
       Proximity: Contextually Near
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Not in a Sequence
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -374,6 +433,7 @@ clauses:
     LexicalSense: A
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - Constituent: God
       LexicalSense: A
@@ -385,7 +445,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -398,7 +460,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - children:
@@ -413,7 +477,9 @@ clauses:
         Polarity: Affirmative
         Proximity: Contextually Near
         Surface Realization: Noun
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Agent-like
       Sequence: Not in a Sequence
     - children:
@@ -426,7 +492,9 @@ clauses:
         Mood: Indicative
         Polarity: Affirmative
         Time: Discourse
+      - Part: Space
       Part: VP
+      Implicit: 'No'
       Sequence: Not in a Sequence
     - children:
       - Constituent: good
@@ -434,15 +502,20 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Predicative
+    - Part: Space
     Part: Clause
     Discourse Genre: Climactic Narrative Story
     Illocutionary Force: Declarative
     Sequence: Not in a Sequence
     Topic NP: Most Agent-like
     Type: Patient (Object Complement)
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative

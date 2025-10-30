@@ -14,7 +14,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -27,7 +29,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Historic Past
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: sky
@@ -40,7 +44,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: First Coordinate
   - children:
@@ -48,6 +54,7 @@ clauses:
       LexicalSense: B
       Part: Conjunction
       SemanticComplexityLevel: '1'
+      Implicit: 'No'
     - Constituent: earth
       LexicalSense: A
       NounListIndex: '3'
@@ -58,7 +65,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Last Coordinate
   - children:
@@ -77,8 +86,12 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Sequence: Not in a Sequence
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -99,7 +112,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -112,7 +127,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Historic Past
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: sky
@@ -125,7 +142,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: First Coordinate
   - children:
@@ -133,6 +152,7 @@ clauses:
       LexicalSense: B
       Part: Conjunction
       SemanticComplexityLevel: '1'
+      Implicit: 'No'
     - Constituent: earth
       LexicalSense: A
       NounListIndex: '3'
@@ -143,9 +163,13 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Patient-like
     Sequence: Last Coordinate
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative

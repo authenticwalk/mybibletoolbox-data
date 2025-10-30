@@ -7,6 +7,7 @@ clauses:
     LexicalSense: A
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - Constituent: God
       LexicalSense: A
@@ -18,7 +19,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -31,7 +34,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - Constituent: -QuoteBegin
@@ -49,8 +54,10 @@ clauses:
         Person: First
         Polarity: Affirmative
         Surface Realization: Noun
+      - Part: Space
       Part: NP
       Implicit: Optional Agent of Passive
+      Relativized: 'No'
       Semantic Role: Most Agent-like
       Sequence: Not in a Sequence
     - children:
@@ -63,7 +70,9 @@ clauses:
         Mood: Indicative
         Polarity: Affirmative
         Time: Immediate Future
+      - Part: Space
       Part: VP
+      Implicit: 'No'
       Sequence: Not in a Sequence
     - children:
       - Constituent: water
@@ -88,7 +97,9 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Semantic Role: Most Agent-like
           Sequence: Not in a Sequence
         - children:
@@ -101,7 +112,9 @@ clauses:
             Mood: Indicative
             Polarity: Affirmative
             Time: Present
+          - Part: Space
           Part: VP
+          Implicit: 'No'
           Sequence: Not in a Sequence
         - children:
           - Constituent: under
@@ -118,9 +131,12 @@ clauses:
             Person: Third
             Polarity: Affirmative
             Surface Realization: Noun
+          - Part: Space
           Part: NP
+          Relativized: 'No'
           Semantic Role: State
           Sequence: Not in a Sequence
+        - Part: Space
         Part: Clause
         Discourse Genre: Climactic Narrative Story
         Illocutionary Force: Declarative
@@ -130,9 +146,12 @@ clauses:
         Speaker`s Attitude: Neutral
         Topic NP: Most Agent-like
         Type: Restrictive Thing Modifier (Relative Clause)
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Patient-like
       Sequence: Not in a Sequence
+    - Part: Space
     Part: Clause
     Discourse Genre: Climactic Narrative Story
     Illocutionary Force: Jussive
@@ -142,6 +161,8 @@ clauses:
     Speaker`s Attitude: Neutral
     Topic NP: Most Patient-like
     Type: Patient (Object Complement)
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -153,6 +174,7 @@ clauses:
     LexicalSense: A
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - children:
       - Constituent: dry
@@ -160,7 +182,9 @@ clauses:
         Part: Adjective
         SemanticComplexityLevel: '1'
         Degree: No Degree
+      - Part: Space
       Part: AdjP
+      Implicit: 'No'
       Sequence: Not in a Sequence
       Usage: Attributive
     - Constituent: ground
@@ -173,7 +197,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -186,12 +212,16 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Immediate Future
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - Constituent: -QuoteEnd
     LexicalSense: A
     Part: Particle
     SemanticComplexityLevel: '1'
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Jussive
@@ -206,6 +236,8 @@ clauses:
     LexicalSense: A
     Part: Phrasal
     SemanticComplexityLevel: '1'
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
@@ -218,6 +250,7 @@ clauses:
     LexicalSense: A
     Part: Conjunction
     SemanticComplexityLevel: '1'
+    Implicit: 'No'
   - children:
     - Constituent: God
       LexicalSense: A
@@ -229,7 +262,9 @@ clauses:
       Person: Third
       Polarity: Affirmative
       Surface Realization: Noun
+    - Part: Space
     Part: NP
+    Relativized: 'No'
     Semantic Role: Most Agent-like
     Sequence: Not in a Sequence
   - children:
@@ -242,7 +277,9 @@ clauses:
       Mood: Indicative
       Polarity: Affirmative
       Time: Discourse
+    - Part: Space
     Part: VP
+    Implicit: 'No'
     Sequence: Not in a Sequence
   - children:
     - children:
@@ -252,7 +289,9 @@ clauses:
           Part: Adjective
           SemanticComplexityLevel: '1'
           Degree: No Degree
+        - Part: Space
         Part: AdjP
+        Implicit: 'No'
         Sequence: Not in a Sequence
         Usage: Attributive
       - Constituent: ground
@@ -265,7 +304,9 @@ clauses:
         Person: Third
         Polarity: Affirmative
         Surface Realization: Noun
+      - Part: Space
       Part: NP
+      Relativized: 'No'
       Semantic Role: Most Agent-like
       Sequence: Not in a Sequence
     - children:
@@ -278,14 +319,19 @@ clauses:
         Mood: Indicative
         Polarity: Affirmative
         Time: Discourse
+      - Part: Space
       Part: VP
+      Implicit: 'No'
       Sequence: Not in a Sequence
+    - Part: Space
     Part: Clause
     Discourse Genre: Climactic Narrative Story
     Illocutionary Force: Declarative
     Sequence: Not in a Sequence
     Topic NP: Most Agent-like
     Type: Patient (Object Complement)
+  - Part: Period
+  - Part: Space
   Part: Clause
   Discourse Genre: Climactic Narrative Story
   Illocutionary Force: Declarative
