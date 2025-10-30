@@ -1,178 +1,224 @@
-verse:
-  reference: MAT 22:6
-  book_code: MAT
-  chapter: 22
-  verse: 6
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οἱ δὲ λοιποὶ κρατήσαντες τοὺς δούλους αὐτοῦ ὕβρισαν καὶ ἀπέκτειναν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:6
+text: οἱ δὲ λοιποὶ κρατήσαντες τοὺς δούλους αὐτοῦ ὕβρισαν καὶ ἀπέκτειναν.
 words:
 - position: 1
-  ref: MAT 22:6!2
-  xml_id: n40022006002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089017
-  ln: '89.104'
+  ids:
+    ref: MAT 22:6!2
+    wordID: n40022006002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.104'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 22:6!1
-  xml_id: n40022006001
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: '-'
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:6!1
+    wordID: n40022006001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 22:6!3
-  xml_id: n40022006003
-  unicode: λοιποὶ
+  text: λοιποὶ
   lemma: λοιπός
   normalized: λοιποί
-  class: adj
-  morph: A-NPM
-  gloss: the rest
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3062'
-  domain: '063005'
-  ln: '63.21'
+  ids:
+    ref: MAT 22:6!3
+    wordID: n40022006003
+  translation:
+    gloss: the rest
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3062'
+  semantic:
+    semanticDomain: '063005'
+    ln: '63.21'
 - position: 4
-  ref: MAT 22:6!4
-  xml_id: n40022006004
-  unicode: κρατήσαντες
+  text: κρατήσαντες
   lemma: κρατέω
   normalized: κρατήσαντες
-  class: verb
-  morph: V-AAP-NPM
-  gloss: having laid hold of
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2902'
-  domain: 018001
-  ln: '18.6'
-  role: v
+  ids:
+    ref: MAT 22:6!4
+    wordID: n40022006004
+  translation:
+    gloss: having laid hold of
+  morphology:
+    class: verb
+    morph: V-AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2902'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.6'
+  syntax:
+    role: v
+    frame: A0:n40022006003 A1:n40022006006
+  discourse:
+    subject: n40022006003
 - position: 5
-  ref: MAT 22:6!5
-  xml_id: n40022006005
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:6!5
+    wordID: n40022006005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 22:6!6
-  xml_id: n40022006006
-  unicode: δούλους
+  text: δούλους
   lemma: δοῦλος (II)
   normalized: δούλους
-  class: noun
-  morph: N-APM
-  gloss: servants
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '1401'
-  domain: 087005
-  ln: '87.76'
+  ids:
+    ref: MAT 22:6!6
+    wordID: n40022006006
+  translation:
+    gloss: servants
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1401'
+  semantic:
+    semanticDomain: 087005
+    ln: '87.76'
 - position: 7
-  ref: MAT 22:6!7
-  xml_id: n40022006007
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 22:6!7
+    wordID: n40022006007
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40022002006
 - position: 8
-  ref: MAT 22:6!8
-  xml_id: n40022006008
-  unicode: ὕβρισαν
+  text: ὕβρισαν
   lemma: ὑβρίζω
   normalized: ὕβρισαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: mistreated
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5195'
-  domain: 088016
-  ln: '88.130'
+  ids:
+    ref: MAT 22:6!8
+    wordID: n40022006008
+  translation:
+    gloss: mistreated
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5195'
+  semantic:
+    semanticDomain: 088016
+    ln: '88.130'
+  syntax:
+    frame: A0:n40022006003
 - position: 9
-  ref: MAT 22:6!9
-  xml_id: n40022006009
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 22:6!9
+    wordID: n40022006009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 10
-  ref: MAT 22:6!10
-  xml_id: n40022006010
-  unicode: ἀπέκτειναν
+  text: ἀπέκτειναν
   lemma: ἀποκτείνω
   normalized: ἀπέκτειναν
-  class: verb
-  morph: V-AAI-3P
-  gloss: killed [them]
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '615'
-  domain: '020004'
-  ln: '20.61'
-syntax:
-  word_order: S-ADV-V
+  ids:
+    ref: MAT 22:6!10
+    wordID: n40022006010
+  translation:
+    gloss: killed [them]
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '615'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.61'
+  syntax:
+    frame: A0:n40022006003

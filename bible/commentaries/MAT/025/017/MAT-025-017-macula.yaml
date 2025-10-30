@@ -1,126 +1,146 @@
-verse:
-  reference: MAT 25:17
-  book_code: MAT
-  chapter: 25
-  verse: 17
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὡσαύτως ὁ τὰ δύο ἐκέρδησεν ἄλλα δύο.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:17
+text: ὡσαύτως ὁ τὰ δύο ἐκέρδησεν ἄλλα δύο.
 words:
 - position: 1
-  ref: MAT 25:17!1
-  xml_id: n40025017001
-  unicode: ὡσαύτως
+  text: ὡσαύτως
   lemma: ὡσαύτως
   normalized: ὡσαύτως
-  class: adv
-  morph: ADV
-  gloss: Likewise
-  strong: '5615'
-  domain: '064'
-  ln: '64.16'
-  role: adv
+  ids:
+    ref: MAT 25:17!1
+    wordID: n40025017001
+  translation:
+    gloss: Likewise
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5615'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.16'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 25:17!2
-  xml_id: n40025017002
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the [one with]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:17!2
+    wordID: n40025017002
+  translation:
+    gloss: the [one with]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 25:17!3
-  xml_id: n40025017003
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:17!3
+    wordID: n40025017003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 25:17!4
-  xml_id: n40025017004
-  unicode: δύο
+  text: δύο
   lemma: δύο
   normalized: δύο
-  class: num
-  morph: A-NUI
-  gloss: two
-  strong: '1417'
-  domain: '060002'
-  ln: '60.11'
+  ids:
+    ref: MAT 25:17!4
+    wordID: n40025017004
+  translation:
+    gloss: two
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1417'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.11'
 - position: 5
-  ref: MAT 25:17!5
-  xml_id: n40025017005
-  unicode: ἐκέρδησεν
+  text: ἐκέρδησεν
   lemma: κερδαίνω
   normalized: ἐκέρδησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: gained
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2770'
-  domain: '057016'
-  ln: '57.189'
-  role: v
+  ids:
+    ref: MAT 25:17!5
+    wordID: n40025017005
+  translation:
+    gloss: gained
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2770'
+  semantic:
+    semanticDomain: '057016'
+    ln: '57.189'
+  syntax:
+    role: v
+    frame: A0:n40025017004 A1:n40025017007
 - position: 6
-  ref: MAT 25:17!6
-  xml_id: n40025017006
-  unicode: ἄλλα
+  text: ἄλλα
   lemma: ἄλλος
   normalized: ἄλλα
-  class: adj
-  morph: A-APN
-  gloss: more
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 25:17!6
+    wordID: n40025017006
+  translation:
+    gloss: more
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 7
-  ref: MAT 25:17!7
-  xml_id: n40025017007
-  unicode: δύο
+  text: δύο
   lemma: δύο
   normalized: δύο
-  class: num
-  morph: A-NUI
-  gloss: two
-  strong: '1417'
-  domain: '060002'
-  ln: '60.11'
-syntax:
-  word_order: ADV-S-V-O
+  ids:
+    ref: MAT 25:17!7
+    wordID: n40025017007
+  translation:
+    gloss: two
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1417'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.11'

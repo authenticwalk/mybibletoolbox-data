@@ -1,160 +1,203 @@
-verse:
-  reference: MAT 10:34
-  book_code: MAT
-  chapter: 10
-  verse: 34
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Μὴ νομίσητε ὅτι ἦλθον βαλεῖν εἰρήνην ἐπὶ τὴν γῆν·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:34
+text: Μὴ νομίσητε ὅτι ἦλθον βαλεῖν εἰρήνην ἐπὶ τὴν γῆν·
 words:
 - position: 1
-  ref: MAT 10:34!1
-  xml_id: n40010034001
-  unicode: Μὴ
+  text: Μὴ
   lemma: μή
   normalized: Μή
-  class: adv
-  morph: PRT-N
-  gloss: Not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:34!1
+    wordID: n40010034001
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 10:34!2
-  xml_id: n40010034002
-  unicode: νομίσητε
+  text: νομίσητε
   lemma: νομίζω
   normalized: νομίσητε
-  class: verb
-  morph: V-AAS-2P
-  gloss: think
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3543'
-  domain: '031005'
-  ln: '31.29'
-  role: v
+  ids:
+    ref: MAT 10:34!2
+    wordID: n40010034002
+  translation:
+    gloss: think
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3543'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n40010005003
+  discourse:
+    subject: n40010005003
 - position: 3
-  ref: MAT 10:34!3
-  xml_id: n40010034003
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 10:34!3
+    wordID: n40010034003
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 4
-  ref: MAT 10:34!4
-  xml_id: n40010034004
-  unicode: ἦλθον
+  text: ἦλθον
   lemma: ἔρχομαι
   normalized: ἦλθον
-  class: verb
-  morph: V-2AAI-1S
-  gloss: I came
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 10:34!4
+    wordID: n40010034004
+  translation:
+    gloss: I came
+  morphology:
+    class: verb
+    morph: V-2AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40010005006
+  discourse:
+    subject: n40010005006
 - position: 5
-  ref: MAT 10:34!5
-  xml_id: n40010034005
-  unicode: βαλεῖν
+  text: βαλεῖν
   lemma: βάλλω
   normalized: βαλεῖν
-  class: verb
-  morph: V-2AAN
-  gloss: to bring
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '906'
-  domain: '013001'
-  ln: '13.14'
-  role: v
+  ids:
+    ref: MAT 10:34!5
+    wordID: n40010034005
+  translation:
+    gloss: to bring
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '906'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.14'
+  syntax:
+    role: v
+    frame: A0:n40010005006 A1:n40010034006
+  discourse:
+    subject: n40010005006
 - position: 6
-  ref: MAT 10:34!6
-  xml_id: n40010034006
-  unicode: εἰρήνην
+  text: εἰρήνην
   lemma: εἰρήνη
   normalized: εἰρήνην
-  class: noun
-  morph: N-ASF
-  gloss: peace
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1515'
-  domain: '022007'
-  ln: '22.42'
-  role: o
+  ids:
+    ref: MAT 10:34!6
+    wordID: n40010034006
+  translation:
+    gloss: peace
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1515'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.42'
+  syntax:
+    role: o
 - position: 7
-  ref: MAT 10:34!7
-  xml_id: n40010034007
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '1909'
-  domain: 083008
-  ln: '83.46'
+  ids:
+    ref: MAT 10:34!7
+    wordID: n40010034007
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
 - position: 8
-  ref: MAT 10:34!8
-  xml_id: n40010034008
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:34!8
+    wordID: n40010034008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 10:34!9
-  xml_id: n40010034009
-  unicode: γῆν
+  text: γῆν
   lemma: γῆ
   normalized: γῆν
-  class: noun
-  morph: N-ASF
-  gloss: earth
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1093'
-  domain: 009001
-  ln: '9.22'
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 10:34!9
+    wordID: n40010034009
+  translation:
+    gloss: earth
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1093'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.22'

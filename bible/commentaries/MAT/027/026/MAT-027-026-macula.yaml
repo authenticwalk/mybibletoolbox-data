@@ -1,213 +1,279 @@
-verse:
-  reference: MAT 27:26
-  book_code: MAT
-  chapter: 27
-  verse: 26
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε ἀπέλυσεν αὐτοῖς τὸν Βαραββᾶν, τὸν δὲ Ἰησοῦν φραγελλώσας παρέδωκεν
-    ἵνα σταυρωθῇ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:26
+text: τότε ἀπέλυσεν αὐτοῖς τὸν Βαραββᾶν, τὸν δὲ Ἰησοῦν φραγελλώσας παρέδωκεν ἵνα σταυρωθῇ.
 words:
 - position: 1
-  ref: MAT 27:26!1
-  xml_id: n40027026001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 27:26!1
+    wordID: n40027026001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 27:26!2
-  xml_id: n40027026002
-  unicode: ἀπέλυσεν
+  text: ἀπέλυσεν
   lemma: ἀπολύω
   normalized: ἀπέλυσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: he released
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '630'
-  domain: '037010'
-  ln: '37.127'
-  role: v
+  ids:
+    ref: MAT 27:26!2
+    wordID: n40027026002
+  translation:
+    gloss: he released
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.127'
+  syntax:
+    role: v
+    frame: A0:n40027024004 A2:n40027026003 A1:n40027026005
+  discourse:
+    subject: n40027024004
 - position: 3
-  ref: MAT 27:26!3
-  xml_id: n40027026003
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 27:26!3
+    wordID: n40027026003
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40027025005
 - position: 4
-  ref: MAT 27:26!4
-  xml_id: n40027026004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:26!4
+    wordID: n40027026004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 27:26!5
-  xml_id: n40027026005
-  unicode: Βαραββᾶν
+  text: Βαραββᾶν
   lemma: Βαραββᾶς
   normalized: Βαραββᾶν
-  class: noun
-  morph: N-ASM
-  gloss: Barabbas
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '912'
-  domain: 093001
-  ln: '93.59'
+  ids:
+    ref: MAT 27:26!5
+    wordID: n40027026005
+  translation:
+    gloss: Barabbas
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '912'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.59'
 - position: 6
-  ref: MAT 27:26!7
-  xml_id: n40027026007
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 27:26!7
+    wordID: n40027026007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 7
-  ref: MAT 27:26!6
-  xml_id: n40027026006
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:26!6
+    wordID: n40027026006
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 27:26!8
-  xml_id: n40027026008
-  unicode: Ἰησοῦν
+  text: Ἰησοῦν
   lemma: Ἰησοῦς
   normalized: Ἰησοῦν
-  class: noun
-  morph: N-ASM
-  gloss: Jesus
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2424'
-  domain: 093001
-  ln: 93.169a
+  ids:
+    ref: MAT 27:26!8
+    wordID: n40027026008
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
 - position: 9
-  ref: MAT 27:26!9
-  xml_id: n40027026009
-  unicode: φραγελλώσας
+  text: φραγελλώσας
   lemma: φραγελλόω
   normalized: φραγελλώσας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: having flogged
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '5417'
-  domain: 019001
-  ln: '19.9'
-  role: v
+  ids:
+    ref: MAT 27:26!9
+    wordID: n40027026009
+  translation:
+    gloss: having flogged
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5417'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.9'
+  syntax:
+    role: v
+    frame: A0:n40027024004 A1:n40027026008
+  discourse:
+    subject: n40027024004
 - position: 10
-  ref: MAT 27:26!10
-  xml_id: n40027026010
-  unicode: παρέδωκεν
+  text: παρέδωκεν
   lemma: παραδίδωμι
   normalized: παρέδωκεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: He delivered up [Him]
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3860'
-  domain: '037007'
-  ln: '37.111'
-  role: v
+  ids:
+    ref: MAT 27:26!10
+    wordID: n40027026010
+  translation:
+    gloss: He delivered up [Him]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: '037007'
+    ln: '37.111'
+  syntax:
+    role: v
+    frame: A0:n40027024004
+  discourse:
+    subject: n40027024004
 - position: 11
-  ref: MAT 27:26!11
-  xml_id: n40027026011
-  unicode: ἵνα
+  text: ἵνα
   lemma: ἵνα
   normalized: ἵνα
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '2443'
-  domain: 089009
-  ln: '89.59'
+  ids:
+    ref: MAT 27:26!11
+    wordID: n40027026011
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
 - position: 12
-  ref: MAT 27:26!12
-  xml_id: n40027026012
-  unicode: σταυρωθῇ
+  text: σταυρωθῇ
   lemma: σταυρόω
   normalized: σταυρωθῇ
-  class: verb
-  morph: V-APS-3S
-  gloss: He might be crucified
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '4717'
-  domain: '020004'
-  ln: '20.76'
-  role: v
-syntax:
-  word_order: ADV-V-IO-O
+  ids:
+    ref: MAT 27:26!12
+    wordID: n40027026012
+  translation:
+    gloss: He might be crucified
+  morphology:
+    class: verb
+    morph: V-APS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '4717'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.76'
+  syntax:
+    role: v
+    frame: A1:n40027026008
+  discourse:
+    subject: n40027026008

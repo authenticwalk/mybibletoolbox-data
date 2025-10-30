@@ -1,0 +1,407 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2PE 2:21
+text: 2PE 2:21 κρεῖττον γὰρ ἦν αὐτοῖς μὴ ἐπεγνωκέναι τὴν ὁδὸν τῆς δικαιοσύνης, ἢ ἐπιγνοῦσιν
+  ὑποστρέψαι ἐκ τῆς παραδοθείσης αὐτοῖς ἁγίας ἐντολῆς.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: 2PE 2:21!2
+    wordID: n61002021002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: κρεῖττον
+  lemma: κρείττων
+  normalized: κρεῖττον
+  ids:
+    ref: 2PE 2:21!1
+    wordID: n61002021001
+  translation:
+    gloss: Better
+  morphology:
+    class: adj
+    morph: A-NSN-C
+    gender: neuter
+    number: singular
+    case: nominative
+    degree: comparative
+  lexical:
+    strong: '2909'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.21'
+  syntax:
+    role: p
+- position: 3
+  text: ἦν
+  lemma: εἰμί
+  normalized: ἦν
+  ids:
+    ref: 2PE 2:21!3
+    wordID: n61002021003
+  translation:
+    gloss: it would have been
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: vc
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: 2PE 2:21!4
+    wordID: n61002021004
+  translation:
+    gloss: for them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  syntax:
+    role: adv
+  discourse:
+    referent: n61002018012
+- position: 5
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 2PE 2:21!5
+    wordID: n61002021005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 6
+  text: ἐπεγνωκέναι
+  lemma: ἐπιγινώσκω
+  normalized: ἐπεγνωκέναι
+  ids:
+    ref: 2PE 2:21!6
+    wordID: n61002021006
+  translation:
+    gloss: to have known
+  morphology:
+    class: verb
+    morph: V-RAN
+    tense: perfect
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1921'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.8'
+  syntax:
+    role: v
+    frame: A0:n61002018012 A1:n61002021008
+  discourse:
+    subject: n61002018012
+- position: 7
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: 2PE 2:21!7
+    wordID: n61002021007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ὁδὸν
+  lemma: ὁδός
+  normalized: ὁδόν
+  ids:
+    ref: 2PE 2:21!8
+    wordID: n61002021008
+  translation:
+    gloss: way
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3598'
+  semantic:
+    semanticDomain: '041003'
+    ln: '41.35'
+- position: 9
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: 2PE 2:21!9
+    wordID: n61002021009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: δικαιοσύνης
+  lemma: δικαιοσύνη
+  normalized: δικαιοσύνης
+  ids:
+    ref: 2PE 2:21!10
+    wordID: n61002021010
+  translation:
+    gloss: of righteousness
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1343'
+  semantic:
+    semanticDomain: 088002
+    ln: '88.13'
+- position: 11
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: 2PE 2:21!11
+    wordID: n61002021011
+  translation:
+    gloss: than
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+- position: 12
+  text: ἐπιγνοῦσιν
+  lemma: ἐπιγινώσκω
+  normalized: ἐπιγνοῦσιν
+  ids:
+    ref: 2PE 2:21!12
+    wordID: n61002021012
+  translation:
+    gloss: having known [it]
+  morphology:
+    class: verb
+    morph: V-2AAP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1921'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.8'
+  syntax:
+    role: v
+    frame: A0:n61002018012
+  discourse:
+    subject: n61002018012
+- position: 13
+  text: ὑποστρέψαι
+  lemma: ὑποστρέφω
+  normalized: ὑποστρέψαι
+  ids:
+    ref: 2PE 2:21!13
+    wordID: n61002021013
+  translation:
+    gloss: to have turned
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5290'
+  semantic:
+    semanticDomain: 031008
+    ln: '31.64'
+  syntax:
+    role: v
+    frame: A0:n61002018012
+  discourse:
+    subject: n61002018012
+- position: 14
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: 2PE 2:21!14
+    wordID: n61002021014
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+- position: 15
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: 2PE 2:21!15
+    wordID: n61002021015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: παραδοθείσης
+  lemma: παραδίδωμι
+  normalized: παραδοθείσης
+  ids:
+    ref: 2PE 2:21!16
+    wordID: n61002021016
+  translation:
+    gloss: having been delivered
+  morphology:
+    class: verb
+    morph: V-APP-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.237'
+  syntax:
+    role: v
+    frame: A1:n61002021019 A2:n61002021017
+  discourse:
+    subject: n61002021019
+- position: 17
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: 2PE 2:21!17
+    wordID: n61002021017
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  syntax:
+    role: io
+  discourse:
+    referent: n61002018012
+- position: 18
+  text: ἁγίας
+  lemma: ἅγιος
+  normalized: ἁγίας
+  ids:
+    ref: 2PE 2:21!18
+    wordID: n61002021018
+  translation:
+    gloss: holy
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '40'
+  semantic:
+    semanticDomain: 088003
+    ln: '88.24'
+- position: 19
+  text: ἐντολῆς
+  lemma: ἐντολή
+  normalized: ἐντολῆς
+  ids:
+    ref: 2PE 2:21!19
+    wordID: n61002021019
+  translation:
+    gloss: commandment
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1785'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.330'

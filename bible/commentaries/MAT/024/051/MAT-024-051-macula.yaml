@@ -1,160 +1,192 @@
-verse:
-  reference: MAT 24:51
-  book_code: MAT
-  chapter: 24
-  verse: 51
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:51
+text: ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὀδόντων.
 words:
 - position: 1
-  ref: MAT 24:51!12
-  xml_id: n40024051012
-  unicode: ἐκεῖ
+  text: ἐκεῖ
   lemma: ἐκεῖ
   normalized: ἐκεῖ
-  class: adv
-  morph: ADV
-  gloss: there
-  strong: '1563'
-  domain: 083001
-  ln: '83.2'
-  role: p
+  ids:
+    ref: MAT 24:51!12
+    wordID: n40024051012
+  translation:
+    gloss: there
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1563'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.2'
+  syntax:
+    role: p
 - position: 2
-  ref: MAT 24:51!13
-  xml_id: n40024051013
-  unicode: ἔσται
+  text: ἔσται
   lemma: εἰμί
   normalized: ἔσται
-  class: verb
-  morph: V-FDI-3S
-  gloss: will be
-  number: singular
-  person: third
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '1510'
-  domain: 085001
-  ln: '85.1'
-  role: vc
+  ids:
+    ref: MAT 24:51!13
+    wordID: n40024051013
+  translation:
+    gloss: will be
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.1'
+  syntax:
+    role: vc
 - position: 3
-  ref: MAT 24:51!14
-  xml_id: n40024051014
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:51!14
+    wordID: n40024051014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 24:51!15
-  xml_id: n40024051015
-  unicode: κλαυθμὸς
+  text: κλαυθμὸς
   lemma: κλαυθμός
   normalized: κλαυθμός
-  class: noun
-  morph: N-NSM
-  gloss: weeping
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2805'
-  domain: '025012'
-  ln: '25.138'
+  ids:
+    ref: MAT 24:51!15
+    wordID: n40024051015
+  translation:
+    gloss: weeping
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2805'
+  semantic:
+    semanticDomain: '025012'
+    ln: '25.138'
 - position: 5
-  ref: MAT 24:51!16
-  xml_id: n40024051016
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 24:51!16
+    wordID: n40024051016
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 6
-  ref: MAT 24:51!17
-  xml_id: n40024051017
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:51!17
+    wordID: n40024051017
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 24:51!18
-  xml_id: n40024051018
-  unicode: βρυγμὸς
+  text: βρυγμὸς
   lemma: βρυγμός
   normalized: βρυγμός
-  class: noun
-  morph: N-NSM
-  gloss: gnashing
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1030'
-  domain: '023002'
-  ln: '23.41'
+  ids:
+    ref: MAT 24:51!18
+    wordID: n40024051018
+  translation:
+    gloss: gnashing
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1030'
+  semantic:
+    semanticDomain: '023002'
+    ln: '23.41'
 - position: 8
-  ref: MAT 24:51!19
-  xml_id: n40024051019
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: of
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:51!19
+    wordID: n40024051019
+  translation:
+    gloss: of
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 24:51!20
-  xml_id: n40024051020
-  unicode: ὀδόντων
+  text: ὀδόντων
   lemma: ὀδούς
   normalized: ὀδόντων
-  class: noun
-  morph: N-GPM
-  gloss: teeth
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3599'
-  domain: 008002
-  ln: '8.20'
-syntax:
-  word_order: P-VC-S
+  ids:
+    ref: MAT 24:51!20
+    wordID: n40024051020
+  translation:
+    gloss: teeth
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3599'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.20'

@@ -1,0 +1,161 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1JN 2:14
+text: 1JN 2:14 ἔγραψα ὑμῖν, παιδία, ὅτι ἐγνώκατε τὸν Πατέρα.
+words:
+- position: 1
+  text: παιδία
+  lemma: παιδίον
+  normalized: παιδία
+  ids:
+    ref: 1JN 2:14!3
+    wordID: n62002014003
+  translation:
+    gloss: little children
+  morphology:
+    class: noun
+    morph: N-VPN
+    gender: neuter
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '3813'
+  semantic:
+    semanticDomain: 009005
+    ln: '9.46'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 2
+  text: ἔγραψα
+  lemma: γράφω
+  normalized: ἔγραψα
+  ids:
+    ref: 1JN 2:14!1
+    wordID: n62002014001
+  translation:
+    gloss: I have written
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.61'
+  syntax:
+    role: v
+    frame: A0:n62002001002 A2:n62002014002
+  discourse:
+    subject: n62002001002
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1JN 2:14!2
+    wordID: n62002014002
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: io
+  discourse:
+    referent: n62002014003
+- position: 4
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: 1JN 2:14!4
+    wordID: n62002014004
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+- position: 5
+  text: ἐγνώκατε
+  lemma: γινώσκω
+  normalized: ἐγνώκατε
+  ids:
+    ref: 1JN 2:14!5
+    wordID: n62002014005
+  translation:
+    gloss: you know
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.18'
+  syntax:
+    role: v
+    frame: A0:n62002014003 A1:n62002014007
+  discourse:
+    subject: n62002014003
+- position: 6
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: 1JN 2:14!6
+    wordID: n62002014006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: Πατέρα
+  lemma: πατήρ
+  normalized: Πατέρα
+  ids:
+    ref: 1JN 2:14!7
+    wordID: n62002014007
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'

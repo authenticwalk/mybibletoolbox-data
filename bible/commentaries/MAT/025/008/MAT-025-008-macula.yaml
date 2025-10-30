@@ -1,282 +1,371 @@
-verse:
-  reference: MAT 25:8
-  book_code: MAT
-  chapter: 25
-  verse: 8
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: αἱ δὲ μωραὶ ταῖς φρονίμοις εἶπαν Δότε ἡμῖν ἐκ τοῦ ἐλαίου ὑμῶν, ὅτι αἱ λαμπάδες
-    ἡμῶν σβέννυνται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:8
+text: αἱ δὲ μωραὶ ταῖς φρονίμοις εἶπαν Δότε ἡμῖν ἐκ τοῦ ἐλαίου ὑμῶν, ὅτι αἱ λαμπάδες
+  ἡμῶν σβέννυνται.
 words:
 - position: 1
-  ref: MAT 25:8!2
-  xml_id: n40025008002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 25:8!2
+    wordID: n40025008002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 25:8!1
-  xml_id: n40025008001
-  unicode: αἱ
+  text: αἱ
   lemma: ὁ
   normalized: αἱ
-  class: det
-  morph: T-NPF
-  gloss: '-'
-  gender: feminine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:8!1
+    wordID: n40025008001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 25:8!3
-  xml_id: n40025008003
-  unicode: μωραὶ
+  text: μωραὶ
   lemma: μωρός
   normalized: μωραί
-  class: adj
-  morph: A-NPF
-  gloss: the foolish
-  gender: feminine
-  number: plural
-  case: nominative
-  strong: '3474'
-  domain: '032005'
-  ln: '32.55'
+  ids:
+    ref: MAT 25:8!3
+    wordID: n40025008003
+  translation:
+    gloss: the foolish
+  morphology:
+    class: adj
+    morph: A-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3474'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.55'
 - position: 4
-  ref: MAT 25:8!4
-  xml_id: n40025008004
-  unicode: ταῖς
+  text: ταῖς
   lemma: ὁ
   normalized: ταῖς
-  class: det
-  morph: T-DPF
-  gloss: to the
-  gender: feminine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:8!4
+    wordID: n40025008004
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 25:8!5
-  xml_id: n40025008005
-  unicode: φρονίμοις
+  text: φρονίμοις
   lemma: φρόνιμος
   normalized: φρονίμοις
-  class: adj
-  morph: A-DPF
-  gloss: wise
-  gender: feminine
-  number: plural
-  case: dative
-  strong: '5429'
-  domain: '032004'
-  ln: '32.31'
+  ids:
+    ref: MAT 25:8!5
+    wordID: n40025008005
+  translation:
+    gloss: wise
+  morphology:
+    class: adj
+    morph: A-DPF
+    gender: feminine
+    number: plural
+    case: dative
+  lexical:
+    strong: '5429'
+  semantic:
+    semanticDomain: '032004'
+    ln: '32.31'
 - position: 6
-  ref: MAT 25:8!6
-  xml_id: n40025008006
-  unicode: εἶπαν
+  text: εἶπαν
   lemma: λέγω
   normalized: εἶπαν
-  class: verb
-  morph: V-2AAI-3P
-  gloss: said
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:8!6
+    wordID: n40025008006
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025008003 A2:n40025008005
 - position: 7
-  ref: MAT 25:8!7
-  xml_id: n40025008007
-  unicode: Δότε
+  text: Δότε
   lemma: δίδωμι
   normalized: Δότε
-  class: verb
-  morph: V-2AAM-2P
-  gloss: Give
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 25:8!7
+    wordID: n40025008007
+  translation:
+    gloss: Give
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n40025008005 A1:n00000000000 A2:n40025008008
+  discourse:
+    subject: n40025008005
 - position: 8
-  ref: MAT 25:8!8
-  xml_id: n40025008008
-  unicode: ἡμῖν
+  text: ἡμῖν
   lemma: ἐγώ
   normalized: ἡμῖν
-  class: pron
-  morph: P-1DP
-  gloss: us
-  number: plural
-  case: dative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
-  role: io
+  ids:
+    ref: MAT 25:8!8
+    wordID: n40025008008
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025008003
 - position: 9
-  ref: MAT 25:8!9
-  xml_id: n40025008009
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: of
-  strong: '1537'
-  domain: 090003
-  ln: '90.16'
+  ids:
+    ref: MAT 25:8!9
+    wordID: n40025008009
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.16'
 - position: 10
-  ref: MAT 25:8!10
-  xml_id: n40025008010
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:8!10
+    wordID: n40025008010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 25:8!11
-  xml_id: n40025008011
-  unicode: ἐλαίου
+  text: ἐλαίου
   lemma: ἔλαιον
   normalized: ἐλαίου
-  class: noun
-  morph: N-GSN
-  gloss: oil
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '1637'
-  domain: 006019
-  ln: '6.202'
+  ids:
+    ref: MAT 25:8!11
+    wordID: n40025008011
+  translation:
+    gloss: oil
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1637'
+  semantic:
+    semanticDomain: 006019
+    ln: '6.202'
 - position: 12
-  ref: MAT 25:8!12
-  xml_id: n40025008012
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 25:8!12
+    wordID: n40025008012
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40025008005
 - position: 13
-  ref: MAT 25:8!13
-  xml_id: n40025008013
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 25:8!13
+    wordID: n40025008013
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 14
-  ref: MAT 25:8!14
-  xml_id: n40025008014
-  unicode: αἱ
+  text: αἱ
   lemma: ὁ
   normalized: αἱ
-  class: det
-  morph: T-NPF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:8!14
+    wordID: n40025008014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 25:8!15
-  xml_id: n40025008015
-  unicode: λαμπάδες
+  text: λαμπάδες
   lemma: λαμπάς
   normalized: λαμπάδες
-  class: noun
-  morph: N-NPF
-  gloss: lamps
-  gender: feminine
-  number: plural
-  case: nominative
-  strong: '2985'
-  domain: '006014'
-  ln: '6.104'
+  ids:
+    ref: MAT 25:8!15
+    wordID: n40025008015
+  translation:
+    gloss: lamps
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '2985'
+  semantic:
+    semanticDomain: '006014'
+    ln: '6.104'
 - position: 16
-  ref: MAT 25:8!16
-  xml_id: n40025008016
-  unicode: ἡμῶν
+  text: ἡμῶν
   lemma: ἐγώ
   normalized: ἡμῶν
-  class: pron
-  morph: P-1GP
-  gloss: of us
-  number: plural
-  case: genitive
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
+  ids:
+    ref: MAT 25:8!16
+    wordID: n40025008016
+  translation:
+    gloss: of us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n40025008003
 - position: 17
-  ref: MAT 25:8!17
-  xml_id: n40025008017
-  unicode: σβέννυνται
+  text: σβέννυνται
   lemma: σβέννυμι
   normalized: σβέννυνται
-  class: verb
-  morph: V-PPI-3P
-  gloss: are going out
-  number: plural
-  person: third
-  tense: present
-  voice: passive
-  mood: indicative
-  strong: '4570'
-  domain: 014008
-  ln: 14.69 14.70
-  role: v
-syntax:
-  word_order: S-V
+  ids:
+    ref: MAT 25:8!17
+    wordID: n40025008017
+  translation:
+    gloss: are going out
+  morphology:
+    class: verb
+    morph: V-PPI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4570'
+  semantic:
+    semanticDomain: 014008
+    ln: 14.69 14.70
+  syntax:
+    role: v
+    frame: A1:n40025008015

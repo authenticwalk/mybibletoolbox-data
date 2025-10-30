@@ -1,367 +1,487 @@
-verse:
-  reference: MAT 16:9
-  book_code: MAT
-  chapter: 16
-  verse: 9
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 16:10 οὔπω νοεῖτε, οὐδὲ μνημονεύετε τοὺς πέντε ἄρτους τῶν πεντακισχιλίων
-    καὶ πόσους κοφίνους ἐλάβετε; οὐδὲ τοὺς ἑπτὰ ἄρτους τῶν τετρακισχιλίων καὶ πόσας
-    σπυρίδας ἐλάβετε;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 16:9
+text: MAT 16:10 οὔπω νοεῖτε, οὐδὲ μνημονεύετε τοὺς πέντε ἄρτους τῶν πεντακισχιλίων
+  καὶ πόσους κοφίνους ἐλάβετε; οὐδὲ τοὺς ἑπτὰ ἄρτους τῶν τετρακισχιλίων καὶ πόσας
+  σπυρίδας ἐλάβετε;
 words:
 - position: 1
-  ref: MAT 16:9!1
-  xml_id: n40016009001
-  unicode: οὔπω
+  text: οὔπω
   lemma: οὔπω
   normalized: οὔπω
-  class: adv
-  morph: ADV-N
-  gloss: Not yet
-  strong: '3768'
-  domain: '067006'
-  ln: '67.129'
-  role: adv
+  ids:
+    ref: MAT 16:9!1
+    wordID: n40016009001
+  translation:
+    gloss: Not yet
+  morphology:
+    class: adv
+    morph: ADV-N
+  lexical:
+    strong: '3768'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.129'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 16:9!2
-  xml_id: n40016009002
-  unicode: νοεῖτε
+  text: νοεῖτε
   lemma: νοέω
   normalized: νοεῖτε
-  class: verb
-  morph: V-PAI-2P
-  gloss: do you understand
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3539'
-  domain: '032001'
-  ln: '32.2'
-  role: v
+  ids:
+    ref: MAT 16:9!2
+    wordID: n40016009002
+  translation:
+    gloss: do you understand
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3539'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.2'
+  syntax:
+    role: v
+    frame: A0:n40016008010
+  discourse:
+    subject: n40016008010
 - position: 3
-  ref: MAT 16:9!3
-  xml_id: n40016009003
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 16:9!3
+    wordID: n40016009003
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 4
-  ref: MAT 16:9!4
-  xml_id: n40016009004
-  unicode: μνημονεύετε
+  text: μνημονεύετε
   lemma: μνημονεύω
   normalized: μνημονεύετε
-  class: verb
-  morph: V-PAI-2P
-  gloss: remember
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3421'
-  domain: 029002
-  ln: '29.7'
-  role: v
+  ids:
+    ref: MAT 16:9!4
+    wordID: n40016009004
+  translation:
+    gloss: remember
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3421'
+  semantic:
+    semanticDomain: 029002
+    ln: '29.7'
+  syntax:
+    role: v
+    frame: A0:n40016008010 A1:n40016009007
+  discourse:
+    subject: n40016008010
 - position: 5
-  ref: MAT 16:9!5
-  xml_id: n40016009005
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 16:9!5
+    wordID: n40016009005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 16:9!6
-  xml_id: n40016009006
-  unicode: πέντε
+  text: πέντε
   lemma: πέντε
   normalized: πέντε
-  class: num
-  morph: A-NUI
-  gloss: five
-  strong: '4002'
-  domain: '060002'
-  ln: '60.14'
+  ids:
+    ref: MAT 16:9!6
+    wordID: n40016009006
+  translation:
+    gloss: five
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '4002'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.14'
 - position: 7
-  ref: MAT 16:9!7
-  xml_id: n40016009007
-  unicode: ἄρτους
+  text: ἄρτους
   lemma: ἄρτος
   normalized: ἄρτους
-  class: noun
-  morph: N-APM
-  gloss: loaves
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '740'
-  domain: '005001'
-  ln: '5.8'
+  ids:
+    ref: MAT 16:9!7
+    wordID: n40016009007
+  translation:
+    gloss: loaves
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
 - position: 8
-  ref: MAT 16:9!8
-  xml_id: n40016009008
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: for the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 16:9!8
+    wordID: n40016009008
+  translation:
+    gloss: for the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 16:9!9
-  xml_id: n40016009009
-  unicode: πεντακισχιλίων
+  text: πεντακισχιλίων
   lemma: πεντακισχίλιοι
   normalized: πεντακισχιλίων
-  class: adj
-  morph: A-GPM
-  gloss: five thousand
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '4000'
-  domain: '060002'
-  ln: '60.43'
+  ids:
+    ref: MAT 16:9!9
+    wordID: n40016009009
+  translation:
+    gloss: five thousand
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '4000'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.43'
 - position: 10
-  ref: MAT 16:9!10
-  xml_id: n40016009010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 16:9!10
+    wordID: n40016009010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 11
-  ref: MAT 16:9!11
-  xml_id: n40016009011
-  unicode: πόσους
+  text: πόσους
   lemma: πόσος
   normalized: πόσους
-  class: pron
-  morph: Q-APM
-  gloss: how many
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '4214'
-  domain: 059001
-  ln: '59.5'
+  ids:
+    ref: MAT 16:9!11
+    wordID: n40016009011
+  translation:
+    gloss: how many
+  morphology:
+    class: pron
+    morph: Q-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '4214'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.5'
 - position: 12
-  ref: MAT 16:9!12
-  xml_id: n40016009012
-  unicode: κοφίνους
+  text: κοφίνους
   lemma: κόφινος
   normalized: κοφίνους
-  class: noun
-  morph: N-APM
-  gloss: hand-baskets
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '2894'
-  domain: '006016'
-  ln: '6.150'
+  ids:
+    ref: MAT 16:9!12
+    wordID: n40016009012
+  translation:
+    gloss: hand-baskets
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2894'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.150'
 - position: 13
-  ref: MAT 16:9!13
-  xml_id: n40016009013
-  unicode: ἐλάβετε
+  text: ἐλάβετε
   lemma: λαμβάνω
   normalized: ἐλάβετε
-  class: verb
-  morph: V-2AAI-2P
-  gloss: you gathered
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2983'
-  domain: '057007'
-  ln: '57.55'
-  role: v
+  ids:
+    ref: MAT 16:9!13
+    wordID: n40016009013
+  translation:
+    gloss: you gathered
+  morphology:
+    class: verb
+    morph: V-2AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.55'
+  syntax:
+    role: v
+    frame: A0:n40016008010 A1:n40016009012
+  discourse:
+    subject: n40016008010
 - position: 14
-  ref: MAT 16:10!1
-  xml_id: n40016010001
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: Nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 16:10!1
+    wordID: n40016010001
+  translation:
+    gloss: Nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 15
-  ref: MAT 16:10!2
-  xml_id: n40016010002
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 16:10!2
+    wordID: n40016010002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 16:10!3
-  xml_id: n40016010003
-  unicode: ἑπτὰ
+  text: ἑπτὰ
   lemma: ἑπτά
   normalized: ἑπτά
-  class: num
-  morph: A-NUI
-  gloss: seven
-  strong: '2033'
-  domain: '060002'
-  ln: '60.16'
+  ids:
+    ref: MAT 16:10!3
+    wordID: n40016010003
+  translation:
+    gloss: seven
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '2033'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.16'
 - position: 17
-  ref: MAT 16:10!4
-  xml_id: n40016010004
-  unicode: ἄρτους
+  text: ἄρτους
   lemma: ἄρτος
   normalized: ἄρτους
-  class: noun
-  morph: N-APM
-  gloss: loaves
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '740'
-  domain: '005001'
-  ln: '5.8'
+  ids:
+    ref: MAT 16:10!4
+    wordID: n40016010004
+  translation:
+    gloss: loaves
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
 - position: 18
-  ref: MAT 16:10!5
-  xml_id: n40016010005
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: for the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 16:10!5
+    wordID: n40016010005
+  translation:
+    gloss: for the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 16:10!6
-  xml_id: n40016010006
-  unicode: τετρακισχιλίων
+  text: τετρακισχιλίων
   lemma: τετρακισχίλιοι
   normalized: τετρακισχιλίων
-  class: adj
-  morph: A-GPM
-  gloss: four thousand
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '5070'
-  domain: '060002'
-  ln: '60.42'
+  ids:
+    ref: MAT 16:10!6
+    wordID: n40016010006
+  translation:
+    gloss: four thousand
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '5070'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.42'
 - position: 20
-  ref: MAT 16:10!7
-  xml_id: n40016010007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 16:10!7
+    wordID: n40016010007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 21
-  ref: MAT 16:10!8
-  xml_id: n40016010008
-  unicode: πόσας
+  text: πόσας
   lemma: πόσος
   normalized: πόσας
-  class: pron
-  morph: Q-APF
-  gloss: how many
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '4214'
-  domain: 059001
-  ln: '59.5'
+  ids:
+    ref: MAT 16:10!8
+    wordID: n40016010008
+  translation:
+    gloss: how many
+  morphology:
+    class: pron
+    morph: Q-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '4214'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.5'
 - position: 22
-  ref: MAT 16:10!9
-  xml_id: n40016010009
-  unicode: σπυρίδας
+  text: σπυρίδας
   lemma: σπυρίς
   normalized: σπυρίδας
-  class: noun
-  morph: N-APF
-  gloss: baskets
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '4711'
-  domain: '006016'
-  ln: '6.149'
+  ids:
+    ref: MAT 16:10!9
+    wordID: n40016010009
+  translation:
+    gloss: baskets
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4711'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.149'
 - position: 23
-  ref: MAT 16:10!10
-  xml_id: n40016010010
-  unicode: ἐλάβετε
+  text: ἐλάβετε
   lemma: λαμβάνω
   normalized: ἐλάβετε
-  class: verb
-  morph: V-2AAI-2P
-  gloss: you gathered
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2983'
-  domain: '057007'
-  ln: '57.55'
-  role: v
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 16:10!10
+    wordID: n40016010010
+  translation:
+    gloss: you gathered
+  morphology:
+    class: verb
+    morph: V-2AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.55'
+  syntax:
+    role: v
+    frame: A0:n40016008010 A1:n40016010009
+  discourse:
+    subject: n40016008010

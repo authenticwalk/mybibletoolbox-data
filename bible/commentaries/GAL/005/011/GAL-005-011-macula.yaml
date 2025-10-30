@@ -1,0 +1,222 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 5:11
+text: Ἐγὼ δέ, ἀδελφοί, εἰ περιτομὴν ἔτι κηρύσσω, τί ἔτι διώκομαι;
+words:
+- position: 1
+  text: δέ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: GAL 5:11!2
+    wordID: n48005011002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: GAL 5:11!3
+    wordID: n48005011003
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+- position: 3
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: GAL 5:11!4
+    wordID: n48005011004
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: Ἐγὼ
+  lemma: ἐγώ
+  normalized: Ἐγώ
+  ids:
+    ref: GAL 5:11!1
+    wordID: n48005011001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n48005002003
+- position: 5
+  text: περιτομὴν
+  lemma: περιτομή
+  normalized: περιτομήν
+  ids:
+    ref: GAL 5:11!5
+    wordID: n48005011005
+  translation:
+    gloss: circumcision
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4061'
+  semantic:
+    semanticDomain: '053006'
+    ln: '53.51'
+  syntax:
+    role: o
+- position: 6
+  text: ἔτι
+  lemma: ἔτι
+  normalized: ἔτι
+  ids:
+    ref: GAL 5:11!6
+    wordID: n48005011006
+  translation:
+    gloss: still
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2089'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.128'
+  syntax:
+    role: adv
+- position: 7
+  text: κηρύσσω
+  lemma: κηρύσσω
+  normalized: κηρύσσω
+  ids:
+    ref: GAL 5:11!7
+    wordID: n48005011007
+  translation:
+    gloss: proclaim
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2784'
+  semantic:
+    semanticDomain: 033019
+    ln: '33.256'
+  syntax:
+    role: v
+    frame: A0:n48005011001 A1:n48005011005
+- position: 8
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: GAL 5:11!8
+    wordID: n48005011008
+  translation:
+    gloss: why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.15'
+  syntax:
+    role: adv
+- position: 9
+  text: ἔτι
+  lemma: ἔτι
+  normalized: ἔτι
+  ids:
+    ref: GAL 5:11!9
+    wordID: n48005011009
+  translation:
+    gloss: still
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2089'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.128'
+  syntax:
+    role: adv
+- position: 10
+  text: διώκομαι
+  lemma: διώκω
+  normalized: διώκομαι
+  ids:
+    ref: GAL 5:11!10
+    wordID: n48005011010
+  translation:
+    gloss: am I persecuted
+  morphology:
+    class: verb
+    morph: V-PPI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1377'
+  semantic:
+    semanticDomain: 039009
+    ln: '39.45'
+  syntax:
+    role: v
+    frame: A1:n48005002003
+  discourse:
+    subject: n48005002003

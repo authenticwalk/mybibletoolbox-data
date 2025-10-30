@@ -1,0 +1,276 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 11:7
+text: Τί οὖν; ὃ ἐπιζητεῖ Ἰσραήλ, τοῦτο οὐκ ἐπέτυχεν, ἡ δὲ ἐκλογὴ ἐπέτυχεν·
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: ROM 11:7!2
+    wordID: n45011007002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: ROM 11:7!1
+    wordID: n45011007001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 3
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: ROM 11:7!3
+    wordID: n45011007003
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 4
+  text: ἐπιζητεῖ
+  lemma: ἐπιζητέω
+  normalized: ἐπιζητεῖ
+  ids:
+    ref: ROM 11:7!4
+    wordID: n45011007004
+  translation:
+    gloss: is seeking
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1934'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.9'
+  syntax:
+    role: v
+    frame: A1:n45011007003 A0:n45011007005
+- position: 5
+  text: Ἰσραήλ
+  lemma: Ἰσραήλ
+  normalized: Ἰσραήλ
+  ids:
+    ref: ROM 11:7!5
+    wordID: n45011007005
+  translation:
+    gloss: Israel
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2474'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.182b
+  syntax:
+    role: s
+- position: 6
+  text: τοῦτο
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: ROM 11:7!6
+    wordID: n45011007006
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+  discourse:
+    referent: n45011007004
+- position: 7
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: ROM 11:7!7
+    wordID: n45011007007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: ἐπέτυχεν
+  lemma: ἐπιτυγχάνω
+  normalized: ἐπέτυχεν
+  ids:
+    ref: ROM 11:7!8
+    wordID: n45011007008
+  translation:
+    gloss: it has obtained
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2013'
+  semantic:
+    semanticDomain: 057007 090013
+    ln: 57.60 90.61
+  syntax:
+    role: v
+    frame: A0:n45011007005 A1:n45011007006
+  discourse:
+    subject: n45011007005
+- position: 9
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ROM 11:7!10
+    wordID: n45011007010
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 10
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: ROM 11:7!9
+    wordID: n45011007009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: ἐκλογὴ
+  lemma: ἐκλογή
+  normalized: ἐκλογή
+  ids:
+    ref: ROM 11:7!11
+    wordID: n45011007011
+  translation:
+    gloss: the elect
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1589'
+  semantic:
+    semanticDomain: '030006'
+    ln: '30.93'
+- position: 12
+  text: ἐπέτυχεν
+  lemma: ἐπιτυγχάνω
+  normalized: ἐπέτυχεν
+  ids:
+    ref: ROM 11:7!12
+    wordID: n45011007012
+  translation:
+    gloss: obtained [it]
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2013'
+  semantic:
+    semanticDomain: 057007 090013
+    ln: 57.60 90.61
+  syntax:
+    role: v
+    frame: A0:n45011007011

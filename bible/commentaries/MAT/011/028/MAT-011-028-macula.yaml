@@ -1,197 +1,255 @@
-verse:
-  reference: MAT 11:28
-  book_code: MAT
-  chapter: 11
-  verse: 28
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Δεῦτε πρός με πάντες οἱ κοπιῶντες καὶ πεφορτισμένοι, κἀγὼ ἀναπαύσω ὑμᾶς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 11:28
+text: Δεῦτε πρός με πάντες οἱ κοπιῶντες καὶ πεφορτισμένοι, κἀγὼ ἀναπαύσω ὑμᾶς.
 words:
 - position: 1
-  ref: MAT 11:28!1
-  xml_id: n40011028001
-  unicode: Δεῦτε
+  text: Δεῦτε
   lemma: δεῦτε
   normalized: Δεῦτε
-  class: verb
-  morph: V-PAM-2P
-  gloss: Come
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '1205'
-  domain: 084002
-  ln: '84.24'
-  role: v
+  ids:
+    ref: MAT 11:28!1
+    wordID: n40011028001
+  translation:
+    gloss: Come
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1205'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.24'
+  syntax:
+    role: v
+    frame: A0:n40011028006;n40011028008
+  discourse:
+    subject: n40011028006 n40011028008
 - position: 2
-  ref: MAT 11:28!2
-  xml_id: n40011028002
-  unicode: πρός
+  text: πρός
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '4314'
-  domain: 084002
-  ln: '84.18'
+  ids:
+    ref: MAT 11:28!2
+    wordID: n40011028002
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
 - position: 3
-  ref: MAT 11:28!3
-  xml_id: n40011028003
-  unicode: με
+  text: με
   lemma: ἐγώ
   normalized: με
-  class: pron
-  morph: P-1AS
-  gloss: Me
-  number: singular
-  case: accusative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 11:28!3
+    wordID: n40011028003
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40011025007
 - position: 4
-  ref: MAT 11:28!4
-  xml_id: n40011028004
-  unicode: πάντες
+  text: πάντες
   lemma: πᾶς
   normalized: πάντες
-  class: adj
-  morph: A-NPM
-  gloss: all
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 11:28!4
+    wordID: n40011028004
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 5
-  ref: MAT 11:28!5
-  xml_id: n40011028005
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:28!5
+    wordID: n40011028005
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 11:28!6
-  xml_id: n40011028006
-  unicode: κοπιῶντες
+  text: κοπιῶντες
   lemma: κοπιάω
   normalized: κοπιῶντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: toiling
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2872'
-  domain: '023006'
-  ln: '23.78'
-  role: v
+  ids:
+    ref: MAT 11:28!6
+    wordID: n40011028006
+  translation:
+    gloss: toiling
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2872'
+  semantic:
+    semanticDomain: '023006'
+    ln: '23.78'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 7
-  ref: MAT 11:28!7
-  xml_id: n40011028007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 11:28!7
+    wordID: n40011028007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 8
-  ref: MAT 11:28!8
-  xml_id: n40011028008
-  unicode: πεφορτισμένοι
+  text: πεφορτισμένοι
   lemma: φορτίζω
   normalized: πεφορτισμένοι
-  class: verb
-  morph: V-RPP-NPM
-  gloss: being burdened
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '5412'
-  domain: '015024'
-  ln: '15.207'
-  role: v
+  ids:
+    ref: MAT 11:28!8
+    wordID: n40011028008
+  translation:
+    gloss: being burdened
+  morphology:
+    class: verb
+    morph: V-RPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '5412'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.207'
+  syntax:
+    role: v
+    frame: A1:n00000000000
 - position: 9
-  ref: MAT 11:28!9
-  xml_id: n40011028009
-  unicode: κἀγὼ
+  text: κἀγὼ
   lemma: κἀγώ
   normalized: κἀγώ
-  class: pron
-  morph: P-1NS-K
-  gloss: and I
-  number: singular
-  case: nominative
-  strong: '2504'
-  domain: 092001
-  ln: '92.1'
-  role: s
+  ids:
+    ref: MAT 11:28!9
+    wordID: n40011028009
+  translation:
+    gloss: and I
+  morphology:
+    class: pron
+    morph: P-1NS-K
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '2504'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40011025007
 - position: 10
-  ref: MAT 11:28!10
-  xml_id: n40011028010
-  unicode: ἀναπαύσω
+  text: ἀναπαύσω
   lemma: ἀναπαύω
   normalized: ἀναπαύσω
-  class: verb
-  morph: V-FAI-1S
-  gloss: will give rest
-  number: singular
-  person: first
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '373'
-  domain: '023006'
-  ln: '23.84'
-  role: v
+  ids:
+    ref: MAT 11:28!10
+    wordID: n40011028010
+  translation:
+    gloss: will give rest
+  morphology:
+    class: verb
+    morph: V-FAI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '373'
+  semantic:
+    semanticDomain: '023006'
+    ln: '23.84'
+  syntax:
+    role: v
+    frame: A0:n40011028009 A1:n40011028011
 - position: 11
-  ref: MAT 11:28!11
-  xml_id: n40011028011
-  unicode: ὑμᾶς
+  text: ὑμᾶς
   lemma: σύ
   normalized: ὑμᾶς
-  class: pron
-  morph: P-2AP
-  gloss: to you
-  number: plural
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: o
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 11:28!11
+    wordID: n40011028011
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n40011028006 n40011028008

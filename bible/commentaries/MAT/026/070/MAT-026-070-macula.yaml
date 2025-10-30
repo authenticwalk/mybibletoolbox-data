@@ -1,182 +1,236 @@
-verse:
-  reference: MAT 26:70
-  book_code: MAT
-  chapter: 26
-  verse: 70
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ ἠρνήσατο ἔμπροσθεν πάντων λέγων Οὐκ οἶδα τί λέγεις.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:70
+text: ὁ δὲ ἠρνήσατο ἔμπροσθεν πάντων λέγων Οὐκ οἶδα τί λέγεις.
 words:
 - position: 1
-  ref: MAT 26:70!2
-  xml_id: n40026070002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 26:70!2
+    wordID: n40026070002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 26:70!1
-  xml_id: n40026070001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 26:70!1
+    wordID: n40026070001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026069003
 - position: 3
-  ref: MAT 26:70!3
-  xml_id: n40026070003
-  unicode: ἠρνήσατο
+  text: ἠρνήσατο
   lemma: ἀρνέομαι
   normalized: ἠρνήσατο
-  class: verb
-  morph: V-ADI-3S
-  gloss: he denied
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '720'
-  domain: '033022'
-  ln: '33.277'
-  role: v
+  ids:
+    ref: MAT 26:70!3
+    wordID: n40026070003
+  translation:
+    gloss: he denied
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '720'
+  semantic:
+    semanticDomain: '033022'
+    ln: '33.277'
+  syntax:
+    role: v
+    frame: A0:n40026070001
 - position: 4
-  ref: MAT 26:70!4
-  xml_id: n40026070004
-  unicode: ἔμπροσθεν
+  text: ἔμπροσθεν
   lemma: ἔμπροσθεν
   normalized: ἔμπροσθεν
-  class: prep
-  morph: PREP
-  gloss: before
-  strong: '1715'
-  domain: 083006
-  ln: '83.33'
+  ids:
+    ref: MAT 26:70!4
+    wordID: n40026070004
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1715'
+  semantic:
+    semanticDomain: 083006
+    ln: '83.33'
 - position: 5
-  ref: MAT 26:70!5
-  xml_id: n40026070005
-  unicode: πάντων
+  text: πάντων
   lemma: πᾶς
   normalized: πάντων
-  class: adj
-  morph: A-GPM
-  gloss: all
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 26:70!5
+    wordID: n40026070005
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 6
-  ref: MAT 26:70!6
-  xml_id: n40026070006
-  unicode: λέγων
+  text: λέγων
   lemma: λέγω
   normalized: λέγων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: saying
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:70!6
+    wordID: n40026070006
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026069003
+  discourse:
+    subject: n40026069003
 - position: 7
-  ref: MAT 26:70!7
-  xml_id: n40026070007
-  unicode: Οὐκ
+  text: Οὐκ
   lemma: οὐ
   normalized: Οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: Not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 26:70!7
+    wordID: n40026070007
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 8
-  ref: MAT 26:70!8
-  xml_id: n40026070008
-  unicode: οἶδα
+  text: οἶδα
   lemma: οἶδα
   normalized: οἶδα
-  class: verb
-  morph: V-RAI-1S
-  gloss: I know
-  number: singular
-  person: first
-  tense: perfect
-  voice: active
-  mood: indicative
-  strong: '1492'
-  domain: '032001'
-  ln: '32.4'
-  role: v
+  ids:
+    ref: MAT 26:70!8
+    wordID: n40026070008
+  translation:
+    gloss: I know
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.4'
+  syntax:
+    role: v
+    frame: A0:n40026069003 A1:n40026070010
+  discourse:
+    subject: n40026069003
 - position: 9
-  ref: MAT 26:70!9
-  xml_id: n40026070009
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: what
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: o
+  ids:
+    ref: MAT 26:70!9
+    wordID: n40026070009
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 26:70!10
-  xml_id: n40026070010
-  unicode: λέγεις
+  text: λέγεις
   lemma: λέγω
   normalized: λέγεις
-  class: verb
-  morph: V-PAI-2S
-  gloss: you say
-  number: singular
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
-syntax:
-  word_order: S-V-ADV-ADV
+  ids:
+    ref: MAT 26:70!10
+    wordID: n40026070010
+  translation:
+    gloss: you say
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026069013 A1:n40026070009
+  discourse:
+    subject: n40026069013

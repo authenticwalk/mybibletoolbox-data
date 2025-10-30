@@ -1,260 +1,355 @@
-verse:
-  reference: MAT 23:3
-  book_code: MAT
-  chapter: 23
-  verse: 3
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν ποιήσατε καὶ τηρεῖτε, κατὰ δὲ τὰ ἔργα αὐτῶν
-    μὴ ποιεῖτε·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 23:3
+text: πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν ποιήσατε καὶ τηρεῖτε, κατὰ δὲ τὰ ἔργα αὐτῶν μὴ
+  ποιεῖτε·
 words:
 - position: 1
-  ref: MAT 23:3!2
-  xml_id: n40023003002
-  unicode: οὖν
+  text: οὖν
   lemma: οὖν
   normalized: οὖν
-  class: conj
-  morph: CONJ
-  gloss: therefore
-  strong: '3767'
-  domain: 089008
-  ln: '89.50'
+  ids:
+    ref: MAT 23:3!2
+    wordID: n40023003002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 23:3!1
-  xml_id: n40023003001
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: All things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 23:3!1
+    wordID: n40023003001
+  translation:
+    gloss: All things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 3
-  ref: MAT 23:3!4
-  xml_id: n40023003004
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: ptcl
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 23:3!4
+    wordID: n40023003004
+  translation:
+    gloss: if
+  morphology:
+    class: ptcl
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
 - position: 4
-  ref: MAT 23:3!3
-  xml_id: n40023003003
-  unicode: ὅσα
+  text: ὅσα
   lemma: ὅσος
   normalized: ὅσα
-  class: pron
-  morph: K-APN
-  gloss: how many
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3745'
-  domain: 059001
-  ln: '59.7'
-  role: o
+  ids:
+    ref: MAT 23:3!3
+    wordID: n40023003003
+  translation:
+    gloss: how many
+  morphology:
+    class: pron
+    morph: K-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3745'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.7'
+  syntax:
+    role: o
 - position: 5
-  ref: MAT 23:3!5
-  xml_id: n40023003005
-  unicode: εἴπωσιν
+  text: εἴπωσιν
   lemma: λέγω
   normalized: εἴπωσιν
-  class: verb
-  morph: V-2AAS-3P
-  gloss: they might tell
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 23:3!5
+    wordID: n40023003005
+  translation:
+    gloss: they might tell
+  morphology:
+    class: verb
+    morph: V-2AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40023002008;n40023002011 A1:n40023003003 A2:n40023003006
+  discourse:
+    subject: n40023002008 n40023002011
 - position: 6
-  ref: MAT 23:3!6
-  xml_id: n40023003006
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 23:3!6
+    wordID: n40023003006
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40023001006 n40023001009
 - position: 7
-  ref: MAT 23:3!7
-  xml_id: n40023003007
-  unicode: ποιήσατε
+  text: ποιήσατε
   lemma: ποιέω
   normalized: ποιήσατε
-  class: verb
-  morph: V-AAM-2P
-  gloss: keep
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '4160'
-  domain: '042002'
-  ln: '42.7'
+  ids:
+    ref: MAT 23:3!7
+    wordID: n40023003007
+  translation:
+    gloss: keep
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    frame: A0:n40023001006;n40023001009 A1:n40023003005
+  discourse:
+    subject: n40023001006 n40023001009
 - position: 8
-  ref: MAT 23:3!8
-  xml_id: n40023003008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 23:3!8
+    wordID: n40023003008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 23:3!9
-  xml_id: n40023003009
-  unicode: τηρεῖτε
+  text: τηρεῖτε
   lemma: τηρέω
   normalized: τηρεῖτε
-  class: verb
-  morph: V-PAM-2P
-  gloss: observe
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '5083'
-  domain: '036003'
-  ln: '36.19'
+  ids:
+    ref: MAT 23:3!9
+    wordID: n40023003009
+  translation:
+    gloss: observe
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5083'
+  semantic:
+    semanticDomain: '036003'
+    ln: '36.19'
+  syntax:
+    frame: A0:n40023001006;n40023001009 A1:n40023003005
+  discourse:
+    subject: n40023001006 n40023001009
 - position: 10
-  ref: MAT 23:3!11
-  xml_id: n40023003011
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 23:3!11
+    wordID: n40023003011
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 23:3!10
-  xml_id: n40023003010
-  unicode: κατὰ
+  text: κατὰ
   lemma: κατά
   normalized: κατά
-  class: prep
-  morph: PREP
-  gloss: After
-  strong: '2596'
-  domain: 089005
-  ln: '89.8'
+  ids:
+    ref: MAT 23:3!10
+    wordID: n40023003010
+  translation:
+    gloss: After
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '2596'
+  semantic:
+    semanticDomain: 089005
+    ln: '89.8'
 - position: 12
-  ref: MAT 23:3!12
-  xml_id: n40023003012
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:3!12
+    wordID: n40023003012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 23:3!13
-  xml_id: n40023003013
-  unicode: ἔργα
+  text: ἔργα
   lemma: ἔργον
   normalized: ἔργα
-  class: noun
-  morph: N-APN
-  gloss: works
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '2041'
-  domain: '042002'
-  ln: '42.11'
+  ids:
+    ref: MAT 23:3!13
+    wordID: n40023003013
+  translation:
+    gloss: works
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2041'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.11'
 - position: 14
-  ref: MAT 23:3!14
-  xml_id: n40023003014
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 23:3!14
+    wordID: n40023003014
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40023002008 n40023002011
 - position: 15
-  ref: MAT 23:3!15
-  xml_id: n40023003015
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 23:3!15
+    wordID: n40023003015
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 16
-  ref: MAT 23:3!16
-  xml_id: n40023003016
-  unicode: ποιεῖτε
+  text: ποιεῖτε
   lemma: ποιέω
   normalized: ποιεῖτε
-  class: verb
-  morph: V-PAM-2P
-  gloss: do
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '4160'
-  domain: '042002'
-  ln: '42.7'
-  role: v
-syntax:
-  word_order: O-V
+  ids:
+    ref: MAT 23:3!16
+    wordID: n40023003016
+  translation:
+    gloss: do
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n40023001006;n40023001009
+  discourse:
+    subject: n40023001006 n40023001009

@@ -1,262 +1,344 @@
-verse:
-  reference: MAT 24:44
-  book_code: MAT
-  chapter: 24
-  verse: 44
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: διὰ τοῦτο καὶ ὑμεῖς γίνεσθε ἕτοιμοι, ὅτι ᾗ οὐ δοκεῖτε ὥρᾳ ὁ Υἱὸς τοῦ ἀνθρώπου
-    ἔρχεται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:44
+text: διὰ τοῦτο καὶ ὑμεῖς γίνεσθε ἕτοιμοι, ὅτι ᾗ οὐ δοκεῖτε ὥρᾳ ὁ Υἱὸς τοῦ ἀνθρώπου
+  ἔρχεται.
 words:
 - position: 1
-  ref: MAT 24:44!1
-  xml_id: n40024044001
-  unicode: διὰ
+  text: διὰ
   lemma: διά
   normalized: διά
-  class: prep
-  morph: PREP
-  gloss: Because of
-  strong: '1223'
+  ids:
+    ref: MAT 24:44!1
+    wordID: n40024044001
+  translation:
+    gloss: Because of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
 - position: 2
-  ref: MAT 24:44!2
-  xml_id: n40024044002
-  unicode: τοῦτο
+  text: τοῦτο
   lemma: οὗτος
   normalized: τοῦτο
-  class: pron
-  morph: D-ASN
-  gloss: this
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3778'
+  ids:
+    ref: MAT 24:44!2
+    wordID: n40024044002
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
 - position: 3
-  ref: MAT 24:44!3
-  xml_id: n40024044003
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: also
-  strong: '2532'
-  domain: 089017
-  ln: '89.93'
+  ids:
+    ref: MAT 24:44!3
+    wordID: n40024044003
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
 - position: 4
-  ref: MAT 24:44!4
-  xml_id: n40024044004
-  unicode: ὑμεῖς
+  text: ὑμεῖς
   lemma: σύ
   normalized: ὑμεῖς
-  class: pron
-  morph: P-2NP
-  gloss: you
-  number: plural
-  case: nominative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 24:44!4
+    wordID: n40024044004
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40024003012
 - position: 5
-  ref: MAT 24:44!5
-  xml_id: n40024044005
-  unicode: γίνεσθε
+  text: γίνεσθε
   lemma: γίνομαι
   normalized: γίνεσθε
-  class: verb
-  morph: V-PNM-2P
-  gloss: be
-  number: plural
-  person: second
-  tense: present
-  voice: middlepassive
-  mood: imperative
-  strong: '1096'
-  domain: '013001'
-  ln: '13.3'
-  role: vc
+  ids:
+    ref: MAT 24:44!5
+    wordID: n40024044005
+  translation:
+    gloss: be
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.3'
+  syntax:
+    role: vc
 - position: 6
-  ref: MAT 24:44!6
-  xml_id: n40024044006
-  unicode: ἕτοιμοι
+  text: ἕτοιμοι
   lemma: ἕτοιμος
   normalized: ἕτοιμοι
-  class: adj
-  morph: A-NPM
-  gloss: ready
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '2092'
-  domain: '077'
-  ln: '77.2'
-  role: p
+  ids:
+    ref: MAT 24:44!6
+    wordID: n40024044006
+  translation:
+    gloss: ready
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '2092'
+  semantic:
+    semanticDomain: '077'
+    ln: '77.2'
+  syntax:
+    role: p
 - position: 7
-  ref: MAT 24:44!7
-  xml_id: n40024044007
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 24:44!7
+    wordID: n40024044007
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 8
-  ref: MAT 24:44!8
-  xml_id: n40024044008
-  unicode: ᾗ
+  text: ᾗ
   lemma: ὅς
   normalized: ᾗ
-  class: pron
-  morph: R-DSF
-  gloss: in that
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: adv
+  ids:
+    ref: MAT 24:44!8
+    wordID: n40024044008
+  translation:
+    gloss: in that
+  morphology:
+    class: pron
+    morph: R-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40024044011
 - position: 9
-  ref: MAT 24:44!9
-  xml_id: n40024044009
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 24:44!9
+    wordID: n40024044009
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 10
-  ref: MAT 24:44!10
-  xml_id: n40024044010
-  unicode: δοκεῖτε
+  text: δοκεῖτε
   lemma: δοκέω
   normalized: δοκεῖτε
-  class: verb
-  morph: V-PAI-2P
-  gloss: you expect
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1380'
-  domain: '031005'
-  ln: '31.29'
-  role: v
+  ids:
+    ref: MAT 24:44!10
+    wordID: n40024044010
+  translation:
+    gloss: you expect
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n40024003012
+  discourse:
+    subject: n40024003012
 - position: 11
-  ref: MAT 24:44!11
-  xml_id: n40024044011
-  unicode: ὥρᾳ
+  text: ὥρᾳ
   lemma: ὥρα
   normalized: ὥρᾳ
-  class: noun
-  morph: N-DSF
-  gloss: hour
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '5610'
-  domain: 067009
-  ln: '67.199'
+  ids:
+    ref: MAT 24:44!11
+    wordID: n40024044011
+  translation:
+    gloss: hour
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5610'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.199'
+  syntax:
+    junction: apposition
 - position: 12
-  ref: MAT 24:44!12
-  xml_id: n40024044012
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:44!12
+    wordID: n40024044012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 24:44!13
-  xml_id: n40024044013
-  unicode: Υἱὸς
+  text: Υἱὸς
   lemma: υἱός
   normalized: Υἱός
-  class: noun
-  morph: N-NSM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5207'
-  domain: 009001
-  ln: '9.3'
+  ids:
+    ref: MAT 24:44!13
+    wordID: n40024044013
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.3'
 - position: 14
-  ref: MAT 24:44!14
-  xml_id: n40024044014
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:44!14
+    wordID: n40024044014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 24:44!15
-  xml_id: n40024044015
-  unicode: ἀνθρώπου
+  text: ἀνθρώπου
   lemma: ἄνθρωπος
   normalized: ἀνθρώπου
-  class: noun
-  morph: N-GSM
-  gloss: of Man
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '444'
-  domain: 009001
-  ln: '9.3'
+  ids:
+    ref: MAT 24:44!15
+    wordID: n40024044015
+  translation:
+    gloss: of Man
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.3'
 - position: 16
-  ref: MAT 24:44!16
-  xml_id: n40024044016
-  unicode: ἔρχεται
+  text: ἔρχεται
   lemma: ἔρχομαι
   normalized: ἔρχεται
-  class: verb
-  morph: V-PNI-3S
-  gloss: comes
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
-syntax:
-  word_order: ADV-S-V
+  ids:
+    ref: MAT 24:44!16
+    wordID: n40024044016
+  translation:
+    gloss: comes
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40024044013

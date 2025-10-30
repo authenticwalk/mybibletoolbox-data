@@ -1,430 +1,572 @@
-verse:
-  reference: MAT 4:23
-  book_code: MAT
-  chapter: 4
-  verse: 23
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Καὶ περιῆγεν ἐν ὅλῃ τῇ Γαλιλαίᾳ, διδάσκων ἐν ταῖς συναγωγαῖς αὐτῶν καὶ
-    κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας καὶ θεραπεύων πᾶσαν νόσον καὶ πᾶσαν μαλακίαν
-    ἐν τῷ λαῷ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 4:23
+text: Καὶ περιῆγεν ἐν ὅλῃ τῇ Γαλιλαίᾳ, διδάσκων ἐν ταῖς συναγωγαῖς αὐτῶν καὶ κηρύσσων
+  τὸ εὐαγγέλιον τῆς βασιλείας καὶ θεραπεύων πᾶσαν νόσον καὶ πᾶσαν μαλακίαν ἐν τῷ λαῷ.
 words:
 - position: 1
-  ref: MAT 4:23!1
-  xml_id: n40004023001
-  unicode: Καὶ
+  text: Καὶ
   lemma: καί
   normalized: Καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 091001
-  ln: '91.1'
+  ids:
+    ref: MAT 4:23!1
+    wordID: n40004023001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
 - position: 2
-  ref: MAT 4:23!2
-  xml_id: n40004023002
-  unicode: περιῆγεν
+  text: περιῆγεν
   lemma: περιάγω
   normalized: περιῆγεν
-  class: verb
-  morph: V-IAI-3S
-  gloss: He was going
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '4013'
-  domain: '015002'
-  ln: '15.23'
-  role: v
+  ids:
+    ref: MAT 4:23!2
+    wordID: n40004023002
+  translation:
+    gloss: He was going
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4013'
+  semantic:
+    semanticDomain: '015002'
+    ln: '15.23'
+  syntax:
+    role: v
+    frame: A0:n40004017005
+  discourse:
+    subject: n40004017005
 - position: 3
-  ref: MAT 4:23!3
-  xml_id: n40004023003
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: throughout
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 4:23!3
+    wordID: n40004023003
+  translation:
+    gloss: throughout
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 4
-  ref: MAT 4:23!4
-  xml_id: n40004023004
-  unicode: ὅλῃ
+  text: ὅλῃ
   lemma: ὅλος
   normalized: ὅλῃ
-  class: adj
-  morph: A-DSF
-  gloss: all
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '3650'
-  domain: '063001'
-  ln: '63.1'
+  ids:
+    ref: MAT 4:23!4
+    wordID: n40004023004
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '3650'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.1'
 - position: 5
-  ref: MAT 4:23!5
-  xml_id: n40004023005
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: '-'
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 4:23!5
+    wordID: n40004023005
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 4:23!6
-  xml_id: n40004023006
-  unicode: Γαλιλαίᾳ
+  text: Γαλιλαίᾳ
   lemma: Γαλιλαία
   normalized: Γαλιλαίᾳ
-  class: noun
-  morph: N-DSF
-  gloss: Galilee
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '1056'
-  domain: 093002
-  ln: 93.444a
+  ids:
+    ref: MAT 4:23!6
+    wordID: n40004023006
+  translation:
+    gloss: Galilee
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '1056'
+  semantic:
+    semanticDomain: 093002
+    ln: 93.444a
 - position: 7
-  ref: MAT 4:23!7
-  xml_id: n40004023007
-  unicode: διδάσκων
+  text: διδάσκων
   lemma: διδάσκω
   normalized: διδάσκων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: teaching
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '1321'
-  domain: '033017'
-  ln: '33.224'
-  role: v
+  ids:
+    ref: MAT 4:23!7
+    wordID: n40004023007
+  translation:
+    gloss: teaching
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1321'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.224'
+  syntax:
+    role: v
+    frame: A0:n40004017005
+  discourse:
+    subject: n40004017005
 - position: 8
-  ref: MAT 4:23!8
-  xml_id: n40004023008
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 4:23!8
+    wordID: n40004023008
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 9
-  ref: MAT 4:23!9
-  xml_id: n40004023009
-  unicode: ταῖς
+  text: ταῖς
   lemma: ὁ
   normalized: ταῖς
-  class: det
-  morph: T-DPF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 4:23!9
+    wordID: n40004023009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 4:23!10
-  xml_id: n40004023010
-  unicode: συναγωγαῖς
+  text: συναγωγαῖς
   lemma: συναγωγή
   normalized: συναγωγαῖς
-  class: noun
-  morph: N-DPF
-  gloss: synagogues
-  gender: feminine
-  number: plural
-  case: dative
-  strong: '4864'
-  domain: '007002'
-  ln: '7.20'
+  ids:
+    ref: MAT 4:23!10
+    wordID: n40004023010
+  translation:
+    gloss: synagogues
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '4864'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.20'
 - position: 11
-  ref: MAT 4:23!11
-  xml_id: n40004023011
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 4:23!11
+    wordID: n40004023011
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40004023006
 - position: 12
-  ref: MAT 4:23!12
-  xml_id: n40004023012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 4:23!12
+    wordID: n40004023012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 13
-  ref: MAT 4:23!13
-  xml_id: n40004023013
-  unicode: κηρύσσων
+  text: κηρύσσων
   lemma: κηρύσσω
   normalized: κηρύσσων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: proclaiming
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2784'
-  domain: 033019
-  ln: '33.256'
-  role: v
+  ids:
+    ref: MAT 4:23!13
+    wordID: n40004023013
+  translation:
+    gloss: proclaiming
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2784'
+  semantic:
+    semanticDomain: 033019
+    ln: '33.256'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A1:n40004023015
+  discourse:
+    subject: n40004017005
 - position: 14
-  ref: MAT 4:23!14
-  xml_id: n40004023014
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 4:23!14
+    wordID: n40004023014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 4:23!15
-  xml_id: n40004023015
-  unicode: εὐαγγέλιον
+  text: εὐαγγέλιον
   lemma: εὐαγγέλιον
   normalized: εὐαγγέλιον
-  class: noun
-  morph: N-ASN
-  gloss: gospel
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '2098'
-  domain: '033015'
-  ln: '33.217'
+  ids:
+    ref: MAT 4:23!15
+    wordID: n40004023015
+  translation:
+    gloss: gospel
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2098'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.217'
 - position: 16
-  ref: MAT 4:23!16
-  xml_id: n40004023016
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: of the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 4:23!16
+    wordID: n40004023016
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 4:23!17
-  xml_id: n40004023017
-  unicode: βασιλείας
+  text: βασιλείας
   lemma: βασιλεία
   normalized: βασιλείας
-  class: noun
-  morph: N-GSF
-  gloss: kingdom
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '932'
-  domain: '037004'
-  ln: '37.64'
+  ids:
+    ref: MAT 4:23!17
+    wordID: n40004023017
+  translation:
+    gloss: kingdom
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.64'
 - position: 18
-  ref: MAT 4:23!18
-  xml_id: n40004023018
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 4:23!18
+    wordID: n40004023018
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 19
-  ref: MAT 4:23!19
-  xml_id: n40004023019
-  unicode: θεραπεύων
+  text: θεραπεύων
   lemma: θεραπεύω
   normalized: θεραπεύων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: healing
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2323'
-  domain: 023008
-  ln: '23.139'
-  role: v
+  ids:
+    ref: MAT 4:23!19
+    wordID: n40004023019
+  translation:
+    gloss: healing
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2323'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.139'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A1:n40004023021;n40004023024
+  discourse:
+    subject: n40004017005
 - position: 20
-  ref: MAT 4:23!20
-  xml_id: n40004023020
-  unicode: πᾶσαν
+  text: πᾶσαν
   lemma: πᾶς
   normalized: πᾶσαν
-  class: adj
-  morph: A-ASF
-  gloss: every
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3956'
-  domain: 058004 059003
-  ln: 58.28 59.23
+  ids:
+    ref: MAT 4:23!20
+    wordID: n40004023020
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 058004 059003
+    ln: 58.28 59.23
 - position: 21
-  ref: MAT 4:23!21
-  xml_id: n40004023021
-  unicode: νόσον
+  text: νόσον
   lemma: νόσος
   normalized: νόσον
-  class: noun
-  morph: N-ASF
-  gloss: disease
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3554'
-  domain: 023009
-  ln: '23.155'
+  ids:
+    ref: MAT 4:23!21
+    wordID: n40004023021
+  translation:
+    gloss: disease
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3554'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.155'
 - position: 22
-  ref: MAT 4:23!22
-  xml_id: n40004023022
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 4:23!22
+    wordID: n40004023022
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 23
-  ref: MAT 4:23!23
-  xml_id: n40004023023
-  unicode: πᾶσαν
+  text: πᾶσαν
   lemma: πᾶς
   normalized: πᾶσαν
-  class: adj
-  morph: A-ASF
-  gloss: every
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3956'
-  domain: 058004 059003
-  ln: 58.28 59.23
+  ids:
+    ref: MAT 4:23!23
+    wordID: n40004023023
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 058004 059003
+    ln: 58.28 59.23
 - position: 24
-  ref: MAT 4:23!24
-  xml_id: n40004023024
-  unicode: μαλακίαν
+  text: μαλακίαν
   lemma: μαλακία
   normalized: μαλακίαν
-  class: noun
-  morph: N-ASF
-  gloss: sickness
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3119'
-  domain: 023009
-  ln: '23.154'
+  ids:
+    ref: MAT 4:23!24
+    wordID: n40004023024
+  translation:
+    gloss: sickness
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3119'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.154'
 - position: 25
-  ref: MAT 4:23!25
-  xml_id: n40004023025
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: among
-  strong: '1722'
-  domain: 083003
-  ln: '83.9'
+  ids:
+    ref: MAT 4:23!25
+    wordID: n40004023025
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
 - position: 26
-  ref: MAT 4:23!26
-  xml_id: n40004023026
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 4:23!26
+    wordID: n40004023026
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 27
-  ref: MAT 4:23!27
-  xml_id: n40004023027
-  unicode: λαῷ
+  text: λαῷ
   lemma: λαός
   normalized: λαῷ
-  class: noun
-  morph: N-DSM
-  gloss: people
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '2992'
-  domain: '011001'
-  ln: '11.1'
-syntax:
-  word_order: V-ADV-ADV
+  ids:
+    ref: MAT 4:23!27
+    wordID: n40004023027
+  translation:
+    gloss: people
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2992'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'

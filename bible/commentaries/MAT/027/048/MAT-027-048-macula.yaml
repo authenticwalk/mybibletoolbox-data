@@ -1,286 +1,389 @@
-verse:
-  reference: MAT 27:48
-  book_code: MAT
-  chapter: 27
-  verse: 48
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ εὐθέως δραμὼν εἷς ἐξ αὐτῶν καὶ λαβὼν σπόγγον πλήσας τε ὄξους καὶ περιθεὶς
-    καλάμῳ ἐπότιζεν αὐτόν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:48
+text: καὶ εὐθέως δραμὼν εἷς ἐξ αὐτῶν καὶ λαβὼν σπόγγον πλήσας τε ὄξους καὶ περιθεὶς
+  καλάμῳ ἐπότιζεν αὐτόν.
 words:
 - position: 1
-  ref: MAT 27:48!1
-  xml_id: n40027048001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 27:48!1
+    wordID: n40027048001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 27:48!2
-  xml_id: n40027048002
-  unicode: εὐθέως
+  text: εὐθέως
   lemma: εὐθέως
   normalized: εὐθέως
-  class: adv
-  morph: ADV
-  gloss: immediately
-  strong: '2112'
-  domain: '067002'
-  ln: '67.53'
-  role: adv
+  ids:
+    ref: MAT 27:48!2
+    wordID: n40027048002
+  translation:
+    gloss: immediately
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2112'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.53'
+  syntax:
+    role: adv
 - position: 3
-  ref: MAT 27:48!4
-  xml_id: n40027048004
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: 092004
-  ln: '92.22'
+  ids:
+    ref: MAT 27:48!4
+    wordID: n40027048004
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
 - position: 4
-  ref: MAT 27:48!5
-  xml_id: n40027048005
-  unicode: ἐξ
+  text: ἐξ
   lemma: ἐκ
   normalized: ἐξ
-  class: prep
-  morph: PREP
-  gloss: of
-  strong: '1537'
-  domain: '063004'
-  ln: '63.20'
+  ids:
+    ref: MAT 27:48!5
+    wordID: n40027048005
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: '063004'
+    ln: '63.20'
 - position: 5
-  ref: MAT 27:48!6
-  xml_id: n40027048006
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 27:48!6
+    wordID: n40027048006
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    discontinuous: 'true'
+  discourse:
+    referent: n40027047001
 - position: 6
-  ref: MAT 27:48!3
-  xml_id: n40027048003
-  unicode: δραμὼν
+  text: δραμὼν
   lemma: τρέχω
   normalized: δραμών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having run
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '5143'
-  domain: '015030'
-  ln: '15.230'
-  role: v
+  ids:
+    ref: MAT 27:48!3
+    wordID: n40027048003
+  translation:
+    gloss: having run
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5143'
+  semantic:
+    semanticDomain: '015030'
+    ln: '15.230'
+  syntax:
+    role: v
+    frame: A0:n40027048004
+  discourse:
+    subject: n40027048004
 - position: 7
-  ref: MAT 27:48!7
-  xml_id: n40027048007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 27:48!7
+    wordID: n40027048007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 8
-  ref: MAT 27:48!8
-  xml_id: n40027048008
-  unicode: λαβὼν
+  text: λαβὼν
   lemma: λαμβάνω
   normalized: λαβών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having taken
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2983'
-  domain: 018001
-  ln: '18.1'
-  role: v
+  ids:
+    ref: MAT 27:48!8
+    wordID: n40027048008
+  translation:
+    gloss: having taken
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.1'
+  syntax:
+    role: v
+    frame: A0:n40027048004 A1:n40027048009
+  discourse:
+    subject: n40027048004
 - position: 9
-  ref: MAT 27:48!9
-  xml_id: n40027048009
-  unicode: σπόγγον
+  text: σπόγγον
   lemma: σπόγγος
   normalized: σπόγγον
-  class: noun
-  morph: N-ASM
-  gloss: a sponge
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4699'
-  domain: '006016'
-  ln: '6.133'
-  role: o
+  ids:
+    ref: MAT 27:48!9
+    wordID: n40027048009
+  translation:
+    gloss: a sponge
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4699'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.133'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 27:48!11
-  xml_id: n40027048011
-  unicode: τε
+  text: τε
   lemma: τέ
   normalized: τε
-  class: conj
-  morph: PRT
-  gloss: and
-  strong: '5037'
-  domain: 089017
-  ln: '89.102'
+  ids:
+    ref: MAT 27:48!11
+    wordID: n40027048011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '5037'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.102'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 27:48!10
-  xml_id: n40027048010
-  unicode: πλήσας
+  text: πλήσας
   lemma: πίμπλημι
   normalized: πλήσας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: having filled [it]
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '4130'
-  domain: 059004
-  ln: '59.38'
-  role: v
+  ids:
+    ref: MAT 27:48!10
+    wordID: n40027048010
+  translation:
+    gloss: having filled [it]
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4130'
+  semantic:
+    semanticDomain: 059004
+    ln: '59.38'
+  syntax:
+    role: v
+    frame: A0:n40027048004 A1:n40027048009
+  discourse:
+    subject: n40027048004
 - position: 12
-  ref: MAT 27:48!12
-  xml_id: n40027048012
-  unicode: ὄξους
+  text: ὄξους
   lemma: ὄξος
   normalized: ὄξους
-  class: noun
-  morph: N-GSN
-  gloss: with vinegar
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '3690'
-  domain: 006019
-  ln: '6.201'
-  role: adv
+  ids:
+    ref: MAT 27:48!12
+    wordID: n40027048012
+  translation:
+    gloss: with vinegar
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3690'
+  semantic:
+    semanticDomain: 006019
+    ln: '6.201'
+  syntax:
+    role: adv
 - position: 13
-  ref: MAT 27:48!13
-  xml_id: n40027048013
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.102'
+  ids:
+    ref: MAT 27:48!13
+    wordID: n40027048013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.102'
 - position: 14
-  ref: MAT 27:48!14
-  xml_id: n40027048014
-  unicode: περιθεὶς
+  text: περιθεὶς
   lemma: περιτίθημι
   normalized: περιθείς
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having put [it] on
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '4060'
-  domain: 085002
-  ln: '85.39'
-  role: v
+  ids:
+    ref: MAT 27:48!14
+    wordID: n40027048014
+  translation:
+    gloss: having put [it] on
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4060'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.39'
+  syntax:
+    role: v
+    frame: A0:n40027048004 A1:n40027048009 A2:n40027048015
+  discourse:
+    subject: n40027048004
 - position: 15
-  ref: MAT 27:48!15
-  xml_id: n40027048015
-  unicode: καλάμῳ
+  text: καλάμῳ
   lemma: κάλαμος
   normalized: καλάμῳ
-  class: noun
-  morph: N-DSM
-  gloss: a reed
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '2563'
-  domain: '003005'
-  ln: '3.55'
-  role: io
+  ids:
+    ref: MAT 27:48!15
+    wordID: n40027048015
+  translation:
+    gloss: a reed
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2563'
+  semantic:
+    semanticDomain: '003005'
+    ln: '3.55'
+  syntax:
+    role: io
 - position: 16
-  ref: MAT 27:48!16
-  xml_id: n40027048016
-  unicode: ἐπότιζεν
+  text: ἐπότιζεν
   lemma: ποτίζω
   normalized: ἐπότιζεν
-  class: verb
-  morph: V-IAI-3S
-  gloss: gave to drink
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '4222'
-  domain: '023001'
-  ln: '23.35'
-  role: v
+  ids:
+    ref: MAT 27:48!16
+    wordID: n40027048016
+  translation:
+    gloss: gave to drink
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4222'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.35'
+  syntax:
+    role: v
+    frame: A0:n40027048004 A1:n40027048017
 - position: 17
-  ref: MAT 27:48!17
-  xml_id: n40027048017
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: ADV-S-ADV-V-O
+  ids:
+    ref: MAT 27:48!17
+    wordID: n40027048017
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027046008

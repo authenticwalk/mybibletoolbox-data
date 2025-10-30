@@ -1,292 +1,383 @@
-verse:
-  reference: MAT 12:31
-  book_code: MAT
-  chapter: 12
-  verse: 31
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Διὰ τοῦτο λέγω ὑμῖν, πᾶσα ἁμαρτία καὶ βλασφημία ἀφεθήσεται τοῖς ἀνθρώποις,
-    ἡ δὲ τοῦ Πνεύματος βλασφημία οὐκ ἀφεθήσεται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:31
+text: Διὰ τοῦτο λέγω ὑμῖν, πᾶσα ἁμαρτία καὶ βλασφημία ἀφεθήσεται τοῖς ἀνθρώποις, ἡ
+  δὲ τοῦ Πνεύματος βλασφημία οὐκ ἀφεθήσεται.
 words:
 - position: 1
-  ref: MAT 12:31!1
-  xml_id: n40012031001
-  unicode: Διὰ
+  text: Διὰ
   lemma: διά
   normalized: Διά
-  class: prep
-  morph: PREP
-  gloss: Because of
-  strong: '1223'
+  ids:
+    ref: MAT 12:31!1
+    wordID: n40012031001
+  translation:
+    gloss: Because of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
 - position: 2
-  ref: MAT 12:31!2
-  xml_id: n40012031002
-  unicode: τοῦτο
+  text: τοῦτο
   lemma: οὗτος
   normalized: τοῦτο
-  class: pron
-  morph: D-ASN
-  gloss: this
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3778'
+  ids:
+    ref: MAT 12:31!2
+    wordID: n40012031002
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
 - position: 3
-  ref: MAT 12:31!3
-  xml_id: n40012031003
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 12:31!3
+    wordID: n40012031003
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40012015003 A2:n40012031004
+  discourse:
+    subject: n40012015003
 - position: 4
-  ref: MAT 12:31!4
-  xml_id: n40012031004
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 12:31!4
+    wordID: n40012031004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40012024003
 - position: 5
-  ref: MAT 12:31!5
-  xml_id: n40012031005
-  unicode: πᾶσα
+  text: πᾶσα
   lemma: πᾶς
   normalized: πᾶσα
-  class: adj
-  morph: A-NSF
-  gloss: every
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 12:31!5
+    wordID: n40012031005
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 6
-  ref: MAT 12:31!6
-  xml_id: n40012031006
-  unicode: ἁμαρτία
+  text: ἁμαρτία
   lemma: ἁμαρτία
   normalized: ἁμαρτία
-  class: noun
-  morph: N-NSF
-  gloss: sin
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '266'
-  domain: 088038
-  ln: '88.289'
+  ids:
+    ref: MAT 12:31!6
+    wordID: n40012031006
+  translation:
+    gloss: sin
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '266'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.289'
 - position: 7
-  ref: MAT 12:31!7
-  xml_id: n40012031007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:31!7
+    wordID: n40012031007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 8
-  ref: MAT 12:31!8
-  xml_id: n40012031008
-  unicode: βλασφημία
+  text: βλασφημία
   lemma: βλασφημία
   normalized: βλασφημία
-  class: noun
-  morph: N-NSF
-  gloss: blasphemy
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '988'
-  domain: '033042'
-  ln: '33.401'
+  ids:
+    ref: MAT 12:31!8
+    wordID: n40012031008
+  translation:
+    gloss: blasphemy
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '988'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.401'
 - position: 9
-  ref: MAT 12:31!9
-  xml_id: n40012031009
-  unicode: ἀφεθήσεται
+  text: ἀφεθήσεται
   lemma: ἀφίημι
   normalized: ἀφεθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: will be forgiven
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '863'
-  domain: '040002'
-  ln: '40.8'
-  role: v
+  ids:
+    ref: MAT 12:31!9
+    wordID: n40012031009
+  translation:
+    gloss: will be forgiven
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A1:n40012031006;n40012031008 A2:n40012031011
 - position: 10
-  ref: MAT 12:31!10
-  xml_id: n40012031010
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: '-'
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:31!10
+    wordID: n40012031010
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 12:31!11
-  xml_id: n40012031011
-  unicode: ἀνθρώποις
+  text: ἀνθρώποις
   lemma: ἄνθρωπος
   normalized: ἀνθρώποις
-  class: noun
-  morph: N-DPM
-  gloss: men
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '444'
-  domain: 009001
-  ln: '9.1'
+  ids:
+    ref: MAT 12:31!11
+    wordID: n40012031011
+  translation:
+    gloss: men
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
 - position: 12
-  ref: MAT 12:31!13
-  xml_id: n40012031013
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 12:31!13
+    wordID: n40012031013
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 13
-  ref: MAT 12:31!12
-  xml_id: n40012031012
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: '-'
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:31!12
+    wordID: n40012031012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 12:31!14
-  xml_id: n40012031014
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: against
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:31!14
+    wordID: n40012031014
+  translation:
+    gloss: against
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 12:31!15
-  xml_id: n40012031015
-  unicode: Πνεύματος
+  text: Πνεύματος
   lemma: πνεῦμα
   normalized: Πνεύματος
-  class: noun
-  morph: N-GSN
-  gloss: '[the] Spirit'
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '4151'
-  domain: '012001'
-  ln: '12.18'
+  ids:
+    ref: MAT 12:31!15
+    wordID: n40012031015
+  translation:
+    gloss: '[the] Spirit'
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.18'
 - position: 16
-  ref: MAT 12:31!16
-  xml_id: n40012031016
-  unicode: βλασφημία
+  text: βλασφημία
   lemma: βλασφημία
   normalized: βλασφημία
-  class: noun
-  morph: N-NSF
-  gloss: blasphemy
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '988'
-  domain: '033042'
-  ln: '33.401'
+  ids:
+    ref: MAT 12:31!16
+    wordID: n40012031016
+  translation:
+    gloss: blasphemy
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '988'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.401'
 - position: 17
-  ref: MAT 12:31!17
-  xml_id: n40012031017
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 12:31!17
+    wordID: n40012031017
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 18
-  ref: MAT 12:31!18
-  xml_id: n40012031018
-  unicode: ἀφεθήσεται
+  text: ἀφεθήσεται
   lemma: ἀφίημι
   normalized: ἀφεθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: will be forgiven
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '863'
-  domain: '040002'
-  ln: '40.8'
-  role: v
-syntax:
-  word_order: S-V-IO
+  ids:
+    ref: MAT 12:31!18
+    wordID: n40012031018
+  translation:
+    gloss: will be forgiven
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A1:n40012031016

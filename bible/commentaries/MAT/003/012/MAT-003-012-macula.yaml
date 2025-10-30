@@ -1,415 +1,560 @@
-verse:
-  reference: MAT 3:12
-  book_code: MAT
-  chapter: 3
-  verse: 12
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οὗ τὸ πτύον ἐν τῇ χειρὶ αὐτοῦ, καὶ διακαθαριεῖ τὴν ἅλωνα αὐτοῦ, καὶ συνάξει
-    τὸν σῖτον αὐτοῦ εἰς τὴν ἀποθήκην, τὸ δὲ ἄχυρον κατακαύσει πυρὶ ἀσβέστῳ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 3:12
+text: οὗ τὸ πτύον ἐν τῇ χειρὶ αὐτοῦ, καὶ διακαθαριεῖ τὴν ἅλωνα αὐτοῦ, καὶ συνάξει
+  τὸν σῖτον αὐτοῦ εἰς τὴν ἀποθήκην, τὸ δὲ ἄχυρον κατακαύσει πυρὶ ἀσβέστῳ.
 words:
 - position: 1
-  ref: MAT 3:12!1
-  xml_id: n40003012001
-  unicode: οὗ
+  text: οὗ
   lemma: ὅς
   normalized: οὗ
-  class: pron
-  morph: R-GSM
-  gloss: whose
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
+  ids:
+    ref: MAT 3:12!1
+    wordID: n40003012001
+  translation:
+    gloss: whose
+  morphology:
+    class: pron
+    morph: R-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  discourse:
+    referent: n40003011013
 - position: 2
-  ref: MAT 3:12!2
-  xml_id: n40003012002
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:12!2
+    wordID: n40003012002
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 3:12!3
-  xml_id: n40003012003
-  unicode: πτύον
+  text: πτύον
   lemma: πτύον
   normalized: πτύον
-  class: noun
-  morph: N-NSN
-  gloss: winnowing fork [is]
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '4425'
-  domain: '006002'
-  ln: '6.6'
+  ids:
+    ref: MAT 3:12!3
+    wordID: n40003012003
+  translation:
+    gloss: winnowing fork [is]
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4425'
+  semantic:
+    semanticDomain: '006002'
+    ln: '6.6'
 - position: 4
-  ref: MAT 3:12!4
-  xml_id: n40003012004
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 3:12!4
+    wordID: n40003012004
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 5
-  ref: MAT 3:12!5
-  xml_id: n40003012005
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:12!5
+    wordID: n40003012005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 3:12!6
-  xml_id: n40003012006
-  unicode: χειρὶ
+  text: χειρὶ
   lemma: χείρ
   normalized: χειρί
-  class: noun
-  morph: N-DSF
-  gloss: hand
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '5495'
-  domain: 008002
-  ln: '8.30'
+  ids:
+    ref: MAT 3:12!6
+    wordID: n40003012006
+  translation:
+    gloss: hand
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
 - position: 7
-  ref: MAT 3:12!7
-  xml_id: n40003012007
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 3:12!7
+    wordID: n40003012007
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40003011013
 - position: 8
-  ref: MAT 3:12!8
-  xml_id: n40003012008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 3:12!8
+    wordID: n40003012008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 9
-  ref: MAT 3:12!9
-  xml_id: n40003012009
-  unicode: διακαθαριεῖ
+  text: διακαθαριεῖ
   lemma: διακαθαρίζω
   normalized: διακαθαριεῖ
-  class: verb
-  morph: V-FAI-3S-ATT
-  gloss: He will clear
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '1245'
-  domain: 079010
-  ln: '79.51'
-  role: v
+  ids:
+    ref: MAT 3:12!9
+    wordID: n40003012009
+  translation:
+    gloss: He will clear
+  morphology:
+    class: verb
+    morph: V-FAI-3S-ATT
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1245'
+  semantic:
+    semanticDomain: 079010
+    ln: '79.51'
+  syntax:
+    role: v
+    frame: A0:n40003011013 A1:n40003012011
+  discourse:
+    subject: n40003011013
 - position: 10
-  ref: MAT 3:12!10
-  xml_id: n40003012010
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:12!10
+    wordID: n40003012010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 3:12!11
-  xml_id: n40003012011
-  unicode: ἅλωνα
+  text: ἅλωνα
   lemma: ἅλων
   normalized: ἅλωνα
-  class: noun
-  morph: N-ASF
-  gloss: threshing floor
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '257'
-  domain: 003004 007007
-  ln: 3.43 7.65
+  ids:
+    ref: MAT 3:12!11
+    wordID: n40003012011
+  translation:
+    gloss: threshing floor
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '257'
+  semantic:
+    semanticDomain: 003004 007007
+    ln: 3.43 7.65
 - position: 12
-  ref: MAT 3:12!12
-  xml_id: n40003012012
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 3:12!12
+    wordID: n40003012012
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40003011013
 - position: 13
-  ref: MAT 3:12!13
-  xml_id: n40003012013
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 3:12!13
+    wordID: n40003012013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 14
-  ref: MAT 3:12!14
-  xml_id: n40003012014
-  unicode: συνάξει
+  text: συνάξει
   lemma: συνάγω
   normalized: συνάξει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will gather
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '4863'
-  domain: '015013'
-  ln: '15.125'
-  role: v
+  ids:
+    ref: MAT 3:12!14
+    wordID: n40003012014
+  translation:
+    gloss: will gather
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4863'
+  semantic:
+    semanticDomain: '015013'
+    ln: '15.125'
+  syntax:
+    role: v
+    frame: A0:n40003011013 A1:n40003012016
+  discourse:
+    subject: n40003011013
 - position: 15
-  ref: MAT 3:12!15
-  xml_id: n40003012015
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:12!15
+    wordID: n40003012015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 3:12!16
-  xml_id: n40003012016
-  unicode: σῖτον
+  text: σῖτον
   lemma: σῖτος
   normalized: σῖτον
-  class: noun
-  morph: N-ASM
-  gloss: wheat
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4621'
-  domain: '003004'
-  ln: '3.41'
+  ids:
+    ref: MAT 3:12!16
+    wordID: n40003012016
+  translation:
+    gloss: wheat
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4621'
+  semantic:
+    semanticDomain: '003004'
+    ln: '3.41'
 - position: 17
-  ref: MAT 3:12!17
-  xml_id: n40003012017
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 3:12!17
+    wordID: n40003012017
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40003011013
 - position: 18
-  ref: MAT 3:12!18
-  xml_id: n40003012018
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 3:12!18
+    wordID: n40003012018
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 19
-  ref: MAT 3:12!19
-  xml_id: n40003012019
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:12!19
+    wordID: n40003012019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 3:12!20
-  xml_id: n40003012020
-  unicode: ἀποθήκην
+  text: ἀποθήκην
   lemma: ἀποθήκη
   normalized: ἀποθήκην
-  class: noun
-  morph: N-ASF
-  gloss: barn
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '596'
-  domain: '007002'
-  ln: '7.25'
+  ids:
+    ref: MAT 3:12!20
+    wordID: n40003012020
+  translation:
+    gloss: barn
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '596'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.25'
 - position: 21
-  ref: MAT 3:12!22
-  xml_id: n40003012022
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: but
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 3:12!22
+    wordID: n40003012022
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 22
-  ref: MAT 3:12!21
-  xml_id: n40003012021
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:12!21
+    wordID: n40003012021
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 23
-  ref: MAT 3:12!23
-  xml_id: n40003012023
-  unicode: ἄχυρον
+  text: ἄχυρον
   lemma: ἄχυρον
   normalized: ἄχυρον
-  class: noun
-  morph: N-ASN
-  gloss: chaff
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '892'
-  domain: '003005'
-  ln: '3.57'
+  ids:
+    ref: MAT 3:12!23
+    wordID: n40003012023
+  translation:
+    gloss: chaff
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '892'
+  semantic:
+    semanticDomain: '003005'
+    ln: '3.57'
 - position: 24
-  ref: MAT 3:12!24
-  xml_id: n40003012024
-  unicode: κατακαύσει
+  text: κατακαύσει
   lemma: κατακαίω
   normalized: κατακαύσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: He will burn up
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2618'
-  domain: 014008
-  ln: '14.66'
-  role: v
+  ids:
+    ref: MAT 3:12!24
+    wordID: n40003012024
+  translation:
+    gloss: He will burn up
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2618'
+  semantic:
+    semanticDomain: 014008
+    ln: '14.66'
+  syntax:
+    role: v
+    frame: A0:n40003011013 A1:n40003012023
+  discourse:
+    subject: n40003011013
 - position: 25
-  ref: MAT 3:12!25
-  xml_id: n40003012025
-  unicode: πυρὶ
+  text: πυρὶ
   lemma: πῦρ
   normalized: πυρί
-  class: noun
-  morph: N-DSN
-  gloss: with fire
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '4442'
-  domain: '002003'
-  ln: '2.3'
+  ids:
+    ref: MAT 3:12!25
+    wordID: n40003012025
+  translation:
+    gloss: with fire
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4442'
+  semantic:
+    semanticDomain: '002003'
+    ln: '2.3'
 - position: 26
-  ref: MAT 3:12!26
-  xml_id: n40003012026
-  unicode: ἀσβέστῳ
+  text: ἀσβέστῳ
   lemma: ἄσβεστος
   normalized: ἀσβέστῳ
-  class: adj
-  morph: A-DSN
-  gloss: unquenchable
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '762'
-  domain: 014008
-  ln: '14.71'
-syntax:
-  word_order: S-P
+  ids:
+    ref: MAT 3:12!26
+    wordID: n40003012026
+  translation:
+    gloss: unquenchable
+  morphology:
+    class: adj
+    morph: A-DSN
+    gender: neuter
+    number: singular
+    case: dative
+  lexical:
+    strong: '762'
+  semantic:
+    semanticDomain: 014008
+    ln: '14.71'

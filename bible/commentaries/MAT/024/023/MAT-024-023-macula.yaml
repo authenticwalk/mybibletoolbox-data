@@ -1,216 +1,286 @@
-verse:
-  reference: MAT 24:23
-  book_code: MAT
-  chapter: 24
-  verse: 23
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε ἐάν τις ὑμῖν εἴπῃ Ἰδοὺ ὧδε ὁ Χριστός, ἤ Ὧδε, μὴ πιστεύσητε·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:23
+text: τότε ἐάν τις ὑμῖν εἴπῃ Ἰδοὺ ὧδε ὁ Χριστός, ἤ Ὧδε, μὴ πιστεύσητε·
 words:
 - position: 1
-  ref: MAT 24:23!2
-  xml_id: n40024023002
-  unicode: ἐάν
+  text: ἐάν
   lemma: ἐάν
   normalized: ἐάν
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: 089010
-  ln: '89.67'
+  ids:
+    ref: MAT 24:23!2
+    wordID: n40024023002
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 24:23!1
-  xml_id: n40024023001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 24:23!1
+    wordID: n40024023001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 3
-  ref: MAT 24:23!3
-  xml_id: n40024023003
-  unicode: τις
+  text: τις
   lemma: τὶς
   normalized: τις
-  class: pron
-  morph: X-NSM
-  gloss: anyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5100'
-  domain: 092004
-  ln: '92.12'
-  role: s
+  ids:
+    ref: MAT 24:23!3
+    wordID: n40024023003
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
 - position: 4
-  ref: MAT 24:23!4
-  xml_id: n40024023004
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 24:23!4
+    wordID: n40024023004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40024003012
 - position: 5
-  ref: MAT 24:23!5
-  xml_id: n40024023005
-  unicode: εἴπῃ
+  text: εἴπῃ
   lemma: λέγω
   normalized: εἴπῃ
-  class: verb
-  morph: V-2AAS-3S
-  gloss: says
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 24:23!5
+    wordID: n40024023005
+  translation:
+    gloss: says
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40024023003 A2:n40024023004
 - position: 6
-  ref: MAT 24:23!6
-  xml_id: n40024023006
-  unicode: Ἰδοὺ
+  text: Ἰδοὺ
   lemma: ὁράω
   normalized: Ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: Behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 24:23!6
+    wordID: n40024023006
+  translation:
+    gloss: Behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n40024003012
+  discourse:
+    subject: n40024003012
 - position: 7
-  ref: MAT 24:23!7
-  xml_id: n40024023007
-  unicode: ὧδε
+  text: ὧδε
   lemma: ὧδε
   normalized: ὧδε
-  class: adv
-  morph: ADV
-  gloss: here [is]
-  strong: '5602'
-  domain: 083001
-  ln: '83.1'
-  role: p
+  ids:
+    ref: MAT 24:23!7
+    wordID: n40024023007
+  translation:
+    gloss: here [is]
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5602'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.1'
+  syntax:
+    role: p
 - position: 8
-  ref: MAT 24:23!8
-  xml_id: n40024023008
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:23!8
+    wordID: n40024023008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 24:23!9
-  xml_id: n40024023009
-  unicode: Χριστός
+  text: Χριστός
   lemma: Χριστός
   normalized: Χριστός
-  class: noun
-  morph: N-NSM
-  gloss: Christ
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5547'
-  domain: 053009
-  ln: '53.82'
+  ids:
+    ref: MAT 24:23!9
+    wordID: n40024023009
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.82'
 - position: 10
-  ref: MAT 24:23!10
-  xml_id: n40024023010
-  unicode: ἤ
+  text: ἤ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 24:23!10
+    wordID: n40024023010
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 11
-  ref: MAT 24:23!11
-  xml_id: n40024023011
-  unicode: Ὧδε
+  text: Ὧδε
   lemma: ὧδε
   normalized: Ὧδε
-  class: adv
-  morph: ADV
-  gloss: Here
-  strong: '5602'
-  domain: 083001
-  ln: '83.1'
-  role: p
+  ids:
+    ref: MAT 24:23!11
+    wordID: n40024023011
+  translation:
+    gloss: Here
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5602'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.1'
+  syntax:
+    role: p
 - position: 12
-  ref: MAT 24:23!12
-  xml_id: n40024023012
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 24:23!12
+    wordID: n40024023012
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 13
-  ref: MAT 24:23!13
-  xml_id: n40024023013
-  unicode: πιστεύσητε
+  text: πιστεύσητε
   lemma: πιστεύω
   normalized: πιστεύσητε
-  class: verb
-  morph: V-AAS-2P
-  gloss: believe [it]
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '4100'
-  domain: '031006'
-  ln: '31.35'
-  role: v
-syntax:
-  word_order: P-S
+  ids:
+    ref: MAT 24:23!13
+    wordID: n40024023013
+  translation:
+    gloss: believe [it]
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: '031006'
+    ln: '31.35'
+  syntax:
+    role: v
+    frame: A0:n40024003012
+  discourse:
+    subject: n40024003012

@@ -1,163 +1,196 @@
-verse:
-  reference: MAT 22:26
-  book_code: MAT
-  chapter: 22
-  verse: 26
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁμοίως καὶ ὁ δεύτερος καὶ ὁ τρίτος, ἕως τῶν ἑπτά·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:26
+text: ὁμοίως καὶ ὁ δεύτερος καὶ ὁ τρίτος, ἕως τῶν ἑπτά·
 words:
 - position: 1
-  ref: MAT 22:26!1
-  xml_id: n40022026001
-  unicode: ὁμοίως
+  text: ὁμοίως
   lemma: ὁμοίως
   normalized: ὁμοίως
-  class: adv
-  morph: ADV
-  gloss: Likewise
-  strong: '3668'
-  domain: '064'
-  ln: '64.1'
-  role: adv
+  ids:
+    ref: MAT 22:26!1
+    wordID: n40022026001
+  translation:
+    gloss: Likewise
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3668'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.1'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 22:26!2
-  xml_id: n40022026002
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: also
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 22:26!2
+    wordID: n40022026002
+  translation:
+    gloss: also
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 3
-  ref: MAT 22:26!3
-  xml_id: n40022026003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:26!3
+    wordID: n40022026003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 22:26!4
-  xml_id: n40022026004
-  unicode: δεύτερος
+  text: δεύτερος
   lemma: δεύτερος
   normalized: δεύτερος
-  class: adj
-  morph: A-NSM
-  gloss: second
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1208'
-  domain: '060003'
-  ln: '60.49'
+  ids:
+    ref: MAT 22:26!4
+    wordID: n40022026004
+  translation:
+    gloss: second
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1208'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.49'
 - position: 5
-  ref: MAT 22:26!5
-  xml_id: n40022026005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 22:26!5
+    wordID: n40022026005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 6
-  ref: MAT 22:26!6
-  xml_id: n40022026006
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:26!6
+    wordID: n40022026006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 22:26!7
-  xml_id: n40022026007
-  unicode: τρίτος
+  text: τρίτος
   lemma: τρίτος
   normalized: τρίτος
-  class: adj
-  morph: A-NSM
-  gloss: third
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5154'
-  domain: '060003'
-  ln: '60.50'
+  ids:
+    ref: MAT 22:26!7
+    wordID: n40022026007
+  translation:
+    gloss: third
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '5154'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.50'
 - position: 8
-  ref: MAT 22:26!8
-  xml_id: n40022026008
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: prep
-  morph: ADV
-  gloss: unto
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 22:26!8
+    wordID: n40022026008
+  translation:
+    gloss: unto
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 9
-  ref: MAT 22:26!9
-  xml_id: n40022026009
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:26!9
+    wordID: n40022026009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 22:26!10
-  xml_id: n40022026010
-  unicode: ἑπτά
+  text: ἑπτά
   lemma: ἑπτά
   normalized: ἑπτά
-  class: num
-  morph: A-NUI
-  gloss: seventh
-  strong: '2033'
-  domain: '060002'
-  ln: '60.16'
-syntax:
-  word_order: ADV-S-ADV
+  ids:
+    ref: MAT 22:26!10
+    wordID: n40022026010
+  translation:
+    gloss: seventh
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '2033'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.16'

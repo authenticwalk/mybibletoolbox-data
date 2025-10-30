@@ -1,0 +1,145 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 4:16
+text: 1CO 4:16 παρακαλῶ οὖν ὑμᾶς, μιμηταί μου γίνεσθε.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: 1CO 4:16!2
+    wordID: n46004016002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: παρακαλῶ
+  lemma: παρακαλέω
+  normalized: παρακαλῶ
+  ids:
+    ref: 1CO 4:16!1
+    wordID: n46004016001
+  translation:
+    gloss: I exhort
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3870'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.168'
+  syntax:
+    role: v
+    frame: A0:n46003022002 A1:n46004016003
+  discourse:
+    subject: n46003022002
+- position: 3
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1CO 4:16!3
+    wordID: n46004016003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n46004006003
+- position: 4
+  text: μιμηταί
+  lemma: μιμητής
+  normalized: μιμηταί
+  ids:
+    ref: 1CO 4:16!4
+    wordID: n46004016004
+  translation:
+    gloss: imitators
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3402'
+  semantic:
+    semanticDomain: '041004'
+    ln: '41.45'
+- position: 5
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: 1CO 4:16!5
+    wordID: n46004016005
+  translation:
+    gloss: of me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n46003022002
+- position: 6
+  text: γίνεσθε
+  lemma: γίνομαι
+  normalized: γίνεσθε
+  ids:
+    ref: 1CO 4:16!6
+    wordID: n46004016006
+  translation:
+    gloss: become
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.48'
+  syntax:
+    role: vc
+  discourse:
+    subject: n46004006003

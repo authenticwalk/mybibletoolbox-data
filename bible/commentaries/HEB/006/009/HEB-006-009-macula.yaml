@@ -1,0 +1,285 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: HEB 6:9
+text: Πεπείσμεθα δὲ περὶ ὑμῶν, ἀγαπητοί, τὰ κρείσσονα καὶ ἐχόμενα σωτηρίας, εἰ καὶ
+  οὕτως λαλοῦμεν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: HEB 6:9!2
+    wordID: n58006009002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+- position: 2
+  text: ἀγαπητοί
+  lemma: ἀγαπητός
+  normalized: ἀγαπητοί
+  ids:
+    ref: HEB 6:9!5
+    wordID: n58006009005
+  translation:
+    gloss: beloved
+  morphology:
+    class: adj
+    morph: A-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+  lexical:
+    strong: '27'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.45'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Πεπείσμεθα
+  lemma: πείθω
+  normalized: Πεπείσμεθα
+  ids:
+    ref: HEB 6:9!1
+    wordID: n58006009001
+  translation:
+    gloss: We are persuaded
+  morphology:
+    class: verb
+    morph: V-RPI-1P
+    number: plural
+    person: first
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3982'
+  semantic:
+    semanticDomain: 033028
+    ln: '33.301'
+  syntax:
+    role: v
+    frame: A1:n58005011004 A1:n58006009007;n58006009009
+  discourse:
+    subject: n58005011004
+- position: 4
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: HEB 6:9!3
+    wordID: n58006009003
+  translation:
+    gloss: concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.6'
+- position: 5
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: HEB 6:9!4
+    wordID: n58006009004
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n58006009005
+- position: 6
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: HEB 6:9!6
+    wordID: n58006009006
+  translation:
+    gloss: of
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: κρείσσονα
+  lemma: κρείττων
+  normalized: κρείσσονα
+  ids:
+    ref: HEB 6:9!7
+    wordID: n58006009007
+  translation:
+    gloss: better [things]
+  morphology:
+    class: adj
+    morph: A-APN-C
+    gender: neuter
+    number: plural
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '2908'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.21'
+- position: 8
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: HEB 6:9!8
+    wordID: n58006009008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 9
+  text: ἐχόμενα
+  lemma: ἔχω
+  normalized: ἐχόμενα
+  ids:
+    ref: HEB 6:9!9
+    wordID: n58006009009
+  translation:
+    gloss: '[things] accompanying'
+  morphology:
+    class: verb
+    morph: V-PPP-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: 018001 090012
+    ln: 18.6 90.51
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 10
+  text: σωτηρίας
+  lemma: σωτηρία
+  normalized: σωτηρίας
+  ids:
+    ref: HEB 6:9!10
+    wordID: n58006009010
+  translation:
+    gloss: salvation
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4991'
+  semantic:
+    semanticDomain: '021006'
+    ln: '21.26'
+  syntax:
+    role: adv
+- position: 11
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: HEB 6:9!11
+    wordID: n58006009011
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+- position: 12
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: HEB 6:9!12
+    wordID: n58006009012
+  translation:
+    gloss: even
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  syntax:
+    role: adv
+- position: 13
+  text: οὕτως
+  lemma: οὕτω
+  normalized: οὕτως
+  ids:
+    ref: HEB 6:9!13
+    wordID: n58006009013
+  translation:
+    gloss: like this
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3779'
+  syntax:
+    role: adv
+- position: 14
+  text: λαλοῦμεν
+  lemma: λαλέω
+  normalized: λαλοῦμεν
+  ids:
+    ref: HEB 6:9!14
+    wordID: n58006009014
+  translation:
+    gloss: we speak
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n58005011004
+  discourse:
+    subject: n58005011004

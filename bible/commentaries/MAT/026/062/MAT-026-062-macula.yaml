@@ -1,219 +1,289 @@
-verse:
-  reference: MAT 26:62
-  book_code: MAT
-  chapter: 26
-  verse: 62
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἀναστὰς ὁ ἀρχιερεὺς εἶπεν αὐτῷ Οὐδὲν ἀποκρίνῃ, τί οὗτοί σου καταμαρτυροῦσιν;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:62
+text: καὶ ἀναστὰς ὁ ἀρχιερεὺς εἶπεν αὐτῷ Οὐδὲν ἀποκρίνῃ, τί οὗτοί σου καταμαρτυροῦσιν;
 words:
 - position: 1
-  ref: MAT 26:62!1
-  xml_id: n40026062001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:62!1
+    wordID: n40026062001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 26:62!2
-  xml_id: n40026062002
-  unicode: ἀναστὰς
+  text: ἀναστὰς
   lemma: ἀνίστημι
   normalized: ἀναστάς
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having stood up
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '450'
-  domain: '017001'
-  ln: '17.6'
-  role: v
+  ids:
+    ref: MAT 26:62!2
+    wordID: n40026062002
+  translation:
+    gloss: having stood up
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '450'
+  semantic:
+    semanticDomain: '017001'
+    ln: '17.6'
+  syntax:
+    role: v
+    frame: A0:n40026062004
+  discourse:
+    subject: n40026062004
 - position: 3
-  ref: MAT 26:62!3
-  xml_id: n40026062003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:62!3
+    wordID: n40026062003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 26:62!4
-  xml_id: n40026062004
-  unicode: ἀρχιερεὺς
+  text: ἀρχιερεὺς
   lemma: ἀρχιερεύς
   normalized: ἀρχιερεύς
-  class: noun
-  morph: N-NSM
-  gloss: high priest
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '749'
-  domain: 053009
-  ln: '53.89'
+  ids:
+    ref: MAT 26:62!4
+    wordID: n40026062004
+  translation:
+    gloss: high priest
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '749'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.89'
 - position: 5
-  ref: MAT 26:62!5
-  xml_id: n40026062005
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:62!5
+    wordID: n40026062005
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026062004 A2:n40026062006
 - position: 6
-  ref: MAT 26:62!6
-  xml_id: n40026062006
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 26:62!6
+    wordID: n40026062006
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40026059012
 - position: 7
-  ref: MAT 26:62!7
-  xml_id: n40026062007
-  unicode: Οὐδὲν
+  text: Οὐδὲν
   lemma: οὐδείς
   normalized: Οὐδέν
-  class: adj
-  morph: A-ASN-N
-  gloss: Nothing
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3762'
-  domain: 092004
-  ln: '92.23'
-  role: o
+  ids:
+    ref: MAT 26:62!7
+    wordID: n40026062007
+  translation:
+    gloss: Nothing
+  morphology:
+    class: adj
+    morph: A-ASN-N
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: o
 - position: 8
-  ref: MAT 26:62!8
-  xml_id: n40026062008
-  unicode: ἀποκρίνῃ
+  text: ἀποκρίνῃ
   lemma: ἀποκρίνομαι
   normalized: ἀποκρίνῃ
-  class: verb
-  morph: V-PNI-2S
-  gloss: answer you
-  number: singular
-  person: second
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '611'
-  domain: '033014'
-  ln: '33.184'
-  role: v
+  ids:
+    ref: MAT 26:62!8
+    wordID: n40026062008
+  translation:
+    gloss: answer you
+  morphology:
+    class: verb
+    morph: V-PNI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A0:n40026059012
+  discourse:
+    subject: n40026059012
 - position: 9
-  ref: MAT 26:62!9
-  xml_id: n40026062009
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: What
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: o
+  ids:
+    ref: MAT 26:62!9
+    wordID: n40026062009
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 26:62!10
-  xml_id: n40026062010
-  unicode: οὗτοί
+  text: οὗτοί
   lemma: οὗτος
   normalized: οὗτοι
-  class: pron
-  morph: D-NPM
-  gloss: these
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
-  role: s
+  ids:
+    ref: MAT 26:62!10
+    wordID: n40026062010
+  translation:
+    gloss: these
+  morphology:
+    class: pron
+    morph: D-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026060010
 - position: 11
-  ref: MAT 26:62!11
-  xml_id: n40026062011
-  unicode: σου
+  text: σου
   lemma: σύ
   normalized: σου
-  class: pron
-  morph: P-2GS
-  gloss: you
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: adv
+  ids:
+    ref: MAT 26:62!11
+    wordID: n40026062011
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40026059012
 - position: 12
-  ref: MAT 26:62!12
-  xml_id: n40026062012
-  unicode: καταμαρτυροῦσιν
+  text: καταμαρτυροῦσιν
   lemma: καταμαρτυρέω
   normalized: καταμαρτυροῦσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: do witness against
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2649'
-  domain: '033020'
-  ln: '33.269'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 26:62!12
+    wordID: n40026062012
+  translation:
+    gloss: do witness against
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2649'
+  semantic:
+    semanticDomain: '033020'
+    ln: '33.269'
+  syntax:
+    role: v
+    frame: A1:n40026062009 A0:n40026062010

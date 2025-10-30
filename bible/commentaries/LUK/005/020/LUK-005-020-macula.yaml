@@ -1,0 +1,279 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 5:20
+text: καὶ ἰδὼν τὴν πίστιν αὐτῶν εἶπεν Ἄνθρωπε, ἀφέωνταί σοι αἱ ἁμαρτίαι σου.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 5:20!1
+    wordID: n42005020001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: ἰδὼν
+  lemma: ὁράω
+  normalized: ἰδών
+  ids:
+    ref: LUK 5:20!2
+    wordID: n42005020002
+  translation:
+    gloss: having seen
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n42005019027 A1:n42005020004
+  discourse:
+    subject: n42005019027
+- position: 3
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: LUK 5:20!3
+    wordID: n42005020003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: πίστιν
+  lemma: πίστις
+  normalized: πίστιν
+  ids:
+    ref: LUK 5:20!4
+    wordID: n42005020004
+  translation:
+    gloss: faith
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4102'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.85'
+- position: 5
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: LUK 5:20!5
+    wordID: n42005020005
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n42005018003 n42005018007
+- position: 6
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: LUK 5:20!6
+    wordID: n42005020006
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42005019027
+  discourse:
+    subject: n42005019027
+- position: 7
+  text: Ἄνθρωπε
+  lemma: ἄνθρωπος
+  normalized: Ἄνθρωπε
+  ids:
+    ref: LUK 5:20!7
+    wordID: n42005020007
+  translation:
+    gloss: Man
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009002
+    ln: '9.24'
+  syntax:
+    role: aux
+- position: 8
+  text: ἀφέωνταί
+  lemma: ἀφίημι
+  normalized: ἀφέωνται
+  ids:
+    ref: LUK 5:20!8
+    wordID: n42005020008
+  translation:
+    gloss: have been forgiven
+  morphology:
+    class: verb
+    morph: V-RPI-3P
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A2:n42005020009 A1:n42005020011
+- position: 9
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: LUK 5:20!9
+    wordID: n42005020009
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n42005020007
+- position: 10
+  text: αἱ
+  lemma: ὁ
+  normalized: αἱ
+  ids:
+    ref: LUK 5:20!10
+    wordID: n42005020010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: ἁμαρτίαι
+  lemma: ἁμαρτία
+  normalized: ἁμαρτίαι
+  ids:
+    ref: LUK 5:20!11
+    wordID: n42005020011
+  translation:
+    gloss: sins
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '266'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.310'
+- position: 12
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: LUK 5:20!12
+    wordID: n42005020012
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n42005020007

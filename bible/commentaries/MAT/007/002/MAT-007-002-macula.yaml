@@ -1,220 +1,290 @@
-verse:
-  reference: MAT 7:2
-  book_code: MAT
-  chapter: 7
-  verse: 2
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἐν ᾧ γὰρ κρίματι κρίνετε κριθήσεσθε, καὶ ἐν ᾧ μέτρῳ μετρεῖτε μετρηθήσεται
-    ὑμῖν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 7:2
+text: ἐν ᾧ γὰρ κρίματι κρίνετε κριθήσεσθε, καὶ ἐν ᾧ μέτρῳ μετρεῖτε μετρηθήσεται ὑμῖν.
 words:
 - position: 1
-  ref: MAT 7:2!3
-  xml_id: n40007002003
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 7:2!3
+    wordID: n40007002003
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 7:2!1
-  xml_id: n40007002001
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: With
-  strong: '1722'
-  domain: 090002
-  ln: '90.10'
+  ids:
+    ref: MAT 7:2!1
+    wordID: n40007002001
+  translation:
+    gloss: With
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090002
+    ln: '90.10'
 - position: 3
-  ref: MAT 7:2!2
-  xml_id: n40007002002
-  unicode: ᾧ
+  text: ᾧ
   lemma: ὅς
   normalized: ᾧ
-  class: pron
-  morph: R-DSN
-  gloss: whatever
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
+  ids:
+    ref: MAT 7:2!2
+    wordID: n40007002002
+  translation:
+    gloss: whatever
+  morphology:
+    class: pron
+    morph: R-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
 - position: 4
-  ref: MAT 7:2!4
-  xml_id: n40007002004
-  unicode: κρίματι
+  text: κρίματι
   lemma: κρίμα
   normalized: κρίματι
-  class: noun
-  morph: N-DSN
-  gloss: verdict
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '2917'
-  domain: '056005'
-  ln: '56.30'
+  ids:
+    ref: MAT 7:2!4
+    wordID: n40007002004
+  translation:
+    gloss: verdict
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2917'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.30'
 - position: 5
-  ref: MAT 7:2!5
-  xml_id: n40007002005
-  unicode: κρίνετε
+  text: κρίνετε
   lemma: κρίνω
   normalized: κρίνετε
-  class: verb
-  morph: V-PAI-2P
-  gloss: you judge
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2919'
-  domain: '056005'
-  ln: '56.30'
-  role: v
+  ids:
+    ref: MAT 7:2!5
+    wordID: n40007002005
+  translation:
+    gloss: you judge
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.30'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 6
-  ref: MAT 7:2!6
-  xml_id: n40007002006
-  unicode: κριθήσεσθε
+  text: κριθήσεσθε
   lemma: κρίνω
   normalized: κριθήσεσθε
-  class: verb
-  morph: V-FPI-2P
-  gloss: you will be judged
-  number: plural
-  person: second
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '2919'
-  domain: '056005'
-  ln: '56.30'
-  role: v
+  ids:
+    ref: MAT 7:2!6
+    wordID: n40007002006
+  translation:
+    gloss: you will be judged
+  morphology:
+    class: verb
+    morph: V-FPI-2P
+    number: plural
+    person: second
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.30'
+  syntax:
+    role: v
+    frame: A1:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 7
-  ref: MAT 7:2!7
-  xml_id: n40007002007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 7:2!7
+    wordID: n40007002007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 8
-  ref: MAT 7:2!8
-  xml_id: n40007002008
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '1722'
-  domain: 090002
-  ln: '90.10'
+  ids:
+    ref: MAT 7:2!8
+    wordID: n40007002008
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090002
+    ln: '90.10'
 - position: 9
-  ref: MAT 7:2!9
-  xml_id: n40007002009
-  unicode: ᾧ
+  text: ᾧ
   lemma: ὅς
   normalized: ᾧ
-  class: pron
-  morph: R-DSN
-  gloss: whatever
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
+  ids:
+    ref: MAT 7:2!9
+    wordID: n40007002009
+  translation:
+    gloss: whatever
+  morphology:
+    class: pron
+    morph: R-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
 - position: 10
-  ref: MAT 7:2!10
-  xml_id: n40007002010
-  unicode: μέτρῳ
+  text: μέτρῳ
   lemma: μέτρον
   normalized: μέτρῳ
-  class: noun
-  morph: N-DSN
-  gloss: measure
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3358'
-  domain: 081001
-  ln: '81.1'
+  ids:
+    ref: MAT 7:2!10
+    wordID: n40007002010
+  translation:
+    gloss: measure
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3358'
+  semantic:
+    semanticDomain: 081001
+    ln: '81.1'
 - position: 11
-  ref: MAT 7:2!11
-  xml_id: n40007002011
-  unicode: μετρεῖτε
+  text: μετρεῖτε
   lemma: μετρέω
   normalized: μετρεῖτε
-  class: verb
-  morph: V-PAI-2P
-  gloss: you measure
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3354'
-  domain: 057008
-  ln: '57.92'
-  role: v
+  ids:
+    ref: MAT 7:2!11
+    wordID: n40007002011
+  translation:
+    gloss: you measure
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3354'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.92'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 12
-  ref: MAT 7:2!12
-  xml_id: n40007002012
-  unicode: μετρηθήσεται
+  text: μετρηθήσεται
   lemma: μετρέω
   normalized: μετρηθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: it will be measured again
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '3354'
-  domain: 057008
-  ln: '57.92'
-  role: v
+  ids:
+    ref: MAT 7:2!12
+    wordID: n40007002012
+  translation:
+    gloss: it will be measured again
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3354'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.92'
+  syntax:
+    role: v
+    frame: A1:n40007002011 A2:n40007002013
 - position: 13
-  ref: MAT 7:2!13
-  xml_id: n40007002013
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
-syntax:
-  word_order: ADV-V
+  ids:
+    ref: MAT 7:2!13
+    wordID: n40007002013
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40006030022

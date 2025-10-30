@@ -1,0 +1,646 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DAN 11:10
+text: וּבָנָ֣יו יִתְגָּר֗וּ וְאָסְפוּ֙ הֲמוֹן֙ חֲיָלִ֣ים רַבִּ֔ים וּבָ֥א ב֖וֹא וְשָׁטַ֣ף
+  וְעָבָ֑ר וְיָשֹׁ֥ב וְיִתְגָּרֶ֖ה עַד־מָעֻזּֽוֹ׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: '**û'
+  ids:
+    ref: DAN 11:10!2
+    wordID: o270110100021
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: בָנָ֣י
+  lemma: בֵּן
+  transliteration: ''
+  ids:
+    ref: DAN 11:10!2
+    wordID: o270110100022
+  translation:
+    english: sons
+    mandarin: 儿子们
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: υἱὸς
+    strong: '5207'
+- position: 3
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DAN 11:10!2
+    wordID: o270110100023
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '270110080162'
+- position: 4
+  text: יִתְגָּר֗וּ
+  lemma: גָּרָה
+  transliteration: yiṯgārû
+  ids:
+    ref: DAN 11:10!3
+    wordID: o270110100031
+  translation:
+    english: wage war
+    mandarin: 动干戈
+    gloss: they.will.get.ready.for.war
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vti3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: hithpael
+    type: yiqtol
+  lexical:
+    stronglemma: גָּרָה
+    strong: '1624'
+  semantic:
+    sense: '2'
+  syntax:
+    role: v
+    frame: A0:270110100022;
+- position: 5
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DAN 11:10!4
+    wordID: o270110100041
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: אָסְפוּ֙
+  lemma: אָסַף
+  transliteration: ʾāsəp̄û
+  ids:
+    ref: DAN 11:10!4
+    wordID: o270110100042
+  translation:
+    english: assemble
+    mandarin: 招聚
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: אָסַף
+    strong: '0622'
+  semantic:
+    sense: '1'
+  lxx:
+    text: συνάχει
+    strong: '4863'
+  syntax:
+    role: v
+    frame: A0:270110100022; A1:270110100051;
+  discourse:
+    subject: '270110100022'
+- position: 7
+  text: הֲמוֹן֙
+  lemma: הָמוֹן
+  transliteration: hămôn
+  ids:
+    ref: DAN 11:10!5
+    wordID: o270110100051
+  translation:
+    english: multitude
+    mandarin: 大队
+    gloss: a.multitude
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: הָמוֹן
+    strong: '1995'
+  semantic:
+    sdbh:
+    - 000569001002000
+    lexdomain:
+    - '002003002014'
+    sense: '1'
+  lxx:
+    text: συναγωγὴν
+    strong: '4864'
+- position: 8
+  text: חֲיָלִ֣ים
+  lemma: חַיִל
+  transliteration: ḥăyāliym
+  ids:
+    ref: DAN 11:10!6
+    wordID: o270110100061
+  translation:
+    english: forces
+    mandarin: 军兵
+    gloss: of.armies
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חַיִל
+    strong: '2428'
+  semantic:
+    sdbh:
+    - 001840001003000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '138'
+    sense: '1'
+  lxx:
+    text: ὄξλου
+    strong: '3793'
+- position: 9
+  text: רַבִּ֔ים
+  lemma: רַב
+  transliteration: rabbiym
+  ids:
+    ref: DAN 11:10!7
+    wordID: o270110100071
+  translation:
+    english: great
+    mandarin: 庞大
+    gloss: great
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '002242001003000'
+    - '006654001002000'
+    lexdomain:
+    - '001001002003013'
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '074'
+    - '188'
+    sense: '2'
+  lxx:
+    text: πολλοῦ
+    strong: '4183'
+- position: 10
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DAN 11:10!8
+    wordID: o270110100081
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  semantic:
+    sdbh:
+    - '006653001002000'
+    lexdomain:
+    - 002001001028
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: בָ֥א
+  lemma: בּוֹא
+  transliteration: ḇāʾ
+  ids:
+    ref: DAN 11:10!8
+    wordID: o270110100082
+  translation:
+    english: he will sweep on
+    mandarin: 前进
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσελεύσεται
+    strong: '1525'
+  syntax:
+    role: v
+    frame: A0:270110100051;
+  discourse:
+    subject: '270110100051'
+- position: 12
+  text: ב֖וֹא
+  lemma: בּוֹא
+  transliteration: ḇôʾ
+  ids:
+    ref: DAN 11:10!9
+    wordID: o270110100091
+  translation:
+    english: to sweep on
+    mandarin: 往
+    gloss: certainly.(go)
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqa
+    stem: qal
+    type: infinitive absolute
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  syntax:
+    role: adv
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DAN 11:10!10
+    wordID: o270110100101
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 14
+  text: שָׁטַ֣ף
+  lemma: שָׁטַף
+  transliteration: šāṭap̄
+  ids:
+    ref: DAN 11:10!10
+    wordID: o270110100102
+  translation:
+    english: overflow
+    mandarin: 泛滥
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: שָׁטַף
+    strong: '7857'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κατασύρων
+  syntax:
+    role: v
+    frame: A0:270110100051;
+  discourse:
+    subject: '270110100051'
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DAN 11:10!11
+    wordID: o270110100111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 16
+  text: עָבָ֑ר
+  lemma: עָבַר
+  transliteration: ʿāḇār
+  ids:
+    ref: DAN 11:10!11
+    wordID: o270110100112
+  translation:
+    english: pass through
+    mandarin: 漫过
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '6'
+  lxx:
+    text: παρελεύσεται
+    strong: '3928'
+  syntax:
+    role: v
+    frame: A0:270110100051;
+  discourse:
+    subject: '270110100051'
+- position: 17
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DAN 11:10!12
+    wordID: o270110100121
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 18
+  text: יָשֹׁ֥ב
+  lemma: שׁוּב
+  transliteration: yāšōḇ
+  ids:
+    ref: DAN 11:10!12
+    wordID: o270110100122
+  translation:
+    english: again
+    mandarin: 重复
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - '007226001050000'
+    lexdomain:
+    - 002001003009
+    sense: '6'
+  lxx:
+    text: ἐπιστρέψει
+    strong: '1994'
+  syntax:
+    role: v
+    frame: A0:270110100051;
+  discourse:
+    subject: '270110100051'
+- position: 19
+  text: וְ
+  lemma: וְ
+  transliteration: '**wə'
+  ids:
+    ref: DAN 11:10!14
+    wordID: o270110100141
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 20
+  text: יִתְגָּרֶ֖ה
+  lemma: גָּרָה
+  transliteration: '**yiṯgāreh'
+  ids:
+    ref: DAN 11:10!14
+    wordID: o270110100142
+  translation:
+    english: wage war
+    mandarin: 争战
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vti3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hithpael
+    type: yiqtol
+  lexical:
+    stronglemma: גָּרָה
+    strong: '1624'
+  semantic:
+    sense: '2'
+  lxx:
+    text: παροχυνθήσεται
+  syntax:
+    role: v
+    frame: A0:270110100051;
+  discourse:
+    subject: '270110100051'
+- position: 21
+  text: עַד
+  lemma: עַד
+  transliteration: ʿaḏ-
+  ids:
+    ref: DAN 11:10!15
+    wordID: o270110100151
+  translation:
+    english: as far as
+    mandarin: 直到
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001001000'
+    lexdomain:
+    - '002002001'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 22
+  text: מָעֻזּֽ
+  lemma: מָעוֹז
+  transliteration: ''
+  ids:
+    ref: DAN 11:10!17
+    wordID: o270110100171
+  translation:
+    english: fortress
+    mandarin: 堡垒
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מָעוֹז
+    strong: '4581'
+  semantic:
+    sdbh:
+    - 004195001001000
+    lexdomain:
+    - '001005001003'
+    coredomain:
+    - '152'
+    sense: '1'
+- position: 23
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DAN 11:10!17
+    wordID: o270110100172
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 004195001001000
+    lexdomain:
+    - '001005001003'
+    coredomain:
+    - '152'
+  lxx:
+    text: πολύ
+    strong: '4183'
+  discourse:
+    participant: '270110090031'

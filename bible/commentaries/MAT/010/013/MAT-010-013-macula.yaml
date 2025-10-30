@@ -1,376 +1,508 @@
-verse:
-  reference: MAT 10:13
-  book_code: MAT
-  chapter: 10
-  verse: 13
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἐὰν μὲν ᾖ ἡ οἰκία ἀξία, ἐλθάτω ἡ εἰρήνη ὑμῶν ἐπ’ αὐτήν· ἐὰν δὲ μὴ ᾖ
-    ἀξία, ἡ εἰρήνη ὑμῶν πρὸς ὑμᾶς ἐπιστραφήτω.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:13
+text: καὶ ἐὰν μὲν ᾖ ἡ οἰκία ἀξία, ἐλθάτω ἡ εἰρήνη ὑμῶν ἐπ’ αὐτήν· ἐὰν δὲ μὴ ᾖ ἀξία,
+  ἡ εἰρήνη ὑμῶν πρὸς ὑμᾶς ἐπιστραφήτω.
 words:
 - position: 1
-  ref: MAT 10:13!1
-  xml_id: n40010013001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 10:13!1
+    wordID: n40010013001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 10:13!3
-  xml_id: n40010013003
-  unicode: μὲν
+  text: μὲν
   lemma: μέν
   normalized: μέν
-  class: conj
-  morph: PRT
-  gloss: indeed
-  strong: '3303'
-  domain: 089023
-  ln: '89.136'
+  ids:
+    ref: MAT 10:13!3
+    wordID: n40010013003
+  translation:
+    gloss: indeed
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '3303'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.136'
+  syntax:
+    discontinuous: 'true'
 - position: 3
-  ref: MAT 10:13!2
-  xml_id: n40010013002
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: 089010
-  ln: '89.67'
+  ids:
+    ref: MAT 10:13!2
+    wordID: n40010013002
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
 - position: 4
-  ref: MAT 10:13!4
-  xml_id: n40010013004
-  unicode: ᾖ
+  text: ᾖ
   lemma: εἰμί
   normalized: ᾖ
-  class: verb
-  morph: V-PAS-3S
-  gloss: be
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: subjunctive
-  strong: '1510'
-  domain: '013001'
-  ln: '13.1'
-  role: vc
+  ids:
+    ref: MAT 10:13!4
+    wordID: n40010013004
+  translation:
+    gloss: be
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
 - position: 5
-  ref: MAT 10:13!5
-  xml_id: n40010013005
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:13!5
+    wordID: n40010013005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 10:13!6
-  xml_id: n40010013006
-  unicode: οἰκία
+  text: οἰκία
   lemma: οἰκία
   normalized: οἰκία
-  class: noun
-  morph: N-NSF
-  gloss: house
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '3614'
-  domain: '007002'
-  ln: '7.3'
+  ids:
+    ref: MAT 10:13!6
+    wordID: n40010013006
+  translation:
+    gloss: house
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3614'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.3'
 - position: 7
-  ref: MAT 10:13!7
-  xml_id: n40010013007
-  unicode: ἀξία
+  text: ἀξία
   lemma: ἄξιος
   normalized: ἀξία
-  class: adj
-  morph: A-NSF
-  gloss: worthy
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '514'
-  domain: '065002'
-  ln: '65.17'
-  role: p
+  ids:
+    ref: MAT 10:13!7
+    wordID: n40010013007
+  translation:
+    gloss: worthy
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '514'
+  semantic:
+    semanticDomain: '065002'
+    ln: '65.17'
+  syntax:
+    role: p
 - position: 8
-  ref: MAT 10:13!8
-  xml_id: n40010013008
-  unicode: ἐλθάτω
+  text: ἐλθάτω
   lemma: ἔρχομαι
   normalized: ἐλθάτω
-  class: verb
-  morph: V-2AAM-3S
-  gloss: let come
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '2064'
-  domain: '013004'
-  ln: '13.117'
-  role: v
+  ids:
+    ref: MAT 10:13!8
+    wordID: n40010013008
+  translation:
+    gloss: let come
+  morphology:
+    class: verb
+    morph: V-2AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.117'
+  syntax:
+    role: v
+    frame: A0:n40010013010
 - position: 9
-  ref: MAT 10:13!9
-  xml_id: n40010013009
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:13!9
+    wordID: n40010013009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 10:13!10
-  xml_id: n40010013010
-  unicode: εἰρήνη
+  text: εἰρήνη
   lemma: εἰρήνη
   normalized: εἰρήνη
-  class: noun
-  morph: N-NSF
-  gloss: peace
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1515'
-  domain: '022007'
-  ln: '22.42'
+  ids:
+    ref: MAT 10:13!10
+    wordID: n40010013010
+  translation:
+    gloss: peace
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1515'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.42'
 - position: 11
-  ref: MAT 10:13!11
-  xml_id: n40010013011
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 10:13!11
+    wordID: n40010013011
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40010005003
 - position: 12
-  ref: MAT 10:13!12
-  xml_id: n40010013012
-  unicode: ἐπ’
+  text: ἐπ’
   lemma: ἐπί
   normalized: ἐπ’
-  class: prep
-  morph: PREP
-  gloss: upon
-  strong: '1909'
-  domain: 090013
-  ln: '90.57'
+  ids:
+    ref: MAT 10:13!12
+    wordID: n40010013012
+  translation:
+    gloss: upon
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.57'
 - position: 13
-  ref: MAT 10:13!13
-  xml_id: n40010013013
-  unicode: αὐτήν
+  text: αὐτήν
   lemma: αὐτός
   normalized: αὐτήν
-  class: pron
-  morph: P-ASF
-  gloss: it
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 10:13!13
+    wordID: n40010013013
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40010013006
 - position: 14
-  ref: MAT 10:13!15
-  xml_id: n40010013015
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.136'
+  ids:
+    ref: MAT 10:13!15
+    wordID: n40010013015
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.136'
+  syntax:
+    discontinuous: 'true'
 - position: 15
-  ref: MAT 10:13!14
-  xml_id: n40010013014
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: 089010
-  ln: '89.67'
+  ids:
+    ref: MAT 10:13!14
+    wordID: n40010013014
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
 - position: 16
-  ref: MAT 10:13!16
-  xml_id: n40010013016
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:13!16
+    wordID: n40010013016
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 17
-  ref: MAT 10:13!17
-  xml_id: n40010013017
-  unicode: ᾖ
+  text: ᾖ
   lemma: εἰμί
   normalized: ᾖ
-  class: verb
-  morph: V-PAS-3S
-  gloss: it be
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: subjunctive
-  strong: '1510'
-  domain: '013001'
-  ln: '13.1'
-  role: vc
+  ids:
+    ref: MAT 10:13!17
+    wordID: n40010013017
+  translation:
+    gloss: it be
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
+  discourse:
+    subject: n40010013006
 - position: 18
-  ref: MAT 10:13!18
-  xml_id: n40010013018
-  unicode: ἀξία
+  text: ἀξία
   lemma: ἄξιος
   normalized: ἀξία
-  class: adj
-  morph: A-NSF
-  gloss: worthy
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '514'
-  domain: '065002'
-  ln: '65.17'
-  role: p
+  ids:
+    ref: MAT 10:13!18
+    wordID: n40010013018
+  translation:
+    gloss: worthy
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '514'
+  semantic:
+    semanticDomain: '065002'
+    ln: '65.17'
+  syntax:
+    role: p
 - position: 19
-  ref: MAT 10:13!19
-  xml_id: n40010013019
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:13!19
+    wordID: n40010013019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 10:13!20
-  xml_id: n40010013020
-  unicode: εἰρήνη
+  text: εἰρήνη
   lemma: εἰρήνη
   normalized: εἰρήνη
-  class: noun
-  morph: N-NSF
-  gloss: peace
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1515'
-  domain: '022007'
-  ln: '22.42'
+  ids:
+    ref: MAT 10:13!20
+    wordID: n40010013020
+  translation:
+    gloss: peace
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1515'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.42'
 - position: 21
-  ref: MAT 10:13!21
-  xml_id: n40010013021
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 10:13!21
+    wordID: n40010013021
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40010005003
 - position: 22
-  ref: MAT 10:13!22
-  xml_id: n40010013022
-  unicode: πρὸς
+  text: πρὸς
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '4314'
-  domain: 084002
-  ln: '84.18'
+  ids:
+    ref: MAT 10:13!22
+    wordID: n40010013022
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
 - position: 23
-  ref: MAT 10:13!23
-  xml_id: n40010013023
-  unicode: ὑμᾶς
+  text: ὑμᾶς
   lemma: σύ
   normalized: ὑμᾶς
-  class: pron
-  morph: P-2AP
-  gloss: you
-  number: plural
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 10:13!23
+    wordID: n40010013023
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40010005003
 - position: 24
-  ref: MAT 10:13!24
-  xml_id: n40010013024
-  unicode: ἐπιστραφήτω
+  text: ἐπιστραφήτω
   lemma: ἐπιστρέφω
   normalized: ἐπιστραφήτω
-  class: verb
-  morph: V-2APM-3S
-  gloss: let return
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: imperative
-  strong: '1994'
-  domain: '015007'
-  ln: '15.90'
-  role: v
-syntax:
-  word_order: VC-S-P
+  ids:
+    ref: MAT 10:13!24
+    wordID: n40010013024
+  translation:
+    gloss: let return
+  morphology:
+    class: verb
+    morph: V-2APM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: imperative
+  lexical:
+    strong: '1994'
+  semantic:
+    semanticDomain: '015007'
+    ln: '15.90'
+  syntax:
+    role: v
+    frame: A1:n40010013020

@@ -1,0 +1,140 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1JN 5:21
+text: 1JN 5:21 Τεκνία, φυλάξατε ἑαυτὰ ἀπὸ τῶν εἰδώλων.
+words:
+- position: 1
+  text: Τεκνία
+  lemma: τεκνίον
+  normalized: Τεκνία
+  ids:
+    ref: 1JN 5:21!1
+    wordID: n62005021001
+  translation:
+    gloss: Little children
+  morphology:
+    class: noun
+    morph: N-VPN
+    gender: neuter
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '5040'
+  semantic:
+    semanticDomain: 009005
+    ln: '9.46'
+  syntax:
+    role: aux
+- position: 2
+  text: φυλάξατε
+  lemma: φυλάσσω
+  normalized: φυλάξατε
+  ids:
+    ref: 1JN 5:21!2
+    wordID: n62005021002
+  translation:
+    gloss: keep
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5442'
+  semantic:
+    semanticDomain: 013004 037009
+    ln: 13.154 37.120
+  syntax:
+    role: v
+    frame: A0:n62005021001 A1:n62005021003
+  discourse:
+    subject: n62005021001
+- position: 3
+  text: ἑαυτὰ
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτά
+  ids:
+    ref: 1JN 5:21!3
+    wordID: n62005021003
+  translation:
+    gloss: yourselves
+  morphology:
+    class: pron
+    morph: F-2APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n62005021001
+- position: 4
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: 1JN 5:21!4
+    wordID: n62005021004
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089021
+    ln: '89.122'
+- position: 5
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: 1JN 5:21!5
+    wordID: n62005021005
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: εἰδώλων
+  lemma: εἴδωλον
+  normalized: εἰδώλων
+  ids:
+    ref: 1JN 5:21!6
+    wordID: n62005021006
+  translation:
+    gloss: idols
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '1497'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.23'

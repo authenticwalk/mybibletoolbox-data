@@ -1,153 +1,191 @@
-verse:
-  reference: MAT 4:2
-  book_code: MAT
-  chapter: 4
-  verse: 2
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ νηστεύσας ἡμέρας τεσσεράκοντα καὶ τεσσεράκοντα νύκτας ὕστερον ἐπείνασεν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 4:2
+text: καὶ νηστεύσας ἡμέρας τεσσεράκοντα καὶ τεσσεράκοντα νύκτας ὕστερον ἐπείνασεν.
 words:
 - position: 1
-  ref: MAT 4:2!1
-  xml_id: n40004002001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 4:2!1
+    wordID: n40004002001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 4:2!2
-  xml_id: n40004002002
-  unicode: νηστεύσας
+  text: νηστεύσας
   lemma: νηστεύω
   normalized: νηστεύσας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: having fasted
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3522'
-  domain: 053008
-  ln: '53.65'
-  role: v
+  ids:
+    ref: MAT 4:2!2
+    wordID: n40004002002
+  translation:
+    gloss: having fasted
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3522'
+  semantic:
+    semanticDomain: 053008
+    ln: '53.65'
+  syntax:
+    role: v
+    frame: A0:n40004001003
+  discourse:
+    subject: n40004001003
 - position: 3
-  ref: MAT 4:2!3
-  xml_id: n40004002003
-  unicode: ἡμέρας
+  text: ἡμέρας
   lemma: ἡμέρα
   normalized: ἡμέρας
-  class: noun
-  morph: N-APF
-  gloss: days
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '2250'
-  domain: '067005'
-  ln: '67.93'
+  ids:
+    ref: MAT 4:2!3
+    wordID: n40004002003
+  translation:
+    gloss: days
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2250'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.93'
 - position: 4
-  ref: MAT 4:2!4
-  xml_id: n40004002004
-  unicode: τεσσεράκοντα
+  text: τεσσεράκοντα
   lemma: τεσσεράκοντα
   normalized: τεσσεράκοντα
-  class: num
-  morph: A-NUI
-  gloss: forty
-  strong: '5062'
-  domain: '067005'
-  ln: '67.93'
+  ids:
+    ref: MAT 4:2!4
+    wordID: n40004002004
+  translation:
+    gloss: forty
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '5062'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.93'
 - position: 5
-  ref: MAT 4:2!5
-  xml_id: n40004002005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 4:2!5
+    wordID: n40004002005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 6
-  ref: MAT 4:2!6
-  xml_id: n40004002006
-  unicode: τεσσεράκοντα
+  text: τεσσεράκοντα
   lemma: τεσσεράκοντα
   normalized: τεσσεράκοντα
-  class: num
-  morph: A-NUI
-  gloss: forty
-  strong: '5062'
-  domain: '067005'
-  ln: '67.93'
+  ids:
+    ref: MAT 4:2!6
+    wordID: n40004002006
+  translation:
+    gloss: forty
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '5062'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.93'
 - position: 7
-  ref: MAT 4:2!7
-  xml_id: n40004002007
-  unicode: νύκτας
+  text: νύκτας
   lemma: νύξ
   normalized: νύκτας
-  class: noun
-  morph: N-APF
-  gloss: nights
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '3571'
-  domain: '067005'
-  ln: '67.93'
+  ids:
+    ref: MAT 4:2!7
+    wordID: n40004002007
+  translation:
+    gloss: nights
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3571'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.93'
 - position: 8
-  ref: MAT 4:2!8
-  xml_id: n40004002008
-  unicode: ὕστερον
+  text: ὕστερον
   lemma: ὕστερος
   normalized: ὕστερον
-  class: adj
-  morph: ADV
-  gloss: afterward
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5305'
-  domain: '067002'
-  ln: '67.50'
-  role: adv
+  ids:
+    ref: MAT 4:2!8
+    wordID: n40004002008
+  translation:
+    gloss: afterward
+  morphology:
+    class: adj
+    morph: ADV
+    gender: neuter
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '5305'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.50'
+  syntax:
+    role: adv
 - position: 9
-  ref: MAT 4:2!9
-  xml_id: n40004002009
-  unicode: ἐπείνασεν
+  text: ἐπείνασεν
   lemma: πεινάω
   normalized: ἐπείνασεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: He was hungry
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3983'
-  domain: '023001'
-  ln: '23.29'
-  role: v
-syntax:
-  word_order: ADV-ADV-V
+  ids:
+    ref: MAT 4:2!9
+    wordID: n40004002009
+  translation:
+    gloss: He was hungry
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3983'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.29'
+  syntax:
+    role: v
+    frame: A0:n40004001003
+  discourse:
+    subject: n40004001003

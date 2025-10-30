@@ -1,352 +1,478 @@
-verse:
-  reference: MAT 21:41
-  book_code: MAT
-  chapter: 21
-  verse: 41
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: λέγουσιν αὐτῷ Κακοὺς κακῶς ἀπολέσει αὐτούς, καὶ τὸν ἀμπελῶνα ἐκδώσεται
-    ἄλλοις γεωργοῖς, οἵτινες ἀποδώσουσιν αὐτῷ τοὺς καρποὺς ἐν τοῖς καιροῖς αὐτῶν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 21:41
+text: λέγουσιν αὐτῷ Κακοὺς κακῶς ἀπολέσει αὐτούς, καὶ τὸν ἀμπελῶνα ἐκδώσεται ἄλλοις
+  γεωργοῖς, οἵτινες ἀποδώσουσιν αὐτῷ τοὺς καρποὺς ἐν τοῖς καιροῖς αὐτῶν.
 words:
 - position: 1
-  ref: MAT 21:41!1
-  xml_id: n40021041001
-  unicode: λέγουσιν
+  text: λέγουσιν
   lemma: λέγω
   normalized: λέγουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: They say
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 21:41!1
+    wordID: n40021041001
+  translation:
+    gloss: They say
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40021023011;n40021023014 A2:n40021041002
+  discourse:
+    subject: n40021023011 n40021023014
 - position: 2
-  ref: MAT 21:41!2
-  xml_id: n40021041002
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 21:41!2
+    wordID: n40021041002
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40021031016
 - position: 3
-  ref: MAT 21:41!3
-  xml_id: n40021041003
-  unicode: Κακοὺς
+  text: Κακοὺς
   lemma: κακός
   normalized: Κακούς
-  class: adj
-  morph: A-APM
-  gloss: '[The] wretches'
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '2556'
-  domain: 088015
-  ln: '88.106'
-  role: aux
+  ids:
+    ref: MAT 21:41!3
+    wordID: n40021041003
+  translation:
+    gloss: '[The] wretches'
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '2556'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.106'
+  syntax:
+    role: aux
 - position: 4
-  ref: MAT 21:41!4
-  xml_id: n40021041004
-  unicode: κακῶς
+  text: κακῶς
   lemma: κακῶς
   normalized: κακῶς
-  class: adv
-  morph: ADV
-  gloss: grievously
-  strong: '2560'
-  domain: 078001
-  ln: '78.17'
-  role: adv
+  ids:
+    ref: MAT 21:41!4
+    wordID: n40021041004
+  translation:
+    gloss: grievously
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2560'
+  semantic:
+    semanticDomain: 078001
+    ln: '78.17'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 21:41!5
-  xml_id: n40021041005
-  unicode: ἀπολέσει
+  text: ἀπολέσει
   lemma: ἀπόλλυμι
   normalized: ἀπολέσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: He will destroy
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '622'
-  domain: '020003'
-  ln: '20.31'
-  role: v
+  ids:
+    ref: MAT 21:41!5
+    wordID: n40021041005
+  translation:
+    gloss: He will destroy
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '622'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.31'
+  syntax:
+    role: v
+    frame: A0:n40021040005 A1:n40021041006
+  discourse:
+    subject: n40021040005
 - position: 6
-  ref: MAT 21:41!6
-  xml_id: n40021041006
-  unicode: αὐτούς
+  text: αὐτούς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 21:41!6
+    wordID: n40021041006
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40021041003
 - position: 7
-  ref: MAT 21:41!7
-  xml_id: n40021041007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 21:41!7
+    wordID: n40021041007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 8
-  ref: MAT 21:41!8
-  xml_id: n40021041008
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:41!8
+    wordID: n40021041008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 21:41!9
-  xml_id: n40021041009
-  unicode: ἀμπελῶνα
+  text: ἀμπελῶνα
   lemma: ἀμπελών
   normalized: ἀμπελῶνα
-  class: noun
-  morph: N-ASM
-  gloss: vineyard
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '290'
-  domain: '003003'
-  ln: '3.28'
+  ids:
+    ref: MAT 21:41!9
+    wordID: n40021041009
+  translation:
+    gloss: vineyard
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '290'
+  semantic:
+    semanticDomain: '003003'
+    ln: '3.28'
 - position: 10
-  ref: MAT 21:41!10
-  xml_id: n40021041010
-  unicode: ἐκδώσεται
+  text: ἐκδώσεται
   lemma: ἐκδίδωμι
   normalized: ἐκδώσεται
-  class: verb
-  morph: V-FDI-3S
-  gloss: he will rent out
-  number: singular
-  person: third
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '1554'
-  domain: '057013'
-  ln: '57.177'
-  role: v
+  ids:
+    ref: MAT 21:41!10
+    wordID: n40021041010
+  translation:
+    gloss: he will rent out
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1554'
+  semantic:
+    semanticDomain: '057013'
+    ln: '57.177'
+  syntax:
+    role: v
+    frame: A0:n40021040005 A1:n40021041009 A2:n40021041012
+  discourse:
+    subject: n40021040005
 - position: 11
-  ref: MAT 21:41!11
-  xml_id: n40021041011
-  unicode: ἄλλοις
+  text: ἄλλοις
   lemma: ἄλλος
   normalized: ἄλλοις
-  class: adj
-  morph: A-DPM
-  gloss: to other
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 21:41!11
+    wordID: n40021041011
+  translation:
+    gloss: to other
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 12
-  ref: MAT 21:41!12
-  xml_id: n40021041012
-  unicode: γεωργοῖς
+  text: γεωργοῖς
   lemma: γεωργός
   normalized: γεωργοῖς
-  class: noun
-  morph: N-DPM
-  gloss: farmers
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '1092'
-  domain: '043'
-  ln: '43.2'
+  ids:
+    ref: MAT 21:41!12
+    wordID: n40021041012
+  translation:
+    gloss: farmers
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '1092'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.2'
 - position: 13
-  ref: MAT 21:41!13
-  xml_id: n40021041013
-  unicode: οἵτινες
+  text: οἵτινες
   lemma: ὅστις
   normalized: οἵτινες
-  class: pron
-  morph: R-NPM
-  gloss: who
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3748'
-  domain: 092004
-  ln: '92.18'
-  role: s
+  ids:
+    ref: MAT 21:41!13
+    wordID: n40021041013
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
+  discourse:
+    referent: n40021041012
 - position: 14
-  ref: MAT 21:41!14
-  xml_id: n40021041014
-  unicode: ἀποδώσουσιν
+  text: ἀποδώσουσιν
   lemma: ἀποδίδωμι
   normalized: ἀποδώσουσιν
-  class: verb
-  morph: V-FAI-3P
-  gloss: will give
-  number: plural
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '591'
-  domain: '057012'
-  ln: '57.153'
-  role: v
+  ids:
+    ref: MAT 21:41!14
+    wordID: n40021041014
+  translation:
+    gloss: will give
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '591'
+  semantic:
+    semanticDomain: '057012'
+    ln: '57.153'
+  syntax:
+    role: v
+    frame: A0:n40021041013 A2:n40021041015 A1:n40021041017
 - position: 15
-  ref: MAT 21:41!15
-  xml_id: n40021041015
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 21:41!15
+    wordID: n40021041015
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40021040005
 - position: 16
-  ref: MAT 21:41!16
-  xml_id: n40021041016
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:41!16
+    wordID: n40021041016
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 21:41!17
-  xml_id: n40021041017
-  unicode: καρποὺς
+  text: καρποὺς
   lemma: καρπός
   normalized: καρπούς
-  class: noun
-  morph: N-APM
-  gloss: fruits
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '2590'
-  domain: '043'
-  ln: '43.15'
+  ids:
+    ref: MAT 21:41!17
+    wordID: n40021041017
+  translation:
+    gloss: fruits
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2590'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.15'
 - position: 18
-  ref: MAT 21:41!18
-  xml_id: n40021041018
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: '067002'
-  ln: '67.33'
+  ids:
+    ref: MAT 21:41!18
+    wordID: n40021041018
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
 - position: 19
-  ref: MAT 21:41!19
-  xml_id: n40021041019
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:41!19
+    wordID: n40021041019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 21:41!20
-  xml_id: n40021041020
-  unicode: καιροῖς
+  text: καιροῖς
   lemma: καιρός
   normalized: καιροῖς
-  class: noun
-  morph: N-DPM
-  gloss: seasons
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '2540'
-  domain: '067001'
-  ln: '67.1'
+  ids:
+    ref: MAT 21:41!20
+    wordID: n40021041020
+  translation:
+    gloss: seasons
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '2540'
+  semantic:
+    semanticDomain: '067001'
+    ln: '67.1'
 - position: 21
-  ref: MAT 21:41!21
-  xml_id: n40021041021
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: O-V-IO
+  ids:
+    ref: MAT 21:41!21
+    wordID: n40021041021
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40021041017

@@ -1,0 +1,418 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 7:36
+text: οὗτος ἐξήγαγεν αὐτοὺς ποιήσας τέρατα καὶ σημεῖα ἐν γῇ Αἰγύπτῳ καὶ ἐν Ἐρυθρᾷ
+  Θαλάσσῃ καὶ ἐν τῇ ἐρήμῳ ἔτη τεσσεράκοντα.
+words:
+- position: 1
+  text: οὗτος
+  lemma: οὗτος
+  normalized: οὗτος
+  ids:
+    ref: ACT 7:36!1
+    wordID: n44007036001
+  translation:
+    gloss: this one
+  morphology:
+    class: pron
+    morph: D-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: s
+  discourse:
+    referent: n44007035003
+- position: 2
+  text: ἐξήγαγεν
+  lemma: ἐξάγω
+  normalized: ἐξήγαγεν
+  ids:
+    ref: ACT 7:36!2
+    wordID: n44007036002
+  translation:
+    gloss: led out
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1806'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.174'
+  syntax:
+    role: v
+    frame: A0:n44007036001 A1:n44007036003
+- position: 3
+  text: αὐτοὺς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: ACT 7:36!3
+    wordID: n44007036003
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n44007025005
+- position: 4
+  text: ποιήσας
+  lemma: ποιέω
+  normalized: ποιήσας
+  ids:
+    ref: ACT 7:36!4
+    wordID: n44007036004
+  translation:
+    gloss: having done
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: 090011
+    ln: '90.45'
+  syntax:
+    role: v
+    frame: A0:n44007035003 A1:n44007036005;n44007036007
+  discourse:
+    subject: n44007035003
+- position: 5
+  text: τέρατα
+  lemma: τέρας
+  normalized: τέρατα
+  ids:
+    ref: ACT 7:36!5
+    wordID: n44007036005
+  translation:
+    gloss: wonders
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5059'
+  semantic:
+    semanticDomain: '033056'
+    ln: '33.480'
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 7:36!6
+    wordID: n44007036006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 7
+  text: σημεῖα
+  lemma: σημεῖον
+  normalized: σημεῖα
+  ids:
+    ref: ACT 7:36!7
+    wordID: n44007036007
+  translation:
+    gloss: signs
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4592'
+  semantic:
+    semanticDomain: '033056'
+    ln: '33.477'
+- position: 8
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ACT 7:36!8
+    wordID: n44007036008
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 9
+  text: γῇ
+  lemma: γῆ
+  normalized: γῇ
+  ids:
+    ref: ACT 7:36!9
+    wordID: n44007036009
+  translation:
+    gloss: '[the] land'
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '1093'
+  semantic:
+    semanticDomain: '001011'
+    ln: '1.79'
+- position: 10
+  text: Αἰγύπτῳ
+  lemma: Αἴγυπτος
+  normalized: Αἰγύπτῳ
+  ids:
+    ref: ACT 7:36!10
+    wordID: n44007036010
+  translation:
+    gloss: of Egypt
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '125'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.398'
+  syntax:
+    junction: apposition
+- position: 11
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 7:36!11
+    wordID: n44007036011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 12
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ACT 7:36!12
+    wordID: n44007036012
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083005
+    ln: '83.23'
+- position: 13
+  text: Ἐρυθρᾷ
+  lemma: ἐρυθρός
+  normalized: Ἐρυθρᾷ
+  ids:
+    ref: ACT 7:36!13
+    wordID: n44007036013
+  translation:
+    gloss: '[the] Red'
+  morphology:
+    class: adj
+    morph: A-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '2063'
+  semantic:
+    semanticDomain: 079007
+    ln: '79.30'
+- position: 14
+  text: Θαλάσσῃ
+  lemma: θάλασσα
+  normalized: Θαλάσσῃ
+  ids:
+    ref: ACT 7:36!14
+    wordID: n44007036014
+  translation:
+    gloss: Sea
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2281'
+  semantic:
+    semanticDomain: '001010'
+    ln: '1.70'
+- position: 15
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 7:36!15
+    wordID: n44007036015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 16
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ACT 7:36!16
+    wordID: n44007036016
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 17
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: ACT 7:36!17
+    wordID: n44007036017
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 18
+  text: ἐρήμῳ
+  lemma: ἔρημος
+  normalized: ἐρήμῳ
+  ids:
+    ref: ACT 7:36!18
+    wordID: n44007036018
+  translation:
+    gloss: wilderness
+  morphology:
+    class: adj
+    morph: A-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '2048'
+  semantic:
+    semanticDomain: '001013'
+    ln: '1.86'
+- position: 19
+  text: ἔτη
+  lemma: ἔτος
+  normalized: ἔτη
+  ids:
+    ref: ACT 7:36!19
+    wordID: n44007036019
+  translation:
+    gloss: years
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2094'
+  semantic:
+    semanticDomain: 067005 067009
+    ln: 67.167 67.94
+- position: 20
+  text: τεσσεράκοντα
+  lemma: τεσσεράκοντα
+  normalized: τεσσεράκοντα
+  ids:
+    ref: ACT 7:36!20
+    wordID: n44007036020
+  translation:
+    gloss: forty
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '5062'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.94'

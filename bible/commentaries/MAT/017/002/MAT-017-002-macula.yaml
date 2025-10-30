@@ -1,336 +1,446 @@
-verse:
-  reference: MAT 17:2
-  book_code: MAT
-  chapter: 17
-  verse: 2
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν, καὶ ἔλαμψεν τὸ πρόσωπον αὐτοῦ ὡς ὁ ἥλιος,
-    τὰ δὲ ἱμάτια αὐτοῦ ἐγένετο λευκὰ ὡς τὸ φῶς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 17:2
+text: καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν, καὶ ἔλαμψεν τὸ πρόσωπον αὐτοῦ ὡς ὁ ἥλιος, τὰ
+  δὲ ἱμάτια αὐτοῦ ἐγένετο λευκὰ ὡς τὸ φῶς.
 words:
 - position: 1
-  ref: MAT 17:2!1
-  xml_id: n40017002001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 17:2!1
+    wordID: n40017002001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 17:2!2
-  xml_id: n40017002002
-  unicode: μετεμορφώθη
+  text: μετεμορφώθη
   lemma: μεταμορφόω
   normalized: μετεμορφώθη
-  class: verb
-  morph: V-API-3S
-  gloss: He was transfigured
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '3339'
-  domain: 058002
-  ln: '58.16'
-  role: v
+  ids:
+    ref: MAT 17:2!2
+    wordID: n40017002002
+  translation:
+    gloss: He was transfigured
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3339'
+  semantic:
+    semanticDomain: 058002
+    ln: '58.16'
+  syntax:
+    role: v
+    frame: A1:n40017001007
+  discourse:
+    subject: n40017001007
 - position: 3
-  ref: MAT 17:2!3
-  xml_id: n40017002003
-  unicode: ἔμπροσθεν
+  text: ἔμπροσθεν
   lemma: ἔμπροσθεν
   normalized: ἔμπροσθεν
-  class: prep
-  morph: PREP
-  gloss: before
-  strong: '1715'
-  domain: 083006
-  ln: '83.33'
+  ids:
+    ref: MAT 17:2!3
+    wordID: n40017002003
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1715'
+  semantic:
+    semanticDomain: 083006
+    ln: '83.33'
 - position: 4
-  ref: MAT 17:2!4
-  xml_id: n40017002004
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 17:2!4
+    wordID: n40017002004
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40017001009 n40017001011 n40017001013
 - position: 5
-  ref: MAT 17:2!5
-  xml_id: n40017002005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 17:2!5
+    wordID: n40017002005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 6
-  ref: MAT 17:2!6
-  xml_id: n40017002006
-  unicode: ἔλαμψεν
+  text: ἔλαμψεν
   lemma: λάμπω
   normalized: ἔλαμψεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: shone
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2989'
-  domain: '014006'
-  ln: '14.37'
-  role: v
+  ids:
+    ref: MAT 17:2!6
+    wordID: n40017002006
+  translation:
+    gloss: shone
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2989'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.37'
+  syntax:
+    role: v
+    frame: A0:n40017002008
 - position: 7
-  ref: MAT 17:2!7
-  xml_id: n40017002007
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:2!7
+    wordID: n40017002007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 17:2!8
-  xml_id: n40017002008
-  unicode: πρόσωπον
+  text: πρόσωπον
   lemma: πρόσωπον
   normalized: πρόσωπον
-  class: noun
-  morph: N-NSN
-  gloss: face
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '4383'
-  domain: 008002
-  ln: '8.18'
+  ids:
+    ref: MAT 17:2!8
+    wordID: n40017002008
+  translation:
+    gloss: face
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4383'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.18'
 - position: 9
-  ref: MAT 17:2!9
-  xml_id: n40017002009
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 17:2!9
+    wordID: n40017002009
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40017001007
 - position: 10
-  ref: MAT 17:2!10
-  xml_id: n40017002010
-  unicode: ὡς
+  text: ὡς
   lemma: ὡς
   normalized: ὡς
-  class: conj
-  morph: ADV
-  gloss: like
-  strong: '5613'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 17:2!10
+    wordID: n40017002010
+  translation:
+    gloss: like
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 11
-  ref: MAT 17:2!11
-  xml_id: n40017002011
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:2!11
+    wordID: n40017002011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 17:2!12
-  xml_id: n40017002012
-  unicode: ἥλιος
+  text: ἥλιος
   lemma: ἥλιος
   normalized: ἥλιος
-  class: noun
-  morph: N-NSM
-  gloss: sun
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2246'
-  domain: '001004'
-  ln: '1.28'
+  ids:
+    ref: MAT 17:2!12
+    wordID: n40017002012
+  translation:
+    gloss: sun
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2246'
+  semantic:
+    semanticDomain: '001004'
+    ln: '1.28'
 - position: 13
-  ref: MAT 17:2!14
-  xml_id: n40017002014
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 17:2!14
+    wordID: n40017002014
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 14
-  ref: MAT 17:2!13
-  xml_id: n40017002013
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-NPN
-  gloss: '-'
-  gender: neuter
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:2!13
+    wordID: n40017002013
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 17:2!15
-  xml_id: n40017002015
-  unicode: ἱμάτια
+  text: ἱμάτια
   lemma: ἱμάτιον
   normalized: ἱμάτια
-  class: noun
-  morph: N-NPN
-  gloss: the clothes
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '2440'
-  domain: '006017'
-  ln: '6.162'
+  ids:
+    ref: MAT 17:2!15
+    wordID: n40017002015
+  translation:
+    gloss: the clothes
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.162'
 - position: 16
-  ref: MAT 17:2!16
-  xml_id: n40017002016
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 17:2!16
+    wordID: n40017002016
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40017001007
 - position: 17
-  ref: MAT 17:2!17
-  xml_id: n40017002017
-  unicode: ἐγένετο
+  text: ἐγένετο
   lemma: γίνομαι
   normalized: ἐγένετο
-  class: verb
-  morph: V-2ADI-3S
-  gloss: became
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '1096'
-  domain: '013002'
-  ln: '13.48'
-  role: vc
+  ids:
+    ref: MAT 17:2!17
+    wordID: n40017002017
+  translation:
+    gloss: became
+  morphology:
+    class: verb
+    morph: V-2ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.48'
+  syntax:
+    role: vc
 - position: 18
-  ref: MAT 17:2!18
-  xml_id: n40017002018
-  unicode: λευκὰ
+  text: λευκὰ
   lemma: λευκός
   normalized: λευκά
-  class: adj
-  morph: A-NPN
-  gloss: white
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '3022'
-  domain: '014006'
-  ln: '14.50'
-  role: p
+  ids:
+    ref: MAT 17:2!18
+    wordID: n40017002018
+  translation:
+    gloss: white
+  morphology:
+    class: adj
+    morph: A-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3022'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.50'
+  syntax:
+    role: p
 - position: 19
-  ref: MAT 17:2!19
-  xml_id: n40017002019
-  unicode: ὡς
+  text: ὡς
   lemma: ὡς
   normalized: ὡς
-  class: conj
-  morph: ADV
-  gloss: as
-  strong: '5613'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 17:2!19
+    wordID: n40017002019
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 20
-  ref: MAT 17:2!20
-  xml_id: n40017002020
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:2!20
+    wordID: n40017002020
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 21
-  ref: MAT 17:2!21
-  xml_id: n40017002021
-  unicode: φῶς
+  text: φῶς
   lemma: φῶς
   normalized: φῶς
-  class: noun
-  morph: N-NSN
-  gloss: light
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '5457'
-  domain: '014006'
-  ln: '14.36'
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 17:2!21
+    wordID: n40017002021
+  translation:
+    gloss: light
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5457'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.36'

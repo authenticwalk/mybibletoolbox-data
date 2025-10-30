@@ -1,159 +1,204 @@
-verse:
-  reference: MAT 19:2
-  book_code: MAT
-  chapter: 19
-  verse: 2
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἠκολούθησαν αὐτῷ ὄχλοι πολλοί, καὶ ἐθεράπευσεν αὐτοὺς ἐκεῖ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 19:2
+text: καὶ ἠκολούθησαν αὐτῷ ὄχλοι πολλοί, καὶ ἐθεράπευσεν αὐτοὺς ἐκεῖ.
 words:
 - position: 1
-  ref: MAT 19:2!1
-  xml_id: n40019002001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 19:2!1
+    wordID: n40019002001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 19:2!2
-  xml_id: n40019002002
-  unicode: ἠκολούθησαν
+  text: ἠκολούθησαν
   lemma: ἀκολουθέω
   normalized: ἠκολούθησαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: followed
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '190'
-  domain: '015020'
-  ln: '15.156'
-  role: v
+  ids:
+    ref: MAT 19:2!2
+    wordID: n40019002002
+  translation:
+    gloss: followed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '190'
+  semantic:
+    semanticDomain: '015020'
+    ln: '15.156'
+  syntax:
+    role: v
+    frame: A1:n40019002003 A0:n40019002004
 - position: 3
-  ref: MAT 19:2!3
-  xml_id: n40019002003
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 19:2!3
+    wordID: n40019002003
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40019001006
 - position: 4
-  ref: MAT 19:2!4
-  xml_id: n40019002004
-  unicode: ὄχλοι
+  text: ὄχλοι
   lemma: ὄχλος
   normalized: ὄχλοι
-  class: noun
-  morph: N-NPM
-  gloss: crowds
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3793'
-  domain: '011001'
-  ln: '11.1'
+  ids:
+    ref: MAT 19:2!4
+    wordID: n40019002004
+  translation:
+    gloss: crowds
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
 - position: 5
-  ref: MAT 19:2!5
-  xml_id: n40019002005
-  unicode: πολλοί
+  text: πολλοί
   lemma: πολύς
   normalized: πολλοί
-  class: adj
-  morph: A-NPM
-  gloss: great
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4183'
-  domain: 078001
-  ln: '78.3'
+  ids:
+    ref: MAT 19:2!5
+    wordID: n40019002005
+  translation:
+    gloss: great
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 078001
+    ln: '78.3'
 - position: 6
-  ref: MAT 19:2!6
-  xml_id: n40019002006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 19:2!6
+    wordID: n40019002006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 19:2!7
-  xml_id: n40019002007
-  unicode: ἐθεράπευσεν
+  text: ἐθεράπευσεν
   lemma: θεραπεύω
   normalized: ἐθεράπευσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: He healed
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2323'
-  domain: 023008
-  ln: '23.139'
-  role: v
+  ids:
+    ref: MAT 19:2!7
+    wordID: n40019002007
+  translation:
+    gloss: He healed
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2323'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.139'
+  syntax:
+    role: v
+    frame: A0:n40019001006 A1:n40019002008
+  discourse:
+    subject: n40019001006
 - position: 8
-  ref: MAT 19:2!8
-  xml_id: n40019002008
-  unicode: αὐτοὺς
+  text: αὐτοὺς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 19:2!8
+    wordID: n40019002008
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40019002004
 - position: 9
-  ref: MAT 19:2!9
-  xml_id: n40019002009
-  unicode: ἐκεῖ
+  text: ἐκεῖ
   lemma: ἐκεῖ
   normalized: ἐκεῖ
-  class: adv
-  morph: ADV
-  gloss: there
-  strong: '1563'
-  domain: 083001
-  ln: '83.2'
-  role: adv
-syntax:
-  word_order: V-O-S
+  ids:
+    ref: MAT 19:2!9
+    wordID: n40019002009
+  translation:
+    gloss: there
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1563'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.2'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40019001018

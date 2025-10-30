@@ -1,0 +1,792 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 13:32
+text: ACT 13:33 καὶ ἡμεῖς ὑμᾶς εὐαγγελιζόμεθα τὴν πρὸς τοὺς πατέρας ἐπαγγελίαν γενομένην,
+  ὅτι ταύτην ὁ Θεὸς ἐκπεπλήρωκεν τοῖς τέκνοις ἡμῶν ἀναστήσας Ἰησοῦν, ὡς καὶ ἐν τῷ
+  ψαλμῷ γέγραπται τῷ δευτέρῳ Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 13:32!1
+    wordID: n44013032001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: ἡμεῖς
+  lemma: ἐγώ
+  normalized: ἡμεῖς
+  ids:
+    ref: ACT 13:32!2
+    wordID: n44013032002
+  translation:
+    gloss: we
+  morphology:
+    class: pron
+    morph: P-1NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: s
+  discourse:
+    referent: n44013016003 n44013013006
+- position: 3
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: ACT 13:32!3
+    wordID: n44013032003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n44013026001
+- position: 4
+  text: εὐαγγελιζόμεθα
+  lemma: εὐαγγελίζω
+  normalized: εὐαγγελιζόμεθα
+  ids:
+    ref: ACT 13:32!4
+    wordID: n44013032004
+  translation:
+    gloss: preach the gospel
+  morphology:
+    class: verb
+    morph: V-PMI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '2097'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.215'
+  syntax:
+    role: v
+    frame: A0:n44013032002 A2:n44013032003 A1:n44013032009
+- position: 5
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: ACT 13:32!5
+    wordID: n44013032005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: πρὸς
+  lemma: πρός
+  normalized: πρός
+  ids:
+    ref: ACT 13:32!6
+    wordID: n44013032006
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.58'
+- position: 7
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: ACT 13:32!7
+    wordID: n44013032007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: πατέρας
+  lemma: πατήρ
+  normalized: πατέρας
+  ids:
+    ref: ACT 13:32!8
+    wordID: n44013032008
+  translation:
+    gloss: fathers
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.20'
+- position: 9
+  text: γενομένην
+  lemma: γίνομαι
+  normalized: γενομένην
+  ids:
+    ref: ACT 13:32!10
+    wordID: n44013032010
+  translation:
+    gloss: having been made
+  morphology:
+    class: verb
+    morph: V-2ADP-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '015001'
+    ln: '15.1'
+  syntax:
+    role: v
+    frame: A0:n44013032009
+    discontinuous: 'true'
+  discourse:
+    subject: n44013032009
+- position: 10
+  text: ἐπαγγελίαν
+  lemma: ἐπαγγελία
+  normalized: ἐπαγγελίαν
+  ids:
+    ref: ACT 13:32!9
+    wordID: n44013032009
+  translation:
+    gloss: promise
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1860'
+  semantic:
+    semanticDomain: '033025'
+    ln: '33.288'
+- position: 11
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: ACT 13:33!1
+    wordID: n44013033001
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 12
+  text: ταύτην
+  lemma: οὗτος
+  normalized: ταύτην
+  ids:
+    ref: ACT 13:33!2
+    wordID: n44013033002
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+  discourse:
+    referent: n44013032009
+- position: 13
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: ACT 13:33!3
+    wordID: n44013033003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: Θεὸς
+  lemma: θεός
+  normalized: Θεός
+  ids:
+    ref: ACT 13:33!4
+    wordID: n44013033004
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 15
+  text: ἐκπεπλήρωκεν
+  lemma: ἐκπληρόω
+  normalized: ἐκπεπλήρωκεν
+  ids:
+    ref: ACT 13:33!5
+    wordID: n44013033005
+  translation:
+    gloss: has fulfilled
+  morphology:
+    class: verb
+    morph: V-RAI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1603'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.106'
+  syntax:
+    role: v
+    frame: A1:n44013033002 A0:n44013033004 A2:n44013033007
+- position: 16
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: ACT 13:33!6
+    wordID: n44013033006
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 17
+  text: τέκνοις
+  lemma: τέκνον
+  normalized: τέκνοις
+  ids:
+    ref: ACT 13:33!7
+    wordID: n44013033007
+  translation:
+    gloss: children
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '5043'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.28'
+- position: 18
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: ACT 13:33!8
+    wordID: n44013033008
+  translation:
+    gloss: to us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  discourse:
+    referent: n44013016003 n44013013006 n44013026001
+- position: 19
+  text: ἀναστήσας
+  lemma: ἀνίστημι
+  normalized: ἀναστήσας
+  ids:
+    ref: ACT 13:33!9
+    wordID: n44013033009
+  translation:
+    gloss: having raised up
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '450'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.94'
+  syntax:
+    role: v
+    frame: A0:n44013033004 A1:n44013033010
+  discourse:
+    subject: n44013033004
+- position: 20
+  text: Ἰησοῦν
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦν
+  ids:
+    ref: ACT 13:33!10
+    wordID: n44013033010
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    role: o
+- position: 21
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: ACT 13:33!11
+    wordID: n44013033011
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 22
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 13:33!12
+    wordID: n44013033012
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 23
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ACT 13:33!13
+    wordID: n44013033013
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 24
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: ACT 13:33!14
+    wordID: n44013033014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 25
+  text: ψαλμῷ
+  lemma: ψαλμός
+  normalized: ψαλμῷ
+  ids:
+    ref: ACT 13:33!15
+    wordID: n44013033015
+  translation:
+    gloss: psalm
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5568'
+  semantic:
+    semanticDomain: '033007'
+    ln: '33.112'
+- position: 26
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: ACT 13:33!17
+    wordID: n44013033017
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 27
+  text: δευτέρῳ
+  lemma: δεύτερος
+  normalized: δευτέρῳ
+  ids:
+    ref: ACT 13:33!18
+    wordID: n44013033018
+  translation:
+    gloss: second
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '1208'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.49'
+  syntax:
+    discontinuous: 'true'
+- position: 28
+  text: γέγραπται
+  lemma: γράφω
+  normalized: γέγραπται
+  ids:
+    ref: ACT 13:33!16
+    wordID: n44013033016
+  translation:
+    gloss: it has been written
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.54'
+  syntax:
+    role: v
+    frame: A1:n44013033019;n44013033025
+  discourse:
+    subject: n44013033019 n44013033025
+- position: 29
+  text: Υἱός
+  lemma: υἱός
+  normalized: Υἱός
+  ids:
+    ref: ACT 13:33!19
+    wordID: n44013033019
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
+- position: 30
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: ACT 13:33!20
+    wordID: n44013033020
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n44013033004
+- position: 31
+  text: εἶ
+  lemma: εἰμί
+  normalized: εἶ
+  ids:
+    ref: ACT 13:33!21
+    wordID: n44013033021
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
+- position: 32
+  text: σύ
+  lemma: σύ
+  normalized: σύ
+  ids:
+    ref: ACT 13:33!22
+    wordID: n44013033022
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: s
+  discourse:
+    referent: n44013033010
+- position: 33
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: ACT 13:33!23
+    wordID: n44013033023
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n44013033004
+- position: 34
+  text: σήμερον
+  lemma: σήμερον
+  normalized: σήμερον
+  ids:
+    ref: ACT 13:33!24
+    wordID: n44013033024
+  translation:
+    gloss: today
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4594'
+  semantic:
+    semanticDomain: '067010'
+    ln: '67.205'
+  syntax:
+    role: adv
+- position: 35
+  text: γεγέννηκά
+  lemma: γεννάω
+  normalized: γεγέννηκα
+  ids:
+    ref: ACT 13:33!25
+    wordID: n44013033025
+  translation:
+    gloss: have begotten
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n44013033023 A1:n44013033026
+- position: 36
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: ACT 13:33!26
+    wordID: n44013033026
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n44013033010

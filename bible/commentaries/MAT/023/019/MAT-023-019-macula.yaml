@@ -1,224 +1,285 @@
-verse:
-  reference: MAT 23:19
-  book_code: MAT
-  chapter: 23
-  verse: 19
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τυφλοί, τί γὰρ μεῖζον, τὸ δῶρον ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 23:19
+text: τυφλοί, τί γὰρ μεῖζον, τὸ δῶρον ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;
 words:
 - position: 1
-  ref: MAT 23:19!1
-  xml_id: n40023019001
-  unicode: τυφλοί
+  text: τυφλοί
   lemma: τυφλός
   normalized: τυφλοί
-  class: adj
-  morph: A-VPM
-  gloss: You blind men
-  gender: masculine
-  number: plural
-  case: vocative
-  strong: '5185'
-  domain: '032005'
-  ln: '32.42'
-  role: aux
+  ids:
+    ref: MAT 23:19!1
+    wordID: n40023019001
+  translation:
+    gloss: You blind men
+  morphology:
+    class: adj
+    morph: A-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+  lexical:
+    strong: '5185'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.42'
+  syntax:
+    role: aux
 - position: 2
-  ref: MAT 23:19!3
-  xml_id: n40023019003
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 091001
-  ln: '91.1'
+  ids:
+    ref: MAT 23:19!3
+    wordID: n40023019003
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
+  syntax:
+    discontinuous: 'true'
 - position: 3
-  ref: MAT 23:19!2
-  xml_id: n40023019002
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-NSN
-  gloss: Which
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: s
+  ids:
+    ref: MAT 23:19!2
+    wordID: n40023019002
+  translation:
+    gloss: Which
+  morphology:
+    class: pron
+    morph: I-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: s
 - position: 4
-  ref: MAT 23:19!4
-  xml_id: n40023019004
-  unicode: μεῖζον
+  text: μεῖζον
   lemma: μέγας
   normalized: μεῖζον
-  class: adj
-  morph: A-NSN-C
-  gloss: '[is] greater'
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '3173'
-  domain: 087003
-  ln: '87.22'
-  role: p
+  ids:
+    ref: MAT 23:19!4
+    wordID: n40023019004
+  translation:
+    gloss: '[is] greater'
+  morphology:
+    class: adj
+    morph: A-NSN-C
+    gender: neuter
+    number: singular
+    case: nominative
+    degree: comparative
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.22'
+  syntax:
+    role: p
 - position: 5
-  ref: MAT 23:19!5
-  xml_id: n40023019005
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:19!5
+    wordID: n40023019005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 23:19!6
-  xml_id: n40023019006
-  unicode: δῶρον
+  text: δῶρον
   lemma: δῶρον
   normalized: δῶρον
-  class: noun
-  morph: N-NSN
-  gloss: gift
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '1435'
-  domain: 057008
-  ln: '57.84'
+  ids:
+    ref: MAT 23:19!6
+    wordID: n40023019006
+  translation:
+    gloss: gift
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1435'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.84'
 - position: 7
-  ref: MAT 23:19!7
-  xml_id: n40023019007
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 23:19!7
+    wordID: n40023019007
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 8
-  ref: MAT 23:19!8
-  xml_id: n40023019008
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:19!8
+    wordID: n40023019008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 23:19!9
-  xml_id: n40023019009
-  unicode: θυσιαστήριον
+  text: θυσιαστήριον
   lemma: θυσιαστήριον
   normalized: θυσιαστήριον
-  class: noun
-  morph: N-NSN
-  gloss: altar
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '2379'
-  domain: '006015'
-  ln: '6.114'
+  ids:
+    ref: MAT 23:19!9
+    wordID: n40023019009
+  translation:
+    gloss: altar
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2379'
+  semantic:
+    semanticDomain: '006015'
+    ln: '6.114'
 - position: 10
-  ref: MAT 23:19!10
-  xml_id: n40023019010
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:19!10
+    wordID: n40023019010
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 23:19!11
-  xml_id: n40023019011
-  unicode: ἁγιάζον
+  text: ἁγιάζον
   lemma: ἁγιάζω
   normalized: ἁγιάζον
-  class: verb
-  morph: V-PAP-NSN
-  gloss: sanctifying
-  gender: neuter
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '37'
-  domain: '053006'
-  ln: '53.44'
-  role: v
+  ids:
+    ref: MAT 23:19!11
+    wordID: n40023019011
+  translation:
+    gloss: sanctifying
+  morphology:
+    class: verb
+    morph: V-PAP-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '37'
+  semantic:
+    semanticDomain: '053006'
+    ln: '53.44'
+  syntax:
+    role: v
+    frame: A0:n40023019009 A1:n40023019013
+  discourse:
+    subject: n40023019009
 - position: 12
-  ref: MAT 23:19!12
-  xml_id: n40023019012
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:19!12
+    wordID: n40023019012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 23:19!13
-  xml_id: n40023019013
-  unicode: δῶρον
+  text: δῶρον
   lemma: δῶρον
   normalized: δῶρον
-  class: noun
-  morph: N-ASN
-  gloss: gift
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1435'
-  domain: 057008
-  ln: '57.84'
-syntax:
-  word_order: S2CL
+  ids:
+    ref: MAT 23:19!13
+    wordID: n40023019013
+  translation:
+    gloss: gift
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1435'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.84'

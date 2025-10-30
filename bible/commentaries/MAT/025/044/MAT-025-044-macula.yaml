@@ -1,389 +1,530 @@
-verse:
-  reference: MAT 25:44
-  book_code: MAT
-  chapter: 25
-  verse: 44
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε ἀποκριθήσονται καὶ αὐτοὶ λέγοντες Κύριε, πότε σε εἴδομεν πεινῶντα
-    ἢ διψῶντα ἢ ξένον ἢ γυμνὸν ἢ ἀσθενῆ ἢ ἐν φυλακῇ καὶ οὐ διηκονήσαμέν σοι;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:44
+text: τότε ἀποκριθήσονται καὶ αὐτοὶ λέγοντες Κύριε, πότε σε εἴδομεν πεινῶντα ἢ διψῶντα
+  ἢ ξένον ἢ γυμνὸν ἢ ἀσθενῆ ἢ ἐν φυλακῇ καὶ οὐ διηκονήσαμέν σοι;
 words:
 - position: 1
-  ref: MAT 25:44!1
-  xml_id: n40025044001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 25:44!1
+    wordID: n40025044001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 25:44!2
-  xml_id: n40025044002
-  unicode: ἀποκριθήσονται
+  text: ἀποκριθήσονται
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθήσονται
-  class: verb
-  morph: V-FOI-3P
-  gloss: will answer
-  number: plural
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '611'
-  domain: '033004'
-  ln: '33.28'
-  role: v
+  ids:
+    ref: MAT 25:44!2
+    wordID: n40025044002
+  translation:
+    gloss: will answer
+  morphology:
+    class: verb
+    morph: V-FOI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A0:n40025044004
 - position: 3
-  ref: MAT 25:44!3
-  xml_id: n40025044003
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: also
-  strong: '2532'
-  domain: 089017
-  ln: '89.93'
+  ids:
+    ref: MAT 25:44!3
+    wordID: n40025044003
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
 - position: 4
-  ref: MAT 25:44!4
-  xml_id: n40025044004
-  unicode: αὐτοὶ
+  text: αὐτοὶ
   lemma: αὐτός
   normalized: αὐτοί
-  class: pron
-  morph: P-NPM
-  gloss: themselves
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 25:44!4
+    wordID: n40025044004
+  translation:
+    gloss: themselves
+  morphology:
+    class: pron
+    morph: P-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40025041004
 - position: 5
-  ref: MAT 25:44!5
-  xml_id: n40025044005
-  unicode: λέγοντες
+  text: λέγοντες
   lemma: λέγω
   normalized: λέγοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: saying
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:44!5
+    wordID: n40025044005
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025041004
+  discourse:
+    subject: n40025041004
 - position: 6
-  ref: MAT 25:44!6
-  xml_id: n40025044006
-  unicode: Κύριε
+  text: Κύριε
   lemma: κύριος
   normalized: Κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Lord
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: '012001'
-  ln: '12.9'
-  role: aux
+  ids:
+    ref: MAT 25:44!6
+    wordID: n40025044006
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: aux
 - position: 7
-  ref: MAT 25:44!7
-  xml_id: n40025044007
-  unicode: πότε
+  text: πότε
   lemma: πότε
   normalized: πότε
-  class: adv
-  morph: PRT-I
-  gloss: when
-  strong: '4219'
-  domain: '067002'
-  ln: '67.30'
+  ids:
+    ref: MAT 25:44!7
+    wordID: n40025044007
+  translation:
+    gloss: when
+  morphology:
+    class: adv
+    morph: PRT-I
+  lexical:
+    strong: '4219'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.30'
 - position: 8
-  ref: MAT 25:44!9
-  xml_id: n40025044009
-  unicode: εἴδομεν
+  text: εἴδομεν
   lemma: ὁράω
   normalized: εἴδομεν
-  class: verb
-  morph: V-2AAI-1P
-  gloss: saw we
-  number: plural
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
+  ids:
+    ref: MAT 25:44!9
+    wordID: n40025044009
+  translation:
+    gloss: saw we
+  morphology:
+    class: verb
+    morph: V-2AAI-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40025041004 A1:n40025044010;n40025044012;n40025044014;n40025044016;n40025044018;n40025044021
+    discontinuous: 'true'
+  discourse:
+    subject: n40025041004
 - position: 9
-  ref: MAT 25:44!8
-  xml_id: n40025044008
-  unicode: σε
+  text: σε
   lemma: σύ
   normalized: σε
-  class: pron
-  morph: P-2AS
-  gloss: You
-  number: singular
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: s
+  ids:
+    ref: MAT 25:44!8
+    wordID: n40025044008
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: s
+  discourse:
+    referent: n40025044006
 - position: 10
-  ref: MAT 25:44!10
-  xml_id: n40025044010
-  unicode: πεινῶντα
+  text: πεινῶντα
   lemma: πεινάω
   normalized: πεινῶντα
-  class: verb
-  morph: V-PAP-ASM
-  gloss: hungering
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3983'
-  domain: '023001'
-  ln: '23.29'
-  role: v
+  ids:
+    ref: MAT 25:44!10
+    wordID: n40025044010
+  translation:
+    gloss: hungering
+  morphology:
+    class: verb
+    morph: V-PAP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3983'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.29'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 11
-  ref: MAT 25:44!11
-  xml_id: n40025044011
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 25:44!11
+    wordID: n40025044011
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 12
-  ref: MAT 25:44!12
-  xml_id: n40025044012
-  unicode: διψῶντα
+  text: διψῶντα
   lemma: διψάω
   normalized: διψῶντα
-  class: verb
-  morph: V-PAP-ASM
-  gloss: thirsting
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '1372'
-  domain: '023001'
-  ln: '23.39'
-  role: v
+  ids:
+    ref: MAT 25:44!12
+    wordID: n40025044012
+  translation:
+    gloss: thirsting
+  morphology:
+    class: verb
+    morph: V-PAP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1372'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.39'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 13
-  ref: MAT 25:44!13
-  xml_id: n40025044013
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 25:44!13
+    wordID: n40025044013
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 14
-  ref: MAT 25:44!14
-  xml_id: n40025044014
-  unicode: ξένον
+  text: ξένον
   lemma: ξένος
   normalized: ξένον
-  class: adj
-  morph: A-ASM
-  gloss: a stranger
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3581'
-  domain: '011003'
-  ln: '11.73'
+  ids:
+    ref: MAT 25:44!14
+    wordID: n40025044014
+  translation:
+    gloss: a stranger
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3581'
+  semantic:
+    semanticDomain: '011003'
+    ln: '11.73'
 - position: 15
-  ref: MAT 25:44!15
-  xml_id: n40025044015
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 25:44!15
+    wordID: n40025044015
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 16
-  ref: MAT 25:44!16
-  xml_id: n40025044016
-  unicode: γυμνὸν
+  text: γυμνὸν
   lemma: γυμνός
   normalized: γυμνόν
-  class: adj
-  morph: A-ASM
-  gloss: naked
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '1131'
-  domain: 049
-  ln: '49.22'
+  ids:
+    ref: MAT 25:44!16
+    wordID: n40025044016
+  translation:
+    gloss: naked
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1131'
+  semantic:
+    semanticDomain: 049
+    ln: '49.22'
 - position: 17
-  ref: MAT 25:44!17
-  xml_id: n40025044017
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 25:44!17
+    wordID: n40025044017
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 18
-  ref: MAT 25:44!18
-  xml_id: n40025044018
-  unicode: ἀσθενῆ
+  text: ἀσθενῆ
   lemma: ἀσθενής
   normalized: ἀσθενῆ
-  class: adj
-  morph: A-ASM
-  gloss: sick
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '772'
-  domain: 023009
-  ln: '23.145'
+  ids:
+    ref: MAT 25:44!18
+    wordID: n40025044018
+  translation:
+    gloss: sick
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '772'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.145'
 - position: 19
-  ref: MAT 25:44!19
-  xml_id: n40025044019
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 25:44!19
+    wordID: n40025044019
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 20
-  ref: MAT 25:44!20
-  xml_id: n40025044020
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 25:44!20
+    wordID: n40025044020
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 21
-  ref: MAT 25:44!21
-  xml_id: n40025044021
-  unicode: φυλακῇ
+  text: φυλακῇ
   lemma: φυλακή
   normalized: φυλακῇ
-  class: noun
-  morph: N-DSF
-  gloss: prison
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '5438'
-  domain: '007002'
-  ln: '7.24'
+  ids:
+    ref: MAT 25:44!21
+    wordID: n40025044021
+  translation:
+    gloss: prison
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5438'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.24'
 - position: 22
-  ref: MAT 25:44!22
-  xml_id: n40025044022
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 25:44!22
+    wordID: n40025044022
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 23
-  ref: MAT 25:44!23
-  xml_id: n40025044023
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 25:44!23
+    wordID: n40025044023
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 24
-  ref: MAT 25:44!24
-  xml_id: n40025044024
-  unicode: διηκονήσαμέν
+  text: διηκονήσαμέν
   lemma: διακονέω
   normalized: διηκονήσαμεν
-  class: verb
-  morph: V-AAI-1P
-  gloss: did minister
-  number: plural
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1247'
-  domain: '035004'
-  ln: '35.37'
-  role: v
+  ids:
+    ref: MAT 25:44!24
+    wordID: n40025044024
+  translation:
+    gloss: did minister
+  morphology:
+    class: verb
+    morph: V-AAI-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1247'
+  semantic:
+    semanticDomain: '035004'
+    ln: '35.37'
+  syntax:
+    role: v
+    frame: A0:n40025041004 A1:n40025044025
+  discourse:
+    subject: n40025041004
 - position: 25
-  ref: MAT 25:44!25
-  xml_id: n40025044025
-  unicode: σοι
+  text: σοι
   lemma: σύ
   normalized: σοι
-  class: pron
-  morph: P-2DS
-  gloss: to You
-  number: singular
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: o
-syntax:
-  word_order: ADV-V-S-ADV
+  ids:
+    ref: MAT 25:44!25
+    wordID: n40025044025
+  translation:
+    gloss: to You
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40025044006

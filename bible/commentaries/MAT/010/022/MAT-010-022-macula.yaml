@@ -1,153 +1,189 @@
-verse:
-  reference: MAT 10:22
-  book_code: MAT
-  chapter: 10
-  verse: 22
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἔσεσθε μισούμενοι ὑπὸ πάντων διὰ τὸ ὄνομά μου·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:22
+text: καὶ ἔσεσθε μισούμενοι ὑπὸ πάντων διὰ τὸ ὄνομά μου·
 words:
 - position: 1
-  ref: MAT 10:22!1
-  xml_id: n40010022001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 10:22!1
+    wordID: n40010022001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 10:22!2
-  xml_id: n40010022002
-  unicode: ἔσεσθε
+  text: ἔσεσθε
   lemma: εἰμί
   normalized: ἔσεσθε
-  class: verb
-  morph: V-FDI-2P
-  gloss: you will be
-  number: plural
-  person: second
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '1510'
+  ids:
+    ref: MAT 10:22!2
+    wordID: n40010022002
+  translation:
+    gloss: you will be
+  morphology:
+    class: verb
+    morph: V-FDI-2P
+    number: plural
+    person: second
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1510'
+  discourse:
+    subject: n40010005003
 - position: 3
-  ref: MAT 10:22!3
-  xml_id: n40010022003
-  unicode: μισούμενοι
+  text: μισούμενοι
   lemma: μισέω
   normalized: μισούμενοι
-  class: verb
-  morph: V-PPP-NPM
-  gloss: hated
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '3404'
-  domain: 088026
-  ln: '88.198'
+  ids:
+    ref: MAT 10:22!3
+    wordID: n40010022003
+  translation:
+    gloss: hated
+  morphology:
+    class: verb
+    morph: V-PPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3404'
+  semantic:
+    semanticDomain: 088026
+    ln: '88.198'
+  syntax:
+    frame: A1:n40010005003
+  discourse:
+    subject: n40010005003
 - position: 4
-  ref: MAT 10:22!4
-  xml_id: n40010022004
-  unicode: ὑπὸ
+  text: ὑπὸ
   lemma: ὑπό
   normalized: ὑπό
-  class: prep
-  morph: PREP
-  gloss: by
-  strong: '5259'
-  domain: 090001
-  ln: '90.1'
+  ids:
+    ref: MAT 10:22!4
+    wordID: n40010022004
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.1'
 - position: 5
-  ref: MAT 10:22!5
-  xml_id: n40010022005
-  unicode: πάντων
+  text: πάντων
   lemma: πᾶς
   normalized: πάντων
-  class: adj
-  morph: A-GPM
-  gloss: all
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 10:22!5
+    wordID: n40010022005
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 6
-  ref: MAT 10:22!6
-  xml_id: n40010022006
-  unicode: διὰ
+  text: διὰ
   lemma: διά
   normalized: διά
-  class: prep
-  morph: PREP
-  gloss: on account of
-  strong: '1223'
-  domain: 090010
-  ln: '90.44'
+  ids:
+    ref: MAT 10:22!6
+    wordID: n40010022006
+  translation:
+    gloss: on account of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 090010
+    ln: '90.44'
 - position: 7
-  ref: MAT 10:22!7
-  xml_id: n40010022007
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:22!7
+    wordID: n40010022007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 10:22!8
-  xml_id: n40010022008
-  unicode: ὄνομά
+  text: ὄνομά
   lemma: ὄνομα
   normalized: ὄνομα
-  class: noun
-  morph: N-ASN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 10:22!8
+    wordID: n40010022008
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 9
-  ref: MAT 10:22!9
-  xml_id: n40010022009
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-syntax:
-  word_order: V-ADV-ADV
+  ids:
+    ref: MAT 10:22!9
+    wordID: n40010022009
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40010005006

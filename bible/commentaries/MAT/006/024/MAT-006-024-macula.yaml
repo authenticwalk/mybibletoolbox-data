@@ -1,338 +1,448 @@
-verse:
-  reference: MAT 6:24
-  book_code: MAT
-  chapter: 6
-  verse: 24
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Οὐδεὶς δύναται δυσὶ κυρίοις δουλεύειν· ἢ γὰρ τὸν ἕνα μισήσει καὶ τὸν ἕτερον
-    ἀγαπήσει, ἢ ἑνὸς ἀνθέξεται καὶ τοῦ ἑτέρου καταφρονήσει·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:24
+text: Οὐδεὶς δύναται δυσὶ κυρίοις δουλεύειν· ἢ γὰρ τὸν ἕνα μισήσει καὶ τὸν ἕτερον
+  ἀγαπήσει, ἢ ἑνὸς ἀνθέξεται καὶ τοῦ ἑτέρου καταφρονήσει·
 words:
 - position: 1
-  ref: MAT 6:24!1
-  xml_id: n40006024001
-  unicode: Οὐδεὶς
+  text: Οὐδεὶς
   lemma: οὐδείς
   normalized: Οὐδείς
-  class: adj
-  morph: A-NSM-N
-  gloss: No one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3762'
-  domain: 092004
-  ln: '92.23'
-  role: s
+  ids:
+    ref: MAT 6:24!1
+    wordID: n40006024001
+  translation:
+    gloss: No one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
 - position: 2
-  ref: MAT 6:24!2
-  xml_id: n40006024002
-  unicode: δύναται
+  text: δύναται
   lemma: δύναμαι
   normalized: δύναται
-  class: verb
-  morph: V-PNI-3S
-  gloss: is able
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1410'
-  domain: '074'
-  ln: '74.5'
-  role: v
+  ids:
+    ref: MAT 6:24!2
+    wordID: n40006024002
+  translation:
+    gloss: is able
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n40006024001 A1:n40006024005
 - position: 3
-  ref: MAT 6:24!3
-  xml_id: n40006024003
-  unicode: δυσὶ
+  text: δυσὶ
   lemma: δύο
   normalized: δυσί
-  class: adj
-  morph: A-DPM
-  gloss: two
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '1417'
-  domain: '060002'
-  ln: '60.11'
+  ids:
+    ref: MAT 6:24!3
+    wordID: n40006024003
+  translation:
+    gloss: two
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '1417'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.11'
 - position: 4
-  ref: MAT 6:24!4
-  xml_id: n40006024004
-  unicode: κυρίοις
+  text: κυρίοις
   lemma: κύριος
   normalized: κυρίοις
-  class: noun
-  morph: N-DPM
-  gloss: masters
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '2962'
-  domain: 037004 057001
-  ln: 37.51 57.12
+  ids:
+    ref: MAT 6:24!4
+    wordID: n40006024004
+  translation:
+    gloss: masters
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: 037004 057001
+    ln: 37.51 57.12
 - position: 5
-  ref: MAT 6:24!5
-  xml_id: n40006024005
-  unicode: δουλεύειν
+  text: δουλεύειν
   lemma: δουλεύω
   normalized: δουλεύειν
-  class: verb
-  morph: V-PAN
-  gloss: to serve
-  tense: present
-  voice: active
-  mood: infinitive
-  strong: '1398'
-  domain: '035002'
-  ln: '35.27'
-  role: v
+  ids:
+    ref: MAT 6:24!5
+    wordID: n40006024005
+  translation:
+    gloss: to serve
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1398'
+  semantic:
+    semanticDomain: '035002'
+    ln: '35.27'
+  syntax:
+    role: v
+    frame: A0:n40006024001 A1:n40006024004
+  discourse:
+    subject: n40006024001
 - position: 6
-  ref: MAT 6:24!7
-  xml_id: n40006024007
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 6:24!7
+    wordID: n40006024007
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 7
-  ref: MAT 6:24!6
-  xml_id: n40006024006
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: either
-  strong: '2228'
-  domain: 089024
-  ln: '89.140'
+  ids:
+    ref: MAT 6:24!6
+    wordID: n40006024006
+  translation:
+    gloss: either
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.140'
 - position: 8
-  ref: MAT 6:24!8
-  xml_id: n40006024008
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:24!8
+    wordID: n40006024008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 6:24!9
-  xml_id: n40006024009
-  unicode: ἕνα
+  text: ἕνα
   lemma: εἷς
   normalized: ἕνα
-  class: adj
-  morph: A-ASM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '1520'
+  ids:
+    ref: MAT 6:24!9
+    wordID: n40006024009
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1520'
 - position: 10
-  ref: MAT 6:24!10
-  xml_id: n40006024010
-  unicode: μισήσει
+  text: μισήσει
   lemma: μισέω
   normalized: μισήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: he will hate
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '3404'
-  domain: 088026
-  ln: '88.198'
-  role: v
+  ids:
+    ref: MAT 6:24!10
+    wordID: n40006024010
+  translation:
+    gloss: he will hate
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3404'
+  semantic:
+    semanticDomain: 088026
+    ln: '88.198'
+  syntax:
+    role: v
+    frame: A0:n40006024001 A1:n40006024009
+  discourse:
+    subject: n40006024001
 - position: 11
-  ref: MAT 6:24!11
-  xml_id: n40006024011
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 6:24!11
+    wordID: n40006024011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 12
-  ref: MAT 6:24!12
-  xml_id: n40006024012
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:24!12
+    wordID: n40006024012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 6:24!13
-  xml_id: n40006024013
-  unicode: ἕτερον
+  text: ἕτερον
   lemma: ἕτερος
   normalized: ἕτερον
-  class: adj
-  morph: A-ASM
-  gloss: other
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2087'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 6:24!13
+    wordID: n40006024013
+  translation:
+    gloss: other
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2087'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 14
-  ref: MAT 6:24!14
-  xml_id: n40006024014
-  unicode: ἀγαπήσει
+  text: ἀγαπήσει
   lemma: ἀγαπάω
   normalized: ἀγαπήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: he will love
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '25'
-  domain: '025003'
-  ln: '25.43'
-  role: v
+  ids:
+    ref: MAT 6:24!14
+    wordID: n40006024014
+  translation:
+    gloss: he will love
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n40006024001 A1:n40006024013
+  discourse:
+    subject: n40006024001
 - position: 15
-  ref: MAT 6:24!15
-  xml_id: n40006024015
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.140'
+  ids:
+    ref: MAT 6:24!15
+    wordID: n40006024015
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.140'
 - position: 16
-  ref: MAT 6:24!16
-  xml_id: n40006024016
-  unicode: ἑνὸς
+  text: ἑνὸς
   lemma: εἷς
   normalized: ἑνός
-  class: adj
-  morph: A-GSM
-  gloss: '[the] one'
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '1520'
-  role: o
+  ids:
+    ref: MAT 6:24!16
+    wordID: n40006024016
+  translation:
+    gloss: '[the] one'
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '1520'
+  syntax:
+    role: o
 - position: 17
-  ref: MAT 6:24!17
-  xml_id: n40006024017
-  unicode: ἀνθέξεται
+  text: ἀνθέξεται
   lemma: ἀντέχω
   normalized: ἀνθέξεται
-  class: verb
-  morph: V-FDI-3S
-  gloss: he will be devoted to
-  number: singular
-  person: third
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '472'
-  domain: '034002'
-  ln: '34.24'
-  role: v
+  ids:
+    ref: MAT 6:24!17
+    wordID: n40006024017
+  translation:
+    gloss: he will be devoted to
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '472'
+  semantic:
+    semanticDomain: '034002'
+    ln: '34.24'
+  syntax:
+    role: v
+    frame: A0:n40006024001 A1:n40006024016
+  discourse:
+    subject: n40006024001
 - position: 18
-  ref: MAT 6:24!18
-  xml_id: n40006024018
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 6:24!18
+    wordID: n40006024018
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 19
-  ref: MAT 6:24!19
-  xml_id: n40006024019
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:24!19
+    wordID: n40006024019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 6:24!20
-  xml_id: n40006024020
-  unicode: ἑτέρου
+  text: ἑτέρου
   lemma: ἕτερος
   normalized: ἑτέρου
-  class: adj
-  morph: A-GSM
-  gloss: other
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2087'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 6:24!20
+    wordID: n40006024020
+  translation:
+    gloss: other
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2087'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 21
-  ref: MAT 6:24!21
-  xml_id: n40006024021
-  unicode: καταφρονήσει
+  text: καταφρονήσει
   lemma: καταφρονέω
   normalized: καταφρονήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: he will despise
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2706'
-  domain: 088025
-  ln: '88.192'
-  role: v
-syntax:
-  word_order: O-V
+  ids:
+    ref: MAT 6:24!21
+    wordID: n40006024021
+  translation:
+    gloss: he will despise
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2706'
+  semantic:
+    semanticDomain: 088025
+    ln: '88.192'
+  syntax:
+    role: v
+    frame: A0:n40006024001 A1:n40006024020
+  discourse:
+    subject: n40006024001

@@ -1,319 +1,421 @@
-verse:
-  reference: MAT 14:9
-  book_code: MAT
-  chapter: 14
-  verse: 9
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 14:10 καὶ λυπηθεὶς ὁ βασιλεὺς διὰ τοὺς ὅρκους καὶ τοὺς συνανακειμένους
-    ἐκέλευσεν δοθῆναι, καὶ πέμψας ἀπεκεφάλισεν Ἰωάνην ἐν τῇ φυλακῇ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 14:9
+text: MAT 14:10 καὶ λυπηθεὶς ὁ βασιλεὺς διὰ τοὺς ὅρκους καὶ τοὺς συνανακειμένους ἐκέλευσεν
+  δοθῆναι, καὶ πέμψας ἀπεκεφάλισεν Ἰωάνην ἐν τῇ φυλακῇ.
 words:
 - position: 1
-  ref: MAT 14:9!1
-  xml_id: n40014009001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:9!1
+    wordID: n40014009001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 14:9!2
-  xml_id: n40014009002
-  unicode: λυπηθεὶς
+  text: λυπηθεὶς
   lemma: λυπέω
   normalized: λυπηθείς
-  class: verb
-  morph: V-APP-NSM
-  gloss: having been grieved
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '3076'
-  domain: '025023'
-  ln: '25.274'
-  role: v
+  ids:
+    ref: MAT 14:9!2
+    wordID: n40014009002
+  translation:
+    gloss: having been grieved
+  morphology:
+    class: verb
+    morph: V-APP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3076'
+  semantic:
+    semanticDomain: '025023'
+    ln: '25.274'
+  syntax:
+    role: v
+    frame: A1:n40014009004
+  discourse:
+    subject: n40014009004
 - position: 3
-  ref: MAT 14:9!3
-  xml_id: n40014009003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:9!3
+    wordID: n40014009003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 14:9!4
-  xml_id: n40014009004
-  unicode: βασιλεὺς
+  text: βασιλεὺς
   lemma: βασιλεύς
   normalized: βασιλεύς
-  class: noun
-  morph: N-NSM
-  gloss: king
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '935'
-  domain: '037004'
-  ln: '37.67'
+  ids:
+    ref: MAT 14:9!4
+    wordID: n40014009004
+  translation:
+    gloss: king
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '935'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.67'
 - position: 5
-  ref: MAT 14:9!5
-  xml_id: n40014009005
-  unicode: διὰ
+  text: διὰ
   lemma: διά
   normalized: διά
-  class: prep
-  morph: PREP
-  gloss: on account of
-  strong: '1223'
-  domain: 089007
-  ln: '89.26'
+  ids:
+    ref: MAT 14:9!5
+    wordID: n40014009005
+  translation:
+    gloss: on account of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.26'
 - position: 6
-  ref: MAT 14:9!6
-  xml_id: n40014009006
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:9!6
+    wordID: n40014009006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 14:9!7
-  xml_id: n40014009007
-  unicode: ὅρκους
+  text: ὅρκους
   lemma: ὅρκος
   normalized: ὅρκους
-  class: noun
-  morph: N-APM
-  gloss: oaths
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3727'
-  domain: '033054'
-  ln: '33.463'
+  ids:
+    ref: MAT 14:9!7
+    wordID: n40014009007
+  translation:
+    gloss: oaths
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3727'
+  semantic:
+    semanticDomain: '033054'
+    ln: '33.463'
 - position: 8
-  ref: MAT 14:9!8
-  xml_id: n40014009008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 14:9!8
+    wordID: n40014009008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 14:9!9
-  xml_id: n40014009009
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:9!9
+    wordID: n40014009009
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 14:9!10
-  xml_id: n40014009010
-  unicode: συνανακειμένους
+  text: συνανακειμένους
   lemma: συνανάκειμαι
   normalized: συνανακειμένους
-  class: verb
-  morph: V-PNP-APM
-  gloss: reclining with [him]
-  gender: masculine
-  number: plural
-  case: accusative
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '4873'
-  domain: '034001'
-  ln: '34.10'
-  role: v
+  ids:
+    ref: MAT 14:9!10
+    wordID: n40014009010
+  translation:
+    gloss: reclining with [him]
+  morphology:
+    class: verb
+    morph: V-PNP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '4873'
+  semantic:
+    semanticDomain: '034001'
+    ln: '34.10'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 11
-  ref: MAT 14:9!11
-  xml_id: n40014009011
-  unicode: ἐκέλευσεν
+  text: ἐκέλευσεν
   lemma: κελεύω
   normalized: ἐκέλευσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: he commanded [it]
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2753'
-  domain: '033032'
-  ln: '33.323'
-  role: v
+  ids:
+    ref: MAT 14:9!11
+    wordID: n40014009011
+  translation:
+    gloss: he commanded [it]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2753'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.323'
+  syntax:
+    role: v
+    frame: A0:n40014009004 A1:n40014009012
 - position: 12
-  ref: MAT 14:9!12
-  xml_id: n40014009012
-  unicode: δοθῆναι
+  text: δοθῆναι
   lemma: δίδωμι
   normalized: δοθῆναι
-  class: verb
-  morph: V-APN
-  gloss: to be given
-  tense: aorist
-  voice: passive
-  mood: infinitive
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 14:9!12
+    wordID: n40014009012
+  translation:
+    gloss: to be given
+  morphology:
+    class: verb
+    morph: V-APN
+    tense: aorist
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A1:n40014008015
+  discourse:
+    subject: n40014008015
 - position: 13
-  ref: MAT 14:10!1
-  xml_id: n40014010001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:10!1
+    wordID: n40014010001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 14
-  ref: MAT 14:10!2
-  xml_id: n40014010002
-  unicode: πέμψας
+  text: πέμψας
   lemma: πέμπω
   normalized: πέμψας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: he having sent
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3992'
-  domain: '015004'
-  ln: '15.66'
-  role: v
+  ids:
+    ref: MAT 14:10!2
+    wordID: n40014010002
+  translation:
+    gloss: he having sent
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3992'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.66'
+  syntax:
+    role: v
+    frame: A0:n40014009004
+  discourse:
+    subject: n40014009004
 - position: 15
-  ref: MAT 14:10!3
-  xml_id: n40014010003
-  unicode: ἀπεκεφάλισεν
+  text: ἀπεκεφάλισεν
   lemma: ἀποκεφαλίζω
   normalized: ἀπεκεφάλισεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: beheaded
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '607'
-  domain: '020004'
-  ln: '20.80'
-  role: v
+  ids:
+    ref: MAT 14:10!3
+    wordID: n40014010003
+  translation:
+    gloss: beheaded
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '607'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.80'
+  syntax:
+    role: v
+    frame: A0:n40014009004 A1:n40014010004
+  discourse:
+    subject: n40014009004
 - position: 16
-  ref: MAT 14:10!4
-  xml_id: n40014010004
-  unicode: Ἰωάνην
+  text: Ἰωάνην
   lemma: Ἰωάννης
   normalized: Ἰωάνην
-  class: noun
-  morph: N-ASM
-  gloss: John
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2491'
-  domain: 093001
-  ln: 93.190a
-  role: o
+  ids:
+    ref: MAT 14:10!4
+    wordID: n40014010004
+  translation:
+    gloss: John
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2491'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.190a
+  syntax:
+    role: o
 - position: 17
-  ref: MAT 14:10!5
-  xml_id: n40014010005
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 14:10!5
+    wordID: n40014010005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 18
-  ref: MAT 14:10!6
-  xml_id: n40014010006
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:10!6
+    wordID: n40014010006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 14:10!7
-  xml_id: n40014010007
-  unicode: φυλακῇ
+  text: φυλακῇ
   lemma: φυλακή
   normalized: φυλακῇ
-  class: noun
-  morph: N-DSF
-  gloss: prison
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '5438'
-  domain: '007002'
-  ln: '7.24'
-syntax:
-  word_order: ADV-S-ADV-V-O
+  ids:
+    ref: MAT 14:10!7
+    wordID: n40014010007
+  translation:
+    gloss: prison
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5438'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.24'

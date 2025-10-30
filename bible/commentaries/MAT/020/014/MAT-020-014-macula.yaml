@@ -1,103 +1,121 @@
-verse:
-  reference: MAT 20:14
-  book_code: MAT
-  chapter: 20
-  verse: 14
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἆρον τὸ σὸν καὶ ὕπαγε·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 20:14
+text: ἆρον τὸ σὸν καὶ ὕπαγε·
 words:
 - position: 1
-  ref: MAT 20:14!1
-  xml_id: n40020014001
-  unicode: ἆρον
+  text: ἆρον
   lemma: αἴρω
   normalized: ἆρον
-  class: verb
-  morph: V-AAM-2S
-  gloss: Take
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '142'
-  domain: '015024'
-  ln: '15.203'
-  role: v
+  ids:
+    ref: MAT 20:14!1
+    wordID: n40020014001
+  translation:
+    gloss: Take
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.203'
+  syntax:
+    role: v
+    frame: A0:n40020013007 A1:n40020014003
+  discourse:
+    subject: n40020013007
 - position: 2
-  ref: MAT 20:14!2
-  xml_id: n40020014002
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: what [is]
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 20:14!2
+    wordID: n40020014002
+  translation:
+    gloss: what [is]
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 20:14!3
-  xml_id: n40020014003
-  unicode: σὸν
+  text: σὸν
   lemma: σός
   normalized: σόν
-  class: adj
-  morph: S-2SASN
-  gloss: yours
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4674'
-  domain: 092003
-  ln: '92.8'
+  ids:
+    ref: MAT 20:14!3
+    wordID: n40020014003
+  translation:
+    gloss: yours
+  morphology:
+    class: adj
+    morph: S-2SASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: possessive
+  lexical:
+    strong: '4674'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.8'
+  discourse:
+    referent: n40020013007
 - position: 4
-  ref: MAT 20:14!4
-  xml_id: n40020014004
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 20:14!4
+    wordID: n40020014004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 5
-  ref: MAT 20:14!5
-  xml_id: n40020014005
-  unicode: ὕπαγε
+  text: ὕπαγε
   lemma: ὑπάγω
   normalized: ὕπαγε
-  class: verb
-  morph: V-PAM-2S
-  gloss: go
-  number: singular
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '5217'
-  domain: '015004'
-  ln: '15.52'
-  role: v
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 20:14!5
+    wordID: n40020014005
+  translation:
+    gloss: go
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.52'
+  syntax:
+    role: v
+    frame: A0:n40020013007
+  discourse:
+    subject: n40020013007

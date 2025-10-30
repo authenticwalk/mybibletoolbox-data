@@ -1,239 +1,310 @@
-verse:
-  reference: MAT 15:37
-  book_code: MAT
-  chapter: 15
-  verse: 37
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἔφαγον πάντες καὶ ἐχορτάσθησαν, καὶ τὸ περισσεῦον τῶν κλασμάτων ἦραν
-    ἑπτὰ σπυρίδας πλήρεις.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 15:37
+text: καὶ ἔφαγον πάντες καὶ ἐχορτάσθησαν, καὶ τὸ περισσεῦον τῶν κλασμάτων ἦραν ἑπτὰ
+  σπυρίδας πλήρεις.
 words:
 - position: 1
-  ref: MAT 15:37!1
-  xml_id: n40015037001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 15:37!1
+    wordID: n40015037001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 15:37!2
-  xml_id: n40015037002
-  unicode: ἔφαγον
+  text: ἔφαγον
   lemma: ἐσθίω
   normalized: ἔφαγον
-  class: verb
-  morph: V-2AAI-3P
-  gloss: ate
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5315'
-  domain: '023001'
-  ln: '23.1'
-  role: v
+  ids:
+    ref: MAT 15:37!2
+    wordID: n40015037002
+  translation:
+    gloss: ate
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n40015037003
 - position: 3
-  ref: MAT 15:37!3
-  xml_id: n40015037003
-  unicode: πάντες
+  text: πάντες
   lemma: πᾶς
   normalized: πάντες
-  class: adj
-  morph: A-NPM
-  gloss: all
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
-  role: s
+  ids:
+    ref: MAT 15:37!3
+    wordID: n40015037003
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: s
+  discourse:
+    referent: n40015036019
 - position: 4
-  ref: MAT 15:37!4
-  xml_id: n40015037004
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 15:37!4
+    wordID: n40015037004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 5
-  ref: MAT 15:37!5
-  xml_id: n40015037005
-  unicode: ἐχορτάσθησαν
+  text: ἐχορτάσθησαν
   lemma: χορτάζω
   normalized: ἐχορτάσθησαν
-  class: verb
-  morph: V-API-3P
-  gloss: were satisfied
-  number: plural
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '5526'
-  domain: '023001'
-  ln: '23.16'
-  role: v
+  ids:
+    ref: MAT 15:37!5
+    wordID: n40015037005
+  translation:
+    gloss: were satisfied
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '5526'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.16'
+  syntax:
+    role: v
+    frame: A1:n40015037003
+  discourse:
+    subject: n40015037003
 - position: 6
-  ref: MAT 15:37!6
-  xml_id: n40015037006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 15:37!6
+    wordID: n40015037006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 15:37!7
-  xml_id: n40015037007
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: that
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 15:37!7
+    wordID: n40015037007
+  translation:
+    gloss: that
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 15:37!8
-  xml_id: n40015037008
-  unicode: περισσεῦον
+  text: περισσεῦον
   lemma: περισσεύω
   normalized: περισσεῦον
-  class: verb
-  morph: V-PAP-ASN
-  gloss: being over and above
-  gender: neuter
-  number: singular
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '4052'
-  domain: '057002'
-  ln: '57.24'
-  role: v
+  ids:
+    ref: MAT 15:37!8
+    wordID: n40015037008
+  translation:
+    gloss: being over and above
+  morphology:
+    class: verb
+    morph: V-PAP-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4052'
+  semantic:
+    semanticDomain: '057002'
+    ln: '57.24'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 9
-  ref: MAT 15:37!9
-  xml_id: n40015037009
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPN
-  gloss: of the
-  gender: neuter
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 15:37!9
+    wordID: n40015037009
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 15:37!10
-  xml_id: n40015037010
-  unicode: κλασμάτων
+  text: κλασμάτων
   lemma: κλάσμα
   normalized: κλασμάτων
-  class: noun
-  morph: N-GPN
-  gloss: fragments
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '2801'
-  domain: 019004
-  ln: '19.40'
+  ids:
+    ref: MAT 15:37!10
+    wordID: n40015037010
+  translation:
+    gloss: fragments
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '2801'
+  semantic:
+    semanticDomain: 019004
+    ln: '19.40'
 - position: 11
-  ref: MAT 15:37!12
-  xml_id: n40015037012
-  unicode: ἑπτὰ
+  text: ἑπτὰ
   lemma: ἑπτά
   normalized: ἑπτά
-  class: num
-  morph: A-NUI
-  gloss: seven
-  strong: '2033'
-  domain: '060002'
-  ln: '60.16'
+  ids:
+    ref: MAT 15:37!12
+    wordID: n40015037012
+  translation:
+    gloss: seven
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '2033'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.16'
 - position: 12
-  ref: MAT 15:37!13
-  xml_id: n40015037013
-  unicode: σπυρίδας
+  text: σπυρίδας
   lemma: σπυρίς
   normalized: σπυρίδας
-  class: noun
-  morph: N-APF
-  gloss: baskets
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '4711'
-  domain: '006016'
-  ln: '6.149'
+  ids:
+    ref: MAT 15:37!13
+    wordID: n40015037013
+  translation:
+    gloss: baskets
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4711'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.149'
 - position: 13
-  ref: MAT 15:37!14
-  xml_id: n40015037014
-  unicode: πλήρεις
+  text: πλήρεις
   lemma: πλήρης
   normalized: πλήρεις
-  class: adj
-  morph: A-APF
-  gloss: full
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '4134'
-  domain: 059004
-  ln: '59.35'
+  ids:
+    ref: MAT 15:37!14
+    wordID: n40015037014
+  translation:
+    gloss: full
+  morphology:
+    class: adj
+    morph: A-APF
+    gender: feminine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '4134'
+  semantic:
+    semanticDomain: 059004
+    ln: '59.35'
+  syntax:
+    discontinuous: 'true'
 - position: 14
-  ref: MAT 15:37!11
-  xml_id: n40015037011
-  unicode: ἦραν
+  text: ἦραν
   lemma: αἴρω
   normalized: ἦραν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they took up
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '142'
-  domain: '015024'
-  ln: '15.203'
-  role: v
-syntax:
-  word_order: V-S
+  ids:
+    ref: MAT 15:37!11
+    wordID: n40015037011
+  translation:
+    gloss: they took up
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.203'
+  syntax:
+    role: v
+    frame: A0:n40015036017 A1:n40015037008
+  discourse:
+    subject: n40015036017

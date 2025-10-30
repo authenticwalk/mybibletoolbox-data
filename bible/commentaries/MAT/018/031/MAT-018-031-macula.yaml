@@ -1,313 +1,414 @@
-verse:
-  reference: MAT 18:31
-  book_code: MAT
-  chapter: 18
-  verse: 31
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἰδόντες οὖν οἱ σύνδουλοι αὐτοῦ τὰ γενόμενα ἐλυπήθησαν σφόδρα, καὶ ἐλθόντες
-    διεσάφησαν τῷ κυρίῳ ἑαυτῶν πάντα τὰ γενόμενα.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:31
+text: ἰδόντες οὖν οἱ σύνδουλοι αὐτοῦ τὰ γενόμενα ἐλυπήθησαν σφόδρα, καὶ ἐλθόντες διεσάφησαν
+  τῷ κυρίῳ ἑαυτῶν πάντα τὰ γενόμενα.
 words:
 - position: 1
-  ref: MAT 18:31!2
-  xml_id: n40018031002
-  unicode: οὖν
+  text: οὖν
   lemma: οὖν
   normalized: οὖν
-  class: conj
-  morph: CONJ
-  gloss: therefore
-  strong: '3767'
-  domain: 089008
-  ln: '89.50'
+  ids:
+    ref: MAT 18:31!2
+    wordID: n40018031002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
 - position: 2
-  ref: MAT 18:31!3
-  xml_id: n40018031003
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:31!3
+    wordID: n40018031003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 18:31!4
-  xml_id: n40018031004
-  unicode: σύνδουλοι
+  text: σύνδουλοι
   lemma: σύνδουλος
   normalized: σύνδουλοι
-  class: noun
-  morph: N-NPM
-  gloss: fellow servants
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4889'
-  domain: 087005
-  ln: '87.81'
+  ids:
+    ref: MAT 18:31!4
+    wordID: n40018031004
+  translation:
+    gloss: fellow servants
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '4889'
+  semantic:
+    semanticDomain: 087005
+    ln: '87.81'
 - position: 4
-  ref: MAT 18:31!5
-  xml_id: n40018031005
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 18:31!5
+    wordID: n40018031005
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    discontinuous: 'true'
+  discourse:
+    referent: n40018028004
 - position: 5
-  ref: MAT 18:31!1
-  xml_id: n40018031001
-  unicode: ἰδόντες
+  text: ἰδόντες
   lemma: ὁράω
   normalized: ἰδόντες
-  class: verb
-  morph: V-2AAP-NPM
-  gloss: Having seen
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
+  ids:
+    ref: MAT 18:31!1
+    wordID: n40018031001
+  translation:
+    gloss: Having seen
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40018031004 A1:n40018031007
+  discourse:
+    subject: n40018031004
 - position: 6
-  ref: MAT 18:31!6
-  xml_id: n40018031006
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the things
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:31!6
+    wordID: n40018031006
+  translation:
+    gloss: the things
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 18:31!7
-  xml_id: n40018031007
-  unicode: γενόμενα
+  text: γενόμενα
   lemma: γίνομαι
   normalized: γενόμενα
-  class: verb
-  morph: V-2ADP-APN
-  gloss: having taken place
-  gender: neuter
-  number: plural
-  case: accusative
-  tense: aorist
-  voice: middle
-  mood: participle
-  strong: '1096'
-  domain: '013004'
-  ln: '13.107'
-  role: v
+  ids:
+    ref: MAT 18:31!7
+    wordID: n40018031007
+  translation:
+    gloss: having taken place
+  morphology:
+    class: verb
+    morph: V-2ADP-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 8
-  ref: MAT 18:31!8
-  xml_id: n40018031008
-  unicode: ἐλυπήθησαν
+  text: ἐλυπήθησαν
   lemma: λυπέω
   normalized: ἐλυπήθησαν
-  class: verb
-  morph: V-API-3P
-  gloss: they were grieved
-  number: plural
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '3076'
-  domain: '025023'
-  ln: '25.274'
-  role: v
+  ids:
+    ref: MAT 18:31!8
+    wordID: n40018031008
+  translation:
+    gloss: they were grieved
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3076'
+  semantic:
+    semanticDomain: '025023'
+    ln: '25.274'
+  syntax:
+    role: v
+    frame: A1:n40018031004
 - position: 9
-  ref: MAT 18:31!9
-  xml_id: n40018031009
-  unicode: σφόδρα
+  text: σφόδρα
   lemma: σφόδρα
   normalized: σφόδρα
-  class: adv
-  morph: ADV
-  gloss: deeply
-  strong: '4970'
-  domain: 078001
-  ln: '78.19'
-  role: adv
+  ids:
+    ref: MAT 18:31!9
+    wordID: n40018031009
+  translation:
+    gloss: deeply
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4970'
+  semantic:
+    semanticDomain: 078001
+    ln: '78.19'
+  syntax:
+    role: adv
 - position: 10
-  ref: MAT 18:31!10
-  xml_id: n40018031010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 18:31!10
+    wordID: n40018031010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 11
-  ref: MAT 18:31!11
-  xml_id: n40018031011
-  unicode: ἐλθόντες
+  text: ἐλθόντες
   lemma: ἔρχομαι
   normalized: ἐλθόντες
-  class: verb
-  morph: V-2AAP-NPM
-  gloss: having gone
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 18:31!11
+    wordID: n40018031011
+  translation:
+    gloss: having gone
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40018031004
+  discourse:
+    subject: n40018031004
 - position: 12
-  ref: MAT 18:31!12
-  xml_id: n40018031012
-  unicode: διεσάφησαν
+  text: διεσάφησαν
   lemma: διασαφέω
   normalized: διεσάφησαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: narrated
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1285'
-  domain: '033015'
-  ln: '33.200'
-  role: v
+  ids:
+    ref: MAT 18:31!12
+    wordID: n40018031012
+  translation:
+    gloss: narrated
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1285'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.200'
+  syntax:
+    role: v
+    frame: A0:n40018031004 A2:n40018031014 A1:n40018031018
+  discourse:
+    subject: n40018031004
 - position: 13
-  ref: MAT 18:31!13
-  xml_id: n40018031013
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: to
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:31!13
+    wordID: n40018031013
+  translation:
+    gloss: to
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 18:31!14
-  xml_id: n40018031014
-  unicode: κυρίῳ
+  text: κυρίῳ
   lemma: κύριος
   normalized: κυρίῳ
-  class: noun
-  morph: N-DSM
-  gloss: master
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '2962'
-  domain: '057001'
-  ln: '57.12'
+  ids:
+    ref: MAT 18:31!14
+    wordID: n40018031014
+  translation:
+    gloss: master
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.12'
 - position: 15
-  ref: MAT 18:31!15
-  xml_id: n40018031015
-  unicode: ἑαυτῶν
+  text: ἑαυτῶν
   lemma: ἑαυτοῦ
   normalized: ἑαυτῶν
-  class: pron
-  morph: F-3GPM
-  gloss: of themselves
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
+  ids:
+    ref: MAT 18:31!15
+    wordID: n40018031015
+  translation:
+    gloss: of themselves
+  morphology:
+    class: pron
+    morph: F-3GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n40018031004
 - position: 16
-  ref: MAT 18:31!16
-  xml_id: n40018031016
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: all
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 18:31!16
+    wordID: n40018031016
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 17
-  ref: MAT 18:31!17
-  xml_id: n40018031017
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: that
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:31!17
+    wordID: n40018031017
+  translation:
+    gloss: that
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 18:31!18
-  xml_id: n40018031018
-  unicode: γενόμενα
+  text: γενόμενα
   lemma: γίνομαι
   normalized: γενόμενα
-  class: verb
-  morph: V-2ADP-APN
-  gloss: having taken place
-  gender: neuter
-  number: plural
-  case: accusative
-  tense: aorist
-  voice: middle
-  mood: participle
-  strong: '1096'
-  domain: '013004'
-  ln: '13.107'
-  role: v
-syntax:
-  word_order: S-ADV-V-ADV
+  ids:
+    ref: MAT 18:31!18
+    wordID: n40018031018
+  translation:
+    gloss: having taken place
+  morphology:
+    class: verb
+    morph: V-2ADP-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n00000000000

@@ -1,217 +1,284 @@
-verse:
-  reference: MAT 24:46
-  book_code: MAT
-  chapter: 24
-  verse: 46
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: μακάριος ὁ δοῦλος ἐκεῖνος ὃν ἐλθὼν ὁ κύριος αὐτοῦ εὑρήσει οὕτως ποιοῦντα·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:46
+text: μακάριος ὁ δοῦλος ἐκεῖνος ὃν ἐλθὼν ὁ κύριος αὐτοῦ εὑρήσει οὕτως ποιοῦντα·
 words:
 - position: 1
-  ref: MAT 24:46!1
-  xml_id: n40024046001
-  unicode: μακάριος
+  text: μακάριος
   lemma: μακάριος
   normalized: μακάριος
-  class: adj
-  morph: A-NSM
-  gloss: Blessed [is]
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3107'
-  domain: '025011'
-  ln: '25.119'
-  role: p
+  ids:
+    ref: MAT 24:46!1
+    wordID: n40024046001
+  translation:
+    gloss: Blessed [is]
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3107'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.119'
+  syntax:
+    role: p
 - position: 2
-  ref: MAT 24:46!2
-  xml_id: n40024046002
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:46!2
+    wordID: n40024046002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 24:46!3
-  xml_id: n40024046003
-  unicode: δοῦλος
+  text: δοῦλος
   lemma: δοῦλος (II)
   normalized: δοῦλος
-  class: noun
-  morph: N-NSM
-  gloss: servant
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1401'
-  domain: 087005
-  ln: '87.76'
+  ids:
+    ref: MAT 24:46!3
+    wordID: n40024046003
+  translation:
+    gloss: servant
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1401'
+  semantic:
+    semanticDomain: 087005
+    ln: '87.76'
 - position: 4
-  ref: MAT 24:46!4
-  xml_id: n40024046004
-  unicode: ἐκεῖνος
+  text: ἐκεῖνος
   lemma: ἐκεῖνος
   normalized: ἐκεῖνος
-  class: pron
-  morph: D-NSM
-  gloss: that
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1565'
-  domain: 092007
-  ln: '92.30'
+  ids:
+    ref: MAT 24:46!4
+    wordID: n40024046004
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: D-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  discourse:
+    referent: n40024045006
 - position: 5
-  ref: MAT 24:46!5
-  xml_id: n40024046005
-  unicode: ὃν
+  text: ὃν
   lemma: ὅς
   normalized: ὅν
-  class: pron
-  morph: R-ASM
-  gloss: whom
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: s
+  ids:
+    ref: MAT 24:46!5
+    wordID: n40024046005
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
+  discourse:
+    referent: n40024046003
 - position: 6
-  ref: MAT 24:46!11
-  xml_id: n40024046011
-  unicode: οὕτως
+  text: οὕτως
   lemma: οὕτω
   normalized: οὕτως
-  class: adv
-  morph: ADV
-  gloss: thus
-  strong: '3779'
-  domain: '061'
-  ln: '61.9'
-  role: adv
+  ids:
+    ref: MAT 24:46!11
+    wordID: n40024046011
+  translation:
+    gloss: thus
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3779'
+  semantic:
+    semanticDomain: '061'
+    ln: '61.9'
+  syntax:
+    role: adv
 - position: 7
-  ref: MAT 24:46!12
-  xml_id: n40024046012
-  unicode: ποιοῦντα
+  text: ποιοῦντα
   lemma: ποιέω
   normalized: ποιοῦντα
-  class: verb
-  morph: V-PAP-ASM
-  gloss: doing
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '4160'
-  domain: '042002'
-  ln: '42.7'
-  role: v
+  ids:
+    ref: MAT 24:46!12
+    wordID: n40024046012
+  translation:
+    gloss: doing
+  morphology:
+    class: verb
+    morph: V-PAP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n40024046003 A0:n40024046005
+    discontinuous: 'true'
+  discourse:
+    subject: n40024046003
 - position: 8
-  ref: MAT 24:46!6
-  xml_id: n40024046006
-  unicode: ἐλθὼν
+  text: ἐλθὼν
   lemma: ἔρχομαι
   normalized: ἐλθών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having come
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 24:46!6
+    wordID: n40024046006
+  translation:
+    gloss: having come
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40024046008
+  discourse:
+    subject: n40024046008
 - position: 9
-  ref: MAT 24:46!7
-  xml_id: n40024046007
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:46!7
+    wordID: n40024046007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 24:46!8
-  xml_id: n40024046008
-  unicode: κύριος
+  text: κύριος
   lemma: κύριος
   normalized: κύριος
-  class: noun
-  morph: N-NSM
-  gloss: master
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2962'
-  domain: '057001'
-  ln: '57.12'
+  ids:
+    ref: MAT 24:46!8
+    wordID: n40024046008
+  translation:
+    gloss: master
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.12'
 - position: 11
-  ref: MAT 24:46!9
-  xml_id: n40024046009
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 24:46!9
+    wordID: n40024046009
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40024046003
 - position: 12
-  ref: MAT 24:46!10
-  xml_id: n40024046010
-  unicode: εὑρήσει
+  text: εὑρήσει
   lemma: εὑρίσκω
   normalized: εὑρήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will find
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2147'
-  domain: '027002'
-  ln: '27.27'
-  role: v
-syntax:
-  word_order: P-S
+  ids:
+    ref: MAT 24:46!10
+    wordID: n40024046010
+  translation:
+    gloss: will find
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2147'
+  semantic:
+    semanticDomain: '027002'
+    ln: '27.27'
+  syntax:
+    role: v
+    frame: A1:n40024046012 A0:n40024046008

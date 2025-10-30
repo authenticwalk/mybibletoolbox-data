@@ -1,189 +1,246 @@
-verse:
-  reference: MAT 27:65
-  book_code: MAT
-  chapter: 27
-  verse: 65
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἔφη αὐτοῖς ὁ Πειλᾶτος Ἔχετε κουστωδίαν· ὑπάγετε ἀσφαλίσασθε ὡς οἴδατε.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:65
+text: ἔφη αὐτοῖς ὁ Πειλᾶτος Ἔχετε κουστωδίαν· ὑπάγετε ἀσφαλίσασθε ὡς οἴδατε.
 words:
 - position: 1
-  ref: MAT 27:65!1
-  xml_id: n40027065001
-  unicode: ἔφη
+  text: ἔφη
   lemma: φημί
   normalized: ἔφη
-  class: verb
-  morph: V-IAI-3S
-  gloss: Said
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '5346'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 27:65!1
+    wordID: n40027065001
+  translation:
+    gloss: Said
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5346'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n40027065002 A0:n40027065004
 - position: 2
-  ref: MAT 27:65!2
-  xml_id: n40027065002
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 27:65!2
+    wordID: n40027065002
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40027062011 n40027062014
 - position: 3
-  ref: MAT 27:65!3
-  xml_id: n40027065003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:65!3
+    wordID: n40027065003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 27:65!4
-  xml_id: n40027065004
-  unicode: Πειλᾶτος
+  text: Πειλᾶτος
   lemma: Πιλᾶτος
   normalized: Πειλᾶτος
-  class: noun
-  morph: N-NSM
-  gloss: Pilate
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4091'
-  domain: 093001
-  ln: '93.297'
+  ids:
+    ref: MAT 27:65!4
+    wordID: n40027065004
+  translation:
+    gloss: Pilate
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4091'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.297'
 - position: 5
-  ref: MAT 27:65!5
-  xml_id: n40027065005
-  unicode: Ἔχετε
+  text: Ἔχετε
   lemma: ἔχω
   normalized: Ἔχετε
-  class: verb
-  morph: V-PAI-2P
-  gloss: You have
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2192'
-  domain: '057001'
-  ln: '57.1'
-  role: v
+  ids:
+    ref: MAT 27:65!5
+    wordID: n40027065005
+  translation:
+    gloss: You have
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40027062011;n40027062014 A1:n40027065006
+  discourse:
+    subject: n40027062011 n40027062014
 - position: 6
-  ref: MAT 27:65!6
-  xml_id: n40027065006
-  unicode: κουστωδίαν
+  text: κουστωδίαν
   lemma: κουστωδία
   normalized: κουστωδίαν
-  class: noun
-  morph: N-ASF
-  gloss: a guard
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2892'
-  domain: '055003'
-  ln: '55.13'
-  role: o
+  ids:
+    ref: MAT 27:65!6
+    wordID: n40027065006
+  translation:
+    gloss: a guard
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2892'
+  semantic:
+    semanticDomain: '055003'
+    ln: '55.13'
+  syntax:
+    role: o
 - position: 7
-  ref: MAT 27:65!7
-  xml_id: n40027065007
-  unicode: ὑπάγετε
+  text: ὑπάγετε
   lemma: ὑπάγω
   normalized: ὑπάγετε
-  class: verb
-  morph: V-PAM-2P
-  gloss: Go
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '5217'
-  domain: '015004'
-  ln: '15.35'
-  role: v
+  ids:
+    ref: MAT 27:65!7
+    wordID: n40027065007
+  translation:
+    gloss: Go
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.35'
+  syntax:
+    role: v
+    frame: A0:n40027062011;n40027062014
+  discourse:
+    subject: n40027062011 n40027062014
 - position: 8
-  ref: MAT 27:65!8
-  xml_id: n40027065008
-  unicode: ἀσφαλίσασθε
+  text: ἀσφαλίσασθε
   lemma: ἀσφαλίζω
   normalized: ἀσφαλίσασθε
-  class: verb
-  morph: V-ADM-2P
-  gloss: make [it as] secure
-  number: plural
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '805'
-  domain: '021003'
-  ln: '21.11'
-  role: v
+  ids:
+    ref: MAT 27:65!8
+    wordID: n40027065008
+  translation:
+    gloss: make [it as] secure
+  morphology:
+    class: verb
+    morph: V-ADM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '805'
+  semantic:
+    semanticDomain: '021003'
+    ln: '21.11'
+  syntax:
+    role: v
+    frame: A0:n40027062011;n40027062014
+  discourse:
+    subject: n40027062011 n40027062014
 - position: 9
-  ref: MAT 27:65!9
-  xml_id: n40027065009
-  unicode: ὡς
+  text: ὡς
   lemma: ὡς
   normalized: ὡς
-  class: conj
-  morph: ADV
-  gloss: as
-  strong: '5613'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 27:65!9
+    wordID: n40027065009
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 10
-  ref: MAT 27:65!10
-  xml_id: n40027065010
-  unicode: οἴδατε
+  text: οἴδατε
   lemma: οἶδα
   normalized: οἴδατε
-  class: verb
-  morph: V-RAI-2P
-  gloss: you know [how]
-  number: plural
-  person: second
-  tense: perfect
-  voice: active
-  mood: indicative
-  strong: '1492'
-  domain: 028001
-  ln: '28.7'
-  role: v
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 27:65!10
+    wordID: n40027065010
+  translation:
+    gloss: you know [how]
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.7'
+  syntax:
+    role: v
+    frame: A0:n40027062011;n40027062014
+  discourse:
+    subject: n40027062011 n40027062014

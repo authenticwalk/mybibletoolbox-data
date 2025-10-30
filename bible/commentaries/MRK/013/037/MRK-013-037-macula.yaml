@@ -1,0 +1,175 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 13:37
+text: ὃ δὲ ὑμῖν λέγω, πᾶσιν λέγω, γρηγορεῖτε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 13:37!2
+    wordID: n41013037002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: MRK 13:37!1
+    wordID: n41013037001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: MRK 13:37!3
+    wordID: n41013037003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n41013003016 n41013003018 n41013003020 n41013003022
+- position: 4
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: MRK 13:37!4
+    wordID: n41013037004
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41013005003 A1:n41013037001 A2:n41013037003
+  discourse:
+    subject: n41013005003
+- position: 5
+  text: πᾶσιν
+  lemma: πᾶς
+  normalized: πᾶσιν
+  ids:
+    ref: MRK 13:37!5
+    wordID: n41013037005
+  translation:
+    gloss: to all
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: io
+- position: 6
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: MRK 13:37!6
+    wordID: n41013037006
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41013005003 A1:n41013037004 A2:n41013037005
+  discourse:
+    subject: n41013005003
+- position: 7
+  text: γρηγορεῖτε
+  lemma: γρηγορέω
+  normalized: γρηγορεῖτε
+  ids:
+    ref: MRK 13:37!7
+    wordID: n41013037007
+  translation:
+    gloss: Watch
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1127'
+  semantic:
+    semanticDomain: '027006'
+    ln: '27.56'
+  syntax:
+    role: v
+    frame: A0:n41013003016;n41013003018;n41013003020;n41013003022;n41013037005
+  discourse:
+    subject: n41013003016 n41013003018 n41013003020 n41013003022 n41013037005

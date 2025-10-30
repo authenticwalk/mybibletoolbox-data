@@ -1,102 +1,121 @@
-verse:
-  reference: MAT 11:9
-  book_code: MAT
-  chapter: 11
-  verse: 9
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἀλλὰ τί ἐξήλθατε; προφήτην ἰδεῖν;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 11:9
+text: ἀλλὰ τί ἐξήλθατε; προφήτην ἰδεῖν;
 words:
 - position: 1
-  ref: MAT 11:9!1
-  xml_id: n40011009001
-  unicode: ἀλλὰ
+  text: ἀλλὰ
   lemma: ἀλλά
   normalized: ἀλλά
-  class: conj
-  morph: CONJ
-  gloss: But
-  strong: '235'
-  domain: 089023
-  ln: '89.125'
+  ids:
+    ref: MAT 11:9!1
+    wordID: n40011009001
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
 - position: 2
-  ref: MAT 11:9!2
-  xml_id: n40011009002
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: what
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: adv
+  ids:
+    ref: MAT 11:9!2
+    wordID: n40011009002
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: adv
 - position: 3
-  ref: MAT 11:9!3
-  xml_id: n40011009003
-  unicode: ἐξήλθατε
+  text: ἐξήλθατε
   lemma: ἐξέρχομαι
   normalized: ἐξήλθατε
-  class: verb
-  morph: V-2AAI-2P
-  gloss: did you go out
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1831'
-  domain: '015004'
-  ln: '15.40'
-  role: v
+  ids:
+    ref: MAT 11:9!3
+    wordID: n40011009003
+  translation:
+    gloss: did you go out
+  morphology:
+    class: verb
+    morph: V-2AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1831'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n40011007009
+  discourse:
+    subject: n40011007009
 - position: 4
-  ref: MAT 11:9!4
-  xml_id: n40011009004
-  unicode: προφήτην
+  text: προφήτην
   lemma: προφήτης
   normalized: προφήτην
-  class: noun
-  morph: N-ASM
-  gloss: a prophet
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4396'
-  domain: 053009
-  ln: '53.79'
-  role: o
+  ids:
+    ref: MAT 11:9!4
+    wordID: n40011009004
+  translation:
+    gloss: a prophet
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4396'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.79'
+  syntax:
+    role: o
 - position: 5
-  ref: MAT 11:9!5
-  xml_id: n40011009005
-  unicode: ἰδεῖν
+  text: ἰδεῖν
   lemma: ὁράω
   normalized: ἰδεῖν
-  class: verb
-  morph: V-2AAN
-  gloss: to see
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
-syntax:
-  word_order: ADV-V
+  ids:
+    ref: MAT 11:9!5
+    wordID: n40011009005
+  translation:
+    gloss: to see
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40011007009 A1:n40011009004
+  discourse:
+    subject: n40011007009

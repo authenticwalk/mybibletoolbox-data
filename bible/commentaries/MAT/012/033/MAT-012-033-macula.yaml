@@ -1,327 +1,431 @@
-verse:
-  reference: MAT 12:33
-  book_code: MAT
-  chapter: 12
-  verse: 33
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ἢ ποιήσατε τὸ δένδρον καλὸν καὶ τὸν καρπὸν αὐτοῦ καλόν, ἢ ποιήσατε τὸ δένδρον
-    σαπρὸν καὶ τὸν καρπὸν αὐτοῦ σαπρόν·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:33
+text: Ἢ ποιήσατε τὸ δένδρον καλὸν καὶ τὸν καρπὸν αὐτοῦ καλόν, ἢ ποιήσατε τὸ δένδρον
+  σαπρὸν καὶ τὸν καρπὸν αὐτοῦ σαπρόν·
 words:
 - position: 1
-  ref: MAT 12:33!1
-  xml_id: n40012033001
-  unicode: Ἢ
+  text: Ἢ
   lemma: ἤ
   normalized: Ἤ
-  class: conj
-  morph: PRT
-  gloss: Either
-  strong: '2228'
-  domain: 089024
-  ln: '89.140'
+  ids:
+    ref: MAT 12:33!1
+    wordID: n40012033001
+  translation:
+    gloss: Either
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.140'
 - position: 2
-  ref: MAT 12:33!2
-  xml_id: n40012033002
-  unicode: ποιήσατε
+  text: ποιήσατε
   lemma: ποιέω
   normalized: ποιήσατε
-  class: verb
-  morph: V-AAM-2P
-  gloss: make
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '4160'
-  domain: '013001'
-  ln: '13.9'
-  role: v
+  ids:
+    ref: MAT 12:33!2
+    wordID: n40012033002
+  translation:
+    gloss: make
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.9'
+  syntax:
+    role: v
+    frame: A0:n40012024003 A1:n40012033004
+  discourse:
+    subject: n40012024003
 - position: 3
-  ref: MAT 12:33!3
-  xml_id: n40012033003
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:33!3
+    wordID: n40012033003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 12:33!4
-  xml_id: n40012033004
-  unicode: δένδρον
+  text: δένδρον
   lemma: δένδρον
   normalized: δένδρον
-  class: noun
-  morph: N-ASN
-  gloss: tree
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1186'
-  domain: '003002'
-  ln: '3.2'
+  ids:
+    ref: MAT 12:33!4
+    wordID: n40012033004
+  translation:
+    gloss: tree
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1186'
+  semantic:
+    semanticDomain: '003002'
+    ln: '3.2'
 - position: 5
-  ref: MAT 12:33!5
-  xml_id: n40012033005
-  unicode: καλὸν
+  text: καλὸν
   lemma: καλός
   normalized: καλόν
-  class: adj
-  morph: A-ASN
-  gloss: good
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '2570'
-  domain: '065003'
-  ln: '65.22'
-  role: o2
+  ids:
+    ref: MAT 12:33!5
+    wordID: n40012033005
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2570'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.22'
+  syntax:
+    role: o2
 - position: 6
-  ref: MAT 12:33!6
-  xml_id: n40012033006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:33!6
+    wordID: n40012033006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 7
-  ref: MAT 12:33!7
-  xml_id: n40012033007
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:33!7
+    wordID: n40012033007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 12:33!8
-  xml_id: n40012033008
-  unicode: καρπὸν
+  text: καρπὸν
   lemma: καρπός
   normalized: καρπόν
-  class: noun
-  morph: N-ASM
-  gloss: fruit
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2590'
-  domain: '003004'
-  ln: '3.33'
+  ids:
+    ref: MAT 12:33!8
+    wordID: n40012033008
+  translation:
+    gloss: fruit
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2590'
+  semantic:
+    semanticDomain: '003004'
+    ln: '3.33'
 - position: 9
-  ref: MAT 12:33!9
-  xml_id: n40012033009
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSN
-  gloss: of it
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 12:33!9
+    wordID: n40012033009
+  translation:
+    gloss: of it
+  morphology:
+    class: pron
+    morph: P-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012033004
 - position: 10
-  ref: MAT 12:33!10
-  xml_id: n40012033010
-  unicode: καλόν
+  text: καλόν
   lemma: καλός
   normalized: καλόν
-  class: adj
-  morph: A-ASM
-  gloss: good
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2570'
-  domain: '065003'
-  ln: '65.22'
-  role: o2
+  ids:
+    ref: MAT 12:33!10
+    wordID: n40012033010
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2570'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.22'
+  syntax:
+    role: o2
 - position: 11
-  ref: MAT 12:33!11
-  xml_id: n40012033011
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.140'
+  ids:
+    ref: MAT 12:33!11
+    wordID: n40012033011
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.140'
 - position: 12
-  ref: MAT 12:33!12
-  xml_id: n40012033012
-  unicode: ποιήσατε
+  text: ποιήσατε
   lemma: ποιέω
   normalized: ποιήσατε
-  class: verb
-  morph: V-AAM-2P
-  gloss: make
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '4160'
-  domain: '013001'
-  ln: '13.9'
-  role: v
+  ids:
+    ref: MAT 12:33!12
+    wordID: n40012033012
+  translation:
+    gloss: make
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.9'
+  syntax:
+    role: v
+    frame: A0:n40012024003 A1:n40012033014
+  discourse:
+    subject: n40012024003
 - position: 13
-  ref: MAT 12:33!13
-  xml_id: n40012033013
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:33!13
+    wordID: n40012033013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 12:33!14
-  xml_id: n40012033014
-  unicode: δένδρον
+  text: δένδρον
   lemma: δένδρον
   normalized: δένδρον
-  class: noun
-  morph: N-ASN
-  gloss: tree
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1186'
-  domain: '003002'
-  ln: '3.2'
+  ids:
+    ref: MAT 12:33!14
+    wordID: n40012033014
+  translation:
+    gloss: tree
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1186'
+  semantic:
+    semanticDomain: '003002'
+    ln: '3.2'
 - position: 15
-  ref: MAT 12:33!15
-  xml_id: n40012033015
-  unicode: σαπρὸν
+  text: σαπρὸν
   lemma: σαπρός
   normalized: σαπρόν
-  class: adj
-  morph: A-ASN
-  gloss: bad
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4550'
-  domain: '065003'
-  ln: '65.28'
-  role: o2
+  ids:
+    ref: MAT 12:33!15
+    wordID: n40012033015
+  translation:
+    gloss: bad
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4550'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.28'
+  syntax:
+    role: o2
 - position: 16
-  ref: MAT 12:33!16
-  xml_id: n40012033016
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:33!16
+    wordID: n40012033016
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 17
-  ref: MAT 12:33!17
-  xml_id: n40012033017
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:33!17
+    wordID: n40012033017
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 12:33!18
-  xml_id: n40012033018
-  unicode: καρπὸν
+  text: καρπὸν
   lemma: καρπός
   normalized: καρπόν
-  class: noun
-  morph: N-ASM
-  gloss: fruit
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2590'
-  domain: '003004'
-  ln: '3.33'
+  ids:
+    ref: MAT 12:33!18
+    wordID: n40012033018
+  translation:
+    gloss: fruit
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2590'
+  semantic:
+    semanticDomain: '003004'
+    ln: '3.33'
 - position: 19
-  ref: MAT 12:33!19
-  xml_id: n40012033019
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSN
-  gloss: of it
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 12:33!19
+    wordID: n40012033019
+  translation:
+    gloss: of it
+  morphology:
+    class: pron
+    morph: P-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012033014
 - position: 20
-  ref: MAT 12:33!20
-  xml_id: n40012033020
-  unicode: σαπρόν
+  text: σαπρόν
   lemma: σαπρός
   normalized: σαπρόν
-  class: adj
-  morph: A-ASM
-  gloss: bad
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4550'
-  domain: '065003'
-  ln: '65.28'
-  role: o2
-syntax:
-  word_order: V-O-O2
+  ids:
+    ref: MAT 12:33!20
+    wordID: n40012033020
+  translation:
+    gloss: bad
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4550'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.28'
+  syntax:
+    role: o2

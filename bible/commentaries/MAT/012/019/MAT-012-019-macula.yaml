@@ -1,221 +1,284 @@
-verse:
-  reference: MAT 12:19
-  book_code: MAT
-  chapter: 12
-  verse: 19
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οὐκ ἐρίσει οὐδὲ κραυγάσει, οὐδὲ ἀκούσει τις ἐν ταῖς πλατείαις τὴν φωνὴν
-    αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:19
+text: οὐκ ἐρίσει οὐδὲ κραυγάσει, οὐδὲ ἀκούσει τις ἐν ταῖς πλατείαις τὴν φωνὴν αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 12:19!1
-  xml_id: n40012019001
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: Not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 12:19!1
+    wordID: n40012019001
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 12:19!2
-  xml_id: n40012019002
-  unicode: ἐρίσει
+  text: ἐρίσει
   lemma: ἐρίζω
   normalized: ἐρίσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will He quarrel
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2051'
-  domain: '033051'
-  ln: '33.447'
-  role: v
+  ids:
+    ref: MAT 12:19!2
+    wordID: n40012019002
+  translation:
+    gloss: will He quarrel
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2051'
+  semantic:
+    semanticDomain: '033051'
+    ln: '33.447'
+  syntax:
+    role: v
+    frame: A0:n40012018003
+  discourse:
+    subject: n40012018003
 - position: 3
-  ref: MAT 12:19!3
-  xml_id: n40012019003
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 12:19!3
+    wordID: n40012019003
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 4
-  ref: MAT 12:19!4
-  xml_id: n40012019004
-  unicode: κραυγάσει
+  text: κραυγάσει
   lemma: κραυγάζω
   normalized: κραυγάσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will he cry out
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2905'
-  domain: '033006'
-  ln: '33.83'
-  role: v
+  ids:
+    ref: MAT 12:19!4
+    wordID: n40012019004
+  translation:
+    gloss: will he cry out
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2905'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.83'
+  syntax:
+    role: v
+    frame: A0:n40012018003
+  discourse:
+    subject: n40012018003
 - position: 5
-  ref: MAT 12:19!5
-  xml_id: n40012019005
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 12:19!5
+    wordID: n40012019005
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 6
-  ref: MAT 12:19!6
-  xml_id: n40012019006
-  unicode: ἀκούσει
+  text: ἀκούσει
   lemma: ἀκούω
   normalized: ἀκούσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will hear
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
+  ids:
+    ref: MAT 12:19!6
+    wordID: n40012019006
+  translation:
+    gloss: will hear
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40012019007 A1:n40012019012
 - position: 7
-  ref: MAT 12:19!7
-  xml_id: n40012019007
-  unicode: τις
+  text: τις
   lemma: τὶς
   normalized: τις
-  class: pron
-  morph: X-NSM
-  gloss: anyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5100'
-  domain: 092004
-  ln: '92.12'
-  role: s
+  ids:
+    ref: MAT 12:19!7
+    wordID: n40012019007
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
 - position: 8
-  ref: MAT 12:19!8
-  xml_id: n40012019008
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083008
-  ln: '83.47'
+  ids:
+    ref: MAT 12:19!8
+    wordID: n40012019008
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.47'
 - position: 9
-  ref: MAT 12:19!9
-  xml_id: n40012019009
-  unicode: ταῖς
+  text: ταῖς
   lemma: ὁ
   normalized: ταῖς
-  class: det
-  morph: T-DPF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:19!9
+    wordID: n40012019009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 12:19!10
-  xml_id: n40012019010
-  unicode: πλατείαις
+  text: πλατείαις
   lemma: πλατύς
   normalized: πλατείαις
-  class: noun
-  morph: N-DPF
-  gloss: streets
-  gender: feminine
-  number: plural
-  case: dative
-  strong: '4113'
-  domain: '001016'
-  ln: '1.103'
+  ids:
+    ref: MAT 12:19!10
+    wordID: n40012019010
+  translation:
+    gloss: streets
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+  lexical:
+    strong: '4113'
+  semantic:
+    semanticDomain: '001016'
+    ln: '1.103'
 - position: 11
-  ref: MAT 12:19!11
-  xml_id: n40012019011
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:19!11
+    wordID: n40012019011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 12:19!12
-  xml_id: n40012019012
-  unicode: φωνὴν
+  text: φωνὴν
   lemma: φωνή
   normalized: φωνήν
-  class: noun
-  morph: N-ASF
-  gloss: voice
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5456'
-  domain: '033006'
-  ln: '33.103'
+  ids:
+    ref: MAT 12:19!12
+    wordID: n40012019012
+  translation:
+    gloss: voice
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5456'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.103'
 - position: 13
-  ref: MAT 12:19!13
-  xml_id: n40012019013
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: ADV-V
+  ids:
+    ref: MAT 12:19!13
+    wordID: n40012019013
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012018003

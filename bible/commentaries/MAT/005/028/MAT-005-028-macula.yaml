@@ -1,328 +1,445 @@
-verse:
-  reference: MAT 5:28
-  book_code: MAT
-  chapter: 5
-  verse: 28
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ βλέπων γυναῖκα πρὸς τὸ ἐπιθυμῆσαι αὐτὴν ἤδη
-    ἐμοίχευσεν αὐτὴν ἐν τῇ καρδίᾳ αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:28
+text: ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ βλέπων γυναῖκα πρὸς τὸ ἐπιθυμῆσαι αὐτὴν ἤδη ἐμοίχευσεν
+  αὐτὴν ἐν τῇ καρδίᾳ αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 5:28!2
-  xml_id: n40005028002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 5:28!2
+    wordID: n40005028002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 5:28!1
-  xml_id: n40005028001
-  unicode: ἐγὼ
+  text: ἐγὼ
   lemma: ἐγώ
   normalized: ἐγώ
-  class: pron
-  morph: P-1NS
-  gloss: I
-  number: singular
-  case: nominative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: s
+  ids:
+    ref: MAT 5:28!1
+    wordID: n40005028001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40004017005
 - position: 3
-  ref: MAT 5:28!3
-  xml_id: n40005028003
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 5:28!3
+    wordID: n40005028003
+  translation:
+    gloss: say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40005028001 A2:n40005028004
 - position: 4
-  ref: MAT 5:28!4
-  xml_id: n40005028004
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 5:28!4
+    wordID: n40005028004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
 - position: 5
-  ref: MAT 5:28!5
-  xml_id: n40005028005
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 5:28!5
+    wordID: n40005028005
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 6
-  ref: MAT 5:28!6
-  xml_id: n40005028006
-  unicode: πᾶς
+  text: πᾶς
   lemma: πᾶς
   normalized: πᾶς
-  class: adj
-  morph: A-NSM
-  gloss: everyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 5:28!6
+    wordID: n40005028006
+  translation:
+    gloss: everyone
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 7
-  ref: MAT 5:28!7
-  xml_id: n40005028007
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:28!7
+    wordID: n40005028007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 5:28!8
-  xml_id: n40005028008
-  unicode: βλέπων
+  text: βλέπων
   lemma: βλέπω
   normalized: βλέπων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: looking upon
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '991'
-  domain: '024001'
-  ln: '24.7'
-  role: v
+  ids:
+    ref: MAT 5:28!8
+    wordID: n40005028008
+  translation:
+    gloss: looking upon
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '991'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.7'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40005028009
 - position: 9
-  ref: MAT 5:28!9
-  xml_id: n40005028009
-  unicode: γυναῖκα
+  text: γυναῖκα
   lemma: γυνή
   normalized: γυναῖκα
-  class: noun
-  morph: N-ASF
-  gloss: a woman
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1135'
-  domain: 009003
-  ln: '9.34'
-  role: o
+  ids:
+    ref: MAT 5:28!9
+    wordID: n40005028009
+  translation:
+    gloss: a woman
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1135'
+  semantic:
+    semanticDomain: 009003
+    ln: '9.34'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 5:28!10
-  xml_id: n40005028010
-  unicode: πρὸς
+  text: πρὸς
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: in order
-  strong: '4314'
-  domain: 089009
-  ln: '89.60'
+  ids:
+    ref: MAT 5:28!10
+    wordID: n40005028010
+  translation:
+    gloss: in order
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.60'
 - position: 11
-  ref: MAT 5:28!11
-  xml_id: n40005028011
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:28!11
+    wordID: n40005028011
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 5:28!12
-  xml_id: n40005028012
-  unicode: ἐπιθυμῆσαι
+  text: ἐπιθυμῆσαι
   lemma: ἐπιθυμέω
   normalized: ἐπιθυμῆσαι
-  class: verb
-  morph: V-AAN
-  gloss: to lust after
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '1937'
-  domain: '025002'
-  ln: '25.20'
-  role: v
+  ids:
+    ref: MAT 5:28!12
+    wordID: n40005028012
+  translation:
+    gloss: to lust after
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1937'
+  semantic:
+    semanticDomain: '025002'
+    ln: '25.20'
+  syntax:
+    role: v
+    frame: A0:n40005028008 A1:n40005028013
+  discourse:
+    subject: n40005028008
 - position: 13
-  ref: MAT 5:28!13
-  xml_id: n40005028013
-  unicode: αὐτὴν
+  text: αὐτὴν
   lemma: αὐτός
   normalized: αὐτήν
-  class: pron
-  morph: P-ASF
-  gloss: her
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 5:28!13
+    wordID: n40005028013
+  translation:
+    gloss: her
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005028009
 - position: 14
-  ref: MAT 5:28!14
-  xml_id: n40005028014
-  unicode: ἤδη
+  text: ἤδη
   lemma: ἤδη
   normalized: ἤδη
-  class: adv
-  morph: ADV
-  gloss: already
-  strong: '2235'
-  domain: '067002'
-  ln: '67.20'
-  role: adv
+  ids:
+    ref: MAT 5:28!14
+    wordID: n40005028014
+  translation:
+    gloss: already
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2235'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.20'
+  syntax:
+    role: adv
 - position: 15
-  ref: MAT 5:28!15
-  xml_id: n40005028015
-  unicode: ἐμοίχευσεν
+  text: ἐμοίχευσεν
   lemma: μοιχεύω
   normalized: ἐμοίχευσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: has committed adultery with
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3431'
-  domain: 088036
-  ln: '88.276'
-  role: v
+  ids:
+    ref: MAT 5:28!15
+    wordID: n40005028015
+  translation:
+    gloss: has committed adultery with
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3431'
+  semantic:
+    semanticDomain: 088036
+    ln: '88.276'
+  syntax:
+    role: v
+    frame: A0:n40005028008 A1:n40005028016
 - position: 16
-  ref: MAT 5:28!16
-  xml_id: n40005028016
-  unicode: αὐτὴν
+  text: αὐτὴν
   lemma: αὐτός
   normalized: αὐτήν
-  class: pron
-  morph: P-ASF
-  gloss: her
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 5:28!16
+    wordID: n40005028016
+  translation:
+    gloss: her
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005028009
 - position: 17
-  ref: MAT 5:28!17
-  xml_id: n40005028017
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 5:28!17
+    wordID: n40005028017
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 18
-  ref: MAT 5:28!18
-  xml_id: n40005028018
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:28!18
+    wordID: n40005028018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 5:28!19
-  xml_id: n40005028019
-  unicode: καρδίᾳ
+  text: καρδίᾳ
   lemma: καρδία
   normalized: καρδίᾳ
-  class: noun
-  morph: N-DSF
-  gloss: heart
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '2588'
-  domain: '026'
-  ln: '26.3'
+  ids:
+    ref: MAT 5:28!19
+    wordID: n40005028019
+  translation:
+    gloss: heart
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2588'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.3'
 - position: 20
-  ref: MAT 5:28!20
-  xml_id: n40005028020
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: S-ADV-V-O-ADV
+  ids:
+    ref: MAT 5:28!20
+    wordID: n40005028020
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40005028008

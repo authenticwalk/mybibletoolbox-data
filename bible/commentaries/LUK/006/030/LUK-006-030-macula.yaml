@@ -1,0 +1,274 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 6:30
+text: παντὶ αἰτοῦντί σε δίδου, καὶ ἀπὸ τοῦ αἴροντος τὰ σὰ μὴ ἀπαίτει.
+words:
+- position: 1
+  text: παντὶ
+  lemma: πᾶς
+  normalized: παντί
+  ids:
+    ref: LUK 6:30!1
+    wordID: n42006030001
+  translation:
+    gloss: To everyone
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 2
+  text: αἰτοῦντί
+  lemma: αἰτέω
+  normalized: αἰτοῦντι
+  ids:
+    ref: LUK 6:30!2
+    wordID: n42006030002
+  translation:
+    gloss: asking
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42006030003
+- position: 3
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: LUK 6:30!3
+    wordID: n42006030003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n42006027005
+- position: 4
+  text: δίδου
+  lemma: δίδωμι
+  normalized: δίδου
+  ids:
+    ref: LUK 6:30!4
+    wordID: n42006030004
+  translation:
+    gloss: give
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n42006027005 A1:n00000000000 A2:n42006030002
+  discourse:
+    subject: n42006027005
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 6:30!5
+    wordID: n42006030005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 6
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: LUK 6:30!6
+    wordID: n42006030006
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089021
+    ln: '89.122'
+- position: 7
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: LUK 6:30!7
+    wordID: n42006030007
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: αἴροντος
+  lemma: αἴρω
+  normalized: αἴροντος
+  ids:
+    ref: LUK 6:30!8
+    wordID: n42006030008
+  translation:
+    gloss: taking away
+  morphology:
+    class: verb
+    morph: V-PAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.203'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42006030010
+- position: 9
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: LUK 6:30!9
+    wordID: n42006030009
+  translation:
+    gloss: what [is]
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: σὰ
+  lemma: σός
+  normalized: σά
+  ids:
+    ref: LUK 6:30!10
+    wordID: n42006030010
+  translation:
+    gloss: yours
+  morphology:
+    class: adj
+    morph: S-2SAPN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: possessive
+  lexical:
+    strong: '4674'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.8'
+  discourse:
+    referent: n42006027005
+- position: 11
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: LUK 6:30!11
+    wordID: n42006030011
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 12
+  text: ἀπαίτει
+  lemma: ἀπαιτέω
+  normalized: ἀπαίτει
+  ids:
+    ref: LUK 6:30!12
+    wordID: n42006030012
+  translation:
+    gloss: ask [it] back
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '523'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.165'
+  syntax:
+    role: v
+    frame: A0:n42006027005 A1:n00000000000
+  discourse:
+    subject: n42006027005

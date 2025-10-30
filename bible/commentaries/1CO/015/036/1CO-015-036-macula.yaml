@@ -1,0 +1,202 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 15:36
+text: 1CO 15:36 ἄφρων, σὺ ὃ σπείρεις, οὐ ζωοποιεῖται ἐὰν μὴ ἀποθάνῃ·
+words:
+- position: 1
+  text: ἄφρων
+  lemma: ἄφρων
+  normalized: ἄφρων
+  ids:
+    ref: 1CO 15:36!1
+    wordID: n46015036001
+  translation:
+    gloss: Fool
+  morphology:
+    class: adj
+    morph: A-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+  lexical:
+    strong: '878'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.52'
+  syntax:
+    role: aux
+- position: 2
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: 1CO 15:36!3
+    wordID: n46015036003
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+    discontinuous: 'true'
+- position: 3
+  text: σὺ
+  lemma: σύ
+  normalized: σύ
+  ids:
+    ref: 1CO 15:36!2
+    wordID: n46015036002
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: s
+  discourse:
+    referent: n46015036001
+- position: 4
+  text: σπείρεις
+  lemma: σπείρω
+  normalized: σπείρεις
+  ids:
+    ref: 1CO 15:36!4
+    wordID: n46015036004
+  translation:
+    gloss: you sow
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4687'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.6'
+  syntax:
+    role: v
+    frame: A1:n46015036003 A0:n46015036002
+- position: 5
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: 1CO 15:36!5
+    wordID: n46015036005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 6
+  text: ζωοποιεῖται
+  lemma: ζῳοποιέω
+  normalized: ζωοποιεῖται
+  ids:
+    ref: 1CO 15:36!6
+    wordID: n46015036006
+  translation:
+    gloss: does come to life
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2227'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.92'
+  syntax:
+    role: v
+    frame: A1:n46015036004
+- position: 7
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: 1CO 15:36!7
+    wordID: n46015036007
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+- position: 8
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 1CO 15:36!8
+    wordID: n46015036008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 9
+  text: ἀποθάνῃ
+  lemma: ἀποθνῄσκω
+  normalized: ἀποθάνῃ
+  ids:
+    ref: 1CO 15:36!9
+    wordID: n46015036009
+  translation:
+    gloss: it dies
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '599'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.99'
+  syntax:
+    role: v
+    frame: A0:n46015036004
+  discourse:
+    subject: n46015036004

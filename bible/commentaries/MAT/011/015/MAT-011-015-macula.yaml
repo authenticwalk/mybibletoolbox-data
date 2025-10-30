@@ -1,93 +1,101 @@
-verse:
-  reference: MAT 11:15
-  book_code: MAT
-  chapter: 11
-  verse: 15
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ ἔχων ὦτα ἀκουέτω.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 11:15
+text: ὁ ἔχων ὦτα ἀκουέτω.
 words:
 - position: 1
-  ref: MAT 11:15!1
-  xml_id: n40011015001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: The [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:15!1
+    wordID: n40011015001
+  translation:
+    gloss: The [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 2
-  ref: MAT 11:15!2
-  xml_id: n40011015002
-  unicode: ἔχων
+  text: ἔχων
   lemma: ἔχω
   normalized: ἔχων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: having
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2192'
-  domain: '024002'
-  ln: '24.59'
-  role: v
+  ids:
+    ref: MAT 11:15!2
+    wordID: n40011015002
+  translation:
+    gloss: having
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.59'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40011015003
 - position: 3
-  ref: MAT 11:15!3
-  xml_id: n40011015003
-  unicode: ὦτα
+  text: ὦτα
   lemma: οὖς
   normalized: ὦτα
-  class: noun
-  morph: N-APN
-  gloss: ears
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3775'
-  domain: 008002
-  ln: '8.24'
-  role: o
+  ids:
+    ref: MAT 11:15!3
+    wordID: n40011015003
+  translation:
+    gloss: ears
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3775'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.24'
+  syntax:
+    role: o
 - position: 4
-  ref: MAT 11:15!4
-  xml_id: n40011015004
-  unicode: ἀκουέτω
+  text: ἀκουέτω
   lemma: ἀκούω
   normalized: ἀκουέτω
-  class: verb
-  morph: V-PAM-3S
-  gloss: let him hear
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '191'
-  domain: '031007'
-  ln: '31.56'
-  role: v
-syntax:
-  word_order: S-V
+  ids:
+    ref: MAT 11:15!4
+    wordID: n40011015004
+  translation:
+    gloss: let him hear
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '031007'
+    ln: '31.56'
+  syntax:
+    role: v
+    frame: A0:n40011015002

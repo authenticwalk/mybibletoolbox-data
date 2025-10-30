@@ -1,0 +1,545 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 4:10
+text: LUK 4:11 γέγραπται γὰρ ὅτι τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ τοῦ διαφυλάξαι
+  σε, καὶ ὅτι ἐπὶ χειρῶν ἀροῦσίν σε μή ποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: LUK 4:10!2
+    wordID: n42004010002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: γέγραπται
+  lemma: γράφω
+  normalized: γέγραπται
+  ids:
+    ref: LUK 4:10!1
+    wordID: n42004010001
+  translation:
+    gloss: It has been written
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.54'
+  syntax:
+    role: v
+    frame: A1:n42004010007;n42004011005;n42004011008
+  discourse:
+    subject: n42004010007 n42004011005 n42004011008
+- position: 3
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: LUK 4:10!3
+    wordID: n42004010003
+  translation:
+    gloss: '-'
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 4
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: LUK 4:10!4
+    wordID: n42004010004
+  translation:
+    gloss: To the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἀγγέλοις
+  lemma: ἄγγελος
+  normalized: ἀγγέλοις
+  ids:
+    ref: LUK 4:10!5
+    wordID: n42004010005
+  translation:
+    gloss: angels
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '32'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.28'
+- position: 6
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: LUK 4:10!6
+    wordID: n42004010006
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n42004009020
+- position: 7
+  text: ἐντελεῖται
+  lemma: ἐντέλλομαι
+  normalized: ἐντελεῖται
+  ids:
+    ref: LUK 4:10!7
+    wordID: n42004010007
+  translation:
+    gloss: He will give orders
+  morphology:
+    class: verb
+    morph: V-FNI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1781'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.329'
+  syntax:
+    role: v
+    frame: A0:n42004009020 A2:n42004010005
+  discourse:
+    subject: n42004009020
+- position: 8
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: LUK 4:10!8
+    wordID: n42004010008
+  translation:
+    gloss: concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.6'
+- position: 9
+  text: σοῦ
+  lemma: σύ
+  normalized: σοῦ
+  ids:
+    ref: LUK 4:10!9
+    wordID: n42004010009
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+- position: 10
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: LUK 4:10!10
+    wordID: n42004010010
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: διαφυλάξαι
+  lemma: διαφυλάσσω
+  normalized: διαφυλάξαι
+  ids:
+    ref: LUK 4:10!11
+    wordID: n42004010011
+  translation:
+    gloss: to guard
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1314'
+  semantic:
+    semanticDomain: '021005'
+    ln: '21.21'
+  syntax:
+    role: v
+    frame: A0:n42004010005 A1:n42004010012
+  discourse:
+    subject: n42004010005
+- position: 12
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: LUK 4:10!12
+    wordID: n42004010012
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 4:11!1
+    wordID: n42004011001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 14
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: LUK 4:11!2
+    wordID: n42004011002
+  translation:
+    gloss: '-'
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 15
+  text: ἐπὶ
+  lemma: ἐπί
+  normalized: ἐπί
+  ids:
+    ref: LUK 4:11!3
+    wordID: n42004011003
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
+- position: 16
+  text: χειρῶν
+  lemma: χείρ
+  normalized: χειρῶν
+  ids:
+    ref: LUK 4:11!4
+    wordID: n42004011004
+  translation:
+    gloss: '[their] hands'
+  morphology:
+    class: noun
+    morph: N-GPF
+    gender: feminine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
+- position: 17
+  text: ἀροῦσίν
+  lemma: αἴρω
+  normalized: ἀροῦσιν
+  ids:
+    ref: LUK 4:11!5
+    wordID: n42004011005
+  translation:
+    gloss: will they bear
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.203'
+  syntax:
+    role: v
+    frame: A0:n42004010005 A1:n42004011006
+  discourse:
+    subject: n42004010005
+- position: 18
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: LUK 4:11!6
+    wordID: n42004011006
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+- position: 19
+  text: μή
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: LUK 4:11!7
+    wordID: n42004011007
+  translation:
+    gloss: lest
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 20
+  text: ποτε
+  lemma: ποτέ
+  normalized: ποτε
+  ids:
+    ref: LUK 4:11!8
+    wordID: n42004011008
+  translation:
+    gloss: ever
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4218'
+  syntax:
+    role: adv
+- position: 21
+  text: προσκόψῃς
+  lemma: προσκόπτω
+  normalized: προσκόψῃς
+  ids:
+    ref: LUK 4:11!9
+    wordID: n42004011009
+  translation:
+    gloss: You strike
+  morphology:
+    class: verb
+    morph: V-AAS-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4350'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.5'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42004011013
+- position: 22
+  text: πρὸς
+  lemma: πρός
+  normalized: πρός
+  ids:
+    ref: LUK 4:11!10
+    wordID: n42004011010
+  translation:
+    gloss: against
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.23'
+- position: 23
+  text: λίθον
+  lemma: λίθος
+  normalized: λίθον
+  ids:
+    ref: LUK 4:11!11
+    wordID: n42004011011
+  translation:
+    gloss: a stone
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3037'
+  semantic:
+    semanticDomain: '002005'
+    ln: '2.24'
+- position: 24
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: LUK 4:11!12
+    wordID: n42004011012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 25
+  text: πόδα
+  lemma: πούς
+  normalized: πόδα
+  ids:
+    ref: LUK 4:11!13
+    wordID: n42004011013
+  translation:
+    gloss: foot
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4228'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.49'
+- position: 26
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: LUK 4:11!14
+    wordID: n42004011014
+  translation:
+    gloss: of You
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'

@@ -1,333 +1,443 @@
-verse:
-  reference: MAT 17:24
-  book_code: MAT
-  chapter: 17
-  verse: 24
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ἐλθόντων δὲ αὐτῶν εἰς Καφαρναοὺμ προσῆλθον οἱ τὰ δίδραχμα λαμβάνοντες τῷ
-    Πέτρῳ καὶ εἶπαν Ὁ διδάσκαλος ὑμῶν οὐ τελεῖ δίδραχμα;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 17:24
+text: Ἐλθόντων δὲ αὐτῶν εἰς Καφαρναοὺμ προσῆλθον οἱ τὰ δίδραχμα λαμβάνοντες τῷ Πέτρῳ
+  καὶ εἶπαν Ὁ διδάσκαλος ὑμῶν οὐ τελεῖ δίδραχμα;
 words:
 - position: 1
-  ref: MAT 17:24!2
-  xml_id: n40017024002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
+  ids:
+    ref: MAT 17:24!2
+    wordID: n40017024002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 17:24!1
-  xml_id: n40017024001
-  unicode: Ἐλθόντων
+  text: Ἐλθόντων
   lemma: ἔρχομαι
   normalized: Ἐλθόντων
-  class: verb
-  morph: V-2AAP-GPM
-  gloss: Having come
-  gender: masculine
-  number: plural
-  case: genitive
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 17:24!1
+    wordID: n40017024001
+  translation:
+    gloss: Having come
+  morphology:
+    class: verb
+    morph: V-2AAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40017024003
 - position: 3
-  ref: MAT 17:24!3
-  xml_id: n40017024003
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: they
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 17:24!3
+    wordID: n40017024003
+  translation:
+    gloss: they
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40017019004 n40017022010
 - position: 4
-  ref: MAT 17:24!4
-  xml_id: n40017024004
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 17:24!4
+    wordID: n40017024004
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 5
-  ref: MAT 17:24!5
-  xml_id: n40017024005
-  unicode: Καφαρναοὺμ
+  text: Καφαρναοὺμ
   lemma: Καφαρναούμ
   normalized: Καφαρναούμ
-  class: noun
-  morph: N-PRI
-  gloss: Capernaum
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2584'
-  domain: 093002
-  ln: '93.498'
+  ids:
+    ref: MAT 17:24!5
+    wordID: n40017024005
+  translation:
+    gloss: Capernaum
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: feminine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2584'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.498'
 - position: 6
-  ref: MAT 17:24!6
-  xml_id: n40017024006
-  unicode: προσῆλθον
+  text: προσῆλθον
   lemma: προσέρχομαι
   normalized: προσῆλθον
-  class: verb
-  morph: V-2AAI-3P
-  gloss: came
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4334'
-  domain: '015005'
-  ln: '15.77'
-  role: v
+  ids:
+    ref: MAT 17:24!6
+    wordID: n40017024006
+  translation:
+    gloss: came
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n40017024010
 - position: 7
-  ref: MAT 17:24!7
-  xml_id: n40017024007
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:24!7
+    wordID: n40017024007
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 17:24!8
-  xml_id: n40017024008
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:24!8
+    wordID: n40017024008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 17:24!9
-  xml_id: n40017024009
-  unicode: δίδραχμα
+  text: δίδραχμα
   lemma: δίδραχμον
   normalized: δίδραχμα
-  class: noun
-  morph: N-APN
-  gloss: didrachmas
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '1323'
-  domain: '057014'
-  ln: '57.181'
+  ids:
+    ref: MAT 17:24!9
+    wordID: n40017024009
+  translation:
+    gloss: didrachmas
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1323'
+  semantic:
+    semanticDomain: '057014'
+    ln: '57.181'
 - position: 10
-  ref: MAT 17:24!10
-  xml_id: n40017024010
-  unicode: λαμβάνοντες
+  text: λαμβάνοντες
   lemma: λαμβάνω
   normalized: λαμβάνοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: collecting
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2983'
-  domain: '057007'
-  ln: '57.65'
-  role: v
+  ids:
+    ref: MAT 17:24!10
+    wordID: n40017024010
+  translation:
+    gloss: collecting
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.65'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40017024009
 - position: 11
-  ref: MAT 17:24!11
-  xml_id: n40017024011
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:24!11
+    wordID: n40017024011
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 17:24!12
-  xml_id: n40017024012
-  unicode: Πέτρῳ
+  text: Πέτρῳ
   lemma: Πέτρος
   normalized: Πέτρῳ
-  class: noun
-  morph: N-DSM
-  gloss: to Peter
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '4074'
-  domain: 093001
-  ln: '93.296'
+  ids:
+    ref: MAT 17:24!12
+    wordID: n40017024012
+  translation:
+    gloss: to Peter
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '4074'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.296'
 - position: 13
-  ref: MAT 17:24!13
-  xml_id: n40017024013
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 17:24!13
+    wordID: n40017024013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 14
-  ref: MAT 17:24!14
-  xml_id: n40017024014
-  unicode: εἶπαν
+  text: εἶπαν
   lemma: λέγω
   normalized: εἶπαν
-  class: verb
-  morph: V-2AAI-3P
-  gloss: said
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 17:24!14
+    wordID: n40017024014
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40017024010
+  discourse:
+    subject: n40017024010
 - position: 15
-  ref: MAT 17:24!18
-  xml_id: n40017024018
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: ptcl
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069004
-  ln: '69.11'
+  ids:
+    ref: MAT 17:24!18
+    wordID: n40017024018
+  translation:
+    gloss: not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.11'
+  syntax:
+    discontinuous: 'true'
 - position: 16
-  ref: MAT 17:24!15
-  xml_id: n40017024015
-  unicode: Ὁ
+  text: Ὁ
   lemma: ὁ
   normalized: Ὁ
-  class: det
-  morph: T-NSM
-  gloss: The
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:24!15
+    wordID: n40017024015
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 17:24!16
-  xml_id: n40017024016
-  unicode: διδάσκαλος
+  text: διδάσκαλος
   lemma: διδάσκαλος
   normalized: διδάσκαλος
-  class: noun
-  morph: N-NSM
-  gloss: Teacher
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1320'
-  domain: '033017'
-  ln: '33.243'
+  ids:
+    ref: MAT 17:24!16
+    wordID: n40017024016
+  translation:
+    gloss: Teacher
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1320'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.243'
 - position: 18
-  ref: MAT 17:24!17
-  xml_id: n40017024017
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 17:24!17
+    wordID: n40017024017
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40017019004
 - position: 19
-  ref: MAT 17:24!19
-  xml_id: n40017024019
-  unicode: τελεῖ
+  text: τελεῖ
   lemma: τελέω
   normalized: τελεῖ
-  class: verb
-  morph: V-PAI-3S
-  gloss: does he pay
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '5055'
-  domain: '057014'
-  ln: '57.178'
-  role: v
+  ids:
+    ref: MAT 17:24!19
+    wordID: n40017024019
+  translation:
+    gloss: does he pay
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5055'
+  semantic:
+    semanticDomain: '057014'
+    ln: '57.178'
+  syntax:
+    role: v
+    frame: A0:n40017024016 A1:n40017024020
 - position: 20
-  ref: MAT 17:24!20
-  xml_id: n40017024020
-  unicode: δίδραχμα
+  text: δίδραχμα
   lemma: δίδραχμον
   normalized: δίδραχμα
-  class: noun
-  morph: N-APN
-  gloss: didrachmas
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '1323'
-  domain: '057014'
-  ln: '57.181'
-  role: o
-syntax:
-  word_order: V-S-ADV
+  ids:
+    ref: MAT 17:24!20
+    wordID: n40017024020
+  translation:
+    gloss: didrachmas
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1323'
+  semantic:
+    semanticDomain: '057014'
+    ln: '57.181'
+  syntax:
+    role: o

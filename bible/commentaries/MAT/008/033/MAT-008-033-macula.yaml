@@ -1,260 +1,334 @@
-verse:
-  reference: MAT 8:33
-  book_code: MAT
-  chapter: 8
-  verse: 33
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οἱ δὲ βόσκοντες ἔφυγον, καὶ ἀπελθόντες εἰς τὴν πόλιν ἀπήγγειλαν πάντα καὶ
-    τὰ τῶν δαιμονιζομένων.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:33
+text: οἱ δὲ βόσκοντες ἔφυγον, καὶ ἀπελθόντες εἰς τὴν πόλιν ἀπήγγειλαν πάντα καὶ τὰ
+  τῶν δαιμονιζομένων.
 words:
 - position: 1
-  ref: MAT 8:33!2
-  xml_id: n40008033002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 8:33!2
+    wordID: n40008033002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 8:33!1
-  xml_id: n40008033001
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: Those
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:33!1
+    wordID: n40008033001
+  translation:
+    gloss: Those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 8:33!3
-  xml_id: n40008033003
-  unicode: βόσκοντες
+  text: βόσκοντες
   lemma: βόσκω
   normalized: βόσκοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: feeding [them]
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '1006'
-  domain: '044'
-  ln: '44.1'
-  role: v
+  ids:
+    ref: MAT 8:33!3
+    wordID: n40008033003
+  translation:
+    gloss: feeding [them]
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1006'
+  semantic:
+    semanticDomain: '044'
+    ln: '44.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 4
-  ref: MAT 8:33!4
-  xml_id: n40008033004
-  unicode: ἔφυγον
+  text: ἔφυγον
   lemma: φεύγω
   normalized: ἔφυγον
-  class: verb
-  morph: V-2AAI-3P
-  gloss: fled
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5343'
-  domain: '015004'
-  ln: '15.61'
-  role: v
+  ids:
+    ref: MAT 8:33!4
+    wordID: n40008033004
+  translation:
+    gloss: fled
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5343'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.61'
+  syntax:
+    role: v
+    frame: A0:n40008033003
 - position: 5
-  ref: MAT 8:33!5
-  xml_id: n40008033005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 8:33!5
+    wordID: n40008033005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 6
-  ref: MAT 8:33!6
-  xml_id: n40008033006
-  unicode: ἀπελθόντες
+  text: ἀπελθόντες
   lemma: ἀπέρχομαι
   normalized: ἀπελθόντες
-  class: verb
-  morph: V-2AAP-NPM
-  gloss: having gone away
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '565'
-  domain: '015004'
-  ln: '15.37'
-  role: v
+  ids:
+    ref: MAT 8:33!6
+    wordID: n40008033006
+  translation:
+    gloss: having gone away
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40008033003
+  discourse:
+    subject: n40008033003
 - position: 7
-  ref: MAT 8:33!7
-  xml_id: n40008033007
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 8:33!7
+    wordID: n40008033007
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 8
-  ref: MAT 8:33!8
-  xml_id: n40008033008
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:33!8
+    wordID: n40008033008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 8:33!9
-  xml_id: n40008033009
-  unicode: πόλιν
+  text: πόλιν
   lemma: πόλις
   normalized: πόλιν
-  class: noun
-  morph: N-ASF
-  gloss: city
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '4172'
-  domain: '001014'
-  ln: '1.88'
+  ids:
+    ref: MAT 8:33!9
+    wordID: n40008033009
+  translation:
+    gloss: city
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4172'
+  semantic:
+    semanticDomain: '001014'
+    ln: '1.88'
 - position: 10
-  ref: MAT 8:33!10
-  xml_id: n40008033010
-  unicode: ἀπήγγειλαν
+  text: ἀπήγγειλαν
   lemma: ἀπαγγέλλω
   normalized: ἀπήγγειλαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they related
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '518'
-  domain: '033015'
-  ln: '33.198'
-  role: v
+  ids:
+    ref: MAT 8:33!10
+    wordID: n40008033010
+  translation:
+    gloss: they related
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '518'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.198'
+  syntax:
+    role: v
+    frame: A0:n40008033003 A1:n40008033011;n40008033013
+  discourse:
+    subject: n40008033003
 - position: 11
-  ref: MAT 8:33!11
-  xml_id: n40008033011
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: everything
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 8:33!11
+    wordID: n40008033011
+  translation:
+    gloss: everything
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 12
-  ref: MAT 8:33!12
-  xml_id: n40008033012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: including
-  strong: '2532'
-  domain: 089017
-  ln: '89.93'
+  ids:
+    ref: MAT 8:33!12
+    wordID: n40008033012
+  translation:
+    gloss: including
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
 - position: 13
-  ref: MAT 8:33!13
-  xml_id: n40008033013
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the [matter]
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:33!13
+    wordID: n40008033013
+  translation:
+    gloss: the [matter]
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 8:33!14
-  xml_id: n40008033014
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: of those
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:33!14
+    wordID: n40008033014
+  translation:
+    gloss: of those
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 8:33!15
-  xml_id: n40008033015
-  unicode: δαιμονιζομένων
+  text: δαιμονιζομένων
   lemma: δαιμονίζομαι
   normalized: δαιμονιζομένων
-  class: verb
-  morph: V-PNP-GPM
-  gloss: being possessed by demons
-  gender: masculine
-  number: plural
-  case: genitive
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '1139'
-  domain: '012001'
-  ln: '12.41'
-  role: v
-syntax:
-  word_order: S-V
+  ids:
+    ref: MAT 8:33!15
+    wordID: n40008033015
+  translation:
+    gloss: being possessed by demons
+  morphology:
+    class: verb
+    morph: V-PNP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1139'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.41'
+  syntax:
+    role: v
+    frame: A0:n00000000000

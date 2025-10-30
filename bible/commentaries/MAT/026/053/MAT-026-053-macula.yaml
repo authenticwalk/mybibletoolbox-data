@@ -1,274 +1,370 @@
-verse:
-  reference: MAT 26:53
-  book_code: MAT
-  chapter: 26
-  verse: 53
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἢ δοκεῖς ὅτι οὐ δύναμαι παρακαλέσαι τὸν Πατέρα μου, καὶ παραστήσει μοι
-    ἄρτι πλείω δώδεκα λεγιῶνας ἀγγέλων;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:53
+text: ἢ δοκεῖς ὅτι οὐ δύναμαι παρακαλέσαι τὸν Πατέρα μου, καὶ παραστήσει μοι ἄρτι
+  πλείω δώδεκα λεγιῶνας ἀγγέλων;
 words:
 - position: 1
-  ref: MAT 26:53!1
-  xml_id: n40026053001
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: Or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 26:53!1
+    wordID: n40026053001
+  translation:
+    gloss: Or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 2
-  ref: MAT 26:53!2
-  xml_id: n40026053002
-  unicode: δοκεῖς
+  text: δοκεῖς
   lemma: δοκέω
   normalized: δοκεῖς
-  class: verb
-  morph: V-PAI-2S
-  gloss: think you
-  number: singular
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1380'
-  domain: '031005'
-  ln: '31.29'
-  role: v
+  ids:
+    ref: MAT 26:53!2
+    wordID: n40026053002
+  translation:
+    gloss: think you
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n40026051003
+  discourse:
+    subject: n40026051003
 - position: 3
-  ref: MAT 26:53!3
-  xml_id: n40026053003
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 26:53!3
+    wordID: n40026053003
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 4
-  ref: MAT 26:53!4
-  xml_id: n40026053004
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 26:53!4
+    wordID: n40026053004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 26:53!5
-  xml_id: n40026053005
-  unicode: δύναμαι
+  text: δύναμαι
   lemma: δύναμαι
   normalized: δύναμαι
-  class: verb
-  morph: V-PNI-1S
-  gloss: I am able
-  number: singular
-  person: first
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1410'
-  domain: '074'
-  ln: '74.5'
-  role: v
+  ids:
+    ref: MAT 26:53!5
+    wordID: n40026053005
+  translation:
+    gloss: I am able
+  morphology:
+    class: verb
+    morph: V-PNI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n40026052005 A1:n40026053006
+  discourse:
+    subject: n40026052005
 - position: 6
-  ref: MAT 26:53!6
-  xml_id: n40026053006
-  unicode: παρακαλέσαι
+  text: παρακαλέσαι
   lemma: παρακαλέω
   normalized: παρακαλέσαι
-  class: verb
-  morph: V-AAN
-  gloss: to call upon
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '3870'
-  domain: '033012'
-  ln: '33.168'
-  role: v
+  ids:
+    ref: MAT 26:53!6
+    wordID: n40026053006
+  translation:
+    gloss: to call upon
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3870'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.168'
+  syntax:
+    role: v
+    frame: A0:n40026052005 A1:n40026053008
+  discourse:
+    subject: n40026052005
 - position: 7
-  ref: MAT 26:53!7
-  xml_id: n40026053007
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:53!7
+    wordID: n40026053007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 26:53!8
-  xml_id: n40026053008
-  unicode: Πατέρα
+  text: Πατέρα
   lemma: πατήρ
   normalized: Πατέρα
-  class: noun
-  morph: N-ASM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 26:53!8
+    wordID: n40026053008
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 9
-  ref: MAT 26:53!9
-  xml_id: n40026053009
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 26:53!9
+    wordID: n40026053009
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40026052005
 - position: 10
-  ref: MAT 26:53!10
-  xml_id: n40026053010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:53!10
+    wordID: n40026053010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 11
-  ref: MAT 26:53!11
-  xml_id: n40026053011
-  unicode: παραστήσει
+  text: παραστήσει
   lemma: παρίστημι
   normalized: παραστήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: He will furnish
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '3936'
-  domain: 057008
-  ln: '57.81'
-  role: v
+  ids:
+    ref: MAT 26:53!11
+    wordID: n40026053011
+  translation:
+    gloss: He will furnish
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3936'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.81'
+  syntax:
+    role: v
+    frame: A0:n40026053008 A2:n40026053012 A1:n40026053014
+  discourse:
+    subject: n40026053008
 - position: 12
-  ref: MAT 26:53!12
-  xml_id: n40026053012
-  unicode: μοι
+  text: μοι
   lemma: ἐγώ
   normalized: μοι
-  class: pron
-  morph: P-1DS
-  gloss: to Me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: io
+  ids:
+    ref: MAT 26:53!12
+    wordID: n40026053012
+  translation:
+    gloss: to Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n40026052005
 - position: 13
-  ref: MAT 26:53!13
-  xml_id: n40026053013
-  unicode: ἄρτι
+  text: ἄρτι
   lemma: ἄρτι
   normalized: ἄρτι
-  class: adv
-  morph: ADV
-  gloss: presently
-  strong: '737'
-  domain: '067005'
-  ln: '67.113'
-  role: adv
+  ids:
+    ref: MAT 26:53!13
+    wordID: n40026053013
+  translation:
+    gloss: presently
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '737'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.113'
+  syntax:
+    role: adv
 - position: 14
-  ref: MAT 26:53!14
-  xml_id: n40026053014
-  unicode: πλείω
+  text: πλείω
   lemma: πολύς
   normalized: πλείω
-  class: adj
-  morph: A-APN-C
-  gloss: more than
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4119'
-  domain: 059001
-  ln: '59.1'
+  ids:
+    ref: MAT 26:53!14
+    wordID: n40026053014
+  translation:
+    gloss: more than
+  morphology:
+    class: adj
+    morph: A-APN-C
+    gender: neuter
+    number: plural
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '4119'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
 - position: 15
-  ref: MAT 26:53!15
-  xml_id: n40026053015
-  unicode: δώδεκα
+  text: δώδεκα
   lemma: δώδεκα
   normalized: δώδεκα
-  class: num
-  morph: A-NUI
-  gloss: twelve
-  strong: '1427'
-  domain: '060002'
-  ln: '60.21'
+  ids:
+    ref: MAT 26:53!15
+    wordID: n40026053015
+  translation:
+    gloss: twelve
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1427'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.21'
 - position: 16
-  ref: MAT 26:53!16
-  xml_id: n40026053016
-  unicode: λεγιῶνας
+  text: λεγιῶνας
   lemma: λεγιών
   normalized: λεγιῶνας
-  class: noun
-  morph: N-APF
-  gloss: legions
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '3003'
-  domain: '055003'
-  ln: '55.8'
+  ids:
+    ref: MAT 26:53!16
+    wordID: n40026053016
+  translation:
+    gloss: legions
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3003'
+  semantic:
+    semanticDomain: '055003'
+    ln: '55.8'
 - position: 17
-  ref: MAT 26:53!17
-  xml_id: n40026053017
-  unicode: ἀγγέλων
+  text: ἀγγέλων
   lemma: ἄγγελος
   normalized: ἀγγέλων
-  class: noun
-  morph: N-GPM
-  gloss: of angels
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '32'
-  domain: '012001'
-  ln: '12.28'
-syntax:
-  word_order: ADV-V-O
+  ids:
+    ref: MAT 26:53!17
+    wordID: n40026053017
+  translation:
+    gloss: of angels
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '32'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.28'

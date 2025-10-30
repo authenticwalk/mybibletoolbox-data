@@ -1,302 +1,398 @@
-verse:
-  reference: MAT 22:13
-  book_code: MAT
-  chapter: 22
-  verse: 13
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε ὁ βασιλεὺς εἶπεν τοῖς διακόνοις Δήσαντες αὐτοῦ πόδας καὶ χεῖρας ἐκβάλετε
-    αὐτὸν εἰς τὸ σκότος τὸ ἐξώτερον·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:13
+text: τότε ὁ βασιλεὺς εἶπεν τοῖς διακόνοις Δήσαντες αὐτοῦ πόδας καὶ χεῖρας ἐκβάλετε
+  αὐτὸν εἰς τὸ σκότος τὸ ἐξώτερον·
 words:
 - position: 1
-  ref: MAT 22:13!1
-  xml_id: n40022013001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 22:13!1
+    wordID: n40022013001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 22:13!2
-  xml_id: n40022013002
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:13!2
+    wordID: n40022013002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 22:13!3
-  xml_id: n40022013003
-  unicode: βασιλεὺς
+  text: βασιλεὺς
   lemma: βασιλεύς
   normalized: βασιλεύς
-  class: noun
-  morph: N-NSM
-  gloss: king
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '935'
-  domain: '037004'
-  ln: '37.67'
+  ids:
+    ref: MAT 22:13!3
+    wordID: n40022013003
+  translation:
+    gloss: king
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '935'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.67'
 - position: 4
-  ref: MAT 22:13!4
-  xml_id: n40022013004
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 22:13!4
+    wordID: n40022013004
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40022013003 A2:n40022013006
 - position: 5
-  ref: MAT 22:13!5
-  xml_id: n40022013005
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: to the
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:13!5
+    wordID: n40022013005
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 22:13!6
-  xml_id: n40022013006
-  unicode: διακόνοις
+  text: διακόνοις
   lemma: διάκονος
   normalized: διακόνοις
-  class: noun
-  morph: N-DPM
-  gloss: servants
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '1249'
-  domain: '035002'
-  ln: '35.20'
+  ids:
+    ref: MAT 22:13!6
+    wordID: n40022013006
+  translation:
+    gloss: servants
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '1249'
+  semantic:
+    semanticDomain: '035002'
+    ln: '35.20'
 - position: 7
-  ref: MAT 22:13!7
-  xml_id: n40022013007
-  unicode: Δήσαντες
+  text: Δήσαντες
   lemma: δέω
   normalized: Δήσαντες
-  class: verb
-  morph: V-AAP-NPM
-  gloss: Having bound
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '1210'
-  domain: 037008
-  ln: '37.114'
-  role: v
+  ids:
+    ref: MAT 22:13!7
+    wordID: n40022013007
+  translation:
+    gloss: Having bound
+  morphology:
+    class: verb
+    morph: V-AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1210'
+  semantic:
+    semanticDomain: 037008
+    ln: '37.114'
+  syntax:
+    role: v
+    frame: A0:n40022013006 A1:n40022013009;n40022013011
+  discourse:
+    subject: n40022013006
 - position: 8
-  ref: MAT 22:13!8
-  xml_id: n40022013008
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: his
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 22:13!8
+    wordID: n40022013008
+  translation:
+    gloss: his
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40022011010
 - position: 9
-  ref: MAT 22:13!9
-  xml_id: n40022013009
-  unicode: πόδας
+  text: πόδας
   lemma: πούς
   normalized: πόδας
-  class: noun
-  morph: N-APM
-  gloss: feet
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '4228'
-  domain: 008002
-  ln: '8.49'
+  ids:
+    ref: MAT 22:13!9
+    wordID: n40022013009
+  translation:
+    gloss: feet
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4228'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.49'
 - position: 10
-  ref: MAT 22:13!10
-  xml_id: n40022013010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 22:13!10
+    wordID: n40022013010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 11
-  ref: MAT 22:13!11
-  xml_id: n40022013011
-  unicode: χεῖρας
+  text: χεῖρας
   lemma: χείρ
   normalized: χεῖρας
-  class: noun
-  morph: N-APF
-  gloss: hands
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '5495'
-  domain: 008002
-  ln: '8.30'
+  ids:
+    ref: MAT 22:13!11
+    wordID: n40022013011
+  translation:
+    gloss: hands
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
 - position: 12
-  ref: MAT 22:13!12
-  xml_id: n40022013012
-  unicode: ἐκβάλετε
+  text: ἐκβάλετε
   lemma: ἐκβάλλω
   normalized: ἐκβάλετε
-  class: verb
-  morph: V-2AAM-2P
-  gloss: cast out
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '1544'
-  domain: '015004'
-  ln: '15.44'
-  role: v
+  ids:
+    ref: MAT 22:13!12
+    wordID: n40022013012
+  translation:
+    gloss: cast out
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.44'
+  syntax:
+    role: v
+    frame: A0:n40022013006 A1:n40022013013
+  discourse:
+    subject: n40022013006
 - position: 13
-  ref: MAT 22:13!13
-  xml_id: n40022013013
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 22:13!13
+    wordID: n40022013013
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40022011010
 - position: 14
-  ref: MAT 22:13!14
-  xml_id: n40022013014
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 22:13!14
+    wordID: n40022013014
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 15
-  ref: MAT 22:13!15
-  xml_id: n40022013015
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:13!15
+    wordID: n40022013015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 22:13!16
-  xml_id: n40022013016
-  unicode: σκότος
+  text: σκότος
   lemma: σκότος
   normalized: σκότος
-  class: noun
-  morph: N-ASN
-  gloss: darkness
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4655'
-  domain: '001003'
-  ln: '1.23'
+  ids:
+    ref: MAT 22:13!16
+    wordID: n40022013016
+  translation:
+    gloss: darkness
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4655'
+  semantic:
+    semanticDomain: '001003'
+    ln: '1.23'
 - position: 17
-  ref: MAT 22:13!17
-  xml_id: n40022013017
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:13!17
+    wordID: n40022013017
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 22:13!18
-  xml_id: n40022013018
-  unicode: ἐξώτερον
+  text: ἐξώτερον
   lemma: ἐξώτερος
   normalized: ἐξώτερον
-  class: adj
-  morph: A-ASN-C
-  gloss: outer
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1857'
-  domain: '001003'
-  ln: '1.23'
-syntax:
-  word_order: ADV-V-O-ADV
+  ids:
+    ref: MAT 22:13!18
+    wordID: n40022013018
+  translation:
+    gloss: outer
+  morphology:
+    class: adj
+    morph: A-ASN-C
+    gender: neuter
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '1857'
+  semantic:
+    semanticDomain: '001003'
+    ln: '1.23'

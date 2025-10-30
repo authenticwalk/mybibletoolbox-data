@@ -1,0 +1,151 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 2:19
+text: σὺ πιστεύεις ὅτι εἷς ἐστιν ὁ Θεός;
+words:
+- position: 1
+  text: σὺ
+  lemma: σύ
+  normalized: σύ
+  ids:
+    ref: JAS 2:19!1
+    wordID: n59002019001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n59002014004
+- position: 2
+  text: πιστεύεις
+  lemma: πιστεύω
+  normalized: πιστεύεις
+  ids:
+    ref: JAS 2:19!2
+    wordID: n59002019002
+  translation:
+    gloss: believe
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: '031006'
+    ln: '31.35'
+  syntax:
+    role: v
+    frame: A0:n59002019001
+- position: 3
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: JAS 2:19!3
+    wordID: n59002019003
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+- position: 4
+  text: εἷς
+  lemma: εἷς
+  normalized: εἷς
+  ids:
+    ref: JAS 2:19!4
+    wordID: n59002019004
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 060002 063001
+    ln: 60.10 63.4
+  syntax:
+    role: p
+- position: 5
+  text: ἐστιν
+  lemma: εἰμί
+  normalized: ἐστιν
+  ids:
+    ref: JAS 2:19!5
+    wordID: n59002019005
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: vc
+- position: 6
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JAS 2:19!6
+    wordID: n59002019006
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: Θεός
+  lemma: θεός
+  normalized: Θεός
+  ids:
+    ref: JAS 2:19!7
+    wordID: n59002019007
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'

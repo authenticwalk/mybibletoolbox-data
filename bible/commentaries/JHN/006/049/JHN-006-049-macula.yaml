@@ -1,0 +1,239 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 6:49
+text: οἱ πατέρες ὑμῶν ἔφαγον ἐν τῇ ἐρήμῳ τὸ μάννα καὶ ἀπέθανον·
+words:
+- position: 1
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: JHN 6:49!1
+    wordID: n43006049001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: πατέρες
+  lemma: πατήρ
+  normalized: πατέρες
+  ids:
+    ref: JHN 6:49!2
+    wordID: n43006049002
+  translation:
+    gloss: fathers
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.20'
+- position: 3
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: JHN 6:49!3
+    wordID: n43006049003
+  translation:
+    gloss: of You
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n43006041004
+- position: 4
+  text: ἔφαγον
+  lemma: ἐσθίω
+  normalized: ἔφαγον
+  ids:
+    ref: JHN 6:49!4
+    wordID: n43006049004
+  translation:
+    gloss: ate
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n43006049002 A1:n43006049009
+- position: 5
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: JHN 6:49!5
+    wordID: n43006049005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 6
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: JHN 6:49!6
+    wordID: n43006049006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ἐρήμῳ
+  lemma: ἔρημος
+  normalized: ἐρήμῳ
+  ids:
+    ref: JHN 6:49!7
+    wordID: n43006049007
+  translation:
+    gloss: wilderness
+  morphology:
+    class: adj
+    morph: A-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '2048'
+  semantic:
+    semanticDomain: '001013'
+    ln: '1.86'
+- position: 8
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: JHN 6:49!8
+    wordID: n43006049008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: μάννα
+  lemma: μάννα
+  normalized: μάννα
+  ids:
+    ref: JHN 6:49!9
+    wordID: n43006049009
+  translation:
+    gloss: manna
+  morphology:
+    class: noun
+    morph: HEB
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3131'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.22'
+- position: 10
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 6:49!10
+    wordID: n43006049010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 11
+  text: ἀπέθανον
+  lemma: ἀποθνῄσκω
+  normalized: ἀπέθανον
+  ids:
+    ref: JHN 6:49!11
+    wordID: n43006049011
+  translation:
+    gloss: died
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '599'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.99'
+  syntax:
+    role: v
+    frame: A0:n43006049002
+  discourse:
+    subject: n43006049002

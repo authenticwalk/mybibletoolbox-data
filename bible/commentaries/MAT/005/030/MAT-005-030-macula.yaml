@@ -1,231 +1,308 @@
-verse:
-  reference: MAT 5:30
-  book_code: MAT
-  chapter: 5
-  verse: 30
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ εἰ ἡ δεξιά σου χεὶρ σκανδαλίζει σε, ἔκκοψον αὐτὴν καὶ βάλε ἀπὸ σοῦ·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:30
+text: καὶ εἰ ἡ δεξιά σου χεὶρ σκανδαλίζει σε, ἔκκοψον αὐτὴν καὶ βάλε ἀπὸ σοῦ·
 words:
 - position: 1
-  ref: MAT 5:30!1
-  xml_id: n40005030001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 5:30!1
+    wordID: n40005030001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 5:30!2
-  xml_id: n40005030002
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1487'
-  domain: 089010
-  ln: '89.65'
+  ids:
+    ref: MAT 5:30!2
+    wordID: n40005030002
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
 - position: 3
-  ref: MAT 5:30!3
-  xml_id: n40005030003
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:30!3
+    wordID: n40005030003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 5:30!4
-  xml_id: n40005030004
-  unicode: δεξιά
+  text: δεξιά
   lemma: δεξιός
   normalized: δεξιά
-  class: adj
-  morph: A-NSF
-  gloss: right
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1188'
-  domain: 082002
-  ln: '82.8'
+  ids:
+    ref: MAT 5:30!4
+    wordID: n40005030004
+  translation:
+    gloss: right
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1188'
+  semantic:
+    semanticDomain: 082002
+    ln: '82.8'
 - position: 5
-  ref: MAT 5:30!5
-  xml_id: n40005030005
-  unicode: σου
+  text: σου
   lemma: σύ
   normalized: σου
-  class: pron
-  morph: P-2GS
-  gloss: of you
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
+  ids:
+    ref: MAT 5:30!5
+    wordID: n40005030005
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n40005001015
 - position: 6
-  ref: MAT 5:30!6
-  xml_id: n40005030006
-  unicode: χεὶρ
+  text: χεὶρ
   lemma: χείρ
   normalized: χείρ
-  class: noun
-  morph: N-NSF
-  gloss: hand
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '5495'
-  domain: 008002
-  ln: '8.30'
+  ids:
+    ref: MAT 5:30!6
+    wordID: n40005030006
+  translation:
+    gloss: hand
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
 - position: 7
-  ref: MAT 5:30!7
-  xml_id: n40005030007
-  unicode: σκανδαλίζει
+  text: σκανδαλίζει
   lemma: σκανδαλίζω
   normalized: σκανδαλίζει
-  class: verb
-  morph: V-PAI-3S
-  gloss: causes to stumble
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '4624'
-  domain: 088038
-  ln: '88.304'
-  role: v
+  ids:
+    ref: MAT 5:30!7
+    wordID: n40005030007
+  translation:
+    gloss: causes to stumble
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4624'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.304'
+  syntax:
+    role: v
+    frame: A0:n40005030006 A1:n40005030008
 - position: 8
-  ref: MAT 5:30!8
-  xml_id: n40005030008
-  unicode: σε
+  text: σε
   lemma: σύ
   normalized: σε
-  class: pron
-  morph: P-2AS
-  gloss: you
-  number: singular
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: o
+  ids:
+    ref: MAT 5:30!8
+    wordID: n40005030008
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005001015
 - position: 9
-  ref: MAT 5:30!9
-  xml_id: n40005030009
-  unicode: ἔκκοψον
+  text: ἔκκοψον
   lemma: ἐκκόπτω
   normalized: ἔκκοψον
-  class: verb
-  morph: V-AAM-2S
-  gloss: cut off
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '1581'
-  domain: 019002
-  ln: '19.18'
-  role: v
+  ids:
+    ref: MAT 5:30!9
+    wordID: n40005030009
+  translation:
+    gloss: cut off
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1581'
+  semantic:
+    semanticDomain: 019002
+    ln: '19.18'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40005030010
+  discourse:
+    subject: n40005001015
 - position: 10
-  ref: MAT 5:30!10
-  xml_id: n40005030010
-  unicode: αὐτὴν
+  text: αὐτὴν
   lemma: αὐτός
   normalized: αὐτήν
-  class: pron
-  morph: P-ASF
-  gloss: it
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 5:30!10
+    wordID: n40005030010
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005030006
 - position: 11
-  ref: MAT 5:30!11
-  xml_id: n40005030011
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 5:30!11
+    wordID: n40005030011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 12
-  ref: MAT 5:30!12
-  xml_id: n40005030012
-  unicode: βάλε
+  text: βάλε
   lemma: βάλλω
   normalized: βάλε
-  class: verb
-  morph: V-2AAM-2S
-  gloss: cast [it]
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '906'
-  domain: '015026'
-  ln: '15.215'
-  role: v
+  ids:
+    ref: MAT 5:30!12
+    wordID: n40005030012
+  translation:
+    gloss: cast [it]
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '906'
+  semantic:
+    semanticDomain: '015026'
+    ln: '15.215'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
 - position: 13
-  ref: MAT 5:30!13
-  xml_id: n40005030013
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 084001
-  ln: '84.3'
+  ids:
+    ref: MAT 5:30!13
+    wordID: n40005030013
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.3'
 - position: 14
-  ref: MAT 5:30!14
-  xml_id: n40005030014
-  unicode: σοῦ
+  text: σοῦ
   lemma: σύ
   normalized: σοῦ
-  class: pron
-  morph: P-2GS
-  gloss: you
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-syntax:
-  word_order: S-V-O
+  ids:
+    ref: MAT 5:30!14
+    wordID: n40005030014
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n40005001015

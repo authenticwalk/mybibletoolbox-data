@@ -1,264 +1,346 @@
-verse:
-  reference: MAT 28:8
-  book_code: MAT
-  chapter: 28
-  verse: 8
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἀπελθοῦσαι ταχὺ ἀπὸ τοῦ μνημείου μετὰ φόβου καὶ χαρᾶς μεγάλης ἔδραμον
-    ἀπαγγεῖλαι τοῖς μαθηταῖς αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 28:8
+text: καὶ ἀπελθοῦσαι ταχὺ ἀπὸ τοῦ μνημείου μετὰ φόβου καὶ χαρᾶς μεγάλης ἔδραμον ἀπαγγεῖλαι
+  τοῖς μαθηταῖς αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 28:8!1
-  xml_id: n40028008001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 28:8!1
+    wordID: n40028008001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 28:8!2
-  xml_id: n40028008002
-  unicode: ἀπελθοῦσαι
+  text: ἀπελθοῦσαι
   lemma: ἀπέρχομαι
   normalized: ἀπελθοῦσαι
-  class: verb
-  morph: V-2AAP-NPF
-  gloss: having gone out
-  gender: feminine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '565'
-  domain: '015004'
-  ln: '15.37'
-  role: v
+  ids:
+    ref: MAT 28:8!2
+    wordID: n40028008002
+  translation:
+    gloss: having gone out
+  morphology:
+    class: verb
+    morph: V-2AAP-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40028005007
+  discourse:
+    subject: n40028005007
 - position: 3
-  ref: MAT 28:8!3
-  xml_id: n40028008003
-  unicode: ταχὺ
+  text: ταχὺ
   lemma: ταχύς
   normalized: ταχύ
-  class: adj
-  morph: ADV
-  gloss: quickly
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5035'
-  domain: '067005'
-  ln: '67.110'
-  role: adv
+  ids:
+    ref: MAT 28:8!3
+    wordID: n40028008003
+  translation:
+    gloss: quickly
+  morphology:
+    class: adj
+    morph: ADV
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '5035'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.110'
+  syntax:
+    role: adv
 - position: 4
-  ref: MAT 28:8!4
-  xml_id: n40028008004
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 084001
-  ln: '84.3'
+  ids:
+    ref: MAT 28:8!4
+    wordID: n40028008004
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.3'
 - position: 5
-  ref: MAT 28:8!5
-  xml_id: n40028008005
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:8!5
+    wordID: n40028008005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 28:8!6
-  xml_id: n40028008006
-  unicode: μνημείου
+  text: μνημείου
   lemma: μνημεῖον
   normalized: μνημείου
-  class: noun
-  morph: N-GSN
-  gloss: tomb
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '3419'
-  domain: '007007'
-  ln: '7.75'
+  ids:
+    ref: MAT 28:8!6
+    wordID: n40028008006
+  translation:
+    gloss: tomb
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3419'
+  semantic:
+    semanticDomain: '007007'
+    ln: '7.75'
 - position: 7
-  ref: MAT 28:8!7
-  xml_id: n40028008007
-  unicode: μετὰ
+  text: μετὰ
   lemma: μετά
   normalized: μετά
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '3326'
-  domain: 089013
-  ln: '89.79'
+  ids:
+    ref: MAT 28:8!7
+    wordID: n40028008007
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089013
+    ln: '89.79'
 - position: 8
-  ref: MAT 28:8!8
-  xml_id: n40028008008
-  unicode: φόβου
+  text: φόβου
   lemma: φόβος
   normalized: φόβου
-  class: noun
-  morph: N-GSM
-  gloss: fear
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '5401'
-  domain: '025022'
-  ln: '25.251'
+  ids:
+    ref: MAT 28:8!8
+    wordID: n40028008008
+  translation:
+    gloss: fear
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5401'
+  semantic:
+    semanticDomain: '025022'
+    ln: '25.251'
 - position: 9
-  ref: MAT 28:8!9
-  xml_id: n40028008009
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 28:8!9
+    wordID: n40028008009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 10
-  ref: MAT 28:8!10
-  xml_id: n40028008010
-  unicode: χαρᾶς
+  text: χαρᾶς
   lemma: χαρά
   normalized: χαρᾶς
-  class: noun
-  morph: N-GSF
-  gloss: joy
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '5479'
-  domain: '025011'
-  ln: '25.123'
+  ids:
+    ref: MAT 28:8!10
+    wordID: n40028008010
+  translation:
+    gloss: joy
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5479'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.123'
 - position: 11
-  ref: MAT 28:8!11
-  xml_id: n40028008011
-  unicode: μεγάλης
+  text: μεγάλης
   lemma: μέγας
   normalized: μεγάλης
-  class: adj
-  morph: A-GSF
-  gloss: great
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3173'
-  domain: 078001
-  ln: '78.2'
+  ids:
+    ref: MAT 28:8!11
+    wordID: n40028008011
+  translation:
+    gloss: great
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 078001
+    ln: '78.2'
 - position: 12
-  ref: MAT 28:8!12
-  xml_id: n40028008012
-  unicode: ἔδραμον
+  text: ἔδραμον
   lemma: τρέχω
   normalized: ἔδραμον
-  class: verb
-  morph: V-2AAI-3P
-  gloss: they ran
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5143'
-  domain: '015030'
-  ln: '15.230'
-  role: v
+  ids:
+    ref: MAT 28:8!12
+    wordID: n40028008012
+  translation:
+    gloss: they ran
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5143'
+  semantic:
+    semanticDomain: '015030'
+    ln: '15.230'
+  syntax:
+    role: v
+    frame: A0:n40028005007
+  discourse:
+    subject: n40028005007
 - position: 13
-  ref: MAT 28:8!13
-  xml_id: n40028008013
-  unicode: ἀπαγγεῖλαι
+  text: ἀπαγγεῖλαι
   lemma: ἀπαγγέλλω
   normalized: ἀπαγγεῖλαι
-  class: verb
-  morph: V-AAN
-  gloss: to tell
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '518'
-  domain: '033015'
-  ln: '33.198'
-  role: v
+  ids:
+    ref: MAT 28:8!13
+    wordID: n40028008013
+  translation:
+    gloss: to tell
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '518'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.198'
+  syntax:
+    role: v
+    frame: A0:n40028005007 A1:n00000000000 A2:n40028008015
+  discourse:
+    subject: n40028005007
 - position: 14
-  ref: MAT 28:8!14
-  xml_id: n40028008014
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:8!14
+    wordID: n40028008014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 28:8!15
-  xml_id: n40028008015
-  unicode: μαθηταῖς
+  text: μαθηταῖς
   lemma: μαθητής
   normalized: μαθηταῖς
-  class: noun
-  morph: N-DPM
-  gloss: disciples
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '3101'
-  domain: '036004'
-  ln: '36.38'
+  ids:
+    ref: MAT 28:8!15
+    wordID: n40028008015
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
 - position: 16
-  ref: MAT 28:8!16
-  xml_id: n40028008016
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: ADV-V-ADV
+  ids:
+    ref: MAT 28:8!16
+    wordID: n40028008016
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40028005014

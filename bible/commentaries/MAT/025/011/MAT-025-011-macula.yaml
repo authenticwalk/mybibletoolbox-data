@@ -1,213 +1,277 @@
-verse:
-  reference: MAT 25:11
-  book_code: MAT
-  chapter: 25
-  verse: 11
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὕστερον δὲ ἔρχονται καὶ αἱ λοιπαὶ παρθένοι λέγουσαι Κύριε κύριε, ἄνοιξον
-    ἡμῖν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:11
+text: ὕστερον δὲ ἔρχονται καὶ αἱ λοιπαὶ παρθένοι λέγουσαι Κύριε κύριε, ἄνοιξον ἡμῖν.
 words:
 - position: 1
-  ref: MAT 25:11!2
-  xml_id: n40025011002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 25:11!2
+    wordID: n40025011002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 25:11!1
-  xml_id: n40025011001
-  unicode: ὕστερον
+  text: ὕστερον
   lemma: ὕστερος
   normalized: ὕστερον
-  class: adj
-  morph: ADV
-  gloss: Afterward
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5305'
-  domain: '067002'
-  ln: '67.50'
-  role: adv
+  ids:
+    ref: MAT 25:11!1
+    wordID: n40025011001
+  translation:
+    gloss: Afterward
+  morphology:
+    class: adj
+    morph: ADV
+    gender: neuter
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '5305'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.50'
+  syntax:
+    role: adv
 - position: 3
-  ref: MAT 25:11!3
-  xml_id: n40025011003
-  unicode: ἔρχονται
+  text: ἔρχονται
   lemma: ἔρχομαι
   normalized: ἔρχονται
-  class: verb
-  morph: V-PNI-3P
-  gloss: come
-  number: plural
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 25:11!3
+    wordID: n40025011003
+  translation:
+    gloss: come
+  morphology:
+    class: verb
+    morph: V-PNI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40025011007
 - position: 4
-  ref: MAT 25:11!4
-  xml_id: n40025011004
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: also
-  strong: '2532'
-  domain: 089017
-  ln: '89.93'
+  ids:
+    ref: MAT 25:11!4
+    wordID: n40025011004
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
 - position: 5
-  ref: MAT 25:11!5
-  xml_id: n40025011005
-  unicode: αἱ
+  text: αἱ
   lemma: ὁ
   normalized: αἱ
-  class: det
-  morph: T-NPF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:11!5
+    wordID: n40025011005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 25:11!6
-  xml_id: n40025011006
-  unicode: λοιπαὶ
+  text: λοιπαὶ
   lemma: λοιπός
   normalized: λοιπαί
-  class: adj
-  morph: A-NPF
-  gloss: other
-  gender: feminine
-  number: plural
-  case: nominative
-  strong: '3062'
-  domain: '063005'
-  ln: '63.21'
+  ids:
+    ref: MAT 25:11!6
+    wordID: n40025011006
+  translation:
+    gloss: other
+  morphology:
+    class: adj
+    morph: A-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3062'
+  semantic:
+    semanticDomain: '063005'
+    ln: '63.21'
 - position: 7
-  ref: MAT 25:11!7
-  xml_id: n40025011007
-  unicode: παρθένοι
+  text: παρθένοι
   lemma: παρθένος
   normalized: παρθένοι
-  class: noun
-  morph: N-NPF
-  gloss: virgins
-  gender: feminine
-  number: plural
-  case: nominative
-  strong: '3933'
-  domain: 009003
-  ln: '9.39'
+  ids:
+    ref: MAT 25:11!7
+    wordID: n40025011007
+  translation:
+    gloss: virgins
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3933'
+  semantic:
+    semanticDomain: 009003
+    ln: '9.39'
 - position: 8
-  ref: MAT 25:11!8
-  xml_id: n40025011008
-  unicode: λέγουσαι
+  text: λέγουσαι
   lemma: λέγω
   normalized: λέγουσαι
-  class: verb
-  morph: V-PAP-NPF
-  gloss: saying
-  gender: feminine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:11!8
+    wordID: n40025011008
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025011007
+  discourse:
+    subject: n40025011007
 - position: 9
-  ref: MAT 25:11!9
-  xml_id: n40025011009
-  unicode: Κύριε
+  text: Κύριε
   lemma: κύριος
   normalized: Κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Lord
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: 087003
-  ln: '87.53'
-  role: aux
+  ids:
+    ref: MAT 25:11!9
+    wordID: n40025011009
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.53'
+  syntax:
+    role: aux
 - position: 10
-  ref: MAT 25:11!10
-  xml_id: n40025011010
-  unicode: κύριε
+  text: κύριε
   lemma: κύριος
   normalized: κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Lord
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: 087003
-  ln: '87.53'
-  role: aux
+  ids:
+    ref: MAT 25:11!10
+    wordID: n40025011010
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.53'
+  syntax:
+    role: aux
 - position: 11
-  ref: MAT 25:11!11
-  xml_id: n40025011011
-  unicode: ἄνοιξον
+  text: ἄνοιξον
   lemma: ἀνοίγω
   normalized: ἄνοιξον
-  class: verb
-  morph: V-AAM-2S
-  gloss: open
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '455'
-  domain: 079024
-  ln: '79.110'
-  role: v
+  ids:
+    ref: MAT 25:11!11
+    wordID: n40025011011
+  translation:
+    gloss: open
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '455'
+  semantic:
+    semanticDomain: 079024
+    ln: '79.110'
+  syntax:
+    role: v
+    frame: A0:n40025011009 A1:n00000000000 A2:n40025011012
+  discourse:
+    subject: n40025011009
 - position: 12
-  ref: MAT 25:11!12
-  xml_id: n40025011012
-  unicode: ἡμῖν
+  text: ἡμῖν
   lemma: ἐγώ
   normalized: ἡμῖν
-  class: pron
-  morph: P-1DP
-  gloss: to us
-  number: plural
-  case: dative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
-  role: io
-syntax:
-  word_order: ADV-V-S-ADV
+  ids:
+    ref: MAT 25:11!12
+    wordID: n40025011012
+  translation:
+    gloss: to us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025011007

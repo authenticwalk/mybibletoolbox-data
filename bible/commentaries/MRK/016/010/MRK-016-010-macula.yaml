@@ -1,0 +1,245 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 16:10
+text: ἐκείνη πορευθεῖσα ἀπήγγειλεν τοῖς μετ’ αὐτοῦ γενομένοις πενθοῦσι καὶ κλαίουσιν·
+words:
+- position: 1
+  text: ἐκείνη
+  lemma: ἐκεῖνος
+  normalized: ἐκείνη
+  ids:
+    ref: MRK 16:10!1
+    wordID: n41016010001
+  translation:
+    gloss: She
+  morphology:
+    class: pron
+    morph: D-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: s
+  discourse:
+    referent: n41016009008
+- position: 2
+  text: πορευθεῖσα
+  lemma: πορεύομαι
+  normalized: πορευθεῖσα
+  ids:
+    ref: MRK 16:10!2
+    wordID: n41016010002
+  translation:
+    gloss: having gone
+  morphology:
+    class: verb
+    morph: V-AOP-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4198'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.34'
+  syntax:
+    role: v
+    frame: A1:n41016009008
+  discourse:
+    subject: n41016009008
+- position: 3
+  text: ἀπήγγειλεν
+  lemma: ἀπαγγέλλω
+  normalized: ἀπήγγειλεν
+  ids:
+    ref: MRK 16:10!3
+    wordID: n41016010003
+  translation:
+    gloss: told [it]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '518'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.198'
+  syntax:
+    role: v
+    frame: A0:n41016010001 A2:n41016010006
+- position: 4
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: MRK 16:10!4
+    wordID: n41016010004
+  translation:
+    gloss: to those
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: μετ’
+  lemma: μετά
+  normalized: μετ’
+  ids:
+    ref: MRK 16:10!5
+    wordID: n41016010005
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.108'
+- position: 6
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MRK 16:10!6
+    wordID: n41016010006
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n41015043027
+- position: 7
+  text: γενομένοις
+  lemma: γίνομαι
+  normalized: γενομένοις
+  ids:
+    ref: MRK 16:10!7
+    wordID: n41016010007
+  translation:
+    gloss: having been
+  morphology:
+    class: verb
+    morph: V-2ADP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.6'
+  syntax:
+    role: vc
+  discourse:
+    subject: n41016007005 n41016007009
+- position: 8
+  text: πενθοῦσι
+  lemma: πενθέω
+  normalized: πενθοῦσι
+  ids:
+    ref: MRK 16:10!8
+    wordID: n41016010008
+  translation:
+    gloss: mourning
+  morphology:
+    class: verb
+    morph: V-PAP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3996'
+  semantic:
+    semanticDomain: '025012'
+    ln: '25.142'
+  syntax:
+    role: v
+    frame: A0:n41016010006
+  discourse:
+    subject: n41016010006
+- position: 9
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MRK 16:10!9
+    wordID: n41016010009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 10
+  text: κλαίουσιν
+  lemma: κλαίω
+  normalized: κλαίουσιν
+  ids:
+    ref: MRK 16:10!10
+    wordID: n41016010010
+  translation:
+    gloss: weeping
+  morphology:
+    class: verb
+    morph: V-PAP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2799'
+  semantic:
+    semanticDomain: '025012'
+    ln: '25.138'
+  syntax:
+    role: v
+    frame: A0:n41016010006
+  discourse:
+    subject: n41016010006

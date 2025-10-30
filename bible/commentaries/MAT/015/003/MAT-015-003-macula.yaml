@@ -1,293 +1,390 @@
-verse:
-  reference: MAT 15:3
-  book_code: MAT
-  chapter: 15
-  verse: 3
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς Διὰ τί καὶ ὑμεῖς παραβαίνετε τὴν ἐντολὴν τοῦ
-    Θεοῦ διὰ τὴν παράδοσιν ὑμῶν;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 15:3
+text: ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς Διὰ τί καὶ ὑμεῖς παραβαίνετε τὴν ἐντολὴν τοῦ Θεοῦ
+  διὰ τὴν παράδοσιν ὑμῶν;
 words:
 - position: 1
-  ref: MAT 15:3!2
-  xml_id: n40015003002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 15:3!2
+    wordID: n40015003002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 15:3!1
-  xml_id: n40015003001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 15:3!1
+    wordID: n40015003001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40015001004
 - position: 3
-  ref: MAT 15:3!3
-  xml_id: n40015003003
-  unicode: ἀποκριθεὶς
+  text: ἀποκριθεὶς
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθείς
-  class: verb
-  morph: V-AOP-NSM
-  gloss: answering
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '611'
-  domain: '033014'
-  ln: '33.184'
-  role: v
+  ids:
+    ref: MAT 15:3!3
+    wordID: n40015003003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n40015001004
+  discourse:
+    subject: n40015001004
 - position: 4
-  ref: MAT 15:3!4
-  xml_id: n40015003004
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 15:3!4
+    wordID: n40015003004
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40015003001 A2:n40015003005
 - position: 5
-  ref: MAT 15:3!5
-  xml_id: n40015003005
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 15:3!5
+    wordID: n40015003005
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40015001007 n40015001009
 - position: 6
-  ref: MAT 15:3!6
-  xml_id: n40015003006
-  unicode: Διὰ
+  text: Διὰ
   lemma: διά
   normalized: Διά
-  class: prep
-  morph: PREP
-  gloss: Because of
-  strong: '1223'
+  ids:
+    ref: MAT 15:3!6
+    wordID: n40015003006
+  translation:
+    gloss: Because of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
 - position: 7
-  ref: MAT 15:3!7
-  xml_id: n40015003007
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: why
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
+  ids:
+    ref: MAT 15:3!7
+    wordID: n40015003007
+  translation:
+    gloss: why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
 - position: 8
-  ref: MAT 15:3!8
-  xml_id: n40015003008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: also
-  strong: '2532'
-  domain: 089017
-  ln: '89.93'
+  ids:
+    ref: MAT 15:3!8
+    wordID: n40015003008
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
 - position: 9
-  ref: MAT 15:3!9
-  xml_id: n40015003009
-  unicode: ὑμεῖς
+  text: ὑμεῖς
   lemma: σύ
   normalized: ὑμεῖς
-  class: pron
-  morph: P-2NP
-  gloss: you
-  number: plural
-  case: nominative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 15:3!9
+    wordID: n40015003009
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40015001007 n40015001009
 - position: 10
-  ref: MAT 15:3!10
-  xml_id: n40015003010
-  unicode: παραβαίνετε
+  text: παραβαίνετε
   lemma: παραβαίνω
   normalized: παραβαίνετε
-  class: verb
-  morph: V-PAI-2P
-  gloss: break
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3845'
-  domain: '036003'
-  ln: '36.28'
-  role: v
+  ids:
+    ref: MAT 15:3!10
+    wordID: n40015003010
+  translation:
+    gloss: break
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3845'
+  semantic:
+    semanticDomain: '036003'
+    ln: '36.28'
+  syntax:
+    role: v
+    frame: A0:n40015003009 A1:n40015003012
 - position: 11
-  ref: MAT 15:3!11
-  xml_id: n40015003011
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 15:3!11
+    wordID: n40015003011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 15:3!12
-  xml_id: n40015003012
-  unicode: ἐντολὴν
+  text: ἐντολὴν
   lemma: ἐντολή
   normalized: ἐντολήν
-  class: noun
-  morph: N-ASF
-  gloss: commandment
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1785'
-  domain: '033032'
-  ln: '33.330'
+  ids:
+    ref: MAT 15:3!12
+    wordID: n40015003012
+  translation:
+    gloss: commandment
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1785'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.330'
 - position: 13
-  ref: MAT 15:3!13
-  xml_id: n40015003013
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 15:3!13
+    wordID: n40015003013
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 15:3!14
-  xml_id: n40015003014
-  unicode: Θεοῦ
+  text: Θεοῦ
   lemma: θεός
   normalized: Θεοῦ
-  class: noun
-  morph: N-GSM
-  gloss: of God
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2316'
-  domain: '012001'
-  ln: '12.1'
+  ids:
+    ref: MAT 15:3!14
+    wordID: n40015003014
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
 - position: 15
-  ref: MAT 15:3!15
-  xml_id: n40015003015
-  unicode: διὰ
+  text: διὰ
   lemma: διά
   normalized: διά
-  class: prep
-  morph: PREP
-  gloss: on account of
-  strong: '1223'
-  domain: 089007
-  ln: '89.26'
+  ids:
+    ref: MAT 15:3!15
+    wordID: n40015003015
+  translation:
+    gloss: on account of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.26'
 - position: 16
-  ref: MAT 15:3!16
-  xml_id: n40015003016
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 15:3!16
+    wordID: n40015003016
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 15:3!17
-  xml_id: n40015003017
-  unicode: παράδοσιν
+  text: παράδοσιν
   lemma: παράδοσις
   normalized: παράδοσιν
-  class: noun
-  morph: N-ASF
-  gloss: tradition
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3862'
-  domain: '033017'
-  ln: '33.239'
+  ids:
+    ref: MAT 15:3!17
+    wordID: n40015003017
+  translation:
+    gloss: tradition
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3862'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.239'
 - position: 18
-  ref: MAT 15:3!18
-  xml_id: n40015003018
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 15:3!18
+    wordID: n40015003018
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40015001007 n40015001009

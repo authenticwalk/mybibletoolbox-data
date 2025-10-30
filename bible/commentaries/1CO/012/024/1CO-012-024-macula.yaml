@@ -1,0 +1,550 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 12:24
+text: "1CO 12:24 \n         1CO 12:25 ἀλλὰ ὁ θεὸς συνεκέρασεν τὸ σῶμα, τῷ ὑστερουμένῳ\
+  \ περισσοτέραν δοὺς τιμήν, ἵνα μὴ ᾖ σχίσμα ἐν τῷ σώματι, ἀλλὰ τὸ αὐτὸ ὑπὲρ ἀλλήλων\
+  \ μεριμνῶσιν τὰ μέλη."
+words:
+- position: 1
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: 1CO 12:24!8
+    wordID: n46012024008
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: 1CO 12:24!9
+    wordID: n46012024009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: θεὸς
+  lemma: θεός
+  normalized: θεός
+  ids:
+    ref: 1CO 12:24!10
+    wordID: n46012024010
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 4
+  text: συνεκέρασεν
+  lemma: συγκεράννυμι
+  normalized: συνεκέρασεν
+  ids:
+    ref: 1CO 12:24!11
+    wordID: n46012024011
+  translation:
+    gloss: has composed
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4786'
+  semantic:
+    semanticDomain: '062001'
+    ln: '62.2'
+  syntax:
+    role: v
+    frame: A0:n46012024010 A1:n46012024013
+- position: 5
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1CO 12:24!12
+    wordID: n46012024012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: σῶμα
+  lemma: σῶμα
+  normalized: σῶμα
+  ids:
+    ref: 1CO 12:24!13
+    wordID: n46012024013
+  translation:
+    gloss: body
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4983'
+  semantic:
+    semanticDomain: 008001
+    ln: '8.1'
+- position: 7
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: 1CO 12:24!14
+    wordID: n46012024014
+  translation:
+    gloss: to the [parts]
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ὑστερουμένῳ
+  lemma: ὑστερέω
+  normalized: ὑστερουμένῳ
+  ids:
+    ref: 1CO 12:24!15
+    wordID: n46012024015
+  translation:
+    gloss: being deficient
+  morphology:
+    class: verb
+    morph: V-PPP-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '5302'
+  semantic:
+    semanticDomain: 087004
+    ln: '87.65'
+  syntax:
+    role: v
+    frame: A1:n00000000000
+- position: 9
+  text: δοὺς
+  lemma: δίδωμι
+  normalized: δούς
+  ids:
+    ref: 1CO 12:24!17
+    wordID: n46012024017
+  translation:
+    gloss: having given
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:n46012024010 A2:n46012024015 A1:n46012024018
+    discontinuous: 'true'
+  discourse:
+    subject: n46012024010
+- position: 10
+  text: περισσοτέραν
+  lemma: περισσός
+  normalized: περισσοτέραν
+  ids:
+    ref: 1CO 12:24!16
+    wordID: n46012024016
+  translation:
+    gloss: more abundant
+  morphology:
+    class: adj
+    morph: A-ASF-C
+    gender: feminine
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '4053'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.31'
+- position: 11
+  text: τιμήν
+  lemma: τιμή
+  normalized: τιμήν
+  ids:
+    ref: 1CO 12:24!18
+    wordID: n46012024018
+  translation:
+    gloss: honor
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5092'
+  semantic:
+    semanticDomain: 087002
+    ln: '87.4'
+- position: 12
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: 1CO 12:25!1
+    wordID: n46012025001
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+- position: 13
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 1CO 12:25!2
+    wordID: n46012025002
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 14
+  text: ᾖ
+  lemma: εἰμί
+  normalized: ᾖ
+  ids:
+    ref: 1CO 12:25!3
+    wordID: n46012025003
+  translation:
+    gloss: there should be
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.104'
+  syntax:
+    role: vc
+- position: 15
+  text: σχίσμα
+  lemma: σχίσμα
+  normalized: σχίσμα
+  ids:
+    ref: 1CO 12:25!4
+    wordID: n46012025004
+  translation:
+    gloss: division
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4978'
+  semantic:
+    semanticDomain: 039002
+    ln: '39.13'
+  syntax:
+    role: s
+- position: 16
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1CO 12:25!5
+    wordID: n46012025005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 17
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: 1CO 12:25!6
+    wordID: n46012025006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 18
+  text: σώματι
+  lemma: σῶμα
+  normalized: σώματι
+  ids:
+    ref: 1CO 12:25!7
+    wordID: n46012025007
+  translation:
+    gloss: body
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4983'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.34'
+- position: 19
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: 1CO 12:25!8
+    wordID: n46012025008
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
+- position: 20
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1CO 12:25!9
+    wordID: n46012025009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 21
+  text: αὐτὸ
+  lemma: αὐτός
+  normalized: αὐτό
+  ids:
+    ref: 1CO 12:25!10
+    wordID: n46012025010
+  translation:
+    gloss: same
+  morphology:
+    class: pron
+    morph: P-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 058005
+    ln: '58.31'
+- position: 22
+  text: ὑπὲρ
+  lemma: ὑπέρ
+  normalized: ὑπέρ
+  ids:
+    ref: 1CO 12:25!11
+    wordID: n46012025011
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5228'
+  semantic:
+    semanticDomain: 090009
+    ln: '90.36'
+- position: 23
+  text: ἀλλήλων
+  lemma: ἀλλήλων
+  normalized: ἀλλήλων
+  ids:
+    ref: 1CO 12:25!12
+    wordID: n46012025012
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  discourse:
+    referent: n46012025015
+- position: 24
+  text: μεριμνῶσιν
+  lemma: μεριμνάω
+  normalized: μεριμνῶσιν
+  ids:
+    ref: 1CO 12:25!13
+    wordID: n46012025013
+  translation:
+    gloss: should have concern
+  morphology:
+    class: verb
+    morph: V-PAS-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3309'
+  semantic:
+    semanticDomain: '025021'
+    ln: '25.225'
+  syntax:
+    role: v
+    frame: A1:n46012025010 A0:n46012025015
+- position: 25
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: 1CO 12:25!14
+    wordID: n46012025014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 26
+  text: μέλη
+  lemma: μέλος
+  normalized: μέλη
+  ids:
+    ref: 1CO 12:25!15
+    wordID: n46012025015
+  translation:
+    gloss: members
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3196'
+  semantic:
+    semanticDomain: '063004'
+    ln: '63.17'

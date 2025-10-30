@@ -1,0 +1,211 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 22:60
+text: εἶπεν δὲ ὁ Πέτρος Ἄνθρωπε, οὐκ οἶδα ὃ λέγεις.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 22:60!2
+    wordID: n42022060002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: LUK 22:60!1
+    wordID: n42022060001
+  translation:
+    gloss: Said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42022060004
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: LUK 22:60!3
+    wordID: n42022060003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Πέτρος
+  lemma: Πέτρος
+  normalized: Πέτρος
+  ids:
+    ref: LUK 22:60!4
+    wordID: n42022060004
+  translation:
+    gloss: Peter
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4074'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.296'
+- position: 5
+  text: Ἄνθρωπε
+  lemma: ἄνθρωπος
+  normalized: Ἄνθρωπε
+  ids:
+    ref: LUK 22:60!5
+    wordID: n42022060005
+  translation:
+    gloss: Man
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009002
+    ln: '9.24'
+  syntax:
+    role: aux
+- position: 6
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: LUK 22:60!6
+    wordID: n42022060006
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 7
+  text: οἶδα
+  lemma: οἶδα
+  normalized: οἶδα
+  ids:
+    ref: LUK 22:60!7
+    wordID: n42022060007
+  translation:
+    gloss: I know
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n42022060004 A1:n42022060009
+  discourse:
+    subject: n42022060004
+- position: 8
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: LUK 22:60!8
+    wordID: n42022060008
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 9
+  text: λέγεις
+  lemma: λέγω
+  normalized: λέγεις
+  ids:
+    ref: LUK 22:60!9
+    wordID: n42022060009
+  translation:
+    gloss: you say
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42022060005 A1:n42022060008
+  discourse:
+    subject: n42022060005

@@ -1,424 +1,564 @@
-verse:
-  reference: MAT 26:3
-  book_code: MAT
-  chapter: 26
-  verse: 3
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 26:4 Τότε συνήχθησαν οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ εἰς τὴν
-    αὐλὴν τοῦ ἀρχιερέως τοῦ λεγομένου Καϊάφα, καὶ συνεβουλεύσαντο ἵνα τὸν Ἰησοῦν δόλῳ
-    κρατήσωσιν καὶ ἀποκτείνωσιν·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:3
+text: MAT 26:4 Τότε συνήχθησαν οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ εἰς τὴν αὐλὴν
+  τοῦ ἀρχιερέως τοῦ λεγομένου Καϊάφα, καὶ συνεβουλεύσαντο ἵνα τὸν Ἰησοῦν δόλῳ κρατήσωσιν
+  καὶ ἀποκτείνωσιν·
 words:
 - position: 1
-  ref: MAT 26:3!1
-  xml_id: n40026003001
-  unicode: Τότε
+  text: Τότε
   lemma: τότε
   normalized: Τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 26:3!1
+    wordID: n40026003001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 26:3!2
-  xml_id: n40026003002
-  unicode: συνήχθησαν
+  text: συνήχθησαν
   lemma: συνάγω
   normalized: συνήχθησαν
-  class: verb
-  morph: V-API-3P
-  gloss: were gathered together
-  number: plural
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '4863'
-  domain: '015013'
-  ln: '15.123'
-  role: v
+  ids:
+    ref: MAT 26:3!2
+    wordID: n40026003002
+  translation:
+    gloss: were gathered together
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4863'
+  semantic:
+    semanticDomain: '015013'
+    ln: '15.123'
+  syntax:
+    role: v
+    frame: A1:n40026003004;n40026003007
 - position: 3
-  ref: MAT 26:3!3
-  xml_id: n40026003003
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:3!3
+    wordID: n40026003003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 26:3!4
-  xml_id: n40026003004
-  unicode: ἀρχιερεῖς
+  text: ἀρχιερεῖς
   lemma: ἀρχιερεύς
   normalized: ἀρχιερεῖς
-  class: noun
-  morph: N-NPM
-  gloss: chief priests
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '749'
-  domain: 053009
-  ln: '53.88'
+  ids:
+    ref: MAT 26:3!4
+    wordID: n40026003004
+  translation:
+    gloss: chief priests
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '749'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.88'
 - position: 5
-  ref: MAT 26:3!5
-  xml_id: n40026003005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 26:3!5
+    wordID: n40026003005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 6
-  ref: MAT 26:3!6
-  xml_id: n40026003006
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:3!6
+    wordID: n40026003006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 26:3!7
-  xml_id: n40026003007
-  unicode: πρεσβύτεροι
+  text: πρεσβύτεροι
   lemma: πρεσβύτερος
   normalized: πρεσβύτεροι
-  class: adj
-  morph: A-NPM-C
-  gloss: elders
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4245'
-  domain: 053009
-  ln: '53.77'
+  ids:
+    ref: MAT 26:3!7
+    wordID: n40026003007
+  translation:
+    gloss: elders
+  morphology:
+    class: adj
+    morph: A-NPM-C
+    gender: masculine
+    number: plural
+    case: nominative
+    degree: comparative
+  lexical:
+    strong: '4245'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.77'
 - position: 8
-  ref: MAT 26:3!8
-  xml_id: n40026003008
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:3!8
+    wordID: n40026003008
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 26:3!9
-  xml_id: n40026003009
-  unicode: λαοῦ
+  text: λαοῦ
   lemma: λαός
   normalized: λαοῦ
-  class: noun
-  morph: N-GSM
-  gloss: people
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2992'
-  domain: '011002'
-  ln: '11.12'
+  ids:
+    ref: MAT 26:3!9
+    wordID: n40026003009
+  translation:
+    gloss: people
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2992'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.12'
 - position: 10
-  ref: MAT 26:3!10
-  xml_id: n40026003010
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 26:3!10
+    wordID: n40026003010
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 11
-  ref: MAT 26:3!11
-  xml_id: n40026003011
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:3!11
+    wordID: n40026003011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 26:3!12
-  xml_id: n40026003012
-  unicode: αὐλὴν
+  text: αὐλὴν
   lemma: αὐλή
   normalized: αὐλήν
-  class: noun
-  morph: N-ASF
-  gloss: courtyard
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '833'
-  domain: '007002'
-  ln: '7.6'
+  ids:
+    ref: MAT 26:3!12
+    wordID: n40026003012
+  translation:
+    gloss: courtyard
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '833'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.6'
 - position: 13
-  ref: MAT 26:3!13
-  xml_id: n40026003013
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:3!13
+    wordID: n40026003013
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 26:3!14
-  xml_id: n40026003014
-  unicode: ἀρχιερέως
+  text: ἀρχιερέως
   lemma: ἀρχιερεύς
   normalized: ἀρχιερέως
-  class: noun
-  morph: N-GSM
-  gloss: high priest
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '749'
-  domain: 053009
-  ln: '53.89'
+  ids:
+    ref: MAT 26:3!14
+    wordID: n40026003014
+  translation:
+    gloss: high priest
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '749'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.89'
 - position: 15
-  ref: MAT 26:3!15
-  xml_id: n40026003015
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: who
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:3!15
+    wordID: n40026003015
+  translation:
+    gloss: who
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 26:3!16
-  xml_id: n40026003016
-  unicode: λεγομένου
+  text: λεγομένου
   lemma: λέγω
   normalized: λεγομένου
-  class: verb
-  morph: V-PPP-GSM
-  gloss: is called
-  gender: masculine
-  number: singular
-  case: genitive
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '3004'
-  domain: 033009
-  ln: '33.129'
-  role: vc
+  ids:
+    ref: MAT 26:3!16
+    wordID: n40026003016
+  translation:
+    gloss: is called
+  morphology:
+    class: verb
+    morph: V-PPP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.129'
+  syntax:
+    role: vc
+  discourse:
+    subject: n40026003014
 - position: 17
-  ref: MAT 26:3!17
-  xml_id: n40026003017
-  unicode: Καϊάφα
+  text: Καϊάφα
   lemma: Καϊάφας
   normalized: Καϊάφα
-  class: noun
-  morph: N-GSM
-  gloss: Caiaphas
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2533'
-  domain: 093001
-  ln: '93.205'
-  role: p
+  ids:
+    ref: MAT 26:3!17
+    wordID: n40026003017
+  translation:
+    gloss: Caiaphas
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '2533'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.205'
+  syntax:
+    role: p
 - position: 18
-  ref: MAT 26:4!1
-  xml_id: n40026004001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:4!1
+    wordID: n40026004001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 19
-  ref: MAT 26:4!2
-  xml_id: n40026004002
-  unicode: συνεβουλεύσαντο
+  text: συνεβουλεύσαντο
   lemma: συμβουλεύω
   normalized: συνεβουλεύσαντο
-  class: verb
-  morph: V-AMI-3P
-  gloss: they plotted together
-  number: plural
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '4823'
-  domain: '030004'
-  ln: '30.74'
-  role: v
+  ids:
+    ref: MAT 26:4!2
+    wordID: n40026004002
+  translation:
+    gloss: they plotted together
+  morphology:
+    class: verb
+    morph: V-AMI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '4823'
+  semantic:
+    semanticDomain: '030004'
+    ln: '30.74'
+  syntax:
+    role: v
+    frame: A0:n40026003004;n40026003007;n40026003014
+  discourse:
+    subject: n40026003004 n40026003007 n40026003014
 - position: 20
-  ref: MAT 26:4!3
-  xml_id: n40026004003
-  unicode: ἵνα
+  text: ἵνα
   lemma: ἵνα
   normalized: ἵνα
-  class: conj
-  morph: CONJ
-  gloss: in order that
-  strong: '2443'
-  domain: 089009
-  ln: '89.59'
+  ids:
+    ref: MAT 26:4!3
+    wordID: n40026004003
+  translation:
+    gloss: in order that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
 - position: 21
-  ref: MAT 26:4!4
-  xml_id: n40026004004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:4!4
+    wordID: n40026004004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 22
-  ref: MAT 26:4!5
-  xml_id: n40026004005
-  unicode: Ἰησοῦν
+  text: Ἰησοῦν
   lemma: Ἰησοῦς
   normalized: Ἰησοῦν
-  class: noun
-  morph: N-ASM
-  gloss: Jesus
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2424'
-  domain: 093001
-  ln: 93.169a
+  ids:
+    ref: MAT 26:4!5
+    wordID: n40026004005
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
 - position: 23
-  ref: MAT 26:4!6
-  xml_id: n40026004006
-  unicode: δόλῳ
+  text: δόλῳ
   lemma: δόλος
   normalized: δόλῳ
-  class: noun
-  morph: N-DSM
-  gloss: by guile
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '1388'
-  domain: 088021
-  ln: '88.154'
-  role: adv
+  ids:
+    ref: MAT 26:4!6
+    wordID: n40026004006
+  translation:
+    gloss: by guile
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '1388'
+  semantic:
+    semanticDomain: 088021
+    ln: '88.154'
+  syntax:
+    role: adv
 - position: 24
-  ref: MAT 26:4!7
-  xml_id: n40026004007
-  unicode: κρατήσωσιν
+  text: κρατήσωσιν
   lemma: κρατέω
   normalized: κρατήσωσιν
-  class: verb
-  morph: V-AAS-3P
-  gloss: they might seize
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '2902'
-  domain: '037006'
-  ln: '37.110'
-  role: v
+  ids:
+    ref: MAT 26:4!7
+    wordID: n40026004007
+  translation:
+    gloss: they might seize
+  morphology:
+    class: verb
+    morph: V-AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2902'
+  semantic:
+    semanticDomain: '037006'
+    ln: '37.110'
+  syntax:
+    role: v
+    frame: A0:n40026003004;n40026003007;n40026003014 A1:n40026004005
+  discourse:
+    subject: n40026003004 n40026003007 n40026003014
 - position: 25
-  ref: MAT 26:4!8
-  xml_id: n40026004008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:4!8
+    wordID: n40026004008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 26
-  ref: MAT 26:4!9
-  xml_id: n40026004009
-  unicode: ἀποκτείνωσιν
+  text: ἀποκτείνωσιν
   lemma: ἀποκτείνω
   normalized: ἀποκτείνωσιν
-  class: verb
-  morph: V-AAS-3P
-  gloss: kill
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '615'
-  domain: '020004'
-  ln: '20.61'
-  role: v
-syntax:
-  word_order: ADV-V-S-ADV
+  ids:
+    ref: MAT 26:4!9
+    wordID: n40026004009
+  translation:
+    gloss: kill
+  morphology:
+    class: verb
+    morph: V-AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '615'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.61'
+  syntax:
+    role: v
+    frame: A0:n40026003004;n40026003007;n40026003014
+  discourse:
+    subject: n40026003004 n40026003007 n40026003014

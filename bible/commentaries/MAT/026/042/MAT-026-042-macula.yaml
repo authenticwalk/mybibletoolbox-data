@@ -1,343 +1,471 @@
-verse:
-  reference: MAT 26:42
-  book_code: MAT
-  chapter: 26
-  verse: 42
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: πάλιν ἐκ δευτέρου ἀπελθὼν προσηύξατο λέγων Πάτερ μου, εἰ οὐ δύναται τοῦτο
-    παρελθεῖν ἐὰν μὴ αὐτὸ πίω, γενηθήτω τὸ θέλημά σου.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:42
+text: πάλιν ἐκ δευτέρου ἀπελθὼν προσηύξατο λέγων Πάτερ μου, εἰ οὐ δύναται τοῦτο παρελθεῖν
+  ἐὰν μὴ αὐτὸ πίω, γενηθήτω τὸ θέλημά σου.
 words:
 - position: 1
-  ref: MAT 26:42!1
-  xml_id: n40026042001
-  unicode: πάλιν
+  text: πάλιν
   lemma: πάλιν
   normalized: πάλιν
-  class: adv
-  morph: ADV
-  gloss: Again
-  strong: '3825'
-  domain: '067002'
-  ln: '67.55'
-  role: adv
+  ids:
+    ref: MAT 26:42!1
+    wordID: n40026042001
+  translation:
+    gloss: Again
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3825'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.55'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 26:42!2
-  xml_id: n40026042002
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: for
-  strong: '1537'
-  domain: '067002'
-  ln: '67.33'
+  ids:
+    ref: MAT 26:42!2
+    wordID: n40026042002
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
 - position: 3
-  ref: MAT 26:42!3
-  xml_id: n40026042003
-  unicode: δευτέρου
+  text: δευτέρου
   lemma: δεύτερος
   normalized: δευτέρου
-  class: adj
-  morph: A-GSN
-  gloss: a second time
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '1208'
-  domain: '060003'
-  ln: '60.49'
+  ids:
+    ref: MAT 26:42!3
+    wordID: n40026042003
+  translation:
+    gloss: a second time
+  morphology:
+    class: adj
+    morph: A-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+  lexical:
+    strong: '1208'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.49'
 - position: 4
-  ref: MAT 26:42!4
-  xml_id: n40026042004
-  unicode: ἀπελθὼν
+  text: ἀπελθὼν
   lemma: ἀπέρχομαι
   normalized: ἀπελθών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having gone away
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '565'
-  domain: '015004'
-  ln: '15.37'
-  role: v
+  ids:
+    ref: MAT 26:42!4
+    wordID: n40026042004
+  translation:
+    gloss: having gone away
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40026036006
+  discourse:
+    subject: n40026036006
 - position: 5
-  ref: MAT 26:42!5
-  xml_id: n40026042005
-  unicode: προσηύξατο
+  text: προσηύξατο
   lemma: προσεύχομαι
   normalized: προσηύξατο
-  class: verb
-  morph: V-ADI-3S
-  gloss: He prayed
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '4336'
-  domain: '033013'
-  ln: '33.178'
-  role: v
+  ids:
+    ref: MAT 26:42!5
+    wordID: n40026042005
+  translation:
+    gloss: He prayed
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '4336'
+  semantic:
+    semanticDomain: '033013'
+    ln: '33.178'
+  syntax:
+    role: v
+    frame: A0:n40026036006
+  discourse:
+    subject: n40026036006
 - position: 6
-  ref: MAT 26:42!6
-  xml_id: n40026042006
-  unicode: λέγων
+  text: λέγων
   lemma: λέγω
   normalized: λέγων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: saying
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:42!6
+    wordID: n40026042006
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026036006
+  discourse:
+    subject: n40026036006
 - position: 7
-  ref: MAT 26:42!7
-  xml_id: n40026042007
-  unicode: Πάτερ
+  text: Πάτερ
   lemma: πατήρ
   normalized: Πάτερ
-  class: noun
-  morph: N-VSM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 26:42!7
+    wordID: n40026042007
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 8
-  ref: MAT 26:42!8
-  xml_id: n40026042008
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 26:42!8
+    wordID: n40026042008
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40026036006
 - position: 9
-  ref: MAT 26:42!9
-  xml_id: n40026042009
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1487'
-  domain: 089010
-  ln: '89.65'
+  ids:
+    ref: MAT 26:42!9
+    wordID: n40026042009
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
 - position: 10
-  ref: MAT 26:42!10
-  xml_id: n40026042010
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 26:42!10
+    wordID: n40026042010
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 11
-  ref: MAT 26:42!11
-  xml_id: n40026042011
-  unicode: δύναται
+  text: δύναται
   lemma: δύναμαι
   normalized: δύναται
-  class: verb
-  morph: V-PNI-3S
-  gloss: is possible
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1410'
-  domain: '074'
-  ln: '74.5'
-  role: v
+  ids:
+    ref: MAT 26:42!11
+    wordID: n40026042011
+  translation:
+    gloss: is possible
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n40026042012 A1:n40026042013
 - position: 12
-  ref: MAT 26:42!12
-  xml_id: n40026042012
-  unicode: τοῦτο
+  text: τοῦτο
   lemma: οὗτος
   normalized: τοῦτο
-  class: pron
-  morph: D-NSN
-  gloss: this
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
-  role: s
+  ids:
+    ref: MAT 26:42!12
+    wordID: n40026042012
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026039020
 - position: 13
-  ref: MAT 26:42!13
-  xml_id: n40026042013
-  unicode: παρελθεῖν
+  text: παρελθεῖν
   lemma: παρέρχομαι
   normalized: παρελθεῖν
-  class: verb
-  morph: V-2AAN
-  gloss: to pass
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '3928'
-  domain: '013003'
-  ln: '13.93'
-  role: v
+  ids:
+    ref: MAT 26:42!13
+    wordID: n40026042013
+  translation:
+    gloss: to pass
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3928'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.93'
+  syntax:
+    role: v
+    frame: A0:n40026039020
+  discourse:
+    subject: n40026039020
 - position: 14
-  ref: MAT 26:42!14
-  xml_id: n40026042014
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1437'
+  ids:
+    ref: MAT 26:42!14
+    wordID: n40026042014
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
 - position: 15
-  ref: MAT 26:42!15
-  xml_id: n40026042015
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 26:42!15
+    wordID: n40026042015
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 16
-  ref: MAT 26:42!16
-  xml_id: n40026042016
-  unicode: αὐτὸ
+  text: αὐτὸ
   lemma: αὐτός
   normalized: αὐτό
-  class: pron
-  morph: P-ASN
-  gloss: it
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 26:42!16
+    wordID: n40026042016
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40026039020
 - position: 17
-  ref: MAT 26:42!17
-  xml_id: n40026042017
-  unicode: πίω
+  text: πίω
   lemma: πίνω
   normalized: πίω
-  class: verb
-  morph: V-2AAS-1S
-  gloss: I drink
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '4095'
-  domain: '024006'
-  ln: '24.81'
-  role: v
+  ids:
+    ref: MAT 26:42!17
+    wordID: n40026042017
+  translation:
+    gloss: I drink
+  morphology:
+    class: verb
+    morph: V-2AAS-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4095'
+  semantic:
+    semanticDomain: '024006'
+    ln: '24.81'
+  syntax:
+    role: v
+    frame: A0:n40026036006 A1:n40026042016
+  discourse:
+    subject: n40026036006
 - position: 18
-  ref: MAT 26:42!18
-  xml_id: n40026042018
-  unicode: γενηθήτω
+  text: γενηθήτω
   lemma: γίνομαι
   normalized: γενηθήτω
-  class: verb
-  morph: V-AOM-3S
-  gloss: be done
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: imperative
-  strong: '1096'
-  domain: '013004'
-  ln: '13.107'
-  role: v
+  ids:
+    ref: MAT 26:42!18
+    wordID: n40026042018
+  translation:
+    gloss: be done
+  morphology:
+    class: verb
+    morph: V-AOM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: imperative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A1:n40026042020
 - position: 19
-  ref: MAT 26:42!19
-  xml_id: n40026042019
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:42!19
+    wordID: n40026042019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 26:42!20
-  xml_id: n40026042020
-  unicode: θέλημά
+  text: θέλημά
   lemma: θέλημα
   normalized: θέλημα
-  class: noun
-  morph: N-NSN
-  gloss: will
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '2307'
-  domain: '030004'
-  ln: '30.59'
+  ids:
+    ref: MAT 26:42!20
+    wordID: n40026042020
+  translation:
+    gloss: will
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2307'
+  semantic:
+    semanticDomain: '030004'
+    ln: '30.59'
 - position: 21
-  ref: MAT 26:42!21
-  xml_id: n40026042021
-  unicode: σου
+  text: σου
   lemma: σύ
   normalized: σου
-  class: pron
-  morph: P-2GS
-  gloss: of You
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-syntax:
-  word_order: ADV-V-ADV
+  ids:
+    ref: MAT 26:42!21
+    wordID: n40026042021
+  translation:
+    gloss: of You
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n40026042007

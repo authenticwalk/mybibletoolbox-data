@@ -1,212 +1,281 @@
-verse:
-  reference: MAT 8:19
-  book_code: MAT
-  chapter: 8
-  verse: 19
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Καὶ προσελθὼν εἷς γραμματεὺς εἶπεν αὐτῷ Διδάσκαλε, ἀκολουθήσω σοι ὅπου
-    ἐὰν ἀπέρχῃ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:19
+text: Καὶ προσελθὼν εἷς γραμματεὺς εἶπεν αὐτῷ Διδάσκαλε, ἀκολουθήσω σοι ὅπου ἐὰν ἀπέρχῃ.
 words:
 - position: 1
-  ref: MAT 8:19!1
-  xml_id: n40008019001
-  unicode: Καὶ
+  text: Καὶ
   lemma: καί
   normalized: Καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 8:19!1
+    wordID: n40008019001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 8:19!2
-  xml_id: n40008019002
-  unicode: προσελθὼν
+  text: προσελθὼν
   lemma: προσέρχομαι
   normalized: προσελθών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having come to [him]
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '4334'
-  domain: '015005'
-  ln: '15.77'
-  role: v
+  ids:
+    ref: MAT 8:19!2
+    wordID: n40008019002
+  translation:
+    gloss: having come to [him]
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n40008019004
+  discourse:
+    subject: n40008019004
 - position: 3
-  ref: MAT 8:19!3
-  xml_id: n40008019003
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: 092004
-  ln: '92.22'
+  ids:
+    ref: MAT 8:19!3
+    wordID: n40008019003
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
 - position: 4
-  ref: MAT 8:19!4
-  xml_id: n40008019004
-  unicode: γραμματεὺς
+  text: γραμματεὺς
   lemma: γραμματεύς
   normalized: γραμματεύς
-  class: noun
-  morph: N-NSM
-  gloss: scribe
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1122'
-  domain: 053009
-  ln: '53.94'
+  ids:
+    ref: MAT 8:19!4
+    wordID: n40008019004
+  translation:
+    gloss: scribe
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1122'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.94'
 - position: 5
-  ref: MAT 8:19!5
-  xml_id: n40008019005
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 8:19!5
+    wordID: n40008019005
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40008019004 A2:n40008019006
 - position: 6
-  ref: MAT 8:19!6
-  xml_id: n40008019006
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 8:19!6
+    wordID: n40008019006
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008018004
 - position: 7
-  ref: MAT 8:19!7
-  xml_id: n40008019007
-  unicode: Διδάσκαλε
+  text: Διδάσκαλε
   lemma: διδάσκαλος
   normalized: Διδάσκαλε
-  class: noun
-  morph: N-VSM
-  gloss: Teacher
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '1320'
-  domain: '033017'
-  ln: '33.243'
-  role: aux
+  ids:
+    ref: MAT 8:19!7
+    wordID: n40008019007
+  translation:
+    gloss: Teacher
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '1320'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.243'
+  syntax:
+    role: aux
 - position: 8
-  ref: MAT 8:19!8
-  xml_id: n40008019008
-  unicode: ἀκολουθήσω
+  text: ἀκολουθήσω
   lemma: ἀκολουθέω
   normalized: ἀκολουθήσω
-  class: verb
-  morph: V-FAI-1S
-  gloss: I will follow
-  number: singular
-  person: first
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '190'
-  domain: '015020'
-  ln: '15.156'
-  role: v
+  ids:
+    ref: MAT 8:19!8
+    wordID: n40008019008
+  translation:
+    gloss: I will follow
+  morphology:
+    class: verb
+    morph: V-FAI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '190'
+  semantic:
+    semanticDomain: '015020'
+    ln: '15.156'
+  syntax:
+    role: v
+    frame: A0:n40008019004 A1:n40008019009
+  discourse:
+    subject: n40008019004
 - position: 9
-  ref: MAT 8:19!9
-  xml_id: n40008019009
-  unicode: σοι
+  text: σοι
   lemma: σύ
   normalized: σοι
-  class: pron
-  morph: P-2DS
-  gloss: You
-  number: singular
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: o
+  ids:
+    ref: MAT 8:19!9
+    wordID: n40008019009
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40008019007
 - position: 10
-  ref: MAT 8:19!11
-  xml_id: n40008019011
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: ptcl
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 8:19!11
+    wordID: n40008019011
+  translation:
+    gloss: if
+  morphology:
+    class: ptcl
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 8:19!10
-  xml_id: n40008019010
-  unicode: ὅπου
+  text: ὅπου
   lemma: ὅπου
   normalized: ὅπου
-  class: conj
-  morph: ADV
-  gloss: wherever
-  strong: '3699'
-  domain: 083002
-  ln: '83.5'
-  role: adv
+  ids:
+    ref: MAT 8:19!10
+    wordID: n40008019010
+  translation:
+    gloss: wherever
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '3699'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.5'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 8:19!12
-  xml_id: n40008019012
-  unicode: ἀπέρχῃ
+  text: ἀπέρχῃ
   lemma: ἀπέρχομαι
   normalized: ἀπέρχῃ
-  class: verb
-  morph: V-PNS-2S
-  gloss: You might go
-  number: singular
-  person: second
-  tense: present
-  voice: middlepassive
-  mood: subjunctive
-  strong: '565'
-  domain: '015004'
-  ln: '15.37'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 8:19!12
+    wordID: n40008019012
+  translation:
+    gloss: You might go
+  morphology:
+    class: verb
+    morph: V-PNS-2S
+    number: singular
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: subjunctive
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40008019007
+  discourse:
+    subject: n40008019007

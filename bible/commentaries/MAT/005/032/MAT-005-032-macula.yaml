@@ -1,380 +1,515 @@
-verse:
-  reference: MAT 5:32
-  book_code: MAT
-  chapter: 5
-  verse: 32
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ ἀπολύων τὴν γυναῖκα αὐτοῦ παρεκτὸς λόγου πορνείας
-    ποιεῖ αὐτὴν μοιχευθῆναι, καὶ ὃς ἐὰν ἀπολελυμένην γαμήσῃ μοιχᾶται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:32
+text: ἐγὼ δὲ λέγω ὑμῖν ὅτι πᾶς ὁ ἀπολύων τὴν γυναῖκα αὐτοῦ παρεκτὸς λόγου πορνείας
+  ποιεῖ αὐτὴν μοιχευθῆναι, καὶ ὃς ἐὰν ἀπολελυμένην γαμήσῃ μοιχᾶται.
 words:
 - position: 1
-  ref: MAT 5:32!2
-  xml_id: n40005032002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 5:32!2
+    wordID: n40005032002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 5:32!1
-  xml_id: n40005032001
-  unicode: ἐγὼ
+  text: ἐγὼ
   lemma: ἐγώ
   normalized: ἐγώ
-  class: pron
-  morph: P-1NS
-  gloss: I
-  number: singular
-  case: nominative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: s
+  ids:
+    ref: MAT 5:32!1
+    wordID: n40005032001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40004017005
 - position: 3
-  ref: MAT 5:32!3
-  xml_id: n40005032003
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 5:32!3
+    wordID: n40005032003
+  translation:
+    gloss: say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40005032001 A2:n40005032004
 - position: 4
-  ref: MAT 5:32!4
-  xml_id: n40005032004
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 5:32!4
+    wordID: n40005032004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
 - position: 5
-  ref: MAT 5:32!5
-  xml_id: n40005032005
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 5:32!5
+    wordID: n40005032005
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 6
-  ref: MAT 5:32!6
-  xml_id: n40005032006
-  unicode: πᾶς
+  text: πᾶς
   lemma: πᾶς
   normalized: πᾶς
-  class: adj
-  morph: A-NSM
-  gloss: everyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 5:32!6
+    wordID: n40005032006
+  translation:
+    gloss: everyone
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 7
-  ref: MAT 5:32!7
-  xml_id: n40005032007
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:32!7
+    wordID: n40005032007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 5:32!8
-  xml_id: n40005032008
-  unicode: ἀπολύων
+  text: ἀπολύων
   lemma: ἀπολύω
   normalized: ἀπολύων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: divorcing
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '630'
-  domain: '034010'
-  ln: '34.78'
-  role: v
+  ids:
+    ref: MAT 5:32!8
+    wordID: n40005032008
+  translation:
+    gloss: divorcing
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '034010'
+    ln: '34.78'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40005032010
 - position: 9
-  ref: MAT 5:32!9
-  xml_id: n40005032009
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:32!9
+    wordID: n40005032009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 5:32!10
-  xml_id: n40005032010
-  unicode: γυναῖκα
+  text: γυναῖκα
   lemma: γυνή
   normalized: γυναῖκα
-  class: noun
-  morph: N-ASF
-  gloss: wife
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1135'
-  domain: '010004'
-  ln: '10.54'
+  ids:
+    ref: MAT 5:32!10
+    wordID: n40005032010
+  translation:
+    gloss: wife
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1135'
+  semantic:
+    semanticDomain: '010004'
+    ln: '10.54'
 - position: 11
-  ref: MAT 5:32!11
-  xml_id: n40005032011
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 5:32!11
+    wordID: n40005032011
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40005032008
 - position: 12
-  ref: MAT 5:32!12
-  xml_id: n40005032012
-  unicode: παρεκτὸς
+  text: παρεκτὸς
   lemma: παρεκτός
   normalized: παρεκτός
-  class: prep
-  morph: ADV
-  gloss: except
-  strong: '3924'
-  domain: 058006
-  ln: '58.38'
+  ids:
+    ref: MAT 5:32!12
+    wordID: n40005032012
+  translation:
+    gloss: except
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '3924'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.38'
 - position: 13
-  ref: MAT 5:32!13
-  xml_id: n40005032013
-  unicode: λόγου
+  text: λόγου
   lemma: λόγος
   normalized: λόγου
-  class: noun
-  morph: N-GSM
-  gloss: on account
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3056'
-  domain: 089007
-  ln: '89.18'
+  ids:
+    ref: MAT 5:32!13
+    wordID: n40005032013
+  translation:
+    gloss: on account
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.18'
 - position: 14
-  ref: MAT 5:32!14
-  xml_id: n40005032014
-  unicode: πορνείας
+  text: πορνείας
   lemma: πορνεία
   normalized: πορνείας
-  class: noun
-  morph: N-GSF
-  gloss: of sexual immorality
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '4202'
-  domain: 088036
-  ln: '88.271'
+  ids:
+    ref: MAT 5:32!14
+    wordID: n40005032014
+  translation:
+    gloss: of sexual immorality
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4202'
+  semantic:
+    semanticDomain: 088036
+    ln: '88.271'
 - position: 15
-  ref: MAT 5:32!15
-  xml_id: n40005032015
-  unicode: ποιεῖ
+  text: ποιεῖ
   lemma: ποιέω
   normalized: ποιεῖ
-  class: verb
-  morph: V-PAI-3S
-  gloss: causes
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '4160'
-  domain: '013001'
-  ln: '13.9'
-  role: v
+  ids:
+    ref: MAT 5:32!15
+    wordID: n40005032015
+  translation:
+    gloss: causes
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.9'
+  syntax:
+    role: v
+    frame: A0:n40005032008 A1:n40005032017
 - position: 16
-  ref: MAT 5:32!16
-  xml_id: n40005032016
-  unicode: αὐτὴν
+  text: αὐτὴν
   lemma: αὐτός
   normalized: αὐτήν
-  class: pron
-  morph: P-ASF
-  gloss: her
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 5:32!16
+    wordID: n40005032016
+  translation:
+    gloss: her
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40005032010
 - position: 17
-  ref: MAT 5:32!17
-  xml_id: n40005032017
-  unicode: μοιχευθῆναι
+  text: μοιχευθῆναι
   lemma: μοιχεύω
   normalized: μοιχευθῆναι
-  class: verb
-  morph: V-APN
-  gloss: to commit adultery
-  tense: aorist
-  voice: passive
-  mood: infinitive
-  strong: '3431'
-  domain: 088036
-  ln: '88.276'
-  role: v
+  ids:
+    ref: MAT 5:32!17
+    wordID: n40005032017
+  translation:
+    gloss: to commit adultery
+  morphology:
+    class: verb
+    morph: V-APN
+    tense: aorist
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '3431'
+  semantic:
+    semanticDomain: 088036
+    ln: '88.276'
+  syntax:
+    role: v
+    frame: A1:n40005032016
 - position: 18
-  ref: MAT 5:32!18
-  xml_id: n40005032018
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 5:32!18
+    wordID: n40005032018
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 19
-  ref: MAT 5:32!20
-  xml_id: n40005032020
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: ptcl
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 5:32!20
+    wordID: n40005032020
+  translation:
+    gloss: if
+  morphology:
+    class: ptcl
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
 - position: 20
-  ref: MAT 5:32!19
-  xml_id: n40005032019
-  unicode: ὃς
+  text: ὃς
   lemma: ὅς
   normalized: ὅς
-  class: pron
-  morph: R-NSM
-  gloss: whoever
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: s
+  ids:
+    ref: MAT 5:32!19
+    wordID: n40005032019
+  translation:
+    gloss: whoever
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
 - position: 21
-  ref: MAT 5:32!21
-  xml_id: n40005032021
-  unicode: ἀπολελυμένην
+  text: ἀπολελυμένην
   lemma: ἀπολύω
   normalized: ἀπολελυμένην
-  class: verb
-  morph: V-RPP-ASF
-  gloss: her having been divorced
-  gender: feminine
-  number: singular
-  case: accusative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '630'
-  domain: '034010'
-  ln: '34.78'
-  role: v
+  ids:
+    ref: MAT 5:32!21
+    wordID: n40005032021
+  translation:
+    gloss: her having been divorced
+  morphology:
+    class: verb
+    morph: V-RPP-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '034010'
+    ln: '34.78'
+  syntax:
+    role: v
+    frame: A1:n00000000000
 - position: 22
-  ref: MAT 5:32!22
-  xml_id: n40005032022
-  unicode: γαμήσῃ
+  text: γαμήσῃ
   lemma: γαμέω
   normalized: γαμήσῃ
-  class: verb
-  morph: V-AAS-3S
-  gloss: shall marry
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1060'
-  domain: '034010'
-  ln: '34.66'
-  role: v
+  ids:
+    ref: MAT 5:32!22
+    wordID: n40005032022
+  translation:
+    gloss: shall marry
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1060'
+  semantic:
+    semanticDomain: '034010'
+    ln: '34.66'
+  syntax:
+    role: v
+    frame: A0:n40005032019 A1:n40005032021
 - position: 23
-  ref: MAT 5:32!23
-  xml_id: n40005032023
-  unicode: μοιχᾶται
+  text: μοιχᾶται
   lemma: μοιχάω
   normalized: μοιχᾶται
-  class: verb
-  morph: V-PNI-3S
-  gloss: commits adultery
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '3429'
-  domain: 088036
-  ln: '88.276'
-  role: v
-syntax:
-  word_order: S-ADV-V-O
+  ids:
+    ref: MAT 5:32!23
+    wordID: n40005032023
+  translation:
+    gloss: commits adultery
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '3429'
+  semantic:
+    semanticDomain: 088036
+    ln: '88.276'
+  syntax:
+    role: v
+    frame: A0:n40005032022

@@ -1,219 +1,283 @@
-verse:
-  reference: MAT 9:37
-  book_code: MAT
-  chapter: 9
-  verse: 37
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε λέγει τοῖς μαθηταῖς αὐτοῦ Ὁ μὲν θερισμὸς πολύς, οἱ δὲ ἐργάται ὀλίγοι·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:37
+text: τότε λέγει τοῖς μαθηταῖς αὐτοῦ Ὁ μὲν θερισμὸς πολύς, οἱ δὲ ἐργάται ὀλίγοι·
 words:
 - position: 1
-  ref: MAT 9:37!1
-  xml_id: n40009037001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 9:37!1
+    wordID: n40009037001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 9:37!2
-  xml_id: n40009037002
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: He says
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 9:37!2
+    wordID: n40009037002
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40009035004 A2:n40009037004
+  discourse:
+    subject: n40009035004
 - position: 3
-  ref: MAT 9:37!3
-  xml_id: n40009037003
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: to the
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:37!3
+    wordID: n40009037003
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 9:37!4
-  xml_id: n40009037004
-  unicode: μαθηταῖς
+  text: μαθηταῖς
   lemma: μαθητής
   normalized: μαθηταῖς
-  class: noun
-  morph: N-DPM
-  gloss: disciples
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '3101'
-  domain: '036004'
-  ln: '36.38'
+  ids:
+    ref: MAT 9:37!4
+    wordID: n40009037004
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
 - position: 5
-  ref: MAT 9:37!5
-  xml_id: n40009037005
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 9:37!5
+    wordID: n40009037005
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40009035004
 - position: 6
-  ref: MAT 9:37!7
-  xml_id: n40009037007
-  unicode: μὲν
+  text: μὲν
   lemma: μέν
   normalized: μέν
-  class: conj
-  morph: PRT
-  gloss: indeed
-  strong: '3303'
-  domain: 091002
-  ln: '91.6'
+  ids:
+    ref: MAT 9:37!7
+    wordID: n40009037007
+  translation:
+    gloss: indeed
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '3303'
+  semantic:
+    semanticDomain: 091002
+    ln: '91.6'
+  syntax:
+    discontinuous: 'true'
 - position: 7
-  ref: MAT 9:37!6
-  xml_id: n40009037006
-  unicode: Ὁ
+  text: Ὁ
   lemma: ὁ
   normalized: Ὁ
-  class: det
-  morph: T-NSM
-  gloss: The
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:37!6
+    wordID: n40009037006
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 9:37!8
-  xml_id: n40009037008
-  unicode: θερισμὸς
+  text: θερισμὸς
   lemma: θερισμός
   normalized: θερισμός
-  class: noun
-  morph: N-NSM
-  gloss: harvest
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2326'
-  domain: '043'
-  ln: '43.15'
+  ids:
+    ref: MAT 9:37!8
+    wordID: n40009037008
+  translation:
+    gloss: harvest
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2326'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.15'
 - position: 9
-  ref: MAT 9:37!9
-  xml_id: n40009037009
-  unicode: πολύς
+  text: πολύς
   lemma: πολύς
   normalized: πολύς
-  class: adj
-  morph: A-NSM
-  gloss: '[is] plentiful'
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4183'
-  domain: 059002
-  ln: '59.11'
-  role: p
+  ids:
+    ref: MAT 9:37!9
+    wordID: n40009037009
+  translation:
+    gloss: '[is] plentiful'
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.11'
+  syntax:
+    role: p
 - position: 10
-  ref: MAT 9:37!11
-  xml_id: n40009037011
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 9:37!11
+    wordID: n40009037011
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 9:37!10
-  xml_id: n40009037010
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:37!10
+    wordID: n40009037010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 9:37!12
-  xml_id: n40009037012
-  unicode: ἐργάται
+  text: ἐργάται
   lemma: ἐργάτης
   normalized: ἐργάται
-  class: noun
-  morph: N-NPM
-  gloss: workmen
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '2040'
-  domain: '042004'
-  ln: '42.43'
+  ids:
+    ref: MAT 9:37!12
+    wordID: n40009037012
+  translation:
+    gloss: workmen
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '2040'
+  semantic:
+    semanticDomain: '042004'
+    ln: '42.43'
 - position: 13
-  ref: MAT 9:37!13
-  xml_id: n40009037013
-  unicode: ὀλίγοι
+  text: ὀλίγοι
   lemma: ὀλίγος
   normalized: ὀλίγοι
-  class: adj
-  morph: A-NPM
-  gloss: '[are] few'
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3641'
-  domain: 059001
-  ln: '59.3'
-  role: p
-syntax:
-  word_order: S-P
+  ids:
+    ref: MAT 9:37!13
+    wordID: n40009037013
+  translation:
+    gloss: '[are] few'
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3641'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.3'
+  syntax:
+    role: p

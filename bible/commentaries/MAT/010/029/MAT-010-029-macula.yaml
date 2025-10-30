@@ -1,97 +1,109 @@
-verse:
-  reference: MAT 10:29
-  book_code: MAT
-  chapter: 10
-  verse: 29
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οὐχὶ δύο στρουθία ἀσσαρίου πωλεῖται;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:29
+text: οὐχὶ δύο στρουθία ἀσσαρίου πωλεῖται;
 words:
 - position: 1
-  ref: MAT 10:29!1
-  xml_id: n40010029001
-  unicode: οὐχὶ
+  text: οὐχὶ
   lemma: οὐχί
   normalized: οὐχί
-  class: ptcl
-  morph: PRT-I
-  gloss: Not
-  strong: '3780'
-  domain: 069004
-  ln: '69.12'
+  ids:
+    ref: MAT 10:29!1
+    wordID: n40010029001
+  translation:
+    gloss: Not
+  morphology:
+    class: ptcl
+    morph: PRT-I
+  lexical:
+    strong: '3780'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.12'
 - position: 2
-  ref: MAT 10:29!2
-  xml_id: n40010029002
-  unicode: δύο
+  text: δύο
   lemma: δύο
   normalized: δύο
-  class: num
-  morph: A-NUI
-  gloss: two
-  strong: '1417'
-  domain: '060002'
-  ln: '60.11'
+  ids:
+    ref: MAT 10:29!2
+    wordID: n40010029002
+  translation:
+    gloss: two
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1417'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.11'
 - position: 3
-  ref: MAT 10:29!3
-  xml_id: n40010029003
-  unicode: στρουθία
+  text: στρουθία
   lemma: στρουθίον
   normalized: στρουθία
-  class: noun
-  morph: N-NPN
-  gloss: sparrows
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '4765'
-  domain: '004002'
-  ln: '4.46'
+  ids:
+    ref: MAT 10:29!3
+    wordID: n40010029003
+  translation:
+    gloss: sparrows
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '4765'
+  semantic:
+    semanticDomain: '004002'
+    ln: '4.46'
 - position: 4
-  ref: MAT 10:29!4
-  xml_id: n40010029004
-  unicode: ἀσσαρίου
+  text: ἀσσαρίου
   lemma: ἀσσάριον
   normalized: ἀσσαρίου
-  class: noun
-  morph: N-GSN
-  gloss: for an assarion
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '787'
-  domain: '006011'
-  ln: '6.77'
-  role: adv
+  ids:
+    ref: MAT 10:29!4
+    wordID: n40010029004
+  translation:
+    gloss: for an assarion
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '787'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.77'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 10:29!5
-  xml_id: n40010029005
-  unicode: πωλεῖται
+  text: πωλεῖται
   lemma: πωλέω
   normalized: πωλεῖται
-  class: verb
-  morph: V-PPI-3S
-  gloss: are sold
-  number: singular
-  person: third
-  tense: present
-  voice: passive
-  mood: indicative
-  strong: '4453'
-  domain: '057015'
-  ln: '57.186'
-  role: v
-syntax:
-  word_order: S-ADV-V
+  ids:
+    ref: MAT 10:29!5
+    wordID: n40010029005
+  translation:
+    gloss: are sold
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4453'
+  semantic:
+    semanticDomain: '057015'
+    ln: '57.186'
+  syntax:
+    role: v
+    frame: A1:n40010029003

@@ -1,191 +1,246 @@
-verse:
-  reference: MAT 12:18
-  book_code: MAT
-  chapter: 12
-  verse: 18
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: θήσω τὸ Πνεῦμά μου ἐπ’ αὐτόν, καὶ κρίσιν τοῖς ἔθνεσιν ἀπαγγελεῖ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:18
+text: θήσω τὸ Πνεῦμά μου ἐπ’ αὐτόν, καὶ κρίσιν τοῖς ἔθνεσιν ἀπαγγελεῖ.
 words:
 - position: 1
-  ref: MAT 12:18!15
-  xml_id: n40012018015
-  unicode: θήσω
+  text: θήσω
   lemma: τίθημι
   normalized: θήσω
-  class: verb
-  morph: V-FAI-1S
-  gloss: I will put
-  number: singular
-  person: first
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '5087'
-  domain: 085002
-  ln: '85.32'
-  role: v
+  ids:
+    ref: MAT 12:18!15
+    wordID: n40012018015
+  translation:
+    gloss: I will put
+  morphology:
+    class: verb
+    morph: V-FAI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5087'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.32'
+  syntax:
+    role: v
+    frame: A0:n40011027019 A1:n40012018017
+  discourse:
+    subject: n40011027019
 - position: 2
-  ref: MAT 12:18!16
-  xml_id: n40012018016
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:18!16
+    wordID: n40012018016
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 12:18!17
-  xml_id: n40012018017
-  unicode: Πνεῦμά
+  text: Πνεῦμά
   lemma: πνεῦμα
   normalized: Πνεῦμα
-  class: noun
-  morph: N-ASN
-  gloss: Spirit
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4151'
-  domain: '012001'
-  ln: '12.18'
+  ids:
+    ref: MAT 12:18!17
+    wordID: n40012018017
+  translation:
+    gloss: Spirit
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.18'
 - position: 4
-  ref: MAT 12:18!18
-  xml_id: n40012018018
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 12:18!18
+    wordID: n40012018018
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40011027019
 - position: 5
-  ref: MAT 12:18!19
-  xml_id: n40012018019
-  unicode: ἐπ’
+  text: ἐπ’
   lemma: ἐπί
   normalized: ἐπ’
-  class: prep
-  morph: PREP
-  gloss: upon
-  strong: '1909'
-  domain: 084002
-  ln: '84.20'
+  ids:
+    ref: MAT 12:18!19
+    wordID: n40012018019
+  translation:
+    gloss: upon
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.20'
 - position: 6
-  ref: MAT 12:18!20
-  xml_id: n40012018020
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 12:18!20
+    wordID: n40012018020
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012018003
 - position: 7
-  ref: MAT 12:18!21
-  xml_id: n40012018021
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:18!21
+    wordID: n40012018021
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 8
-  ref: MAT 12:18!22
-  xml_id: n40012018022
-  unicode: κρίσιν
+  text: κρίσιν
   lemma: κρίσις
   normalized: κρίσιν
-  class: noun
-  morph: N-ASF
-  gloss: justice
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2920'
-  domain: '056005'
-  ln: '56.25'
-  role: o
+  ids:
+    ref: MAT 12:18!22
+    wordID: n40012018022
+  translation:
+    gloss: justice
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2920'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.25'
+  syntax:
+    role: o
 - position: 9
-  ref: MAT 12:18!23
-  xml_id: n40012018023
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPN
-  gloss: to the
-  gender: neuter
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:18!23
+    wordID: n40012018023
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 12:18!24
-  xml_id: n40012018024
-  unicode: ἔθνεσιν
+  text: ἔθνεσιν
   lemma: ἔθνος
   normalized: ἔθνεσιν
-  class: noun
-  morph: N-DPN
-  gloss: Gentiles
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '1484'
-  domain: '011002'
-  ln: '11.37'
+  ids:
+    ref: MAT 12:18!24
+    wordID: n40012018024
+  translation:
+    gloss: Gentiles
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '1484'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.37'
 - position: 11
-  ref: MAT 12:18!25
-  xml_id: n40012018025
-  unicode: ἀπαγγελεῖ
+  text: ἀπαγγελεῖ
   lemma: ἀπαγγέλλω
   normalized: ἀπαγγελεῖ
-  class: verb
-  morph: V-FAI-3S
-  gloss: He will proclaim
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '518'
-  domain: '033015'
-  ln: '33.198'
-  role: v
-syntax:
-  word_order: V-O-ADV
+  ids:
+    ref: MAT 12:18!25
+    wordID: n40012018025
+  translation:
+    gloss: He will proclaim
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '518'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.198'
+  syntax:
+    role: v
+    frame: A0:n40012018003 A1:n40012018022 A2:n40012018024
+  discourse:
+    subject: n40012018003

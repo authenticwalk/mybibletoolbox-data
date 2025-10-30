@@ -1,160 +1,198 @@
-verse:
-  reference: MAT 22:39
-  book_code: MAT
-  chapter: 22
-  verse: 39
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: δευτέρα ὁμοία αὐτῇ Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:39
+text: δευτέρα ὁμοία αὐτῇ Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
 words:
 - position: 1
-  ref: MAT 22:39!1
-  xml_id: n40022039001
-  unicode: δευτέρα
+  text: δευτέρα
   lemma: δεύτερος
   normalized: δευτέρα
-  class: adj
-  morph: A-NSF
-  gloss: '[The] second'
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1208'
-  domain: '060003'
-  ln: '60.49'
-  role: s
+  ids:
+    ref: MAT 22:39!1
+    wordID: n40022039001
+  translation:
+    gloss: '[The] second'
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1208'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.49'
+  syntax:
+    role: s
 - position: 2
-  ref: MAT 22:39!2
-  xml_id: n40022039002
-  unicode: ὁμοία
+  text: ὁμοία
   lemma: ὅμοιος
   normalized: ὁμοία
-  class: adj
-  morph: A-NSF
-  gloss: '[is] like'
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '3664'
-  domain: '064'
-  ln: '64.1'
-  role: p
+  ids:
+    ref: MAT 22:39!2
+    wordID: n40022039002
+  translation:
+    gloss: '[is] like'
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3664'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.1'
+  syntax:
+    role: p
 - position: 3
-  ref: MAT 22:39!3
-  xml_id: n40022039003
-  unicode: αὐτῇ
+  text: αὐτῇ
   lemma: αὐτός
   normalized: αὐτῇ
-  class: pron
-  morph: P-DSF
-  gloss: it
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: adv
+  ids:
+    ref: MAT 22:39!3
+    wordID: n40022039003
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40022037005
 - position: 4
-  ref: MAT 22:39!4
-  xml_id: n40022039004
-  unicode: Ἀγαπήσεις
+  text: Ἀγαπήσεις
   lemma: ἀγαπάω
   normalized: Ἀγαπήσεις
-  class: verb
-  morph: V-FAI-2S
-  gloss: You shall love
-  number: singular
-  person: second
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '25'
-  domain: '025003'
-  ln: '25.43'
-  role: v
+  ids:
+    ref: MAT 22:39!4
+    wordID: n40022039004
+  translation:
+    gloss: You shall love
+  morphology:
+    class: verb
+    morph: V-FAI-2S
+    number: singular
+    person: second
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40022039006
 - position: 5
-  ref: MAT 22:39!5
-  xml_id: n40022039005
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:39!5
+    wordID: n40022039005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 22:39!6
-  xml_id: n40022039006
-  unicode: πλησίον
+  text: πλησίον
   lemma: πλησίον
   normalized: πλησίον
-  class: adv
-  morph: ADV
-  gloss: neighbor
-  strong: '4139'
-  domain: '011003'
-  ln: '11.89'
+  ids:
+    ref: MAT 22:39!6
+    wordID: n40022039006
+  translation:
+    gloss: neighbor
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4139'
+  semantic:
+    semanticDomain: '011003'
+    ln: '11.89'
 - position: 7
-  ref: MAT 22:39!7
-  xml_id: n40022039007
-  unicode: σου
+  text: σου
   lemma: σύ
   normalized: σου
-  class: pron
-  morph: P-2GS
-  gloss: of you
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
+  ids:
+    ref: MAT 22:39!7
+    wordID: n40022039007
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
 - position: 8
-  ref: MAT 22:39!8
-  xml_id: n40022039008
-  unicode: ὡς
+  text: ὡς
   lemma: ὡς
   normalized: ὡς
-  class: conj
-  morph: ADV
-  gloss: as
-  strong: '5613'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 22:39!8
+    wordID: n40022039008
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 9
-  ref: MAT 22:39!9
-  xml_id: n40022039009
-  unicode: σεαυτόν
+  text: σεαυτόν
   lemma: σεαυτοῦ
   normalized: σεαυτόν
-  class: pron
-  morph: F-2ASM
-  gloss: yourself
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4572'
-  domain: 092003
-  ln: '92.10'
-  role: o
-syntax:
-  word_order: S-P-ADV
+  ids:
+    ref: MAT 22:39!9
+    wordID: n40022039009
+  translation:
+    gloss: yourself
+  morphology:
+    class: pron
+    morph: F-2ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4572'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.10'
+  syntax:
+    role: o

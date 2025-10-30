@@ -1,284 +1,366 @@
-verse:
-  reference: MAT 27:27
-  book_code: MAT
-  chapter: 27
-  verse: 27
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Τότε οἱ στρατιῶται τοῦ ἡγεμόνος παραλαβόντες τὸν Ἰησοῦν εἰς τὸ πραιτώριον
-    συνήγαγον ἐπ’ αὐτὸν ὅλην τὴν σπεῖραν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:27
+text: Τότε οἱ στρατιῶται τοῦ ἡγεμόνος παραλαβόντες τὸν Ἰησοῦν εἰς τὸ πραιτώριον συνήγαγον
+  ἐπ’ αὐτὸν ὅλην τὴν σπεῖραν.
 words:
 - position: 1
-  ref: MAT 27:27!1
-  xml_id: n40027027001
-  unicode: Τότε
+  text: Τότε
   lemma: τότε
   normalized: Τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 27:27!1
+    wordID: n40027027001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 27:27!2
-  xml_id: n40027027002
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:27!2
+    wordID: n40027027002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 27:27!3
-  xml_id: n40027027003
-  unicode: στρατιῶται
+  text: στρατιῶται
   lemma: στρατιώτης
   normalized: στρατιῶται
-  class: noun
-  morph: N-NPM
-  gloss: soldiers
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4757'
-  domain: '055004'
-  ln: '55.17'
+  ids:
+    ref: MAT 27:27!3
+    wordID: n40027027003
+  translation:
+    gloss: soldiers
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '4757'
+  semantic:
+    semanticDomain: '055004'
+    ln: '55.17'
 - position: 4
-  ref: MAT 27:27!4
-  xml_id: n40027027004
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:27!4
+    wordID: n40027027004
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 27:27!5
-  xml_id: n40027027005
-  unicode: ἡγεμόνος
+  text: ἡγεμόνος
   lemma: ἡγεμών
   normalized: ἡγεμόνος
-  class: noun
-  morph: N-GSM
-  gloss: governor
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2232'
-  domain: '037004'
-  ln: '37.83'
+  ids:
+    ref: MAT 27:27!5
+    wordID: n40027027005
+  translation:
+    gloss: governor
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2232'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.83'
 - position: 6
-  ref: MAT 27:27!6
-  xml_id: n40027027006
-  unicode: παραλαβόντες
+  text: παραλαβόντες
   lemma: παραλαμβάνω
   normalized: παραλαβόντες
-  class: verb
-  morph: V-2AAP-NPM
-  gloss: having taken with [them]
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3880'
-  domain: '015023'
-  ln: '15.168'
-  role: v
+  ids:
+    ref: MAT 27:27!6
+    wordID: n40027027006
+  translation:
+    gloss: having taken with [them]
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3880'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.168'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A1:n40027027008
+  discourse:
+    subject: n40027027003
 - position: 7
-  ref: MAT 27:27!7
-  xml_id: n40027027007
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:27!7
+    wordID: n40027027007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 27:27!8
-  xml_id: n40027027008
-  unicode: Ἰησοῦν
+  text: Ἰησοῦν
   lemma: Ἰησοῦς
   normalized: Ἰησοῦν
-  class: noun
-  morph: N-ASM
-  gloss: Jesus
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2424'
-  domain: 093001
-  ln: 93.169a
+  ids:
+    ref: MAT 27:27!8
+    wordID: n40027027008
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
 - position: 9
-  ref: MAT 27:27!9
-  xml_id: n40027027009
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 27:27!9
+    wordID: n40027027009
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 10
-  ref: MAT 27:27!10
-  xml_id: n40027027010
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:27!10
+    wordID: n40027027010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 27:27!11
-  xml_id: n40027027011
-  unicode: πραιτώριον
+  text: πραιτώριον
   lemma: πραιτώριον
   normalized: πραιτώριον
-  class: noun
-  morph: N-ASN
-  gloss: Praetorium
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4232'
-  domain: '007002'
-  ln: '7.7'
+  ids:
+    ref: MAT 27:27!11
+    wordID: n40027027011
+  translation:
+    gloss: Praetorium
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4232'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.7'
 - position: 12
-  ref: MAT 27:27!12
-  xml_id: n40027027012
-  unicode: συνήγαγον
+  text: συνήγαγον
   lemma: συνάγω
   normalized: συνήγαγον
-  class: verb
-  morph: V-2AAI-3P
-  gloss: gathered
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4863'
-  domain: '015013'
-  ln: '15.125'
-  role: v
+  ids:
+    ref: MAT 27:27!12
+    wordID: n40027027012
+  translation:
+    gloss: gathered
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4863'
+  semantic:
+    semanticDomain: '015013'
+    ln: '15.125'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A1:n40027027017
 - position: 13
-  ref: MAT 27:27!13
-  xml_id: n40027027013
-  unicode: ἐπ’
+  text: ἐπ’
   lemma: ἐπί
   normalized: ἐπ’
-  class: prep
-  morph: PREP
-  gloss: before
-  strong: '1909'
-  domain: 084002
-  ln: '84.17'
+  ids:
+    ref: MAT 27:27!13
+    wordID: n40027027013
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.17'
 - position: 14
-  ref: MAT 27:27!14
-  xml_id: n40027027014
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 27:27!14
+    wordID: n40027027014
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40027027008
 - position: 15
-  ref: MAT 27:27!15
-  xml_id: n40027027015
-  unicode: ὅλην
+  text: ὅλην
   lemma: ὅλος
   normalized: ὅλην
-  class: adj
-  morph: A-ASF
-  gloss: all
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3650'
-  domain: '063001'
-  ln: '63.1'
+  ids:
+    ref: MAT 27:27!15
+    wordID: n40027027015
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3650'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.1'
 - position: 16
-  ref: MAT 27:27!16
-  xml_id: n40027027016
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:27!16
+    wordID: n40027027016
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 27:27!17
-  xml_id: n40027027017
-  unicode: σπεῖραν
+  text: σπεῖραν
   lemma: σπεῖρα
   normalized: σπεῖραν
-  class: noun
-  morph: N-ASF
-  gloss: cohort
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '4686'
-  domain: '055003'
-  ln: '55.9'
-syntax:
-  word_order: ADV-S-ADV-V-ADV-O
+  ids:
+    ref: MAT 27:27!17
+    wordID: n40027027017
+  translation:
+    gloss: cohort
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4686'
+  semantic:
+    semanticDomain: '055003'
+    ln: '55.9'

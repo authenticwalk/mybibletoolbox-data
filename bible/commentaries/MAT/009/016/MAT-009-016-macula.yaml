@@ -1,155 +1,189 @@
-verse:
-  reference: MAT 9:16
-  book_code: MAT
-  chapter: 9
-  verse: 16
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οὐδεὶς δὲ ἐπιβάλλει ἐπίβλημα ῥάκους ἀγνάφου ἐπὶ ἱματίῳ παλαιῷ·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:16
+text: οὐδεὶς δὲ ἐπιβάλλει ἐπίβλημα ῥάκους ἀγνάφου ἐπὶ ἱματίῳ παλαιῷ·
 words:
 - position: 1
-  ref: MAT 9:16!2
-  xml_id: n40009016002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
+  ids:
+    ref: MAT 9:16!2
+    wordID: n40009016002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 9:16!1
-  xml_id: n40009016001
-  unicode: οὐδεὶς
+  text: οὐδεὶς
   lemma: οὐδείς
   normalized: οὐδείς
-  class: adj
-  morph: A-NSM-N
-  gloss: No one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3762'
-  domain: 092004
-  ln: '92.23'
-  role: s
+  ids:
+    ref: MAT 9:16!1
+    wordID: n40009016001
+  translation:
+    gloss: No one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
 - position: 3
-  ref: MAT 9:16!3
-  xml_id: n40009016003
-  unicode: ἐπιβάλλει
+  text: ἐπιβάλλει
   lemma: ἐπιβάλλω
   normalized: ἐπιβάλλει
-  class: verb
-  morph: V-PAI-3S
-  gloss: puts
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1911'
-  domain: 085002
-  ln: '85.51'
-  role: v
+  ids:
+    ref: MAT 9:16!3
+    wordID: n40009016003
+  translation:
+    gloss: puts
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1911'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.51'
+  syntax:
+    role: v
+    frame: A0:n40009016001 A1:n40009016004
 - position: 4
-  ref: MAT 9:16!4
-  xml_id: n40009016004
-  unicode: ἐπίβλημα
+  text: ἐπίβλημα
   lemma: ἐπίβλημα
   normalized: ἐπίβλημα
-  class: noun
-  morph: N-ASN
-  gloss: a patch
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1915'
-  domain: '006017'
-  ln: '6.157'
+  ids:
+    ref: MAT 9:16!4
+    wordID: n40009016004
+  translation:
+    gloss: a patch
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1915'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.157'
 - position: 5
-  ref: MAT 9:16!5
-  xml_id: n40009016005
-  unicode: ῥάκους
+  text: ῥάκους
   lemma: ῥάκος
   normalized: ῥάκους
-  class: noun
-  morph: N-GSN
-  gloss: of cloth
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '4470'
-  domain: '006017'
-  ln: '6.152'
+  ids:
+    ref: MAT 9:16!5
+    wordID: n40009016005
+  translation:
+    gloss: of cloth
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4470'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.152'
 - position: 6
-  ref: MAT 9:16!6
-  xml_id: n40009016006
-  unicode: ἀγνάφου
+  text: ἀγνάφου
   lemma: ἄγναφος
   normalized: ἀγνάφου
-  class: adj
-  morph: A-GSN
-  gloss: unshrunk
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '46'
-  domain: 048
-  ln: '48.8'
+  ids:
+    ref: MAT 9:16!6
+    wordID: n40009016006
+  translation:
+    gloss: unshrunk
+  morphology:
+    class: adj
+    morph: A-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+  lexical:
+    strong: '46'
+  semantic:
+    semanticDomain: 048
+    ln: '48.8'
 - position: 7
-  ref: MAT 9:16!7
-  xml_id: n40009016007
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1909'
-  domain: 084002
-  ln: '84.20'
+  ids:
+    ref: MAT 9:16!7
+    wordID: n40009016007
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.20'
 - position: 8
-  ref: MAT 9:16!8
-  xml_id: n40009016008
-  unicode: ἱματίῳ
+  text: ἱματίῳ
   lemma: ἱμάτιον
   normalized: ἱματίῳ
-  class: noun
-  morph: N-DSN
-  gloss: clothing
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '2440'
-  domain: '006017'
-  ln: '6.162'
+  ids:
+    ref: MAT 9:16!8
+    wordID: n40009016008
+  translation:
+    gloss: clothing
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.162'
 - position: 9
-  ref: MAT 9:16!9
-  xml_id: n40009016009
-  unicode: παλαιῷ
+  text: παλαιῷ
   lemma: παλαιός
   normalized: παλαιῷ
-  class: adj
-  morph: A-DSN
-  gloss: old
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3820'
-  domain: 058011
-  ln: '58.75'
-syntax:
-  word_order: S-V-O-ADV
+  ids:
+    ref: MAT 9:16!9
+    wordID: n40009016009
+  translation:
+    gloss: old
+  morphology:
+    class: adj
+    morph: A-DSN
+    gender: neuter
+    number: singular
+    case: dative
+  lexical:
+    strong: '3820'
+  semantic:
+    semanticDomain: 058011
+    ln: '58.75'

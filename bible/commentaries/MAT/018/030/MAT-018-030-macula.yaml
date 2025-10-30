@@ -1,241 +1,322 @@
-verse:
-  reference: MAT 18:30
-  book_code: MAT
-  chapter: 18
-  verse: 30
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ οὐκ ἤθελεν, ἀλλὰ ἀπελθὼν ἔβαλεν αὐτὸν εἰς φυλακὴν ἕως ἀποδῷ τὸ ὀφειλόμενον.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:30
+text: ὁ δὲ οὐκ ἤθελεν, ἀλλὰ ἀπελθὼν ἔβαλεν αὐτὸν εἰς φυλακὴν ἕως ἀποδῷ τὸ ὀφειλόμενον.
 words:
 - position: 1
-  ref: MAT 18:30!2
-  xml_id: n40018030002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: But
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 18:30!2
+    wordID: n40018030002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 18:30!1
-  xml_id: n40018030001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 18:30!1
+    wordID: n40018030001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40018028004
 - position: 3
-  ref: MAT 18:30!3
-  xml_id: n40018030003
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 18:30!3
+    wordID: n40018030003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 4
-  ref: MAT 18:30!4
-  xml_id: n40018030004
-  unicode: ἤθελεν
+  text: ἤθελεν
   lemma: θέλω
   normalized: ἤθελεν
-  class: verb
-  morph: V-IAI-3S
-  gloss: he was willing
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '2309'
-  domain: '030004'
-  ln: '30.58'
-  role: v
+  ids:
+    ref: MAT 18:30!4
+    wordID: n40018030004
+  translation:
+    gloss: he was willing
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '030004'
+    ln: '30.58'
+  syntax:
+    role: v
+    frame: A0:n40018030001
 - position: 5
-  ref: MAT 18:30!5
-  xml_id: n40018030005
-  unicode: ἀλλὰ
+  text: ἀλλὰ
   lemma: ἀλλά
   normalized: ἀλλά
-  class: conj
-  morph: CONJ
-  gloss: rather
-  strong: '235'
-  domain: 089023
-  ln: '89.125'
+  ids:
+    ref: MAT 18:30!5
+    wordID: n40018030005
+  translation:
+    gloss: rather
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
 - position: 6
-  ref: MAT 18:30!6
-  xml_id: n40018030006
-  unicode: ἀπελθὼν
+  text: ἀπελθὼν
   lemma: ἀπέρχομαι
   normalized: ἀπελθών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having gone
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '565'
-  domain: '015004'
-  ln: '15.37'
-  role: v
+  ids:
+    ref: MAT 18:30!6
+    wordID: n40018030006
+  translation:
+    gloss: having gone
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40018028004
+  discourse:
+    subject: n40018028004
 - position: 7
-  ref: MAT 18:30!7
-  xml_id: n40018030007
-  unicode: ἔβαλεν
+  text: ἔβαλεν
   lemma: βάλλω
   normalized: ἔβαλεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: he cast
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '906'
-  domain: 085002
-  ln: '85.34'
-  role: v
+  ids:
+    ref: MAT 18:30!7
+    wordID: n40018030007
+  translation:
+    gloss: he cast
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '906'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.34'
+  syntax:
+    role: v
+    frame: A0:n40018028004 A1:n40018030008
+  discourse:
+    subject: n40018028004
 - position: 8
-  ref: MAT 18:30!8
-  xml_id: n40018030008
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 18:30!8
+    wordID: n40018030008
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40018029004
 - position: 9
-  ref: MAT 18:30!9
-  xml_id: n40018030009
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 18:30!9
+    wordID: n40018030009
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 10
-  ref: MAT 18:30!10
-  xml_id: n40018030010
-  unicode: φυλακὴν
+  text: φυλακὴν
   lemma: φυλακή
   normalized: φυλακήν
-  class: noun
-  morph: N-ASF
-  gloss: prison
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5438'
-  domain: '007002'
-  ln: '7.24'
+  ids:
+    ref: MAT 18:30!10
+    wordID: n40018030010
+  translation:
+    gloss: prison
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5438'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.24'
 - position: 11
-  ref: MAT 18:30!11
-  xml_id: n40018030011
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: conj
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 18:30!11
+    wordID: n40018030011
+  translation:
+    gloss: until
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 12
-  ref: MAT 18:30!12
-  xml_id: n40018030012
-  unicode: ἀποδῷ
+  text: ἀποδῷ
   lemma: ἀποδίδωμι
   normalized: ἀποδῷ
-  class: verb
-  morph: V-2AAS-3S
-  gloss: he should pay
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '591'
-  domain: '057012'
-  ln: '57.153'
-  role: v
+  ids:
+    ref: MAT 18:30!12
+    wordID: n40018030012
+  translation:
+    gloss: he should pay
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '591'
+  semantic:
+    semanticDomain: '057012'
+    ln: '57.153'
+  syntax:
+    role: v
+    frame: A0:n40018029004 A1:n40018030014
+  discourse:
+    subject: n40018029004
 - position: 13
-  ref: MAT 18:30!13
-  xml_id: n40018030013
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: that which
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:30!13
+    wordID: n40018030013
+  translation:
+    gloss: that which
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 18:30!14
-  xml_id: n40018030014
-  unicode: ὀφειλόμενον
+  text: ὀφειλόμενον
   lemma: ὀφείλω
   normalized: ὀφειλόμενον
-  class: verb
-  morph: V-PPP-ASN
-  gloss: was owing
-  gender: neuter
-  number: singular
-  case: accusative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '3784'
-  domain: 057018
-  ln: '57.219'
-  role: v
-syntax:
-  word_order: S-ADV-V
+  ids:
+    ref: MAT 18:30!14
+    wordID: n40018030014
+  translation:
+    gloss: was owing
+  morphology:
+    class: verb
+    morph: V-PPP-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3784'
+  semantic:
+    semanticDomain: 057018
+    ln: '57.219'
+  syntax:
+    role: v
+    frame: A1:n40018028015
+  discourse:
+    subject: n40018028015

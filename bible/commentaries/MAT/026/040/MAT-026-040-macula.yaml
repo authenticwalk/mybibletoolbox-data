@@ -1,340 +1,461 @@
-verse:
-  reference: MAT 26:40
-  book_code: MAT
-  chapter: 26
-  verse: 40
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἔρχεται πρὸς τοὺς μαθητὰς καὶ εὑρίσκει αὐτοὺς καθεύδοντας, καὶ λέγει
-    τῷ Πέτρῳ Οὕτως οὐκ ἰσχύσατε μίαν ὥραν γρηγορῆσαι μετ’ ἐμοῦ;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:40
+text: καὶ ἔρχεται πρὸς τοὺς μαθητὰς καὶ εὑρίσκει αὐτοὺς καθεύδοντας, καὶ λέγει τῷ
+  Πέτρῳ Οὕτως οὐκ ἰσχύσατε μίαν ὥραν γρηγορῆσαι μετ’ ἐμοῦ;
 words:
 - position: 1
-  ref: MAT 26:40!1
-  xml_id: n40026040001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:40!1
+    wordID: n40026040001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 26:40!2
-  xml_id: n40026040002
-  unicode: ἔρχεται
+  text: ἔρχεται
   lemma: ἔρχομαι
   normalized: ἔρχεται
-  class: verb
-  morph: V-PNI-3S
-  gloss: He comes
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 26:40!2
+    wordID: n40026040002
+  translation:
+    gloss: He comes
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40026036006
+  discourse:
+    subject: n40026036006
 - position: 3
-  ref: MAT 26:40!3
-  xml_id: n40026040003
-  unicode: πρὸς
+  text: πρὸς
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '4314'
-  domain: 084002
-  ln: '84.18'
+  ids:
+    ref: MAT 26:40!3
+    wordID: n40026040003
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
 - position: 4
-  ref: MAT 26:40!4
-  xml_id: n40026040004
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:40!4
+    wordID: n40026040004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 26:40!5
-  xml_id: n40026040005
-  unicode: μαθητὰς
+  text: μαθητὰς
   lemma: μαθητής
   normalized: μαθητάς
-  class: noun
-  morph: N-APM
-  gloss: disciples
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3101'
-  domain: '036004'
-  ln: '36.38'
+  ids:
+    ref: MAT 26:40!5
+    wordID: n40026040005
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
 - position: 6
-  ref: MAT 26:40!6
-  xml_id: n40026040006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:40!6
+    wordID: n40026040006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 26:40!7
-  xml_id: n40026040007
-  unicode: εὑρίσκει
+  text: εὑρίσκει
   lemma: εὑρίσκω
   normalized: εὑρίσκει
-  class: verb
-  morph: V-PAI-3S
-  gloss: finds
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2147'
-  domain: '027002'
-  ln: '27.27'
-  role: v
+  ids:
+    ref: MAT 26:40!7
+    wordID: n40026040007
+  translation:
+    gloss: finds
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2147'
+  semantic:
+    semanticDomain: '027002'
+    ln: '27.27'
+  syntax:
+    role: v
+    frame: A0:n40026036006 A1:n40026040009
+  discourse:
+    subject: n40026036006
 - position: 8
-  ref: MAT 26:40!8
-  xml_id: n40026040008
-  unicode: αὐτοὺς
+  text: αὐτοὺς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 26:40!8
+    wordID: n40026040008
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026040005
 - position: 9
-  ref: MAT 26:40!9
-  xml_id: n40026040009
-  unicode: καθεύδοντας
+  text: καθεύδοντας
   lemma: καθεύδω
   normalized: καθεύδοντας
-  class: verb
-  morph: V-PAP-APM
-  gloss: sleeping
-  gender: masculine
-  number: plural
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2518'
-  domain: '023005'
-  ln: '23.66'
-  role: v
+  ids:
+    ref: MAT 26:40!9
+    wordID: n40026040009
+  translation:
+    gloss: sleeping
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2518'
+  semantic:
+    semanticDomain: '023005'
+    ln: '23.66'
+  syntax:
+    role: v
+    frame: A0:n40026040008
 - position: 10
-  ref: MAT 26:40!10
-  xml_id: n40026040010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:40!10
+    wordID: n40026040010
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 11
-  ref: MAT 26:40!11
-  xml_id: n40026040011
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: He says
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:40!11
+    wordID: n40026040011
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026036006 A2:n40026040013
+  discourse:
+    subject: n40026036006
 - position: 12
-  ref: MAT 26:40!12
-  xml_id: n40026040012
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:40!12
+    wordID: n40026040012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 26:40!13
-  xml_id: n40026040013
-  unicode: Πέτρῳ
+  text: Πέτρῳ
   lemma: Πέτρος
   normalized: Πέτρῳ
-  class: noun
-  morph: N-DSM
-  gloss: to Peter
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '4074'
-  domain: 093001
-  ln: '93.296'
+  ids:
+    ref: MAT 26:40!13
+    wordID: n40026040013
+  translation:
+    gloss: to Peter
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '4074'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.296'
 - position: 14
-  ref: MAT 26:40!14
-  xml_id: n40026040014
-  unicode: Οὕτως
+  text: Οὕτως
   lemma: οὕτω
   normalized: Οὕτως
-  class: adv
-  morph: ADV
-  gloss: Thus
-  strong: '3779'
-  domain: '061'
-  ln: '61.9'
-  role: adv
+  ids:
+    ref: MAT 26:40!14
+    wordID: n40026040014
+  translation:
+    gloss: Thus
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3779'
+  semantic:
+    semanticDomain: '061'
+    ln: '61.9'
+  syntax:
+    role: adv
 - position: 15
-  ref: MAT 26:40!15
-  xml_id: n40026040015
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069004
-  ln: '69.11'
-  role: adv
+  ids:
+    ref: MAT 26:40!15
+    wordID: n40026040015
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.11'
+  syntax:
+    role: adv
 - position: 16
-  ref: MAT 26:40!16
-  xml_id: n40026040016
-  unicode: ἰσχύσατε
+  text: ἰσχύσατε
   lemma: ἰσχύω
   normalized: ἰσχύσατε
-  class: verb
-  morph: V-AAI-2P
-  gloss: were you able
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2480'
-  domain: '074'
-  ln: '74.9'
-  role: v
+  ids:
+    ref: MAT 26:40!16
+    wordID: n40026040016
+  translation:
+    gloss: were you able
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2480'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.9'
+  syntax:
+    role: v
+    frame: A0:n40026040005 A1:n40026040019
+  discourse:
+    subject: n40026040005
 - position: 17
-  ref: MAT 26:40!17
-  xml_id: n40026040017
-  unicode: μίαν
+  text: μίαν
   lemma: εἷς
   normalized: μίαν
-  class: adj
-  morph: A-ASF
-  gloss: one
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1520'
-  domain: '060002'
-  ln: '60.10'
+  ids:
+    ref: MAT 26:40!17
+    wordID: n40026040017
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.10'
 - position: 18
-  ref: MAT 26:40!18
-  xml_id: n40026040018
-  unicode: ὥραν
+  text: ὥραν
   lemma: ὥρα
   normalized: ὥραν
-  class: noun
-  morph: N-ASF
-  gloss: hour
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5610'
-  domain: 067009
-  ln: '67.199'
+  ids:
+    ref: MAT 26:40!18
+    wordID: n40026040018
+  translation:
+    gloss: hour
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5610'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.199'
 - position: 19
-  ref: MAT 26:40!19
-  xml_id: n40026040019
-  unicode: γρηγορῆσαι
+  text: γρηγορῆσαι
   lemma: γρηγορέω
   normalized: γρηγορῆσαι
-  class: verb
-  morph: V-AAN
-  gloss: to watch
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '1127'
-  domain: '023005'
-  ln: '23.72'
-  role: v
+  ids:
+    ref: MAT 26:40!19
+    wordID: n40026040019
+  translation:
+    gloss: to watch
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1127'
+  semantic:
+    semanticDomain: '023005'
+    ln: '23.72'
+  syntax:
+    role: v
+    frame: A0:n40026040005
+  discourse:
+    subject: n40026040005
 - position: 20
-  ref: MAT 26:40!20
-  xml_id: n40026040020
-  unicode: μετ’
+  text: μετ’
   lemma: μετά
   normalized: μετ’
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '3326'
-  domain: 089020
-  ln: '89.108'
+  ids:
+    ref: MAT 26:40!20
+    wordID: n40026040020
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.108'
 - position: 21
-  ref: MAT 26:40!21
-  xml_id: n40026040021
-  unicode: ἐμοῦ
+  text: ἐμοῦ
   lemma: ἐγώ
   normalized: ἐμοῦ
-  class: pron
-  morph: P-1GS
-  gloss: Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 26:40!21
+    wordID: n40026040021
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40026036006

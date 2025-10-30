@@ -1,182 +1,237 @@
-verse:
-  reference: MAT 27:13
-  book_code: MAT
-  chapter: 27
-  verse: 13
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε λέγει αὐτῷ ὁ Πειλᾶτος Οὐκ ἀκούεις πόσα σου καταμαρτυροῦσιν;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:13
+text: τότε λέγει αὐτῷ ὁ Πειλᾶτος Οὐκ ἀκούεις πόσα σου καταμαρτυροῦσιν;
 words:
 - position: 1
-  ref: MAT 27:13!1
-  xml_id: n40027013001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 27:13!1
+    wordID: n40027013001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 27:13!2
-  xml_id: n40027013002
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: says
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 27:13!2
+    wordID: n40027013002
+  translation:
+    gloss: says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n40027013003 A0:n40027013005
 - position: 3
-  ref: MAT 27:13!3
-  xml_id: n40027013003
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 27:13!3
+    wordID: n40027013003
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40027011022
 - position: 4
-  ref: MAT 27:13!4
-  xml_id: n40027013004
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:13!4
+    wordID: n40027013004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 27:13!5
-  xml_id: n40027013005
-  unicode: Πειλᾶτος
+  text: Πειλᾶτος
   lemma: Πιλᾶτος
   normalized: Πειλᾶτος
-  class: noun
-  morph: N-NSM
-  gloss: Pilate
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4091'
-  domain: 093001
-  ln: '93.297'
+  ids:
+    ref: MAT 27:13!5
+    wordID: n40027013005
+  translation:
+    gloss: Pilate
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4091'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.297'
 - position: 6
-  ref: MAT 27:13!6
-  xml_id: n40027013006
-  unicode: Οὐκ
+  text: Οὐκ
   lemma: οὐ
   normalized: Οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: Not
-  strong: '3756'
-  domain: 069004
-  ln: '69.11'
-  role: adv
+  ids:
+    ref: MAT 27:13!6
+    wordID: n40027013006
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.11'
+  syntax:
+    role: adv
 - position: 7
-  ref: MAT 27:13!7
-  xml_id: n40027013007
-  unicode: ἀκούεις
+  text: ἀκούεις
   lemma: ἀκούω
   normalized: ἀκούεις
-  class: verb
-  morph: V-PAI-2S
-  gloss: do you hear
-  number: singular
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
+  ids:
+    ref: MAT 27:13!7
+    wordID: n40027013007
+  translation:
+    gloss: do you hear
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40027011022 A1:n40027013010
+  discourse:
+    subject: n40027011022
 - position: 8
-  ref: MAT 27:13!8
-  xml_id: n40027013008
-  unicode: πόσα
+  text: πόσα
   lemma: πόσος
   normalized: πόσα
-  class: pron
-  morph: Q-APN
-  gloss: how many things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4214'
-  domain: 059001
-  ln: '59.5'
-  role: o2
+  ids:
+    ref: MAT 27:13!8
+    wordID: n40027013008
+  translation:
+    gloss: how many things
+  morphology:
+    class: pron
+    morph: Q-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '4214'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.5'
+  syntax:
+    role: o2
 - position: 9
-  ref: MAT 27:13!9
-  xml_id: n40027013009
-  unicode: σου
+  text: σου
   lemma: σύ
   normalized: σου
-  class: pron
-  morph: P-2GS
-  gloss: You
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: o
+  ids:
+    ref: MAT 27:13!9
+    wordID: n40027013009
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027011022
 - position: 10
-  ref: MAT 27:13!10
-  xml_id: n40027013010
-  unicode: καταμαρτυροῦσιν
+  text: καταμαρτυροῦσιν
   lemma: καταμαρτυρέω
   normalized: καταμαρτυροῦσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: they witness against
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2649'
-  domain: '033020'
-  ln: '33.269'
-  role: v
-syntax:
-  word_order: ADV-V-O
+  ids:
+    ref: MAT 27:13!10
+    wordID: n40027013010
+  translation:
+    gloss: they witness against
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2649'
+  semantic:
+    semanticDomain: '033020'
+    ln: '33.269'
+  syntax:
+    role: v
+    frame: A0:n40027012008;n40027012010 A1:n40027013008 A2:n40027013009
+  discourse:
+    subject: n40027012008 n40027012010

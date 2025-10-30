@@ -1,184 +1,236 @@
-verse:
-  reference: MAT 24:20
-  book_code: MAT
-  chapter: 24
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: προσεύχεσθε δὲ ἵνα μὴ γένηται ἡ φυγὴ ὑμῶν χειμῶνος μηδὲ σαββάτῳ·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:20
+text: προσεύχεσθε δὲ ἵνα μὴ γένηται ἡ φυγὴ ὑμῶν χειμῶνος μηδὲ σαββάτῳ·
 words:
 - position: 1
-  ref: MAT 24:20!2
-  xml_id: n40024020002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 24:20!2
+    wordID: n40024020002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 24:20!1
-  xml_id: n40024020001
-  unicode: προσεύχεσθε
+  text: προσεύχεσθε
   lemma: προσεύχομαι
   normalized: προσεύχεσθε
-  class: verb
-  morph: V-PNM-2P
-  gloss: Pray
-  number: plural
-  person: second
-  tense: present
-  voice: middlepassive
-  mood: imperative
-  strong: '4336'
-  domain: '033013'
-  ln: '33.178'
-  role: v
+  ids:
+    ref: MAT 24:20!1
+    wordID: n40024020001
+  translation:
+    gloss: Pray
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '4336'
+  semantic:
+    semanticDomain: '033013'
+    ln: '33.178'
+  syntax:
+    role: v
+    frame: A0:n40024003012
+  discourse:
+    subject: n40024003012
 - position: 3
-  ref: MAT 24:20!3
-  xml_id: n40024020003
-  unicode: ἵνα
+  text: ἵνα
   lemma: ἵνα
   normalized: ἵνα
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '2443'
-  domain: 090006
-  ln: '90.22'
+  ids:
+    ref: MAT 24:20!3
+    wordID: n40024020003
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.22'
 - position: 4
-  ref: MAT 24:20!4
-  xml_id: n40024020004
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 24:20!4
+    wordID: n40024020004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 24:20!5
-  xml_id: n40024020005
-  unicode: γένηται
+  text: γένηται
   lemma: γίνομαι
   normalized: γένηται
-  class: verb
-  morph: V-2ADS-3S
-  gloss: might be
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: subjunctive
-  strong: '1096'
-  domain: '013004'
-  ln: '13.107'
-  role: v
+  ids:
+    ref: MAT 24:20!5
+    wordID: n40024020005
+  translation:
+    gloss: might be
+  morphology:
+    class: verb
+    morph: V-2ADS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: subjunctive
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n40024020007
 - position: 6
-  ref: MAT 24:20!6
-  xml_id: n40024020006
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:20!6
+    wordID: n40024020006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 24:20!7
-  xml_id: n40024020007
-  unicode: φυγὴ
+  text: φυγὴ
   lemma: φυγή
   normalized: φυγή
-  class: noun
-  morph: N-NSF
-  gloss: flight
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '5437'
-  domain: '015004'
-  ln: '15.61'
+  ids:
+    ref: MAT 24:20!7
+    wordID: n40024020007
+  translation:
+    gloss: flight
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5437'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.61'
 - position: 8
-  ref: MAT 24:20!8
-  xml_id: n40024020008
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 24:20!8
+    wordID: n40024020008
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40024003012
 - position: 9
-  ref: MAT 24:20!9
-  xml_id: n40024020009
-  unicode: χειμῶνος
+  text: χειμῶνος
   lemma: χειμών
   normalized: χειμῶνος
-  class: noun
-  morph: N-GSM
-  gloss: in winter
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '5494'
-  domain: 067009
-  ln: '67.165'
+  ids:
+    ref: MAT 24:20!9
+    wordID: n40024020009
+  translation:
+    gloss: in winter
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5494'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.165'
 - position: 10
-  ref: MAT 24:20!10
-  xml_id: n40024020010
-  unicode: μηδὲ
+  text: μηδὲ
   lemma: μηδέ
   normalized: μηδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3366'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 24:20!10
+    wordID: n40024020010
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 11
-  ref: MAT 24:20!11
-  xml_id: n40024020011
-  unicode: σαββάτῳ
+  text: σαββάτῳ
   lemma: σάββατον
   normalized: σαββάτῳ
-  class: noun
-  morph: N-DSN
-  gloss: on a Sabbath
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '4521'
-  domain: 067009
-  ln: '67.184'
-syntax:
-  word_order: ADV-V-S-ADV
+  ids:
+    ref: MAT 24:20!11
+    wordID: n40024020011
+  translation:
+    gloss: on a Sabbath
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4521'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.184'

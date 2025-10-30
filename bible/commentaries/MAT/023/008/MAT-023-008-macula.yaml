@@ -1,265 +1,353 @@
-verse:
-  reference: MAT 23:8
-  book_code: MAT
-  chapter: 23
-  verse: 8
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὑμεῖς δὲ μὴ κληθῆτε Ῥαββεί· εἷς γάρ ἐστιν ὑμῶν ὁ διδάσκαλος, πάντες δὲ
-    ὑμεῖς ἀδελφοί ἐστε.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 23:8
+text: ὑμεῖς δὲ μὴ κληθῆτε Ῥαββεί· εἷς γάρ ἐστιν ὑμῶν ὁ διδάσκαλος, πάντες δὲ ὑμεῖς
+  ἀδελφοί ἐστε.
 words:
 - position: 1
-  ref: MAT 23:8!2
-  xml_id: n40023008002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 23:8!2
+    wordID: n40023008002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 23:8!1
-  xml_id: n40023008001
-  unicode: ὑμεῖς
+  text: ὑμεῖς
   lemma: σύ
   normalized: ὑμεῖς
-  class: pron
-  morph: P-2NP
-  gloss: You
-  number: plural
-  case: nominative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: s
+  ids:
+    ref: MAT 23:8!1
+    wordID: n40023008001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n40023001006 n40023001009
 - position: 3
-  ref: MAT 23:8!3
-  xml_id: n40023008003
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 23:8!3
+    wordID: n40023008003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 4
-  ref: MAT 23:8!4
-  xml_id: n40023008004
-  unicode: κληθῆτε
+  text: κληθῆτε
   lemma: καλέω
   normalized: κληθῆτε
-  class: verb
-  morph: V-APS-2P
-  gloss: shall be called
-  number: plural
-  person: second
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '2564'
-  domain: 033009
-  ln: '33.131'
-  role: vc
+  ids:
+    ref: MAT 23:8!4
+    wordID: n40023008004
+  translation:
+    gloss: shall be called
+  morphology:
+    class: verb
+    morph: V-APS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '2564'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.131'
+  syntax:
+    role: vc
 - position: 5
-  ref: MAT 23:8!5
-  xml_id: n40023008005
-  unicode: Ῥαββεί
+  text: Ῥαββεί
   lemma: ῥαββί
   normalized: Ῥαββεί
-  class: noun
-  morph: HEB
-  gloss: Rabbi
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4461'
-  domain: '033017'
-  ln: '33.246'
-  role: p
+  ids:
+    ref: MAT 23:8!5
+    wordID: n40023008005
+  translation:
+    gloss: Rabbi
+  morphology:
+    class: noun
+    morph: HEB
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4461'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.246'
+  syntax:
+    role: p
 - position: 6
-  ref: MAT 23:8!7
-  xml_id: n40023008007
-  unicode: γάρ
+  text: γάρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 23:8!7
+    wordID: n40023008007
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 7
-  ref: MAT 23:8!6
-  xml_id: n40023008006
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: One
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: '060002'
-  ln: '60.10'
-  role: p
+  ids:
+    ref: MAT 23:8!6
+    wordID: n40023008006
+  translation:
+    gloss: One
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.10'
+  syntax:
+    role: p
 - position: 8
-  ref: MAT 23:8!8
-  xml_id: n40023008008
-  unicode: ἐστιν
+  text: ἐστιν
   lemma: εἰμί
   normalized: ἐστιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: is
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
+  ids:
+    ref: MAT 23:8!8
+    wordID: n40023008008
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
 - position: 9
-  ref: MAT 23:8!9
-  xml_id: n40023008009
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 23:8!9
+    wordID: n40023008009
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40023001006 n40023001009
 - position: 10
-  ref: MAT 23:8!10
-  xml_id: n40023008010
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:8!10
+    wordID: n40023008010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 23:8!11
-  xml_id: n40023008011
-  unicode: διδάσκαλος
+  text: διδάσκαλος
   lemma: διδάσκαλος
   normalized: διδάσκαλος
-  class: noun
-  morph: N-NSM
-  gloss: Teacher
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1320'
-  domain: '033017'
-  ln: '33.243'
+  ids:
+    ref: MAT 23:8!11
+    wordID: n40023008011
+  translation:
+    gloss: Teacher
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1320'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.243'
 - position: 12
-  ref: MAT 23:8!13
-  xml_id: n40023008013
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 23:8!13
+    wordID: n40023008013
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 13
-  ref: MAT 23:8!12
-  xml_id: n40023008012
-  unicode: πάντες
+  text: πάντες
   lemma: πᾶς
   normalized: πάντες
-  class: adj
-  morph: A-NPM
-  gloss: all
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 23:8!12
+    wordID: n40023008012
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 14
-  ref: MAT 23:8!14
-  xml_id: n40023008014
-  unicode: ὑμεῖς
+  text: ὑμεῖς
   lemma: σύ
   normalized: ὑμεῖς
-  class: pron
-  morph: P-2NP
-  gloss: you
-  number: plural
-  case: nominative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 23:8!14
+    wordID: n40023008014
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40023001006 n40023001009
 - position: 15
-  ref: MAT 23:8!15
-  xml_id: n40023008015
-  unicode: ἀδελφοί
+  text: ἀδελφοί
   lemma: ἀδελφός
   normalized: ἀδελφοί
-  class: noun
-  morph: N-NPM
-  gloss: brothers
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '80'
-  domain: '011003'
-  ln: '11.57'
-  role: p
+  ids:
+    ref: MAT 23:8!15
+    wordID: n40023008015
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011003'
+    ln: '11.57'
+  syntax:
+    role: p
 - position: 16
-  ref: MAT 23:8!16
-  xml_id: n40023008016
-  unicode: ἐστε
+  text: ἐστε
   lemma: εἰμί
   normalized: ἐστε
-  class: verb
-  morph: V-PAI-2P
-  gloss: are
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
-syntax:
-  word_order: P-VC-S
+  ids:
+    ref: MAT 23:8!16
+    wordID: n40023008016
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc

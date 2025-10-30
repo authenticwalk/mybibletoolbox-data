@@ -1,184 +1,237 @@
-verse:
-  reference: MAT 19:20
-  book_code: MAT
-  chapter: 19
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: λέγει αὐτῷ ὁ νεανίσκος Ταῦτα πάντα ἐφύλαξα· τί ἔτι ὑστερῶ;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 19:20
+text: λέγει αὐτῷ ὁ νεανίσκος Ταῦτα πάντα ἐφύλαξα· τί ἔτι ὑστερῶ;
 words:
 - position: 1
-  ref: MAT 19:20!1
-  xml_id: n40019020001
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: Says
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 19:20!1
+    wordID: n40019020001
+  translation:
+    gloss: Says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n40019020002 A0:n40019020004
 - position: 2
-  ref: MAT 19:20!2
-  xml_id: n40019020002
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 19:20!2
+    wordID: n40019020002
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40019018006
 - position: 3
-  ref: MAT 19:20!3
-  xml_id: n40019020003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 19:20!3
+    wordID: n40019020003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 19:20!4
-  xml_id: n40019020004
-  unicode: νεανίσκος
+  text: νεανίσκος
   lemma: νεανίσκος
   normalized: νεανίσκος
-  class: noun
-  morph: N-NSM
-  gloss: young man
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3495'
-  domain: 009002
-  ln: '9.32'
+  ids:
+    ref: MAT 19:20!4
+    wordID: n40019020004
+  translation:
+    gloss: young man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3495'
+  semantic:
+    semanticDomain: 009002
+    ln: '9.32'
 - position: 5
-  ref: MAT 19:20!5
-  xml_id: n40019020005
-  unicode: Ταῦτα
+  text: Ταῦτα
   lemma: οὗτος
   normalized: Ταῦτα
-  class: pron
-  morph: D-APN
-  gloss: Things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
+  ids:
+    ref: MAT 19:20!5
+    wordID: n40019020005
+  translation:
+    gloss: Things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  discourse:
+    referent: n40019018010 n40019018012 n40019018014 n40019018016 n40019019001 n40019019008
 - position: 6
-  ref: MAT 19:20!6
-  xml_id: n40019020006
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: all these
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 19:20!6
+    wordID: n40019020006
+  translation:
+    gloss: all these
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 7
-  ref: MAT 19:20!7
-  xml_id: n40019020007
-  unicode: ἐφύλαξα
+  text: ἐφύλαξα
   lemma: φυλάσσω
   normalized: ἐφύλαξα
-  class: verb
-  morph: V-AAI-1S
-  gloss: I have kept
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5442'
-  domain: '036003'
-  ln: '36.19'
-  role: v
+  ids:
+    ref: MAT 19:20!7
+    wordID: n40019020007
+  translation:
+    gloss: I have kept
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5442'
+  semantic:
+    semanticDomain: '036003'
+    ln: '36.19'
+  syntax:
+    role: v
+    frame: A0:n40019020004 A1:n40019020005
+  discourse:
+    subject: n40019020004
 - position: 8
-  ref: MAT 19:20!8
-  xml_id: n40019020008
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: What
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: o
+  ids:
+    ref: MAT 19:20!8
+    wordID: n40019020008
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
 - position: 9
-  ref: MAT 19:20!9
-  xml_id: n40019020009
-  unicode: ἔτι
+  text: ἔτι
   lemma: ἔτι
   normalized: ἔτι
-  class: adv
-  morph: ADV
-  gloss: yet
-  strong: '2089'
-  domain: 059008
-  ln: '59.75'
-  role: adv
+  ids:
+    ref: MAT 19:20!9
+    wordID: n40019020009
+  translation:
+    gloss: yet
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2089'
+  semantic:
+    semanticDomain: 059008
+    ln: '59.75'
+  syntax:
+    role: adv
 - position: 10
-  ref: MAT 19:20!10
-  xml_id: n40019020010
-  unicode: ὑστερῶ
+  text: ὑστερῶ
   lemma: ὑστερέω
   normalized: ὑστερῶ
-  class: verb
-  morph: V-PAI-1S
-  gloss: lack I
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '5302'
-  domain: '013001'
-  ln: '13.21'
-  role: v
-syntax:
-  word_order: O-V
+  ids:
+    ref: MAT 19:20!10
+    wordID: n40019020010
+  translation:
+    gloss: lack I
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5302'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.21'
+  syntax:
+    role: v
+    frame: A0:n40019020004 A1:n40019020008
+  discourse:
+    subject: n40019020004

@@ -1,199 +1,251 @@
-verse:
-  reference: MAT 27:38
-  book_code: MAT
-  chapter: 27
-  verse: 38
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Τότε σταυροῦνται σὺν αὐτῷ δύο λῃσταί, εἷς ἐκ δεξιῶν καὶ εἷς ἐξ εὐωνύμων.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:38
+text: Τότε σταυροῦνται σὺν αὐτῷ δύο λῃσταί, εἷς ἐκ δεξιῶν καὶ εἷς ἐξ εὐωνύμων.
 words:
 - position: 1
-  ref: MAT 27:38!1
-  xml_id: n40027038001
-  unicode: Τότε
+  text: Τότε
   lemma: τότε
   normalized: Τότε
-  class: adv
-  morph: ADV
-  gloss: At the same time
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 27:38!1
+    wordID: n40027038001
+  translation:
+    gloss: At the same time
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 27:38!2
-  xml_id: n40027038002
-  unicode: σταυροῦνται
+  text: σταυροῦνται
   lemma: σταυρόω
   normalized: σταυροῦνται
-  class: verb
-  morph: V-PPI-3P
-  gloss: are crucified
-  number: plural
-  person: third
-  tense: present
-  voice: passive
-  mood: indicative
-  strong: '4717'
-  domain: '020004'
-  ln: '20.76'
-  role: v
+  ids:
+    ref: MAT 27:38!2
+    wordID: n40027038002
+  translation:
+    gloss: are crucified
+  morphology:
+    class: verb
+    morph: V-PPI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4717'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.76'
+  syntax:
+    role: v
+    frame: A1:n40027038006
 - position: 3
-  ref: MAT 27:38!3
-  xml_id: n40027038003
-  unicode: σὺν
+  text: σὺν
   lemma: σύν
   normalized: σύν
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '4862'
-  domain: 089020
-  ln: '89.107'
+  ids:
+    ref: MAT 27:38!3
+    wordID: n40027038003
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4862'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.107'
 - position: 4
-  ref: MAT 27:38!4
-  xml_id: n40027038004
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 27:38!4
+    wordID: n40027038004
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40027027008
 - position: 5
-  ref: MAT 27:38!5
-  xml_id: n40027038005
-  unicode: δύο
+  text: δύο
   lemma: δύο
   normalized: δύο
-  class: num
-  morph: A-NUI
-  gloss: two
-  strong: '1417'
-  domain: '060002'
-  ln: '60.11'
+  ids:
+    ref: MAT 27:38!5
+    wordID: n40027038005
+  translation:
+    gloss: two
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1417'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.11'
 - position: 6
-  ref: MAT 27:38!6
-  xml_id: n40027038006
-  unicode: λῃσταί
+  text: λῃσταί
   lemma: λῃστής
   normalized: λῃσταί
-  class: noun
-  morph: N-NPM
-  gloss: robbers
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3027'
-  domain: '057021'
-  ln: '57.240'
+  ids:
+    ref: MAT 27:38!6
+    wordID: n40027038006
+  translation:
+    gloss: robbers
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3027'
+  semantic:
+    semanticDomain: '057021'
+    ln: '57.240'
 - position: 7
-  ref: MAT 27:38!7
-  xml_id: n40027038007
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  role: s
+  ids:
+    ref: MAT 27:38!7
+    wordID: n40027038007
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  syntax:
+    role: s
 - position: 8
-  ref: MAT 27:38!8
-  xml_id: n40027038008
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: at [the]
-  strong: '1537'
+  ids:
+    ref: MAT 27:38!8
+    wordID: n40027038008
+  translation:
+    gloss: at [the]
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
 - position: 9
-  ref: MAT 27:38!9
-  xml_id: n40027038009
-  unicode: δεξιῶν
+  text: δεξιῶν
   lemma: δεξιός
   normalized: δεξιῶν
-  class: adj
-  morph: A-GPN
-  gloss: right hand
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '1188'
-  domain: 082002
-  ln: '82.8'
+  ids:
+    ref: MAT 27:38!9
+    wordID: n40027038009
+  translation:
+    gloss: right hand
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '1188'
+  semantic:
+    semanticDomain: 082002
+    ln: '82.8'
 - position: 10
-  ref: MAT 27:38!10
-  xml_id: n40027038010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 27:38!10
+    wordID: n40027038010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 11
-  ref: MAT 27:38!11
-  xml_id: n40027038011
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  role: s
+  ids:
+    ref: MAT 27:38!11
+    wordID: n40027038011
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  syntax:
+    role: s
 - position: 12
-  ref: MAT 27:38!12
-  xml_id: n40027038012
-  unicode: ἐξ
+  text: ἐξ
   lemma: ἐκ
   normalized: ἐξ
-  class: prep
-  morph: PREP
-  gloss: at [the]
-  strong: '1537'
+  ids:
+    ref: MAT 27:38!12
+    wordID: n40027038012
+  translation:
+    gloss: at [the]
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
 - position: 13
-  ref: MAT 27:38!13
-  xml_id: n40027038013
-  unicode: εὐωνύμων
+  text: εὐωνύμων
   lemma: εὐώνυμος
   normalized: εὐωνύμων
-  class: adj
-  morph: A-GPN
-  gloss: left
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '2176'
-  domain: 082002
-  ln: '82.7'
-syntax:
-  word_order: S-ADV
+  ids:
+    ref: MAT 27:38!13
+    wordID: n40027038013
+  translation:
+    gloss: left
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '2176'
+  semantic:
+    semanticDomain: 082002
+    ln: '82.7'

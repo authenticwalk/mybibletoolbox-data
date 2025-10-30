@@ -1,368 +1,489 @@
-verse:
-  reference: MAT 21:8
-  book_code: MAT
-  chapter: 21
-  verse: 8
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ πλεῖστος ὄχλος ἔστρωσαν ἑαυτῶν τὰ ἱμάτια ἐν τῇ ὁδῷ, ἄλλοι δὲ ἔκοπτον
-    κλάδους ἀπὸ τῶν δένδρων καὶ ἐστρώννυον ἐν τῇ ὁδῷ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 21:8
+text: ὁ δὲ πλεῖστος ὄχλος ἔστρωσαν ἑαυτῶν τὰ ἱμάτια ἐν τῇ ὁδῷ, ἄλλοι δὲ ἔκοπτον κλάδους
+  ἀπὸ τῶν δένδρων καὶ ἐστρώννυον ἐν τῇ ὁδῷ.
 words:
 - position: 1
-  ref: MAT 21:8!2
-  xml_id: n40021008002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 21:8!2
+    wordID: n40021008002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 21:8!1
-  xml_id: n40021008001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: The
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:8!1
+    wordID: n40021008001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 21:8!3
-  xml_id: n40021008003
-  unicode: πλεῖστος
+  text: πλεῖστος
   lemma: πολύς
   normalized: πλεῖστος
-  class: adj
-  morph: A-NSM-S
-  gloss: very great
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4118'
-  domain: 059002
-  ln: '59.11'
+  ids:
+    ref: MAT 21:8!3
+    wordID: n40021008003
+  translation:
+    gloss: very great
+  morphology:
+    class: adj
+    morph: A-NSM-S
+    gender: masculine
+    number: singular
+    case: nominative
+    degree: superlative
+  lexical:
+    strong: '4118'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.11'
 - position: 4
-  ref: MAT 21:8!4
-  xml_id: n40021008004
-  unicode: ὄχλος
+  text: ὄχλος
   lemma: ὄχλος
   normalized: ὄχλος
-  class: noun
-  morph: N-NSM
-  gloss: crowd
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3793'
-  domain: '011001'
-  ln: '11.1'
+  ids:
+    ref: MAT 21:8!4
+    wordID: n40021008004
+  translation:
+    gloss: crowd
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
 - position: 5
-  ref: MAT 21:8!5
-  xml_id: n40021008005
-  unicode: ἔστρωσαν
+  text: ἔστρωσαν
   lemma: στρωννύω
   normalized: ἔστρωσαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: spread
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4766'
-  domain: '016'
-  ln: '16.22'
-  role: v
+  ids:
+    ref: MAT 21:8!5
+    wordID: n40021008005
+  translation:
+    gloss: spread
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4766'
+  semantic:
+    semanticDomain: '016'
+    ln: '16.22'
+  syntax:
+    role: v
+    frame: A0:n40021008004 A1:n40021008008
 - position: 6
-  ref: MAT 21:8!6
-  xml_id: n40021008006
-  unicode: ἑαυτῶν
+  text: ἑαυτῶν
   lemma: ἑαυτοῦ
   normalized: ἑαυτῶν
-  class: pron
-  morph: F-3GPM
-  gloss: their
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
+  ids:
+    ref: MAT 21:8!6
+    wordID: n40021008006
+  translation:
+    gloss: their
+  morphology:
+    class: pron
+    morph: F-3GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n40021008004
 - position: 7
-  ref: MAT 21:8!7
-  xml_id: n40021008007
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:8!7
+    wordID: n40021008007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 21:8!8
-  xml_id: n40021008008
-  unicode: ἱμάτια
+  text: ἱμάτια
   lemma: ἱμάτιον
   normalized: ἱμάτια
-  class: noun
-  morph: N-APN
-  gloss: cloaks
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '2440'
-  domain: '006017'
-  ln: '6.162'
+  ids:
+    ref: MAT 21:8!8
+    wordID: n40021008008
+  translation:
+    gloss: cloaks
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.162'
 - position: 9
-  ref: MAT 21:8!9
-  xml_id: n40021008009
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1722'
-  domain: 083008
-  ln: '83.47'
+  ids:
+    ref: MAT 21:8!9
+    wordID: n40021008009
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.47'
 - position: 10
-  ref: MAT 21:8!10
-  xml_id: n40021008010
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:8!10
+    wordID: n40021008010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 21:8!11
-  xml_id: n40021008011
-  unicode: ὁδῷ
+  text: ὁδῷ
   lemma: ὁδός
   normalized: ὁδῷ
-  class: noun
-  morph: N-DSF
-  gloss: road
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '3598'
-  domain: '001016'
-  ln: '1.99'
+  ids:
+    ref: MAT 21:8!11
+    wordID: n40021008011
+  translation:
+    gloss: road
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3598'
+  semantic:
+    semanticDomain: '001016'
+    ln: '1.99'
 - position: 12
-  ref: MAT 21:8!13
-  xml_id: n40021008013
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 21:8!13
+    wordID: n40021008013
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 13
-  ref: MAT 21:8!12
-  xml_id: n40021008012
-  unicode: ἄλλοι
+  text: ἄλλοι
   lemma: ἄλλος
   normalized: ἄλλοι
-  class: adj
-  morph: A-NPM
-  gloss: others
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
-  role: s
+  ids:
+    ref: MAT 21:8!12
+    wordID: n40021008012
+  translation:
+    gloss: others
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
+  syntax:
+    role: s
 - position: 14
-  ref: MAT 21:8!14
-  xml_id: n40021008014
-  unicode: ἔκοπτον
+  text: ἔκοπτον
   lemma: κόπτω
   normalized: ἔκοπτον
-  class: verb
-  morph: V-IAI-3P
-  gloss: were cutting down
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '2875'
-  domain: 019002
-  ln: '19.17'
-  role: v
+  ids:
+    ref: MAT 21:8!14
+    wordID: n40021008014
+  translation:
+    gloss: were cutting down
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2875'
+  semantic:
+    semanticDomain: 019002
+    ln: '19.17'
+  syntax:
+    role: v
+    frame: A0:n40021008012 A1:n40021008015
 - position: 15
-  ref: MAT 21:8!15
-  xml_id: n40021008015
-  unicode: κλάδους
+  text: κλάδους
   lemma: κλάδος
   normalized: κλάδους
-  class: noun
-  morph: N-APM
-  gloss: branches
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '2798'
-  domain: '003005'
-  ln: '3.49'
-  role: o
+  ids:
+    ref: MAT 21:8!15
+    wordID: n40021008015
+  translation:
+    gloss: branches
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2798'
+  semantic:
+    semanticDomain: '003005'
+    ln: '3.49'
+  syntax:
+    role: o
 - position: 16
-  ref: MAT 21:8!16
-  xml_id: n40021008016
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 090003
-  ln: '90.15'
+  ids:
+    ref: MAT 21:8!16
+    wordID: n40021008016
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.15'
 - position: 17
-  ref: MAT 21:8!17
-  xml_id: n40021008017
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:8!17
+    wordID: n40021008017
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 21:8!18
-  xml_id: n40021008018
-  unicode: δένδρων
+  text: δένδρων
   lemma: δένδρον
   normalized: δένδρων
-  class: noun
-  morph: N-GPN
-  gloss: trees
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '1186'
-  domain: '003002'
-  ln: '3.2'
+  ids:
+    ref: MAT 21:8!18
+    wordID: n40021008018
+  translation:
+    gloss: trees
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '1186'
+  semantic:
+    semanticDomain: '003002'
+    ln: '3.2'
 - position: 19
-  ref: MAT 21:8!19
-  xml_id: n40021008019
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 21:8!19
+    wordID: n40021008019
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 20
-  ref: MAT 21:8!20
-  xml_id: n40021008020
-  unicode: ἐστρώννυον
+  text: ἐστρώννυον
   lemma: στρωννύω
   normalized: ἐστρώννυον
-  class: verb
-  morph: V-IAI-3P
-  gloss: were spreading [them]
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '4766'
-  domain: '016'
-  ln: '16.22'
-  role: v
+  ids:
+    ref: MAT 21:8!20
+    wordID: n40021008020
+  translation:
+    gloss: were spreading [them]
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4766'
+  semantic:
+    semanticDomain: '016'
+    ln: '16.22'
+  syntax:
+    role: v
+    frame: A0:n40021008012
+  discourse:
+    subject: n40021008012
 - position: 21
-  ref: MAT 21:8!21
-  xml_id: n40021008021
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1722'
-  domain: 083008
-  ln: '83.47'
+  ids:
+    ref: MAT 21:8!21
+    wordID: n40021008021
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.47'
 - position: 22
-  ref: MAT 21:8!22
-  xml_id: n40021008022
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:8!22
+    wordID: n40021008022
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 23
-  ref: MAT 21:8!23
-  xml_id: n40021008023
-  unicode: ὁδῷ
+  text: ὁδῷ
   lemma: ὁδός
   normalized: ὁδῷ
-  class: noun
-  morph: N-DSF
-  gloss: road
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '3598'
-  domain: '001016'
-  ln: '1.99'
-syntax:
-  word_order: S-V-O-ADV
+  ids:
+    ref: MAT 21:8!23
+    wordID: n40021008023
+  translation:
+    gloss: road
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3598'
+  semantic:
+    semanticDomain: '001016'
+    ln: '1.99'

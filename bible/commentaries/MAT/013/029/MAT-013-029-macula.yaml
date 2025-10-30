@@ -1,233 +1,305 @@
-verse:
-  reference: MAT 13:29
-  book_code: MAT
-  chapter: 13
-  verse: 29
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δέ φησιν Οὔ, μή ποτε συλλέγοντες τὰ ζιζάνια ἐκριζώσητε ἅμα αὐτοῖς τὸν
-    σῖτον·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:29
+text: ὁ δέ φησιν Οὔ, μή ποτε συλλέγοντες τὰ ζιζάνια ἐκριζώσητε ἅμα αὐτοῖς τὸν σῖτον·
 words:
 - position: 1
-  ref: MAT 13:29!2
-  xml_id: n40013029002
-  unicode: δέ
+  text: δέ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 13:29!2
+    wordID: n40013029002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 13:29!1
-  xml_id: n40013029001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 13:29!1
+    wordID: n40013029001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40013027006
 - position: 3
-  ref: MAT 13:29!3
-  xml_id: n40013029003
-  unicode: φησιν
+  text: φησιν
   lemma: φημί
   normalized: φησιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: he said
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '5346'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 13:29!3
+    wordID: n40013029003
+  translation:
+    gloss: he said
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5346'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40013029001
 - position: 4
-  ref: MAT 13:29!4
-  xml_id: n40013029004
-  unicode: Οὔ
+  text: Οὔ
   lemma: οὐ
   normalized: Οὔ
-  class: ptcl
-  morph: PRT-N
-  gloss: 'No'
-  strong: '3756'
-  domain: 069002
-  ln: '69.2'
-  role: adv
+  ids:
+    ref: MAT 13:29!4
+    wordID: n40013029004
+  translation:
+    gloss: 'No'
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.2'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 13:29!5
-  xml_id: n40013029005
-  unicode: μή
+  text: μή
   lemma: μή
   normalized: μή
-  class: ptcl
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 13:29!5
+    wordID: n40013029005
+  translation:
+    gloss: not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 6
-  ref: MAT 13:29!6
-  xml_id: n40013029006
-  unicode: ποτε
+  text: ποτε
   lemma: ποτέ
   normalized: ποτε
-  class: adv
-  morph: ADV
-  gloss: lest
-  strong: '4218'
-  role: adv
+  ids:
+    ref: MAT 13:29!6
+    wordID: n40013029006
+  translation:
+    gloss: lest
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4218'
+  syntax:
+    role: adv
 - position: 7
-  ref: MAT 13:29!7
-  xml_id: n40013029007
-  unicode: συλλέγοντες
+  text: συλλέγοντες
   lemma: συλλέγω
   normalized: συλλέγοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: gathering
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '4816'
-  domain: 018001
-  ln: '18.10'
-  role: v
+  ids:
+    ref: MAT 13:29!7
+    wordID: n40013029007
+  translation:
+    gloss: gathering
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4816'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.10'
+  syntax:
+    role: v
+    frame: A0:n40013028011 A1:n40013029009
+  discourse:
+    subject: n40013028011
 - position: 8
-  ref: MAT 13:29!8
-  xml_id: n40013029008
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:29!8
+    wordID: n40013029008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 13:29!9
-  xml_id: n40013029009
-  unicode: ζιζάνια
+  text: ζιζάνια
   lemma: ζιζάνιον
   normalized: ζιζάνια
-  class: noun
-  morph: N-APN
-  gloss: weeds
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '2215'
-  domain: '003003'
-  ln: '3.30'
+  ids:
+    ref: MAT 13:29!9
+    wordID: n40013029009
+  translation:
+    gloss: weeds
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2215'
+  semantic:
+    semanticDomain: '003003'
+    ln: '3.30'
 - position: 10
-  ref: MAT 13:29!10
-  xml_id: n40013029010
-  unicode: ἐκριζώσητε
+  text: ἐκριζώσητε
   lemma: ἐκριζόω
   normalized: ἐκριζώσητε
-  class: verb
-  morph: V-AAS-2P
-  gloss: you would uproot
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1610'
-  domain: '043'
-  ln: '43.11'
-  role: v
+  ids:
+    ref: MAT 13:29!10
+    wordID: n40013029010
+  translation:
+    gloss: you would uproot
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1610'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.11'
+  syntax:
+    role: v
+    frame: A0:n40013028011 A1:n40013029014
+  discourse:
+    subject: n40013028011
 - position: 11
-  ref: MAT 13:29!11
-  xml_id: n40013029011
-  unicode: ἅμα
+  text: ἅμα
   lemma: ἅμα
   normalized: ἅμα
-  class: prep
-  morph: ADV
-  gloss: with
-  strong: '260'
-  domain: 089020
-  ln: '89.114'
+  ids:
+    ref: MAT 13:29!11
+    wordID: n40013029011
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '260'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.114'
 - position: 12
-  ref: MAT 13:29!12
-  xml_id: n40013029012
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPN
-  gloss: them
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 13:29!12
+    wordID: n40013029012
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40013029008
 - position: 13
-  ref: MAT 13:29!13
-  xml_id: n40013029013
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:29!13
+    wordID: n40013029013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 13:29!14
-  xml_id: n40013029014
-  unicode: σῖτον
+  text: σῖτον
   lemma: σῖτος
   normalized: σῖτον
-  class: noun
-  morph: N-ASM
-  gloss: wheat
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4621'
-  domain: '003003'
-  ln: '3.31'
-syntax:
-  word_order: ADV2CL
+  ids:
+    ref: MAT 13:29!14
+    wordID: n40013029014
+  translation:
+    gloss: wheat
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4621'
+  semantic:
+    semanticDomain: '003003'
+    ln: '3.31'

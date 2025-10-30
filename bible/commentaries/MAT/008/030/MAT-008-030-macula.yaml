@@ -1,159 +1,198 @@
-verse:
-  reference: MAT 8:30
-  book_code: MAT
-  chapter: 8
-  verse: 30
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἦν δὲ μακρὰν ἀπ’ αὐτῶν ἀγέλη χοίρων πολλῶν βοσκομένη.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:30
+text: ἦν δὲ μακρὰν ἀπ’ αὐτῶν ἀγέλη χοίρων πολλῶν βοσκομένη.
 words:
 - position: 1
-  ref: MAT 8:30!2
-  xml_id: n40008030002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
+  ids:
+    ref: MAT 8:30!2
+    wordID: n40008030002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 8:30!1
-  xml_id: n40008030001
-  unicode: ἦν
+  text: ἦν
   lemma: εἰμί
   normalized: ἦν
-  class: verb
-  morph: V-IAI-3S
-  gloss: There was
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: 085001
-  ln: '85.1'
-  role: vc
+  ids:
+    ref: MAT 8:30!1
+    wordID: n40008030001
+  translation:
+    gloss: There was
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.1'
+  syntax:
+    role: vc
 - position: 3
-  ref: MAT 8:30!3
-  xml_id: n40008030003
-  unicode: μακρὰν
+  text: μακρὰν
   lemma: μακράν
   normalized: μακράν
-  class: adj
-  morph: ADV
-  gloss: far off
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3112'
-  domain: 083005
-  ln: '83.30'
-  role: p
+  ids:
+    ref: MAT 8:30!3
+    wordID: n40008030003
+  translation:
+    gloss: far off
+  morphology:
+    class: adj
+    morph: ADV
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3112'
+  semantic:
+    semanticDomain: 083005
+    ln: '83.30'
+  syntax:
+    role: p
 - position: 4
-  ref: MAT 8:30!4
-  xml_id: n40008030004
-  unicode: ἀπ’
+  text: ἀπ’
   lemma: ἀπό
   normalized: ἀπ’
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 084001
-  ln: '84.3'
+  ids:
+    ref: MAT 8:30!4
+    wordID: n40008030004
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.3'
 - position: 5
-  ref: MAT 8:30!5
-  xml_id: n40008030005
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 8:30!5
+    wordID: n40008030005
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40008022003 n40008028015
 - position: 6
-  ref: MAT 8:30!6
-  xml_id: n40008030006
-  unicode: ἀγέλη
+  text: ἀγέλη
   lemma: ἀγέλη
   normalized: ἀγέλη
-  class: noun
-  morph: N-NSF
-  gloss: a herd
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '34'
-  domain: '004001'
-  ln: '4.8'
+  ids:
+    ref: MAT 8:30!6
+    wordID: n40008030006
+  translation:
+    gloss: a herd
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '34'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.8'
 - position: 7
-  ref: MAT 8:30!7
-  xml_id: n40008030007
-  unicode: χοίρων
+  text: χοίρων
   lemma: χοῖρος
   normalized: χοίρων
-  class: noun
-  morph: N-GPM
-  gloss: of pigs
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '5519'
-  domain: '004001'
-  ln: '4.36'
+  ids:
+    ref: MAT 8:30!7
+    wordID: n40008030007
+  translation:
+    gloss: of pigs
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '5519'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.36'
 - position: 8
-  ref: MAT 8:30!8
-  xml_id: n40008030008
-  unicode: πολλῶν
+  text: πολλῶν
   lemma: πολύς
   normalized: πολλῶν
-  class: adj
-  morph: A-GPM
-  gloss: many
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '4183'
-  domain: 059001
-  ln: '59.1'
+  ids:
+    ref: MAT 8:30!8
+    wordID: n40008030008
+  translation:
+    gloss: many
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
 - position: 9
-  ref: MAT 8:30!9
-  xml_id: n40008030009
-  unicode: βοσκομένη
+  text: βοσκομένη
   lemma: βόσκω
   normalized: βοσκομένη
-  class: verb
-  morph: V-PPP-NSF
-  gloss: feeding
-  gender: feminine
-  number: singular
-  case: nominative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '1006'
-  domain: '023001'
-  ln: '23.9'
-  role: v
-syntax:
-  word_order: VC-P-ADV-S
+  ids:
+    ref: MAT 8:30!9
+    wordID: n40008030009
+  translation:
+    gloss: feeding
+  morphology:
+    class: verb
+    morph: V-PPP-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '1006'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.9'
+  syntax:
+    role: v
+    frame: A1:n40008030006
+  discourse:
+    subject: n40008030006

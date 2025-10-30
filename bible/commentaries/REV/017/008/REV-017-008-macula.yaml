@@ -1,0 +1,375 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: REV 17:8
+text: τὸ θηρίον ὃ εἶδες ἦν καὶ οὐκ ἔστιν, καὶ μέλλει ἀναβαίνειν ἐκ τῆς ἀβύσσου καὶ
+  εἰς ἀπώλειαν ὑπάγει·
+words:
+- position: 1
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: REV 17:8!1
+    wordID: n66017008001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: θηρίον
+  lemma: θηρίον
+  normalized: θηρίον
+  ids:
+    ref: REV 17:8!2
+    wordID: n66017008002
+  translation:
+    gloss: beast
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2342'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.4'
+- position: 3
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: REV 17:8!3
+    wordID: n66017008003
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+  discourse:
+    referent: n66017008002
+- position: 4
+  text: εἶδες
+  lemma: ὁράω
+  normalized: εἶδες
+  ids:
+    ref: REV 17:8!4
+    wordID: n66017008004
+  translation:
+    gloss: you saw
+  morphology:
+    class: verb
+    morph: V-2AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n66001009002 A1:n66017008003
+  discourse:
+    subject: n66001009002
+- position: 5
+  text: ἦν
+  lemma: εἰμί
+  normalized: ἦν
+  ids:
+    ref: REV 17:8!5
+    wordID: n66017008005
+  translation:
+    gloss: was
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: v
+    frame: A0:n66017008002
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 17:8!6
+    wordID: n66017008006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 7
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: REV 17:8!7
+    wordID: n66017008007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 8
+  text: ἔστιν
+  lemma: εἰμί
+  normalized: ἔστιν
+  ids:
+    ref: REV 17:8!8
+    wordID: n66017008008
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: v
+    frame: A0:n66017008002
+  discourse:
+    subject: n66017008002
+- position: 9
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 17:8!9
+    wordID: n66017008009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 10
+  text: μέλλει
+  lemma: μέλλω
+  normalized: μέλλει
+  ids:
+    ref: REV 17:8!10
+    wordID: n66017008010
+  translation:
+    gloss: is about
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3195'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.62'
+  syntax:
+    role: v
+    frame: A0:n66017008002 A1:n66017008011
+  discourse:
+    subject: n66017008002
+- position: 11
+  text: ἀναβαίνειν
+  lemma: ἀναβαίνω
+  normalized: ἀναβαίνειν
+  ids:
+    ref: REV 17:8!11
+    wordID: n66017008011
+  translation:
+    gloss: to come up
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '305'
+  semantic:
+    semanticDomain: '015010'
+    ln: '15.101'
+  syntax:
+    role: v
+    frame: A0:n66017008002
+  discourse:
+    subject: n66017008002
+- position: 12
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: REV 17:8!12
+    wordID: n66017008012
+  translation:
+    gloss: out of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+- position: 13
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: REV 17:8!13
+    wordID: n66017008013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: ἀβύσσου
+  lemma: ἄβυσσος
+  normalized: ἀβύσσου
+  ids:
+    ref: REV 17:8!14
+    wordID: n66017008014
+  translation:
+    gloss: abyss
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '12'
+  semantic:
+    semanticDomain: '001003'
+    ln: '1.20'
+- position: 15
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 17:8!15
+    wordID: n66017008015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 16
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: REV 17:8!16
+    wordID: n66017008016
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.48'
+- position: 17
+  text: ἀπώλειαν
+  lemma: ἀπώλεια
+  normalized: ἀπώλειαν
+  ids:
+    ref: REV 17:8!17
+    wordID: n66017008017
+  translation:
+    gloss: destruction
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '684'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.31'
+- position: 18
+  text: ὑπάγει
+  lemma: ὑπάγω
+  normalized: ὑπάγει
+  ids:
+    ref: REV 17:8!18
+    wordID: n66017008018
+  translation:
+    gloss: go
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.54'
+  syntax:
+    role: v
+    frame: A0:n66017008002
+  discourse:
+    subject: n66017008002

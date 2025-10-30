@@ -1,0 +1,197 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 3:4
+text: Εἴ τις δοκεῖ ἄλλος πεποιθέναι ἐν σαρκί, ἐγὼ μᾶλλον·
+words:
+- position: 1
+  text: Εἴ
+  lemma: εἰ
+  normalized: Εἴ
+  ids:
+    ref: PHP 3:4!8
+    wordID: n50003004008
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: PHP 3:4!9
+    wordID: n50003004009
+  translation:
+    gloss: any
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+- position: 3
+  text: ἄλλος
+  lemma: ἄλλος
+  normalized: ἄλλος
+  ids:
+    ref: PHP 3:4!11
+    wordID: n50003004011
+  translation:
+    gloss: other
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: δοκεῖ
+  lemma: δοκέω
+  normalized: δοκεῖ
+  ids:
+    ref: PHP 3:4!10
+    wordID: n50003004010
+  translation:
+    gloss: thinks
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n50003004009 A1:n50003004012
+- position: 5
+  text: πεποιθέναι
+  lemma: πείθω
+  normalized: πεποιθέναι
+  ids:
+    ref: PHP 3:4!12
+    wordID: n50003004012
+  translation:
+    gloss: to have confidence
+  morphology:
+    class: verb
+    morph: V-2RAN
+    tense: perfect
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3982'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.82'
+  syntax:
+    role: v
+    frame: A0:n50003004009
+  discourse:
+    subject: n50003004009
+- position: 6
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: PHP 3:4!13
+    wordID: n50003004013
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
+- position: 7
+  text: σαρκί
+  lemma: σάρξ
+  normalized: σαρκί
+  ids:
+    ref: PHP 3:4!14
+    wordID: n50003004014
+  translation:
+    gloss: '[the] flesh'
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.12'
+- position: 8
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: PHP 3:4!15
+    wordID: n50003004015
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n50001001001
+- position: 9
+  text: μᾶλλον
+  lemma: μᾶλλον
+  normalized: μᾶλλον
+  ids:
+    ref: PHP 3:4!16
+    wordID: n50003004016
+  translation:
+    gloss: more
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3123'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.28'
+  syntax:
+    role: adv

@@ -1,192 +1,250 @@
-verse:
-  reference: MAT 24:47
-  book_code: MAT
-  chapter: 24
-  verse: 47
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἀμὴν λέγω ὑμῖν ὅτι ἐπὶ πᾶσιν τοῖς ὑπάρχουσιν αὐτοῦ καταστήσει αὐτόν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:47
+text: ἀμὴν λέγω ὑμῖν ὅτι ἐπὶ πᾶσιν τοῖς ὑπάρχουσιν αὐτοῦ καταστήσει αὐτόν.
 words:
 - position: 1
-  ref: MAT 24:47!1
-  xml_id: n40024047001
-  unicode: ἀμὴν
+  text: ἀμὴν
   lemma: ἀμήν
   normalized: ἀμήν
-  class: ptcl
-  morph: HEB
-  gloss: Truly
-  strong: '281'
-  domain: '072001'
-  ln: '72.6'
+  ids:
+    ref: MAT 24:47!1
+    wordID: n40024047001
+  translation:
+    gloss: Truly
+  morphology:
+    class: ptcl
+    morph: HEB
+  lexical:
+    strong: '281'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.6'
 - position: 2
-  ref: MAT 24:47!2
-  xml_id: n40024047002
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 24:47!2
+    wordID: n40024047002
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40024004004 A2:n40024047003
+  discourse:
+    subject: n40024004004
 - position: 3
-  ref: MAT 24:47!3
-  xml_id: n40024047003
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 24:47!3
+    wordID: n40024047003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40024003012
 - position: 4
-  ref: MAT 24:47!4
-  xml_id: n40024047004
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 24:47!4
+    wordID: n40024047004
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 5
-  ref: MAT 24:47!5
-  xml_id: n40024047005
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: over
-  strong: '1909'
-  domain: '037001'
-  ln: '37.9'
+  ids:
+    ref: MAT 24:47!5
+    wordID: n40024047005
+  translation:
+    gloss: over
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: '037001'
+    ln: '37.9'
 - position: 6
-  ref: MAT 24:47!6
-  xml_id: n40024047006
-  unicode: πᾶσιν
+  text: πᾶσιν
   lemma: πᾶς
   normalized: πᾶσιν
-  class: adj
-  morph: A-DPN
-  gloss: all
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 24:47!6
+    wordID: n40024047006
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-DPN
+    gender: neuter
+    number: plural
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 7
-  ref: MAT 24:47!7
-  xml_id: n40024047007
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:47!7
+    wordID: n40024047007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 24:47!8
-  xml_id: n40024047008
-  unicode: ὑπάρχουσιν
+  text: ὑπάρχουσιν
   lemma: ὑπάρχω
   normalized: ὑπάρχουσιν
-  class: verb
-  morph: V-PAP-DPN
-  gloss: possessing
-  gender: neuter
-  number: plural
-  case: dative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '5225'
-  domain: '057001'
-  ln: '57.16'
-  role: v
+  ids:
+    ref: MAT 24:47!8
+    wordID: n40024047008
+  translation:
+    gloss: possessing
+  morphology:
+    class: verb
+    morph: V-PAP-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5225'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.16'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 9
-  ref: MAT 24:47!9
-  xml_id: n40024047009
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 24:47!9
+    wordID: n40024047009
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40024046008
 - position: 10
-  ref: MAT 24:47!10
-  xml_id: n40024047010
-  unicode: καταστήσει
+  text: καταστήσει
   lemma: καθίστημι
   normalized: καταστήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: he will set
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2525'
-  domain: '037005'
-  ln: '37.104'
-  role: v
+  ids:
+    ref: MAT 24:47!10
+    wordID: n40024047010
+  translation:
+    gloss: he will set
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2525'
+  semantic:
+    semanticDomain: '037005'
+    ln: '37.104'
+  syntax:
+    role: v
+    frame: A0:n40024046008 A1:n40024047011
+  discourse:
+    subject: n40024046008
 - position: 11
-  ref: MAT 24:47!11
-  xml_id: n40024047011
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: V-IO
+  ids:
+    ref: MAT 24:47!11
+    wordID: n40024047011
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40024046003

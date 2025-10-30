@@ -1,221 +1,289 @@
-verse:
-  reference: MAT 27:15
-  book_code: MAT
-  chapter: 27
-  verse: 15
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Κατὰ δὲ ἑορτὴν εἰώθει ὁ ἡγεμὼν ἀπολύειν ἕνα τῷ ὄχλῳ δέσμιον ὃν ἤθελον.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:15
+text: Κατὰ δὲ ἑορτὴν εἰώθει ὁ ἡγεμὼν ἀπολύειν ἕνα τῷ ὄχλῳ δέσμιον ὃν ἤθελον.
 words:
 - position: 1
-  ref: MAT 27:15!2
-  xml_id: n40027015002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
+  ids:
+    ref: MAT 27:15!2
+    wordID: n40027015002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 27:15!1
-  xml_id: n40027015001
-  unicode: Κατὰ
+  text: Κατὰ
   lemma: κατά
   normalized: Κατά
-  class: prep
-  morph: PREP
-  gloss: At
-  strong: '2596'
-  domain: 089016
-  ln: '89.90'
+  ids:
+    ref: MAT 27:15!1
+    wordID: n40027015001
+  translation:
+    gloss: At
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '2596'
+  semantic:
+    semanticDomain: 089016
+    ln: '89.90'
 - position: 3
-  ref: MAT 27:15!3
-  xml_id: n40027015003
-  unicode: ἑορτὴν
+  text: ἑορτὴν
   lemma: ἑορτή
   normalized: ἑορτήν
-  class: noun
-  morph: N-ASF
-  gloss: '[the] feast'
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1859'
-  domain: '051'
-  ln: '51.2'
+  ids:
+    ref: MAT 27:15!3
+    wordID: n40027015003
+  translation:
+    gloss: '[the] feast'
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1859'
+  semantic:
+    semanticDomain: '051'
+    ln: '51.2'
 - position: 4
-  ref: MAT 27:15!4
-  xml_id: n40027015004
-  unicode: εἰώθει
+  text: εἰώθει
   lemma: εἴωθα
   normalized: εἰώθει
-  class: verb
-  morph: V-LAI-3S
-  gloss: was accustomed
-  number: singular
-  person: third
-  tense: pluperfect
-  voice: active
-  mood: indicative
-  strong: '1486'
-  domain: '041002'
-  ln: '41.26'
-  role: v
+  ids:
+    ref: MAT 27:15!4
+    wordID: n40027015004
+  translation:
+    gloss: was accustomed
+  morphology:
+    class: verb
+    morph: V-LAI-3S
+    number: singular
+    person: third
+    tense: pluperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1486'
+  semantic:
+    semanticDomain: '041002'
+    ln: '41.26'
+  syntax:
+    role: v
+    frame: A0:n40027015006 A1:n40027015007
 - position: 5
-  ref: MAT 27:15!5
-  xml_id: n40027015005
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:15!5
+    wordID: n40027015005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 27:15!6
-  xml_id: n40027015006
-  unicode: ἡγεμὼν
+  text: ἡγεμὼν
   lemma: ἡγεμών
   normalized: ἡγεμών
-  class: noun
-  morph: N-NSM
-  gloss: governor
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2232'
-  domain: '037004'
-  ln: '37.83'
+  ids:
+    ref: MAT 27:15!6
+    wordID: n40027015006
+  translation:
+    gloss: governor
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2232'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.83'
 - position: 7
-  ref: MAT 27:15!7
-  xml_id: n40027015007
-  unicode: ἀπολύειν
+  text: ἀπολύειν
   lemma: ἀπολύω
   normalized: ἀπολύειν
-  class: verb
-  morph: V-PAN
-  gloss: to release
-  tense: present
-  voice: active
-  mood: infinitive
-  strong: '630'
-  domain: '037010'
-  ln: '37.127'
-  role: v
+  ids:
+    ref: MAT 27:15!7
+    wordID: n40027015007
+  translation:
+    gloss: to release
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.127'
+  syntax:
+    role: v
+    frame: A0:n40027015006 A2:n40027015010 A1:n40027015011
+  discourse:
+    subject: n40027015006
 - position: 8
-  ref: MAT 27:15!9
-  xml_id: n40027015009
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: to the
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:15!9
+    wordID: n40027015009
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 27:15!10
-  xml_id: n40027015010
-  unicode: ὄχλῳ
+  text: ὄχλῳ
   lemma: ὄχλος
   normalized: ὄχλῳ
-  class: noun
-  morph: N-DSM
-  gloss: multitude
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '3793'
-  domain: '011001'
-  ln: '11.1'
+  ids:
+    ref: MAT 27:15!10
+    wordID: n40027015010
+  translation:
+    gloss: multitude
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
+  syntax:
+    discontinuous: 'true'
 - position: 10
-  ref: MAT 27:15!8
-  xml_id: n40027015008
-  unicode: ἕνα
+  text: ἕνα
   lemma: εἷς
   normalized: ἕνα
-  class: adj
-  morph: A-ASM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '1520'
-  domain: '060002'
-  ln: '60.10'
+  ids:
+    ref: MAT 27:15!8
+    wordID: n40027015008
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.10'
 - position: 11
-  ref: MAT 27:15!11
-  xml_id: n40027015011
-  unicode: δέσμιον
+  text: δέσμιον
   lemma: δέσμιος
   normalized: δέσμιον
-  class: noun
-  morph: N-ASM
-  gloss: prisoner
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '1198'
-  domain: 037008
-  ln: '37.117'
+  ids:
+    ref: MAT 27:15!11
+    wordID: n40027015011
+  translation:
+    gloss: prisoner
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1198'
+  semantic:
+    semanticDomain: 037008
+    ln: '37.117'
 - position: 12
-  ref: MAT 27:15!12
-  xml_id: n40027015012
-  unicode: ὃν
+  text: ὃν
   lemma: ὅς
   normalized: ὅν
-  class: pron
-  morph: R-ASM
-  gloss: whom
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: o
+  ids:
+    ref: MAT 27:15!12
+    wordID: n40027015012
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027015011
 - position: 13
-  ref: MAT 27:15!13
-  xml_id: n40027015013
-  unicode: ἤθελον
+  text: ἤθελον
   lemma: θέλω
   normalized: ἤθελον
-  class: verb
-  morph: V-IAI-3P
-  gloss: they were wishing
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '2309'
-  domain: '025001'
-  ln: '25.1'
-  role: v
-syntax:
-  word_order: ADV-V-S-O
+  ids:
+    ref: MAT 27:15!13
+    wordID: n40027015013
+  translation:
+    gloss: they were wishing
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n40027015010 A1:n40027015012
+  discourse:
+    subject: n40027015010

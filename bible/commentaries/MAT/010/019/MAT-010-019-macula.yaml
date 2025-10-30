@@ -1,171 +1,225 @@
-verse:
-  reference: MAT 10:19
-  book_code: MAT
-  chapter: 10
-  verse: 19
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὅταν δὲ παραδῶσιν ὑμᾶς, μὴ μεριμνήσητε πῶς ἢ τί λαλήσητε·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:19
+text: ὅταν δὲ παραδῶσιν ὑμᾶς, μὴ μεριμνήσητε πῶς ἢ τί λαλήσητε·
 words:
 - position: 1
-  ref: MAT 10:19!2
-  xml_id: n40010019002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 10:19!2
+    wordID: n40010019002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 10:19!1
-  xml_id: n40010019001
-  unicode: ὅταν
+  text: ὅταν
   lemma: ὅταν
   normalized: ὅταν
-  class: conj
-  morph: CONJ
-  gloss: When
-  strong: '3752'
-  domain: '067002'
-  ln: '67.31'
+  ids:
+    ref: MAT 10:19!1
+    wordID: n40010019001
+  translation:
+    gloss: When
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3752'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.31'
 - position: 3
-  ref: MAT 10:19!3
-  xml_id: n40010019003
-  unicode: παραδῶσιν
+  text: παραδῶσιν
   lemma: παραδίδωμι
   normalized: παραδῶσιν
-  class: verb
-  morph: V-2AAS-3P
-  gloss: they deliver up
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3860'
-  domain: '037007'
-  ln: '37.111'
-  role: v
+  ids:
+    ref: MAT 10:19!3
+    wordID: n40010019003
+  translation:
+    gloss: they deliver up
+  morphology:
+    class: verb
+    morph: V-2AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: '037007'
+    ln: '37.111'
+  syntax:
+    role: v
+    frame: A0:n40010017005 A1:n40010019004
+  discourse:
+    subject: n40010017005
 - position: 4
-  ref: MAT 10:19!4
-  xml_id: n40010019004
-  unicode: ὑμᾶς
+  text: ὑμᾶς
   lemma: σύ
   normalized: ὑμᾶς
-  class: pron
-  morph: P-2AP
-  gloss: you
-  number: plural
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: o
+  ids:
+    ref: MAT 10:19!4
+    wordID: n40010019004
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010005003
 - position: 5
-  ref: MAT 10:19!5
-  xml_id: n40010019005
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:19!5
+    wordID: n40010019005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 6
-  ref: MAT 10:19!6
-  xml_id: n40010019006
-  unicode: μεριμνήσητε
+  text: μεριμνήσητε
   lemma: μεριμνάω
   normalized: μεριμνήσητε
-  class: verb
-  morph: V-AAS-2P
-  gloss: be anxious
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3309'
-  domain: '025021'
-  ln: '25.225'
-  role: v
+  ids:
+    ref: MAT 10:19!6
+    wordID: n40010019006
+  translation:
+    gloss: be anxious
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3309'
+  semantic:
+    semanticDomain: '025021'
+    ln: '25.225'
+  syntax:
+    role: v
+    frame: A0:n40010005003
+  discourse:
+    subject: n40010005003
 - position: 7
-  ref: MAT 10:19!7
-  xml_id: n40010019007
-  unicode: πῶς
+  text: πῶς
   lemma: πῶς
   normalized: πῶς
-  class: adv
-  morph: ADV-I
-  gloss: how
-  strong: '4459'
-  domain: 092004
-  ln: '92.16'
-  role: adv
+  ids:
+    ref: MAT 10:19!7
+    wordID: n40010019007
+  translation:
+    gloss: how
+  morphology:
+    class: adv
+    morph: ADV-I
+  lexical:
+    strong: '4459'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.16'
+  syntax:
+    role: adv
 - position: 8
-  ref: MAT 10:19!8
-  xml_id: n40010019008
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 10:19!8
+    wordID: n40010019008
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 9
-  ref: MAT 10:19!9
-  xml_id: n40010019009
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: what
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: o
+  ids:
+    ref: MAT 10:19!9
+    wordID: n40010019009
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 10:19!10
-  xml_id: n40010019010
-  unicode: λαλήσητε
+  text: λαλήσητε
   lemma: λαλέω
   normalized: λαλήσητε
-  class: verb
-  morph: V-AAS-2P
-  gloss: you should speak
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '2980'
-  domain: '033006'
-  ln: '33.70'
-  role: v
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 10:19!10
+    wordID: n40010019010
+  translation:
+    gloss: you should speak
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010019009
+  discourse:
+    subject: n40010005003

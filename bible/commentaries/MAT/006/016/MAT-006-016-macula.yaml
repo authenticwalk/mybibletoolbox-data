@@ -1,313 +1,421 @@
-verse:
-  reference: MAT 6:16
-  book_code: MAT
-  chapter: 6
-  verse: 16
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ὅταν δὲ νηστεύητε, μὴ γίνεσθε ὡς οἱ ὑποκριταὶ σκυθρωποί· ἀφανίζουσιν γὰρ
-    τὰ πρόσωπα αὐτῶν ὅπως φανῶσιν τοῖς ἀνθρώποις νηστεύοντες·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:16
+text: Ὅταν δὲ νηστεύητε, μὴ γίνεσθε ὡς οἱ ὑποκριταὶ σκυθρωποί· ἀφανίζουσιν γὰρ τὰ
+  πρόσωπα αὐτῶν ὅπως φανῶσιν τοῖς ἀνθρώποις νηστεύοντες·
 words:
 - position: 1
-  ref: MAT 6:16!2
-  xml_id: n40006016002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 6:16!2
+    wordID: n40006016002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 6:16!1
-  xml_id: n40006016001
-  unicode: Ὅταν
+  text: Ὅταν
   lemma: ὅταν
   normalized: Ὅταν
-  class: conj
-  morph: CONJ
-  gloss: Whenever
-  strong: '3752'
-  domain: '067002'
-  ln: '67.31'
+  ids:
+    ref: MAT 6:16!1
+    wordID: n40006016001
+  translation:
+    gloss: Whenever
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3752'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.31'
 - position: 3
-  ref: MAT 6:16!3
-  xml_id: n40006016003
-  unicode: νηστεύητε
+  text: νηστεύητε
   lemma: νηστεύω
   normalized: νηστεύητε
-  class: verb
-  morph: V-PAS-2P
-  gloss: you fast
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: subjunctive
-  strong: '3522'
-  domain: 053008
-  ln: '53.65'
-  role: v
+  ids:
+    ref: MAT 6:16!3
+    wordID: n40006016003
+  translation:
+    gloss: you fast
+  morphology:
+    class: verb
+    morph: V-PAS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3522'
+  semantic:
+    semanticDomain: 053008
+    ln: '53.65'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
 - position: 4
-  ref: MAT 6:16!4
-  xml_id: n40006016004
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 6:16!4
+    wordID: n40006016004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 6:16!5
-  xml_id: n40006016005
-  unicode: γίνεσθε
+  text: γίνεσθε
   lemma: γίνομαι
   normalized: γίνεσθε
-  class: verb
-  morph: V-PNM-2P
-  gloss: be
-  number: plural
-  person: second
-  tense: present
-  voice: middlepassive
-  mood: imperative
-  strong: '1096'
-  domain: '041001'
-  ln: '41.1'
-  role: vc
+  ids:
+    ref: MAT 6:16!5
+    wordID: n40006016005
+  translation:
+    gloss: be
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '041001'
+    ln: '41.1'
+  syntax:
+    role: vc
+  discourse:
+    subject: n40005001015
 - position: 6
-  ref: MAT 6:16!6
-  xml_id: n40006016006
-  unicode: ὡς
+  text: ὡς
   lemma: ὡς
   normalized: ὡς
-  class: conj
-  morph: ADV
-  gloss: like
-  strong: '5613'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 6:16!6
+    wordID: n40006016006
+  translation:
+    gloss: like
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 7
-  ref: MAT 6:16!7
-  xml_id: n40006016007
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:16!7
+    wordID: n40006016007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 6:16!8
-  xml_id: n40006016008
-  unicode: ὑποκριταὶ
+  text: ὑποκριταὶ
   lemma: ὑποκριτής
   normalized: ὑποκριταί
-  class: noun
-  morph: N-NPM
-  gloss: hypocrites
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '5273'
-  domain: 088029
-  ln: '88.228'
+  ids:
+    ref: MAT 6:16!8
+    wordID: n40006016008
+  translation:
+    gloss: hypocrites
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '5273'
+  semantic:
+    semanticDomain: 088029
+    ln: '88.228'
 - position: 9
-  ref: MAT 6:16!9
-  xml_id: n40006016009
-  unicode: σκυθρωποί
+  text: σκυθρωποί
   lemma: σκυθρωπός
   normalized: σκυθρωποί
-  class: adj
-  morph: A-NPM
-  gloss: gloomy
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4659'
-  domain: '025023'
-  ln: '25.287'
-  role: p
+  ids:
+    ref: MAT 6:16!9
+    wordID: n40006016009
+  translation:
+    gloss: gloomy
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4659'
+  semantic:
+    semanticDomain: '025023'
+    ln: '25.287'
+  syntax:
+    role: p
 - position: 10
-  ref: MAT 6:16!11
-  xml_id: n40006016011
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 6:16!11
+    wordID: n40006016011
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 6:16!10
-  xml_id: n40006016010
-  unicode: ἀφανίζουσιν
+  text: ἀφανίζουσιν
   lemma: ἀφανίζω
   normalized: ἀφανίζουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: they disfigure
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '853'
-  domain: 079004
-  ln: '79.17'
-  role: v
+  ids:
+    ref: MAT 6:16!10
+    wordID: n40006016010
+  translation:
+    gloss: they disfigure
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '853'
+  semantic:
+    semanticDomain: 079004
+    ln: '79.17'
+  syntax:
+    role: v
+    frame: A0:n40006016008 A1:n40006016013
+  discourse:
+    subject: n40006016008
 - position: 12
-  ref: MAT 6:16!12
-  xml_id: n40006016012
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:16!12
+    wordID: n40006016012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 6:16!13
-  xml_id: n40006016013
-  unicode: πρόσωπα
+  text: πρόσωπα
   lemma: πρόσωπον
   normalized: πρόσωπα
-  class: noun
-  morph: N-APN
-  gloss: appearance
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4383'
-  domain: 008002
-  ln: '8.18'
+  ids:
+    ref: MAT 6:16!13
+    wordID: n40006016013
+  translation:
+    gloss: appearance
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4383'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.18'
 - position: 14
-  ref: MAT 6:16!14
-  xml_id: n40006016014
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 6:16!14
+    wordID: n40006016014
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40006016008
 - position: 15
-  ref: MAT 6:16!15
-  xml_id: n40006016015
-  unicode: ὅπως
+  text: ὅπως
   lemma: ὅπως
   normalized: ὅπως
-  class: conj
-  morph: ADV
-  gloss: so that
-  strong: '3704'
-  domain: 089009
-  ln: '89.59'
+  ids:
+    ref: MAT 6:16!15
+    wordID: n40006016015
+  translation:
+    gloss: so that
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '3704'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
 - position: 16
-  ref: MAT 6:16!16
-  xml_id: n40006016016
-  unicode: φανῶσιν
+  text: φανῶσιν
   lemma: φαίνω
   normalized: φανῶσιν
-  class: verb
-  morph: V-2APS-3P
-  gloss: they might appear
-  number: plural
-  person: third
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '5316'
-  domain: 028003
-  ln: '28.55'
-  role: v
+  ids:
+    ref: MAT 6:16!16
+    wordID: n40006016016
+  translation:
+    gloss: they might appear
+  morphology:
+    class: verb
+    morph: V-2APS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '5316'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.55'
+  syntax:
+    role: v
+    frame: A1:n40006016008 A2:n40006016018 A1:n40006016019
+  discourse:
+    subject: n40006016008
 - position: 17
-  ref: MAT 6:16!17
-  xml_id: n40006016017
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: '-'
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:16!17
+    wordID: n40006016017
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 6:16!18
-  xml_id: n40006016018
-  unicode: ἀνθρώποις
+  text: ἀνθρώποις
   lemma: ἄνθρωπος
   normalized: ἀνθρώποις
-  class: noun
-  morph: N-DPM
-  gloss: to men
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '444'
-  domain: 009001
-  ln: '9.1'
+  ids:
+    ref: MAT 6:16!18
+    wordID: n40006016018
+  translation:
+    gloss: to men
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
 - position: 19
-  ref: MAT 6:16!19
-  xml_id: n40006016019
-  unicode: νηστεύοντες
+  text: νηστεύοντες
   lemma: νηστεύω
   normalized: νηστεύοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: '[as] fasting'
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3522'
-  domain: 053008
-  ln: '53.65'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 6:16!19
+    wordID: n40006016019
+  translation:
+    gloss: '[as] fasting'
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3522'
+  semantic:
+    semanticDomain: 053008
+    ln: '53.65'
+  syntax:
+    role: v
+    frame: A0:n40006016008
+  discourse:
+    subject: n40006016008

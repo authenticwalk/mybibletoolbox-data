@@ -1,0 +1,297 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 2:14
+text: Τί τὸ ὄφελος, ἀδελφοί μου, ἐὰν πίστιν λέγῃ τις ἔχειν ἔργα δὲ μὴ ἔχῃ;
+words:
+- position: 1
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: JAS 2:14!4
+    wordID: n59002014004
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+- position: 2
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: JAS 2:14!5
+    wordID: n59002014005
+  translation:
+    gloss: of me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    discontinuous: 'true'
+  discourse:
+    referent: n59001001001
+- position: 3
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: JAS 2:14!1
+    wordID: n59002014001
+  translation:
+    gloss: What [is]
+  morphology:
+    class: pron
+    morph: I-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  syntax:
+    role: p
+- position: 4
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: JAS 2:14!2
+    wordID: n59002014002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ὄφελος
+  lemma: ὄφελος
+  normalized: ὄφελος
+  ids:
+    ref: JAS 2:14!3
+    wordID: n59002014003
+  translation:
+    gloss: profit
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3786'
+  semantic:
+    semanticDomain: '065005'
+    ln: '65.40'
+- position: 6
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: JAS 2:14!6
+    wordID: n59002014006
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+- position: 7
+  text: πίστιν
+  lemma: πίστις
+  normalized: πίστιν
+  ids:
+    ref: JAS 2:14!7
+    wordID: n59002014007
+  translation:
+    gloss: faith
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4102'
+  semantic:
+    semanticDomain: 031009 031010
+    ln: 31.102 31.85
+  syntax:
+    role: o
+- position: 8
+  text: ἔχειν
+  lemma: ἔχω
+  normalized: ἔχειν
+  ids:
+    ref: JAS 2:14!10
+    wordID: n59002014010
+  translation:
+    gloss: to have
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n59002014009 A1:n59002014007
+    discontinuous: 'true'
+  discourse:
+    subject: n59002014009
+- position: 9
+  text: λέγῃ
+  lemma: λέγω
+  normalized: λέγῃ
+  ids:
+    ref: JAS 2:14!8
+    wordID: n59002014008
+  translation:
+    gloss: says
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A1:n59002014010 A0:n59002014009
+- position: 10
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: JAS 2:14!9
+    wordID: n59002014009
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  syntax:
+    role: s
+- position: 11
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JAS 2:14!12
+    wordID: n59002014012
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 12
+  text: ἔργα
+  lemma: ἔργον
+  normalized: ἔργα
+  ids:
+    ref: JAS 2:14!11
+    wordID: n59002014011
+  translation:
+    gloss: works
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2041'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.11'
+  syntax:
+    role: o
+- position: 13
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: JAS 2:14!13
+    wordID: n59002014013
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 14
+  text: ἔχῃ
+  lemma: ἔχω
+  normalized: ἔχῃ
+  ids:
+    ref: JAS 2:14!14
+    wordID: n59002014014
+  translation:
+    gloss: he has
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n59002014009 A1:n59002014011
+  discourse:
+    subject: n59002014009

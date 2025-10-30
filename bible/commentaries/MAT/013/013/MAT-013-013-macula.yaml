@@ -1,261 +1,355 @@
-verse:
-  reference: MAT 13:13
-  book_code: MAT
-  chapter: 13
-  verse: 13
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: διὰ τοῦτο ἐν παραβολαῖς αὐτοῖς λαλῶ, ὅτι βλέποντες οὐ βλέπουσιν καὶ ἀκούοντες
-    οὐκ ἀκούουσιν οὐδὲ συνίουσιν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:13
+text: διὰ τοῦτο ἐν παραβολαῖς αὐτοῖς λαλῶ, ὅτι βλέποντες οὐ βλέπουσιν καὶ ἀκούοντες
+  οὐκ ἀκούουσιν οὐδὲ συνίουσιν.
 words:
 - position: 1
-  ref: MAT 13:13!1
-  xml_id: n40013013001
-  unicode: διὰ
+  text: διὰ
   lemma: διά
   normalized: διά
-  class: prep
-  morph: PREP
-  gloss: Because of
-  strong: '1223'
+  ids:
+    ref: MAT 13:13!1
+    wordID: n40013013001
+  translation:
+    gloss: Because of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
 - position: 2
-  ref: MAT 13:13!2
-  xml_id: n40013013002
-  unicode: τοῦτο
+  text: τοῦτο
   lemma: οὗτος
   normalized: τοῦτο
-  class: pron
-  morph: D-ASN
-  gloss: this
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3778'
+  ids:
+    ref: MAT 13:13!2
+    wordID: n40013013002
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  discourse:
+    referent: n40013013010 n40013013014
 - position: 3
-  ref: MAT 13:13!3
-  xml_id: n40013013003
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 089012
-  ln: '89.76'
+  ids:
+    ref: MAT 13:13!3
+    wordID: n40013013003
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
 - position: 4
-  ref: MAT 13:13!4
-  xml_id: n40013013004
-  unicode: παραβολαῖς
+  text: παραβολαῖς
   lemma: παραβολή
   normalized: παραβολαῖς
-  class: noun
-  morph: N-DPF
-  gloss: parables
-  gender: feminine
-  number: plural
-  case: dative
-  strong: '3850'
-  domain: '033003'
-  ln: '33.15'
+  ids:
+    ref: MAT 13:13!4
+    wordID: n40013013004
+  translation:
+    gloss: parables
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3850'
+  semantic:
+    semanticDomain: '033003'
+    ln: '33.15'
 - position: 5
-  ref: MAT 13:13!5
-  xml_id: n40013013005
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 13:13!5
+    wordID: n40013013005
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013002016
 - position: 6
-  ref: MAT 13:13!6
-  xml_id: n40013013006
-  unicode: λαλῶ
+  text: λαλῶ
   lemma: λαλέω
   normalized: λαλῶ
-  class: verb
-  morph: V-PAI-1S
-  gloss: I speak
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2980'
-  domain: '033006'
-  ln: '33.70'
-  role: v
+  ids:
+    ref: MAT 13:13!6
+    wordID: n40013013006
+  translation:
+    gloss: I speak
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n40013001007 A2:n40013013005
+  discourse:
+    subject: n40013001007
 - position: 7
-  ref: MAT 13:13!7
-  xml_id: n40013013007
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: Because
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 13:13!7
+    wordID: n40013013007
+  translation:
+    gloss: Because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 8
-  ref: MAT 13:13!8
-  xml_id: n40013013008
-  unicode: βλέποντες
+  text: βλέποντες
   lemma: βλέπω
   normalized: βλέποντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: seeing
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '991'
-  domain: '024001'
-  ln: '24.7'
-  role: v
+  ids:
+    ref: MAT 13:13!8
+    wordID: n40013013008
+  translation:
+    gloss: seeing
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '991'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.7'
+  syntax:
+    role: v
+    frame: A0:n40013002016
+  discourse:
+    subject: n40013002016
 - position: 9
-  ref: MAT 13:13!9
-  xml_id: n40013013009
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 13:13!9
+    wordID: n40013013009
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 10
-  ref: MAT 13:13!10
-  xml_id: n40013013010
-  unicode: βλέπουσιν
+  text: βλέπουσιν
   lemma: βλέπω
   normalized: βλέπουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: do they see
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '991'
-  domain: '032002'
-  ln: '32.11'
-  role: v
+  ids:
+    ref: MAT 13:13!10
+    wordID: n40013013010
+  translation:
+    gloss: do they see
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '991'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.11'
+  syntax:
+    role: v
+    frame: A0:n40013002016
+  discourse:
+    subject: n40013002016
 - position: 11
-  ref: MAT 13:13!11
-  xml_id: n40013013011
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 13:13!11
+    wordID: n40013013011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 12
-  ref: MAT 13:13!12
-  xml_id: n40013013012
-  unicode: ἀκούοντες
+  text: ἀκούοντες
   lemma: ἀκούω
   normalized: ἀκούοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: hearing
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
+  ids:
+    ref: MAT 13:13!12
+    wordID: n40013013012
+  translation:
+    gloss: hearing
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40013002016
+  discourse:
+    subject: n40013002016
 - position: 13
-  ref: MAT 13:13!13
-  xml_id: n40013013013
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 13:13!13
+    wordID: n40013013013
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 14
-  ref: MAT 13:13!14
-  xml_id: n40013013014
-  unicode: ἀκούουσιν
+  text: ἀκούουσιν
   lemma: ἀκούω
   normalized: ἀκούουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: do they hear
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '191'
-  domain: '032001'
-  ln: '32.1'
+  ids:
+    ref: MAT 13:13!14
+    wordID: n40013013014
+  translation:
+    gloss: do they hear
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.1'
+  syntax:
+    frame: A0:n40013002016
+  discourse:
+    subject: n40013002016
 - position: 15
-  ref: MAT 13:13!15
-  xml_id: n40013013015
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 13:13!15
+    wordID: n40013013015
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 16
-  ref: MAT 13:13!16
-  xml_id: n40013013016
-  unicode: συνίουσιν
+  text: συνίουσιν
   lemma: συνίημι
   normalized: συνίουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: do they understand
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '4920'
-  domain: '032001'
-  ln: '32.5'
-syntax:
-  word_order: ADV-ADV-V
+  ids:
+    ref: MAT 13:13!16
+    wordID: n40013013016
+  translation:
+    gloss: do they understand
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4920'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.5'
+  syntax:
+    frame: A0:n40013002016
+  discourse:
+    subject: n40013002016

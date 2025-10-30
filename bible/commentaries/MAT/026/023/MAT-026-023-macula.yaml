@@ -1,275 +1,365 @@
-verse:
-  reference: MAT 26:23
-  book_code: MAT
-  chapter: 26
-  verse: 23
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ ἀποκριθεὶς εἶπεν Ὁ ἐμβάψας μετ’ ἐμοῦ τὴν χεῖρα ἐν τῷ τρυβλίῳ, οὗτός
-    με παραδώσει.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:23
+text: ὁ δὲ ἀποκριθεὶς εἶπεν Ὁ ἐμβάψας μετ’ ἐμοῦ τὴν χεῖρα ἐν τῷ τρυβλίῳ, οὗτός με
+  παραδώσει.
 words:
 - position: 1
-  ref: MAT 26:23!2
-  xml_id: n40026023002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 26:23!2
+    wordID: n40026023002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 26:23!1
-  xml_id: n40026023001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 26:23!1
+    wordID: n40026023001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026019009
 - position: 3
-  ref: MAT 26:23!3
-  xml_id: n40026023003
-  unicode: ἀποκριθεὶς
+  text: ἀποκριθεὶς
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθείς
-  class: verb
-  morph: V-AOP-NSM
-  gloss: answering
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '611'
-  domain: '033014'
-  ln: '33.184'
-  role: v
+  ids:
+    ref: MAT 26:23!3
+    wordID: n40026023003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n40026019009
+  discourse:
+    subject: n40026019009
 - position: 4
-  ref: MAT 26:23!4
-  xml_id: n40026023004
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:23!4
+    wordID: n40026023004
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026023001
 - position: 5
-  ref: MAT 26:23!5
-  xml_id: n40026023005
-  unicode: Ὁ
+  text: Ὁ
   lemma: ὁ
   normalized: Ὁ
-  class: det
-  morph: T-NSM
-  gloss: The [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:23!5
+    wordID: n40026023005
+  translation:
+    gloss: The [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 26:23!6
-  xml_id: n40026023006
-  unicode: ἐμβάψας
+  text: ἐμβάψας
   lemma: ἐμβάπτω
   normalized: ἐμβάψας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: having dipped
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '1686'
-  domain: '047002'
-  ln: '47.11'
-  role: v
+  ids:
+    ref: MAT 26:23!6
+    wordID: n40026023006
+  translation:
+    gloss: having dipped
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1686'
+  semantic:
+    semanticDomain: '047002'
+    ln: '47.11'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40026023010
 - position: 7
-  ref: MAT 26:23!7
-  xml_id: n40026023007
-  unicode: μετ’
+  text: μετ’
   lemma: μετά
   normalized: μετ’
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '3326'
-  domain: 089020
-  ln: '89.108'
+  ids:
+    ref: MAT 26:23!7
+    wordID: n40026023007
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.108'
 - position: 8
-  ref: MAT 26:23!8
-  xml_id: n40026023008
-  unicode: ἐμοῦ
+  text: ἐμοῦ
   lemma: ἐγώ
   normalized: ἐμοῦ
-  class: pron
-  morph: P-1GS
-  gloss: Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 26:23!8
+    wordID: n40026023008
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40026019009
 - position: 9
-  ref: MAT 26:23!9
-  xml_id: n40026023009
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:23!9
+    wordID: n40026023009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 26:23!10
-  xml_id: n40026023010
-  unicode: χεῖρα
+  text: χεῖρα
   lemma: χείρ
   normalized: χεῖρα
-  class: noun
-  morph: N-ASF
-  gloss: hand
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5495'
-  domain: 008002
-  ln: '8.30'
+  ids:
+    ref: MAT 26:23!10
+    wordID: n40026023010
+  translation:
+    gloss: hand
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
 - position: 11
-  ref: MAT 26:23!11
-  xml_id: n40026023011
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 26:23!11
+    wordID: n40026023011
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 12
-  ref: MAT 26:23!12
-  xml_id: n40026023012
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:23!12
+    wordID: n40026023012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 26:23!13
-  xml_id: n40026023013
-  unicode: τρυβλίῳ
+  text: τρυβλίῳ
   lemma: τρύβλιον
   normalized: τρυβλίῳ
-  class: noun
-  morph: N-DSN
-  gloss: dish
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '5165'
-  domain: '006016'
-  ln: '6.136'
+  ids:
+    ref: MAT 26:23!13
+    wordID: n40026023013
+  translation:
+    gloss: dish
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5165'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.136'
 - position: 14
-  ref: MAT 26:23!14
-  xml_id: n40026023014
-  unicode: οὗτός
+  text: οὗτός
   lemma: οὗτος
   normalized: οὗτος
-  class: pron
-  morph: D-NSM
-  gloss: he
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
-  role: s
+  ids:
+    ref: MAT 26:23!14
+    wordID: n40026023014
+  translation:
+    gloss: he
+  morphology:
+    class: pron
+    morph: D-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026023006
 - position: 15
-  ref: MAT 26:23!15
-  xml_id: n40026023015
-  unicode: με
+  text: με
   lemma: ἐγώ
   normalized: με
-  class: pron
-  morph: P-1AS
-  gloss: Me
-  number: singular
-  case: accusative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: o
+  ids:
+    ref: MAT 26:23!15
+    wordID: n40026023015
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40026019009
 - position: 16
-  ref: MAT 26:23!16
-  xml_id: n40026023016
-  unicode: παραδώσει
+  text: παραδώσει
   lemma: παραδίδωμι
   normalized: παραδώσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will betray
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '3860'
-  domain: '037007'
-  ln: '37.111'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 26:23!16
+    wordID: n40026023016
+  translation:
+    gloss: will betray
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: '037007'
+    ln: '37.111'
+  syntax:
+    role: v
+    frame: A0:n40026023014 A1:n40026023015

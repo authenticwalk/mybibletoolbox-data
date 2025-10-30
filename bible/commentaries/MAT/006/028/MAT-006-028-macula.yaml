@@ -1,97 +1,111 @@
-verse:
-  reference: MAT 6:28
-  book_code: MAT
-  chapter: 6
-  verse: 28
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ περὶ ἐνδύματος τί μεριμνᾶτε;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:28
+text: καὶ περὶ ἐνδύματος τί μεριμνᾶτε;
 words:
 - position: 1
-  ref: MAT 6:28!1
-  xml_id: n40006028001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 6:28!1
+    wordID: n40006028001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 6:28!2
-  xml_id: n40006028002
-  unicode: περὶ
+  text: περὶ
   lemma: περί
   normalized: περί
-  class: prep
-  morph: PREP
-  gloss: about
-  strong: '4012'
-  domain: 089004
-  ln: '89.6'
+  ids:
+    ref: MAT 6:28!2
+    wordID: n40006028002
+  translation:
+    gloss: about
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.6'
 - position: 3
-  ref: MAT 6:28!3
-  xml_id: n40006028003
-  unicode: ἐνδύματος
+  text: ἐνδύματος
   lemma: ἔνδυμα
   normalized: ἐνδύματος
-  class: noun
-  morph: N-GSN
-  gloss: clothing
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '1742'
-  domain: '006017'
-  ln: '6.162'
+  ids:
+    ref: MAT 6:28!3
+    wordID: n40006028003
+  translation:
+    gloss: clothing
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1742'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.162'
 - position: 4
-  ref: MAT 6:28!4
-  xml_id: n40006028004
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: why
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.15'
-  role: adv
+  ids:
+    ref: MAT 6:28!4
+    wordID: n40006028004
+  translation:
+    gloss: why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.15'
+  syntax:
+    role: adv
 - position: 5
-  ref: MAT 6:28!5
-  xml_id: n40006028005
-  unicode: μεριμνᾶτε
+  text: μεριμνᾶτε
   lemma: μεριμνάω
   normalized: μεριμνᾶτε
-  class: verb
-  morph: V-PAI-2P
-  gloss: are you anxious
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3309'
-  domain: '025021'
-  ln: '25.225'
-  role: v
-syntax:
-  word_order: ADV-ADV-V
+  ids:
+    ref: MAT 6:28!5
+    wordID: n40006028005
+  translation:
+    gloss: are you anxious
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3309'
+  semantic:
+    semanticDomain: '025021'
+    ln: '25.225'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015

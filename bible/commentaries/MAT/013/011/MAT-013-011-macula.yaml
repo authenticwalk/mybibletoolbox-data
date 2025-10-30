@@ -1,304 +1,407 @@
-verse:
-  reference: MAT 13:11
-  book_code: MAT
-  chapter: 13
-  verse: 11
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ ἀποκριθεὶς εἶπεν ὅτι Ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας
-    τῶν οὐρανῶν, ἐκείνοις δὲ οὐ δέδοται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:11
+text: ὁ δὲ ἀποκριθεὶς εἶπεν ὅτι Ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας τῶν
+  οὐρανῶν, ἐκείνοις δὲ οὐ δέδοται.
 words:
 - position: 1
-  ref: MAT 13:11!2
-  xml_id: n40013011002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 13:11!2
+    wordID: n40013011002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 13:11!1
-  xml_id: n40013011001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 13:11!1
+    wordID: n40013011001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40013001007
 - position: 3
-  ref: MAT 13:11!3
-  xml_id: n40013011003
-  unicode: ἀποκριθεὶς
+  text: ἀποκριθεὶς
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθείς
-  class: verb
-  morph: V-AOP-NSM
-  gloss: answering
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '611'
-  domain: '033014'
-  ln: '33.184'
-  role: v
+  ids:
+    ref: MAT 13:11!3
+    wordID: n40013011003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n40013011001
 - position: 4
-  ref: MAT 13:11!4
-  xml_id: n40013011004
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 13:11!4
+    wordID: n40013011004
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40013011001
 - position: 5
-  ref: MAT 13:11!5
-  xml_id: n40013011005
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: Because
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 13:11!5
+    wordID: n40013011005
+  translation:
+    gloss: Because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 6
-  ref: MAT 13:11!6
-  xml_id: n40013011006
-  unicode: Ὑμῖν
+  text: Ὑμῖν
   lemma: σύ
   normalized: Ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 13:11!6
+    wordID: n40013011006
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013010004
 - position: 7
-  ref: MAT 13:11!7
-  xml_id: n40013011007
-  unicode: δέδοται
+  text: δέδοται
   lemma: δίδωμι
   normalized: δέδοται
-  class: verb
-  morph: V-RPI-3S
-  gloss: it has been granted
-  number: singular
-  person: third
-  tense: perfect
-  voice: passive
-  mood: indicative
-  strong: '1325'
-  domain: '013004'
-  ln: '13.142'
-  role: v
+  ids:
+    ref: MAT 13:11!7
+    wordID: n40013011007
+  translation:
+    gloss: it has been granted
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.142'
+  syntax:
+    role: v
+    frame: A2:n40013011006 A1:n40013011008
 - position: 8
-  ref: MAT 13:11!8
-  xml_id: n40013011008
-  unicode: γνῶναι
+  text: γνῶναι
   lemma: γινώσκω
   normalized: γνῶναι
-  class: verb
-  morph: V-2AAN
-  gloss: to know
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '1097'
-  domain: '032002'
-  ln: '32.16'
-  role: v
+  ids:
+    ref: MAT 13:11!8
+    wordID: n40013011008
+  translation:
+    gloss: to know
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.16'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40013011010
 - position: 9
-  ref: MAT 13:11!9
-  xml_id: n40013011009
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:11!9
+    wordID: n40013011009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 13:11!10
-  xml_id: n40013011010
-  unicode: μυστήρια
+  text: μυστήρια
   lemma: μυστήριον
   normalized: μυστήρια
-  class: noun
-  morph: N-APN
-  gloss: mysteries
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3466'
-  domain: 028005
-  ln: '28.77'
+  ids:
+    ref: MAT 13:11!10
+    wordID: n40013011010
+  translation:
+    gloss: mysteries
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3466'
+  semantic:
+    semanticDomain: 028005
+    ln: '28.77'
 - position: 11
-  ref: MAT 13:11!11
-  xml_id: n40013011011
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: of the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:11!11
+    wordID: n40013011011
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 13:11!12
-  xml_id: n40013011012
-  unicode: βασιλείας
+  text: βασιλείας
   lemma: βασιλεία
   normalized: βασιλείας
-  class: noun
-  morph: N-GSF
-  gloss: kingdom
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '932'
-  domain: '037004'
-  ln: '37.64'
+  ids:
+    ref: MAT 13:11!12
+    wordID: n40013011012
+  translation:
+    gloss: kingdom
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.64'
 - position: 13
-  ref: MAT 13:11!13
-  xml_id: n40013011013
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: of the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:11!13
+    wordID: n40013011013
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 13:11!14
-  xml_id: n40013011014
-  unicode: οὐρανῶν
+  text: οὐρανῶν
   lemma: οὐρανός
   normalized: οὐρανῶν
-  class: noun
-  morph: N-GPM
-  gloss: heavens
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3772'
-  domain: '012001'
-  ln: '12.16'
+  ids:
+    ref: MAT 13:11!14
+    wordID: n40013011014
+  translation:
+    gloss: heavens
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3772'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.16'
 - position: 15
-  ref: MAT 13:11!16
-  xml_id: n40013011016
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 13:11!16
+    wordID: n40013011016
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 16
-  ref: MAT 13:11!15
-  xml_id: n40013011015
-  unicode: ἐκείνοις
+  text: ἐκείνοις
   lemma: ἐκεῖνος
   normalized: ἐκείνοις
-  class: pron
-  morph: D-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '1565'
-  domain: 092007
-  ln: '92.30'
-  role: io
+  ids:
+    ref: MAT 13:11!15
+    wordID: n40013011015
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: D-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013002016
 - position: 17
-  ref: MAT 13:11!17
-  xml_id: n40013011017
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 13:11!17
+    wordID: n40013011017
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 18
-  ref: MAT 13:11!18
-  xml_id: n40013011018
-  unicode: δέδοται
+  text: δέδοται
   lemma: δίδωμι
   normalized: δέδοται
-  class: verb
-  morph: V-RPI-3S
-  gloss: it has been granted
-  number: singular
-  person: third
-  tense: perfect
-  voice: passive
-  mood: indicative
-  strong: '1325'
-  domain: '013004'
-  ln: '13.142'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 13:11!18
+    wordID: n40013011018
+  translation:
+    gloss: it has been granted
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.142'
+  syntax:
+    role: v
+    frame: A1:n40013011008 A2:n40013011015
+  discourse:
+    subject: n40013011008

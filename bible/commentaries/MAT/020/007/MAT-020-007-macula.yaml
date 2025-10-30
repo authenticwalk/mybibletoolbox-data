@@ -1,119 +1,146 @@
-verse:
-  reference: MAT 20:7
-  book_code: MAT
-  chapter: 20
-  verse: 7
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: λέγουσιν αὐτῷ Ὅτι οὐδεὶς ἡμᾶς ἐμισθώσατο.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 20:7
+text: λέγουσιν αὐτῷ Ὅτι οὐδεὶς ἡμᾶς ἐμισθώσατο.
 words:
 - position: 1
-  ref: MAT 20:7!1
-  xml_id: n40020007001
-  unicode: λέγουσιν
+  text: λέγουσιν
   lemma: λέγω
   normalized: λέγουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: They say
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 20:7!1
+    wordID: n40020007001
+  translation:
+    gloss: They say
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40020006007 A2:n40020007002
+  discourse:
+    subject: n40020006007
 - position: 2
-  ref: MAT 20:7!2
-  xml_id: n40020007002
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 20:7!2
+    wordID: n40020007002
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40020001008
 - position: 3
-  ref: MAT 20:7!3
-  xml_id: n40020007003
-  unicode: Ὅτι
+  text: Ὅτι
   lemma: ὅτι
   normalized: Ὅτι
-  class: conj
-  morph: CONJ
-  gloss: Because
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 20:7!3
+    wordID: n40020007003
+  translation:
+    gloss: Because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 4
-  ref: MAT 20:7!4
-  xml_id: n40020007004
-  unicode: οὐδεὶς
+  text: οὐδεὶς
   lemma: οὐδείς
   normalized: οὐδείς
-  class: adj
-  morph: A-NSM-N
-  gloss: no one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3762'
-  domain: 092004
-  ln: '92.23'
-  role: s
+  ids:
+    ref: MAT 20:7!4
+    wordID: n40020007004
+  translation:
+    gloss: no one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
 - position: 5
-  ref: MAT 20:7!5
-  xml_id: n40020007005
-  unicode: ἡμᾶς
+  text: ἡμᾶς
   lemma: ἐγώ
   normalized: ἡμᾶς
-  class: pron
-  morph: P-1AP
-  gloss: us
-  number: plural
-  case: accusative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
-  role: o
+  ids:
+    ref: MAT 20:7!5
+    wordID: n40020007005
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: o
+  discourse:
+    referent: n40020006007
 - position: 6
-  ref: MAT 20:7!6
-  xml_id: n40020007006
-  unicode: ἐμισθώσατο
+  text: ἐμισθώσατο
   lemma: μισθόω
   normalized: ἐμισθώσατο
-  class: verb
-  morph: V-AMI-3S
-  gloss: has hired
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '3409'
-  domain: '057013'
-  ln: '57.172'
-  role: v
-syntax:
-  word_order: S-O-V
+  ids:
+    ref: MAT 20:7!6
+    wordID: n40020007006
+  translation:
+    gloss: has hired
+  morphology:
+    class: verb
+    morph: V-AMI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '3409'
+  semantic:
+    semanticDomain: '057013'
+    ln: '57.172'
+  syntax:
+    role: v
+    frame: A0:n40020007004 A1:n40020007005

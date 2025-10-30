@@ -1,365 +1,499 @@
-verse:
-  reference: MAT 23:27
-  book_code: MAT
-  chapter: 23
-  verse: 27
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι παρομοιάζετε τάφοις
-    κεκονιαμένοις, οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι, ἔσωθεν δὲ γέμουσιν ὀστέων
-    νεκρῶν καὶ πάσης ἀκαθαρσίας.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 23:27
+text: Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι παρομοιάζετε τάφοις κεκονιαμένοις,
+  οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι, ἔσωθεν δὲ γέμουσιν ὀστέων νεκρῶν καὶ πάσης
+  ἀκαθαρσίας.
 words:
 - position: 1
-  ref: MAT 23:27!1
-  xml_id: n40023027001
-  unicode: Οὐαὶ
+  text: Οὐαὶ
   lemma: οὐαί
   normalized: Οὐαί
-  class: ptcl
-  morph: INJ
-  gloss: Woe
-  strong: '3759'
-  domain: '022001'
-  ln: '22.9'
-  role: s
+  ids:
+    ref: MAT 23:27!1
+    wordID: n40023027001
+  translation:
+    gloss: Woe
+  morphology:
+    class: ptcl
+    morph: INJ
+  lexical:
+    strong: '3759'
+  semantic:
+    semanticDomain: '022001'
+    ln: '22.9'
+  syntax:
+    role: s
 - position: 2
-  ref: MAT 23:27!2
-  xml_id: n40023027002
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 23:27!2
+    wordID: n40023027002
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40023027003 n40023027005
 - position: 3
-  ref: MAT 23:27!3
-  xml_id: n40023027003
-  unicode: γραμματεῖς
+  text: γραμματεῖς
   lemma: γραμματεύς
   normalized: γραμματεῖς
-  class: noun
-  morph: N-VPM
-  gloss: scribes
-  gender: masculine
-  number: plural
-  case: vocative
-  strong: '1122'
-  domain: 053009
-  ln: '53.94'
+  ids:
+    ref: MAT 23:27!3
+    wordID: n40023027003
+  translation:
+    gloss: scribes
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '1122'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.94'
 - position: 4
-  ref: MAT 23:27!4
-  xml_id: n40023027004
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 23:27!4
+    wordID: n40023027004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 5
-  ref: MAT 23:27!5
-  xml_id: n40023027005
-  unicode: Φαρισαῖοι
+  text: Φαρισαῖοι
   lemma: Φαρισαῖος
   normalized: Φαρισαῖοι
-  class: noun
-  morph: N-VPM
-  gloss: Pharisees
-  gender: masculine
-  number: plural
-  case: vocative
-  strong: '5330'
-  domain: '011002'
-  ln: '11.49'
+  ids:
+    ref: MAT 23:27!5
+    wordID: n40023027005
+  translation:
+    gloss: Pharisees
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: proper
+  lexical:
+    strong: '5330'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.49'
 - position: 6
-  ref: MAT 23:27!6
-  xml_id: n40023027006
-  unicode: ὑποκριταί
+  text: ὑποκριταί
   lemma: ὑποκριτής
   normalized: ὑποκριταί
-  class: noun
-  morph: N-VPM
-  gloss: hypocrites
-  gender: masculine
-  number: plural
-  case: vocative
-  strong: '5273'
-  domain: 088029
-  ln: '88.228'
+  ids:
+    ref: MAT 23:27!6
+    wordID: n40023027006
+  translation:
+    gloss: hypocrites
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '5273'
+  semantic:
+    semanticDomain: 088029
+    ln: '88.228'
+  syntax:
+    junction: apposition
 - position: 7
-  ref: MAT 23:27!7
-  xml_id: n40023027007
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: For
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 23:27!7
+    wordID: n40023027007
+  translation:
+    gloss: For
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 8
-  ref: MAT 23:27!8
-  xml_id: n40023027008
-  unicode: παρομοιάζετε
+  text: παρομοιάζετε
   lemma: παρομοιάζω
   normalized: παρομοιάζετε
-  class: verb
-  morph: V-PAI-2P
-  gloss: you are like
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3945'
-  domain: '064'
-  ln: '64.8'
-  role: v
+  ids:
+    ref: MAT 23:27!8
+    wordID: n40023027008
+  translation:
+    gloss: you are like
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3945'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.8'
+  syntax:
+    role: v
+    frame: A0:n40023027003;n40023027005
+  discourse:
+    subject: n40023027003 n40023027005
 - position: 9
-  ref: MAT 23:27!9
-  xml_id: n40023027009
-  unicode: τάφοις
+  text: τάφοις
   lemma: τάφος
   normalized: τάφοις
-  class: noun
-  morph: N-DPM
-  gloss: tombs
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '5028'
-  domain: '007007'
-  ln: '7.75'
+  ids:
+    ref: MAT 23:27!9
+    wordID: n40023027009
+  translation:
+    gloss: tombs
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '5028'
+  semantic:
+    semanticDomain: '007007'
+    ln: '7.75'
 - position: 10
-  ref: MAT 23:27!10
-  xml_id: n40023027010
-  unicode: κεκονιαμένοις
+  text: κεκονιαμένοις
   lemma: κονιάω
   normalized: κεκονιαμένοις
-  class: verb
-  morph: V-RPP-DPM
-  gloss: having been whitewashed
-  gender: masculine
-  number: plural
-  case: dative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '2867'
-  domain: '045'
-  ln: '45.12'
-  role: v
+  ids:
+    ref: MAT 23:27!10
+    wordID: n40023027010
+  translation:
+    gloss: having been whitewashed
+  morphology:
+    class: verb
+    morph: V-RPP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '2867'
+  semantic:
+    semanticDomain: '045'
+    ln: '45.12'
+  syntax:
+    role: v
+    frame: A1:n40023027009
+  discourse:
+    subject: n40023027009
 - position: 11
-  ref: MAT 23:27!13
-  xml_id: n40023027013
-  unicode: μὲν
+  text: μὲν
   lemma: μέν
   normalized: μέν
-  class: conj
-  morph: PRT
-  gloss: indeed
-  strong: '3303'
-  domain: 091002
-  ln: '91.6'
+  ids:
+    ref: MAT 23:27!13
+    wordID: n40023027013
+  translation:
+    gloss: indeed
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '3303'
+  semantic:
+    semanticDomain: 091002
+    ln: '91.6'
+  syntax:
+    discontinuous: 'true'
 - position: 12
-  ref: MAT 23:27!11
-  xml_id: n40023027011
-  unicode: οἵτινες
+  text: οἵτινες
   lemma: ὅστις
   normalized: οἵτινες
-  class: pron
-  morph: R-NPM
-  gloss: which
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3748'
-  domain: 092004
-  ln: '92.18'
-  role: s
+  ids:
+    ref: MAT 23:27!11
+    wordID: n40023027011
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
+  discourse:
+    referent: n40023027009
 - position: 13
-  ref: MAT 23:27!12
-  xml_id: n40023027012
-  unicode: ἔξωθεν
+  text: ἔξωθεν
   lemma: ἔξωθεν
   normalized: ἔξωθεν
-  class: adv
-  morph: ADV
-  gloss: outwardly
-  strong: '1855'
-  domain: 083004
-  ln: '83.21'
-  role: adv
+  ids:
+    ref: MAT 23:27!12
+    wordID: n40023027012
+  translation:
+    gloss: outwardly
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1855'
+  semantic:
+    semanticDomain: 083004
+    ln: '83.21'
+  syntax:
+    role: adv
 - position: 14
-  ref: MAT 23:27!14
-  xml_id: n40023027014
-  unicode: φαίνονται
+  text: φαίνονται
   lemma: φαίνω
   normalized: φαίνονται
-  class: verb
-  morph: V-PEI-3P
-  gloss: appear
-  number: plural
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '5316'
-  domain: 028003
-  ln: '28.55'
-  role: vc
+  ids:
+    ref: MAT 23:27!14
+    wordID: n40023027014
+  translation:
+    gloss: appear
+  morphology:
+    class: verb
+    morph: V-PEI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '5316'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.55'
+  syntax:
+    role: vc
 - position: 15
-  ref: MAT 23:27!15
-  xml_id: n40023027015
-  unicode: ὡραῖοι
+  text: ὡραῖοι
   lemma: ὡραῖος
   normalized: ὡραῖοι
-  class: adj
-  morph: A-NPM
-  gloss: beautiful
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '5611'
-  domain: 079004
-  ln: '79.10'
-  role: p
+  ids:
+    ref: MAT 23:27!15
+    wordID: n40023027015
+  translation:
+    gloss: beautiful
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '5611'
+  semantic:
+    semanticDomain: 079004
+    ln: '79.10'
+  syntax:
+    role: p
 - position: 16
-  ref: MAT 23:27!17
-  xml_id: n40023027017
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 23:27!17
+    wordID: n40023027017
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 17
-  ref: MAT 23:27!16
-  xml_id: n40023027016
-  unicode: ἔσωθεν
+  text: ἔσωθεν
   lemma: ἔσωθεν
   normalized: ἔσωθεν
-  class: adv
-  morph: ADV
-  gloss: Inside
-  strong: '2081'
-  domain: 083003
-  ln: '83.16'
-  role: adv
+  ids:
+    ref: MAT 23:27!16
+    wordID: n40023027016
+  translation:
+    gloss: Inside
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2081'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.16'
+  syntax:
+    role: adv
 - position: 18
-  ref: MAT 23:27!18
-  xml_id: n40023027018
-  unicode: γέμουσιν
+  text: γέμουσιν
   lemma: γέμω
   normalized: γέμουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: they are full
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1073'
-  domain: 059004
-  ln: '59.41'
-  role: v
+  ids:
+    ref: MAT 23:27!18
+    wordID: n40023027018
+  translation:
+    gloss: they are full
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1073'
+  semantic:
+    semanticDomain: 059004
+    ln: '59.41'
+  syntax:
+    role: v
+    frame: A0:n40023027009 A1:n40023027019;n40023027023
+  discourse:
+    subject: n40023027009
 - position: 19
-  ref: MAT 23:27!19
-  xml_id: n40023027019
-  unicode: ὀστέων
+  text: ὀστέων
   lemma: ὀστέον
   normalized: ὀστέων
-  class: noun
-  morph: N-GPN
-  gloss: of bones
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '3747'
-  domain: 008002
-  ln: '8.61'
+  ids:
+    ref: MAT 23:27!19
+    wordID: n40023027019
+  translation:
+    gloss: of bones
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3747'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.61'
 - position: 20
-  ref: MAT 23:27!20
-  xml_id: n40023027020
-  unicode: νεκρῶν
+  text: νεκρῶν
   lemma: νεκρός
   normalized: νεκρῶν
-  class: adj
-  morph: A-GPM
-  gloss: of [the] dead
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3498'
-  domain: '023007'
-  ln: '23.121'
+  ids:
+    ref: MAT 23:27!20
+    wordID: n40023027020
+  translation:
+    gloss: of [the] dead
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '3498'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.121'
 - position: 21
-  ref: MAT 23:27!21
-  xml_id: n40023027021
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 23:27!21
+    wordID: n40023027021
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 22
-  ref: MAT 23:27!22
-  xml_id: n40023027022
-  unicode: πάσης
+  text: πάσης
   lemma: πᾶς
   normalized: πάσης
-  class: adj
-  morph: A-GSF
-  gloss: of all
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 23:27!22
+    wordID: n40023027022
+  translation:
+    gloss: of all
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 23
-  ref: MAT 23:27!23
-  xml_id: n40023027023
-  unicode: ἀκαθαρσίας
+  text: ἀκαθαρσίας
   lemma: ἀκαθαρσία
   normalized: ἀκαθαρσίας
-  class: noun
-  morph: N-GSF
-  gloss: impurity
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '167'
-  domain: 079010
-  ln: '79.54'
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 23:27!23
+    wordID: n40023027023
+  translation:
+    gloss: impurity
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '167'
+  semantic:
+    semanticDomain: 079010
+    ln: '79.54'

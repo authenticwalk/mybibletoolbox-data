@@ -1,404 +1,544 @@
-verse:
-  reference: MAT 7:7
-  book_code: MAT
-  chapter: 7
-  verse: 7
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 7:8 Αἰτεῖτε, καὶ δοθήσεται ὑμῖν· ζητεῖτε, καὶ εὑρήσετε· κρούετε, καὶ
-    ἀνοιγήσεται ὑμῖν. πᾶς γὰρ ὁ αἰτῶν λαμβάνει καὶ ὁ ζητῶν εὑρίσκει καὶ τῷ κρούοντι
-    ἀνοιγήσεται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 7:7
+text: MAT 7:8 Αἰτεῖτε, καὶ δοθήσεται ὑμῖν· ζητεῖτε, καὶ εὑρήσετε· κρούετε, καὶ ἀνοιγήσεται
+  ὑμῖν. πᾶς γὰρ ὁ αἰτῶν λαμβάνει καὶ ὁ ζητῶν εὑρίσκει καὶ τῷ κρούοντι ἀνοιγήσεται.
 words:
 - position: 1
-  ref: MAT 7:7!1
-  xml_id: n40007007001
-  unicode: Αἰτεῖτε
+  text: Αἰτεῖτε
   lemma: αἰτέω
   normalized: Αἰτεῖτε
-  class: verb
-  morph: V-PAM-2P
-  gloss: Ask
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '154'
-  domain: '033012'
-  ln: '33.163'
-  role: v
+  ids:
+    ref: MAT 7:7!1
+    wordID: n40007007001
+  translation:
+    gloss: Ask
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 2
-  ref: MAT 7:7!2
-  xml_id: n40007007002
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 7:7!2
+    wordID: n40007007002
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 3
-  ref: MAT 7:7!3
-  xml_id: n40007007003
-  unicode: δοθήσεται
+  text: δοθήσεται
   lemma: δίδωμι
   normalized: δοθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: it will be given
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 7:7!3
+    wordID: n40007007003
+  translation:
+    gloss: it will be given
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n40007007004
 - position: 4
-  ref: MAT 7:7!4
-  xml_id: n40007007004
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 7:7!4
+    wordID: n40007007004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40006030022
 - position: 5
-  ref: MAT 7:7!5
-  xml_id: n40007007005
-  unicode: ζητεῖτε
+  text: ζητεῖτε
   lemma: ζητέω
   normalized: ζητεῖτε
-  class: verb
-  morph: V-PAM-2P
-  gloss: seek
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '2212'
-  domain: '027004'
-  ln: '27.41'
-  role: v
+  ids:
+    ref: MAT 7:7!5
+    wordID: n40007007005
+  translation:
+    gloss: seek
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2212'
+  semantic:
+    semanticDomain: '027004'
+    ln: '27.41'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 6
-  ref: MAT 7:7!6
-  xml_id: n40007007006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 7:7!6
+    wordID: n40007007006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 7
-  ref: MAT 7:7!7
-  xml_id: n40007007007
-  unicode: εὑρήσετε
+  text: εὑρήσετε
   lemma: εὑρίσκω
   normalized: εὑρήσετε
-  class: verb
-  morph: V-FAI-2P
-  gloss: you will find
-  number: plural
-  person: second
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2147'
-  domain: '027002'
-  ln: '27.27'
-  role: v
+  ids:
+    ref: MAT 7:7!7
+    wordID: n40007007007
+  translation:
+    gloss: you will find
+  morphology:
+    class: verb
+    morph: V-FAI-2P
+    number: plural
+    person: second
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2147'
+  semantic:
+    semanticDomain: '027002'
+    ln: '27.27'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 8
-  ref: MAT 7:7!8
-  xml_id: n40007007008
-  unicode: κρούετε
+  text: κρούετε
   lemma: κρούω
   normalized: κρούετε
-  class: verb
-  morph: V-PAM-2P
-  gloss: knock
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '2925'
-  domain: 019001
-  ln: '19.12'
-  role: v
+  ids:
+    ref: MAT 7:7!8
+    wordID: n40007007008
+  translation:
+    gloss: knock
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2925'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.12'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 9
-  ref: MAT 7:7!9
-  xml_id: n40007007009
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 7:7!9
+    wordID: n40007007009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 10
-  ref: MAT 7:7!10
-  xml_id: n40007007010
-  unicode: ἀνοιγήσεται
+  text: ἀνοιγήσεται
   lemma: ἀνοίγω
   normalized: ἀνοιγήσεται
-  class: verb
-  morph: V-2FPI-3S
-  gloss: it will be opened
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '455'
-  domain: 079024
-  ln: '79.110'
-  role: v
+  ids:
+    ref: MAT 7:7!10
+    wordID: n40007007010
+  translation:
+    gloss: it will be opened
+  morphology:
+    class: verb
+    morph: V-2FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '455'
+  semantic:
+    semanticDomain: 079024
+    ln: '79.110'
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n40007007011
 - position: 11
-  ref: MAT 7:7!11
-  xml_id: n40007007011
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 7:7!11
+    wordID: n40007007011
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40006030022
 - position: 12
-  ref: MAT 7:8!2
-  xml_id: n40007008002
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 7:8!2
+    wordID: n40007008002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 13
-  ref: MAT 7:8!1
-  xml_id: n40007008001
-  unicode: πᾶς
+  text: πᾶς
   lemma: πᾶς
   normalized: πᾶς
-  class: adj
-  morph: A-NSM
-  gloss: Everyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 7:8!1
+    wordID: n40007008001
+  translation:
+    gloss: Everyone
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 14
-  ref: MAT 7:8!3
-  xml_id: n40007008003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:8!3
+    wordID: n40007008003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 7:8!4
-  xml_id: n40007008004
-  unicode: αἰτῶν
+  text: αἰτῶν
   lemma: αἰτέω
   normalized: αἰτῶν
-  class: verb
-  morph: V-PAP-NSM
-  gloss: asking
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '154'
-  domain: '033012'
-  ln: '33.163'
-  role: v
+  ids:
+    ref: MAT 7:8!4
+    wordID: n40007008004
+  translation:
+    gloss: asking
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 16
-  ref: MAT 7:8!5
-  xml_id: n40007008005
-  unicode: λαμβάνει
+  text: λαμβάνει
   lemma: λαμβάνω
   normalized: λαμβάνει
-  class: verb
-  morph: V-PAI-3S
-  gloss: receives
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2983'
-  domain: 057009
-  ln: '57.125'
-  role: v
+  ids:
+    ref: MAT 7:8!5
+    wordID: n40007008005
+  translation:
+    gloss: receives
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A0:n40007008004
 - position: 17
-  ref: MAT 7:8!6
-  xml_id: n40007008006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 7:8!6
+    wordID: n40007008006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 18
-  ref: MAT 7:8!7
-  xml_id: n40007008007
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:8!7
+    wordID: n40007008007
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 7:8!8
-  xml_id: n40007008008
-  unicode: ζητῶν
+  text: ζητῶν
   lemma: ζητέω
   normalized: ζητῶν
-  class: verb
-  morph: V-PAP-NSM
-  gloss: seeking
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2212'
-  domain: '027004'
-  ln: '27.41'
-  role: v
+  ids:
+    ref: MAT 7:8!8
+    wordID: n40007008008
+  translation:
+    gloss: seeking
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2212'
+  semantic:
+    semanticDomain: '027004'
+    ln: '27.41'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 20
-  ref: MAT 7:8!9
-  xml_id: n40007008009
-  unicode: εὑρίσκει
+  text: εὑρίσκει
   lemma: εὑρίσκω
   normalized: εὑρίσκει
-  class: verb
-  morph: V-PAI-3S
-  gloss: finds
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2147'
-  domain: '027002'
-  ln: '27.27'
-  role: v
+  ids:
+    ref: MAT 7:8!9
+    wordID: n40007008009
+  translation:
+    gloss: finds
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2147'
+  semantic:
+    semanticDomain: '027002'
+    ln: '27.27'
+  syntax:
+    role: v
+    frame: A0:n40007008008
 - position: 21
-  ref: MAT 7:8!10
-  xml_id: n40007008010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 7:8!10
+    wordID: n40007008010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 22
-  ref: MAT 7:8!11
-  xml_id: n40007008011
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: to the [one]
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:8!11
+    wordID: n40007008011
+  translation:
+    gloss: to the [one]
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 23
-  ref: MAT 7:8!12
-  xml_id: n40007008012
-  unicode: κρούοντι
+  text: κρούοντι
   lemma: κρούω
   normalized: κρούοντι
-  class: verb
-  morph: V-PAP-DSM
-  gloss: knocking
-  gender: masculine
-  number: singular
-  case: dative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2925'
-  domain: 019001
-  ln: '19.12'
-  role: v
+  ids:
+    ref: MAT 7:8!12
+    wordID: n40007008012
+  translation:
+    gloss: knocking
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2925'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.12'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 24
-  ref: MAT 7:8!13
-  xml_id: n40007008013
-  unicode: ἀνοιγήσεται
+  text: ἀνοιγήσεται
   lemma: ἀνοίγω
   normalized: ἀνοιγήσεται
-  class: verb
-  morph: V-2FPI-3S
-  gloss: it will be opened
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '455'
-  domain: 079024
-  ln: '79.110'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 7:8!13
+    wordID: n40007008013
+  translation:
+    gloss: it will be opened
+  morphology:
+    class: verb
+    morph: V-2FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '455'
+  semantic:
+    semanticDomain: 079024
+    ln: '79.110'
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n40007008012

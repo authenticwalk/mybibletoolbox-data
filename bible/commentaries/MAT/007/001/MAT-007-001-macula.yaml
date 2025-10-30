@@ -1,97 +1,113 @@
-verse:
-  reference: MAT 7:1
-  book_code: MAT
-  chapter: 7
-  verse: 1
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Μὴ κρίνετε, ἵνα μὴ κριθῆτε·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 7:1
+text: Μὴ κρίνετε, ἵνα μὴ κριθῆτε·
 words:
 - position: 1
-  ref: MAT 7:1!1
-  xml_id: n40007001001
-  unicode: Μὴ
+  text: Μὴ
   lemma: μή
   normalized: Μή
-  class: adv
-  morph: PRT-N
-  gloss: Not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 7:1!1
+    wordID: n40007001001
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 7:1!2
-  xml_id: n40007001002
-  unicode: κρίνετε
+  text: κρίνετε
   lemma: κρίνω
   normalized: κρίνετε
-  class: verb
-  morph: V-PAM-2P
-  gloss: do judge
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '2919'
-  domain: '056005'
-  ln: '56.30'
-  role: v
+  ids:
+    ref: MAT 7:1!2
+    wordID: n40007001002
+  translation:
+    gloss: do judge
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.30'
+  syntax:
+    role: v
+    frame: A0:n40006030022
+  discourse:
+    subject: n40006030022
 - position: 3
-  ref: MAT 7:1!3
-  xml_id: n40007001003
-  unicode: ἵνα
+  text: ἵνα
   lemma: ἵνα
   normalized: ἵνα
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '2443'
-  domain: 089009
-  ln: '89.59'
+  ids:
+    ref: MAT 7:1!3
+    wordID: n40007001003
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
 - position: 4
-  ref: MAT 7:1!4
-  xml_id: n40007001004
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 7:1!4
+    wordID: n40007001004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 5
-  ref: MAT 7:1!5
-  xml_id: n40007001005
-  unicode: κριθῆτε
+  text: κριθῆτε
   lemma: κρίνω
   normalized: κριθῆτε
-  class: verb
-  morph: V-APS-2P
-  gloss: you should be judged
-  number: plural
-  person: second
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '2919'
-  domain: '056005'
-  ln: '56.30'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 7:1!5
+    wordID: n40007001005
+  translation:
+    gloss: you should be judged
+  morphology:
+    class: verb
+    morph: V-APS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.30'
+  syntax:
+    role: v
+    frame: A1:n40006030022
+  discourse:
+    subject: n40006030022

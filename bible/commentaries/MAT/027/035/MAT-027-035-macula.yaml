@@ -1,249 +1,340 @@
-verse:
-  reference: MAT 27:35
-  book_code: MAT
-  chapter: 27
-  verse: 35
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 27:36 σταυρώσαντες δὲ αὐτὸν διεμερίσαντο τὰ ἱμάτια αὐτοῦ βάλλοντες
-    κλῆρον, καὶ καθήμενοι ἐτήρουν αὐτὸν ἐκεῖ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:35
+text: MAT 27:36 σταυρώσαντες δὲ αὐτὸν διεμερίσαντο τὰ ἱμάτια αὐτοῦ βάλλοντες κλῆρον,
+  καὶ καθήμενοι ἐτήρουν αὐτὸν ἐκεῖ.
 words:
 - position: 1
-  ref: MAT 27:35!2
-  xml_id: n40027035002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 27:35!2
+    wordID: n40027035002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 27:35!1
-  xml_id: n40027035001
-  unicode: σταυρώσαντες
+  text: σταυρώσαντες
   lemma: σταυρόω
   normalized: σταυρώσαντες
-  class: verb
-  morph: V-AAP-NPM
-  gloss: Having crucified
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '4717'
-  domain: '020004'
-  ln: '20.76'
-  role: v
+  ids:
+    ref: MAT 27:35!1
+    wordID: n40027035001
+  translation:
+    gloss: Having crucified
+  morphology:
+    class: verb
+    morph: V-AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4717'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.76'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A1:n40027035003
+  discourse:
+    subject: n40027027003
 - position: 3
-  ref: MAT 27:35!3
-  xml_id: n40027035003
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 27:35!3
+    wordID: n40027035003
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027027008
 - position: 4
-  ref: MAT 27:35!4
-  xml_id: n40027035004
-  unicode: διεμερίσαντο
+  text: διεμερίσαντο
   lemma: διαμερίζω
   normalized: διεμερίσαντο
-  class: verb
-  morph: V-AMI-3P
-  gloss: they divided
-  number: plural
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '1266'
-  domain: 057008
-  ln: '57.89'
-  role: v
+  ids:
+    ref: MAT 27:35!4
+    wordID: n40027035004
+  translation:
+    gloss: they divided
+  morphology:
+    class: verb
+    morph: V-AMI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1266'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.89'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A1:n40027035006
+  discourse:
+    subject: n40027027003
 - position: 5
-  ref: MAT 27:35!5
-  xml_id: n40027035005
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:35!5
+    wordID: n40027035005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 27:35!6
-  xml_id: n40027035006
-  unicode: ἱμάτια
+  text: ἱμάτια
   lemma: ἱμάτιον
   normalized: ἱμάτια
-  class: noun
-  morph: N-APN
-  gloss: garments
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '2440'
-  domain: '006017'
-  ln: '6.162'
+  ids:
+    ref: MAT 27:35!6
+    wordID: n40027035006
+  translation:
+    gloss: garments
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.162'
 - position: 7
-  ref: MAT 27:35!7
-  xml_id: n40027035007
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 27:35!7
+    wordID: n40027035007
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40027027008
 - position: 8
-  ref: MAT 27:35!8
-  xml_id: n40027035008
-  unicode: βάλλοντες
+  text: βάλλοντες
   lemma: βάλλω
   normalized: βάλλοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: casting
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '906'
-  domain: '015026'
-  ln: '15.215'
-  role: v
+  ids:
+    ref: MAT 27:35!8
+    wordID: n40027035008
+  translation:
+    gloss: casting
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '906'
+  semantic:
+    semanticDomain: '015026'
+    ln: '15.215'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A1:n40027035009
+  discourse:
+    subject: n40027027003
 - position: 9
-  ref: MAT 27:35!9
-  xml_id: n40027035009
-  unicode: κλῆρον
+  text: κλῆρον
   lemma: κλῆρος
   normalized: κλῆρον
-  class: noun
-  morph: N-ASM
-  gloss: lots
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2819'
-  domain: '006023'
-  ln: '6.219'
-  role: o
+  ids:
+    ref: MAT 27:35!9
+    wordID: n40027035009
+  translation:
+    gloss: lots
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2819'
+  semantic:
+    semanticDomain: '006023'
+    ln: '6.219'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 27:36!1
-  xml_id: n40027036001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 27:36!1
+    wordID: n40027036001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 11
-  ref: MAT 27:36!2
-  xml_id: n40027036002
-  unicode: καθήμενοι
+  text: καθήμενοι
   lemma: κάθημαι
   normalized: καθήμενοι
-  class: verb
-  morph: V-PNP-NPM
-  gloss: sitting down
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '2521'
-  domain: '017002'
-  ln: '17.12'
-  role: v
+  ids:
+    ref: MAT 27:36!2
+    wordID: n40027036002
+  translation:
+    gloss: sitting down
+  morphology:
+    class: verb
+    morph: V-PNP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '2521'
+  semantic:
+    semanticDomain: '017002'
+    ln: '17.12'
+  syntax:
+    role: v
+    frame: A0:n40027027003
+  discourse:
+    subject: n40027027003
 - position: 12
-  ref: MAT 27:36!3
-  xml_id: n40027036003
-  unicode: ἐτήρουν
+  text: ἐτήρουν
   lemma: τηρέω
   normalized: ἐτήρουν
-  class: verb
-  morph: V-IAI-3P
-  gloss: they were guarding
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '5083'
-  domain: 037009
-  ln: '37.122'
-  role: v
+  ids:
+    ref: MAT 27:36!3
+    wordID: n40027036003
+  translation:
+    gloss: they were guarding
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5083'
+  semantic:
+    semanticDomain: 037009
+    ln: '37.122'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A1:n40027036004
+  discourse:
+    subject: n40027027003
 - position: 13
-  ref: MAT 27:36!4
-  xml_id: n40027036004
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 27:36!4
+    wordID: n40027036004
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027027008
 - position: 14
-  ref: MAT 27:36!5
-  xml_id: n40027036005
-  unicode: ἐκεῖ
+  text: ἐκεῖ
   lemma: ἐκεῖ
   normalized: ἐκεῖ
-  class: adv
-  morph: ADV
-  gloss: there
-  strong: '1563'
-  domain: 083001
-  ln: '83.2'
-  role: adv
-syntax:
-  word_order: ADV-V-O-ADV
+  ids:
+    ref: MAT 27:36!5
+    wordID: n40027036005
+  translation:
+    gloss: there
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1563'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.2'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40027033004

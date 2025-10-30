@@ -1,162 +1,208 @@
-verse:
-  reference: MAT 20:15
-  book_code: MAT
-  chapter: 20
-  verse: 15
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οὐκ ἔξεστίν μοι ὃ θέλω ποιῆσαι ἐν τοῖς ἐμοῖς;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 20:15
+text: οὐκ ἔξεστίν μοι ὃ θέλω ποιῆσαι ἐν τοῖς ἐμοῖς;
 words:
 - position: 1
-  ref: MAT 20:15!1
-  xml_id: n40020015001
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: ptcl
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069004
-  ln: '69.11'
+  ids:
+    ref: MAT 20:15!1
+    wordID: n40020015001
+  translation:
+    gloss: not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.11'
 - position: 2
-  ref: MAT 20:15!2
-  xml_id: n40020015002
-  unicode: ἔξεστίν
+  text: ἔξεστίν
   lemma: ἔξεστι(ν)
   normalized: ἔξεστιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: is it lawful
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1832'
-  domain: '071001'
-  ln: '71.1'
-  role: v
+  ids:
+    ref: MAT 20:15!2
+    wordID: n40020015002
+  translation:
+    gloss: is it lawful
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1832'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.1'
+  syntax:
+    role: v
+    frame: A0:n40020015006
 - position: 3
-  ref: MAT 20:15!3
-  xml_id: n40020015003
-  unicode: μοι
+  text: μοι
   lemma: ἐγώ
   normalized: μοι
-  class: pron
-  morph: P-1DS
-  gloss: for me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: adv
+  ids:
+    ref: MAT 20:15!3
+    wordID: n40020015003
+  translation:
+    gloss: for me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40020011006
 - position: 4
-  ref: MAT 20:15!4
-  xml_id: n40020015004
-  unicode: ὃ
+  text: ὃ
   lemma: ὅς
   normalized: ὅ
-  class: pron
-  morph: R-ASN
-  gloss: what
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: o
+  ids:
+    ref: MAT 20:15!4
+    wordID: n40020015004
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
 - position: 5
-  ref: MAT 20:15!5
-  xml_id: n40020015005
-  unicode: θέλω
+  text: θέλω
   lemma: θέλω
   normalized: θέλω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I will
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2309'
-  domain: '025001'
-  ln: '25.1'
-  role: v
+  ids:
+    ref: MAT 20:15!5
+    wordID: n40020015005
+  translation:
+    gloss: I will
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n40020011006 A1:n40020015004
+  discourse:
+    subject: n40020011006
 - position: 6
-  ref: MAT 20:15!6
-  xml_id: n40020015006
-  unicode: ποιῆσαι
+  text: ποιῆσαι
   lemma: ποιέω
   normalized: ποιῆσαι
-  class: verb
-  morph: V-AAN
-  gloss: to do
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '4160'
-  domain: '042002'
-  ln: '42.7'
-  role: v
+  ids:
+    ref: MAT 20:15!6
+    wordID: n40020015006
+  translation:
+    gloss: to do
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n40020011006 A1:n40020015005
+  discourse:
+    subject: n40020011006
 - position: 7
-  ref: MAT 20:15!7
-  xml_id: n40020015007
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '1722'
-  domain: 089004
-  ln: '89.5'
+  ids:
+    ref: MAT 20:15!7
+    wordID: n40020015007
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.5'
 - position: 8
-  ref: MAT 20:15!8
-  xml_id: n40020015008
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPN
-  gloss: that which [is]
-  gender: neuter
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 20:15!8
+    wordID: n40020015008
+  translation:
+    gloss: that which [is]
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 20:15!9
-  xml_id: n40020015009
-  unicode: ἐμοῖς
+  text: ἐμοῖς
   lemma: ἐμός
   normalized: ἐμοῖς
-  class: adj
-  morph: S-1SDPN
-  gloss: mine
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '1699'
-  domain: 092001
-  ln: '92.2'
-syntax:
-  word_order: V-ADV-S
+  ids:
+    ref: MAT 20:15!9
+    wordID: n40020015009
+  translation:
+    gloss: mine
+  morphology:
+    class: adj
+    morph: S-1SDPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: possessive
+  lexical:
+    strong: '1699'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.2'
+  discourse:
+    referent: n40020011006

@@ -1,0 +1,350 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2PE 3:17
+text: 2PE 3:17 Ὑμεῖς οὖν, ἀγαπητοί, προγινώσκοντες φυλάσσεσθε ἵνα μὴ τῇ τῶν ἀθέσμων
+  πλάνῃ συναπαχθέντες ἐκπέσητε τοῦ ἰδίου στηριγμοῦ,
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: 2PE 3:17!2
+    wordID: n61003017002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+- position: 2
+  text: ἀγαπητοί
+  lemma: ἀγαπητός
+  normalized: ἀγαπητοί
+  ids:
+    ref: 2PE 3:17!3
+    wordID: n61003017003
+  translation:
+    gloss: beloved
+  morphology:
+    class: adj
+    morph: A-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+  lexical:
+    strong: '27'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.45'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Ὑμεῖς
+  lemma: σύ
+  normalized: Ὑμεῖς
+  ids:
+    ref: 2PE 3:17!1
+    wordID: n61003017001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n61003017003
+- position: 4
+  text: προγινώσκοντες
+  lemma: προγινώσκω
+  normalized: προγινώσκοντες
+  ids:
+    ref: 2PE 3:17!4
+    wordID: n61003017004
+  translation:
+    gloss: knowing [this] beforehand
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4267'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.6'
+  syntax:
+    role: v
+    frame: A0:n61003017003
+  discourse:
+    subject: n61003017003
+- position: 5
+  text: φυλάσσεσθε
+  lemma: φυλάσσω
+  normalized: φυλάσσεσθε
+  ids:
+    ref: 2PE 3:17!5
+    wordID: n61003017005
+  translation:
+    gloss: beware
+  morphology:
+    class: verb
+    morph: V-PMM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '5442'
+  semantic:
+    semanticDomain: 037009
+    ln: '37.120'
+  syntax:
+    role: v
+    frame: A0:n61003017001
+- position: 6
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: 2PE 3:17!6
+    wordID: n61003017006
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+- position: 7
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 2PE 3:17!7
+    wordID: n61003017007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 8
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: 2PE 3:17!8
+    wordID: n61003017008
+  translation:
+    gloss: by the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: 2PE 3:17!9
+    wordID: n61003017009
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: ἀθέσμων
+  lemma: ἄθεσμος
+  normalized: ἀθέσμων
+  ids:
+    ref: 2PE 3:17!10
+    wordID: n61003017010
+  translation:
+    gloss: lawless
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '113'
+  semantic:
+    semanticDomain: 088018
+    ln: '88.141'
+- position: 11
+  text: πλάνῃ
+  lemma: πλάνη
+  normalized: πλάνῃ
+  ids:
+    ref: 2PE 3:17!11
+    wordID: n61003017011
+  translation:
+    gloss: error
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4106'
+  semantic:
+    semanticDomain: '031002'
+    ln: '31.10'
+- position: 12
+  text: συναπαχθέντες
+  lemma: συναπάγω
+  normalized: συναπαχθέντες
+  ids:
+    ref: 2PE 3:17!12
+    wordID: n61003017012
+  translation:
+    gloss: having been led away
+  morphology:
+    class: verb
+    morph: V-APP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4879'
+  semantic:
+    semanticDomain: 031008
+    ln: '31.76'
+  syntax:
+    role: v
+    frame: A1:n61003017003
+  discourse:
+    subject: n61003017003
+- position: 13
+  text: ἐκπέσητε
+  lemma: ἐκπίπτω
+  normalized: ἐκπέσητε
+  ids:
+    ref: 2PE 3:17!13
+    wordID: n61003017013
+  translation:
+    gloss: you should fall from
+  morphology:
+    class: verb
+    morph: V-2AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1601'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.59'
+  syntax:
+    role: v
+    frame: A0:n61003017003
+  discourse:
+    subject: n61003017003
+- position: 14
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 2PE 3:17!14
+    wordID: n61003017014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: ἰδίου
+  lemma: ἴδιος
+  normalized: ἰδίου
+  ids:
+    ref: 2PE 3:17!15
+    wordID: n61003017015
+  translation:
+    gloss: own
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2398'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.4'
+  discourse:
+    referent: n61003017003
+- position: 16
+  text: στηριγμοῦ
+  lemma: στηριγμός
+  normalized: στηριγμοῦ
+  ids:
+    ref: 2PE 3:17!16
+    wordID: n61003017016
+  translation:
+    gloss: steadfastness
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4740'
+  semantic:
+    semanticDomain: 021003 074
+    ln: 21.13 74.20

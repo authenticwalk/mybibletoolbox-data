@@ -1,95 +1,108 @@
-verse:
-  reference: MAT 10:17
-  book_code: MAT
-  chapter: 10
-  verse: 17
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Προσέχετε δὲ ἀπὸ τῶν ἀνθρώπων·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:17
+text: Προσέχετε δὲ ἀπὸ τῶν ἀνθρώπων·
 words:
 - position: 1
-  ref: MAT 10:17!2
-  xml_id: n40010017002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 10:17!2
+    wordID: n40010017002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 10:17!1
-  xml_id: n40010017001
-  unicode: Προσέχετε
+  text: Προσέχετε
   lemma: προσέχω
   normalized: Προσέχετε
-  class: verb
-  morph: V-PAM-2P
-  gloss: Beware
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '4337'
-  domain: '027006'
-  ln: '27.59'
-  role: v
+  ids:
+    ref: MAT 10:17!1
+    wordID: n40010017001
+  translation:
+    gloss: Beware
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4337'
+  semantic:
+    semanticDomain: '027006'
+    ln: '27.59'
+  syntax:
+    role: v
+    frame: A0:n40010005003
+  discourse:
+    subject: n40010005003
 - position: 3
-  ref: MAT 10:17!3
-  xml_id: n40010017003
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: of
-  strong: '575'
+  ids:
+    ref: MAT 10:17!3
+    wordID: n40010017003
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
 - position: 4
-  ref: MAT 10:17!4
-  xml_id: n40010017004
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: '-'
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:17!4
+    wordID: n40010017004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 10:17!5
-  xml_id: n40010017005
-  unicode: ἀνθρώπων
+  text: ἀνθρώπων
   lemma: ἄνθρωπος
   normalized: ἀνθρώπων
-  class: noun
-  morph: N-GPM
-  gloss: men
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '444'
-  domain: 009001
-  ln: '9.1'
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 10:17!5
+    wordID: n40010017005
+  translation:
+    gloss: men
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'

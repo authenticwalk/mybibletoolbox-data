@@ -1,258 +1,341 @@
-verse:
-  reference: MAT 8:22
-  book_code: MAT
-  chapter: 8
-  verse: 22
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ Ἰησοῦς λέγει αὐτῷ Ἀκολούθει μοι, καὶ ἄφες τοὺς νεκροὺς θάψαι τοὺς
-    ἑαυτῶν νεκρούς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:22
+text: ὁ δὲ Ἰησοῦς λέγει αὐτῷ Ἀκολούθει μοι, καὶ ἄφες τοὺς νεκροὺς θάψαι τοὺς ἑαυτῶν
+  νεκρούς.
 words:
 - position: 1
-  ref: MAT 8:22!2
-  xml_id: n40008022002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: But
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 8:22!2
+    wordID: n40008022002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 8:22!1
-  xml_id: n40008022001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:22!1
+    wordID: n40008022001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 8:22!3
-  xml_id: n40008022003
-  unicode: Ἰησοῦς
+  text: Ἰησοῦς
   lemma: Ἰησοῦς
   normalized: Ἰησοῦς
-  class: noun
-  morph: N-NSM
-  gloss: Jesus
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2424'
-  domain: 093001
-  ln: 93.169a
+  ids:
+    ref: MAT 8:22!3
+    wordID: n40008022003
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
 - position: 4
-  ref: MAT 8:22!4
-  xml_id: n40008022004
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: said
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 8:22!4
+    wordID: n40008022004
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40008022003 A2:n40008022005
 - position: 5
-  ref: MAT 8:22!5
-  xml_id: n40008022005
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 8:22!5
+    wordID: n40008022005
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008021001
 - position: 6
-  ref: MAT 8:22!6
-  xml_id: n40008022006
-  unicode: Ἀκολούθει
+  text: Ἀκολούθει
   lemma: ἀκολουθέω
   normalized: Ἀκολούθει
-  class: verb
-  morph: V-PAM-2S
-  gloss: Follow
-  number: singular
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '190'
-  domain: '015020'
-  ln: '15.156'
-  role: v
+  ids:
+    ref: MAT 8:22!6
+    wordID: n40008022006
+  translation:
+    gloss: Follow
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '190'
+  semantic:
+    semanticDomain: '015020'
+    ln: '15.156'
+  syntax:
+    role: v
+    frame: A0:n40008021001 A1:n40008022007
+  discourse:
+    subject: n40008021001
 - position: 7
-  ref: MAT 8:22!7
-  xml_id: n40008022007
-  unicode: μοι
+  text: μοι
   lemma: ἐγώ
   normalized: μοι
-  class: pron
-  morph: P-1DS
-  gloss: Me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: o
+  ids:
+    ref: MAT 8:22!7
+    wordID: n40008022007
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40008022003
 - position: 8
-  ref: MAT 8:22!8
-  xml_id: n40008022008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 8:22!8
+    wordID: n40008022008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 8:22!9
-  xml_id: n40008022009
-  unicode: ἄφες
+  text: ἄφες
   lemma: ἀφίημι
   normalized: ἄφες
-  class: verb
-  morph: V-2AAM-2S
-  gloss: leave
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '863'
-  domain: '033010'
-  ln: '33.137'
-  role: v
+  ids:
+    ref: MAT 8:22!9
+    wordID: n40008022009
+  translation:
+    gloss: leave
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '033010'
+    ln: '33.137'
+  syntax:
+    role: v
+    frame: A0:n40008021001 A1:n40008022012
+  discourse:
+    subject: n40008021001
 - position: 10
-  ref: MAT 8:22!10
-  xml_id: n40008022010
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:22!10
+    wordID: n40008022010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 8:22!11
-  xml_id: n40008022011
-  unicode: νεκροὺς
+  text: νεκροὺς
   lemma: νεκρός
   normalized: νεκρούς
-  class: adj
-  morph: A-APM
-  gloss: dead
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3498'
-  domain: '023007'
-  ln: '23.121'
+  ids:
+    ref: MAT 8:22!11
+    wordID: n40008022011
+  translation:
+    gloss: dead
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3498'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.121'
 - position: 12
-  ref: MAT 8:22!12
-  xml_id: n40008022012
-  unicode: θάψαι
+  text: θάψαι
   lemma: θάπτω
   normalized: θάψαι
-  class: verb
-  morph: V-AAN
-  gloss: to bury
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '2290'
-  domain: '052'
-  ln: '52.4'
-  role: v
+  ids:
+    ref: MAT 8:22!12
+    wordID: n40008022012
+  translation:
+    gloss: to bury
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2290'
+  semantic:
+    semanticDomain: '052'
+    ln: '52.4'
+  syntax:
+    role: v
+    frame: A0:n40008022011 A1:n40008022015
 - position: 13
-  ref: MAT 8:22!13
-  xml_id: n40008022013
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: '-'
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:22!13
+    wordID: n40008022013
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 8:22!14
-  xml_id: n40008022014
-  unicode: ἑαυτῶν
+  text: ἑαυτῶν
   lemma: ἑαυτοῦ
   normalized: ἑαυτῶν
-  class: pron
-  morph: F-3GPM
-  gloss: their own
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
+  ids:
+    ref: MAT 8:22!14
+    wordID: n40008022014
+  translation:
+    gloss: their own
+  morphology:
+    class: pron
+    morph: F-3GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n40008022011
 - position: 15
-  ref: MAT 8:22!15
-  xml_id: n40008022015
-  unicode: νεκρούς
+  text: νεκρούς
   lemma: νεκρός
   normalized: νεκρούς
-  class: adj
-  morph: A-APM
-  gloss: dead
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3498'
-  domain: '023007'
-  ln: '23.121'
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 8:22!15
+    wordID: n40008022015
+  translation:
+    gloss: dead
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3498'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.121'

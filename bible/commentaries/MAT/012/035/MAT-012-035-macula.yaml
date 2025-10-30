@@ -1,313 +1,400 @@
-verse:
-  reference: MAT 12:35
-  book_code: MAT
-  chapter: 12
-  verse: 35
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ ἀγαθὸς ἄνθρωπος ἐκ τοῦ ἀγαθοῦ θησαυροῦ ἐκβάλλει ἀγαθά, καὶ ὁ πονηρὸς
-    ἄνθρωπος ἐκ τοῦ πονηροῦ θησαυροῦ ἐκβάλλει πονηρά.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:35
+text: ὁ ἀγαθὸς ἄνθρωπος ἐκ τοῦ ἀγαθοῦ θησαυροῦ ἐκβάλλει ἀγαθά, καὶ ὁ πονηρὸς ἄνθρωπος
+  ἐκ τοῦ πονηροῦ θησαυροῦ ἐκβάλλει πονηρά.
 words:
 - position: 1
-  ref: MAT 12:35!1
-  xml_id: n40012035001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: The
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:35!1
+    wordID: n40012035001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 2
-  ref: MAT 12:35!2
-  xml_id: n40012035002
-  unicode: ἀγαθὸς
+  text: ἀγαθὸς
   lemma: ἀγαθός
   normalized: ἀγαθός
-  class: adj
-  morph: A-NSM
-  gloss: good
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '18'
-  domain: 088001
-  ln: '88.1'
+  ids:
+    ref: MAT 12:35!2
+    wordID: n40012035002
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.1'
 - position: 3
-  ref: MAT 12:35!3
-  xml_id: n40012035003
-  unicode: ἄνθρωπος
+  text: ἄνθρωπος
   lemma: ἄνθρωπος
   normalized: ἄνθρωπος
-  class: noun
-  morph: N-NSM
-  gloss: man
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '444'
-  domain: 009001
-  ln: '9.1'
+  ids:
+    ref: MAT 12:35!3
+    wordID: n40012035003
+  translation:
+    gloss: man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
 - position: 4
-  ref: MAT 12:35!4
-  xml_id: n40012035004
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: out of
-  strong: '1537'
-  domain: 090003
-  ln: '90.16'
+  ids:
+    ref: MAT 12:35!4
+    wordID: n40012035004
+  translation:
+    gloss: out of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.16'
 - position: 5
-  ref: MAT 12:35!5
-  xml_id: n40012035005
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: his
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:35!5
+    wordID: n40012035005
+  translation:
+    gloss: his
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 12:35!6
-  xml_id: n40012035006
-  unicode: ἀγαθοῦ
+  text: ἀγαθοῦ
   lemma: ἀγαθός
   normalized: ἀγαθοῦ
-  class: adj
-  morph: A-GSM
-  gloss: good
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '18'
-  domain: 088001
-  ln: '88.1'
+  ids:
+    ref: MAT 12:35!6
+    wordID: n40012035006
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.1'
 - position: 7
-  ref: MAT 12:35!7
-  xml_id: n40012035007
-  unicode: θησαυροῦ
+  text: θησαυροῦ
   lemma: θησαυρός
   normalized: θησαυροῦ
-  class: noun
-  morph: N-GSM
-  gloss: treasure
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2344'
-  domain: '065001'
-  ln: '65.10'
+  ids:
+    ref: MAT 12:35!7
+    wordID: n40012035007
+  translation:
+    gloss: treasure
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2344'
+  semantic:
+    semanticDomain: '065001'
+    ln: '65.10'
 - position: 8
-  ref: MAT 12:35!8
-  xml_id: n40012035008
-  unicode: ἐκβάλλει
+  text: ἐκβάλλει
   lemma: ἐκβάλλω
   normalized: ἐκβάλλει
-  class: verb
-  morph: V-PAI-3S
-  gloss: puts forth
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1544'
-  domain: '015004'
-  ln: '15.68'
-  role: v
+  ids:
+    ref: MAT 12:35!8
+    wordID: n40012035008
+  translation:
+    gloss: puts forth
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.68'
+  syntax:
+    role: v
+    frame: A0:n40012035003 A1:n40012035009
 - position: 9
-  ref: MAT 12:35!9
-  xml_id: n40012035009
-  unicode: ἀγαθά
+  text: ἀγαθά
   lemma: ἀγαθός
   normalized: ἀγαθά
-  class: adj
-  morph: A-APN
-  gloss: good things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '18'
-  domain: 088001
-  ln: '88.1'
-  role: o
+  ids:
+    ref: MAT 12:35!9
+    wordID: n40012035009
+  translation:
+    gloss: good things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.1'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 12:35!10
-  xml_id: n40012035010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:35!10
+    wordID: n40012035010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 11
-  ref: MAT 12:35!11
-  xml_id: n40012035011
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:35!11
+    wordID: n40012035011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 12:35!12
-  xml_id: n40012035012
-  unicode: πονηρὸς
+  text: πονηρὸς
   lemma: πονηρός
   normalized: πονηρός
-  class: adj
-  morph: A-NSM
-  gloss: evil
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4190'
-  domain: 088015
-  ln: '88.110'
+  ids:
+    ref: MAT 12:35!12
+    wordID: n40012035012
+  translation:
+    gloss: evil
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '4190'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.110'
 - position: 13
-  ref: MAT 12:35!13
-  xml_id: n40012035013
-  unicode: ἄνθρωπος
+  text: ἄνθρωπος
   lemma: ἄνθρωπος
   normalized: ἄνθρωπος
-  class: noun
-  morph: N-NSM
-  gloss: man
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '444'
-  domain: 009001
-  ln: '9.1'
+  ids:
+    ref: MAT 12:35!13
+    wordID: n40012035013
+  translation:
+    gloss: man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
 - position: 14
-  ref: MAT 12:35!14
-  xml_id: n40012035014
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: out of
-  strong: '1537'
-  domain: 090003
-  ln: '90.16'
+  ids:
+    ref: MAT 12:35!14
+    wordID: n40012035014
+  translation:
+    gloss: out of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.16'
 - position: 15
-  ref: MAT 12:35!15
-  xml_id: n40012035015
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: his
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:35!15
+    wordID: n40012035015
+  translation:
+    gloss: his
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 12:35!16
-  xml_id: n40012035016
-  unicode: πονηροῦ
+  text: πονηροῦ
   lemma: πονηρός
   normalized: πονηροῦ
-  class: adj
-  morph: A-GSM
-  gloss: evil
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '4190'
-  domain: 088015
-  ln: '88.110'
+  ids:
+    ref: MAT 12:35!16
+    wordID: n40012035016
+  translation:
+    gloss: evil
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '4190'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.110'
 - position: 17
-  ref: MAT 12:35!17
-  xml_id: n40012035017
-  unicode: θησαυροῦ
+  text: θησαυροῦ
   lemma: θησαυρός
   normalized: θησαυροῦ
-  class: noun
-  morph: N-GSM
-  gloss: treasure
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2344'
-  domain: '065001'
-  ln: '65.10'
+  ids:
+    ref: MAT 12:35!17
+    wordID: n40012035017
+  translation:
+    gloss: treasure
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2344'
+  semantic:
+    semanticDomain: '065001'
+    ln: '65.10'
 - position: 18
-  ref: MAT 12:35!18
-  xml_id: n40012035018
-  unicode: ἐκβάλλει
+  text: ἐκβάλλει
   lemma: ἐκβάλλω
   normalized: ἐκβάλλει
-  class: verb
-  morph: V-PAI-3S
-  gloss: puts forth
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1544'
-  domain: '015004'
-  ln: '15.68'
-  role: v
+  ids:
+    ref: MAT 12:35!18
+    wordID: n40012035018
+  translation:
+    gloss: puts forth
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.68'
+  syntax:
+    role: v
+    frame: A0:n40012035013 A1:n40012035019
 - position: 19
-  ref: MAT 12:35!19
-  xml_id: n40012035019
-  unicode: πονηρά
+  text: πονηρά
   lemma: πονηρός
   normalized: πονηρά
-  class: adj
-  morph: A-APN
-  gloss: evil things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4190'
-  domain: 088015
-  ln: '88.110'
-  role: o
-syntax:
-  word_order: S-ADV-V-O
+  ids:
+    ref: MAT 12:35!19
+    wordID: n40012035019
+  translation:
+    gloss: evil things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '4190'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.110'
+  syntax:
+    role: o

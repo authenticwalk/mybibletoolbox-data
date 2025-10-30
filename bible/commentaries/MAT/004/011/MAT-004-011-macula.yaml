@@ -1,213 +1,274 @@
-verse:
-  reference: MAT 4:11
-  book_code: MAT
-  chapter: 4
-  verse: 11
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Τότε ἀφίησιν αὐτὸν ὁ διάβολος, καὶ ἰδοὺ ἄγγελοι προσῆλθον καὶ διηκόνουν
-    αὐτῷ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 4:11
+text: Τότε ἀφίησιν αὐτὸν ὁ διάβολος, καὶ ἰδοὺ ἄγγελοι προσῆλθον καὶ διηκόνουν αὐτῷ.
 words:
 - position: 1
-  ref: MAT 4:11!1
-  xml_id: n40004011001
-  unicode: Τότε
+  text: Τότε
   lemma: τότε
   normalized: Τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 4:11!1
+    wordID: n40004011001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 4:11!2
-  xml_id: n40004011002
-  unicode: ἀφίησιν
+  text: ἀφίησιν
   lemma: ἀφίημι
   normalized: ἀφίησιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: leaves
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '863'
-  domain: '015004'
-  ln: '15.48'
-  role: v
+  ids:
+    ref: MAT 4:11!2
+    wordID: n40004011002
+  translation:
+    gloss: leaves
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.48'
+  syntax:
+    role: v
+    frame: A1:n40004011003 A0:n40004011005
 - position: 3
-  ref: MAT 4:11!3
-  xml_id: n40004011003
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 4:11!3
+    wordID: n40004011003
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40004010005
 - position: 4
-  ref: MAT 4:11!4
-  xml_id: n40004011004
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 4:11!4
+    wordID: n40004011004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 4:11!5
-  xml_id: n40004011005
-  unicode: διάβολος
+  text: διάβολος
   lemma: διάβολος
   normalized: διάβολος
-  class: adj
-  morph: A-NSM
-  gloss: devil
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1228'
-  domain: '012001'
-  ln: '12.34'
+  ids:
+    ref: MAT 4:11!5
+    wordID: n40004011005
+  translation:
+    gloss: devil
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1228'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.34'
 - position: 6
-  ref: MAT 4:11!6
-  xml_id: n40004011006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 4:11!6
+    wordID: n40004011006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 4:11!7
-  xml_id: n40004011007
-  unicode: ἰδοὺ
+  text: ἰδοὺ
   lemma: ὁράω
   normalized: ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 4:11!7
+    wordID: n40004011007
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
 - position: 8
-  ref: MAT 4:11!8
-  xml_id: n40004011008
-  unicode: ἄγγελοι
+  text: ἄγγελοι
   lemma: ἄγγελος
   normalized: ἄγγελοι
-  class: noun
-  morph: N-NPM
-  gloss: angels
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '32'
-  domain: '012001'
-  ln: '12.28'
-  role: s
+  ids:
+    ref: MAT 4:11!8
+    wordID: n40004011008
+  translation:
+    gloss: angels
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '32'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.28'
+  syntax:
+    role: s
 - position: 9
-  ref: MAT 4:11!9
-  xml_id: n40004011009
-  unicode: προσῆλθον
+  text: προσῆλθον
   lemma: προσέρχομαι
   normalized: προσῆλθον
-  class: verb
-  morph: V-2AAI-3P
-  gloss: came
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4334'
-  domain: '015005'
-  ln: '15.77'
-  role: v
+  ids:
+    ref: MAT 4:11!9
+    wordID: n40004011009
+  translation:
+    gloss: came
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n40004011008
 - position: 10
-  ref: MAT 4:11!10
-  xml_id: n40004011010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 4:11!10
+    wordID: n40004011010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 11
-  ref: MAT 4:11!11
-  xml_id: n40004011011
-  unicode: διηκόνουν
+  text: διηκόνουν
   lemma: διακονέω
   normalized: διηκόνουν
-  class: verb
-  morph: V-IAI-3P
-  gloss: were ministering
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '1247'
-  domain: '035004'
-  ln: '35.37'
-  role: v
+  ids:
+    ref: MAT 4:11!11
+    wordID: n40004011011
+  translation:
+    gloss: were ministering
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1247'
+  semantic:
+    semanticDomain: '035004'
+    ln: '35.37'
+  syntax:
+    role: v
+    frame: A0:n40004011008 A1:n40004011012
+  discourse:
+    subject: n40004011008
 - position: 12
-  ref: MAT 4:11!12
-  xml_id: n40004011012
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: ADV-V-O-S
+  ids:
+    ref: MAT 4:11!12
+    wordID: n40004011012
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40004010005

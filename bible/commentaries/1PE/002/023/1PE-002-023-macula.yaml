@@ -1,0 +1,283 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1PE 2:23
+text: 1PE 2:23 ὃς λοιδορούμενος οὐκ ἀντελοιδόρει, πάσχων οὐκ ἠπείλει, παρεδίδου δὲ
+  τῷ κρίνοντι δικαίως·
+words:
+- position: 1
+  text: ὃς
+  lemma: ὅς
+  normalized: ὅς
+  ids:
+    ref: 1PE 2:23!1
+    wordID: n60002023001
+  translation:
+    gloss: Who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: s
+  discourse:
+    referent: n60002021007
+- position: 2
+  text: λοιδορούμενος
+  lemma: λοιδορέω
+  normalized: λοιδορούμενος
+  ids:
+    ref: 1PE 2:23!2
+    wordID: n60002023002
+  translation:
+    gloss: being reviled
+  morphology:
+    class: verb
+    morph: V-PPP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3058'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.393'
+  syntax:
+    role: v
+    frame: A1:n60002021007
+  discourse:
+    subject: n60002021007
+- position: 3
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: 1PE 2:23!3
+    wordID: n60002023003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 4
+  text: ἀντελοιδόρει
+  lemma: ἀντιλοιδορέω
+  normalized: ἀντελοιδόρει
+  ids:
+    ref: 1PE 2:23!4
+    wordID: n60002023004
+  translation:
+    gloss: reviled in return
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '486'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.394'
+  syntax:
+    role: v
+    frame: A0:n60002023001
+- position: 5
+  text: πάσχων
+  lemma: πάσχω
+  normalized: πάσχων
+  ids:
+    ref: 1PE 2:23!5
+    wordID: n60002023005
+  translation:
+    gloss: suffering
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3958'
+  semantic:
+    semanticDomain: '024006'
+    ln: '24.78'
+  syntax:
+    role: v
+    frame: A0:n60002021007
+  discourse:
+    subject: n60002021007
+- position: 6
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: 1PE 2:23!6
+    wordID: n60002023006
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 7
+  text: ἠπείλει
+  lemma: ἀπειλέω
+  normalized: ἠπείλει
+  ids:
+    ref: 1PE 2:23!7
+    wordID: n60002023007
+  translation:
+    gloss: threatened
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '546'
+  semantic:
+    semanticDomain: '033026'
+    ln: '33.291'
+  syntax:
+    role: v
+    frame: A0:n60002021007
+  discourse:
+    subject: n60002021007
+- position: 8
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1PE 2:23!9
+    wordID: n60002023009
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 9
+  text: παρεδίδου
+  lemma: παραδίδωμι
+  normalized: παρεδίδου
+  ids:
+    ref: 1PE 2:23!8
+    wordID: n60002023008
+  translation:
+    gloss: He gave [Himself] over
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.77'
+  syntax:
+    role: v
+    frame: A0:n60002021007 A1:n60002022011 A2:n60002023011
+  discourse:
+    subject: n60002021007
+- position: 10
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: 1PE 2:23!10
+    wordID: n60002023010
+  translation:
+    gloss: to Him
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: κρίνοντι
+  lemma: κρίνω
+  normalized: κρίνοντι
+  ids:
+    ref: 1PE 2:23!11
+    wordID: n60002023011
+  translation:
+    gloss: judging
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.20'
+  syntax:
+    role: v
+    frame: A0:n60002020018
+  discourse:
+    subject: n60002020018
+- position: 12
+  text: δικαίως
+  lemma: δικαίως
+  normalized: δικαίως
+  ids:
+    ref: 1PE 2:23!12
+    wordID: n60002023012
+  translation:
+    gloss: justly
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1346'
+  semantic:
+    semanticDomain: 088002
+    ln: '88.15'
+  syntax:
+    role: adv

@@ -1,248 +1,328 @@
-verse:
-  reference: MAT 10:38
-  book_code: MAT
-  chapter: 10
-  verse: 38
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ὃς οὐ λαμβάνει τὸν σταυρὸν αὐτοῦ καὶ ἀκολουθεῖ ὀπίσω μου, οὐκ ἔστιν
-    μου ἄξιος.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:38
+text: καὶ ὃς οὐ λαμβάνει τὸν σταυρὸν αὐτοῦ καὶ ἀκολουθεῖ ὀπίσω μου, οὐκ ἔστιν μου
+  ἄξιος.
 words:
 - position: 1
-  ref: MAT 10:38!1
-  xml_id: n40010038001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 10:38!1
+    wordID: n40010038001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 10:38!2
-  xml_id: n40010038002
-  unicode: ὃς
+  text: ὃς
   lemma: ὅς
   normalized: ὅς
-  class: pron
-  morph: R-NSM
-  gloss: he who
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: s
+  ids:
+    ref: MAT 10:38!2
+    wordID: n40010038002
+  translation:
+    gloss: he who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
 - position: 3
-  ref: MAT 10:38!3
-  xml_id: n40010038003
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:38!3
+    wordID: n40010038003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 4
-  ref: MAT 10:38!4
-  xml_id: n40010038004
-  unicode: λαμβάνει
+  text: λαμβάνει
   lemma: λαμβάνω
   normalized: λαμβάνει
-  class: verb
-  morph: V-PAI-3S
-  gloss: takes
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2983'
-  domain: '024006'
-  ln: '24.83'
-  role: v
+  ids:
+    ref: MAT 10:38!4
+    wordID: n40010038004
+  translation:
+    gloss: takes
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '024006'
+    ln: '24.83'
+  syntax:
+    role: v
+    frame: A0:n40010038002 A1:n40010038006
 - position: 5
-  ref: MAT 10:38!5
-  xml_id: n40010038005
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:38!5
+    wordID: n40010038005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 10:38!6
-  xml_id: n40010038006
-  unicode: σταυρὸν
+  text: σταυρὸν
   lemma: σταυρός
   normalized: σταυρόν
-  class: noun
-  morph: N-ASM
-  gloss: cross
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4716'
-  domain: '006006'
-  ln: '6.27'
+  ids:
+    ref: MAT 10:38!6
+    wordID: n40010038006
+  translation:
+    gloss: cross
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4716'
+  semantic:
+    semanticDomain: '006006'
+    ln: '6.27'
 - position: 7
-  ref: MAT 10:38!7
-  xml_id: n40010038007
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 10:38!7
+    wordID: n40010038007
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40010038002
 - position: 8
-  ref: MAT 10:38!8
-  xml_id: n40010038008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 10:38!8
+    wordID: n40010038008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 9
-  ref: MAT 10:38!9
-  xml_id: n40010038009
-  unicode: ἀκολουθεῖ
+  text: ἀκολουθεῖ
   lemma: ἀκολουθέω
   normalized: ἀκολουθεῖ
-  class: verb
-  morph: V-PAI-3S
-  gloss: follows
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '190'
-  domain: '015020'
-  ln: '15.156'
-  role: v
+  ids:
+    ref: MAT 10:38!9
+    wordID: n40010038009
+  translation:
+    gloss: follows
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '190'
+  semantic:
+    semanticDomain: '015020'
+    ln: '15.156'
+  syntax:
+    role: v
+    frame: A0:n40010038002
+  discourse:
+    subject: n40010038002
 - position: 10
-  ref: MAT 10:38!10
-  xml_id: n40010038010
-  unicode: ὀπίσω
+  text: ὀπίσω
   lemma: ὀπίσω
   normalized: ὀπίσω
-  class: prep
-  morph: ADV
-  gloss: after
-  strong: '3694'
-  domain: '036004'
-  ln: '36.35'
+  ids:
+    ref: MAT 10:38!10
+    wordID: n40010038010
+  translation:
+    gloss: after
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '3694'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.35'
 - position: 11
-  ref: MAT 10:38!11
-  xml_id: n40010038011
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 10:38!11
+    wordID: n40010038011
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40010005006
 - position: 12
-  ref: MAT 10:38!12
-  xml_id: n40010038012
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:38!12
+    wordID: n40010038012
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 13
-  ref: MAT 10:38!13
-  xml_id: n40010038013
-  unicode: ἔστιν
+  text: ἔστιν
   lemma: εἰμί
   normalized: ἔστιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: is
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.1'
-  role: vc
+  ids:
+    ref: MAT 10:38!13
+    wordID: n40010038013
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
 - position: 14
-  ref: MAT 10:38!14
-  xml_id: n40010038014
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: adv
+  ids:
+    ref: MAT 10:38!14
+    wordID: n40010038014
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40010005006
 - position: 15
-  ref: MAT 10:38!15
-  xml_id: n40010038015
-  unicode: ἄξιος
+  text: ἄξιος
   lemma: ἄξιος
   normalized: ἄξιος
-  class: adj
-  morph: A-NSM
-  gloss: worthy
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '514'
-  domain: '065002'
-  ln: '65.17'
-  role: p
-syntax:
-  word_order: S-ADV-VC-ADV-P
+  ids:
+    ref: MAT 10:38!15
+    wordID: n40010038015
+  translation:
+    gloss: worthy
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '514'
+  semantic:
+    semanticDomain: '065002'
+    ln: '65.17'
+  syntax:
+    role: p

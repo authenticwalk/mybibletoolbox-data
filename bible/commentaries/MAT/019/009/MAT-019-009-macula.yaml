@@ -1,277 +1,372 @@
-verse:
-  reference: MAT 19:9
-  book_code: MAT
-  chapter: 19
-  verse: 9
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: λέγω δὲ ὑμῖν ὅτι ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ μὴ ἐπὶ πορνείᾳ καὶ γαμήσῃ
-    ἄλλην, μοιχᾶται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 19:9
+text: λέγω δὲ ὑμῖν ὅτι ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ μὴ ἐπὶ πορνείᾳ καὶ γαμήσῃ ἄλλην,
+  μοιχᾶται.
 words:
 - position: 1
-  ref: MAT 19:9!2
-  xml_id: n40019009002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 19:9!2
+    wordID: n40019009002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 19:9!1
-  xml_id: n40019009001
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 19:9!1
+    wordID: n40019009001
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40019001006 A2:n40019009003
+  discourse:
+    subject: n40019001006
 - position: 3
-  ref: MAT 19:9!3
-  xml_id: n40019009003
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 19:9!3
+    wordID: n40019009003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40019003004
 - position: 4
-  ref: MAT 19:9!4
-  xml_id: n40019009004
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 19:9!4
+    wordID: n40019009004
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 5
-  ref: MAT 19:9!6
-  xml_id: n40019009006
-  unicode: ἂν
+  text: ἂν
   lemma: ἄν
   normalized: ἄν
-  class: ptcl
-  morph: PRT
-  gloss: '-'
-  strong: '302'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 19:9!6
+    wordID: n40019009006
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
 - position: 6
-  ref: MAT 19:9!5
-  xml_id: n40019009005
-  unicode: ὃς
+  text: ὃς
   lemma: ὅς
   normalized: ὅς
-  class: pron
-  morph: R-NSM
-  gloss: whoever
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: s
+  ids:
+    ref: MAT 19:9!5
+    wordID: n40019009005
+  translation:
+    gloss: whoever
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
 - position: 7
-  ref: MAT 19:9!7
-  xml_id: n40019009007
-  unicode: ἀπολύσῃ
+  text: ἀπολύσῃ
   lemma: ἀπολύω
   normalized: ἀπολύσῃ
-  class: verb
-  morph: V-AAS-3S
-  gloss: shall divorce
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '630'
-  domain: '034010'
-  ln: '34.78'
-  role: v
+  ids:
+    ref: MAT 19:9!7
+    wordID: n40019009007
+  translation:
+    gloss: shall divorce
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '034010'
+    ln: '34.78'
+  syntax:
+    role: v
+    frame: A0:n40019009005 A1:n40019009009
 - position: 8
-  ref: MAT 19:9!8
-  xml_id: n40019009008
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: '-'
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 19:9!8
+    wordID: n40019009008
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 19:9!9
-  xml_id: n40019009009
-  unicode: γυναῖκα
+  text: γυναῖκα
   lemma: γυνή
   normalized: γυναῖκα
-  class: noun
-  morph: N-ASF
-  gloss: wife
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1135'
-  domain: '010004'
-  ln: '10.54'
+  ids:
+    ref: MAT 19:9!9
+    wordID: n40019009009
+  translation:
+    gloss: wife
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1135'
+  semantic:
+    semanticDomain: '010004'
+    ln: '10.54'
 - position: 10
-  ref: MAT 19:9!10
-  xml_id: n40019009010
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 19:9!10
+    wordID: n40019009010
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40019009005
 - position: 11
-  ref: MAT 19:9!11
-  xml_id: n40019009011
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: except
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 19:9!11
+    wordID: n40019009011
+  translation:
+    gloss: except
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 12
-  ref: MAT 19:9!12
-  xml_id: n40019009012
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: for
-  strong: '1909'
-  domain: 089007
-  ln: '89.27'
+  ids:
+    ref: MAT 19:9!12
+    wordID: n40019009012
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.27'
 - position: 13
-  ref: MAT 19:9!13
-  xml_id: n40019009013
-  unicode: πορνείᾳ
+  text: πορνείᾳ
   lemma: πορνεία
   normalized: πορνείᾳ
-  class: noun
-  morph: N-DSF
-  gloss: sexual immorality
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '4202'
-  domain: 088036
-  ln: '88.271'
+  ids:
+    ref: MAT 19:9!13
+    wordID: n40019009013
+  translation:
+    gloss: sexual immorality
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4202'
+  semantic:
+    semanticDomain: 088036
+    ln: '88.271'
 - position: 14
-  ref: MAT 19:9!14
-  xml_id: n40019009014
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 19:9!14
+    wordID: n40019009014
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 15
-  ref: MAT 19:9!15
-  xml_id: n40019009015
-  unicode: γαμήσῃ
+  text: γαμήσῃ
   lemma: γαμέω
   normalized: γαμήσῃ
-  class: verb
-  morph: V-AAS-3S
-  gloss: shall marry
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1060'
-  domain: '034010'
-  ln: '34.66'
-  role: v
+  ids:
+    ref: MAT 19:9!15
+    wordID: n40019009015
+  translation:
+    gloss: shall marry
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1060'
+  semantic:
+    semanticDomain: '034010'
+    ln: '34.66'
+  syntax:
+    role: v
+    frame: A0:n40019009005 A1:n40019009016
+  discourse:
+    subject: n40019009005
 - position: 16
-  ref: MAT 19:9!16
-  xml_id: n40019009016
-  unicode: ἄλλην
+  text: ἄλλην
   lemma: ἄλλος
   normalized: ἄλλην
-  class: adj
-  morph: A-ASF
-  gloss: another
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
-  role: o
+  ids:
+    ref: MAT 19:9!16
+    wordID: n40019009016
+  translation:
+    gloss: another
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
+  syntax:
+    role: o
 - position: 17
-  ref: MAT 19:9!17
-  xml_id: n40019009017
-  unicode: μοιχᾶται
+  text: μοιχᾶται
   lemma: μοιχάω
   normalized: μοιχᾶται
-  class: verb
-  morph: V-PNI-3S
-  gloss: commits adultery
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '3429'
-  domain: 088036
-  ln: '88.276'
-  role: v
-syntax:
-  word_order: S-V
+  ids:
+    ref: MAT 19:9!17
+    wordID: n40019009017
+  translation:
+    gloss: commits adultery
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '3429'
+  semantic:
+    semanticDomain: 088036
+    ln: '88.276'
+  syntax:
+    role: v
+    frame: A0:n40019009007;n40019009015

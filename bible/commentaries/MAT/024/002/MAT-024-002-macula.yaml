@@ -1,352 +1,488 @@
-verse:
-  reference: MAT 24:2
-  book_code: MAT
-  chapter: 24
-  verse: 2
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς Οὐ βλέπετε ταῦτα πάντα; ἀμὴν λέγω ὑμῖν, οὐ
-    μὴ ἀφεθῇ ὧδε λίθος ἐπὶ λίθον ὃς οὐ καταλυθήσεται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:2
+text: ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς Οὐ βλέπετε ταῦτα πάντα; ἀμὴν λέγω ὑμῖν, οὐ μὴ ἀφεθῇ
+  ὧδε λίθος ἐπὶ λίθον ὃς οὐ καταλυθήσεται.
 words:
 - position: 1
-  ref: MAT 24:2!2
-  xml_id: n40024002002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 24:2!2
+    wordID: n40024002002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 24:2!1
-  xml_id: n40024002001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 24:2!1
+    wordID: n40024002001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40024001004
 - position: 3
-  ref: MAT 24:2!3
-  xml_id: n40024002003
-  unicode: ἀποκριθεὶς
+  text: ἀποκριθεὶς
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθείς
-  class: verb
-  morph: V-AOP-NSM
-  gloss: answering
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '611'
-  domain: '033004'
-  ln: '33.28'
-  role: v
+  ids:
+    ref: MAT 24:2!3
+    wordID: n40024002003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A1:n40024001004
+  discourse:
+    subject: n40024001004
 - position: 4
-  ref: MAT 24:2!4
-  xml_id: n40024002004
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 24:2!4
+    wordID: n40024002004
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40024002001 A2:n40024002005
 - position: 5
-  ref: MAT 24:2!5
-  xml_id: n40024002005
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 24:2!5
+    wordID: n40024002005
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40024001012
 - position: 6
-  ref: MAT 24:2!6
-  xml_id: n40024002006
-  unicode: Οὐ
+  text: Οὐ
   lemma: οὐ
   normalized: Οὐ
-  class: ptcl
-  morph: PRT-N
-  gloss: Not
-  strong: '3756'
-  domain: 069004
-  ln: '69.11'
+  ids:
+    ref: MAT 24:2!6
+    wordID: n40024002006
+  translation:
+    gloss: Not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.11'
 - position: 7
-  ref: MAT 24:2!7
-  xml_id: n40024002007
-  unicode: βλέπετε
+  text: βλέπετε
   lemma: βλέπω
   normalized: βλέπετε
-  class: verb
-  morph: V-PAI-2P
-  gloss: do you see
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '991'
-  domain: '024001'
-  ln: '24.7'
-  role: v
+  ids:
+    ref: MAT 24:2!7
+    wordID: n40024002007
+  translation:
+    gloss: do you see
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '991'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.7'
+  syntax:
+    role: v
+    frame: A0:n40024001012 A1:n40024002008
+  discourse:
+    subject: n40024001012
 - position: 8
-  ref: MAT 24:2!8
-  xml_id: n40024002008
-  unicode: ταῦτα
+  text: ταῦτα
   lemma: οὗτος
   normalized: ταῦτα
-  class: pron
-  morph: D-APN
-  gloss: these things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
+  ids:
+    ref: MAT 24:2!8
+    wordID: n40024002008
+  translation:
+    gloss: these things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  discourse:
+    referent: n40024001017
 - position: 9
-  ref: MAT 24:2!9
-  xml_id: n40024002009
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: all
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 24:2!9
+    wordID: n40024002009
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 10
-  ref: MAT 24:2!10
-  xml_id: n40024002010
-  unicode: ἀμὴν
+  text: ἀμὴν
   lemma: ἀμήν
   normalized: ἀμήν
-  class: ptcl
-  morph: HEB
-  gloss: Truly
-  strong: '281'
-  domain: '072001'
-  ln: '72.6'
+  ids:
+    ref: MAT 24:2!10
+    wordID: n40024002010
+  translation:
+    gloss: Truly
+  morphology:
+    class: ptcl
+    morph: HEB
+  lexical:
+    strong: '281'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.6'
 - position: 11
-  ref: MAT 24:2!11
-  xml_id: n40024002011
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 24:2!11
+    wordID: n40024002011
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40024001004 A2:n40024002012
+  discourse:
+    subject: n40024001004
 - position: 12
-  ref: MAT 24:2!12
-  xml_id: n40024002012
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 24:2!12
+    wordID: n40024002012
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40024001012
 - position: 13
-  ref: MAT 24:2!13
-  xml_id: n40024002013
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: none
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 24:2!13
+    wordID: n40024002013
+  translation:
+    gloss: none
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 14
-  ref: MAT 24:2!14
-  xml_id: n40024002014
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not even
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 24:2!14
+    wordID: n40024002014
+  translation:
+    gloss: not even
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 15
-  ref: MAT 24:2!15
-  xml_id: n40024002015
-  unicode: ἀφεθῇ
+  text: ἀφεθῇ
   lemma: ἀφίημι
   normalized: ἀφεθῇ
-  class: verb
-  morph: V-APS-3S
-  gloss: shall be left
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '863'
-  domain: 085003
-  ln: '85.62'
-  role: v
+  ids:
+    ref: MAT 24:2!15
+    wordID: n40024002015
+  translation:
+    gloss: shall be left
+  morphology:
+    class: verb
+    morph: V-APS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: 085003
+    ln: '85.62'
+  syntax:
+    role: v
+    frame: A1:n40024002017
 - position: 16
-  ref: MAT 24:2!16
-  xml_id: n40024002016
-  unicode: ὧδε
+  text: ὧδε
   lemma: ὧδε
   normalized: ὧδε
-  class: adv
-  morph: ADV
-  gloss: here
-  strong: '5602'
-  domain: 083001
-  ln: '83.1'
-  role: adv
+  ids:
+    ref: MAT 24:2!16
+    wordID: n40024002016
+  translation:
+    gloss: here
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5602'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.1'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40024001017
 - position: 17
-  ref: MAT 24:2!18
-  xml_id: n40024002018
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: upon
-  strong: '1909'
-  domain: 083008
-  ln: '83.46'
+  ids:
+    ref: MAT 24:2!18
+    wordID: n40024002018
+  translation:
+    gloss: upon
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
 - position: 18
-  ref: MAT 24:2!19
-  xml_id: n40024002019
-  unicode: λίθον
+  text: λίθον
   lemma: λίθος
   normalized: λίθον
-  class: noun
-  morph: N-ASM
-  gloss: stone
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3037'
+  ids:
+    ref: MAT 24:2!19
+    wordID: n40024002019
+  translation:
+    gloss: stone
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3037'
+  syntax:
+    discontinuous: 'true'
 - position: 19
-  ref: MAT 24:2!17
-  xml_id: n40024002017
-  unicode: λίθος
+  text: λίθος
   lemma: λίθος
   normalized: λίθος
-  class: noun
-  morph: N-NSM
-  gloss: stone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3037'
+  ids:
+    ref: MAT 24:2!17
+    wordID: n40024002017
+  translation:
+    gloss: stone
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3037'
 - position: 20
-  ref: MAT 24:2!20
-  xml_id: n40024002020
-  unicode: ὃς
+  text: ὃς
   lemma: ὅς
   normalized: ὅς
-  class: pron
-  morph: R-NSM
-  gloss: which
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: s
+  ids:
+    ref: MAT 24:2!20
+    wordID: n40024002020
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
+  discourse:
+    referent: n40024002017
 - position: 21
-  ref: MAT 24:2!21
-  xml_id: n40024002021
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 24:2!21
+    wordID: n40024002021
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 22
-  ref: MAT 24:2!22
-  xml_id: n40024002022
-  unicode: καταλυθήσεται
+  text: καταλυθήσεται
   lemma: καταλύω
   normalized: καταλυθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: will be thrown down
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '2647'
-  domain: '020003'
-  ln: '20.54'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 24:2!22
+    wordID: n40024002022
+  translation:
+    gloss: will be thrown down
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2647'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.54'
+  syntax:
+    role: v
+    frame: A1:n40024002020

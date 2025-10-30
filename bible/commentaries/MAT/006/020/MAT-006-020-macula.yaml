@@ -1,298 +1,401 @@
-verse:
-  reference: MAT 6:20
-  book_code: MAT
-  chapter: 6
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: θησαυρίζετε δὲ ὑμῖν θησαυροὺς ἐν οὐρανῷ, ὅπου οὔτε σὴς οὔτε βρῶσις ἀφανίζει,
-    καὶ ὅπου κλέπται οὐ διορύσσουσιν οὐδὲ κλέπτουσιν·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:20
+text: θησαυρίζετε δὲ ὑμῖν θησαυροὺς ἐν οὐρανῷ, ὅπου οὔτε σὴς οὔτε βρῶσις ἀφανίζει,
+  καὶ ὅπου κλέπται οὐ διορύσσουσιν οὐδὲ κλέπτουσιν·
 words:
 - position: 1
-  ref: MAT 6:20!2
-  xml_id: n40006020002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 6:20!2
+    wordID: n40006020002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 6:20!1
-  xml_id: n40006020001
-  unicode: θησαυρίζετε
+  text: θησαυρίζετε
   lemma: θησαυρίζω
   normalized: θησαυρίζετε
-  class: verb
-  morph: V-PAM-2P
-  gloss: store up
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '2343'
-  domain: '065001'
-  ln: '65.11'
-  role: v
+  ids:
+    ref: MAT 6:20!1
+    wordID: n40006020001
+  translation:
+    gloss: store up
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2343'
+  semantic:
+    semanticDomain: '065001'
+    ln: '65.11'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A2:n40006020003 A1:n40006020004
+  discourse:
+    subject: n40005001015
 - position: 3
-  ref: MAT 6:20!3
-  xml_id: n40006020003
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: for yourselves
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 6:20!3
+    wordID: n40006020003
+  translation:
+    gloss: for yourselves
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
 - position: 4
-  ref: MAT 6:20!4
-  xml_id: n40006020004
-  unicode: θησαυροὺς
+  text: θησαυροὺς
   lemma: θησαυρός
   normalized: θησαυρούς
-  class: noun
-  morph: N-APM
-  gloss: treasures
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '2344'
-  domain: '065001'
-  ln: '65.10'
-  role: o
+  ids:
+    ref: MAT 6:20!4
+    wordID: n40006020004
+  translation:
+    gloss: treasures
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2344'
+  semantic:
+    semanticDomain: '065001'
+    ln: '65.10'
+  syntax:
+    role: o
 - position: 5
-  ref: MAT 6:20!5
-  xml_id: n40006020005
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 6:20!5
+    wordID: n40006020005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 6
-  ref: MAT 6:20!6
-  xml_id: n40006020006
-  unicode: οὐρανῷ
+  text: οὐρανῷ
   lemma: οὐρανός
   normalized: οὐρανῷ
-  class: noun
-  morph: N-DSM
-  gloss: heaven
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '3772'
-  domain: '001002'
-  ln: '1.11'
+  ids:
+    ref: MAT 6:20!6
+    wordID: n40006020006
+  translation:
+    gloss: heaven
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3772'
+  semantic:
+    semanticDomain: '001002'
+    ln: '1.11'
 - position: 7
-  ref: MAT 6:20!7
-  xml_id: n40006020007
-  unicode: ὅπου
+  text: ὅπου
   lemma: ὅπου
   normalized: ὅπου
-  class: adv
-  morph: ADV
-  gloss: where
-  strong: '3699'
-  domain: 083002
-  ln: '83.5'
-  role: adv
+  ids:
+    ref: MAT 6:20!7
+    wordID: n40006020007
+  translation:
+    gloss: where
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3699'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.5'
+  syntax:
+    role: adv
 - position: 8
-  ref: MAT 6:20!8
-  xml_id: n40006020008
-  unicode: οὔτε
+  text: οὔτε
   lemma: οὔτε
   normalized: οὔτε
-  class: conj
-  morph: CONJ-N
-  gloss: neither
-  strong: '3777'
-  domain: 069003
-  ln: '69.9'
+  ids:
+    ref: MAT 6:20!8
+    wordID: n40006020008
+  translation:
+    gloss: neither
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3777'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.9'
 - position: 9
-  ref: MAT 6:20!9
-  xml_id: n40006020009
-  unicode: σὴς
+  text: σὴς
   lemma: σής
   normalized: σής
-  class: noun
-  morph: N-NSM
-  gloss: moth
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4597'
-  domain: '004003'
-  ln: '4.49'
+  ids:
+    ref: MAT 6:20!9
+    wordID: n40006020009
+  translation:
+    gloss: moth
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4597'
+  semantic:
+    semanticDomain: '004003'
+    ln: '4.49'
 - position: 10
-  ref: MAT 6:20!10
-  xml_id: n40006020010
-  unicode: οὔτε
+  text: οὔτε
   lemma: οὔτε
   normalized: οὔτε
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3777'
-  domain: 069003
-  ln: '69.9'
+  ids:
+    ref: MAT 6:20!10
+    wordID: n40006020010
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3777'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.9'
 - position: 11
-  ref: MAT 6:20!11
-  xml_id: n40006020011
-  unicode: βρῶσις
+  text: βρῶσις
   lemma: βρῶσις
   normalized: βρῶσις
-  class: noun
-  morph: N-NSF
-  gloss: rust
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1035'
-  domain: '002007'
-  ln: '2.62'
+  ids:
+    ref: MAT 6:20!11
+    wordID: n40006020011
+  translation:
+    gloss: rust
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1035'
+  semantic:
+    semanticDomain: '002007'
+    ln: '2.62'
 - position: 12
-  ref: MAT 6:20!12
-  xml_id: n40006020012
-  unicode: ἀφανίζει
+  text: ἀφανίζει
   lemma: ἀφανίζω
   normalized: ἀφανίζει
-  class: verb
-  morph: V-PAI-3S
-  gloss: destroy
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '853'
-  domain: '020003'
-  ln: '20.46'
-  role: v
+  ids:
+    ref: MAT 6:20!12
+    wordID: n40006020012
+  translation:
+    gloss: destroy
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '853'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.46'
+  syntax:
+    role: v
+    frame: A0:n40006020009;n40006020011
 - position: 13
-  ref: MAT 6:20!13
-  xml_id: n40006020013
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 6:20!13
+    wordID: n40006020013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 14
-  ref: MAT 6:20!14
-  xml_id: n40006020014
-  unicode: ὅπου
+  text: ὅπου
   lemma: ὅπου
   normalized: ὅπου
-  class: adv
-  morph: ADV
-  gloss: where
-  strong: '3699'
-  domain: 083002
-  ln: '83.5'
-  role: adv
+  ids:
+    ref: MAT 6:20!14
+    wordID: n40006020014
+  translation:
+    gloss: where
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3699'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.5'
+  syntax:
+    role: adv
 - position: 15
-  ref: MAT 6:20!15
-  xml_id: n40006020015
-  unicode: κλέπται
+  text: κλέπται
   lemma: κλέπτης
   normalized: κλέπται
-  class: noun
-  morph: N-NPM
-  gloss: thieves
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '2812'
-  domain: '057021'
-  ln: '57.233'
-  role: s
+  ids:
+    ref: MAT 6:20!15
+    wordID: n40006020015
+  translation:
+    gloss: thieves
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '2812'
+  semantic:
+    semanticDomain: '057021'
+    ln: '57.233'
+  syntax:
+    role: s
 - position: 16
-  ref: MAT 6:20!16
-  xml_id: n40006020016
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 6:20!16
+    wordID: n40006020016
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 17
-  ref: MAT 6:20!17
-  xml_id: n40006020017
-  unicode: διορύσσουσιν
+  text: διορύσσουσιν
   lemma: διορύσσω
   normalized: διορύσσουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: do break in
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1358'
-  domain: 019004
-  ln: '19.41'
+  ids:
+    ref: MAT 6:20!17
+    wordID: n40006020017
+  translation:
+    gloss: do break in
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1358'
+  semantic:
+    semanticDomain: 019004
+    ln: '19.41'
+  syntax:
+    frame: A0:n40006020015
 - position: 18
-  ref: MAT 6:20!18
-  xml_id: n40006020018
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 6:20!18
+    wordID: n40006020018
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 19
-  ref: MAT 6:20!19
-  xml_id: n40006020019
-  unicode: κλέπτουσιν
+  text: κλέπτουσιν
   lemma: κλέπτω
   normalized: κλέπτουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: steal
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2813'
-  domain: '057021'
-  ln: '57.232'
-syntax:
-  word_order: ADV-S-V
+  ids:
+    ref: MAT 6:20!19
+    wordID: n40006020019
+  translation:
+    gloss: steal
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2813'
+  semantic:
+    semanticDomain: '057021'
+    ln: '57.232'
+  syntax:
+    frame: A0:n40006020015

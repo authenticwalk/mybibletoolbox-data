@@ -1,179 +1,231 @@
-verse:
-  reference: MAT 18:24
-  book_code: MAT
-  chapter: 18
-  verse: 24
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἀρξαμένου δὲ αὐτοῦ συναίρειν προσήχθη εἷς αὐτῷ ὀφειλέτης μυρίων ταλάντων.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:24
+text: ἀρξαμένου δὲ αὐτοῦ συναίρειν προσήχθη εἷς αὐτῷ ὀφειλέτης μυρίων ταλάντων.
 words:
 - position: 1
-  ref: MAT 18:24!2
-  xml_id: n40018024002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 18:24!2
+    wordID: n40018024002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 18:24!1
-  xml_id: n40018024001
-  unicode: ἀρξαμένου
+  text: ἀρξαμένου
   lemma: ἄρχω
   normalized: ἀρξαμένου
-  class: verb
-  morph: V-AMP-GSM
-  gloss: Having begun
-  gender: masculine
-  number: singular
-  case: genitive
-  tense: aorist
-  voice: middle
-  mood: participle
-  strong: '756'
-  domain: 068001
-  ln: '68.1'
-  role: v
+  ids:
+    ref: MAT 18:24!1
+    wordID: n40018024001
+  translation:
+    gloss: Having begun
+  morphology:
+    class: verb
+    morph: V-AMP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '756'
+  semantic:
+    semanticDomain: 068001
+    ln: '68.1'
+  syntax:
+    role: v
+    frame: A0:n40018024003 A1:n40018024004
 - position: 3
-  ref: MAT 18:24!3
-  xml_id: n40018024003
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: he
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 18:24!3
+    wordID: n40018024003
+  translation:
+    gloss: he
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40018023008
 - position: 4
-  ref: MAT 18:24!4
-  xml_id: n40018024004
-  unicode: συναίρειν
+  text: συναίρειν
   lemma: συναίρω
   normalized: συναίρειν
-  class: verb
-  morph: V-PAN
-  gloss: to settle
-  tense: present
-  voice: active
-  mood: infinitive
-  strong: '4868'
-  domain: '057020'
-  ln: '57.229'
-  role: v
+  ids:
+    ref: MAT 18:24!4
+    wordID: n40018024004
+  translation:
+    gloss: to settle
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4868'
+  semantic:
+    semanticDomain: '057020'
+    ln: '57.229'
+  syntax:
+    role: v
+    frame: A0:n40018023008
+  discourse:
+    subject: n40018023008
 - position: 5
-  ref: MAT 18:24!5
-  xml_id: n40018024005
-  unicode: προσήχθη
+  text: προσήχθη
   lemma: προσάγω
   normalized: προσήχθη
-  class: verb
-  morph: V-API-3S
-  gloss: was brought
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '4317'
-  role: v
+  ids:
+    ref: MAT 18:24!5
+    wordID: n40018024005
+  translation:
+    gloss: was brought
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4317'
+  syntax:
+    role: v
+    frame: A2:n40018024006 A1:n40018024008
 - position: 6
-  ref: MAT 18:24!7
-  xml_id: n40018024007
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 18:24!7
+    wordID: n40018024007
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+    discontinuous: 'true'
+  discourse:
+    referent: n40018023008
 - position: 7
-  ref: MAT 18:24!6
-  xml_id: n40018024006
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: 092004
-  ln: '92.22'
+  ids:
+    ref: MAT 18:24!6
+    wordID: n40018024006
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
 - position: 8
-  ref: MAT 18:24!8
-  xml_id: n40018024008
-  unicode: ὀφειλέτης
+  text: ὀφειλέτης
   lemma: ὀφειλέτης
   normalized: ὀφειλέτης
-  class: noun
-  morph: N-NSM
-  gloss: a debtor
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3781'
-  domain: 057018
-  ln: '57.222'
+  ids:
+    ref: MAT 18:24!8
+    wordID: n40018024008
+  translation:
+    gloss: a debtor
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3781'
+  semantic:
+    semanticDomain: 057018
+    ln: '57.222'
 - position: 9
-  ref: MAT 18:24!9
-  xml_id: n40018024009
-  unicode: μυρίων
+  text: μυρίων
   lemma: μύριοι
   normalized: μυρίων
-  class: adj
-  morph: A-GPN
-  gloss: of ten thousand
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '3463'
-  domain: '060002'
-  ln: '60.45'
+  ids:
+    ref: MAT 18:24!9
+    wordID: n40018024009
+  translation:
+    gloss: of ten thousand
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '3463'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.45'
 - position: 10
-  ref: MAT 18:24!10
-  xml_id: n40018024010
-  unicode: ταλάντων
+  text: ταλάντων
   lemma: τάλαντον
   normalized: ταλάντων
-  class: noun
-  morph: N-GPN
-  gloss: talents
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '5007'
-  domain: '006011'
-  ln: '6.82'
-syntax:
-  word_order: V-S-O
+  ids:
+    ref: MAT 18:24!10
+    wordID: n40018024010
+  translation:
+    gloss: talents
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '5007'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.82'

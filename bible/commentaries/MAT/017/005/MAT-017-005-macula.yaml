@@ -1,453 +1,616 @@
-verse:
-  reference: MAT 17:5
-  book_code: MAT
-  chapter: 17
-  verse: 5
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἔτι αὐτοῦ λαλοῦντος, ἰδοὺ νεφέλη φωτεινὴ ἐπεσκίασεν αὐτούς, καὶ ἰδοὺ φωνὴ
-    ἐκ τῆς νεφέλης λέγουσα Οὗτός ἐστιν ὁ Υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα· ἀκούετε
-    αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 17:5
+text: ἔτι αὐτοῦ λαλοῦντος, ἰδοὺ νεφέλη φωτεινὴ ἐπεσκίασεν αὐτούς, καὶ ἰδοὺ φωνὴ ἐκ
+  τῆς νεφέλης λέγουσα Οὗτός ἐστιν ὁ Υἱός μου ὁ ἀγαπητός, ἐν ᾧ εὐδόκησα· ἀκούετε αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 17:5!1
-  xml_id: n40017005001
-  unicode: ἔτι
+  text: ἔτι
   lemma: ἔτι
   normalized: ἔτι
-  class: adv
-  morph: ADV
-  gloss: While yet
-  strong: '2089'
-  domain: '067006'
-  ln: '67.128'
-  role: adv
+  ids:
+    ref: MAT 17:5!1
+    wordID: n40017005001
+  translation:
+    gloss: While yet
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2089'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.128'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 17:5!2
-  xml_id: n40017005002
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: he
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 17:5!2
+    wordID: n40017005002
+  translation:
+    gloss: he
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40017004004
 - position: 3
-  ref: MAT 17:5!3
-  xml_id: n40017005003
-  unicode: λαλοῦντος
+  text: λαλοῦντος
   lemma: λαλέω
   normalized: λαλοῦντος
-  class: verb
-  morph: V-PAP-GSM
-  gloss: was speaking
-  gender: masculine
-  number: singular
-  case: genitive
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2980'
-  domain: '033006'
-  ln: '33.70'
-  role: v
+  ids:
+    ref: MAT 17:5!3
+    wordID: n40017005003
+  translation:
+    gloss: was speaking
+  morphology:
+    class: verb
+    morph: V-PAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n40017005002
 - position: 4
-  ref: MAT 17:5!4
-  xml_id: n40017005004
-  unicode: ἰδοὺ
+  text: ἰδοὺ
   lemma: ὁράω
   normalized: ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 17:5!4
+    wordID: n40017005004
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
 - position: 5
-  ref: MAT 17:5!5
-  xml_id: n40017005005
-  unicode: νεφέλη
+  text: νεφέλη
   lemma: νεφέλη
   normalized: νεφέλη
-  class: noun
-  morph: N-NSF
-  gloss: a cloud
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '3507'
-  domain: '001005'
-  ln: '1.34'
+  ids:
+    ref: MAT 17:5!5
+    wordID: n40017005005
+  translation:
+    gloss: a cloud
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3507'
+  semantic:
+    semanticDomain: '001005'
+    ln: '1.34'
 - position: 6
-  ref: MAT 17:5!6
-  xml_id: n40017005006
-  unicode: φωτεινὴ
+  text: φωτεινὴ
   lemma: φωτεινός
   normalized: φωτεινή
-  class: adj
-  morph: A-NSF
-  gloss: bright
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '5460'
-  domain: '014006'
-  ln: '14.50'
+  ids:
+    ref: MAT 17:5!6
+    wordID: n40017005006
+  translation:
+    gloss: bright
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '5460'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.50'
 - position: 7
-  ref: MAT 17:5!7
-  xml_id: n40017005007
-  unicode: ἐπεσκίασεν
+  text: ἐπεσκίασεν
   lemma: ἐπισκιάζω
   normalized: ἐπεσκίασεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: overshadowed
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1982'
-  domain: '014007'
-  ln: '14.62'
-  role: v
+  ids:
+    ref: MAT 17:5!7
+    wordID: n40017005007
+  translation:
+    gloss: overshadowed
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1982'
+  semantic:
+    semanticDomain: '014007'
+    ln: '14.62'
+  syntax:
+    role: v
+    frame: A0:n40017005005 A1:n40017005008
 - position: 8
-  ref: MAT 17:5!8
-  xml_id: n40017005008
-  unicode: αὐτούς
+  text: αὐτούς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 17:5!8
+    wordID: n40017005008
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40017004004 n40017001011 n40017001013 n40017004008 n40017003005 n40017003007
 - position: 9
-  ref: MAT 17:5!9
-  xml_id: n40017005009
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 17:5!9
+    wordID: n40017005009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 10
-  ref: MAT 17:5!10
-  xml_id: n40017005010
-  unicode: ἰδοὺ
+  text: ἰδοὺ
   lemma: ὁράω
   normalized: ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 17:5!10
+    wordID: n40017005010
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
 - position: 11
-  ref: MAT 17:5!11
-  xml_id: n40017005011
-  unicode: φωνὴ
+  text: φωνὴ
   lemma: φωνή
   normalized: φωνή
-  class: noun
-  morph: N-NSF
-  gloss: a voice
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '5456'
-  domain: '033006'
-  ln: '33.103'
-  role: s
+  ids:
+    ref: MAT 17:5!11
+    wordID: n40017005011
+  translation:
+    gloss: a voice
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5456'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.103'
+  syntax:
+    role: s
 - position: 12
-  ref: MAT 17:5!12
-  xml_id: n40017005012
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: out of
-  strong: '1537'
-  domain: 084001
-  ln: '84.4'
+  ids:
+    ref: MAT 17:5!12
+    wordID: n40017005012
+  translation:
+    gloss: out of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.4'
 - position: 13
-  ref: MAT 17:5!13
-  xml_id: n40017005013
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:5!13
+    wordID: n40017005013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 17:5!14
-  xml_id: n40017005014
-  unicode: νεφέλης
+  text: νεφέλης
   lemma: νεφέλη
   normalized: νεφέλης
-  class: noun
-  morph: N-GSF
-  gloss: cloud
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3507'
-  domain: '001005'
-  ln: '1.34'
+  ids:
+    ref: MAT 17:5!14
+    wordID: n40017005014
+  translation:
+    gloss: cloud
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3507'
+  semantic:
+    semanticDomain: '001005'
+    ln: '1.34'
 - position: 15
-  ref: MAT 17:5!15
-  xml_id: n40017005015
-  unicode: λέγουσα
+  text: λέγουσα
   lemma: λέγω
   normalized: λέγουσα
-  class: verb
-  morph: V-PAP-NSF
-  gloss: saying
-  gender: feminine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 17:5!15
+    wordID: n40017005015
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40017005011
+  discourse:
+    subject: n40017005011
 - position: 16
-  ref: MAT 17:5!16
-  xml_id: n40017005016
-  unicode: Οὗτός
+  text: Οὗτός
   lemma: οὗτος
   normalized: Οὗτος
-  class: pron
-  morph: D-NSM
-  gloss: This
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
-  role: s
+  ids:
+    ref: MAT 17:5!16
+    wordID: n40017005016
+  translation:
+    gloss: This
+  morphology:
+    class: pron
+    morph: D-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: s
+  discourse:
+    referent: n40017004007
 - position: 17
-  ref: MAT 17:5!17
-  xml_id: n40017005017
-  unicode: ἐστιν
+  text: ἐστιν
   lemma: εἰμί
   normalized: ἐστιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: is
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
+  ids:
+    ref: MAT 17:5!17
+    wordID: n40017005017
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
 - position: 18
-  ref: MAT 17:5!18
-  xml_id: n40017005018
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:5!18
+    wordID: n40017005018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 17:5!19
-  xml_id: n40017005019
-  unicode: Υἱός
+  text: Υἱός
   lemma: υἱός
   normalized: Υἱός
-  class: noun
-  morph: N-NSM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 17:5!19
+    wordID: n40017005019
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 20
-  ref: MAT 17:5!20
-  xml_id: n40017005020
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 17:5!20
+    wordID: n40017005020
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40017005011
 - position: 21
-  ref: MAT 17:5!21
-  xml_id: n40017005021
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 17:5!21
+    wordID: n40017005021
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 22
-  ref: MAT 17:5!22
-  xml_id: n40017005022
-  unicode: ἀγαπητός
+  text: ἀγαπητός
   lemma: ἀγαπητός
   normalized: ἀγαπητός
-  class: adj
-  morph: A-NSM
-  gloss: beloved
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '27'
-  domain: 058007
-  ln: '58.53'
+  ids:
+    ref: MAT 17:5!22
+    wordID: n40017005022
+  translation:
+    gloss: beloved
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '27'
+  semantic:
+    semanticDomain: 058007
+    ln: '58.53'
 - position: 23
-  ref: MAT 17:5!23
-  xml_id: n40017005023
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 089004
-  ln: '89.5'
+  ids:
+    ref: MAT 17:5!23
+    wordID: n40017005023
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.5'
 - position: 24
-  ref: MAT 17:5!24
-  xml_id: n40017005024
-  unicode: ᾧ
+  text: ᾧ
   lemma: ὅς
   normalized: ᾧ
-  class: pron
-  morph: R-DSM
-  gloss: whom
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
+  ids:
+    ref: MAT 17:5!24
+    wordID: n40017005024
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: R-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  discourse:
+    referent: n40017004007
 - position: 25
-  ref: MAT 17:5!25
-  xml_id: n40017005025
-  unicode: εὐδόκησα
+  text: εὐδόκησα
   lemma: εὐδοκέω
   normalized: εὐδόκησα
-  class: verb
-  morph: V-AAI-1S
-  gloss: I am well pleased
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2106'
-  domain: 025008
-  ln: '25.87'
-  role: v
+  ids:
+    ref: MAT 17:5!25
+    wordID: n40017005025
+  translation:
+    gloss: I am well pleased
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2106'
+  semantic:
+    semanticDomain: 025008
+    ln: '25.87'
+  syntax:
+    role: v
+    frame: A0:n40017005011
+  discourse:
+    subject: n40017005011
 - position: 26
-  ref: MAT 17:5!26
-  xml_id: n40017005026
-  unicode: ἀκούετε
+  text: ἀκούετε
   lemma: ἀκούω
   normalized: ἀκούετε
-  class: verb
-  morph: V-PAM-2P
-  gloss: Listen
-  number: plural
-  person: second
-  tense: present
-  voice: active
-  mood: imperative
-  strong: '191'
-  domain: 031007 036003
-  ln: 31.56 36.14
-  role: v
+  ids:
+    ref: MAT 17:5!26
+    wordID: n40017005026
+  translation:
+    gloss: Listen
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: 031007 036003
+    ln: 31.56 36.14
+  syntax:
+    role: v
+    frame: A0:n40017004004;n40017001011;n40017001013 A1:n40017005027
+  discourse:
+    subject: n40017004004 n40017001011 n40017001013
 - position: 27
-  ref: MAT 17:5!27
-  xml_id: n40017005027
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: ADV-S-V
+  ids:
+    ref: MAT 17:5!27
+    wordID: n40017005027
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40017004007

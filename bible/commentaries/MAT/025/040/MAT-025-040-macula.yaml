@@ -1,351 +1,477 @@
-verse:
-  reference: MAT 25:40
-  book_code: MAT
-  chapter: 25
-  verse: 40
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἀποκριθεὶς ὁ Βασιλεὺς ἐρεῖ αὐτοῖς Ἀμὴν λέγω ὑμῖν, ἐφ’ ὅσον ἐποιήσατε
-    ἑνὶ τούτων τῶν ἀδελφῶν μου τῶν ἐλαχίστων, ἐμοὶ ἐποιήσατε.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:40
+text: καὶ ἀποκριθεὶς ὁ Βασιλεὺς ἐρεῖ αὐτοῖς Ἀμὴν λέγω ὑμῖν, ἐφ’ ὅσον ἐποιήσατε ἑνὶ
+  τούτων τῶν ἀδελφῶν μου τῶν ἐλαχίστων, ἐμοὶ ἐποιήσατε.
 words:
 - position: 1
-  ref: MAT 25:40!1
-  xml_id: n40025040001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 25:40!1
+    wordID: n40025040001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 25:40!2
-  xml_id: n40025040002
-  unicode: ἀποκριθεὶς
+  text: ἀποκριθεὶς
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθείς
-  class: verb
-  morph: V-AOP-NSM
-  gloss: answering
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '611'
-  domain: '033014'
-  ln: '33.184'
-  role: v
+  ids:
+    ref: MAT 25:40!2
+    wordID: n40025040002
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n40025040004
+  discourse:
+    subject: n40025040004
 - position: 3
-  ref: MAT 25:40!3
-  xml_id: n40025040003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:40!3
+    wordID: n40025040003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 25:40!4
-  xml_id: n40025040004
-  unicode: Βασιλεὺς
+  text: Βασιλεὺς
   lemma: βασιλεύς
   normalized: Βασιλεύς
-  class: noun
-  morph: N-NSM
-  gloss: King
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '935'
-  domain: '037004'
-  ln: '37.67'
+  ids:
+    ref: MAT 25:40!4
+    wordID: n40025040004
+  translation:
+    gloss: King
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '935'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.67'
 - position: 5
-  ref: MAT 25:40!5
-  xml_id: n40025040005
-  unicode: ἐρεῖ
+  text: ἐρεῖ
   lemma: εἶπον
   normalized: ἐρεῖ
-  class: verb
-  morph: V-FAI-3S
-  gloss: will say
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2046'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:40!5
+    wordID: n40025040005
+  translation:
+    gloss: will say
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2046'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025040004 A2:n40025040006
 - position: 6
-  ref: MAT 25:40!6
-  xml_id: n40025040006
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 25:40!6
+    wordID: n40025040006
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025037005
 - position: 7
-  ref: MAT 25:40!7
-  xml_id: n40025040007
-  unicode: Ἀμὴν
+  text: Ἀμὴν
   lemma: ἀμήν
   normalized: Ἀμήν
-  class: ptcl
-  morph: HEB
-  gloss: Truly
-  strong: '281'
-  domain: '072001'
-  ln: '72.6'
+  ids:
+    ref: MAT 25:40!7
+    wordID: n40025040007
+  translation:
+    gloss: Truly
+  morphology:
+    class: ptcl
+    morph: HEB
+  lexical:
+    strong: '281'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.6'
 - position: 8
-  ref: MAT 25:40!8
-  xml_id: n40025040008
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:40!8
+    wordID: n40025040008
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025040004 A2:n40025040009
+  discourse:
+    subject: n40025040004
 - position: 9
-  ref: MAT 25:40!9
-  xml_id: n40025040009
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 25:40!9
+    wordID: n40025040009
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025037005
 - position: 10
-  ref: MAT 25:40!10
-  xml_id: n40025040010
-  unicode: ἐφ’
+  text: ἐφ’
   lemma: ἐπί
   normalized: ἐφ’
-  class: prep
-  morph: PREP
-  gloss: to the extent
-  strong: '1909'
-  domain: 078005
-  ln: '78.51'
+  ids:
+    ref: MAT 25:40!10
+    wordID: n40025040010
+  translation:
+    gloss: to the extent
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 078005
+    ln: '78.51'
 - position: 11
-  ref: MAT 25:40!11
-  xml_id: n40025040011
-  unicode: ὅσον
+  text: ὅσον
   lemma: ὅσος
   normalized: ὅσον
-  class: pron
-  morph: K-ASN
-  gloss: as much as
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3745'
-  domain: 059002
-  ln: '59.19'
-  role: adv
+  ids:
+    ref: MAT 25:40!11
+    wordID: n40025040011
+  translation:
+    gloss: as much as
+  morphology:
+    class: pron
+    morph: K-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3745'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.19'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 25:40!12
-  xml_id: n40025040012
-  unicode: ἐποιήσατε
+  text: ἐποιήσατε
   lemma: ποιέω
   normalized: ἐποιήσατε
-  class: verb
-  morph: V-AAI-2P
-  gloss: you did [it]
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4160'
-  domain: '041001'
-  ln: '41.7'
-  role: v
+  ids:
+    ref: MAT 25:40!12
+    wordID: n40025040012
+  translation:
+    gloss: you did [it]
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '041001'
+    ln: '41.7'
+  syntax:
+    role: v
+    frame: A0:n40025037005 A1:n40025040011 A2:n40025040013
+  discourse:
+    subject: n40025037005
 - position: 13
-  ref: MAT 25:40!13
-  xml_id: n40025040013
-  unicode: ἑνὶ
+  text: ἑνὶ
   lemma: εἷς
   normalized: ἑνί
-  class: adj
-  morph: A-DSM
-  gloss: to one
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '1520'
-  domain: 092004
-  ln: '92.22'
+  ids:
+    ref: MAT 25:40!13
+    wordID: n40025040013
+  translation:
+    gloss: to one
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
 - position: 14
-  ref: MAT 25:40!14
-  xml_id: n40025040014
-  unicode: τούτων
+  text: τούτων
   lemma: οὗτος
   normalized: τούτων
-  class: pron
-  morph: D-GPM
-  gloss: of these
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
+  ids:
+    ref: MAT 25:40!14
+    wordID: n40025040014
+  translation:
+    gloss: of these
+  morphology:
+    class: pron
+    morph: D-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
 - position: 15
-  ref: MAT 25:40!15
-  xml_id: n40025040015
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:40!15
+    wordID: n40025040015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 25:40!16
-  xml_id: n40025040016
-  unicode: ἀδελφῶν
+  text: ἀδελφῶν
   lemma: ἀδελφός
   normalized: ἀδελφῶν
-  class: noun
-  morph: N-GPM
-  gloss: brothers
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '80'
-  domain: '011002'
-  ln: '11.23'
+  ids:
+    ref: MAT 25:40!16
+    wordID: n40025040016
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
 - position: 17
-  ref: MAT 25:40!17
-  xml_id: n40025040017
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 25:40!17
+    wordID: n40025040017
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40025040004
 - position: 18
-  ref: MAT 25:40!18
-  xml_id: n40025040018
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:40!18
+    wordID: n40025040018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 25:40!19
-  xml_id: n40025040019
-  unicode: ἐλαχίστων
+  text: ἐλαχίστων
   lemma: ἐλάχιστος
   normalized: ἐλαχίστων
-  class: adj
-  morph: A-GPM-S
-  gloss: least
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '1646'
-  domain: 087004
-  ln: '87.66'
+  ids:
+    ref: MAT 25:40!19
+    wordID: n40025040019
+  translation:
+    gloss: least
+  morphology:
+    class: adj
+    morph: A-GPM-S
+    gender: masculine
+    number: plural
+    case: genitive
+    degree: superlative
+  lexical:
+    strong: '1646'
+  semantic:
+    semanticDomain: 087004
+    ln: '87.66'
 - position: 20
-  ref: MAT 25:40!20
-  xml_id: n40025040020
-  unicode: ἐμοὶ
+  text: ἐμοὶ
   lemma: ἐγώ
   normalized: ἐμοί
-  class: pron
-  morph: P-1DS
-  gloss: to Me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: io
+  ids:
+    ref: MAT 25:40!20
+    wordID: n40025040020
+  translation:
+    gloss: to Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025040004
 - position: 21
-  ref: MAT 25:40!21
-  xml_id: n40025040021
-  unicode: ἐποιήσατε
+  text: ἐποιήσατε
   lemma: ποιέω
   normalized: ἐποιήσατε
-  class: verb
-  morph: V-AAI-2P
-  gloss: you did [it]
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4160'
-  domain: '041001'
-  ln: '41.7'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 25:40!21
+    wordID: n40025040021
+  translation:
+    gloss: you did [it]
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '041001'
+    ln: '41.7'
+  syntax:
+    role: v
+    frame: A0:n40025037005 A1:n00000000000 A2:n40025040020
+  discourse:
+    subject: n40025037005

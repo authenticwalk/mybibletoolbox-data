@@ -1,139 +1,169 @@
-verse:
-  reference: MAT 8:16
-  book_code: MAT
-  chapter: 8
-  verse: 16
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ὀψίας δὲ γενομένης προσήνεγκαν αὐτῷ δαιμονιζομένους πολλούς·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:16
+text: Ὀψίας δὲ γενομένης προσήνεγκαν αὐτῷ δαιμονιζομένους πολλούς·
 words:
 - position: 1
-  ref: MAT 8:16!2
-  xml_id: n40008016002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 8:16!2
+    wordID: n40008016002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 8:16!1
-  xml_id: n40008016001
-  unicode: Ὀψίας
+  text: Ὀψίας
   lemma: ὄψιος
   normalized: Ὀψίας
-  class: adj
-  morph: A-GSF
-  gloss: Evening
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3798'
-  domain: 067009
-  ln: '67.197'
-  role: s
+  ids:
+    ref: MAT 8:16!1
+    wordID: n40008016001
+  translation:
+    gloss: Evening
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '3798'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.197'
+  syntax:
+    role: s
 - position: 3
-  ref: MAT 8:16!3
-  xml_id: n40008016003
-  unicode: γενομένης
+  text: γενομένης
   lemma: γίνομαι
   normalized: γενομένης
-  class: verb
-  morph: V-2ADP-GSF
-  gloss: having come
-  gender: feminine
-  number: singular
-  case: genitive
-  tense: aorist
-  voice: middle
-  mood: participle
-  strong: '1096'
-  domain: '013004'
-  ln: '13.107'
-  role: v
+  ids:
+    ref: MAT 8:16!3
+    wordID: n40008016003
+  translation:
+    gloss: having come
+  morphology:
+    class: verb
+    morph: V-2ADP-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n40008016001
 - position: 4
-  ref: MAT 8:16!4
-  xml_id: n40008016004
-  unicode: προσήνεγκαν
+  text: προσήνεγκαν
   lemma: προσφέρω
   normalized: προσήνεγκαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they brought
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4374'
-  domain: '015023'
-  ln: '15.172'
-  role: v
+  ids:
+    ref: MAT 8:16!4
+    wordID: n40008016004
+  translation:
+    gloss: they brought
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4374'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.172'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A2:n40008016005 A1:n40008016006
 - position: 5
-  ref: MAT 8:16!5
-  xml_id: n40008016005
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 8:16!5
+    wordID: n40008016005
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008014004
 - position: 6
-  ref: MAT 8:16!6
-  xml_id: n40008016006
-  unicode: δαιμονιζομένους
+  text: δαιμονιζομένους
   lemma: δαιμονίζομαι
   normalized: δαιμονιζομένους
-  class: verb
-  morph: V-PNP-APM
-  gloss: being possessed with demons
-  gender: masculine
-  number: plural
-  case: accusative
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '1139'
-  domain: '012001'
-  ln: '12.41'
-  role: v
+  ids:
+    ref: MAT 8:16!6
+    wordID: n40008016006
+  translation:
+    gloss: being possessed with demons
+  morphology:
+    class: verb
+    morph: V-PNP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1139'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.41'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 7
-  ref: MAT 8:16!7
-  xml_id: n40008016007
-  unicode: πολλούς
+  text: πολλούς
   lemma: πολύς
   normalized: πολλούς
-  class: adj
-  morph: A-APM
-  gloss: many
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '4183'
-  domain: 059001
-  ln: '59.1'
-syntax:
-  word_order: S-V
+  ids:
+    ref: MAT 8:16!7
+    wordID: n40008016007
+  translation:
+    gloss: many
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'

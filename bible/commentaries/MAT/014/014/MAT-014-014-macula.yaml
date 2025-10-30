@@ -1,237 +1,312 @@
-verse:
-  reference: MAT 14:14
-  book_code: MAT
-  chapter: 14
-  verse: 14
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Καὶ ἐξελθὼν εἶδεν πολὺν ὄχλον, καὶ ἐσπλαγχνίσθη ἐπ’ αὐτοῖς καὶ ἐθεράπευσεν
-    τοὺς ἀρρώστους αὐτῶν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 14:14
+text: Καὶ ἐξελθὼν εἶδεν πολὺν ὄχλον, καὶ ἐσπλαγχνίσθη ἐπ’ αὐτοῖς καὶ ἐθεράπευσεν τοὺς
+  ἀρρώστους αὐτῶν.
 words:
 - position: 1
-  ref: MAT 14:14!1
-  xml_id: n40014014001
-  unicode: Καὶ
+  text: Καὶ
   lemma: καί
   normalized: Καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:14!1
+    wordID: n40014014001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 14:14!2
-  xml_id: n40014014002
-  unicode: ἐξελθὼν
+  text: ἐξελθὼν
   lemma: ἐξέρχομαι
   normalized: ἐξελθών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having gone out
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '1831'
-  domain: '015004'
-  ln: '15.40'
-  role: v
+  ids:
+    ref: MAT 14:14!2
+    wordID: n40014014002
+  translation:
+    gloss: having gone out
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1831'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n40014013004
+  discourse:
+    subject: n40014013004
 - position: 3
-  ref: MAT 14:14!3
-  xml_id: n40014014003
-  unicode: εἶδεν
+  text: εἶδεν
   lemma: ὁράω
   normalized: εἶδεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He saw
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
+  ids:
+    ref: MAT 14:14!3
+    wordID: n40014014003
+  translation:
+    gloss: He saw
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40014013004 A1:n40014014005
+  discourse:
+    subject: n40014013004
 - position: 4
-  ref: MAT 14:14!4
-  xml_id: n40014014004
-  unicode: πολὺν
+  text: πολὺν
   lemma: πολύς
   normalized: πολύν
-  class: adj
-  morph: A-ASM
-  gloss: great
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4183'
-  domain: 059002
-  ln: '59.11'
+  ids:
+    ref: MAT 14:14!4
+    wordID: n40014014004
+  translation:
+    gloss: great
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.11'
 - position: 5
-  ref: MAT 14:14!5
-  xml_id: n40014014005
-  unicode: ὄχλον
+  text: ὄχλον
   lemma: ὄχλος
   normalized: ὄχλον
-  class: noun
-  morph: N-ASM
-  gloss: a crowd
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3793'
-  domain: '011001'
-  ln: '11.1'
+  ids:
+    ref: MAT 14:14!5
+    wordID: n40014014005
+  translation:
+    gloss: a crowd
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
 - position: 6
-  ref: MAT 14:14!6
-  xml_id: n40014014006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:14!6
+    wordID: n40014014006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 14:14!7
-  xml_id: n40014014007
-  unicode: ἐσπλαγχνίσθη
+  text: ἐσπλαγχνίσθη
   lemma: σπλαγχνίζομαι
   normalized: ἐσπλαγχνίσθη
-  class: verb
-  morph: V-AOI-3S
-  gloss: was moved with compassion
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '4697'
-  domain: '025003'
-  ln: '25.49'
-  role: v
+  ids:
+    ref: MAT 14:14!7
+    wordID: n40014014007
+  translation:
+    gloss: was moved with compassion
+  morphology:
+    class: verb
+    morph: V-AOI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4697'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.49'
+  syntax:
+    role: v
+    frame: A1:n40014013004
+  discourse:
+    subject: n40014013004
 - position: 8
-  ref: MAT 14:14!8
-  xml_id: n40014014008
-  unicode: ἐπ’
+  text: ἐπ’
   lemma: ἐπί
   normalized: ἐπ’
-  class: prep
-  morph: PREP
-  gloss: toward
-  strong: '1909'
-  domain: 090009
-  ln: '90.40'
+  ids:
+    ref: MAT 14:14!8
+    wordID: n40014014008
+  translation:
+    gloss: toward
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 090009
+    ln: '90.40'
 - position: 9
-  ref: MAT 14:14!9
-  xml_id: n40014014009
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 14:14!9
+    wordID: n40014014009
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40014014005
 - position: 10
-  ref: MAT 14:14!10
-  xml_id: n40014014010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:14!10
+    wordID: n40014014010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 11
-  ref: MAT 14:14!11
-  xml_id: n40014014011
-  unicode: ἐθεράπευσεν
+  text: ἐθεράπευσεν
   lemma: θεραπεύω
   normalized: ἐθεράπευσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: healed
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2323'
-  domain: 023008
-  ln: '23.139'
-  role: v
+  ids:
+    ref: MAT 14:14!11
+    wordID: n40014014011
+  translation:
+    gloss: healed
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2323'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.139'
+  syntax:
+    role: v
+    frame: A0:n40014013004 A1:n40014014013
+  discourse:
+    subject: n40014013004
 - position: 12
-  ref: MAT 14:14!12
-  xml_id: n40014014012
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:14!12
+    wordID: n40014014012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 14:14!13
-  xml_id: n40014014013
-  unicode: ἀρρώστους
+  text: ἀρρώστους
   lemma: ἄρρωστος
   normalized: ἀρρώστους
-  class: adj
-  morph: A-APM
-  gloss: sick
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '732'
-  domain: 023009
-  ln: '23.147'
+  ids:
+    ref: MAT 14:14!13
+    wordID: n40014014013
+  translation:
+    gloss: sick
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '732'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.147'
 - position: 14
-  ref: MAT 14:14!14
-  xml_id: n40014014014
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: ADV-V-O
+  ids:
+    ref: MAT 14:14!14
+    wordID: n40014014014
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40014014005

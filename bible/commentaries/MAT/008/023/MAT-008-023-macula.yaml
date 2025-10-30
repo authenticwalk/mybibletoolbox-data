@@ -1,194 +1,248 @@
-verse:
-  reference: MAT 8:23
-  book_code: MAT
-  chapter: 8
-  verse: 23
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Καὶ ἐμβάντι αὐτῷ εἰς τὸ πλοῖον ἠκολούθησαν αὐτῷ οἱ μαθηταὶ αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:23
+text: Καὶ ἐμβάντι αὐτῷ εἰς τὸ πλοῖον ἠκολούθησαν αὐτῷ οἱ μαθηταὶ αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 8:23!1
-  xml_id: n40008023001
-  unicode: Καὶ
+  text: Καὶ
   lemma: καί
   normalized: Καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 091001
-  ln: '91.1'
+  ids:
+    ref: MAT 8:23!1
+    wordID: n40008023001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
 - position: 2
-  ref: MAT 8:23!2
-  xml_id: n40008023002
-  unicode: ἐμβάντι
+  text: ἐμβάντι
   lemma: ἐμβαίνω
   normalized: ἐμβάντι
-  class: verb
-  morph: V-2AAP-DSM
-  gloss: having entered
-  gender: masculine
-  number: singular
-  case: dative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '1684'
-  domain: 015008
-  ln: '15.95'
-  role: v
+  ids:
+    ref: MAT 8:23!2
+    wordID: n40008023002
+  translation:
+    gloss: having entered
+  morphology:
+    class: verb
+    morph: V-2AAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1684'
+  semantic:
+    semanticDomain: 015008
+    ln: '15.95'
+  syntax:
+    role: v
+    frame: A0:n40008023003
 - position: 3
-  ref: MAT 8:23!3
-  xml_id: n40008023003
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: He
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 8:23!3
+    wordID: n40008023003
+  translation:
+    gloss: He
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40008022003
 - position: 4
-  ref: MAT 8:23!4
-  xml_id: n40008023004
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 8:23!4
+    wordID: n40008023004
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 5
-  ref: MAT 8:23!5
-  xml_id: n40008023005
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:23!5
+    wordID: n40008023005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 8:23!6
-  xml_id: n40008023006
-  unicode: πλοῖον
+  text: πλοῖον
   lemma: πλοῖον
   normalized: πλοῖον
-  class: noun
-  morph: N-ASN
-  gloss: boat
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4143'
-  domain: 006008
-  ln: '6.41'
+  ids:
+    ref: MAT 8:23!6
+    wordID: n40008023006
+  translation:
+    gloss: boat
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4143'
+  semantic:
+    semanticDomain: 006008
+    ln: '6.41'
 - position: 7
-  ref: MAT 8:23!7
-  xml_id: n40008023007
-  unicode: ἠκολούθησαν
+  text: ἠκολούθησαν
   lemma: ἀκολουθέω
   normalized: ἠκολούθησαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: followed
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '190'
-  domain: '015020'
-  ln: '15.156'
-  role: v
+  ids:
+    ref: MAT 8:23!7
+    wordID: n40008023007
+  translation:
+    gloss: followed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '190'
+  semantic:
+    semanticDomain: '015020'
+    ln: '15.156'
+  syntax:
+    role: v
+    frame: A1:n40008023008 A0:n40008023010
 - position: 8
-  ref: MAT 8:23!8
-  xml_id: n40008023008
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 8:23!8
+    wordID: n40008023008
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40008022003
 - position: 9
-  ref: MAT 8:23!9
-  xml_id: n40008023009
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:23!9
+    wordID: n40008023009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 8:23!10
-  xml_id: n40008023010
-  unicode: μαθηταὶ
+  text: μαθηταὶ
   lemma: μαθητής
   normalized: μαθηταί
-  class: noun
-  morph: N-NPM
-  gloss: disciples
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3101'
-  domain: '036004'
-  ln: '36.38'
+  ids:
+    ref: MAT 8:23!10
+    wordID: n40008023010
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
 - position: 11
-  ref: MAT 8:23!11
-  xml_id: n40008023011
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: V-S-ADV
+  ids:
+    ref: MAT 8:23!11
+    wordID: n40008023011
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40008022003

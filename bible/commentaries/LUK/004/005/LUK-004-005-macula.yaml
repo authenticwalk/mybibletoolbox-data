@@ -1,0 +1,292 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 4:5
+text: Καὶ ἀναγαγὼν αὐτὸν ἔδειξεν αὐτῷ πάσας τὰς βασιλείας τῆς οἰκουμένης ἐν στιγμῇ
+  χρόνου.
+words:
+- position: 1
+  text: Καὶ
+  lemma: καί
+  normalized: Καί
+  ids:
+    ref: LUK 4:5!1
+    wordID: n42004005001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: ἀναγαγὼν
+  lemma: ἀνάγω
+  normalized: ἀναγαγών
+  ids:
+    ref: LUK 4:5!2
+    wordID: n42004005002
+  translation:
+    gloss: having led up
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '321'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.176'
+  syntax:
+    role: v
+    frame: A0:n42004003005 A1:n42004005003
+  discourse:
+    subject: n42004003005
+- position: 3
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 4:5!3
+    wordID: n42004005003
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42004004006
+- position: 4
+  text: ἔδειξεν
+  lemma: δείκνυμι
+  normalized: ἔδειξεν
+  ids:
+    ref: LUK 4:5!4
+    wordID: n42004005004
+  translation:
+    gloss: he showed
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1166'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.47'
+  syntax:
+    role: v
+    frame: A0:n42004003005 A2:n42004005005 A1:n42004005008
+  discourse:
+    subject: n42004003005
+- position: 5
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: LUK 4:5!5
+    wordID: n42004005005
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n42004004006
+- position: 6
+  text: πάσας
+  lemma: πᾶς
+  normalized: πάσας
+  ids:
+    ref: LUK 4:5!6
+    wordID: n42004005006
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APF
+    gender: feminine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 7
+  text: τὰς
+  lemma: ὁ
+  normalized: τάς
+  ids:
+    ref: LUK 4:5!7
+    wordID: n42004005007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: βασιλείας
+  lemma: βασιλεία
+  normalized: βασιλείας
+  ids:
+    ref: LUK 4:5!8
+    wordID: n42004005008
+  translation:
+    gloss: kingdoms
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '001012'
+    ln: '1.82'
+- position: 9
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: LUK 4:5!9
+    wordID: n42004005009
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: οἰκουμένης
+  lemma: οἰκουμένη
+  normalized: οἰκουμένης
+  ids:
+    ref: LUK 4:5!10
+    wordID: n42004005010
+  translation:
+    gloss: world
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3625'
+  semantic:
+    semanticDomain: '001006'
+    ln: '1.39'
+- position: 11
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: LUK 4:5!11
+    wordID: n42004005011
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: '067007'
+    ln: '67.136'
+- position: 12
+  text: στιγμῇ
+  lemma: στιγμή
+  normalized: στιγμῇ
+  ids:
+    ref: LUK 4:5!12
+    wordID: n42004005012
+  translation:
+    gloss: a moment
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4743'
+  semantic:
+    semanticDomain: 067008
+    ln: '67.149'
+- position: 13
+  text: χρόνου
+  lemma: χρόνος
+  normalized: χρόνου
+  ids:
+    ref: LUK 4:5!13
+    wordID: n42004005013
+  translation:
+    gloss: of time
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5550'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.78'

@@ -1,0 +1,80 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 18:21
+text: τί με ἐρωτᾷς;
+words:
+- position: 1
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: JHN 18:21!1
+    wordID: n43018021001
+  translation:
+    gloss: Why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.15'
+  syntax:
+    role: adv
+- position: 2
+  text: με
+  lemma: ἐγώ
+  normalized: με
+  ids:
+    ref: JHN 18:21!2
+    wordID: n43018021002
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n43018020003
+- position: 3
+  text: ἐρωτᾷς
+  lemma: ἐρωτάω
+  normalized: ἐρωτᾷς
+  ids:
+    ref: JHN 18:21!3
+    wordID: n43018021003
+  translation:
+    gloss: do you question
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2065'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.180'
+  syntax:
+    role: v
+    frame: A0:n43018019003 A1:n43018021002
+  discourse:
+    subject: n43018019003

@@ -1,374 +1,510 @@
-verse:
-  reference: MAT 26:65
-  book_code: MAT
-  chapter: 26
-  verse: 65
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 26:66 τότε ὁ ἀρχιερεὺς διέρρηξεν τὰ ἱμάτια αὐτοῦ λέγων Ἐβλασφήμησεν·
-    τί ἔτι χρείαν ἔχομεν μαρτύρων; ἴδε νῦν ἠκούσατε τὴν βλασφημίαν· τί ὑμῖν δοκεῖ;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:65
+text: MAT 26:66 τότε ὁ ἀρχιερεὺς διέρρηξεν τὰ ἱμάτια αὐτοῦ λέγων Ἐβλασφήμησεν· τί
+  ἔτι χρείαν ἔχομεν μαρτύρων; ἴδε νῦν ἠκούσατε τὴν βλασφημίαν· τί ὑμῖν δοκεῖ;
 words:
 - position: 1
-  ref: MAT 26:65!1
-  xml_id: n40026065001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 26:65!1
+    wordID: n40026065001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 26:65!2
-  xml_id: n40026065002
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:65!2
+    wordID: n40026065002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 26:65!3
-  xml_id: n40026065003
-  unicode: ἀρχιερεὺς
+  text: ἀρχιερεὺς
   lemma: ἀρχιερεύς
   normalized: ἀρχιερεύς
-  class: noun
-  morph: N-NSM
-  gloss: high priest
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '749'
-  domain: 053009
-  ln: '53.89'
+  ids:
+    ref: MAT 26:65!3
+    wordID: n40026065003
+  translation:
+    gloss: high priest
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '749'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.89'
 - position: 4
-  ref: MAT 26:65!4
-  xml_id: n40026065004
-  unicode: διέρρηξεν
+  text: διέρρηξεν
   lemma: διαρρήγνυμι
   normalized: διέρρηξεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: tears
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1284'
-  domain: 019003
-  ln: '19.32'
-  role: v
+  ids:
+    ref: MAT 26:65!4
+    wordID: n40026065004
+  translation:
+    gloss: tears
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1284'
+  semantic:
+    semanticDomain: 019003
+    ln: '19.32'
+  syntax:
+    role: v
+    frame: A0:n40026065003 A1:n40026065006
 - position: 5
-  ref: MAT 26:65!5
-  xml_id: n40026065005
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:65!5
+    wordID: n40026065005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 26:65!6
-  xml_id: n40026065006
-  unicode: ἱμάτια
+  text: ἱμάτια
   lemma: ἱμάτιον
   normalized: ἱμάτια
-  class: noun
-  morph: N-APN
-  gloss: garments
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '2440'
-  domain: '006017'
-  ln: '6.172'
+  ids:
+    ref: MAT 26:65!6
+    wordID: n40026065006
+  translation:
+    gloss: garments
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.172'
 - position: 7
-  ref: MAT 26:65!7
-  xml_id: n40026065007
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 26:65!7
+    wordID: n40026065007
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40026065003
 - position: 8
-  ref: MAT 26:65!8
-  xml_id: n40026065008
-  unicode: λέγων
+  text: λέγων
   lemma: λέγω
   normalized: λέγων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: saying
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:65!8
+    wordID: n40026065008
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026065003
+  discourse:
+    subject: n40026065003
 - position: 9
-  ref: MAT 26:65!9
-  xml_id: n40026065009
-  unicode: Ἐβλασφήμησεν
+  text: Ἐβλασφήμησεν
   lemma: βλασφημέω
   normalized: Ἐβλασφήμησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: He has blasphemed
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '987'
-  domain: '033042'
-  ln: '33.400'
-  role: v
+  ids:
+    ref: MAT 26:65!9
+    wordID: n40026065009
+  translation:
+    gloss: He has blasphemed
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '987'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.400'
+  syntax:
+    role: v
+    frame: A0:n40026064004
+  discourse:
+    subject: n40026064004
 - position: 10
-  ref: MAT 26:65!10
-  xml_id: n40026065010
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-ASN
-  gloss: why
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: adv
+  ids:
+    ref: MAT 26:65!10
+    wordID: n40026065010
+  translation:
+    gloss: why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: adv
 - position: 11
-  ref: MAT 26:65!11
-  xml_id: n40026065011
-  unicode: ἔτι
+  text: ἔτι
   lemma: ἔτι
   normalized: ἔτι
-  class: adv
-  morph: ADV
-  gloss: any more
-  strong: '2089'
-  domain: '067006'
-  ln: '67.128'
-  role: adv
+  ids:
+    ref: MAT 26:65!11
+    wordID: n40026065011
+  translation:
+    gloss: any more
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2089'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.128'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 26:65!12
-  xml_id: n40026065012
-  unicode: χρείαν
+  text: χρείαν
   lemma: χρεία
   normalized: χρείαν
-  class: noun
-  morph: N-ASF
-  gloss: need
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5532'
-  domain: '057005'
-  ln: '57.40'
+  ids:
+    ref: MAT 26:65!12
+    wordID: n40026065012
+  translation:
+    gloss: need
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5532'
+  semantic:
+    semanticDomain: '057005'
+    ln: '57.40'
 - position: 13
-  ref: MAT 26:65!14
-  xml_id: n40026065014
-  unicode: μαρτύρων
+  text: μαρτύρων
   lemma: μάρτυς
   normalized: μαρτύρων
-  class: noun
-  morph: N-GPM
-  gloss: of witnesses
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '3144'
-  domain: '033020'
-  ln: '33.270'
+  ids:
+    ref: MAT 26:65!14
+    wordID: n40026065014
+  translation:
+    gloss: of witnesses
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3144'
+  semantic:
+    semanticDomain: '033020'
+    ln: '33.270'
+  syntax:
+    discontinuous: 'true'
 - position: 14
-  ref: MAT 26:65!13
-  xml_id: n40026065013
-  unicode: ἔχομεν
+  text: ἔχομεν
   lemma: ἔχω
   normalized: ἔχομεν
-  class: verb
-  morph: V-PAI-1P
-  gloss: have we
-  number: plural
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2192'
-  role: v
+  ids:
+    ref: MAT 26:65!13
+    wordID: n40026065013
+  translation:
+    gloss: have we
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n40026065003;n40026059003;n40026059006 A1:n40026065012
+  discourse:
+    subject: n40026065003 n40026059003 n40026059006
 - position: 15
-  ref: MAT 26:65!15
-  xml_id: n40026065015
-  unicode: ἴδε
+  text: ἴδε
   lemma: ὁράω
   normalized: ἴδε
-  class: verb
-  morph: V-2AAM-2S
-  gloss: Behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 26:65!15
+    wordID: n40026065015
+  translation:
+    gloss: Behold
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n40026059003;n40026059006
+  discourse:
+    subject: n40026059003 n40026059006
 - position: 16
-  ref: MAT 26:65!16
-  xml_id: n40026065016
-  unicode: νῦν
+  text: νῦν
   lemma: νῦν
   normalized: νῦν
-  class: adv
-  morph: ADV
-  gloss: now
-  strong: '3568'
-  domain: '067002'
-  ln: '67.39'
-  role: adv
+  ids:
+    ref: MAT 26:65!16
+    wordID: n40026065016
+  translation:
+    gloss: now
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3568'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.39'
+  syntax:
+    role: adv
 - position: 17
-  ref: MAT 26:65!17
-  xml_id: n40026065017
-  unicode: ἠκούσατε
+  text: ἠκούσατε
   lemma: ἀκούω
   normalized: ἠκούσατε
-  class: verb
-  morph: V-AAI-2P
-  gloss: you have heard
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
+  ids:
+    ref: MAT 26:65!17
+    wordID: n40026065017
+  translation:
+    gloss: you have heard
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40026059003;n40026059006 A1:n40026065019
+  discourse:
+    subject: n40026059003 n40026059006
 - position: 18
-  ref: MAT 26:65!18
-  xml_id: n40026065018
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:65!18
+    wordID: n40026065018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 26:65!19
-  xml_id: n40026065019
-  unicode: βλασφημίαν
+  text: βλασφημίαν
   lemma: βλασφημία
   normalized: βλασφημίαν
-  class: noun
-  morph: N-ASF
-  gloss: blasphemy
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '988'
-  domain: '033042'
-  ln: '33.401'
+  ids:
+    ref: MAT 26:65!19
+    wordID: n40026065019
+  translation:
+    gloss: blasphemy
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '988'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.401'
 - position: 20
-  ref: MAT 26:66!1
-  xml_id: n40026066001
-  unicode: τί
+  text: τί
   lemma: τίς
   normalized: τί
-  class: pron
-  morph: I-NSN
-  gloss: What
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: s
+  ids:
+    ref: MAT 26:66!1
+    wordID: n40026066001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: s
 - position: 21
-  ref: MAT 26:66!2
-  xml_id: n40026066002
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: adv
+  ids:
+    ref: MAT 26:66!2
+    wordID: n40026066002
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40026059003 n40026059006
 - position: 22
-  ref: MAT 26:66!3
-  xml_id: n40026066003
-  unicode: δοκεῖ
+  text: δοκεῖ
   lemma: δοκέω
   normalized: δοκεῖ
-  class: verb
-  morph: V-PAI-3S
-  gloss: do think
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1380'
-  domain: '031005'
-  ln: '31.30'
-  role: v
-syntax:
-  word_order: ADV-S-V-O-ADV
+  ids:
+    ref: MAT 26:66!3
+    wordID: n40026066003
+  translation:
+    gloss: do think
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.30'
+  syntax:
+    role: v
+    frame: A0:n40026066001 AA2:n40026066002

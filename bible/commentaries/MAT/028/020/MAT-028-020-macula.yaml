@@ -1,231 +1,300 @@
-verse:
-  reference: MAT 28:20
-  book_code: MAT
-  chapter: 28
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἰδοὺ ἐγὼ μεθ’ ὑμῶν εἰμι πάσας τὰς ἡμέρας ἕως τῆς συντελείας τοῦ αἰῶνος.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 28:20
+text: καὶ ἰδοὺ ἐγὼ μεθ’ ὑμῶν εἰμι πάσας τὰς ἡμέρας ἕως τῆς συντελείας τοῦ αἰῶνος.
 words:
 - position: 1
-  ref: MAT 28:20!8
-  xml_id: n40028020008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 28:20!8
+    wordID: n40028020008
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 28:20!9
-  xml_id: n40028020009
-  unicode: ἰδοὺ
+  text: ἰδοὺ
   lemma: ὁράω
   normalized: ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 28:20!9
+    wordID: n40028020009
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n40028016004
+  discourse:
+    subject: n40028016004
 - position: 3
-  ref: MAT 28:20!10
-  xml_id: n40028020010
-  unicode: ἐγὼ
+  text: ἐγὼ
   lemma: ἐγώ
   normalized: ἐγώ
-  class: pron
-  morph: P-1NS
-  gloss: I
-  number: singular
-  case: nominative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: s
+  ids:
+    ref: MAT 28:20!10
+    wordID: n40028020010
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40028018004
 - position: 4
-  ref: MAT 28:20!11
-  xml_id: n40028020011
-  unicode: μεθ’
+  text: μεθ’
   lemma: μετά
   normalized: μεθ’
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '3326'
-  domain: 089020
-  ln: '89.108'
+  ids:
+    ref: MAT 28:20!11
+    wordID: n40028020011
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.108'
 - position: 5
-  ref: MAT 28:20!12
-  xml_id: n40028020012
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 28:20!12
+    wordID: n40028020012
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40028016004
 - position: 6
-  ref: MAT 28:20!13
-  xml_id: n40028020013
-  unicode: εἰμι
+  text: εἰμι
   lemma: εἰμί
   normalized: εἰμι
-  class: verb
-  morph: V-PAI-1S
-  gloss: am
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: 085001
-  ln: '85.1'
-  role: vc
+  ids:
+    ref: MAT 28:20!13
+    wordID: n40028020013
+  translation:
+    gloss: am
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.1'
+  syntax:
+    role: vc
 - position: 7
-  ref: MAT 28:20!14
-  xml_id: n40028020014
-  unicode: πάσας
+  text: πάσας
   lemma: πᾶς
   normalized: πάσας
-  class: adj
-  morph: A-APF
-  gloss: all
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 28:20!14
+    wordID: n40028020014
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APF
+    gender: feminine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 8
-  ref: MAT 28:20!15
-  xml_id: n40028020015
-  unicode: τὰς
+  text: τὰς
   lemma: ὁ
   normalized: τάς
-  class: det
-  morph: T-APF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:20!15
+    wordID: n40028020015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 28:20!16
-  xml_id: n40028020016
-  unicode: ἡμέρας
+  text: ἡμέρας
   lemma: ἡμέρα
   normalized: ἡμέρας
-  class: noun
-  morph: N-APF
-  gloss: days
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '2250'
-  domain: 067008
-  ln: '67.142'
+  ids:
+    ref: MAT 28:20!16
+    wordID: n40028020016
+  translation:
+    gloss: days
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2250'
+  semantic:
+    semanticDomain: 067008
+    ln: '67.142'
 - position: 10
-  ref: MAT 28:20!17
-  xml_id: n40028020017
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: prep
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 28:20!17
+    wordID: n40028020017
+  translation:
+    gloss: until
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 11
-  ref: MAT 28:20!18
-  xml_id: n40028020018
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:20!18
+    wordID: n40028020018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 28:20!19
-  xml_id: n40028020019
-  unicode: συντελείας
+  text: συντελείας
   lemma: συντέλεια
   normalized: συντελείας
-  class: noun
-  morph: N-GSF
-  gloss: completion
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '4930'
-  domain: '067003'
-  ln: '67.66'
+  ids:
+    ref: MAT 28:20!19
+    wordID: n40028020019
+  translation:
+    gloss: completion
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4930'
+  semantic:
+    semanticDomain: '067003'
+    ln: '67.66'
 - position: 13
-  ref: MAT 28:20!20
-  xml_id: n40028020020
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:20!20
+    wordID: n40028020020
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 28:20!21
-  xml_id: n40028020021
-  unicode: αἰῶνος
+  text: αἰῶνος
   lemma: αἰών
   normalized: αἰῶνος
-  class: noun
-  morph: N-GSM
-  gloss: age
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '165'
-  domain: 067008
-  ln: '67.143'
+  ids:
+    ref: MAT 28:20!21
+    wordID: n40028020021
+  translation:
+    gloss: age
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '165'
+  semantic:
+    semanticDomain: 067008
+    ln: '67.143'

@@ -1,204 +1,262 @@
-verse:
-  reference: MAT 14:25
-  book_code: MAT
-  chapter: 14
-  verse: 25
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τετάρτῃ δὲ φυλακῇ τῆς νυκτὸς ἦλθεν πρὸς αὐτοὺς περιπατῶν ἐπὶ τὴν θάλασσαν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 14:25
+text: τετάρτῃ δὲ φυλακῇ τῆς νυκτὸς ἦλθεν πρὸς αὐτοὺς περιπατῶν ἐπὶ τὴν θάλασσαν.
 words:
 - position: 1
-  ref: MAT 14:25!2
-  xml_id: n40014025002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:25!2
+    wordID: n40014025002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 14:25!1
-  xml_id: n40014025001
-  unicode: τετάρτῃ
+  text: τετάρτῃ
   lemma: τέταρτος
   normalized: τετάρτῃ
-  class: adj
-  morph: A-DSF
-  gloss: In [the] fourth
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '5067'
-  domain: '060003'
-  ln: '60.51'
+  ids:
+    ref: MAT 14:25!1
+    wordID: n40014025001
+  translation:
+    gloss: In [the] fourth
+  morphology:
+    class: adj
+    morph: A-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '5067'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.51'
 - position: 3
-  ref: MAT 14:25!3
-  xml_id: n40014025003
-  unicode: φυλακῇ
+  text: φυλακῇ
   lemma: φυλακή
   normalized: φυλακῇ
-  class: noun
-  morph: N-DSF
-  gloss: watch
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '5438'
-  domain: 067009
-  ln: '67.196'
+  ids:
+    ref: MAT 14:25!3
+    wordID: n40014025003
+  translation:
+    gloss: watch
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5438'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.196'
 - position: 4
-  ref: MAT 14:25!4
-  xml_id: n40014025004
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: of the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:25!4
+    wordID: n40014025004
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 14:25!5
-  xml_id: n40014025005
-  unicode: νυκτὸς
+  text: νυκτὸς
   lemma: νύξ
   normalized: νυκτός
-  class: noun
-  morph: N-GSF
-  gloss: night
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3571'
-  domain: 067009
-  ln: '67.192'
+  ids:
+    ref: MAT 14:25!5
+    wordID: n40014025005
+  translation:
+    gloss: night
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3571'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.192'
 - position: 6
-  ref: MAT 14:25!6
-  xml_id: n40014025006
-  unicode: ἦλθεν
+  text: ἦλθεν
   lemma: ἔρχομαι
   normalized: ἦλθεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He went
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 14:25!6
+    wordID: n40014025006
+  translation:
+    gloss: He went
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40014016003
+  discourse:
+    subject: n40014016003
 - position: 7
-  ref: MAT 14:25!7
-  xml_id: n40014025007
-  unicode: πρὸς
+  text: πρὸς
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '4314'
-  domain: 084002
-  ln: '84.18'
+  ids:
+    ref: MAT 14:25!7
+    wordID: n40014025007
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
 - position: 8
-  ref: MAT 14:25!8
-  xml_id: n40014025008
-  unicode: αὐτοὺς
+  text: αὐτοὺς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 14:25!8
+    wordID: n40014025008
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40014022005
 - position: 9
-  ref: MAT 14:25!9
-  xml_id: n40014025009
-  unicode: περιπατῶν
+  text: περιπατῶν
   lemma: περιπατέω
   normalized: περιπατῶν
-  class: verb
-  morph: V-PAP-NSM
-  gloss: walking
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '4043'
-  domain: 015029
-  ln: '15.227'
-  role: v
+  ids:
+    ref: MAT 14:25!9
+    wordID: n40014025009
+  translation:
+    gloss: walking
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4043'
+  semantic:
+    semanticDomain: 015029
+    ln: '15.227'
+  syntax:
+    role: v
+    frame: A0:n40014016003
+  discourse:
+    subject: n40014016003
 - position: 10
-  ref: MAT 14:25!10
-  xml_id: n40014025010
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1909'
-  domain: 083008
-  ln: '83.46'
+  ids:
+    ref: MAT 14:25!10
+    wordID: n40014025010
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
 - position: 11
-  ref: MAT 14:25!11
-  xml_id: n40014025011
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:25!11
+    wordID: n40014025011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 14:25!12
-  xml_id: n40014025012
-  unicode: θάλασσαν
+  text: θάλασσαν
   lemma: θάλασσα
   normalized: θάλασσαν
-  class: noun
-  morph: N-ASF
-  gloss: sea
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2281'
-  domain: '001010'
-  ln: '1.70'
-syntax:
-  word_order: ADV-V-ADV-ADV
+  ids:
+    ref: MAT 14:25!12
+    wordID: n40014025012
+  translation:
+    gloss: sea
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2281'
+  semantic:
+    semanticDomain: '001010'
+    ln: '1.70'

@@ -1,0 +1,300 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 19:6
+text: ὅτε οὖν εἶδον αὐτὸν οἱ ἀρχιερεῖς καὶ οἱ ὑπηρέται, ἐκραύγασαν λέγοντες Σταύρωσον
+  σταύρωσον.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: JHN 19:6!2
+    wordID: n43019006002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὅτε
+  lemma: ὅτε
+  normalized: ὅτε
+  ids:
+    ref: JHN 19:6!1
+    wordID: n43019006001
+  translation:
+    gloss: When
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '3753'
+- position: 3
+  text: εἶδον
+  lemma: ὁράω
+  normalized: εἶδον
+  ids:
+    ref: JHN 19:6!3
+    wordID: n43019006003
+  translation:
+    gloss: saw
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A1:n43019006004 A0:n43019006006;n43019006009
+- position: 4
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: JHN 19:6!4
+    wordID: n43019006004
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n43019005004
+- position: 5
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: JHN 19:6!5
+    wordID: n43019006005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: ἀρχιερεῖς
+  lemma: ἀρχιερεύς
+  normalized: ἀρχιερεῖς
+  ids:
+    ref: JHN 19:6!6
+    wordID: n43019006006
+  translation:
+    gloss: chief priests
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '749'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.88'
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 19:6!7
+    wordID: n43019006007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 8
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: JHN 19:6!8
+    wordID: n43019006008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: ὑπηρέται
+  lemma: ὑπηρέτης
+  normalized: ὑπηρέται
+  ids:
+    ref: JHN 19:6!9
+    wordID: n43019006009
+  translation:
+    gloss: officers
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '5257'
+  semantic:
+    semanticDomain: '035002'
+    ln: '35.20'
+- position: 10
+  text: ἐκραύγασαν
+  lemma: κραυγάζω
+  normalized: ἐκραύγασαν
+  ids:
+    ref: JHN 19:6!10
+    wordID: n43019006010
+  translation:
+    gloss: they cried out
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2905'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.83'
+  syntax:
+    role: v
+    frame: A0:n43019006006;n43019006009
+  discourse:
+    subject: n43019006006 n43019006009
+- position: 11
+  text: λέγοντες
+  lemma: λέγω
+  normalized: λέγοντες
+  ids:
+    ref: JHN 19:6!11
+    wordID: n43019006011
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43019006006;n43019006009
+  discourse:
+    subject: n43019006006 n43019006009
+- position: 12
+  text: Σταύρωσον
+  lemma: σταυρόω
+  normalized: Σταύρωσον
+  ids:
+    ref: JHN 19:6!12
+    wordID: n43019006012
+  translation:
+    gloss: Crucify
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4717'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.76'
+  syntax:
+    role: v
+    frame: A0:n43019004006
+  discourse:
+    subject: n43019004006
+- position: 13
+  text: σταύρωσον
+  lemma: σταυρόω
+  normalized: σταύρωσον
+  ids:
+    ref: JHN 19:6!13
+    wordID: n43019006013
+  translation:
+    gloss: Crucify
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4717'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.76'
+  syntax:
+    role: v
+    frame: A0:n43019004006
+  discourse:
+    subject: n43019004006

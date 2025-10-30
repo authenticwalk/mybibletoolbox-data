@@ -1,309 +1,416 @@
-verse:
-  reference: MAT 27:33
-  book_code: MAT
-  chapter: 27
-  verse: 33
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 27:34 Καὶ ἐλθόντες εἰς τόπον λεγόμενον Γολγοθᾶ, ὅ ἐστιν κρανίου τόπος
-    λεγόμενος, ἔδωκαν αὐτῷ πιεῖν οἶνον μετὰ χολῆς μεμιγμένον·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:33
+text: MAT 27:34 Καὶ ἐλθόντες εἰς τόπον λεγόμενον Γολγοθᾶ, ὅ ἐστιν κρανίου τόπος λεγόμενος,
+  ἔδωκαν αὐτῷ πιεῖν οἶνον μετὰ χολῆς μεμιγμένον·
 words:
 - position: 1
-  ref: MAT 27:33!1
-  xml_id: n40027033001
-  unicode: Καὶ
+  text: Καὶ
   lemma: καί
   normalized: Καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 27:33!1
+    wordID: n40027033001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 27:33!2
-  xml_id: n40027033002
-  unicode: ἐλθόντες
+  text: ἐλθόντες
   lemma: ἔρχομαι
   normalized: ἐλθόντες
-  class: verb
-  morph: V-2AAP-NPM
-  gloss: having come
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 27:33!2
+    wordID: n40027033002
+  translation:
+    gloss: having come
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40027027003
+  discourse:
+    subject: n40027027003
 - position: 3
-  ref: MAT 27:33!3
-  xml_id: n40027033003
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '1519'
-  domain: 084002
-  ln: '84.16'
+  ids:
+    ref: MAT 27:33!3
+    wordID: n40027033003
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.16'
 - position: 4
-  ref: MAT 27:33!4
-  xml_id: n40027033004
-  unicode: τόπον
+  text: τόπον
   lemma: τόπος
   normalized: τόπον
-  class: noun
-  morph: N-ASM
-  gloss: a place
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '5117'
-  domain: 080001
-  ln: '80.1'
+  ids:
+    ref: MAT 27:33!4
+    wordID: n40027033004
+  translation:
+    gloss: a place
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5117'
+  semantic:
+    semanticDomain: 080001
+    ln: '80.1'
 - position: 5
-  ref: MAT 27:33!5
-  xml_id: n40027033005
-  unicode: λεγόμενον
+  text: λεγόμενον
   lemma: λέγω
   normalized: λεγόμενον
-  class: verb
-  morph: V-PPP-ASM
-  gloss: called
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '3004'
-  domain: 033009
-  ln: '33.129'
-  role: vc
+  ids:
+    ref: MAT 27:33!5
+    wordID: n40027033005
+  translation:
+    gloss: called
+  morphology:
+    class: verb
+    morph: V-PPP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.129'
+  syntax:
+    role: vc
+  discourse:
+    subject: n40027033004
 - position: 6
-  ref: MAT 27:33!6
-  xml_id: n40027033006
-  unicode: Γολγοθᾶ
+  text: Γολγοθᾶ
   lemma: Γολγοθᾶ
   normalized: Γολγοθᾶ
-  class: noun
-  morph: N-PRI
-  gloss: Golgotha
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1115'
-  domain: 093002
-  ln: '93.453'
+  ids:
+    ref: MAT 27:33!6
+    wordID: n40027033006
+  translation:
+    gloss: Golgotha
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: feminine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '1115'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.453'
 - position: 7
-  ref: MAT 27:33!7
-  xml_id: n40027033007
-  unicode: ὅ
+  text: ὅ
   lemma: ὅς
   normalized: ὅ
-  class: pron
-  morph: R-NSN
-  gloss: which
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '3739'
-  domain: 089019
-  ln: '89.106'
-  role: s
+  ids:
+    ref: MAT 27:33!7
+    wordID: n40027033007
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 089019
+    ln: '89.106'
+  syntax:
+    role: s
+  discourse:
+    referent: n40027033006
 - position: 8
-  ref: MAT 27:33!8
-  xml_id: n40027033008
-  unicode: ἐστιν
+  text: ἐστιν
   lemma: εἰμί
   normalized: ἐστιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: is
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: 089019
-  ln: '89.106'
+  ids:
+    ref: MAT 27:33!8
+    wordID: n40027033008
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 089019
+    ln: '89.106'
 - position: 9
-  ref: MAT 27:33!11
-  xml_id: n40027033011
-  unicode: λεγόμενος
+  text: λεγόμενος
   lemma: λέγω
   normalized: λεγόμενος
-  class: verb
-  morph: V-PPP-NSM
-  gloss: called
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '3004'
-  domain: 033009
-  ln: '33.129'
+  ids:
+    ref: MAT 27:33!11
+    wordID: n40027033011
+  translation:
+    gloss: called
+  morphology:
+    class: verb
+    morph: V-PPP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.129'
+  syntax:
+    discontinuous: 'true'
 - position: 10
-  ref: MAT 27:33!9
-  xml_id: n40027033009
-  unicode: κρανίου
+  text: κρανίου
   lemma: κρανίον
   normalized: κρανίου
-  class: noun
-  morph: N-GSN
-  gloss: of a Skull
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '2898'
-  domain: 008002
-  ln: '8.11'
+  ids:
+    ref: MAT 27:33!9
+    wordID: n40027033009
+  translation:
+    gloss: of a Skull
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2898'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.11'
 - position: 11
-  ref: MAT 27:33!10
-  xml_id: n40027033010
-  unicode: τόπος
+  text: τόπος
   lemma: τόπος
   normalized: τόπος
-  class: noun
-  morph: N-NSM
-  gloss: Place
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5117'
-  domain: 080001
-  ln: '80.1'
+  ids:
+    ref: MAT 27:33!10
+    wordID: n40027033010
+  translation:
+    gloss: Place
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5117'
+  semantic:
+    semanticDomain: 080001
+    ln: '80.1'
 - position: 12
-  ref: MAT 27:34!1
-  xml_id: n40027034001
-  unicode: ἔδωκαν
+  text: ἔδωκαν
   lemma: δίδωμι
   normalized: ἔδωκαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they gave
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 27:34!1
+    wordID: n40027034001
+  translation:
+    gloss: they gave
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n40027027003 A2:n40027034002 A1:n40027034003
+  discourse:
+    subject: n40027027003
 - position: 13
-  ref: MAT 27:34!2
-  xml_id: n40027034002
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 27:34!2
+    wordID: n40027034002
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40027027008
 - position: 14
-  ref: MAT 27:34!3
-  xml_id: n40027034003
-  unicode: πιεῖν
+  text: πιεῖν
   lemma: πίνω
   normalized: πιεῖν
-  class: verb
-  morph: V-2AAN
-  gloss: to drink
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '4095'
-  domain: '023001'
-  ln: '23.34'
-  role: v
+  ids:
+    ref: MAT 27:34!3
+    wordID: n40027034003
+  translation:
+    gloss: to drink
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4095'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.34'
+  syntax:
+    role: v
+    frame: A0:n40027027008 A1:n40027034004
+  discourse:
+    subject: n40027027008
 - position: 15
-  ref: MAT 27:34!4
-  xml_id: n40027034004
-  unicode: οἶνον
+  text: οἶνον
   lemma: οἶνος
   normalized: οἶνον
-  class: noun
-  morph: N-ASM
-  gloss: wine
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3631'
-  domain: 006019
-  ln: '6.197'
+  ids:
+    ref: MAT 27:34!4
+    wordID: n40027034004
+  translation:
+    gloss: wine
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3631'
+  semantic:
+    semanticDomain: 006019
+    ln: '6.197'
 - position: 16
-  ref: MAT 27:34!5
-  xml_id: n40027034005
-  unicode: μετὰ
+  text: μετὰ
   lemma: μετά
   normalized: μετά
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '3326'
-  domain: 089022
-  ln: '89.123'
+  ids:
+    ref: MAT 27:34!5
+    wordID: n40027034005
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089022
+    ln: '89.123'
 - position: 17
-  ref: MAT 27:34!6
-  xml_id: n40027034006
-  unicode: χολῆς
+  text: χολῆς
   lemma: χολή
   normalized: χολῆς
-  class: noun
-  morph: N-GSF
-  gloss: gall
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '5521'
-  domain: 008003
-  ln: '8.75'
+  ids:
+    ref: MAT 27:34!6
+    wordID: n40027034006
+  translation:
+    gloss: gall
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5521'
+  semantic:
+    semanticDomain: 008003
+    ln: '8.75'
 - position: 18
-  ref: MAT 27:34!7
-  xml_id: n40027034007
-  unicode: μεμιγμένον
+  text: μεμιγμένον
   lemma: μίγνυμι
   normalized: μεμιγμένον
-  class: verb
-  morph: V-RPP-ASM
-  gloss: mingled
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '3396'
-  domain: '063003'
-  ln: '63.10'
-  role: v
-syntax:
-  word_order: ADV-V-IO-O
+  ids:
+    ref: MAT 27:34!7
+    wordID: n40027034007
+  translation:
+    gloss: mingled
+  morphology:
+    class: verb
+    morph: V-RPP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3396'
+  semantic:
+    semanticDomain: '063003'
+    ln: '63.10'
+  syntax:
+    role: v
+    frame: A1:n40027034004
+  discourse:
+    subject: n40027034004

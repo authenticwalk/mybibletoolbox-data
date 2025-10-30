@@ -1,244 +1,320 @@
-verse:
-  reference: MAT 18:27
-  book_code: MAT
-  chapter: 18
-  verse: 27
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: σπλαγχνισθεὶς δὲ ὁ κύριος τοῦ δούλου ἐκείνου ἀπέλυσεν αὐτόν, καὶ τὸ δάνειον
-    ἀφῆκεν αὐτῷ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:27
+text: σπλαγχνισθεὶς δὲ ὁ κύριος τοῦ δούλου ἐκείνου ἀπέλυσεν αὐτόν, καὶ τὸ δάνειον
+  ἀφῆκεν αὐτῷ.
 words:
 - position: 1
-  ref: MAT 18:27!2
-  xml_id: n40018027002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 18:27!2
+    wordID: n40018027002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 18:27!1
-  xml_id: n40018027001
-  unicode: σπλαγχνισθεὶς
+  text: σπλαγχνισθεὶς
   lemma: σπλαγχνίζομαι
   normalized: σπλαγχνισθείς
-  class: verb
-  morph: V-AOP-NSM
-  gloss: Having been moved with compassion
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '4697'
-  domain: '025003'
-  ln: '25.49'
-  role: v
+  ids:
+    ref: MAT 18:27!1
+    wordID: n40018027001
+  translation:
+    gloss: Having been moved with compassion
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4697'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.49'
+  syntax:
+    role: v
+    frame: A1:n40018027004
+  discourse:
+    subject: n40018027004
 - position: 3
-  ref: MAT 18:27!3
-  xml_id: n40018027003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:27!3
+    wordID: n40018027003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 18:27!4
-  xml_id: n40018027004
-  unicode: κύριος
+  text: κύριος
   lemma: κύριος
   normalized: κύριος
-  class: noun
-  morph: N-NSM
-  gloss: master
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2962'
-  domain: '057001'
-  ln: '57.12'
+  ids:
+    ref: MAT 18:27!4
+    wordID: n40018027004
+  translation:
+    gloss: master
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.12'
 - position: 5
-  ref: MAT 18:27!5
-  xml_id: n40018027005
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:27!5
+    wordID: n40018027005
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 18:27!6
-  xml_id: n40018027006
-  unicode: δούλου
+  text: δούλου
   lemma: δοῦλος (II)
   normalized: δούλου
-  class: noun
-  morph: N-GSM
-  gloss: servant
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '1401'
-  domain: 087005
-  ln: '87.76'
+  ids:
+    ref: MAT 18:27!6
+    wordID: n40018027006
+  translation:
+    gloss: servant
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1401'
+  semantic:
+    semanticDomain: 087005
+    ln: '87.76'
 - position: 7
-  ref: MAT 18:27!7
-  xml_id: n40018027007
-  unicode: ἐκείνου
+  text: ἐκείνου
   lemma: ἐκεῖνος
   normalized: ἐκείνου
-  class: pron
-  morph: D-GSM
-  gloss: that
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '1565'
-  domain: 092007
-  ln: '92.30'
+  ids:
+    ref: MAT 18:27!7
+    wordID: n40018027007
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: D-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
 - position: 8
-  ref: MAT 18:27!8
-  xml_id: n40018027008
-  unicode: ἀπέλυσεν
+  text: ἀπέλυσεν
   lemma: ἀπολύω
   normalized: ἀπέλυσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: released
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '630'
-  domain: '040002'
-  ln: '40.8'
-  role: v
+  ids:
+    ref: MAT 18:27!8
+    wordID: n40018027008
+  translation:
+    gloss: released
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A0:n40018027004 A1:n40018027009
 - position: 9
-  ref: MAT 18:27!9
-  xml_id: n40018027009
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 18:27!9
+    wordID: n40018027009
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40018027006
 - position: 10
-  ref: MAT 18:27!10
-  xml_id: n40018027010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 18:27!10
+    wordID: n40018027010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 11
-  ref: MAT 18:27!11
-  xml_id: n40018027011
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:27!11
+    wordID: n40018027011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 18:27!12
-  xml_id: n40018027012
-  unicode: δάνειον
+  text: δάνειον
   lemma: δάνειον
   normalized: δάνειον
-  class: noun
-  morph: N-ASN
-  gloss: debt
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1156'
-  domain: '057017'
-  ln: '57.210'
+  ids:
+    ref: MAT 18:27!12
+    wordID: n40018027012
+  translation:
+    gloss: debt
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1156'
+  semantic:
+    semanticDomain: '057017'
+    ln: '57.210'
 - position: 13
-  ref: MAT 18:27!13
-  xml_id: n40018027013
-  unicode: ἀφῆκεν
+  text: ἀφῆκεν
   lemma: ἀφίημι
   normalized: ἀφῆκεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: forgave
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '863'
-  domain: 057018
-  ln: '57.223'
-  role: v
+  ids:
+    ref: MAT 18:27!13
+    wordID: n40018027013
+  translation:
+    gloss: forgave
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: 057018
+    ln: '57.223'
+  syntax:
+    role: v
+    frame: A0:n40018027004 A1:n40018027012 A2:n40018027014
+  discourse:
+    subject: n40018027004
 - position: 14
-  ref: MAT 18:27!14
-  xml_id: n40018027014
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
-syntax:
-  word_order: ADV-S-V-O
+  ids:
+    ref: MAT 18:27!14
+    wordID: n40018027014
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40018027006

@@ -1,317 +1,422 @@
-verse:
-  reference: MAT 18:35
-  book_code: MAT
-  chapter: 18
-  verse: 35
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Οὕτως καὶ ὁ Πατήρ μου ὁ οὐράνιος ποιήσει ὑμῖν, ἐὰν μὴ ἀφῆτε ἕκαστος τῷ
-    ἀδελφῷ αὐτοῦ ἀπὸ τῶν καρδιῶν ὑμῶν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:35
+text: Οὕτως καὶ ὁ Πατήρ μου ὁ οὐράνιος ποιήσει ὑμῖν, ἐὰν μὴ ἀφῆτε ἕκαστος τῷ ἀδελφῷ
+  αὐτοῦ ἀπὸ τῶν καρδιῶν ὑμῶν.
 words:
 - position: 1
-  ref: MAT 18:35!1
-  xml_id: n40018035001
-  unicode: Οὕτως
+  text: Οὕτως
   lemma: οὕτω
   normalized: Οὕτως
-  class: adv
-  morph: ADV
-  gloss: Thus
-  strong: '3779'
-  domain: '061'
-  ln: '61.9'
-  role: adv
+  ids:
+    ref: MAT 18:35!1
+    wordID: n40018035001
+  translation:
+    gloss: Thus
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3779'
+  semantic:
+    semanticDomain: '061'
+    ln: '61.9'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 18:35!2
-  xml_id: n40018035002
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: also
-  strong: '2532'
-  domain: 089017
-  ln: '89.93'
+  ids:
+    ref: MAT 18:35!2
+    wordID: n40018035002
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
 - position: 3
-  ref: MAT 18:35!3
-  xml_id: n40018035003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:35!3
+    wordID: n40018035003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 18:35!4
-  xml_id: n40018035004
-  unicode: Πατήρ
+  text: Πατήρ
   lemma: πατήρ
   normalized: Πατήρ
-  class: noun
-  morph: N-NSM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 18:35!4
+    wordID: n40018035004
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 5
-  ref: MAT 18:35!5
-  xml_id: n40018035005
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 18:35!5
+    wordID: n40018035005
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40018022004
 - position: 6
-  ref: MAT 18:35!6
-  xml_id: n40018035006
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:35!6
+    wordID: n40018035006
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 18:35!7
-  xml_id: n40018035007
-  unicode: οὐράνιος
+  text: οὐράνιος
   lemma: οὐράνιος
   normalized: οὐράνιος
-  class: adj
-  morph: A-NSM
-  gloss: Heavenly
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3770'
-  domain: '001002'
-  ln: '1.12'
+  ids:
+    ref: MAT 18:35!7
+    wordID: n40018035007
+  translation:
+    gloss: Heavenly
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3770'
+  semantic:
+    semanticDomain: '001002'
+    ln: '1.12'
 - position: 8
-  ref: MAT 18:35!8
-  xml_id: n40018035008
-  unicode: ποιήσει
+  text: ποιήσει
   lemma: ποιέω
   normalized: ποιήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will do
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '4160'
-  domain: '042002'
-  ln: '42.7'
-  role: v
+  ids:
+    ref: MAT 18:35!8
+    wordID: n40018035008
+  translation:
+    gloss: will do
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n40018035004 A1:n00000000000 A2:n40018035009
 - position: 9
-  ref: MAT 18:35!9
-  xml_id: n40018035009
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 18:35!9
+    wordID: n40018035009
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40018001007
 - position: 10
-  ref: MAT 18:35!10
-  xml_id: n40018035010
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1437'
+  ids:
+    ref: MAT 18:35!10
+    wordID: n40018035010
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
 - position: 11
-  ref: MAT 18:35!11
-  xml_id: n40018035011
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 18:35!11
+    wordID: n40018035011
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 18:35!12
-  xml_id: n40018035012
-  unicode: ἀφῆτε
+  text: ἀφῆτε
   lemma: ἀφίημι
   normalized: ἀφῆτε
-  class: verb
-  morph: V-2AAS-2P
-  gloss: you forgive
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '863'
-  domain: '040002'
-  ln: '40.8'
-  role: v
+  ids:
+    ref: MAT 18:35!12
+    wordID: n40018035012
+  translation:
+    gloss: you forgive
+  morphology:
+    class: verb
+    morph: V-2AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A0:n40018035013 A1:n00000000000 A2:n40018035015
 - position: 13
-  ref: MAT 18:35!13
-  xml_id: n40018035013
-  unicode: ἕκαστος
+  text: ἕκαστος
   lemma: ἕκαστος
   normalized: ἕκαστος
-  class: adj
-  morph: A-NSM
-  gloss: each
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1538'
-  domain: 059003
-  ln: '59.27'
-  role: s
+  ids:
+    ref: MAT 18:35!13
+    wordID: n40018035013
+  translation:
+    gloss: each
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1538'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.27'
+  syntax:
+    role: s
+  discourse:
+    referent: n40018001007
 - position: 14
-  ref: MAT 18:35!14
-  xml_id: n40018035014
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:35!14
+    wordID: n40018035014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 18:35!15
-  xml_id: n40018035015
-  unicode: ἀδελφῷ
+  text: ἀδελφῷ
   lemma: ἀδελφός
   normalized: ἀδελφῷ
-  class: noun
-  morph: N-DSM
-  gloss: brother
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '80'
-  domain: '011003'
-  ln: '11.89'
+  ids:
+    ref: MAT 18:35!15
+    wordID: n40018035015
+  translation:
+    gloss: brother
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011003'
+    ln: '11.89'
 - position: 16
-  ref: MAT 18:35!16
-  xml_id: n40018035016
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 18:35!16
+    wordID: n40018035016
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40018035013
 - position: 17
-  ref: MAT 18:35!17
-  xml_id: n40018035017
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 090003
-  ln: '90.15'
+  ids:
+    ref: MAT 18:35!17
+    wordID: n40018035017
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.15'
 - position: 18
-  ref: MAT 18:35!18
-  xml_id: n40018035018
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:35!18
+    wordID: n40018035018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPF
+    gender: feminine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 18:35!19
-  xml_id: n40018035019
-  unicode: καρδιῶν
+  text: καρδιῶν
   lemma: καρδία
   normalized: καρδιῶν
-  class: noun
-  morph: N-GPF
-  gloss: heart
-  gender: feminine
-  number: plural
-  case: genitive
-  strong: '2588'
-  domain: '026'
-  ln: '26.3'
+  ids:
+    ref: MAT 18:35!19
+    wordID: n40018035019
+  translation:
+    gloss: heart
+  morphology:
+    class: noun
+    morph: N-GPF
+    gender: feminine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '2588'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.3'
 - position: 20
-  ref: MAT 18:35!20
-  xml_id: n40018035020
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-syntax:
-  word_order: ADV-V-S-IO-ADV
+  ids:
+    ref: MAT 18:35!20
+    wordID: n40018035020
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40018001007

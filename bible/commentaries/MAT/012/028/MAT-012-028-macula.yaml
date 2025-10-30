@@ -1,271 +1,355 @@
-verse:
-  reference: MAT 12:28
-  book_code: MAT
-  chapter: 12
-  verse: 28
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: εἰ δὲ ἐν Πνεύματι Θεοῦ ἐγὼ ἐκβάλλω τὰ δαιμόνια, ἄρα ἔφθασεν ἐφ’ ὑμᾶς ἡ
-    βασιλεία τοῦ Θεοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:28
+text: εἰ δὲ ἐν Πνεύματι Θεοῦ ἐγὼ ἐκβάλλω τὰ δαιμόνια, ἄρα ἔφθασεν ἐφ’ ὑμᾶς ἡ βασιλεία
+  τοῦ Θεοῦ.
 words:
 - position: 1
-  ref: MAT 12:28!2
-  xml_id: n40012028002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 12:28!2
+    wordID: n40012028002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 12:28!1
-  xml_id: n40012028001
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: If
-  strong: '1487'
-  domain: 089010
-  ln: '89.65'
+  ids:
+    ref: MAT 12:28!1
+    wordID: n40012028001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
 - position: 3
-  ref: MAT 12:28!3
-  xml_id: n40012028003
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: by [the]
-  strong: '1722'
+  ids:
+    ref: MAT 12:28!3
+    wordID: n40012028003
+  translation:
+    gloss: by [the]
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
 - position: 4
-  ref: MAT 12:28!4
-  xml_id: n40012028004
-  unicode: Πνεύματι
+  text: Πνεύματι
   lemma: πνεῦμα
   normalized: Πνεύματι
-  class: noun
-  morph: N-DSN
-  gloss: Spirit
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '4151'
-  domain: '012001'
-  ln: '12.18'
+  ids:
+    ref: MAT 12:28!4
+    wordID: n40012028004
+  translation:
+    gloss: Spirit
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.18'
 - position: 5
-  ref: MAT 12:28!5
-  xml_id: n40012028005
-  unicode: Θεοῦ
+  text: Θεοῦ
   lemma: θεός
   normalized: Θεοῦ
-  class: noun
-  morph: N-GSM
-  gloss: of God
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2316'
-  domain: '012001'
-  ln: '12.1'
+  ids:
+    ref: MAT 12:28!5
+    wordID: n40012028005
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
 - position: 6
-  ref: MAT 12:28!6
-  xml_id: n40012028006
-  unicode: ἐγὼ
+  text: ἐγὼ
   lemma: ἐγώ
   normalized: ἐγώ
-  class: pron
-  morph: P-1NS
-  gloss: I
-  number: singular
-  case: nominative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: s
+  ids:
+    ref: MAT 12:28!6
+    wordID: n40012028006
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40012015003
 - position: 7
-  ref: MAT 12:28!7
-  xml_id: n40012028007
-  unicode: ἐκβάλλω
+  text: ἐκβάλλω
   lemma: ἐκβάλλω
   normalized: ἐκβάλλω
-  class: verb
-  morph: V-PAI-1S
-  gloss: cast out
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1544'
-  domain: '053011'
-  ln: '53.102'
-  role: v
+  ids:
+    ref: MAT 12:28!7
+    wordID: n40012028007
+  translation:
+    gloss: cast out
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '053011'
+    ln: '53.102'
+  syntax:
+    role: v
+    frame: A0:n40012028006 A1:n40012028009
 - position: 8
-  ref: MAT 12:28!8
-  xml_id: n40012028008
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: '-'
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:28!8
+    wordID: n40012028008
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 12:28!9
-  xml_id: n40012028009
-  unicode: δαιμόνια
+  text: δαιμόνια
   lemma: δαιμόνιον
   normalized: δαιμόνια
-  class: noun
-  morph: N-APN
-  gloss: demons
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '1140'
-  domain: '012001'
-  ln: '12.37'
+  ids:
+    ref: MAT 12:28!9
+    wordID: n40012028009
+  translation:
+    gloss: demons
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1140'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.37'
 - position: 10
-  ref: MAT 12:28!10
-  xml_id: n40012028010
-  unicode: ἄρα
+  text: ἄρα
   lemma: ἄρα
   normalized: ἄρα
-  class: conj
-  morph: PRT
-  gloss: then
-  strong: '686'
-  domain: 089008
-  ln: '89.46'
+  ids:
+    ref: MAT 12:28!10
+    wordID: n40012028010
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '686'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.46'
 - position: 11
-  ref: MAT 12:28!11
-  xml_id: n40012028011
-  unicode: ἔφθασεν
+  text: ἔφθασεν
   lemma: φθάνω
   normalized: ἔφθασεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: has come
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5348'
-  domain: '013004'
-  ln: '13.123'
-  role: v
+  ids:
+    ref: MAT 12:28!11
+    wordID: n40012028011
+  translation:
+    gloss: has come
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5348'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.123'
+  syntax:
+    role: v
+    frame: A0:n40012028015
 - position: 12
-  ref: MAT 12:28!12
-  xml_id: n40012028012
-  unicode: ἐφ’
+  text: ἐφ’
   lemma: ἐπί
   normalized: ἐφ’
-  class: prep
-  morph: PREP
-  gloss: upon
-  strong: '1909'
-  domain: 090013
-  ln: '90.57'
+  ids:
+    ref: MAT 12:28!12
+    wordID: n40012028012
+  translation:
+    gloss: upon
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.57'
 - position: 13
-  ref: MAT 12:28!13
-  xml_id: n40012028013
-  unicode: ὑμᾶς
+  text: ὑμᾶς
   lemma: σύ
   normalized: ὑμᾶς
-  class: pron
-  morph: P-2AP
-  gloss: you
-  number: plural
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 12:28!13
+    wordID: n40012028013
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40012024003
 - position: 14
-  ref: MAT 12:28!14
-  xml_id: n40012028014
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:28!14
+    wordID: n40012028014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 12:28!15
-  xml_id: n40012028015
-  unicode: βασιλεία
+  text: βασιλεία
   lemma: βασιλεία
   normalized: βασιλεία
-  class: noun
-  morph: N-NSF
-  gloss: kingdom
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '932'
-  domain: '037004'
-  ln: '37.64'
+  ids:
+    ref: MAT 12:28!15
+    wordID: n40012028015
+  translation:
+    gloss: kingdom
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.64'
 - position: 16
-  ref: MAT 12:28!16
-  xml_id: n40012028016
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:28!16
+    wordID: n40012028016
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 12:28!17
-  xml_id: n40012028017
-  unicode: Θεοῦ
+  text: Θεοῦ
   lemma: θεός
   normalized: Θεοῦ
-  class: noun
-  morph: N-GSM
-  gloss: of God
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2316'
-  domain: '012001'
-  ln: '12.1'
-syntax:
-  word_order: ADV-S-V-O
+  ids:
+    ref: MAT 12:28!17
+    wordID: n40012028017
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'

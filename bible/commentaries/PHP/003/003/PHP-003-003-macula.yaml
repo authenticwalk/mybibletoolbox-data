@@ -1,0 +1,549 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 3:3
+text: PHP 3:4 ἡμεῖς γάρ ἐσμεν ἡ περιτομή, οἱ Πνεύματι Θεοῦ λατρεύοντες καὶ καυχώμενοι
+  ἐν Χριστῷ Ἰησοῦ καὶ οὐκ ἐν σαρκὶ πεποιθότες, καίπερ ἐγὼ ἔχων πεποίθησιν καὶ ἐν σαρκί.
+words:
+- position: 1
+  text: γάρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: PHP 3:3!2
+    wordID: n50003003002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+- position: 2
+  text: ἐσμεν
+  lemma: εἰμί
+  normalized: ἐσμεν
+  ids:
+    ref: PHP 3:3!3
+    wordID: n50003003003
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 058010
+    ln: '58.67'
+  syntax:
+    role: vc
+- position: 3
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: PHP 3:3!4
+    wordID: n50003003004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: περιτομή
+  lemma: περιτομή
+  normalized: περιτομή
+  ids:
+    ref: PHP 3:3!5
+    wordID: n50003003005
+  translation:
+    gloss: circumcision
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4061'
+  semantic:
+    semanticDomain: '053006'
+    ln: '53.51'
+  syntax:
+    discontinuous: 'true'
+- position: 5
+  text: ἡμεῖς
+  lemma: ἐγώ
+  normalized: ἡμεῖς
+  ids:
+    ref: PHP 3:3!1
+    wordID: n50003003001
+  translation:
+    gloss: We
+  morphology:
+    class: pron
+    morph: P-1NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n50001001001 n50002019006 n50002025004 n50003001003
+- position: 6
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: PHP 3:3!6
+    wordID: n50003003006
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: Πνεύματι
+  lemma: πνεῦμα
+  normalized: Πνεύματι
+  ids:
+    ref: PHP 3:3!7
+    wordID: n50003003007
+  translation:
+    gloss: in [the] Spirit
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.18'
+- position: 8
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: PHP 3:3!8
+    wordID: n50003003008
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 9
+  text: λατρεύοντες
+  lemma: λατρεύω
+  normalized: λατρεύοντες
+  ids:
+    ref: PHP 3:3!9
+    wordID: n50003003009
+  translation:
+    gloss: worshiping
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3000'
+  semantic:
+    semanticDomain: '053001'
+    ln: '53.14'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 10
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 3:3!10
+    wordID: n50003003010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 11
+  text: καυχώμενοι
+  lemma: καυχάομαι
+  normalized: καυχώμενοι
+  ids:
+    ref: PHP 3:3!11
+    wordID: n50003003011
+  translation:
+    gloss: glorying
+  morphology:
+    class: verb
+    morph: V-PNP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '2744'
+  semantic:
+    semanticDomain: 033039
+    ln: '33.368'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 12
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: PHP 3:3!12
+    wordID: n50003003012
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
+- position: 13
+  text: Χριστῷ
+  lemma: Χριστός
+  normalized: Χριστῷ
+  ids:
+    ref: PHP 3:3!13
+    wordID: n50003003013
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+- position: 14
+  text: Ἰησοῦ
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦ
+  ids:
+    ref: PHP 3:3!14
+    wordID: n50003003014
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    junction: apposition
+- position: 15
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 3:3!15
+    wordID: n50003003015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 16
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: PHP 3:3!16
+    wordID: n50003003016
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 17
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: PHP 3:3!17
+    wordID: n50003003017
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
+- position: 18
+  text: σαρκὶ
+  lemma: σάρξ
+  normalized: σαρκί
+  ids:
+    ref: PHP 3:3!18
+    wordID: n50003003018
+  translation:
+    gloss: '[the] flesh'
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.12'
+- position: 19
+  text: πεποιθότες
+  lemma: πείθω
+  normalized: πεποιθότες
+  ids:
+    ref: PHP 3:3!19
+    wordID: n50003003019
+  translation:
+    gloss: having put confidence
+  morphology:
+    class: verb
+    morph: V-2RAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3982'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.82'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 20
+  text: καίπερ
+  lemma: καίπερ
+  normalized: καίπερ
+  ids:
+    ref: PHP 3:4!1
+    wordID: n50003004001
+  translation:
+    gloss: though
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2539'
+  semantic:
+    semanticDomain: 089011
+    ln: '89.71'
+- position: 21
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: PHP 3:4!2
+    wordID: n50003004002
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n50001001001
+- position: 22
+  text: ἔχων
+  lemma: ἔχω
+  normalized: ἔχων
+  ids:
+    ref: PHP 3:4!3
+    wordID: n50003004003
+  translation:
+    gloss: have
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.65'
+  syntax:
+    role: v
+    frame: A0:n50003004002 A1:n50003004004
+- position: 23
+  text: πεποίθησιν
+  lemma: πεποίθησις
+  normalized: πεποίθησιν
+  ids:
+    ref: PHP 3:4!4
+    wordID: n50003004004
+  translation:
+    gloss: confidence
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4006'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.82'
+  syntax:
+    role: o
+- position: 24
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 3:4!5
+    wordID: n50003004005
+  translation:
+    gloss: even
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 25
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: PHP 3:4!6
+    wordID: n50003004006
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
+- position: 26
+  text: σαρκί
+  lemma: σάρξ
+  normalized: σαρκί
+  ids:
+    ref: PHP 3:4!7
+    wordID: n50003004007
+  translation:
+    gloss: '[the] flesh'
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.12'

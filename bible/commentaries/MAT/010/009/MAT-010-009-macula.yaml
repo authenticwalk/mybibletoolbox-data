@@ -1,330 +1,440 @@
-verse:
-  reference: MAT 10:9
-  book_code: MAT
-  chapter: 10
-  verse: 9
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 10:10 Μὴ κτήσησθε χρυσὸν μηδὲ ἄργυρον μηδὲ χαλκὸν εἰς τὰς ζώνας ὑμῶν,
-    μὴ πήραν εἰς ὁδὸν μηδὲ δύο χιτῶνας μηδὲ ὑποδήματα μηδὲ ῥάβδον·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:9
+text: MAT 10:10 Μὴ κτήσησθε χρυσὸν μηδὲ ἄργυρον μηδὲ χαλκὸν εἰς τὰς ζώνας ὑμῶν, μὴ
+  πήραν εἰς ὁδὸν μηδὲ δύο χιτῶνας μηδὲ ὑποδήματα μηδὲ ῥάβδον·
 words:
 - position: 1
-  ref: MAT 10:9!1
-  xml_id: n40010009001
-  unicode: Μὴ
+  text: Μὴ
   lemma: μή
   normalized: Μή
-  class: adv
-  morph: PRT-N
-  gloss: Neither
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:9!1
+    wordID: n40010009001
+  translation:
+    gloss: Neither
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 10:9!2
-  xml_id: n40010009002
-  unicode: κτήσησθε
+  text: κτήσησθε
   lemma: κτάομαι
   normalized: κτήσησθε
-  class: verb
-  morph: V-ADS-2P
-  gloss: take along
-  number: plural
-  person: second
-  tense: aorist
-  voice: middle
-  mood: subjunctive
-  strong: '2932'
-  domain: '057007'
-  ln: '57.58'
-  role: v
+  ids:
+    ref: MAT 10:9!2
+    wordID: n40010009002
+  translation:
+    gloss: take along
+  morphology:
+    class: verb
+    morph: V-ADS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: middle
+    mood: subjunctive
+  lexical:
+    strong: '2932'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.58'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010009003;n40010009005;n40010009007
+  discourse:
+    subject: n40010005003
 - position: 3
-  ref: MAT 10:9!3
-  xml_id: n40010009003
-  unicode: χρυσὸν
+  text: χρυσὸν
   lemma: χρυσός
   normalized: χρυσόν
-  class: noun
-  morph: N-ASM
-  gloss: gold
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '5557'
-  domain: '006011'
-  ln: '6.74'
+  ids:
+    ref: MAT 10:9!3
+    wordID: n40010009003
+  translation:
+    gloss: gold
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5557'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.74'
 - position: 4
-  ref: MAT 10:9!4
-  xml_id: n40010009004
-  unicode: μηδὲ
+  text: μηδὲ
   lemma: μηδέ
   normalized: μηδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3366'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 10:9!4
+    wordID: n40010009004
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 5
-  ref: MAT 10:9!5
-  xml_id: n40010009005
-  unicode: ἄργυρον
+  text: ἄργυρον
   lemma: ἄργυρος
   normalized: ἄργυρον
-  class: noun
-  morph: N-ASM
-  gloss: silver
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '696'
-  domain: '006011'
-  ln: '6.73'
+  ids:
+    ref: MAT 10:9!5
+    wordID: n40010009005
+  translation:
+    gloss: silver
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '696'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.73'
 - position: 6
-  ref: MAT 10:9!6
-  xml_id: n40010009006
-  unicode: μηδὲ
+  text: μηδὲ
   lemma: μηδέ
   normalized: μηδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3366'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 10:9!6
+    wordID: n40010009006
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 7
-  ref: MAT 10:9!7
-  xml_id: n40010009007
-  unicode: χαλκὸν
+  text: χαλκὸν
   lemma: χαλκός
   normalized: χαλκόν
-  class: noun
-  morph: N-ASM
-  gloss: copper
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '5475'
-  domain: '006011'
-  ln: '6.72'
+  ids:
+    ref: MAT 10:9!7
+    wordID: n40010009007
+  translation:
+    gloss: copper
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5475'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.72'
 - position: 8
-  ref: MAT 10:9!8
-  xml_id: n40010009008
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 10:9!8
+    wordID: n40010009008
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 9
-  ref: MAT 10:9!9
-  xml_id: n40010009009
-  unicode: τὰς
+  text: τὰς
   lemma: ὁ
   normalized: τάς
-  class: det
-  morph: T-APF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:9!9
+    wordID: n40010009009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 10:9!10
-  xml_id: n40010009010
-  unicode: ζώνας
+  text: ζώνας
   lemma: ζώνη
   normalized: ζώνας
-  class: noun
-  morph: N-APF
-  gloss: belts
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '2223'
-  domain: '006017'
-  ln: '6.178'
+  ids:
+    ref: MAT 10:9!10
+    wordID: n40010009010
+  translation:
+    gloss: belts
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2223'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.178'
 - position: 11
-  ref: MAT 10:9!11
-  xml_id: n40010009011
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: of you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 10:9!11
+    wordID: n40010009011
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40010005003
 - position: 12
-  ref: MAT 10:10!1
-  xml_id: n40010010001
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: nor
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 10:10!1
+    wordID: n40010010001
+  translation:
+    gloss: nor
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 13
-  ref: MAT 10:10!2
-  xml_id: n40010010002
-  unicode: πήραν
+  text: πήραν
   lemma: πήρα
   normalized: πήραν
-  class: noun
-  morph: N-ASF
-  gloss: provision-bag
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '4082'
-  domain: '006016'
-  ln: '6.145'
+  ids:
+    ref: MAT 10:10!2
+    wordID: n40010010002
+  translation:
+    gloss: provision-bag
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4082'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.145'
 - position: 14
-  ref: MAT 10:10!3
-  xml_id: n40010010003
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: for
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 10:10!3
+    wordID: n40010010003
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 15
-  ref: MAT 10:10!4
-  xml_id: n40010010004
-  unicode: ὁδὸν
+  text: ὁδὸν
   lemma: ὁδός
   normalized: ὁδόν
-  class: noun
-  morph: N-ASF
-  gloss: '[the] way'
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3598'
-  domain: '015002'
-  ln: '15.19'
+  ids:
+    ref: MAT 10:10!4
+    wordID: n40010010004
+  translation:
+    gloss: '[the] way'
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3598'
+  semantic:
+    semanticDomain: '015002'
+    ln: '15.19'
 - position: 16
-  ref: MAT 10:10!5
-  xml_id: n40010010005
-  unicode: μηδὲ
+  text: μηδὲ
   lemma: μηδέ
   normalized: μηδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3366'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 10:10!5
+    wordID: n40010010005
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 17
-  ref: MAT 10:10!6
-  xml_id: n40010010006
-  unicode: δύο
+  text: δύο
   lemma: δύο
   normalized: δύο
-  class: num
-  morph: A-NUI
-  gloss: two
-  strong: '1417'
-  domain: '060002'
-  ln: '60.11'
+  ids:
+    ref: MAT 10:10!6
+    wordID: n40010010006
+  translation:
+    gloss: two
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1417'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.11'
 - position: 18
-  ref: MAT 10:10!7
-  xml_id: n40010010007
-  unicode: χιτῶνας
+  text: χιτῶνας
   lemma: χιτών
   normalized: χιτῶνας
-  class: noun
-  morph: N-APM
-  gloss: tunics
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '5509'
-  domain: '006017'
-  ln: '6.176'
+  ids:
+    ref: MAT 10:10!7
+    wordID: n40010010007
+  translation:
+    gloss: tunics
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5509'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.176'
 - position: 19
-  ref: MAT 10:10!8
-  xml_id: n40010010008
-  unicode: μηδὲ
+  text: μηδὲ
   lemma: μηδέ
   normalized: μηδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3366'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 10:10!8
+    wordID: n40010010008
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 20
-  ref: MAT 10:10!9
-  xml_id: n40010010009
-  unicode: ὑποδήματα
+  text: ὑποδήματα
   lemma: ὑπόδημα
   normalized: ὑποδήματα
-  class: noun
-  morph: N-APN
-  gloss: sandals
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5266'
-  domain: '006017'
-  ln: '6.182'
+  ids:
+    ref: MAT 10:10!9
+    wordID: n40010010009
+  translation:
+    gloss: sandals
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5266'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.182'
 - position: 21
-  ref: MAT 10:10!10
-  xml_id: n40010010010
-  unicode: μηδὲ
+  text: μηδὲ
   lemma: μηδέ
   normalized: μηδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3366'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 10:10!10
+    wordID: n40010010010
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 22
-  ref: MAT 10:10!11
-  xml_id: n40010010011
-  unicode: ῥάβδον
+  text: ῥάβδον
   lemma: ῥάβδος
   normalized: ῥάβδον
-  class: noun
-  morph: N-ASF
-  gloss: a staff
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '4464'
-  domain: '006023'
-  ln: '6.218'
-syntax:
-  word_order: ADV-V-O-ADV
+  ids:
+    ref: MAT 10:10!11
+    wordID: n40010010011
+  translation:
+    gloss: a staff
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4464'
+  semantic:
+    semanticDomain: '006023'
+    ln: '6.218'

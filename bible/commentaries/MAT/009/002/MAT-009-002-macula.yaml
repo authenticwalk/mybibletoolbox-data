@@ -1,149 +1,183 @@
-verse:
-  reference: MAT 9:2
-  book_code: MAT
-  chapter: 9
-  verse: 2
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Καὶ ἰδοὺ προσέφερον αὐτῷ παραλυτικὸν ἐπὶ κλίνης βεβλημένον.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:2
+text: Καὶ ἰδοὺ προσέφερον αὐτῷ παραλυτικὸν ἐπὶ κλίνης βεβλημένον.
 words:
 - position: 1
-  ref: MAT 9:2!1
-  xml_id: n40009002001
-  unicode: Καὶ
+  text: Καὶ
   lemma: καί
   normalized: Καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 091001
-  ln: '91.1'
+  ids:
+    ref: MAT 9:2!1
+    wordID: n40009002001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
 - position: 2
-  ref: MAT 9:2!2
-  xml_id: n40009002002
-  unicode: ἰδοὺ
+  text: ἰδοὺ
   lemma: ὁράω
   normalized: ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 9:2!2
+    wordID: n40009002002
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
 - position: 3
-  ref: MAT 9:2!3
-  xml_id: n40009002003
-  unicode: προσέφερον
+  text: προσέφερον
   lemma: προσφέρω
   normalized: προσέφερον
-  class: verb
-  morph: V-IAI-3P
-  gloss: they were bringing
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '4374'
-  domain: '015023'
-  ln: '15.172'
-  role: v
+  ids:
+    ref: MAT 9:2!3
+    wordID: n40009002003
+  translation:
+    gloss: they were bringing
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4374'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.172'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A2:n40009002004 A1:n40009002005
 - position: 4
-  ref: MAT 9:2!4
-  xml_id: n40009002004
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 9:2!4
+    wordID: n40009002004
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008034010
 - position: 5
-  ref: MAT 9:2!5
-  xml_id: n40009002005
-  unicode: παραλυτικὸν
+  text: παραλυτικὸν
   lemma: παραλυτικός
   normalized: παραλυτικόν
-  class: adj
-  morph: A-ASM
-  gloss: a paralytic
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3885'
-  domain: 023009
-  ln: '23.171'
+  ids:
+    ref: MAT 9:2!5
+    wordID: n40009002005
+  translation:
+    gloss: a paralytic
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3885'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.171'
 - position: 6
-  ref: MAT 9:2!6
-  xml_id: n40009002006
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1909'
-  domain: 083008
-  ln: '83.46'
+  ids:
+    ref: MAT 9:2!6
+    wordID: n40009002006
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
 - position: 7
-  ref: MAT 9:2!7
-  xml_id: n40009002007
-  unicode: κλίνης
+  text: κλίνης
   lemma: κλίνη
   normalized: κλίνης
-  class: noun
-  morph: N-GSF
-  gloss: a bed
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '2825'
-  domain: '006015'
-  ln: '6.106'
+  ids:
+    ref: MAT 9:2!7
+    wordID: n40009002007
+  translation:
+    gloss: a bed
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2825'
+  semantic:
+    semanticDomain: '006015'
+    ln: '6.106'
 - position: 8
-  ref: MAT 9:2!8
-  xml_id: n40009002008
-  unicode: βεβλημένον
+  text: βεβλημένον
   lemma: βάλλω
   normalized: βεβλημένον
-  class: verb
-  morph: V-RPP-ASM
-  gloss: lying
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '906'
-  domain: 085002
-  ln: '85.34'
-  role: v
-syntax:
-  word_order: ADV-V
+  ids:
+    ref: MAT 9:2!8
+    wordID: n40009002008
+  translation:
+    gloss: lying
+  morphology:
+    class: verb
+    morph: V-RPP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '906'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.34'
+  syntax:
+    role: v
+    frame: A1:n40009002005
+  discourse:
+    subject: n40009002005

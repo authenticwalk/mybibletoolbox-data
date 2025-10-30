@@ -1,0 +1,301 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 3:17
+text: Συνμιμηταί μου γίνεσθε, ἀδελφοί, καὶ σκοπεῖτε τοὺς οὕτως περιπατοῦντας καθὼς
+  ἔχετε τύπον ἡμᾶς.
+words:
+- position: 1
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: PHP 3:17!4
+    wordID: n50003017004
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 2
+  text: Συνμιμηταί
+  lemma: συμμιμητής
+  normalized: Συνμιμηταί
+  ids:
+    ref: PHP 3:17!1
+    wordID: n50003017001
+  translation:
+    gloss: Imitators together
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '4831'
+  semantic:
+    semanticDomain: '041004'
+    ln: '41.46'
+- position: 3
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: PHP 3:17!2
+    wordID: n50003017002
+  translation:
+    gloss: of me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n50001001001
+- position: 4
+  text: γίνεσθε
+  lemma: γίνομαι
+  normalized: γίνεσθε
+  ids:
+    ref: PHP 3:17!3
+    wordID: n50003017003
+  translation:
+    gloss: be
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.48'
+  syntax:
+    role: vc
+  discourse:
+    subject: n50003017004
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 3:17!5
+    wordID: n50003017005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 6
+  text: σκοπεῖτε
+  lemma: σκοπέω
+  normalized: σκοπεῖτε
+  ids:
+    ref: PHP 3:17!6
+    wordID: n50003017006
+  translation:
+    gloss: observe
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4648'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.32'
+  syntax:
+    role: v
+    frame: A0:n50003017004 A1:n50003017009
+  discourse:
+    subject: n50003017004
+- position: 7
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: PHP 3:17!7
+    wordID: n50003017007
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: οὕτως
+  lemma: οὕτω
+  normalized: οὕτως
+  ids:
+    ref: PHP 3:17!8
+    wordID: n50003017008
+  translation:
+    gloss: thus
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3779'
+  semantic:
+    semanticDomain: '061'
+    ln: '61.9'
+  syntax:
+    role: adv
+- position: 9
+  text: περιπατοῦντας
+  lemma: περιπατέω
+  normalized: περιπατοῦντας
+  ids:
+    ref: PHP 3:17!9
+    wordID: n50003017009
+  translation:
+    gloss: walking
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4043'
+  semantic:
+    semanticDomain: '041001'
+    ln: '41.11'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 10
+  text: καθὼς
+  lemma: καθώς
+  normalized: καθώς
+  ids:
+    ref: PHP 3:17!10
+    wordID: n50003017010
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2531'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.14'
+- position: 11
+  text: ἔχετε
+  lemma: ἔχω
+  normalized: ἔχετε
+  ids:
+    ref: PHP 3:17!11
+    wordID: n50003017011
+  translation:
+    gloss: you have
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '031001'
+    ln: '31.1'
+  syntax:
+    role: v
+    frame: A0:n50003017004 A1:n50003017013
+  discourse:
+    subject: n50003017004
+- position: 12
+  text: τύπον
+  lemma: τύπος
+  normalized: τύπον
+  ids:
+    ref: PHP 3:17!12
+    wordID: n50003017012
+  translation:
+    gloss: '[for] a pattern'
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5179'
+  semantic:
+    semanticDomain: 058009
+    ln: '58.59'
+  syntax:
+    role: o2
+- position: 13
+  text: ἡμᾶς
+  lemma: ἐγώ
+  normalized: ἡμᾶς
+  ids:
+    ref: PHP 3:17!13
+    wordID: n50003017013
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n50001001001 n50002019006 n50002025004

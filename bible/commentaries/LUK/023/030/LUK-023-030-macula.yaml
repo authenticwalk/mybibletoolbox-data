@@ -1,0 +1,288 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 23:30
+text: τότε ἄρξονται λέγειν τοῖς ὄρεσιν Πέσατε ἐφ’ ἡμᾶς, καὶ τοῖς βουνοῖς Καλύψατε
+  ἡμᾶς·
+words:
+- position: 1
+  text: τότε
+  lemma: τότε
+  normalized: τότε
+  ids:
+    ref: LUK 23:30!1
+    wordID: n42023030001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
+- position: 2
+  text: ἄρξονται
+  lemma: ἄρχω
+  normalized: ἄρξονται
+  ids:
+    ref: LUK 23:30!2
+    wordID: n42023030002
+  translation:
+    gloss: They will begin
+  morphology:
+    class: verb
+    morph: V-FMI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '756'
+  semantic:
+    semanticDomain: 068001
+    ln: '68.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42023030003;n42023030011
+- position: 3
+  text: λέγειν
+  lemma: λέγω
+  normalized: λέγειν
+  ids:
+    ref: LUK 23:30!3
+    wordID: n42023030003
+  translation:
+    gloss: to say
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A2:n42023030005
+- position: 4
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: LUK 23:30!4
+    wordID: n42023030004
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ὄρεσιν
+  lemma: ὄρος
+  normalized: ὄρεσιν
+  ids:
+    ref: LUK 23:30!5
+    wordID: n42023030005
+  translation:
+    gloss: mountains
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3735'
+  semantic:
+    semanticDomain: '001007'
+    ln: '1.46'
+- position: 6
+  text: Πέσατε
+  lemma: πίπτω
+  normalized: Πέσατε
+  ids:
+    ref: LUK 23:30!6
+    wordID: n42023030006
+  translation:
+    gloss: Fall
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4098'
+  semantic:
+    semanticDomain: '015012'
+    ln: '15.118'
+  syntax:
+    role: v
+    frame: A0:n42023030005
+  discourse:
+    subject: n42023030005
+- position: 7
+  text: ἐφ’
+  lemma: ἐπί
+  normalized: ἐφ’
+  ids:
+    ref: LUK 23:30!7
+    wordID: n42023030007
+  translation:
+    gloss: upon
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.20'
+- position: 8
+  text: ἡμᾶς
+  lemma: ἐγώ
+  normalized: ἡμᾶς
+  ids:
+    ref: LUK 23:30!8
+    wordID: n42023030008
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+- position: 9
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 23:30!9
+    wordID: n42023030009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 10
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: LUK 23:30!10
+    wordID: n42023030010
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: βουνοῖς
+  lemma: βουνός
+  normalized: βουνοῖς
+  ids:
+    ref: LUK 23:30!11
+    wordID: n42023030011
+  translation:
+    gloss: hills
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '1015'
+  semantic:
+    semanticDomain: '001007'
+    ln: '1.48'
+- position: 12
+  text: Καλύψατε
+  lemma: καλύπτω
+  normalized: Καλύψατε
+  ids:
+    ref: LUK 23:30!12
+    wordID: n42023030012
+  translation:
+    gloss: Cover
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2572'
+  semantic:
+    semanticDomain: 079025
+    ln: '79.114'
+  syntax:
+    role: v
+    frame: A0:n42023030011 A1:n42023030013
+  discourse:
+    subject: n42023030011
+- position: 13
+  text: ἡμᾶς
+  lemma: ἐγώ
+  normalized: ἡμᾶς
+  ids:
+    ref: LUK 23:30!13
+    wordID: n42023030013
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: o

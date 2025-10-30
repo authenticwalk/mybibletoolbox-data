@@ -1,0 +1,595 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1TH 2:7
+text: "1TH 2:7 \n         1TH 2:8 ὡς ἐὰν τροφὸς θάλπῃ τὰ ἑαυτῆς τέκνα· οὕτως ὁμειρόμενοι\
+  \ ὑμῶν εὐδοκοῦμεν μεταδοῦναι ὑμῖν οὐ μόνον τὸ εὐαγγέλιον τοῦ Θεοῦ ἀλλὰ καὶ τὰς ἑαυτῶν\
+  \ ψυχάς, διότι ἀγαπητοὶ ἡμῖν ἐγενήθητε."
+words:
+- position: 1
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: 1TH 2:7!14
+    wordID: n52002007014
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 2
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: 1TH 2:7!15
+    wordID: n52002007015
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+- position: 3
+  text: τροφὸς
+  lemma: τροφός
+  normalized: τροφός
+  ids:
+    ref: 1TH 2:7!16
+    wordID: n52002007016
+  translation:
+    gloss: a nursing mother
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5162'
+  semantic:
+    semanticDomain: '035006'
+    ln: '35.52'
+  syntax:
+    role: s
+- position: 4
+  text: θάλπῃ
+  lemma: θάλπω
+  normalized: θάλπῃ
+  ids:
+    ref: 1TH 2:7!17
+    wordID: n52002007017
+  translation:
+    gloss: would cherish
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2282'
+  semantic:
+    semanticDomain: '035004'
+    ln: '35.36'
+  syntax:
+    role: v
+    frame: A0:n52002007016 A1:n52002007020
+- position: 5
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: 1TH 2:7!18
+    wordID: n52002007018
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: ἑαυτῆς
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτῆς
+  ids:
+    ref: 1TH 2:7!19
+    wordID: n52002007019
+  translation:
+    gloss: her own
+  morphology:
+    class: pron
+    morph: F-3GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n52002007016
+- position: 7
+  text: τέκνα
+  lemma: τέκνον
+  normalized: τέκνα
+  ids:
+    ref: 1TH 2:7!20
+    wordID: n52002007020
+  translation:
+    gloss: children
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5043'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.36'
+- position: 8
+  text: οὕτως
+  lemma: οὕτω
+  normalized: οὕτως
+  ids:
+    ref: 1TH 2:8!1
+    wordID: n52002008001
+  translation:
+    gloss: So
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3779'
+  semantic:
+    semanticDomain: 061 078001
+    ln: 61.9 78.4
+  syntax:
+    role: adv
+- position: 9
+  text: ὁμειρόμενοι
+  lemma: ὁμείρομαι
+  normalized: ὁμειρόμενοι
+  ids:
+    ref: 1TH 2:8!2
+    wordID: n52002008002
+  translation:
+    gloss: yearning over
+  morphology:
+    class: verb
+    morph: V-PNP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '2442'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.47'
+  syntax:
+    role: v
+    frame: A0:n52001001001;n52001001003;n52001001005 A1:n52002008003
+  discourse:
+    subject: n52001001001 n52001001003 n52001001005
+- position: 10
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: 1TH 2:8!3
+    wordID: n52002008003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n52002001004
+- position: 11
+  text: εὐδοκοῦμεν
+  lemma: εὐδοκέω
+  normalized: εὐδοκοῦμεν
+  ids:
+    ref: 1TH 2:8!4
+    wordID: n52002008004
+  translation:
+    gloss: we were pleased
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2106'
+  semantic:
+    semanticDomain: 025010 030006
+    ln: 25.113 30.97
+  syntax:
+    role: v
+    frame: A0:n52001001001;n52001001003;n52001001005 A1:n52002008005
+  discourse:
+    subject: n52001001001 n52001001003 n52001001005
+- position: 12
+  text: μεταδοῦναι
+  lemma: μεταδίδωμι
+  normalized: μεταδοῦναι
+  ids:
+    ref: 1TH 2:8!5
+    wordID: n52002008005
+  translation:
+    gloss: to have imparted
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3330'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.96'
+  syntax:
+    role: v
+    frame: A0:n52001001001;n52001001003;n52001001005 A2:n52002008006 A1:n52002008007;n52002008010;n52002008017
+  discourse:
+    subject: n52001001001 n52001001003 n52001001005
+- position: 13
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1TH 2:8!6
+    wordID: n52002008006
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: io
+  discourse:
+    referent: n52002001004
+- position: 14
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: 1TH 2:8!7
+    wordID: n52002008007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+- position: 15
+  text: μόνον
+  lemma: μόνος
+  normalized: μόνον
+  ids:
+    ref: 1TH 2:8!8
+    wordID: n52002008008
+  translation:
+    gloss: only
+  morphology:
+    class: adj
+    morph: ADV
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3440'
+- position: 16
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1TH 2:8!9
+    wordID: n52002008009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 17
+  text: εὐαγγέλιον
+  lemma: εὐαγγέλιον
+  normalized: εὐαγγέλιον
+  ids:
+    ref: 1TH 2:8!10
+    wordID: n52002008010
+  translation:
+    gloss: gospel
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2098'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.217'
+- position: 18
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 1TH 2:8!11
+    wordID: n52002008011
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: 1TH 2:8!12
+    wordID: n52002008012
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 20
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: 1TH 2:8!13
+    wordID: n52002008013
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
+- position: 21
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1TH 2:8!14
+    wordID: n52002008014
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 22
+  text: τὰς
+  lemma: ὁ
+  normalized: τάς
+  ids:
+    ref: 1TH 2:8!15
+    wordID: n52002008015
+  translation:
+    gloss: our
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 23
+  text: ἑαυτῶν
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτῶν
+  ids:
+    ref: 1TH 2:8!16
+    wordID: n52002008016
+  translation:
+    gloss: own
+  morphology:
+    class: pron
+    morph: F-1GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n52001001001 n52001001003 n52001001005
+- position: 24
+  text: ψυχάς
+  lemma: ψυχή
+  normalized: ψυχάς
+  ids:
+    ref: 1TH 2:8!17
+    wordID: n52002008017
+  translation:
+    gloss: lives
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.20'
+- position: 25
+  text: διότι
+  lemma: διότι
+  normalized: διότι
+  ids:
+    ref: 1TH 2:8!18
+    wordID: n52002008018
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1360'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.26'
+- position: 26
+  text: ἀγαπητοὶ
+  lemma: ἀγαπητός
+  normalized: ἀγαπητοί
+  ids:
+    ref: 1TH 2:8!19
+    wordID: n52002008019
+  translation:
+    gloss: beloved
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '27'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.45'
+  syntax:
+    role: p
+  discourse:
+    referent: n52002001004
+- position: 27
+  text: ἡμῖν
+  lemma: ἐγώ
+  normalized: ἡμῖν
+  ids:
+    ref: 1TH 2:8!20
+    wordID: n52002008020
+  translation:
+    gloss: to us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: adv
+  discourse:
+    referent: n52001001001 n52001001003 n52001001005
+- position: 28
+  text: ἐγενήθητε
+  lemma: γίνομαι
+  normalized: ἐγενήθητε
+  ids:
+    ref: 1TH 2:8!21
+    wordID: n52002008021
+  translation:
+    gloss: you have become
+  morphology:
+    class: verb
+    morph: V-AOI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: 013001 013002
+    ln: 13.3 13.48
+  syntax:
+    role: vc
+  discourse:
+    subject: n52002001004

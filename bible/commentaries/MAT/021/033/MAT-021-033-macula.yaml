@@ -1,72 +1,74 @@
-verse:
-  reference: MAT 21:33
-  book_code: MAT
-  chapter: 21
-  verse: 33
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ἄλλην παραβολὴν ἀκούσατε.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 21:33
+text: Ἄλλην παραβολὴν ἀκούσατε.
 words:
 - position: 1
-  ref: MAT 21:33!1
-  xml_id: n40021033001
-  unicode: Ἄλλην
+  text: Ἄλλην
   lemma: ἄλλος
   normalized: Ἄλλην
-  class: adj
-  morph: A-ASF
-  gloss: Another
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 21:33!1
+    wordID: n40021033001
+  translation:
+    gloss: Another
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 2
-  ref: MAT 21:33!2
-  xml_id: n40021033002
-  unicode: παραβολὴν
+  text: παραβολὴν
   lemma: παραβολή
   normalized: παραβολήν
-  class: noun
-  morph: N-ASF
-  gloss: parable
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3850'
-  domain: '033003'
-  ln: '33.15'
+  ids:
+    ref: MAT 21:33!2
+    wordID: n40021033002
+  translation:
+    gloss: parable
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3850'
+  semantic:
+    semanticDomain: '033003'
+    ln: '33.15'
 - position: 3
-  ref: MAT 21:33!3
-  xml_id: n40021033003
-  unicode: ἀκούσατε
+  text: ἀκούσατε
   lemma: ἀκούω
   normalized: ἀκούσατε
-  class: verb
-  morph: V-AAM-2P
-  gloss: hear
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
-syntax:
-  word_order: O-V
+  ids:
+    ref: MAT 21:33!3
+    wordID: n40021033003
+  translation:
+    gloss: hear
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40021023011;n40021023014 A1:n40021033002
+  discourse:
+    subject: n40021023011 n40021023014

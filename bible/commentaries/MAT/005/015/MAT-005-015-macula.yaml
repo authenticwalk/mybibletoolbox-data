@@ -1,317 +1,419 @@
-verse:
-  reference: MAT 5:15
-  book_code: MAT
-  chapter: 5
-  verse: 15
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οὐδὲ καίουσιν λύχνον καὶ τιθέασιν αὐτὸν ὑπὸ τὸν μόδιον, ἀλλ’ ἐπὶ τὴν λυχνίαν,
-    καὶ λάμπει πᾶσιν τοῖς ἐν τῇ οἰκίᾳ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:15
+text: οὐδὲ καίουσιν λύχνον καὶ τιθέασιν αὐτὸν ὑπὸ τὸν μόδιον, ἀλλ’ ἐπὶ τὴν λυχνίαν,
+  καὶ λάμπει πᾶσιν τοῖς ἐν τῇ οἰκίᾳ.
 words:
 - position: 1
-  ref: MAT 5:15!1
-  xml_id: n40005015001
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: Nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 5:15!1
+    wordID: n40005015001
+  translation:
+    gloss: Nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 2
-  ref: MAT 5:15!2
-  xml_id: n40005015002
-  unicode: καίουσιν
+  text: καίουσιν
   lemma: καίω
   normalized: καίουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: do they light
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2545'
-  domain: 014008
-  ln: '14.65'
-  role: v
+  ids:
+    ref: MAT 5:15!2
+    wordID: n40005015002
+  translation:
+    gloss: do they light
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2545'
+  semantic:
+    semanticDomain: 014008
+    ln: '14.65'
+  syntax:
+    role: v
+    frame: A0:n40005013026 A1:n40005015003
+  discourse:
+    subject: n40005013026
 - position: 3
-  ref: MAT 5:15!3
-  xml_id: n40005015003
-  unicode: λύχνον
+  text: λύχνον
   lemma: λύχνος
   normalized: λύχνον
-  class: noun
-  morph: N-ASM
-  gloss: a lamp
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3088'
-  domain: '006014'
-  ln: '6.104'
-  role: o
+  ids:
+    ref: MAT 5:15!3
+    wordID: n40005015003
+  translation:
+    gloss: a lamp
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3088'
+  semantic:
+    semanticDomain: '006014'
+    ln: '6.104'
+  syntax:
+    role: o
 - position: 4
-  ref: MAT 5:15!4
-  xml_id: n40005015004
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 5:15!4
+    wordID: n40005015004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 5
-  ref: MAT 5:15!5
-  xml_id: n40005015005
-  unicode: τιθέασιν
+  text: τιθέασιν
   lemma: τίθημι
   normalized: τιθέασιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: put
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '5087'
-  domain: 085002
-  ln: '85.32'
-  role: v
+  ids:
+    ref: MAT 5:15!5
+    wordID: n40005015005
+  translation:
+    gloss: put
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5087'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.32'
+  syntax:
+    role: v
+    frame: A0:n40005013026 A1:n40005015006
+  discourse:
+    subject: n40005013026
 - position: 6
-  ref: MAT 5:15!6
-  xml_id: n40005015006
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: it
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 5:15!6
+    wordID: n40005015006
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005015003
 - position: 7
-  ref: MAT 5:15!7
-  xml_id: n40005015007
-  unicode: ὑπὸ
+  text: ὑπὸ
   lemma: ὑπό
   normalized: ὑπό
-  class: prep
-  morph: PREP
-  gloss: under
-  strong: '5259'
-  domain: 083009
-  ln: '83.51'
+  ids:
+    ref: MAT 5:15!7
+    wordID: n40005015007
+  translation:
+    gloss: under
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 083009
+    ln: '83.51'
 - position: 8
-  ref: MAT 5:15!8
-  xml_id: n40005015008
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:15!8
+    wordID: n40005015008
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 5:15!9
-  xml_id: n40005015009
-  unicode: μόδιον
+  text: μόδιον
   lemma: μόδιος
   normalized: μόδιον
-  class: noun
-  morph: N-ASM
-  gloss: a basket
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3426'
-  domain: '006016'
-  ln: '6.151'
+  ids:
+    ref: MAT 5:15!9
+    wordID: n40005015009
+  translation:
+    gloss: a basket
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3426'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.151'
 - position: 10
-  ref: MAT 5:15!10
-  xml_id: n40005015010
-  unicode: ἀλλ’
+  text: ἀλλ’
   lemma: ἀλλά
   normalized: ἀλλ’
-  class: conj
-  morph: CONJ
-  gloss: but
-  strong: '235'
-  domain: 089023
-  ln: '89.125'
+  ids:
+    ref: MAT 5:15!10
+    wordID: n40005015010
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
 - position: 11
-  ref: MAT 5:15!11
-  xml_id: n40005015011
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: upon
-  strong: '1909'
-  domain: 083008
-  ln: '83.46'
+  ids:
+    ref: MAT 5:15!11
+    wordID: n40005015011
+  translation:
+    gloss: upon
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
 - position: 12
-  ref: MAT 5:15!12
-  xml_id: n40005015012
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:15!12
+    wordID: n40005015012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 5:15!13
-  xml_id: n40005015013
-  unicode: λυχνίαν
+  text: λυχνίαν
   lemma: λυχνία
   normalized: λυχνίαν
-  class: noun
-  morph: N-ASF
-  gloss: lampstand
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3087'
-  domain: '006014'
-  ln: '6.105'
+  ids:
+    ref: MAT 5:15!13
+    wordID: n40005015013
+  translation:
+    gloss: lampstand
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3087'
+  semantic:
+    semanticDomain: '006014'
+    ln: '6.105'
 - position: 14
-  ref: MAT 5:15!14
-  xml_id: n40005015014
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 5:15!14
+    wordID: n40005015014
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 15
-  ref: MAT 5:15!15
-  xml_id: n40005015015
-  unicode: λάμπει
+  text: λάμπει
   lemma: λάμπω
   normalized: λάμπει
-  class: verb
-  morph: V-PAI-3S
-  gloss: it shines
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2989'
-  domain: '014006'
-  ln: '14.37'
-  role: v
+  ids:
+    ref: MAT 5:15!15
+    wordID: n40005015015
+  translation:
+    gloss: it shines
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2989'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.37'
+  syntax:
+    role: v
+    frame: A0:n40005015003
+  discourse:
+    subject: n40005015003
 - position: 16
-  ref: MAT 5:15!16
-  xml_id: n40005015016
-  unicode: πᾶσιν
+  text: πᾶσιν
   lemma: πᾶς
   normalized: πᾶσιν
-  class: adj
-  morph: A-DPM
-  gloss: for all
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 5:15!16
+    wordID: n40005015016
+  translation:
+    gloss: for all
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 17
-  ref: MAT 5:15!17
-  xml_id: n40005015017
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:15!17
+    wordID: n40005015017
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 5:15!18
-  xml_id: n40005015018
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 5:15!18
+    wordID: n40005015018
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 19
-  ref: MAT 5:15!19
-  xml_id: n40005015019
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:15!19
+    wordID: n40005015019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 5:15!20
-  xml_id: n40005015020
-  unicode: οἰκίᾳ
+  text: οἰκίᾳ
   lemma: οἰκία
   normalized: οἰκίᾳ
-  class: noun
-  morph: N-DSF
-  gloss: house
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '3614'
-  domain: '007002'
-  ln: '7.3'
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 5:15!20
+    wordID: n40005015020
+  translation:
+    gloss: house
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3614'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.3'

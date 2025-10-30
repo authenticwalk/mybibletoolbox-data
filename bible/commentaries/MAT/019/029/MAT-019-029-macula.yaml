@@ -1,415 +1,555 @@
-verse:
-  reference: MAT 19:29
-  book_code: MAT
-  chapter: 19
-  verse: 29
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ πᾶς ὅστις ἀφῆκεν οἰκίας ἢ ἀδελφοὺς ἢ ἀδελφὰς ἢ πατέρα ἢ μητέρα ἢ τέκνα
-    ἢ ἀγροὺς ἕνεκεν τοῦ ἐμοῦ ὀνόματός, πολλαπλασίονα λήμψεται καὶ ζωὴν αἰώνιον κληρονομήσει.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 19:29
+text: καὶ πᾶς ὅστις ἀφῆκεν οἰκίας ἢ ἀδελφοὺς ἢ ἀδελφὰς ἢ πατέρα ἢ μητέρα ἢ τέκνα ἢ
+  ἀγροὺς ἕνεκεν τοῦ ἐμοῦ ὀνόματός, πολλαπλασίονα λήμψεται καὶ ζωὴν αἰώνιον κληρονομήσει.
 words:
 - position: 1
-  ref: MAT 19:29!1
-  xml_id: n40019029001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 19:29!1
+    wordID: n40019029001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 19:29!2
-  xml_id: n40019029002
-  unicode: πᾶς
+  text: πᾶς
   lemma: πᾶς
   normalized: πᾶς
-  class: adj
-  morph: A-NSM
-  gloss: everyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 19:29!2
+    wordID: n40019029002
+  translation:
+    gloss: everyone
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 3
-  ref: MAT 19:29!3
-  xml_id: n40019029003
-  unicode: ὅστις
+  text: ὅστις
   lemma: ὅστις
   normalized: ὅστις
-  class: pron
-  morph: R-NSM
-  gloss: who
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3748'
-  domain: 092004
-  ln: '92.18'
-  role: s
+  ids:
+    ref: MAT 19:29!3
+    wordID: n40019029003
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
 - position: 4
-  ref: MAT 19:29!4
-  xml_id: n40019029004
-  unicode: ἀφῆκεν
+  text: ἀφῆκεν
   lemma: ἀφίημι
   normalized: ἀφῆκεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: has left
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '863'
-  domain: 085002
-  ln: '85.45'
-  role: v
+  ids:
+    ref: MAT 19:29!4
+    wordID: n40019029004
+  translation:
+    gloss: has left
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.45'
+  syntax:
+    role: v
+    frame: A0:n40019029003 A1:n40019029005;n40019029007;n40019029009;n40019029011;n40019029013;n40019029015;n40019029017
 - position: 5
-  ref: MAT 19:29!5
-  xml_id: n40019029005
-  unicode: οἰκίας
+  text: οἰκίας
   lemma: οἰκία
   normalized: οἰκίας
-  class: noun
-  morph: N-APF
-  gloss: houses
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '3614'
-  domain: '007002'
-  ln: '7.3'
+  ids:
+    ref: MAT 19:29!5
+    wordID: n40019029005
+  translation:
+    gloss: houses
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3614'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.3'
 - position: 6
-  ref: MAT 19:29!6
-  xml_id: n40019029006
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 19:29!6
+    wordID: n40019029006
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 7
-  ref: MAT 19:29!7
-  xml_id: n40019029007
-  unicode: ἀδελφοὺς
+  text: ἀδελφοὺς
   lemma: ἀδελφός
   normalized: ἀδελφούς
-  class: noun
-  morph: N-APM
-  gloss: brothers
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '80'
-  domain: '010003'
-  ln: '10.49'
+  ids:
+    ref: MAT 19:29!7
+    wordID: n40019029007
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '010003'
+    ln: '10.49'
 - position: 8
-  ref: MAT 19:29!8
-  xml_id: n40019029008
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 19:29!8
+    wordID: n40019029008
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 9
-  ref: MAT 19:29!9
-  xml_id: n40019029009
-  unicode: ἀδελφὰς
+  text: ἀδελφὰς
   lemma: ἀδελφή
   normalized: ἀδελφάς
-  class: noun
-  morph: N-APF
-  gloss: sisters
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '79'
-  domain: '010003'
-  ln: '10.50'
+  ids:
+    ref: MAT 19:29!9
+    wordID: n40019029009
+  translation:
+    gloss: sisters
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '79'
+  semantic:
+    semanticDomain: '010003'
+    ln: '10.50'
 - position: 10
-  ref: MAT 19:29!10
-  xml_id: n40019029010
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 19:29!10
+    wordID: n40019029010
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 11
-  ref: MAT 19:29!11
-  xml_id: n40019029011
-  unicode: πατέρα
+  text: πατέρα
   lemma: πατήρ
   normalized: πατέρα
-  class: noun
-  morph: N-ASM
-  gloss: father
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3962'
-  domain: '010002'
-  ln: '10.14'
+  ids:
+    ref: MAT 19:29!11
+    wordID: n40019029011
+  translation:
+    gloss: father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.14'
 - position: 12
-  ref: MAT 19:29!12
-  xml_id: n40019029012
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 19:29!12
+    wordID: n40019029012
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 13
-  ref: MAT 19:29!13
-  xml_id: n40019029013
-  unicode: μητέρα
+  text: μητέρα
   lemma: μήτηρ
   normalized: μητέρα
-  class: noun
-  morph: N-ASF
-  gloss: mother
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3384'
-  domain: '010002'
-  ln: '10.16'
+  ids:
+    ref: MAT 19:29!13
+    wordID: n40019029013
+  translation:
+    gloss: mother
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3384'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.16'
 - position: 14
-  ref: MAT 19:29!14
-  xml_id: n40019029014
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 19:29!14
+    wordID: n40019029014
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 15
-  ref: MAT 19:29!15
-  xml_id: n40019029015
-  unicode: τέκνα
+  text: τέκνα
   lemma: τέκνον
   normalized: τέκνα
-  class: noun
-  morph: N-APN
-  gloss: children
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5043'
-  domain: '010002'
-  ln: '10.36'
+  ids:
+    ref: MAT 19:29!15
+    wordID: n40019029015
+  translation:
+    gloss: children
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5043'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.36'
 - position: 16
-  ref: MAT 19:29!16
-  xml_id: n40019029016
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 19:29!16
+    wordID: n40019029016
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 17
-  ref: MAT 19:29!17
-  xml_id: n40019029017
-  unicode: ἀγροὺς
+  text: ἀγροὺς
   lemma: ἀγρός
   normalized: ἀγρούς
-  class: noun
-  morph: N-APM
-  gloss: lands
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '68'
-  domain: '001015'
-  ln: '1.95'
+  ids:
+    ref: MAT 19:29!17
+    wordID: n40019029017
+  translation:
+    gloss: lands
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '68'
+  semantic:
+    semanticDomain: '001015'
+    ln: '1.95'
 - position: 18
-  ref: MAT 19:29!18
-  xml_id: n40019029018
-  unicode: ἕνεκεν
+  text: ἕνεκεν
   lemma: ἕνεκα
   normalized: ἕνεκεν
-  class: prep
-  morph: PREP
-  gloss: for the sake of
-  strong: '1752'
-  domain: 089007
-  ln: '89.31'
+  ids:
+    ref: MAT 19:29!18
+    wordID: n40019029018
+  translation:
+    gloss: for the sake of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1752'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.31'
 - position: 19
-  ref: MAT 19:29!19
-  xml_id: n40019029019
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 19:29!19
+    wordID: n40019029019
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 19:29!20
-  xml_id: n40019029020
-  unicode: ἐμοῦ
+  text: ἐμοῦ
   lemma: ἐμός
   normalized: ἐμοῦ
-  class: adj
-  morph: S-1SGSN
-  gloss: My
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '1699'
-  domain: 092001
-  ln: '92.2'
+  ids:
+    ref: MAT 19:29!20
+    wordID: n40019029020
+  translation:
+    gloss: My
+  morphology:
+    class: adj
+    morph: S-1SGSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: possessive
+  lexical:
+    strong: '1699'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.2'
+  discourse:
+    referent: n40019028003
 - position: 21
-  ref: MAT 19:29!21
-  xml_id: n40019029021
-  unicode: ὀνόματός
+  text: ὀνόματός
   lemma: ὄνομα
   normalized: ὀνόματος
-  class: noun
-  morph: N-GSN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 19:29!21
+    wordID: n40019029021
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 22
-  ref: MAT 19:29!22
-  xml_id: n40019029022
-  unicode: πολλαπλασίονα
+  text: πολλαπλασίονα
   lemma: πολλαπλασίων
   normalized: πολλαπλασίονα
-  class: adj
-  morph: A-APN
-  gloss: a hundredfold
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4179'
-  domain: 059002
-  ln: '59.20'
-  role: o
+  ids:
+    ref: MAT 19:29!22
+    wordID: n40019029022
+  translation:
+    gloss: a hundredfold
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '4179'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.20'
+  syntax:
+    role: o
 - position: 23
-  ref: MAT 19:29!23
-  xml_id: n40019029023
-  unicode: λήμψεται
+  text: λήμψεται
   lemma: λαμβάνω
   normalized: λήμψεται
-  class: verb
-  morph: V-FDI-3S
-  gloss: will receive
-  number: singular
-  person: third
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '2983'
-  domain: 057009
-  ln: '57.125'
-  role: v
+  ids:
+    ref: MAT 19:29!23
+    wordID: n40019029023
+  translation:
+    gloss: will receive
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A0:n40019029004 A1:n40019029022
 - position: 24
-  ref: MAT 19:29!24
-  xml_id: n40019029024
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 19:29!24
+    wordID: n40019029024
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 25
-  ref: MAT 19:29!25
-  xml_id: n40019029025
-  unicode: ζωὴν
+  text: ζωὴν
   lemma: ζωή
   normalized: ζωήν
-  class: noun
-  morph: N-ASF
-  gloss: life
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2222'
-  domain: '023007'
-  ln: '23.88'
+  ids:
+    ref: MAT 19:29!25
+    wordID: n40019029025
+  translation:
+    gloss: life
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2222'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
 - position: 26
-  ref: MAT 19:29!26
-  xml_id: n40019029026
-  unicode: αἰώνιον
+  text: αἰώνιον
   lemma: αἰώνιος
   normalized: αἰώνιον
-  class: adj
-  morph: A-ASF
-  gloss: eternal
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '166'
-  domain: '067005'
-  ln: '67.96'
+  ids:
+    ref: MAT 19:29!26
+    wordID: n40019029026
+  translation:
+    gloss: eternal
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '166'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.96'
 - position: 27
-  ref: MAT 19:29!27
-  xml_id: n40019029027
-  unicode: κληρονομήσει
+  text: κληρονομήσει
   lemma: κληρονομέω
   normalized: κληρονομήσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: will inherit
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2816'
-  domain: 057009
-  ln: '57.131'
-  role: v
-syntax:
-  word_order: S-O-V
+  ids:
+    ref: MAT 19:29!27
+    wordID: n40019029027
+  translation:
+    gloss: will inherit
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2816'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.131'
+  syntax:
+    role: v
+    frame: A0:n40019029004 A1:n40019029025
+  discourse:
+    subject: n40019029004

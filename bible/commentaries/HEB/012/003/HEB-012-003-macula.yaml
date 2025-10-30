@@ -1,0 +1,386 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: HEB 12:3
+text: ἀναλογίσασθε γὰρ τὸν τοιαύτην ὑπομεμενηκότα ὑπὸ τῶν ἁμαρτωλῶν εἰς ἑαυτὸν ἀντιλογίαν,
+  ἵνα μὴ κάμητε ταῖς ψυχαῖς ὑμῶν ἐκλυόμενοι.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: HEB 12:3!2
+    wordID: n58012003002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἀναλογίσασθε
+  lemma: ἀναλογίζομαι
+  normalized: ἀναλογίσασθε
+  ids:
+    ref: HEB 12:3!1
+    wordID: n58012003001
+  translation:
+    gloss: Consider fully
+  morphology:
+    class: verb
+    morph: V-ADM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '357'
+  semantic:
+    semanticDomain: '030001'
+    ln: '30.10'
+  syntax:
+    role: v
+    frame: A0:n58010019003 A1:n58012003005
+  discourse:
+    subject: n58010019003
+- position: 3
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: HEB 12:3!3
+    wordID: n58012003003
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: ὑπομεμενηκότα
+  lemma: ὑπομένω
+  normalized: ὑπομεμενηκότα
+  ids:
+    ref: HEB 12:3!5
+    wordID: n58012003005
+  translation:
+    gloss: having endured
+  morphology:
+    class: verb
+    morph: V-RAP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5278'
+  semantic:
+    semanticDomain: '025015'
+    ln: '25.175'
+  syntax:
+    role: v
+    frame: A0:n58012002006 A1:n58012003011
+    discontinuous: 'true'
+  discourse:
+    subject: n58012002006
+- position: 5
+  text: τοιαύτην
+  lemma: τοιοῦτος
+  normalized: τοιαύτην
+  ids:
+    ref: HEB 12:3!4
+    wordID: n58012003004
+  translation:
+    gloss: such great
+  morphology:
+    class: pron
+    morph: D-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '5108'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.31'
+- position: 6
+  text: ὑπὸ
+  lemma: ὑπό
+  normalized: ὑπό
+  ids:
+    ref: HEB 12:3!6
+    wordID: n58012003006
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.1'
+- position: 7
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: HEB 12:3!7
+    wordID: n58012003007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ἁμαρτωλῶν
+  lemma: ἁμαρτωλός
+  normalized: ἁμαρτωλῶν
+  ids:
+    ref: HEB 12:3!8
+    wordID: n58012003008
+  translation:
+    gloss: sinners
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '268'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.295'
+- position: 9
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: HEB 12:3!9
+    wordID: n58012003009
+  translation:
+    gloss: against
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.59'
+- position: 10
+  text: ἑαυτὸν
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτόν
+  ids:
+    ref: HEB 12:3!10
+    wordID: n58012003010
+  translation:
+    gloss: Himself
+  morphology:
+    class: pron
+    morph: F-3ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n58012003005
+- position: 11
+  text: ἀντιλογίαν
+  lemma: ἀντιλογία
+  normalized: ἀντιλογίαν
+  ids:
+    ref: HEB 12:3!11
+    wordID: n58012003011
+  translation:
+    gloss: hostility
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '485'
+  semantic:
+    semanticDomain: 039007
+    ln: '39.35'
+- position: 12
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: HEB 12:3!12
+    wordID: n58012003012
+  translation:
+    gloss: so that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+- position: 13
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: HEB 12:3!13
+    wordID: n58012003013
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 14
+  text: κάμητε
+  lemma: κάμνω
+  normalized: κάμητε
+  ids:
+    ref: HEB 12:3!14
+    wordID: n58012003014
+  translation:
+    gloss: you shall grow weary
+  morphology:
+    class: verb
+    morph: V-2AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2577'
+  semantic:
+    semanticDomain: '025024'
+    ln: '25.291'
+  syntax:
+    role: v
+    frame: A0:n58010019003
+  discourse:
+    subject: n58010019003
+- position: 15
+  text: ταῖς
+  lemma: ὁ
+  normalized: ταῖς
+  ids:
+    ref: HEB 12:3!15
+    wordID: n58012003015
+  translation:
+    gloss: in the
+  morphology:
+    class: det
+    morph: T-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: ψυχαῖς
+  lemma: ψυχή
+  normalized: ψυχαῖς
+  ids:
+    ref: HEB 12:3!16
+    wordID: n58012003016
+  translation:
+    gloss: souls
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: 025024 026
+    ln: 25.291 26.4
+- position: 17
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: HEB 12:3!17
+    wordID: n58012003017
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n58010019003
+- position: 18
+  text: ἐκλυόμενοι
+  lemma: ἐκλύω
+  normalized: ἐκλυόμενοι
+  ids:
+    ref: HEB 12:3!18
+    wordID: n58012003018
+  translation:
+    gloss: fainting
+  morphology:
+    class: verb
+    morph: V-PPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '1590'
+  semantic:
+    semanticDomain: 023006 025024
+    ln: 23.79 25.288
+  syntax:
+    role: v
+    frame: A1:n58010019003
+  discourse:
+    subject: n58010019003

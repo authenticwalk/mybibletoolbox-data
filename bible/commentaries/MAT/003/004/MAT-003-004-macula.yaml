@@ -1,418 +1,563 @@
-verse:
-  reference: MAT 3:4
-  book_code: MAT
-  chapter: 3
-  verse: 4
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Αὐτὸς δὲ ὁ Ἰωάνης εἶχεν τὸ ἔνδυμα αὐτοῦ ἀπὸ τριχῶν καμήλου καὶ ζώνην δερματίνην
-    περὶ τὴν ὀσφὺν αὐτοῦ· ἡ δὲ τροφὴ ἦν αὐτοῦ ἀκρίδες καὶ μέλι ἄγριον.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 3:4
+text: Αὐτὸς δὲ ὁ Ἰωάνης εἶχεν τὸ ἔνδυμα αὐτοῦ ἀπὸ τριχῶν καμήλου καὶ ζώνην δερματίνην
+  περὶ τὴν ὀσφὺν αὐτοῦ· ἡ δὲ τροφὴ ἦν αὐτοῦ ἀκρίδες καὶ μέλι ἄγριον.
 words:
 - position: 1
-  ref: MAT 3:4!2
-  xml_id: n40003004002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
+  ids:
+    ref: MAT 3:4!2
+    wordID: n40003004002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 3:4!1
-  xml_id: n40003004001
-  unicode: Αὐτὸς
+  text: Αὐτὸς
   lemma: αὐτός
   normalized: Αὐτός
-  class: pron
-  morph: P-NSM
-  gloss: Himself
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '846'
-  domain: 092008
-  ln: '92.37'
+  ids:
+    ref: MAT 3:4!1
+    wordID: n40003004001
+  translation:
+    gloss: Himself
+  morphology:
+    class: pron
+    morph: P-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092008
+    ln: '92.37'
+  discourse:
+    referent: n40003004004
 - position: 3
-  ref: MAT 3:4!3
-  xml_id: n40003004003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:4!3
+    wordID: n40003004003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 3:4!4
-  xml_id: n40003004004
-  unicode: Ἰωάνης
+  text: Ἰωάνης
   lemma: Ἰωάννης
   normalized: Ἰωάνης
-  class: noun
-  morph: N-NSM
-  gloss: John
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2491'
-  domain: 093001
-  ln: 93.190a
+  ids:
+    ref: MAT 3:4!4
+    wordID: n40003004004
+  translation:
+    gloss: John
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2491'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.190a
 - position: 5
-  ref: MAT 3:4!5
-  xml_id: n40003004005
-  unicode: εἶχεν
+  text: εἶχεν
   lemma: ἔχω
   normalized: εἶχεν
-  class: verb
-  morph: V-IAI-3S
-  gloss: had
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '2192'
-  domain: 049
-  ln: '49.13'
-  role: v
+  ids:
+    ref: MAT 3:4!5
+    wordID: n40003004005
+  translation:
+    gloss: had
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: 049
+    ln: '49.13'
+  syntax:
+    role: v
+    frame: A0:n40003004004 A1:n40003004007
 - position: 6
-  ref: MAT 3:4!6
-  xml_id: n40003004006
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:4!6
+    wordID: n40003004006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 3:4!7
-  xml_id: n40003004007
-  unicode: ἔνδυμα
+  text: ἔνδυμα
   lemma: ἔνδυμα
   normalized: ἔνδυμα
-  class: noun
-  morph: N-ASN
-  gloss: garment
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '1742'
-  domain: '006017'
-  ln: '6.162'
+  ids:
+    ref: MAT 3:4!7
+    wordID: n40003004007
+  translation:
+    gloss: garment
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1742'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.162'
 - position: 8
-  ref: MAT 3:4!8
-  xml_id: n40003004008
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 3:4!8
+    wordID: n40003004008
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40003004004
 - position: 9
-  ref: MAT 3:4!9
-  xml_id: n40003004009
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: of
-  strong: '575'
-  domain: 089025
-  ln: '89.142'
+  ids:
+    ref: MAT 3:4!9
+    wordID: n40003004009
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089025
+    ln: '89.142'
 - position: 10
-  ref: MAT 3:4!10
-  xml_id: n40003004010
-  unicode: τριχῶν
+  text: τριχῶν
   lemma: θρίξ
   normalized: τριχῶν
-  class: noun
-  morph: N-GPF
-  gloss: hair
-  gender: feminine
-  number: plural
-  case: genitive
-  strong: '2359'
-  domain: 008002
-  ln: '8.12'
+  ids:
+    ref: MAT 3:4!10
+    wordID: n40003004010
+  translation:
+    gloss: hair
+  morphology:
+    class: noun
+    morph: N-GPF
+    gender: feminine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '2359'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.12'
 - position: 11
-  ref: MAT 3:4!11
-  xml_id: n40003004011
-  unicode: καμήλου
+  text: καμήλου
   lemma: κάμηλος
   normalized: καμήλου
-  class: noun
-  morph: N-GSF
-  gloss: of a camel
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '2574'
-  domain: '004001'
-  ln: '4.30'
+  ids:
+    ref: MAT 3:4!11
+    wordID: n40003004011
+  translation:
+    gloss: of a camel
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2574'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.30'
 - position: 12
-  ref: MAT 3:4!12
-  xml_id: n40003004012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 3:4!12
+    wordID: n40003004012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 13
-  ref: MAT 3:4!13
-  xml_id: n40003004013
-  unicode: ζώνην
+  text: ζώνην
   lemma: ζώνη
   normalized: ζώνην
-  class: noun
-  morph: N-ASF
-  gloss: a belt
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2223'
-  domain: '006017'
-  ln: '6.178'
+  ids:
+    ref: MAT 3:4!13
+    wordID: n40003004013
+  translation:
+    gloss: a belt
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2223'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.178'
 - position: 14
-  ref: MAT 3:4!14
-  xml_id: n40003004014
-  unicode: δερματίνην
+  text: δερματίνην
   lemma: δερμάτινος
   normalized: δερματίνην
-  class: adj
-  morph: A-ASF
-  gloss: of leather
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1193'
-  domain: '006017'
-  ln: '6.185'
+  ids:
+    ref: MAT 3:4!14
+    wordID: n40003004014
+  translation:
+    gloss: of leather
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1193'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.185'
 - position: 15
-  ref: MAT 3:4!15
-  xml_id: n40003004015
-  unicode: περὶ
+  text: περὶ
   lemma: περί
   normalized: περί
-  class: prep
-  morph: PREP
-  gloss: around
-  strong: '4012'
-  domain: 083004
-  ln: '83.18'
+  ids:
+    ref: MAT 3:4!15
+    wordID: n40003004015
+  translation:
+    gloss: around
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 083004
+    ln: '83.18'
 - position: 16
-  ref: MAT 3:4!16
-  xml_id: n40003004016
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:4!16
+    wordID: n40003004016
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 3:4!17
-  xml_id: n40003004017
-  unicode: ὀσφὺν
+  text: ὀσφὺν
   lemma: ὀσφῦς
   normalized: ὀσφύν
-  class: noun
-  morph: N-ASF
-  gloss: waist
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3751'
-  domain: 008002
-  ln: '8.42'
+  ids:
+    ref: MAT 3:4!17
+    wordID: n40003004017
+  translation:
+    gloss: waist
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3751'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.42'
 - position: 18
-  ref: MAT 3:4!18
-  xml_id: n40003004018
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 3:4!18
+    wordID: n40003004018
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40003004004
 - position: 19
-  ref: MAT 3:4!20
-  xml_id: n40003004020
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 3:4!20
+    wordID: n40003004020
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 20
-  ref: MAT 3:4!19
-  xml_id: n40003004019
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: '-'
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 3:4!19
+    wordID: n40003004019
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 21
-  ref: MAT 3:4!21
-  xml_id: n40003004021
-  unicode: τροφὴ
+  text: τροφὴ
   lemma: τροφή
   normalized: τροφή
-  class: noun
-  morph: N-NSF
-  gloss: the food
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '5160'
-  domain: '005001'
-  ln: '5.1'
+  ids:
+    ref: MAT 3:4!21
+    wordID: n40003004021
+  translation:
+    gloss: the food
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5160'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.1'
 - position: 22
-  ref: MAT 3:4!23
-  xml_id: n40003004023
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 3:4!23
+    wordID: n40003004023
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    discontinuous: 'true'
+  discourse:
+    referent: n40003004004
 - position: 23
-  ref: MAT 3:4!22
-  xml_id: n40003004022
-  unicode: ἦν
+  text: ἦν
   lemma: εἰμί
   normalized: ἦν
-  class: verb
-  morph: V-IAI-3S
-  gloss: was
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
+  ids:
+    ref: MAT 3:4!22
+    wordID: n40003004022
+  translation:
+    gloss: was
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
 - position: 24
-  ref: MAT 3:4!24
-  xml_id: n40003004024
-  unicode: ἀκρίδες
+  text: ἀκρίδες
   lemma: ἀκρίς
   normalized: ἀκρίδες
-  class: noun
-  morph: N-NPF
-  gloss: locusts
-  gender: feminine
-  number: plural
-  case: nominative
-  strong: '200'
-  domain: '004003'
-  ln: '4.47'
+  ids:
+    ref: MAT 3:4!24
+    wordID: n40003004024
+  translation:
+    gloss: locusts
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '200'
+  semantic:
+    semanticDomain: '004003'
+    ln: '4.47'
 - position: 25
-  ref: MAT 3:4!25
-  xml_id: n40003004025
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 3:4!25
+    wordID: n40003004025
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 26
-  ref: MAT 3:4!26
-  xml_id: n40003004026
-  unicode: μέλι
+  text: μέλι
   lemma: μέλι
   normalized: μέλι
-  class: noun
-  morph: N-NSN
-  gloss: honey
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '3192'
-  domain: '005001'
-  ln: '5.20'
+  ids:
+    ref: MAT 3:4!26
+    wordID: n40003004026
+  translation:
+    gloss: honey
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3192'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.20'
 - position: 27
-  ref: MAT 3:4!27
-  xml_id: n40003004027
-  unicode: ἄγριον
+  text: ἄγριον
   lemma: ἄγριος
   normalized: ἄγριον
-  class: adj
-  morph: A-NSN
-  gloss: wild
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '66'
-syntax:
-  word_order: S-V-O-ADV
+  ids:
+    ref: MAT 3:4!27
+    wordID: n40003004027
+  translation:
+    gloss: wild
+  morphology:
+    class: adj
+    morph: A-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+  lexical:
+    strong: '66'

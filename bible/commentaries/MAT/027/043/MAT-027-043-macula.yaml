@@ -1,162 +1,207 @@
-verse:
-  reference: MAT 27:43
-  book_code: MAT
-  chapter: 27
-  verse: 43
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: πέποιθεν ἐπὶ τὸν Θεόν, ῥυσάσθω νῦν εἰ θέλει αὐτόν·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:43
+text: πέποιθεν ἐπὶ τὸν Θεόν, ῥυσάσθω νῦν εἰ θέλει αὐτόν·
 words:
 - position: 1
-  ref: MAT 27:43!1
-  xml_id: n40027043001
-  unicode: πέποιθεν
+  text: πέποιθεν
   lemma: πείθω
   normalized: πέποιθεν
-  class: verb
-  morph: V-2RAI-3S
-  gloss: He trusted
-  number: singular
-  person: third
-  tense: perfect
-  voice: active
-  mood: indicative
-  strong: '3982'
-  domain: 031009
-  ln: '31.82'
-  role: v
+  ids:
+    ref: MAT 27:43!1
+    wordID: n40027043001
+  translation:
+    gloss: He trusted
+  morphology:
+    class: verb
+    morph: V-2RAI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3982'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.82'
+  syntax:
+    role: v
+    frame: A0:n40027027008
+  discourse:
+    subject: n40027027008
 - position: 2
-  ref: MAT 27:43!2
-  xml_id: n40027043002
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1909'
-  domain: 090006
-  ln: '90.23'
+  ids:
+    ref: MAT 27:43!2
+    wordID: n40027043002
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
 - position: 3
-  ref: MAT 27:43!3
-  xml_id: n40027043003
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:43!3
+    wordID: n40027043003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 27:43!4
-  xml_id: n40027043004
-  unicode: Θεόν
+  text: Θεόν
   lemma: θεός
   normalized: Θεόν
-  class: noun
-  morph: N-ASM
-  gloss: God
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2316'
-  domain: '012001'
-  ln: '12.1'
+  ids:
+    ref: MAT 27:43!4
+    wordID: n40027043004
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
 - position: 5
-  ref: MAT 27:43!5
-  xml_id: n40027043005
-  unicode: ῥυσάσθω
+  text: ῥυσάσθω
   lemma: ῥύομαι
   normalized: ῥυσάσθω
-  class: verb
-  morph: V-ADM-3S
-  gloss: Let Him deliver
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '4506'
-  domain: '021005'
-  ln: '21.23'
-  role: v
+  ids:
+    ref: MAT 27:43!5
+    wordID: n40027043005
+  translation:
+    gloss: Let Him deliver
+  morphology:
+    class: verb
+    morph: V-ADM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '4506'
+  semantic:
+    semanticDomain: '021005'
+    ln: '21.23'
+  syntax:
+    role: v
+    frame: A0:n40027043004
+  discourse:
+    subject: n40027043004
 - position: 6
-  ref: MAT 27:43!6
-  xml_id: n40027043006
-  unicode: νῦν
+  text: νῦν
   lemma: νῦν
   normalized: νῦν
-  class: adv
-  morph: ADV
-  gloss: now
-  strong: '3568'
-  domain: '067002'
-  ln: '67.39'
-  role: adv
+  ids:
+    ref: MAT 27:43!6
+    wordID: n40027043006
+  translation:
+    gloss: now
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3568'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.39'
+  syntax:
+    role: adv
 - position: 7
-  ref: MAT 27:43!7
-  xml_id: n40027043007
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1487'
-  domain: 089010
-  ln: '89.65'
+  ids:
+    ref: MAT 27:43!7
+    wordID: n40027043007
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
 - position: 8
-  ref: MAT 27:43!8
-  xml_id: n40027043008
-  unicode: θέλει
+  text: θέλει
   lemma: θέλω
   normalized: θέλει
-  class: verb
-  morph: V-PAI-3S
-  gloss: He wants
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2309'
-  domain: '025010'
-  ln: '25.102'
-  role: v
+  ids:
+    ref: MAT 27:43!8
+    wordID: n40027043008
+  translation:
+    gloss: He wants
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025010'
+    ln: '25.102'
+  syntax:
+    role: v
+    frame: A0:n40027043004 A1:n40027043009
+  discourse:
+    subject: n40027043004
 - position: 9
-  ref: MAT 27:43!9
-  xml_id: n40027043009
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 27:43!9
+    wordID: n40027043009
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027027008

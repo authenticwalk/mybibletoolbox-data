@@ -1,0 +1,312 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 3:4
+text: καὶ λέγει αὐτοῖς Ἔξεστιν τοῖς σάββασιν ἀγαθὸν ποιῆσαι ἢ κακοποιῆσαι, ψυχὴν σῶσαι
+  ἢ ἀποκτεῖναι;
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MRK 3:4!1
+    wordID: n41003004001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: MRK 3:4!2
+    wordID: n41003004002
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41002017004 A2:n41003004003
+  discourse:
+    subject: n41002017004
+- position: 3
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MRK 3:4!3
+    wordID: n41003004003
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n41002024003
+- position: 4
+  text: Ἔξεστιν
+  lemma: ἔξεστι(ν)
+  normalized: Ἔξεστιν
+  ids:
+    ref: MRK 3:4!4
+    wordID: n41003004004
+  translation:
+    gloss: Is it lawful
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1832'
+  semantic:
+    semanticDomain: '071004'
+    ln: '71.32'
+  syntax:
+    role: v
+    frame: A0:n41003004008;n41003004010
+- position: 5
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: MRK 3:4!5
+    wordID: n41003004005
+  translation:
+    gloss: on the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: σάββασιν
+  lemma: σάββατον
+  normalized: σάββασιν
+  ids:
+    ref: MRK 3:4!6
+    wordID: n41003004006
+  translation:
+    gloss: Sabbaths
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '4521'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.184'
+- position: 7
+  text: ἀγαθὸν
+  lemma: ἀγαθός
+  normalized: ἀγαθόν
+  ids:
+    ref: MRK 3:4!7
+    wordID: n41003004007
+  translation:
+    gloss: to do good
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.1'
+  syntax:
+    role: o
+- position: 8
+  text: ποιῆσαι
+  lemma: ποιέω
+  normalized: ποιῆσαι
+  ids:
+    ref: MRK 3:4!8
+    wordID: n41003004008
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: 090011
+    ln: '90.45'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n41003004007
+- position: 9
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: MRK 3:4!9
+    wordID: n41003004009
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 10
+  text: κακοποιῆσαι
+  lemma: κακοποιέω
+  normalized: κακοποιῆσαι
+  ids:
+    ref: MRK 3:4!10
+    wordID: n41003004010
+  translation:
+    gloss: to do evil
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2554'
+  semantic:
+    semanticDomain: 020002 088015
+    ln: 20.12 88.112
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 11
+  text: ψυχὴν
+  lemma: ψυχή
+  normalized: ψυχήν
+  ids:
+    ref: MRK 3:4!11
+    wordID: n41003004011
+  translation:
+    gloss: Life
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+  syntax:
+    role: o
+- position: 12
+  text: σῶσαι
+  lemma: σῴζω
+  normalized: σῶσαι
+  ids:
+    ref: MRK 3:4!12
+    wordID: n41003004012
+  translation:
+    gloss: to save
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4982'
+  semantic:
+    semanticDomain: '021005'
+    ln: '21.18'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n41003004011
+- position: 13
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: MRK 3:4!13
+    wordID: n41003004013
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 14
+  text: ἀποκτεῖναι
+  lemma: ἀποκτείνω
+  normalized: ἀποκτεῖναι
+  ids:
+    ref: MRK 3:4!14
+    wordID: n41003004014
+  translation:
+    gloss: to kill
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '615'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.61'
+  syntax:
+    role: v
+    frame: A0:n00000000000

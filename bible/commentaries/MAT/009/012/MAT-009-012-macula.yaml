@@ -1,242 +1,313 @@
-verse:
-  reference: MAT 9:12
-  book_code: MAT
-  chapter: 9
-  verse: 12
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ ἀκούσας εἶπεν Οὐ χρείαν ἔχουσιν οἱ ἰσχύοντες ἰατροῦ ἀλλ’ οἱ κακῶς
-    ἔχοντες.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:12
+text: ὁ δὲ ἀκούσας εἶπεν Οὐ χρείαν ἔχουσιν οἱ ἰσχύοντες ἰατροῦ ἀλλ’ οἱ κακῶς ἔχοντες.
 words:
 - position: 1
-  ref: MAT 9:12!2
-  xml_id: n40009012002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
+  ids:
+    ref: MAT 9:12!2
+    wordID: n40009012002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 9:12!1
-  xml_id: n40009012001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 9:12!1
+    wordID: n40009012001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40009010017
 - position: 3
-  ref: MAT 9:12!3
-  xml_id: n40009012003
-  unicode: ἀκούσας
+  text: ἀκούσας
   lemma: ἀκούω
   normalized: ἀκούσας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: having heard
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
+  ids:
+    ref: MAT 9:12!3
+    wordID: n40009012003
+  translation:
+    gloss: having heard
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40009010017
+  discourse:
+    subject: n40009010017
 - position: 4
-  ref: MAT 9:12!4
-  xml_id: n40009012004
-  unicode: εἶπεν
+  text: εἶπεν
   lemma: λέγω
   normalized: εἶπεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He said
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 9:12!4
+    wordID: n40009012004
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40009012001
 - position: 5
-  ref: MAT 9:12!5
-  xml_id: n40009012005
-  unicode: Οὐ
+  text: Οὐ
   lemma: οὐ
   normalized: Οὐ
-  class: adv
-  morph: PRT-N
-  gloss: Not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 9:12!5
+    wordID: n40009012005
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 6
-  ref: MAT 9:12!6
-  xml_id: n40009012006
-  unicode: χρείαν
+  text: χρείαν
   lemma: χρεία
   normalized: χρείαν
-  class: noun
-  morph: N-ASF
-  gloss: need
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5532'
-  domain: '057005'
-  ln: '57.40'
+  ids:
+    ref: MAT 9:12!6
+    wordID: n40009012006
+  translation:
+    gloss: need
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5532'
+  semantic:
+    semanticDomain: '057005'
+    ln: '57.40'
 - position: 7
-  ref: MAT 9:12!10
-  xml_id: n40009012010
-  unicode: ἰατροῦ
+  text: ἰατροῦ
   lemma: ἰατρός
   normalized: ἰατροῦ
-  class: noun
-  morph: N-GSM
-  gloss: of a physician
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2395'
-  domain: 023008
-  ln: '23.141'
+  ids:
+    ref: MAT 9:12!10
+    wordID: n40009012010
+  translation:
+    gloss: of a physician
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2395'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.141'
+  syntax:
+    discontinuous: 'true'
 - position: 8
-  ref: MAT 9:12!7
-  xml_id: n40009012007
-  unicode: ἔχουσιν
+  text: ἔχουσιν
   lemma: ἔχω
   normalized: ἔχουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: have
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2192'
-  role: v
+  ids:
+    ref: MAT 9:12!7
+    wordID: n40009012007
+  translation:
+    gloss: have
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A1:n40009012006 A0:n40009012009
 - position: 9
-  ref: MAT 9:12!8
-  xml_id: n40009012008
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:12!8
+    wordID: n40009012008
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 9:12!9
-  xml_id: n40009012009
-  unicode: ἰσχύοντες
+  text: ἰσχύοντες
   lemma: ἰσχύω
   normalized: ἰσχύοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: being strong
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2480'
-  domain: 023008
-  ln: '23.130'
-  role: v
+  ids:
+    ref: MAT 9:12!9
+    wordID: n40009012009
+  translation:
+    gloss: being strong
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2480'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.130'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 11
-  ref: MAT 9:12!11
-  xml_id: n40009012011
-  unicode: ἀλλ’
+  text: ἀλλ’
   lemma: ἀλλά
   normalized: ἀλλ’
-  class: conj
-  morph: CONJ
-  gloss: but
-  strong: '235'
-  domain: 089023
-  ln: '89.125'
+  ids:
+    ref: MAT 9:12!11
+    wordID: n40009012011
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
 - position: 12
-  ref: MAT 9:12!12
-  xml_id: n40009012012
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:12!12
+    wordID: n40009012012
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 9:12!13
-  xml_id: n40009012013
-  unicode: κακῶς
+  text: κακῶς
   lemma: κακῶς
   normalized: κακῶς
-  class: adv
-  morph: ADV
-  gloss: sick
-  strong: '2560'
-  domain: 023009
-  ln: '23.148'
-  role: adv
+  ids:
+    ref: MAT 9:12!13
+    wordID: n40009012013
+  translation:
+    gloss: sick
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2560'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.148'
+  syntax:
+    role: adv
 - position: 14
-  ref: MAT 9:12!14
-  xml_id: n40009012014
-  unicode: ἔχοντες
+  text: ἔχοντες
   lemma: ἔχω
   normalized: ἔχοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: being
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2192'
-  domain: 023009
-  ln: '23.148'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 9:12!14
+    wordID: n40009012014
+  translation:
+    gloss: being
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.148'
+  syntax:
+    role: v
+    frame: A0:n00000000000

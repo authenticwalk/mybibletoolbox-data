@@ -1,446 +1,608 @@
-verse:
-  reference: MAT 28:19
-  book_code: MAT
-  chapter: 28
-  verse: 19
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 28:20 πορευθέντες οὖν μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς
-    εἰς τὸ ὄνομα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος, διδάσκοντες αὐτοὺς
-    τηρεῖν πάντα ὅσα ἐνετειλάμην ὑμῖν·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 28:19
+text: MAT 28:20 πορευθέντες οὖν μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς
+  τὸ ὄνομα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος, διδάσκοντες αὐτοὺς τηρεῖν
+  πάντα ὅσα ἐνετειλάμην ὑμῖν·
 words:
 - position: 1
-  ref: MAT 28:19!2
-  xml_id: n40028019002
-  unicode: οὖν
+  text: οὖν
   lemma: οὖν
   normalized: οὖν
-  class: conj
-  morph: CONJ
-  gloss: therefore
-  strong: '3767'
-  domain: 089008
-  ln: '89.50'
+  ids:
+    ref: MAT 28:19!2
+    wordID: n40028019002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 28:19!1
-  xml_id: n40028019001
-  unicode: πορευθέντες
+  text: πορευθέντες
   lemma: πορεύομαι
   normalized: πορευθέντες
-  class: verb
-  morph: V-AOP-NPM
-  gloss: Having gone
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '4198'
-  domain: '015001'
-  ln: '15.10'
-  role: v
+  ids:
+    ref: MAT 28:19!1
+    wordID: n40028019001
+  translation:
+    gloss: Having gone
+  morphology:
+    class: verb
+    morph: V-AOP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4198'
+  semantic:
+    semanticDomain: '015001'
+    ln: '15.10'
+  syntax:
+    role: v
+    frame: A1:n40028016004
+  discourse:
+    subject: n40028016004
 - position: 3
-  ref: MAT 28:19!3
-  xml_id: n40028019003
-  unicode: μαθητεύσατε
+  text: μαθητεύσατε
   lemma: μαθητεύω
   normalized: μαθητεύσατε
-  class: verb
-  morph: V-AAM-2P
-  gloss: disciple
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '3100'
-  domain: '036004'
-  ln: '36.37'
-  role: v
+  ids:
+    ref: MAT 28:19!3
+    wordID: n40028019003
+  translation:
+    gloss: disciple
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3100'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.37'
+  syntax:
+    role: v
+    frame: A0:n40028016004 A1:n40028019006
+  discourse:
+    subject: n40028016004
 - position: 4
-  ref: MAT 28:19!4
-  xml_id: n40028019004
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: all
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 28:19!4
+    wordID: n40028019004
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 5
-  ref: MAT 28:19!5
-  xml_id: n40028019005
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:19!5
+    wordID: n40028019005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 28:19!6
-  xml_id: n40028019006
-  unicode: ἔθνη
+  text: ἔθνη
   lemma: ἔθνος
   normalized: ἔθνη
-  class: noun
-  morph: N-APN
-  gloss: nations
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '1484'
-  domain: '011003'
-  ln: '11.55'
+  ids:
+    ref: MAT 28:19!6
+    wordID: n40028019006
+  translation:
+    gloss: nations
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1484'
+  semantic:
+    semanticDomain: '011003'
+    ln: '11.55'
 - position: 7
-  ref: MAT 28:19!7
-  xml_id: n40028019007
-  unicode: βαπτίζοντες
+  text: βαπτίζοντες
   lemma: βαπτίζω
   normalized: βαπτίζοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: baptizing
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '907'
-  domain: '053005'
-  ln: '53.41'
-  role: v
+  ids:
+    ref: MAT 28:19!7
+    wordID: n40028019007
+  translation:
+    gloss: baptizing
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '907'
+  semantic:
+    semanticDomain: '053005'
+    ln: '53.41'
+  syntax:
+    role: v
+    frame: A0:n40028016004 A1:n40028019008
+  discourse:
+    subject: n40028016004
 - position: 8
-  ref: MAT 28:19!8
-  xml_id: n40028019008
-  unicode: αὐτοὺς
+  text: αὐτοὺς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 28:19!8
+    wordID: n40028019008
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40028019006
 - position: 9
-  ref: MAT 28:19!9
-  xml_id: n40028019009
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1519'
-  domain: 090006
-  ln: '90.23'
+  ids:
+    ref: MAT 28:19!9
+    wordID: n40028019009
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
 - position: 10
-  ref: MAT 28:19!10
-  xml_id: n40028019010
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:19!10
+    wordID: n40028019010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 28:19!11
-  xml_id: n40028019011
-  unicode: ὄνομα
+  text: ὄνομα
   lemma: ὄνομα
   normalized: ὄνομα
-  class: noun
-  morph: N-ASN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 28:19!11
+    wordID: n40028019011
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 12
-  ref: MAT 28:19!12
-  xml_id: n40028019012
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:19!12
+    wordID: n40028019012
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 28:19!13
-  xml_id: n40028019013
-  unicode: Πατρὸς
+  text: Πατρὸς
   lemma: πατήρ
   normalized: Πατρός
-  class: noun
-  morph: N-GSM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 28:19!13
+    wordID: n40028019013
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 14
-  ref: MAT 28:19!14
-  xml_id: n40028019014
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 28:19!14
+    wordID: n40028019014
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 15
-  ref: MAT 28:19!15
-  xml_id: n40028019015
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:19!15
+    wordID: n40028019015
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 28:19!16
-  xml_id: n40028019016
-  unicode: Υἱοῦ
+  text: Υἱοῦ
   lemma: υἱός
   normalized: Υἱοῦ
-  class: noun
-  morph: N-GSM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 28:19!16
+    wordID: n40028019016
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 17
-  ref: MAT 28:19!17
-  xml_id: n40028019017
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 28:19!17
+    wordID: n40028019017
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 18
-  ref: MAT 28:19!18
-  xml_id: n40028019018
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: of the
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 28:19!18
+    wordID: n40028019018
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 28:19!19
-  xml_id: n40028019019
-  unicode: Ἁγίου
+  text: Ἁγίου
   lemma: ἅγιος
   normalized: Ἁγίου
-  class: adj
-  morph: A-GSN
-  gloss: Holy
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '40'
-  domain: 088003
-  ln: '88.24'
+  ids:
+    ref: MAT 28:19!19
+    wordID: n40028019019
+  translation:
+    gloss: Holy
+  morphology:
+    class: adj
+    morph: A-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+  lexical:
+    strong: '40'
+  semantic:
+    semanticDomain: 088003
+    ln: '88.24'
 - position: 20
-  ref: MAT 28:19!20
-  xml_id: n40028019020
-  unicode: Πνεύματος
+  text: Πνεύματος
   lemma: πνεῦμα
   normalized: Πνεύματος
-  class: noun
-  morph: N-GSN
-  gloss: Spirit
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '4151'
-  domain: '012001'
-  ln: '12.18'
+  ids:
+    ref: MAT 28:19!20
+    wordID: n40028019020
+  translation:
+    gloss: Spirit
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.18'
 - position: 21
-  ref: MAT 28:20!1
-  xml_id: n40028020001
-  unicode: διδάσκοντες
+  text: διδάσκοντες
   lemma: διδάσκω
   normalized: διδάσκοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: teaching
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '1321'
-  domain: '033017'
-  ln: '33.224'
-  role: v
+  ids:
+    ref: MAT 28:20!1
+    wordID: n40028020001
+  translation:
+    gloss: teaching
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1321'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.224'
+  syntax:
+    role: v
+    frame: A0:n40028016004 A1:n40028020003
+  discourse:
+    subject: n40028016004
 - position: 22
-  ref: MAT 28:20!2
-  xml_id: n40028020002
-  unicode: αὐτοὺς
+  text: αὐτοὺς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: s
+  ids:
+    ref: MAT 28:20!2
+    wordID: n40028020002
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40028019006
 - position: 23
-  ref: MAT 28:20!3
-  xml_id: n40028020003
-  unicode: τηρεῖν
+  text: τηρεῖν
   lemma: τηρέω
   normalized: τηρεῖν
-  class: verb
-  morph: V-PAN
-  gloss: to observe
-  tense: present
-  voice: active
-  mood: infinitive
-  strong: '5083'
-  domain: '036003'
-  ln: '36.19'
-  role: v
+  ids:
+    ref: MAT 28:20!3
+    wordID: n40028020003
+  translation:
+    gloss: to observe
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5083'
+  semantic:
+    semanticDomain: '036003'
+    ln: '36.19'
+  syntax:
+    role: v
+    frame: A0:n40028020002 A1:n40028020004
 - position: 24
-  ref: MAT 28:20!4
-  xml_id: n40028020004
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-APN
-  gloss: all things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 28:20!4
+    wordID: n40028020004
+  translation:
+    gloss: all things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 25
-  ref: MAT 28:20!5
-  xml_id: n40028020005
-  unicode: ὅσα
+  text: ὅσα
   lemma: ὅσος
   normalized: ὅσα
-  class: pron
-  morph: K-APN
-  gloss: whatever
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3745'
-  domain: 059002
-  ln: '59.19'
-  role: o
+  ids:
+    ref: MAT 28:20!5
+    wordID: n40028020005
+  translation:
+    gloss: whatever
+  morphology:
+    class: pron
+    morph: K-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3745'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.19'
+  syntax:
+    role: o
+  discourse:
+    referent: n40028020004
 - position: 26
-  ref: MAT 28:20!6
-  xml_id: n40028020006
-  unicode: ἐνετειλάμην
+  text: ἐνετειλάμην
   lemma: ἐντέλλομαι
   normalized: ἐνετειλάμην
-  class: verb
-  morph: V-ADI-1S
-  gloss: I commanded
-  number: singular
-  person: first
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '1781'
-  domain: '033032'
-  ln: '33.329'
-  role: v
+  ids:
+    ref: MAT 28:20!6
+    wordID: n40028020006
+  translation:
+    gloss: I commanded
+  morphology:
+    class: verb
+    morph: V-ADI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1781'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.329'
+  syntax:
+    role: v
+    frame: A0:n40028018004 A1:n40028020005 A2:n40028020007
+  discourse:
+    subject: n40028018004
 - position: 27
-  ref: MAT 28:20!7
-  xml_id: n40028020007
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
-syntax:
-  word_order: ADV-V-O-ADV
+  ids:
+    ref: MAT 28:20!7
+    wordID: n40028020007
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40028016004

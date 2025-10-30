@@ -1,267 +1,355 @@
-verse:
-  reference: MAT 12:20
-  book_code: MAT
-  chapter: 12
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: κάλαμον συντετριμμένον οὐ κατεάξει καὶ λίνον τυφόμενον οὐ σβέσει, ἕως ἂν
-    ἐκβάλῃ εἰς νῖκος τὴν κρίσιν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:20
+text: κάλαμον συντετριμμένον οὐ κατεάξει καὶ λίνον τυφόμενον οὐ σβέσει, ἕως ἂν ἐκβάλῃ
+  εἰς νῖκος τὴν κρίσιν.
 words:
 - position: 1
-  ref: MAT 12:20!1
-  xml_id: n40012020001
-  unicode: κάλαμον
+  text: κάλαμον
   lemma: κάλαμος
   normalized: κάλαμον
-  class: noun
-  morph: N-ASM
-  gloss: A reed
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2563'
-  domain: '003005'
-  ln: '3.55'
+  ids:
+    ref: MAT 12:20!1
+    wordID: n40012020001
+  translation:
+    gloss: A reed
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2563'
+  semantic:
+    semanticDomain: '003005'
+    ln: '3.55'
 - position: 2
-  ref: MAT 12:20!2
-  xml_id: n40012020002
-  unicode: συντετριμμένον
+  text: συντετριμμένον
   lemma: συντρίβω
   normalized: συντετριμμένον
-  class: verb
-  morph: V-RPP-ASM
-  gloss: bruised
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '4937'
-  domain: 019005
-  ln: '19.46'
-  role: v
+  ids:
+    ref: MAT 12:20!2
+    wordID: n40012020002
+  translation:
+    gloss: bruised
+  morphology:
+    class: verb
+    morph: V-RPP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4937'
+  semantic:
+    semanticDomain: 019005
+    ln: '19.46'
+  syntax:
+    role: v
+    frame: A1:n40012020001
+  discourse:
+    subject: n40012020001
 - position: 3
-  ref: MAT 12:20!3
-  xml_id: n40012020003
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 12:20!3
+    wordID: n40012020003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 4
-  ref: MAT 12:20!4
-  xml_id: n40012020004
-  unicode: κατεάξει
+  text: κατεάξει
   lemma: κατάγνυμι
   normalized: κατεάξει
-  class: verb
-  morph: V-FAI-3S
-  gloss: He will break
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2608'
-  domain: 019004
-  ln: '19.35'
-  role: v
+  ids:
+    ref: MAT 12:20!4
+    wordID: n40012020004
+  translation:
+    gloss: He will break
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2608'
+  semantic:
+    semanticDomain: 019004
+    ln: '19.35'
+  syntax:
+    role: v
+    frame: A0:n40012018003 A1:n40012020001
+  discourse:
+    subject: n40012018003
 - position: 5
-  ref: MAT 12:20!5
-  xml_id: n40012020005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:20!5
+    wordID: n40012020005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 6
-  ref: MAT 12:20!6
-  xml_id: n40012020006
-  unicode: λίνον
+  text: λίνον
   lemma: λίνον
   normalized: λίνον
-  class: noun
-  morph: N-ASN
-  gloss: a wick
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3043'
-  domain: '006017'
-  ln: '6.158'
+  ids:
+    ref: MAT 12:20!6
+    wordID: n40012020006
+  translation:
+    gloss: a wick
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3043'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.158'
 - position: 7
-  ref: MAT 12:20!7
-  xml_id: n40012020007
-  unicode: τυφόμενον
+  text: τυφόμενον
   lemma: τύφω
   normalized: τυφόμενον
-  class: verb
-  morph: V-PPP-ASN
-  gloss: smoldering
-  gender: neuter
-  number: singular
-  case: accusative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '5188'
-  domain: 014008
-  ln: '14.64'
-  role: v
+  ids:
+    ref: MAT 12:20!7
+    wordID: n40012020007
+  translation:
+    gloss: smoldering
+  morphology:
+    class: verb
+    morph: V-PPP-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '5188'
+  semantic:
+    semanticDomain: 014008
+    ln: '14.64'
+  syntax:
+    role: v
+    frame: A1:n40012020006
+  discourse:
+    subject: n40012020006
 - position: 8
-  ref: MAT 12:20!8
-  xml_id: n40012020008
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 12:20!8
+    wordID: n40012020008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 9
-  ref: MAT 12:20!9
-  xml_id: n40012020009
-  unicode: σβέσει
+  text: σβέσει
   lemma: σβέννυμι
   normalized: σβέσει
-  class: verb
-  morph: V-FAI-3S
-  gloss: He will quench
-  number: singular
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '4570'
-  domain: 014008
-  ln: '14.70'
-  role: v
+  ids:
+    ref: MAT 12:20!9
+    wordID: n40012020009
+  translation:
+    gloss: He will quench
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4570'
+  semantic:
+    semanticDomain: 014008
+    ln: '14.70'
+  syntax:
+    role: v
+    frame: A0:n40012018003 A1:n40012020006
+  discourse:
+    subject: n40012018003
 - position: 10
-  ref: MAT 12:20!10
-  xml_id: n40012020010
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: conj
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 12:20!10
+    wordID: n40012020010
+  translation:
+    gloss: until
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 11
-  ref: MAT 12:20!11
-  xml_id: n40012020011
-  unicode: ἂν
+  text: ἂν
   lemma: ἄν
   normalized: ἄν
-  class: ptcl
-  morph: PRT
-  gloss: '-'
-  strong: '302'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 12:20!11
+    wordID: n40012020011
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
 - position: 12
-  ref: MAT 12:20!12
-  xml_id: n40012020012
-  unicode: ἐκβάλῃ
+  text: ἐκβάλῃ
   lemma: ἐκβάλλω
   normalized: ἐκβάλῃ
-  class: verb
-  morph: V-2AAS-3S
-  gloss: He leads
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1544'
-  domain: '013002'
-  ln: '13.68'
-  role: v
+  ids:
+    ref: MAT 12:20!12
+    wordID: n40012020012
+  translation:
+    gloss: He leads
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.68'
+  syntax:
+    role: v
+    frame: A0:n40012018003 A1:n40012020016
+  discourse:
+    subject: n40012018003
 - position: 13
-  ref: MAT 12:20!13
-  xml_id: n40012020013
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '1519'
-  domain: '013002'
-  ln: '13.62'
+  ids:
+    ref: MAT 12:20!13
+    wordID: n40012020013
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.62'
 - position: 14
-  ref: MAT 12:20!14
-  xml_id: n40012020014
-  unicode: νῖκος
+  text: νῖκος
   lemma: νῖκος
   normalized: νῖκος
-  class: noun
-  morph: N-ASN
-  gloss: victory
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3534'
-  domain: 039012
-  ln: '39.57'
+  ids:
+    ref: MAT 12:20!14
+    wordID: n40012020014
+  translation:
+    gloss: victory
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3534'
+  semantic:
+    semanticDomain: 039012
+    ln: '39.57'
 - position: 15
-  ref: MAT 12:20!15
-  xml_id: n40012020015
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: '-'
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:20!15
+    wordID: n40012020015
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 12:20!16
-  xml_id: n40012020016
-  unicode: κρίσιν
+  text: κρίσιν
   lemma: κρίσις
   normalized: κρίσιν
-  class: noun
-  morph: N-ASF
-  gloss: justice
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '2920'
-  domain: '056005'
-  ln: '56.25'
-syntax:
-  word_order: O-ADV-V
+  ids:
+    ref: MAT 12:20!16
+    wordID: n40012020016
+  translation:
+    gloss: justice
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2920'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.25'

@@ -1,175 +1,220 @@
-verse:
-  reference: MAT 22:20
-  book_code: MAT
-  chapter: 22
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ λέγει αὐτοῖς Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:20
+text: καὶ λέγει αὐτοῖς Τίνος ἡ εἰκὼν αὕτη καὶ ἡ ἐπιγραφή;
 words:
 - position: 1
-  ref: MAT 22:20!1
-  xml_id: n40022020001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 22:20!1
+    wordID: n40022020001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 22:20!2
-  xml_id: n40022020002
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: He says
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 22:20!2
+    wordID: n40022020002
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40022018004 A2:n40022020003
+  discourse:
+    subject: n40022018004
 - position: 3
-  ref: MAT 22:20!3
-  xml_id: n40022020003
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 22:20!3
+    wordID: n40022020003
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40022015004 n40022016005 n40022016009
 - position: 4
-  ref: MAT 22:20!4
-  xml_id: n40022020004
-  unicode: Τίνος
+  text: Τίνος
   lemma: τίς
   normalized: Τίνος
-  class: pron
-  morph: I-GSM
-  gloss: Whose [is]
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: p
+  ids:
+    ref: MAT 22:20!4
+    wordID: n40022020004
+  translation:
+    gloss: Whose [is]
+  morphology:
+    class: pron
+    morph: I-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: p
 - position: 5
-  ref: MAT 22:20!5
-  xml_id: n40022020005
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:20!5
+    wordID: n40022020005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 22:20!6
-  xml_id: n40022020006
-  unicode: εἰκὼν
+  text: εἰκὼν
   lemma: εἰκών
   normalized: εἰκών
-  class: noun
-  morph: N-NSF
-  gloss: likeness
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1504'
-  domain: '006013'
-  ln: '6.96'
+  ids:
+    ref: MAT 22:20!6
+    wordID: n40022020006
+  translation:
+    gloss: likeness
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1504'
+  semantic:
+    semanticDomain: '006013'
+    ln: '6.96'
 - position: 7
-  ref: MAT 22:20!7
-  xml_id: n40022020007
-  unicode: αὕτη
+  text: αὕτη
   lemma: οὗτος
   normalized: αὕτη
-  class: pron
-  morph: D-NSF
-  gloss: this
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
+  ids:
+    ref: MAT 22:20!7
+    wordID: n40022020007
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
 - position: 8
-  ref: MAT 22:20!8
-  xml_id: n40022020008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 22:20!8
+    wordID: n40022020008
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 22:20!9
-  xml_id: n40022020009
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: whose
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:20!9
+    wordID: n40022020009
+  translation:
+    gloss: whose
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 22:20!10
-  xml_id: n40022020010
-  unicode: ἐπιγραφή
+  text: ἐπιγραφή
   lemma: ἐπιγραφή
   normalized: ἐπιγραφή
-  class: noun
-  morph: N-NSF
-  gloss: inscription
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1923'
-  domain: '033005'
-  ln: '33.46'
-syntax:
-  word_order: P-S
+  ids:
+    ref: MAT 22:20!10
+    wordID: n40022020010
+  translation:
+    gloss: inscription
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1923'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.46'

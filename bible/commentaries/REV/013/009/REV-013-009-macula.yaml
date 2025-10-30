@@ -1,0 +1,112 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: REV 13:9
+text: Εἴ τις ἔχει οὖς, ἀκουσάτω.
+words:
+- position: 1
+  text: Εἴ
+  lemma: εἰ
+  normalized: Εἴ
+  ids:
+    ref: REV 13:9!1
+    wordID: n66013009001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+- position: 2
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: REV 13:9!2
+    wordID: n66013009002
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  syntax:
+    role: s
+- position: 3
+  text: ἔχει
+  lemma: ἔχω
+  normalized: ἔχει
+  ids:
+    ref: REV 13:9!3
+    wordID: n66013009003
+  translation:
+    gloss: has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n66013009002 A1:n66013009004
+- position: 4
+  text: οὖς
+  lemma: οὖς
+  normalized: οὖς
+  ids:
+    ref: REV 13:9!4
+    wordID: n66013009004
+  translation:
+    gloss: an ear
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3775'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.24'
+  syntax:
+    role: o
+- position: 5
+  text: ἀκουσάτω
+  lemma: ἀκούω
+  normalized: ἀκουσάτω
+  ids:
+    ref: REV 13:9!5
+    wordID: n66013009005
+  translation:
+    gloss: let him hear
+  morphology:
+    class: verb
+    morph: V-AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '031007'
+    ln: '31.56'
+  syntax:
+    role: v
+    frame: A0:n66013009002
+  discourse:
+    subject: n66013009002

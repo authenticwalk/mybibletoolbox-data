@@ -1,265 +1,347 @@
-verse:
-  reference: MAT 14:11
-  book_code: MAT
-  chapter: 14
-  verse: 11
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἠνέχθη ἡ κεφαλὴ αὐτοῦ ἐπὶ πίνακι καὶ ἐδόθη τῷ κορασίῳ, καὶ ἤνεγκεν
-    τῇ μητρὶ αὐτῆς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 14:11
+text: καὶ ἠνέχθη ἡ κεφαλὴ αὐτοῦ ἐπὶ πίνακι καὶ ἐδόθη τῷ κορασίῳ, καὶ ἤνεγκεν τῇ μητρὶ
+  αὐτῆς.
 words:
 - position: 1
-  ref: MAT 14:11!1
-  xml_id: n40014011001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:11!1
+    wordID: n40014011001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 14:11!2
-  xml_id: n40014011002
-  unicode: ἠνέχθη
+  text: ἠνέχθη
   lemma: φέρω
   normalized: ἠνέχθη
-  class: verb
-  morph: V-API-3S
-  gloss: was brought
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '5342'
-  domain: '015023'
-  ln: '15.166'
-  role: v
+  ids:
+    ref: MAT 14:11!2
+    wordID: n40014011002
+  translation:
+    gloss: was brought
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '5342'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.166'
+  syntax:
+    role: v
+    frame: A1:n40014011004
 - position: 3
-  ref: MAT 14:11!3
-  xml_id: n40014011003
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:11!3
+    wordID: n40014011003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 14:11!4
-  xml_id: n40014011004
-  unicode: κεφαλὴ
+  text: κεφαλὴ
   lemma: κεφαλή
   normalized: κεφαλή
-  class: noun
-  morph: N-NSF
-  gloss: head
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '2776'
-  domain: 008002
-  ln: '8.10'
+  ids:
+    ref: MAT 14:11!4
+    wordID: n40014011004
+  translation:
+    gloss: head
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2776'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.10'
 - position: 5
-  ref: MAT 14:11!5
-  xml_id: n40014011005
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 14:11!5
+    wordID: n40014011005
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40014010004
 - position: 6
-  ref: MAT 14:11!6
-  xml_id: n40014011006
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1909'
-  domain: 083008
-  ln: '83.46'
+  ids:
+    ref: MAT 14:11!6
+    wordID: n40014011006
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 083008
+    ln: '83.46'
 - position: 7
-  ref: MAT 14:11!7
-  xml_id: n40014011007
-  unicode: πίνακι
+  text: πίνακι
   lemma: πίναξ
   normalized: πίνακι
-  class: noun
-  morph: N-DSM
-  gloss: a platter
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '4094'
-  domain: '006016'
-  ln: '6.134'
+  ids:
+    ref: MAT 14:11!7
+    wordID: n40014011007
+  translation:
+    gloss: a platter
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4094'
+  semantic:
+    semanticDomain: '006016'
+    ln: '6.134'
 - position: 8
-  ref: MAT 14:11!8
-  xml_id: n40014011008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:11!8
+    wordID: n40014011008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 9
-  ref: MAT 14:11!9
-  xml_id: n40014011009
-  unicode: ἐδόθη
+  text: ἐδόθη
   lemma: δίδωμι
   normalized: ἐδόθη
-  class: verb
-  morph: V-API-3S
-  gloss: was given
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 14:11!9
+    wordID: n40014011009
+  translation:
+    gloss: was given
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A1:n40014011004 A2:n40014011011
+  discourse:
+    subject: n40014011004
 - position: 10
-  ref: MAT 14:11!10
-  xml_id: n40014011010
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSN
-  gloss: to the
-  gender: neuter
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:11!10
+    wordID: n40014011010
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 14:11!11
-  xml_id: n40014011011
-  unicode: κορασίῳ
+  text: κορασίῳ
   lemma: κοράσιον
   normalized: κορασίῳ
-  class: noun
-  morph: N-DSN
-  gloss: girl
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '2877'
-  domain: 009003
-  ln: '9.40'
+  ids:
+    ref: MAT 14:11!11
+    wordID: n40014011011
+  translation:
+    gloss: girl
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2877'
+  semantic:
+    semanticDomain: 009003
+    ln: '9.40'
 - position: 12
-  ref: MAT 14:11!12
-  xml_id: n40014011012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 14:11!12
+    wordID: n40014011012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 13
-  ref: MAT 14:11!13
-  xml_id: n40014011013
-  unicode: ἤνεγκεν
+  text: ἤνεγκεν
   lemma: φέρω
   normalized: ἤνεγκεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: she brought [it]
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5342'
-  domain: '015024'
-  ln: '15.187'
-  role: v
+  ids:
+    ref: MAT 14:11!13
+    wordID: n40014011013
+  translation:
+    gloss: she brought [it]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5342'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.187'
+  syntax:
+    role: v
+    frame: A0:n40014011011 A1:n40014011004 A2:n40014011015
+  discourse:
+    subject: n40014011011
 - position: 14
-  ref: MAT 14:11!14
-  xml_id: n40014011014
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: to
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 14:11!14
+    wordID: n40014011014
+  translation:
+    gloss: to
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 14:11!15
-  xml_id: n40014011015
-  unicode: μητρὶ
+  text: μητρὶ
   lemma: μήτηρ
   normalized: μητρί
-  class: noun
-  morph: N-DSF
-  gloss: '[the] mother'
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '3384'
-  domain: '010002'
-  ln: '10.16'
+  ids:
+    ref: MAT 14:11!15
+    wordID: n40014011015
+  translation:
+    gloss: '[the] mother'
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3384'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.16'
 - position: 16
-  ref: MAT 14:11!16
-  xml_id: n40014011016
-  unicode: αὐτῆς
+  text: αὐτῆς
   lemma: αὐτός
   normalized: αὐτῆς
-  class: pron
-  morph: P-GSF
-  gloss: of her
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: V-S-ADV
+  ids:
+    ref: MAT 14:11!16
+    wordID: n40014011016
+  translation:
+    gloss: of her
+  morphology:
+    class: pron
+    morph: P-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40014011011

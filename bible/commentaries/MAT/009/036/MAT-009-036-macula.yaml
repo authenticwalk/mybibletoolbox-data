@@ -1,280 +1,377 @@
-verse:
-  reference: MAT 9:36
-  book_code: MAT
-  chapter: 9
-  verse: 36
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ἰδὼν δὲ τοὺς ὄχλους ἐσπλαγχνίσθη περὶ αὐτῶν, ὅτι ἦσαν ἐσκυλμένοι καὶ ἐρριμμένοι
-    ὡσεὶ πρόβατα μὴ ἔχοντα ποιμένα.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:36
+text: Ἰδὼν δὲ τοὺς ὄχλους ἐσπλαγχνίσθη περὶ αὐτῶν, ὅτι ἦσαν ἐσκυλμένοι καὶ ἐρριμμένοι
+  ὡσεὶ πρόβατα μὴ ἔχοντα ποιμένα.
 words:
 - position: 1
-  ref: MAT 9:36!2
-  xml_id: n40009036002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 9:36!2
+    wordID: n40009036002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 9:36!1
-  xml_id: n40009036001
-  unicode: Ἰδὼν
+  text: Ἰδὼν
   lemma: ὁράω
   normalized: Ἰδών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: Having seen
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
+  ids:
+    ref: MAT 9:36!1
+    wordID: n40009036001
+  translation:
+    gloss: Having seen
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40009035004 A1:n40009036004
+  discourse:
+    subject: n40009035004
 - position: 3
-  ref: MAT 9:36!3
-  xml_id: n40009036003
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:36!3
+    wordID: n40009036003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 9:36!4
-  xml_id: n40009036004
-  unicode: ὄχλους
+  text: ὄχλους
   lemma: ὄχλος
   normalized: ὄχλους
-  class: noun
-  morph: N-APM
-  gloss: crowds
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3793'
-  domain: '011001'
-  ln: '11.1'
+  ids:
+    ref: MAT 9:36!4
+    wordID: n40009036004
+  translation:
+    gloss: crowds
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
 - position: 5
-  ref: MAT 9:36!5
-  xml_id: n40009036005
-  unicode: ἐσπλαγχνίσθη
+  text: ἐσπλαγχνίσθη
   lemma: σπλαγχνίζομαι
   normalized: ἐσπλαγχνίσθη
-  class: verb
-  morph: V-AOI-3S
-  gloss: He was moved with compassion
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '4697'
-  domain: '025003'
-  ln: '25.49'
-  role: v
+  ids:
+    ref: MAT 9:36!5
+    wordID: n40009036005
+  translation:
+    gloss: He was moved with compassion
+  morphology:
+    class: verb
+    morph: V-AOI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4697'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.49'
+  syntax:
+    role: v
+    frame: A1:n40009035004
+  discourse:
+    subject: n40009035004
 - position: 6
-  ref: MAT 9:36!6
-  xml_id: n40009036006
-  unicode: περὶ
+  text: περὶ
   lemma: περί
   normalized: περί
-  class: prep
-  morph: PREP
-  gloss: for
-  strong: '4012'
+  ids:
+    ref: MAT 9:36!6
+    wordID: n40009036006
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
 - position: 7
-  ref: MAT 9:36!7
-  xml_id: n40009036007
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 9:36!7
+    wordID: n40009036007
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40009036004
 - position: 8
-  ref: MAT 9:36!8
-  xml_id: n40009036008
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: because
-  strong: '3754'
-  domain: 089007
-  ln: '89.33'
+  ids:
+    ref: MAT 9:36!8
+    wordID: n40009036008
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
 - position: 9
-  ref: MAT 9:36!9
-  xml_id: n40009036009
-  unicode: ἦσαν
+  text: ἦσαν
   lemma: εἰμί
   normalized: ἦσαν
-  class: verb
-  morph: V-IAI-3P
-  gloss: they were
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '1510'
+  ids:
+    ref: MAT 9:36!9
+    wordID: n40009036009
+  translation:
+    gloss: they were
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  discourse:
+    subject: n40009036004
 - position: 10
-  ref: MAT 9:36!10
-  xml_id: n40009036010
-  unicode: ἐσκυλμένοι
+  text: ἐσκυλμένοι
   lemma: σκύλλω
   normalized: ἐσκυλμένοι
-  class: verb
-  morph: V-RPP-NPM
-  gloss: wearied
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '4660'
-  domain: '022003'
-  ln: '22.23'
+  ids:
+    ref: MAT 9:36!10
+    wordID: n40009036010
+  translation:
+    gloss: wearied
+  morphology:
+    class: verb
+    morph: V-RPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4660'
+  semantic:
+    semanticDomain: '022003'
+    ln: '22.23'
+  syntax:
+    frame: A1:n40009036004
+  discourse:
+    subject: n40009036004
 - position: 11
-  ref: MAT 9:36!11
-  xml_id: n40009036011
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 9:36!11
+    wordID: n40009036011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 12
-  ref: MAT 9:36!12
-  xml_id: n40009036012
-  unicode: ἐρριμμένοι
+  text: ἐρριμμένοι
   lemma: ῥίπτω
   normalized: ἐρριμμένοι
-  class: verb
-  morph: V-RPP-NPM
-  gloss: cast away
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: perfect
-  voice: passive
-  mood: participle
-  strong: '4496'
-  domain: '025024'
-  ln: '25.294'
+  ids:
+    ref: MAT 9:36!12
+    wordID: n40009036012
+  translation:
+    gloss: cast away
+  morphology:
+    class: verb
+    morph: V-RPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4496'
+  semantic:
+    semanticDomain: '025024'
+    ln: '25.294'
+  syntax:
+    frame: A1:n40009036004
+  discourse:
+    subject: n40009036004
 - position: 13
-  ref: MAT 9:36!13
-  xml_id: n40009036013
-  unicode: ὡσεὶ
+  text: ὡσεὶ
   lemma: ὡσεί
   normalized: ὡσεί
-  class: conj
-  morph: ADV
-  gloss: as
-  strong: '5616'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 9:36!13
+    wordID: n40009036013
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5616'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 14
-  ref: MAT 9:36!14
-  xml_id: n40009036014
-  unicode: πρόβατα
+  text: πρόβατα
   lemma: πρόβατον
   normalized: πρόβατα
-  class: noun
-  morph: N-NPN
-  gloss: sheep
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '4263'
-  domain: '004001'
-  ln: '4.22'
+  ids:
+    ref: MAT 9:36!14
+    wordID: n40009036014
+  translation:
+    gloss: sheep
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '4263'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.22'
 - position: 15
-  ref: MAT 9:36!15
-  xml_id: n40009036015
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 9:36!15
+    wordID: n40009036015
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 16
-  ref: MAT 9:36!16
-  xml_id: n40009036016
-  unicode: ἔχοντα
+  text: ἔχοντα
   lemma: ἔχω
   normalized: ἔχοντα
-  class: verb
-  morph: V-PAP-NPN
-  gloss: having
-  gender: neuter
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2192'
-  domain: '057001'
-  ln: '57.1'
-  role: v
+  ids:
+    ref: MAT 9:36!16
+    wordID: n40009036016
+  translation:
+    gloss: having
+  morphology:
+    class: verb
+    morph: V-PAP-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40009036014 A1:n40009036017
+  discourse:
+    subject: n40009036014
 - position: 17
-  ref: MAT 9:36!17
-  xml_id: n40009036017
-  unicode: ποιμένα
+  text: ποιμένα
   lemma: ποιμήν
   normalized: ποιμένα
-  class: noun
-  morph: N-ASM
-  gloss: a shepherd
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4166'
-  domain: '044'
-  ln: '44.4'
-  role: o
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 9:36!17
+    wordID: n40009036017
+  translation:
+    gloss: a shepherd
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4166'
+  semantic:
+    semanticDomain: '044'
+    ln: '44.4'
+  syntax:
+    role: o

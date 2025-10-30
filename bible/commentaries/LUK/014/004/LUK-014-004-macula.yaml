@@ -1,0 +1,75 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 14:4
+text: οἱ δὲ ἡσύχασαν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 14:4!2
+    wordID: n42014004002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: LUK 14:4!1
+    wordID: n42014004001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n42014003008 n42014003010
+- position: 3
+  text: ἡσύχασαν
+  lemma: ἡσυχάζω
+  normalized: ἡσύχασαν
+  ids:
+    ref: LUK 14:4!3
+    wordID: n42014004003
+  translation:
+    gloss: they were silent
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2270'
+  semantic:
+    semanticDomain: 033008
+    ln: '33.119'
+  syntax:
+    role: v
+    frame: A0:n42014004001

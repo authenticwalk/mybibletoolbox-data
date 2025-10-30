@@ -1,0 +1,102 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2CO 3:1
+text: 2CO 3:1 Ἀρχόμεθα πάλιν ἑαυτοὺς συνιστάνειν;
+words:
+- position: 1
+  text: Ἀρχόμεθα
+  lemma: ἄρχω
+  normalized: Ἀρχόμεθα
+  ids:
+    ref: 2CO 3:1!1
+    wordID: n47003001001
+  translation:
+    gloss: Are we beginning
+  morphology:
+    class: verb
+    morph: V-PMI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '756'
+  semantic:
+    semanticDomain: 068001
+    ln: '68.1'
+  syntax:
+    role: v
+    frame: A0:n47001001001;n47001019017;n47001019019;n47002013011
+  discourse:
+    subject: n47001001001 n47001019017 n47001019019 n47002013011
+- position: 2
+  text: πάλιν
+  lemma: πάλιν
+  normalized: πάλιν
+  ids:
+    ref: 2CO 3:1!2
+    wordID: n47003001002
+  translation:
+    gloss: again
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3825'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.55'
+  syntax:
+    role: adv
+- position: 3
+  text: ἑαυτοὺς
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτούς
+  ids:
+    ref: 2CO 3:1!3
+    wordID: n47003001003
+  translation:
+    gloss: ourselves
+  morphology:
+    class: pron
+    morph: F-1APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n47001001001 n47001019017 n47001019019 n47002013011
+- position: 4
+  text: συνιστάνειν
+  lemma: συνίστημι
+  normalized: συνιστάνειν
+  ids:
+    ref: 2CO 3:1!4
+    wordID: n47003001004
+  translation:
+    gloss: to commend
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4921'
+  semantic:
+    semanticDomain: '033034'
+    ln: '33.344'
+  syntax:
+    role: v
+    frame: A0:n47001001001;n47001019017;n47001019019;n47002013011 A1:n47003001003
+  discourse:
+    subject: n47001001001 n47001019017 n47001019019 n47002013011

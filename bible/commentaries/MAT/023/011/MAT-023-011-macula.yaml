@@ -1,128 +1,156 @@
-verse:
-  reference: MAT 23:11
-  book_code: MAT
-  chapter: 23
-  verse: 11
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 23:11
+text: ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.
 words:
 - position: 1
-  ref: MAT 23:11!2
-  xml_id: n40023011002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 23:11!2
+    wordID: n40023011002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 23:11!1
-  xml_id: n40023011001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 23:11!1
+    wordID: n40023011001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 23:11!3
-  xml_id: n40023011003
-  unicode: μείζων
+  text: μείζων
   lemma: μέγας
   normalized: μείζων
-  class: adj
-  morph: A-NSM-C
-  gloss: the greatest
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3173'
-  domain: 087003
-  ln: '87.22'
+  ids:
+    ref: MAT 23:11!3
+    wordID: n40023011003
+  translation:
+    gloss: the greatest
+  morphology:
+    class: adj
+    morph: A-NSM-C
+    gender: masculine
+    number: singular
+    case: nominative
+    degree: comparative
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.22'
 - position: 4
-  ref: MAT 23:11!4
-  xml_id: n40023011004
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: among you
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 23:11!4
+    wordID: n40023011004
+  translation:
+    gloss: among you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40023001006 n40023001009
 - position: 5
-  ref: MAT 23:11!5
-  xml_id: n40023011005
-  unicode: ἔσται
+  text: ἔσται
   lemma: εἰμί
   normalized: ἔσται
-  class: verb
-  morph: V-FDI-3S
-  gloss: will be
-  number: singular
-  person: third
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
+  ids:
+    ref: MAT 23:11!5
+    wordID: n40023011005
+  translation:
+    gloss: will be
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
 - position: 6
-  ref: MAT 23:11!6
-  xml_id: n40023011006
-  unicode: ὑμῶν
+  text: ὑμῶν
   lemma: σύ
   normalized: ὑμῶν
-  class: pron
-  morph: P-2GP
-  gloss: your
-  number: plural
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 23:11!6
+    wordID: n40023011006
+  translation:
+    gloss: your
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40023001006 n40023001009
 - position: 7
-  ref: MAT 23:11!7
-  xml_id: n40023011007
-  unicode: διάκονος
+  text: διάκονος
   lemma: διάκονος
   normalized: διάκονος
-  class: noun
-  morph: N-NSM
-  gloss: servant
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1249'
-  domain: '035002'
-  ln: '35.20'
-syntax:
-  word_order: S-VC-P
+  ids:
+    ref: MAT 23:11!7
+    wordID: n40023011007
+  translation:
+    gloss: servant
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1249'
+  semantic:
+    semanticDomain: '035002'
+    ln: '35.20'

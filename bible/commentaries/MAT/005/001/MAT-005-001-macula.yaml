@@ -1,145 +1,178 @@
-verse:
-  reference: MAT 5:1
-  book_code: MAT
-  chapter: 5
-  verse: 1
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ἰδὼν δὲ τοὺς ὄχλους ἀνέβη εἰς τὸ ὄρος·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:1
+text: Ἰδὼν δὲ τοὺς ὄχλους ἀνέβη εἰς τὸ ὄρος·
 words:
 - position: 1
-  ref: MAT 5:1!2
-  xml_id: n40005001002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
+  ids:
+    ref: MAT 5:1!2
+    wordID: n40005001002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 5:1!1
-  xml_id: n40005001001
-  unicode: Ἰδὼν
+  text: Ἰδὼν
   lemma: ὁράω
   normalized: Ἰδών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: Having seen
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
+  ids:
+    ref: MAT 5:1!1
+    wordID: n40005001001
+  translation:
+    gloss: Having seen
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A1:n40005001004
+  discourse:
+    subject: n40004017005
 - position: 3
-  ref: MAT 5:1!3
-  xml_id: n40005001003
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:1!3
+    wordID: n40005001003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 5:1!4
-  xml_id: n40005001004
-  unicode: ὄχλους
+  text: ὄχλους
   lemma: ὄχλος
   normalized: ὄχλους
-  class: noun
-  morph: N-APM
-  gloss: crowds
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3793'
-  domain: '011001'
-  ln: '11.1'
+  ids:
+    ref: MAT 5:1!4
+    wordID: n40005001004
+  translation:
+    gloss: crowds
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
 - position: 5
-  ref: MAT 5:1!5
-  xml_id: n40005001005
-  unicode: ἀνέβη
+  text: ἀνέβη
   lemma: ἀναβαίνω
   normalized: ἀνέβη
-  class: verb
-  morph: V-2AAI-3S
-  gloss: He went up
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '305'
-  domain: '015010'
-  ln: '15.101'
-  role: v
+  ids:
+    ref: MAT 5:1!5
+    wordID: n40005001005
+  translation:
+    gloss: He went up
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '305'
+  semantic:
+    semanticDomain: '015010'
+    ln: '15.101'
+  syntax:
+    role: v
+    frame: A0:n40004017005
+  discourse:
+    subject: n40004017005
 - position: 6
-  ref: MAT 5:1!6
-  xml_id: n40005001006
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: 'on'
-  strong: '1519'
-  domain: 084002
-  ln: '84.16'
+  ids:
+    ref: MAT 5:1!6
+    wordID: n40005001006
+  translation:
+    gloss: 'on'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.16'
 - position: 7
-  ref: MAT 5:1!7
-  xml_id: n40005001007
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:1!7
+    wordID: n40005001007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 5:1!8
-  xml_id: n40005001008
-  unicode: ὄρος
+  text: ὄρος
   lemma: ὄρος
   normalized: ὄρος
-  class: noun
-  morph: N-ASN
-  gloss: mountain
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3735'
-  domain: '001007'
-  ln: '1.46'
-syntax:
-  word_order: ADV-V-ADV
+  ids:
+    ref: MAT 5:1!8
+    wordID: n40005001008
+  translation:
+    gloss: mountain
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3735'
+  semantic:
+    semanticDomain: '001007'
+    ln: '1.46'

@@ -1,252 +1,330 @@
-verse:
-  reference: MAT 22:35
-  book_code: MAT
-  chapter: 22
-  verse: 35
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 22:36 καὶ ἐπηρώτησεν εἷς ἐξ αὐτῶν νομικὸς πειράζων αὐτόν Διδάσκαλε,
-    ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:35
+text: MAT 22:36 καὶ ἐπηρώτησεν εἷς ἐξ αὐτῶν νομικὸς πειράζων αὐτόν Διδάσκαλε, ποία
+  ἐντολὴ μεγάλη ἐν τῷ νόμῳ;
 words:
 - position: 1
-  ref: MAT 22:35!1
-  xml_id: n40022035001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 22:35!1
+    wordID: n40022035001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 22:35!2
-  xml_id: n40022035002
-  unicode: ἐπηρώτησεν
+  text: ἐπηρώτησεν
   lemma: ἐπερωτάω
   normalized: ἐπηρώτησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: questioned [Him]
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1905'
-  domain: '033014'
-  ln: '33.180'
-  role: v
+  ids:
+    ref: MAT 22:35!2
+    wordID: n40022035002
+  translation:
+    gloss: questioned [Him]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1905'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.180'
+  syntax:
+    role: v
+    frame: A0:n40022035003
 - position: 3
-  ref: MAT 22:35!3
-  xml_id: n40022035003
-  unicode: εἷς
+  text: εἷς
   lemma: εἷς
   normalized: εἷς
-  class: adj
-  morph: A-NSM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: 092004
-  ln: '92.22'
+  ids:
+    ref: MAT 22:35!3
+    wordID: n40022035003
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
 - position: 4
-  ref: MAT 22:35!4
-  xml_id: n40022035004
-  unicode: ἐξ
+  text: ἐξ
   lemma: ἐκ
   normalized: ἐξ
-  class: prep
-  morph: PREP
-  gloss: of
-  strong: '1537'
-  domain: '063004'
-  ln: '63.20'
+  ids:
+    ref: MAT 22:35!4
+    wordID: n40022035004
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: '063004'
+    ln: '63.20'
 - position: 5
-  ref: MAT 22:35!5
-  xml_id: n40022035005
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 22:35!5
+    wordID: n40022035005
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40022034003
 - position: 6
-  ref: MAT 22:35!6
-  xml_id: n40022035006
-  unicode: νομικὸς
+  text: νομικὸς
   lemma: νομικός
   normalized: νομικός
-  class: adj
-  morph: A-NSM
-  gloss: a lawyer
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3544'
-  domain: '033033'
-  ln: '33.338'
+  ids:
+    ref: MAT 22:35!6
+    wordID: n40022035006
+  translation:
+    gloss: a lawyer
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3544'
+  semantic:
+    semanticDomain: '033033'
+    ln: '33.338'
+  syntax:
+    junction: apposition
 - position: 7
-  ref: MAT 22:35!7
-  xml_id: n40022035007
-  unicode: πειράζων
+  text: πειράζων
   lemma: πειράζω
   normalized: πειράζων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: testing
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3985'
-  domain: '027003'
-  ln: '27.31'
-  role: v
+  ids:
+    ref: MAT 22:35!7
+    wordID: n40022035007
+  translation:
+    gloss: testing
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3985'
+  semantic:
+    semanticDomain: '027003'
+    ln: '27.31'
+  syntax:
+    role: v
+    frame: A0:n40022035003 A1:n40022035008
+  discourse:
+    subject: n40022035003
 - position: 8
-  ref: MAT 22:35!8
-  xml_id: n40022035008
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 22:35!8
+    wordID: n40022035008
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40022029004
 - position: 9
-  ref: MAT 22:36!1
-  xml_id: n40022036001
-  unicode: Διδάσκαλε
+  text: Διδάσκαλε
   lemma: διδάσκαλος
   normalized: Διδάσκαλε
-  class: noun
-  morph: N-VSM
-  gloss: Teacher
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '1320'
-  domain: '033017'
-  ln: '33.243'
-  role: aux
+  ids:
+    ref: MAT 22:36!1
+    wordID: n40022036001
+  translation:
+    gloss: Teacher
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '1320'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.243'
+  syntax:
+    role: aux
 - position: 10
-  ref: MAT 22:36!2
-  xml_id: n40022036002
-  unicode: ποία
+  text: ποία
   lemma: ποῖος
   normalized: ποία
-  class: pron
-  morph: I-NSF
-  gloss: which
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '4169'
-  domain: 092007
-  ln: '92.36'
-  role: p
+  ids:
+    ref: MAT 22:36!2
+    wordID: n40022036002
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: I-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '4169'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.36'
+  syntax:
+    role: p
 - position: 11
-  ref: MAT 22:36!3
-  xml_id: n40022036003
-  unicode: ἐντολὴ
+  text: ἐντολὴ
   lemma: ἐντολή
   normalized: ἐντολή
-  class: noun
-  morph: N-NSF
-  gloss: commandment
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1785'
-  domain: '033032'
-  ln: '33.330'
+  ids:
+    ref: MAT 22:36!3
+    wordID: n40022036003
+  translation:
+    gloss: commandment
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1785'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.330'
 - position: 12
-  ref: MAT 22:36!4
-  xml_id: n40022036004
-  unicode: μεγάλη
+  text: μεγάλη
   lemma: μέγας
   normalized: μεγάλη
-  class: adj
-  morph: A-NSF
-  gloss: '[is the] greatest'
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '3173'
-  domain: 087003
-  ln: '87.22'
+  ids:
+    ref: MAT 22:36!4
+    wordID: n40022036004
+  translation:
+    gloss: '[is the] greatest'
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.22'
 - position: 13
-  ref: MAT 22:36!5
-  xml_id: n40022036005
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 22:36!5
+    wordID: n40022036005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 14
-  ref: MAT 22:36!6
-  xml_id: n40022036006
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:36!6
+    wordID: n40022036006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 22:36!7
-  xml_id: n40022036007
-  unicode: νόμῳ
+  text: νόμῳ
   lemma: νόμος
   normalized: νόμῳ
-  class: noun
-  morph: N-DSM
-  gloss: law
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '3551'
-  domain: '033005'
-  ln: '33.55'
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 22:36!7
+    wordID: n40022036007
+  translation:
+    gloss: law
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3551'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.55'

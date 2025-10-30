@@ -1,212 +1,278 @@
-verse:
-  reference: MAT 5:42
-  book_code: MAT
-  chapter: 5
-  verse: 42
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τῷ αἰτοῦντί σε δός, καὶ τὸν θέλοντα ἀπὸ σοῦ δανίσασθαι μὴ ἀποστραφῇς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:42
+text: τῷ αἰτοῦντί σε δός, καὶ τὸν θέλοντα ἀπὸ σοῦ δανίσασθαι μὴ ἀποστραφῇς.
 words:
 - position: 1
-  ref: MAT 5:42!1
-  xml_id: n40005042001
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: To the [one]
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:42!1
+    wordID: n40005042001
+  translation:
+    gloss: To the [one]
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 2
-  ref: MAT 5:42!2
-  xml_id: n40005042002
-  unicode: αἰτοῦντί
+  text: αἰτοῦντί
   lemma: αἰτέω
   normalized: αἰτοῦντι
-  class: verb
-  morph: V-PAP-DSM
-  gloss: asking of
-  gender: masculine
-  number: singular
-  case: dative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '154'
-  domain: '033012'
-  ln: '33.163'
-  role: v
+  ids:
+    ref: MAT 5:42!2
+    wordID: n40005042002
+  translation:
+    gloss: asking of
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40005042003
 - position: 3
-  ref: MAT 5:42!3
-  xml_id: n40005042003
-  unicode: σε
+  text: σε
   lemma: σύ
   normalized: σε
-  class: pron
-  morph: P-2AS
-  gloss: you
-  number: singular
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: o
+  ids:
+    ref: MAT 5:42!3
+    wordID: n40005042003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005001015
 - position: 4
-  ref: MAT 5:42!4
-  xml_id: n40005042004
-  unicode: δός
+  text: δός
   lemma: δίδωμι
   normalized: δός
-  class: verb
-  morph: V-2AAM-2S
-  gloss: give
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 5:42!4
+    wordID: n40005042004
+  translation:
+    gloss: give
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n00000000000 A2:n40005042002
+  discourse:
+    subject: n40005001015
 - position: 5
-  ref: MAT 5:42!5
-  xml_id: n40005042005
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 5:42!5
+    wordID: n40005042005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 6
-  ref: MAT 5:42!6
-  xml_id: n40005042006
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the [one]
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:42!6
+    wordID: n40005042006
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 5:42!7
-  xml_id: n40005042007
-  unicode: θέλοντα
+  text: θέλοντα
   lemma: θέλω
   normalized: θέλοντα
-  class: verb
-  morph: V-PAP-ASM
-  gloss: desiring
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '2309'
-  domain: '025001'
-  ln: '25.1'
-  role: v
+  ids:
+    ref: MAT 5:42!7
+    wordID: n40005042007
+  translation:
+    gloss: desiring
+  morphology:
+    class: verb
+    morph: V-PAP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40005042010
 - position: 8
-  ref: MAT 5:42!8
-  xml_id: n40005042008
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 090003
-  ln: '90.15'
+  ids:
+    ref: MAT 5:42!8
+    wordID: n40005042008
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.15'
 - position: 9
-  ref: MAT 5:42!9
-  xml_id: n40005042009
-  unicode: σοῦ
+  text: σοῦ
   lemma: σύ
   normalized: σοῦ
-  class: pron
-  morph: P-2GS
-  gloss: you
-  number: singular
-  case: genitive
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
+  ids:
+    ref: MAT 5:42!9
+    wordID: n40005042009
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n40005001015
 - position: 10
-  ref: MAT 5:42!10
-  xml_id: n40005042010
-  unicode: δανίσασθαι
+  text: δανίσασθαι
   lemma: δανίζω
   normalized: δανίσασθαι
-  class: verb
-  morph: V-AMN
-  gloss: to borrow
-  tense: aorist
-  voice: middle
-  mood: infinitive
-  strong: '1155'
-  domain: '057017'
-  ln: '57.213'
-  role: v
+  ids:
+    ref: MAT 5:42!10
+    wordID: n40005042010
+  translation:
+    gloss: to borrow
+  morphology:
+    class: verb
+    morph: V-AMN
+    tense: aorist
+    voice: middle
+    mood: infinitive
+  lexical:
+    strong: '1155'
+  semantic:
+    semanticDomain: '057017'
+    ln: '57.213'
+  syntax:
+    role: v
+    frame: A0:n40005042007
+  discourse:
+    subject: n40005042007
 - position: 11
-  ref: MAT 5:42!11
-  xml_id: n40005042011
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 5:42!11
+    wordID: n40005042011
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 5:42!12
-  xml_id: n40005042012
-  unicode: ἀποστραφῇς
+  text: ἀποστραφῇς
   lemma: ἀποστρέφω
   normalized: ἀποστραφῇς
-  class: verb
-  morph: V-2APS-2S
-  gloss: you shall turn away from
-  number: singular
-  person: second
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '654'
-  domain: 035001 068004
-  ln: 35.18 68.44
-  role: v
-syntax:
-  word_order: IO-V
+  ids:
+    ref: MAT 5:42!12
+    wordID: n40005042012
+  translation:
+    gloss: you shall turn away from
+  morphology:
+    class: verb
+    morph: V-2APS-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '654'
+  semantic:
+    semanticDomain: 035001 068004
+    ln: 35.18 68.44
+  syntax:
+    role: v
+    frame: A1:n40005001015 A1:n40005042007
+  discourse:
+    subject: n40005001015

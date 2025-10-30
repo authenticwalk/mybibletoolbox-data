@@ -1,333 +1,451 @@
-verse:
-  reference: MAT 25:9
-  book_code: MAT
-  chapter: 25
-  verse: 9
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἀπεκρίθησαν δὲ αἱ φρόνιμοι λέγουσαι Μή ποτε οὐ μὴ ἀρκέσῃ ἡμῖν καὶ ὑμῖν·
-    πορεύεσθε μᾶλλον πρὸς τοὺς πωλοῦντας καὶ ἀγοράσατε ἑαυταῖς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:9
+text: ἀπεκρίθησαν δὲ αἱ φρόνιμοι λέγουσαι Μή ποτε οὐ μὴ ἀρκέσῃ ἡμῖν καὶ ὑμῖν· πορεύεσθε
+  μᾶλλον πρὸς τοὺς πωλοῦντας καὶ ἀγοράσατε ἑαυταῖς.
 words:
 - position: 1
-  ref: MAT 25:9!2
-  xml_id: n40025009002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 25:9!2
+    wordID: n40025009002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 25:9!1
-  xml_id: n40025009001
-  unicode: ἀπεκρίθησαν
+  text: ἀπεκρίθησαν
   lemma: ἀποκρίνομαι
   normalized: ἀπεκρίθησαν
-  class: verb
-  morph: V-ADI-3P
-  gloss: Answered
-  number: plural
-  person: third
-  tense: aorist
-  voice: middle
-  mood: indicative
-  strong: '611'
-  domain: '033004'
-  ln: '33.28'
-  role: v
+  ids:
+    ref: MAT 25:9!1
+    wordID: n40025009001
+  translation:
+    gloss: Answered
+  morphology:
+    class: verb
+    morph: V-ADI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A0:n40025009004
 - position: 3
-  ref: MAT 25:9!3
-  xml_id: n40025009003
-  unicode: αἱ
+  text: αἱ
   lemma: ὁ
   normalized: αἱ
-  class: det
-  morph: T-NPF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:9!3
+    wordID: n40025009003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 25:9!4
-  xml_id: n40025009004
-  unicode: φρόνιμοι
+  text: φρόνιμοι
   lemma: φρόνιμος
   normalized: φρόνιμοι
-  class: adj
-  morph: A-NPF
-  gloss: wise
-  gender: feminine
-  number: plural
-  case: nominative
-  strong: '5429'
-  domain: '032004'
-  ln: '32.31'
+  ids:
+    ref: MAT 25:9!4
+    wordID: n40025009004
+  translation:
+    gloss: wise
+  morphology:
+    class: adj
+    morph: A-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '5429'
+  semantic:
+    semanticDomain: '032004'
+    ln: '32.31'
 - position: 5
-  ref: MAT 25:9!5
-  xml_id: n40025009005
-  unicode: λέγουσαι
+  text: λέγουσαι
   lemma: λέγω
   normalized: λέγουσαι
-  class: verb
-  morph: V-PAP-NPF
-  gloss: saying
-  gender: feminine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:9!5
+    wordID: n40025009005
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025009004
+  discourse:
+    subject: n40025009004
 - position: 6
-  ref: MAT 25:9!6
-  xml_id: n40025009006
-  unicode: Μή
+  text: Μή
   lemma: μή
   normalized: Μή
-  class: ptcl
-  morph: PRT-N
-  gloss: Lest
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 25:9!6
+    wordID: n40025009006
+  translation:
+    gloss: Lest
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 7
-  ref: MAT 25:9!7
-  xml_id: n40025009007
-  unicode: ποτε
+  text: ποτε
   lemma: ποτέ
   normalized: ποτε
-  class: adv
-  morph: ADV
-  gloss: '-'
-  strong: '4218'
-  role: adv
+  ids:
+    ref: MAT 25:9!7
+    wordID: n40025009007
+  translation:
+    gloss: '-'
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4218'
+  syntax:
+    role: adv
 - position: 8
-  ref: MAT 25:9!8
-  xml_id: n40025009008
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: 'no'
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 25:9!8
+    wordID: n40025009008
+  translation:
+    gloss: 'no'
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 9
-  ref: MAT 25:9!9
-  xml_id: n40025009009
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not even
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 25:9!9
+    wordID: n40025009009
+  translation:
+    gloss: not even
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 10
-  ref: MAT 25:9!10
-  xml_id: n40025009010
-  unicode: ἀρκέσῃ
+  text: ἀρκέσῃ
   lemma: ἀρκέω
   normalized: ἀρκέσῃ
-  class: verb
-  morph: V-AAS-3S
-  gloss: it might suffice
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '714'
-  domain: 059005
-  ln: '59.46'
-  role: v
+  ids:
+    ref: MAT 25:9!10
+    wordID: n40025009010
+  translation:
+    gloss: it might suffice
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '714'
+  semantic:
+    semanticDomain: 059005
+    ln: '59.46'
+  syntax:
+    role: v
+    frame: A0:n40025008011
+  discourse:
+    subject: n40025008011
 - position: 11
-  ref: MAT 25:9!11
-  xml_id: n40025009011
-  unicode: ἡμῖν
+  text: ἡμῖν
   lemma: ἐγώ
   normalized: ἡμῖν
-  class: pron
-  morph: P-1DP
-  gloss: for us
-  number: plural
-  case: dative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
+  ids:
+    ref: MAT 25:9!11
+    wordID: n40025009011
+  translation:
+    gloss: for us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n40025009004
 - position: 12
-  ref: MAT 25:9!12
-  xml_id: n40025009012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 25:9!12
+    wordID: n40025009012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 13
-  ref: MAT 25:9!13
-  xml_id: n40025009013
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
+  ids:
+    ref: MAT 25:9!13
+    wordID: n40025009013
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40025008003
 - position: 14
-  ref: MAT 25:9!14
-  xml_id: n40025009014
-  unicode: πορεύεσθε
+  text: πορεύεσθε
   lemma: πορεύομαι
   normalized: πορεύεσθε
-  class: verb
-  morph: V-PNM-2P
-  gloss: Go
-  number: plural
-  person: second
-  tense: present
-  voice: middlepassive
-  mood: imperative
-  strong: '4198'
-  domain: '015004'
-  ln: '15.34'
-  role: v
+  ids:
+    ref: MAT 25:9!14
+    wordID: n40025009014
+  translation:
+    gloss: Go
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '4198'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.34'
+  syntax:
+    role: v
+    frame: A0:n40025008003
+  discourse:
+    subject: n40025008003
 - position: 15
-  ref: MAT 25:9!15
-  xml_id: n40025009015
-  unicode: μᾶλλον
+  text: μᾶλλον
   lemma: μᾶλλον
   normalized: μᾶλλον
-  class: adv
-  morph: ADV
-  gloss: rather
-  strong: '3123'
-  domain: 089023
-  ln: '89.126'
-  role: adv
+  ids:
+    ref: MAT 25:9!15
+    wordID: n40025009015
+  translation:
+    gloss: rather
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3123'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.126'
+  syntax:
+    role: adv
 - position: 16
-  ref: MAT 25:9!16
-  xml_id: n40025009016
-  unicode: πρὸς
+  text: πρὸς
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '4314'
-  domain: 084002
-  ln: '84.18'
+  ids:
+    ref: MAT 25:9!16
+    wordID: n40025009016
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
 - position: 17
-  ref: MAT 25:9!17
-  xml_id: n40025009017
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: those
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:9!17
+    wordID: n40025009017
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 25:9!18
-  xml_id: n40025009018
-  unicode: πωλοῦντας
+  text: πωλοῦντας
   lemma: πωλέω
   normalized: πωλοῦντας
-  class: verb
-  morph: V-PAP-APM
-  gloss: selling
-  gender: masculine
-  number: plural
-  case: accusative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '4453'
-  domain: '057015'
-  ln: '57.186'
-  role: v
+  ids:
+    ref: MAT 25:9!18
+    wordID: n40025009018
+  translation:
+    gloss: selling
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4453'
+  semantic:
+    semanticDomain: '057015'
+    ln: '57.186'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 19
-  ref: MAT 25:9!19
-  xml_id: n40025009019
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 25:9!19
+    wordID: n40025009019
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 20
-  ref: MAT 25:9!20
-  xml_id: n40025009020
-  unicode: ἀγοράσατε
+  text: ἀγοράσατε
   lemma: ἀγοράζω
   normalized: ἀγοράσατε
-  class: verb
-  morph: V-AAM-2P
-  gloss: buy
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '59'
-  domain: '057015'
-  ln: '57.188'
-  role: v
+  ids:
+    ref: MAT 25:9!20
+    wordID: n40025009020
+  translation:
+    gloss: buy
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '59'
+  semantic:
+    semanticDomain: '057015'
+    ln: '57.188'
+  syntax:
+    role: v
+    frame: A0:n40025008003 A1:n00000000000 A2:n40025009021
+  discourse:
+    subject: n40025008003
 - position: 21
-  ref: MAT 25:9!21
-  xml_id: n40025009021
-  unicode: ἑαυταῖς
+  text: ἑαυταῖς
   lemma: ἑαυτοῦ
   normalized: ἑαυταῖς
-  class: pron
-  morph: F-2DPF
-  gloss: for yourselves
-  gender: feminine
-  number: plural
-  case: dative
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
-  role: io
-syntax:
-  word_order: V-S-ADV
+  ids:
+    ref: MAT 25:9!21
+    wordID: n40025009021
+  translation:
+    gloss: for yourselves
+  morphology:
+    class: pron
+    morph: F-2DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: io

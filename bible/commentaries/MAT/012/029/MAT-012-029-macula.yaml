@@ -1,334 +1,443 @@
-verse:
-  reference: MAT 12:29
-  book_code: MAT
-  chapter: 12
-  verse: 29
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἢ πῶς δύναταί τις εἰσελθεῖν εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ καὶ τὰ σκεύη αὐτοῦ
-    ἁρπάσαι, ἐὰν μὴ πρῶτον δήσῃ τὸν ἰσχυρόν,
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:29
+text: ἢ πῶς δύναταί τις εἰσελθεῖν εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ καὶ τὰ σκεύη αὐτοῦ ἁρπάσαι,
+  ἐὰν μὴ πρῶτον δήσῃ τὸν ἰσχυρόν,
 words:
 - position: 1
-  ref: MAT 12:29!1
-  xml_id: n40012029001
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: Or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 12:29!1
+    wordID: n40012029001
+  translation:
+    gloss: Or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 2
-  ref: MAT 12:29!2
-  xml_id: n40012029002
-  unicode: πῶς
+  text: πῶς
   lemma: πῶς
   normalized: πῶς
-  class: adv
-  morph: ADV-I
-  gloss: how
-  strong: '4459'
-  domain: 092004
-  ln: '92.16'
-  role: adv
+  ids:
+    ref: MAT 12:29!2
+    wordID: n40012029002
+  translation:
+    gloss: how
+  morphology:
+    class: adv
+    morph: ADV-I
+  lexical:
+    strong: '4459'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.16'
+  syntax:
+    role: adv
 - position: 3
-  ref: MAT 12:29!3
-  xml_id: n40012029003
-  unicode: δύναταί
+  text: δύναταί
   lemma: δύναμαι
   normalized: δύναται
-  class: verb
-  morph: V-PNI-3S
-  gloss: is able
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1410'
-  domain: '074'
-  ln: '74.5'
-  role: v
+  ids:
+    ref: MAT 12:29!3
+    wordID: n40012029003
+  translation:
+    gloss: is able
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n40012029004 A1:n40012029005;n40012029015
 - position: 4
-  ref: MAT 12:29!4
-  xml_id: n40012029004
-  unicode: τις
+  text: τις
   lemma: τὶς
   normalized: τις
-  class: pron
-  morph: X-NSM
-  gloss: anyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5100'
-  domain: 092004
-  ln: '92.12'
-  role: s
+  ids:
+    ref: MAT 12:29!4
+    wordID: n40012029004
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
 - position: 5
-  ref: MAT 12:29!5
-  xml_id: n40012029005
-  unicode: εἰσελθεῖν
+  text: εἰσελθεῖν
   lemma: εἰσέρχομαι
   normalized: εἰσελθεῖν
-  class: verb
-  morph: V-2AAN
-  gloss: to enter
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '1525'
-  domain: 015008
-  ln: '15.93'
-  role: v
+  ids:
+    ref: MAT 12:29!5
+    wordID: n40012029005
+  translation:
+    gloss: to enter
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1525'
+  semantic:
+    semanticDomain: 015008
+    ln: '15.93'
+  syntax:
+    role: v
+    frame: A0:n40012029004
+  discourse:
+    subject: n40012029004
 - position: 6
-  ref: MAT 12:29!6
-  xml_id: n40012029006
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 12:29!6
+    wordID: n40012029006
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 7
-  ref: MAT 12:29!7
-  xml_id: n40012029007
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:29!7
+    wordID: n40012029007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 12:29!8
-  xml_id: n40012029008
-  unicode: οἰκίαν
+  text: οἰκίαν
   lemma: οἰκία
   normalized: οἰκίαν
-  class: noun
-  morph: N-ASF
-  gloss: house
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3614'
-  domain: '007002'
-  ln: '7.3'
+  ids:
+    ref: MAT 12:29!8
+    wordID: n40012029008
+  translation:
+    gloss: house
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3614'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.3'
 - position: 9
-  ref: MAT 12:29!9
-  xml_id: n40012029009
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:29!9
+    wordID: n40012029009
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 12:29!10
-  xml_id: n40012029010
-  unicode: ἰσχυροῦ
+  text: ἰσχυροῦ
   lemma: ἰσχυρός
   normalized: ἰσχυροῦ
-  class: adj
-  morph: A-GSM
-  gloss: strong [man]
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2478'
-  domain: 079013
-  ln: '79.63'
+  ids:
+    ref: MAT 12:29!10
+    wordID: n40012029010
+  translation:
+    gloss: strong [man]
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2478'
+  semantic:
+    semanticDomain: 079013
+    ln: '79.63'
 - position: 11
-  ref: MAT 12:29!11
-  xml_id: n40012029011
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 12:29!11
+    wordID: n40012029011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 12
-  ref: MAT 12:29!12
-  xml_id: n40012029012
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:29!12
+    wordID: n40012029012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 12:29!13
-  xml_id: n40012029013
-  unicode: σκεύη
+  text: σκεύη
   lemma: σκεῦος
   normalized: σκεύη
-  class: noun
-  morph: N-APN
-  gloss: goods
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4632'
-  domain: '006001'
-  ln: '6.1'
+  ids:
+    ref: MAT 12:29!13
+    wordID: n40012029013
+  translation:
+    gloss: goods
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4632'
+  semantic:
+    semanticDomain: '006001'
+    ln: '6.1'
 - position: 14
-  ref: MAT 12:29!14
-  xml_id: n40012029014
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 12:29!14
+    wordID: n40012029014
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012029010
 - position: 15
-  ref: MAT 12:29!15
-  xml_id: n40012029015
-  unicode: ἁρπάσαι
+  text: ἁρπάσαι
   lemma: ἁρπάζω
   normalized: ἁρπάσαι
-  class: verb
-  morph: V-AAN
-  gloss: to plunder
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '726'
-  domain: '057021'
-  ln: '57.235'
-  role: v
+  ids:
+    ref: MAT 12:29!15
+    wordID: n40012029015
+  translation:
+    gloss: to plunder
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '726'
+  semantic:
+    semanticDomain: '057021'
+    ln: '57.235'
+  syntax:
+    role: v
+    frame: A0:n40012029004 A1:n40012029013
+  discourse:
+    subject: n40012029004
 - position: 16
-  ref: MAT 12:29!16
-  xml_id: n40012029016
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1437'
+  ids:
+    ref: MAT 12:29!16
+    wordID: n40012029016
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
 - position: 17
-  ref: MAT 12:29!17
-  xml_id: n40012029017
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 12:29!17
+    wordID: n40012029017
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 18
-  ref: MAT 12:29!18
-  xml_id: n40012029018
-  unicode: πρῶτον
+  text: πρῶτον
   lemma: πρῶτος
   normalized: πρῶτον
-  class: adj
-  morph: ADV-S
-  gloss: first
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4412'
-  domain: '067002'
-  ln: '67.18'
-  role: adv
+  ids:
+    ref: MAT 12:29!18
+    wordID: n40012029018
+  translation:
+    gloss: first
+  morphology:
+    class: adj
+    morph: ADV-S
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4412'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.18'
+  syntax:
+    role: adv
 - position: 19
-  ref: MAT 12:29!19
-  xml_id: n40012029019
-  unicode: δήσῃ
+  text: δήσῃ
   lemma: δέω
   normalized: δήσῃ
-  class: verb
-  morph: V-AAS-3S
-  gloss: he bind
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1210'
-  domain: 037008
-  ln: '37.114'
-  role: v
+  ids:
+    ref: MAT 12:29!19
+    wordID: n40012029019
+  translation:
+    gloss: he bind
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1210'
+  semantic:
+    semanticDomain: 037008
+    ln: '37.114'
+  syntax:
+    role: v
+    frame: A0:n40012029004 A1:n40012029021
+  discourse:
+    subject: n40012029004
 - position: 20
-  ref: MAT 12:29!20
-  xml_id: n40012029020
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:29!20
+    wordID: n40012029020
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 21
-  ref: MAT 12:29!21
-  xml_id: n40012029021
-  unicode: ἰσχυρόν
+  text: ἰσχυρόν
   lemma: ἰσχυρός
   normalized: ἰσχυρόν
-  class: adj
-  morph: A-ASM
-  gloss: strong [man]
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2478'
-  domain: 079013
-  ln: '79.63'
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 12:29!21
+    wordID: n40012029021
+  translation:
+    gloss: strong [man]
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2478'
+  semantic:
+    semanticDomain: 079013
+    ln: '79.63'

@@ -1,130 +1,156 @@
-verse:
-  reference: MAT 22:14
-  book_code: MAT
-  chapter: 22
-  verse: 14
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Πολλοὶ γάρ εἰσιν κλητοὶ, ὀλίγοι δὲ ἐκλεκτοί.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:14
+text: Πολλοὶ γάρ εἰσιν κλητοὶ, ὀλίγοι δὲ ἐκλεκτοί.
 words:
 - position: 1
-  ref: MAT 22:14!2
-  xml_id: n40022014002
-  unicode: γάρ
+  text: γάρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 22:14!2
+    wordID: n40022014002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 22:14!1
-  xml_id: n40022014001
-  unicode: Πολλοὶ
+  text: Πολλοὶ
   lemma: πολύς
   normalized: Πολλοί
-  class: adj
-  morph: A-NPM
-  gloss: Many
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4183'
-  domain: 059001
-  ln: '59.1'
-  role: p
+  ids:
+    ref: MAT 22:14!1
+    wordID: n40022014001
+  translation:
+    gloss: Many
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
+  syntax:
+    role: p
 - position: 3
-  ref: MAT 22:14!3
-  xml_id: n40022014003
-  unicode: εἰσιν
+  text: εἰσιν
   lemma: εἰμί
   normalized: εἰσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: are
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
+  ids:
+    ref: MAT 22:14!3
+    wordID: n40022014003
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
 - position: 4
-  ref: MAT 22:14!4
-  xml_id: n40022014004
-  unicode: κλητοὶ
+  text: κλητοὶ
   lemma: κλητός
   normalized: κλητοί
-  class: adj
-  morph: A-NPM
-  gloss: called
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '2822'
-  domain: '033030'
-  ln: '33.318'
-  role: s
+  ids:
+    ref: MAT 22:14!4
+    wordID: n40022014004
+  translation:
+    gloss: called
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '2822'
+  semantic:
+    semanticDomain: '033030'
+    ln: '33.318'
+  syntax:
+    role: s
 - position: 5
-  ref: MAT 22:14!6
-  xml_id: n40022014006
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: however
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 22:14!6
+    wordID: n40022014006
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 6
-  ref: MAT 22:14!5
-  xml_id: n40022014005
-  unicode: ὀλίγοι
+  text: ὀλίγοι
   lemma: ὀλίγος
   normalized: ὀλίγοι
-  class: adj
-  morph: A-NPM
-  gloss: few
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3641'
-  domain: 059001
-  ln: '59.3'
-  role: p
+  ids:
+    ref: MAT 22:14!5
+    wordID: n40022014005
+  translation:
+    gloss: few
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3641'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.3'
+  syntax:
+    role: p
 - position: 7
-  ref: MAT 22:14!7
-  xml_id: n40022014007
-  unicode: ἐκλεκτοί
+  text: ἐκλεκτοί
   lemma: ἐκλεκτός
   normalized: ἐκλεκτοί
-  class: adj
-  morph: A-NPM
-  gloss: chosen
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '1588'
-  domain: '030006'
-  ln: '30.93'
-  role: s
-syntax:
-  word_order: P-VC-S
+  ids:
+    ref: MAT 22:14!7
+    wordID: n40022014007
+  translation:
+    gloss: chosen
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '1588'
+  semantic:
+    semanticDomain: '030006'
+    ln: '30.93'
+  syntax:
+    role: s

@@ -1,273 +1,364 @@
-verse:
-  reference: MAT 27:41
-  book_code: MAT
-  chapter: 27
-  verse: 41
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 27:42 ὁμοίως οἱ ἀρχιερεῖς ἐμπαίζοντες μετὰ τῶν γραμματέων καὶ πρεσβυτέρων
-    ἔλεγον Ἄλλους ἔσωσεν, ἑαυτὸν οὐ δύναται σῶσαι·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:41
+text: MAT 27:42 ὁμοίως οἱ ἀρχιερεῖς ἐμπαίζοντες μετὰ τῶν γραμματέων καὶ πρεσβυτέρων
+  ἔλεγον Ἄλλους ἔσωσεν, ἑαυτὸν οὐ δύναται σῶσαι·
 words:
 - position: 1
-  ref: MAT 27:41!1
-  xml_id: n40027041001
-  unicode: ὁμοίως
+  text: ὁμοίως
   lemma: ὁμοίως
   normalized: ὁμοίως
-  class: adv
-  morph: ADV
-  gloss: Likewise
-  strong: '3668'
-  domain: '064'
-  ln: '64.1'
-  role: adv
+  ids:
+    ref: MAT 27:41!1
+    wordID: n40027041001
+  translation:
+    gloss: Likewise
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3668'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.1'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 27:41!2
-  xml_id: n40027041002
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:41!2
+    wordID: n40027041002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 27:41!3
-  xml_id: n40027041003
-  unicode: ἀρχιερεῖς
+  text: ἀρχιερεῖς
   lemma: ἀρχιερεύς
   normalized: ἀρχιερεῖς
-  class: noun
-  morph: N-NPM
-  gloss: chief priests
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '749'
-  domain: 053009
-  ln: '53.88'
+  ids:
+    ref: MAT 27:41!3
+    wordID: n40027041003
+  translation:
+    gloss: chief priests
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '749'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.88'
 - position: 4
-  ref: MAT 27:41!4
-  xml_id: n40027041004
-  unicode: ἐμπαίζοντες
+  text: ἐμπαίζοντες
   lemma: ἐμπαίζω
   normalized: ἐμπαίζοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: mocking
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '1702'
-  domain: '033044'
-  ln: '33.406'
-  role: v
+  ids:
+    ref: MAT 27:41!4
+    wordID: n40027041004
+  translation:
+    gloss: mocking
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1702'
+  semantic:
+    semanticDomain: '033044'
+    ln: '33.406'
+  syntax:
+    role: v
+    frame: A0:n40027041003
+  discourse:
+    subject: n40027041003
 - position: 5
-  ref: MAT 27:41!5
-  xml_id: n40027041005
-  unicode: μετὰ
+  text: μετὰ
   lemma: μετά
   normalized: μετά
-  class: prep
-  morph: PREP
-  gloss: with
-  strong: '3326'
-  domain: 089020
-  ln: '89.108'
+  ids:
+    ref: MAT 27:41!5
+    wordID: n40027041005
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.108'
 - position: 6
-  ref: MAT 27:41!6
-  xml_id: n40027041006
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 27:41!6
+    wordID: n40027041006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 27:41!7
-  xml_id: n40027041007
-  unicode: γραμματέων
+  text: γραμματέων
   lemma: γραμματεύς
   normalized: γραμματέων
-  class: noun
-  morph: N-GPM
-  gloss: scribes
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '1122'
-  domain: 053009
-  ln: '53.94'
+  ids:
+    ref: MAT 27:41!7
+    wordID: n40027041007
+  translation:
+    gloss: scribes
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '1122'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.94'
 - position: 8
-  ref: MAT 27:41!8
-  xml_id: n40027041008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 27:41!8
+    wordID: n40027041008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 27:41!9
-  xml_id: n40027041009
-  unicode: πρεσβυτέρων
+  text: πρεσβυτέρων
   lemma: πρεσβύτερος
   normalized: πρεσβυτέρων
-  class: adj
-  morph: A-GPM-C
-  gloss: elders
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '4245'
-  domain: 053009
-  ln: '53.77'
+  ids:
+    ref: MAT 27:41!9
+    wordID: n40027041009
+  translation:
+    gloss: elders
+  morphology:
+    class: adj
+    morph: A-GPM-C
+    gender: masculine
+    number: plural
+    case: genitive
+    degree: comparative
+  lexical:
+    strong: '4245'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.77'
 - position: 10
-  ref: MAT 27:41!10
-  xml_id: n40027041010
-  unicode: ἔλεγον
+  text: ἔλεγον
   lemma: λέγω
   normalized: ἔλεγον
-  class: verb
-  morph: V-IAI-3P
-  gloss: were saying
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 27:41!10
+    wordID: n40027041010
+  translation:
+    gloss: were saying
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40027041003
 - position: 11
-  ref: MAT 27:42!1
-  xml_id: n40027042001
-  unicode: Ἄλλους
+  text: Ἄλλους
   lemma: ἄλλος
   normalized: Ἄλλους
-  class: adj
-  morph: A-APM
-  gloss: Others
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
-  role: o
+  ids:
+    ref: MAT 27:42!1
+    wordID: n40027042001
+  translation:
+    gloss: Others
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
+  syntax:
+    role: o
 - position: 12
-  ref: MAT 27:42!2
-  xml_id: n40027042002
-  unicode: ἔσωσεν
+  text: ἔσωσεν
   lemma: σῴζω
   normalized: ἔσωσεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: He saved
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4982'
-  domain: '021005'
-  ln: '21.18'
-  role: v
+  ids:
+    ref: MAT 27:42!2
+    wordID: n40027042002
+  translation:
+    gloss: He saved
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4982'
+  semantic:
+    semanticDomain: '021005'
+    ln: '21.18'
+  syntax:
+    role: v
+    frame: A0:n40027027008 A1:n40027042001
+  discourse:
+    subject: n40027027008
 - position: 13
-  ref: MAT 27:42!3
-  xml_id: n40027042003
-  unicode: ἑαυτὸν
+  text: ἑαυτὸν
   lemma: ἑαυτοῦ
   normalized: ἑαυτόν
-  class: pron
-  morph: F-3ASM
-  gloss: Himself
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
-  role: o
+  ids:
+    ref: MAT 27:42!3
+    wordID: n40027042003
+  translation:
+    gloss: Himself
+  morphology:
+    class: pron
+    morph: F-3ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n40027027008
 - position: 14
-  ref: MAT 27:42!6
-  xml_id: n40027042006
-  unicode: σῶσαι
+  text: σῶσαι
   lemma: σῴζω
   normalized: σῶσαι
-  class: verb
-  morph: V-AAN
-  gloss: to save
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '4982'
-  domain: '021005'
-  ln: '21.18'
-  role: v
+  ids:
+    ref: MAT 27:42!6
+    wordID: n40027042006
+  translation:
+    gloss: to save
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4982'
+  semantic:
+    semanticDomain: '021005'
+    ln: '21.18'
+  syntax:
+    role: v
+    frame: A0:n40027027008 A1:n40027042003
+    discontinuous: 'true'
+  discourse:
+    subject: n40027027008
 - position: 15
-  ref: MAT 27:42!4
-  xml_id: n40027042004
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 27:42!4
+    wordID: n40027042004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 16
-  ref: MAT 27:42!5
-  xml_id: n40027042005
-  unicode: δύναται
+  text: δύναται
   lemma: δύναμαι
   normalized: δύναται
-  class: verb
-  morph: V-PNI-3S
-  gloss: is He able
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1410'
-  domain: '074'
-  ln: '74.5'
-  role: v
-syntax:
-  word_order: V-ADV
+  ids:
+    ref: MAT 27:42!5
+    wordID: n40027042005
+  translation:
+    gloss: is He able
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n40027027008 A1:n40027042006
+  discourse:
+    subject: n40027027008

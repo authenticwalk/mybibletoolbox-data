@@ -1,218 +1,276 @@
-verse:
-  reference: MAT 13:43
-  book_code: MAT
-  chapter: 13
-  verse: 43
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε οἱ δίκαιοι ἐκλάμψουσιν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ Πατρὸς αὐτῶν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:43
+text: τότε οἱ δίκαιοι ἐκλάμψουσιν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ Πατρὸς αὐτῶν.
 words:
 - position: 1
-  ref: MAT 13:43!1
-  xml_id: n40013043001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 13:43!1
+    wordID: n40013043001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 13:43!2
-  xml_id: n40013043002
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:43!2
+    wordID: n40013043002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 13:43!3
-  xml_id: n40013043003
-  unicode: δίκαιοι
+  text: δίκαιοι
   lemma: δίκαιος
   normalized: δίκαιοι
-  class: adj
-  morph: A-NPM
-  gloss: righteous
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '1342'
-  domain: 088002
-  ln: '88.12'
+  ids:
+    ref: MAT 13:43!3
+    wordID: n40013043003
+  translation:
+    gloss: righteous
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '1342'
+  semantic:
+    semanticDomain: 088002
+    ln: '88.12'
 - position: 4
-  ref: MAT 13:43!4
-  xml_id: n40013043004
-  unicode: ἐκλάμψουσιν
+  text: ἐκλάμψουσιν
   lemma: ἐκλάμπω
   normalized: ἐκλάμψουσιν
-  class: verb
-  morph: V-FAI-3P
-  gloss: will shine forth
-  number: plural
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '1584'
-  domain: '014006'
-  ln: '14.38'
-  role: v
+  ids:
+    ref: MAT 13:43!4
+    wordID: n40013043004
+  translation:
+    gloss: will shine forth
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1584'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.38'
+  syntax:
+    role: v
+    frame: A0:n40013043003
 - position: 5
-  ref: MAT 13:43!8
-  xml_id: n40013043008
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 083003
-  ln: '83.13'
+  ids:
+    ref: MAT 13:43!8
+    wordID: n40013043008
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
 - position: 6
-  ref: MAT 13:43!9
-  xml_id: n40013043009
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:43!9
+    wordID: n40013043009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 13:43!10
-  xml_id: n40013043010
-  unicode: βασιλείᾳ
+  text: βασιλείᾳ
   lemma: βασιλεία
   normalized: βασιλείᾳ
-  class: noun
-  morph: N-DSF
-  gloss: kingdom
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '932'
-  domain: '037004'
-  ln: '37.64'
+  ids:
+    ref: MAT 13:43!10
+    wordID: n40013043010
+  translation:
+    gloss: kingdom
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.64'
 - position: 8
-  ref: MAT 13:43!11
-  xml_id: n40013043011
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:43!11
+    wordID: n40013043011
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 13:43!12
-  xml_id: n40013043012
-  unicode: Πατρὸς
+  text: Πατρὸς
   lemma: πατήρ
   normalized: Πατρός
-  class: noun
-  morph: N-GSM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 13:43!12
+    wordID: n40013043012
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 10
-  ref: MAT 13:43!13
-  xml_id: n40013043013
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 13:43!13
+    wordID: n40013043013
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    discontinuous: 'true'
+  discourse:
+    referent: n40013043003
 - position: 11
-  ref: MAT 13:43!5
-  xml_id: n40013043005
-  unicode: ὡς
+  text: ὡς
   lemma: ὡς
   normalized: ὡς
-  class: conj
-  morph: ADV
-  gloss: as
-  strong: '5613'
-  domain: '064'
-  ln: '64.12'
+  ids:
+    ref: MAT 13:43!5
+    wordID: n40013043005
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
 - position: 12
-  ref: MAT 13:43!6
-  xml_id: n40013043006
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:43!6
+    wordID: n40013043006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 13:43!7
-  xml_id: n40013043007
-  unicode: ἥλιος
+  text: ἥλιος
   lemma: ἥλιος
   normalized: ἥλιος
-  class: noun
-  morph: N-NSM
-  gloss: sun
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2246'
-  domain: '001004'
-  ln: '1.28'
-syntax:
-  word_order: S2CL
+  ids:
+    ref: MAT 13:43!7
+    wordID: n40013043007
+  translation:
+    gloss: sun
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2246'
+  semantic:
+    semanticDomain: '001004'
+    ln: '1.28'

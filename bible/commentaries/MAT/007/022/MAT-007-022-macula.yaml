@@ -1,436 +1,592 @@
-verse:
-  reference: MAT 7:22
-  book_code: MAT
-  chapter: 7
-  verse: 22
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: πολλοὶ ἐροῦσίν μοι ἐν ἐκείνῃ τῇ ἡμέρᾳ Κύριε Κύριε, οὐ τῷ σῷ ὀνόματι ἐπροφητεύσαμεν,
-    καὶ τῷ σῷ ὀνόματι δαιμόνια ἐξεβάλομεν, καὶ τῷ σῷ ὀνόματι δυνάμεις πολλὰς ἐποιήσαμεν;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 7:22
+text: πολλοὶ ἐροῦσίν μοι ἐν ἐκείνῃ τῇ ἡμέρᾳ Κύριε Κύριε, οὐ τῷ σῷ ὀνόματι ἐπροφητεύσαμεν,
+  καὶ τῷ σῷ ὀνόματι δαιμόνια ἐξεβάλομεν, καὶ τῷ σῷ ὀνόματι δυνάμεις πολλὰς ἐποιήσαμεν;
 words:
 - position: 1
-  ref: MAT 7:22!1
-  xml_id: n40007022001
-  unicode: πολλοὶ
+  text: πολλοὶ
   lemma: πολύς
   normalized: πολλοί
-  class: adj
-  morph: A-NPM
-  gloss: Many
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '4183'
-  domain: 059001
-  ln: '59.1'
-  role: s
+  ids:
+    ref: MAT 7:22!1
+    wordID: n40007022001
+  translation:
+    gloss: Many
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
+  syntax:
+    role: s
 - position: 2
-  ref: MAT 7:22!2
-  xml_id: n40007022002
-  unicode: ἐροῦσίν
+  text: ἐροῦσίν
   lemma: εἶπον
   normalized: ἐροῦσιν
-  class: verb
-  morph: V-FAI-3P
-  gloss: will say
-  number: plural
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '2046'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 7:22!2
+    wordID: n40007022002
+  translation:
+    gloss: will say
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2046'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40007022001 A2:n40007022003
 - position: 3
-  ref: MAT 7:22!3
-  xml_id: n40007022003
-  unicode: μοι
+  text: μοι
   lemma: ἐγώ
   normalized: μοι
-  class: pron
-  morph: P-1DS
-  gloss: to Me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: io
+  ids:
+    ref: MAT 7:22!3
+    wordID: n40007022003
+  translation:
+    gloss: to Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n40004017005
 - position: 4
-  ref: MAT 7:22!4
-  xml_id: n40007022004
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: '067002'
-  ln: '67.33'
+  ids:
+    ref: MAT 7:22!4
+    wordID: n40007022004
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
 - position: 5
-  ref: MAT 7:22!5
-  xml_id: n40007022005
-  unicode: ἐκείνῃ
+  text: ἐκείνῃ
   lemma: ἐκεῖνος
   normalized: ἐκείνῃ
-  class: pron
-  morph: D-DSF
-  gloss: that
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '1565'
-  domain: 092007
-  ln: '92.30'
+  ids:
+    ref: MAT 7:22!5
+    wordID: n40007022005
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: D-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
 - position: 6
-  ref: MAT 7:22!6
-  xml_id: n40007022006
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:22!6
+    wordID: n40007022006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 7:22!7
-  xml_id: n40007022007
-  unicode: ἡμέρᾳ
+  text: ἡμέρᾳ
   lemma: ἡμέρα
   normalized: ἡμέρᾳ
-  class: noun
-  morph: N-DSF
-  gloss: day
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '2250'
+  ids:
+    ref: MAT 7:22!7
+    wordID: n40007022007
+  translation:
+    gloss: day
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2250'
 - position: 8
-  ref: MAT 7:22!8
-  xml_id: n40007022008
-  unicode: Κύριε
+  text: Κύριε
   lemma: κύριος
   normalized: Κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Lord
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: '012001'
-  ln: '12.9'
-  role: aux
+  ids:
+    ref: MAT 7:22!8
+    wordID: n40007022008
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: aux
 - position: 9
-  ref: MAT 7:22!9
-  xml_id: n40007022009
-  unicode: Κύριε
+  text: Κύριε
   lemma: κύριος
   normalized: Κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Lord
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: '012001'
-  ln: '12.9'
-  role: aux
+  ids:
+    ref: MAT 7:22!9
+    wordID: n40007022009
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: aux
 - position: 10
-  ref: MAT 7:22!10
-  xml_id: n40007022010
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: ptcl
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069004
-  ln: '69.11'
+  ids:
+    ref: MAT 7:22!10
+    wordID: n40007022010
+  translation:
+    gloss: not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.11'
 - position: 11
-  ref: MAT 7:22!11
-  xml_id: n40007022011
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSN
-  gloss: in
-  gender: neuter
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:22!11
+    wordID: n40007022011
+  translation:
+    gloss: in
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 7:22!12
-  xml_id: n40007022012
-  unicode: σῷ
+  text: σῷ
   lemma: σός
   normalized: σῷ
-  class: adj
-  morph: S-2SDSN
-  gloss: Your
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '4674'
-  domain: 092003
-  ln: '92.8'
+  ids:
+    ref: MAT 7:22!12
+    wordID: n40007022012
+  translation:
+    gloss: Your
+  morphology:
+    class: adj
+    morph: S-2SDSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: possessive
+  lexical:
+    strong: '4674'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.8'
+  discourse:
+    referent: n40007022009
 - position: 13
-  ref: MAT 7:22!13
-  xml_id: n40007022013
-  unicode: ὀνόματι
+  text: ὀνόματι
   lemma: ὄνομα
   normalized: ὀνόματι
-  class: noun
-  morph: N-DSN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 7:22!13
+    wordID: n40007022013
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 14
-  ref: MAT 7:22!14
-  xml_id: n40007022014
-  unicode: ἐπροφητεύσαμεν
+  text: ἐπροφητεύσαμεν
   lemma: προφητεύω
   normalized: ἐπροφητεύσαμεν
-  class: verb
-  morph: V-AAI-1P
-  gloss: did we prophesy
-  number: plural
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4395'
-  domain: '033053'
-  ln: '33.459'
-  role: v
+  ids:
+    ref: MAT 7:22!14
+    wordID: n40007022014
+  translation:
+    gloss: did we prophesy
+  morphology:
+    class: verb
+    morph: V-AAI-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4395'
+  semantic:
+    semanticDomain: '033053'
+    ln: '33.459'
+  syntax:
+    role: v
+    frame: A0:n40007022001
+  discourse:
+    subject: n40007022001
 - position: 15
-  ref: MAT 7:22!15
-  xml_id: n40007022015
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 7:22!15
+    wordID: n40007022015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 16
-  ref: MAT 7:22!16
-  xml_id: n40007022016
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSN
-  gloss: '[in]'
-  gender: neuter
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:22!16
+    wordID: n40007022016
+  translation:
+    gloss: '[in]'
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 17
-  ref: MAT 7:22!17
-  xml_id: n40007022017
-  unicode: σῷ
+  text: σῷ
   lemma: σός
   normalized: σῷ
-  class: adj
-  morph: S-2SDSN
-  gloss: Your
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '4674'
-  domain: 092003
-  ln: '92.8'
+  ids:
+    ref: MAT 7:22!17
+    wordID: n40007022017
+  translation:
+    gloss: Your
+  morphology:
+    class: adj
+    morph: S-2SDSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: possessive
+  lexical:
+    strong: '4674'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.8'
+  discourse:
+    referent: n40007022009
 - position: 18
-  ref: MAT 7:22!18
-  xml_id: n40007022018
-  unicode: ὀνόματι
+  text: ὀνόματι
   lemma: ὄνομα
   normalized: ὀνόματι
-  class: noun
-  morph: N-DSN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 7:22!18
+    wordID: n40007022018
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 19
-  ref: MAT 7:22!19
-  xml_id: n40007022019
-  unicode: δαιμόνια
+  text: δαιμόνια
   lemma: δαιμόνιον
   normalized: δαιμόνια
-  class: noun
-  morph: N-APN
-  gloss: demons
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '1140'
-  domain: '012001'
-  ln: '12.37'
-  role: o
+  ids:
+    ref: MAT 7:22!19
+    wordID: n40007022019
+  translation:
+    gloss: demons
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1140'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.37'
+  syntax:
+    role: o
 - position: 20
-  ref: MAT 7:22!20
-  xml_id: n40007022020
-  unicode: ἐξεβάλομεν
+  text: ἐξεβάλομεν
   lemma: ἐκβάλλω
   normalized: ἐξεβάλομεν
-  class: verb
-  morph: V-2AAI-1P
-  gloss: cast out
-  number: plural
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1544'
-  domain: '053011'
-  ln: '53.102'
-  role: v
+  ids:
+    ref: MAT 7:22!20
+    wordID: n40007022020
+  translation:
+    gloss: cast out
+  morphology:
+    class: verb
+    morph: V-2AAI-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '053011'
+    ln: '53.102'
+  syntax:
+    role: v
+    frame: A0:n40007022001 A1:n40007022019
+  discourse:
+    subject: n40007022001
 - position: 21
-  ref: MAT 7:22!21
-  xml_id: n40007022021
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 7:22!21
+    wordID: n40007022021
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 22
-  ref: MAT 7:22!22
-  xml_id: n40007022022
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSN
-  gloss: '[in]'
-  gender: neuter
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 7:22!22
+    wordID: n40007022022
+  translation:
+    gloss: '[in]'
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 23
-  ref: MAT 7:22!23
-  xml_id: n40007022023
-  unicode: σῷ
+  text: σῷ
   lemma: σός
   normalized: σῷ
-  class: adj
-  morph: S-2SDSN
-  gloss: your
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '4674'
-  domain: 092003
-  ln: '92.8'
+  ids:
+    ref: MAT 7:22!23
+    wordID: n40007022023
+  translation:
+    gloss: your
+  morphology:
+    class: adj
+    morph: S-2SDSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: possessive
+  lexical:
+    strong: '4674'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.8'
+  discourse:
+    referent: n40007022009
 - position: 24
-  ref: MAT 7:22!24
-  xml_id: n40007022024
-  unicode: ὀνόματι
+  text: ὀνόματι
   lemma: ὄνομα
   normalized: ὀνόματι
-  class: noun
-  morph: N-DSN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 7:22!24
+    wordID: n40007022024
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 25
-  ref: MAT 7:22!25
-  xml_id: n40007022025
-  unicode: δυνάμεις
+  text: δυνάμεις
   lemma: δύναμις
   normalized: δυνάμεις
-  class: noun
-  morph: N-APF
-  gloss: miracles
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '1411'
-  domain: '076'
-  ln: '76.7'
+  ids:
+    ref: MAT 7:22!25
+    wordID: n40007022025
+  translation:
+    gloss: miracles
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1411'
+  semantic:
+    semanticDomain: '076'
+    ln: '76.7'
 - position: 26
-  ref: MAT 7:22!26
-  xml_id: n40007022026
-  unicode: πολλὰς
+  text: πολλὰς
   lemma: πολύς
   normalized: πολλάς
-  class: adj
-  morph: A-APF
-  gloss: many
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '4183'
-  domain: 059001
-  ln: '59.1'
+  ids:
+    ref: MAT 7:22!26
+    wordID: n40007022026
+  translation:
+    gloss: many
+  morphology:
+    class: adj
+    morph: A-APF
+    gender: feminine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
 - position: 27
-  ref: MAT 7:22!27
-  xml_id: n40007022027
-  unicode: ἐποιήσαμεν
+  text: ἐποιήσαμεν
   lemma: ποιέω
   normalized: ἐποιήσαμεν
-  class: verb
-  morph: V-AAI-1P
-  gloss: perform
-  number: plural
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4160'
-  domain: 090011
-  ln: '90.45'
-  role: v
-syntax:
-  word_order: ADV-V
+  ids:
+    ref: MAT 7:22!27
+    wordID: n40007022027
+  translation:
+    gloss: perform
+  morphology:
+    class: verb
+    morph: V-AAI-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: 090011
+    ln: '90.45'
+  syntax:
+    role: v
+    frame: A0:n40007022001 A1:n40007022025
+  discourse:
+    subject: n40007022001

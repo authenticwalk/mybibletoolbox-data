@@ -1,246 +1,327 @@
-verse:
-  reference: MAT 6:7
-  book_code: MAT
-  chapter: 6
-  verse: 7
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Προσευχόμενοι δὲ μὴ βατταλογήσητε ὥσπερ οἱ ἐθνικοί· δοκοῦσιν γὰρ ὅτι ἐν
-    τῇ πολυλογίᾳ αὐτῶν εἰσακουσθήσονται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:7
+text: Προσευχόμενοι δὲ μὴ βατταλογήσητε ὥσπερ οἱ ἐθνικοί· δοκοῦσιν γὰρ ὅτι ἐν τῇ πολυλογίᾳ
+  αὐτῶν εἰσακουσθήσονται.
 words:
 - position: 1
-  ref: MAT 6:7!2
-  xml_id: n40006007002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
+  ids:
+    ref: MAT 6:7!2
+    wordID: n40006007002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 6:7!1
-  xml_id: n40006007001
-  unicode: Προσευχόμενοι
+  text: Προσευχόμενοι
   lemma: προσεύχομαι
   normalized: Προσευχόμενοι
-  class: verb
-  morph: V-PNP-NPM
-  gloss: Praying
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '4336'
-  domain: '033013'
-  ln: '33.178'
-  role: v
+  ids:
+    ref: MAT 6:7!1
+    wordID: n40006007001
+  translation:
+    gloss: Praying
+  morphology:
+    class: verb
+    morph: V-PNP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '4336'
+  semantic:
+    semanticDomain: '033013'
+    ln: '33.178'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
 - position: 3
-  ref: MAT 6:7!3
-  xml_id: n40006007003
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 6:7!3
+    wordID: n40006007003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 4
-  ref: MAT 6:7!4
-  xml_id: n40006007004
-  unicode: βατταλογήσητε
+  text: βατταλογήσητε
   lemma: βατταλογέω
   normalized: βατταλογήσητε
-  class: verb
-  morph: V-AAS-2P
-  gloss: do use vain repetitions
-  number: plural
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '945'
-  domain: '033006'
-  ln: 33.88 33.89
-  role: v
+  ids:
+    ref: MAT 6:7!4
+    wordID: n40006007004
+  translation:
+    gloss: do use vain repetitions
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '945'
+  semantic:
+    semanticDomain: '033006'
+    ln: 33.88 33.89
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
 - position: 5
-  ref: MAT 6:7!5
-  xml_id: n40006007005
-  unicode: ὥσπερ
+  text: ὥσπερ
   lemma: ὥσπερ
   normalized: ὥσπερ
-  class: conj
-  morph: ADV
-  gloss: like
-  strong: '5618'
-  domain: '064'
-  ln: '64.13'
+  ids:
+    ref: MAT 6:7!5
+    wordID: n40006007005
+  translation:
+    gloss: like
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5618'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.13'
 - position: 6
-  ref: MAT 6:7!6
-  xml_id: n40006007006
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:7!6
+    wordID: n40006007006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 6:7!7
-  xml_id: n40006007007
-  unicode: ἐθνικοί
+  text: ἐθνικοί
   lemma: ἐθνικός
   normalized: ἐθνικοί
-  class: adj
-  morph: A-NPM
-  gloss: pagans
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '1482'
-  domain: '011002'
-  ln: '11.38'
+  ids:
+    ref: MAT 6:7!7
+    wordID: n40006007007
+  translation:
+    gloss: pagans
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '1482'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.38'
 - position: 8
-  ref: MAT 6:7!9
-  xml_id: n40006007009
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 6:7!9
+    wordID: n40006007009
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 9
-  ref: MAT 6:7!8
-  xml_id: n40006007008
-  unicode: δοκοῦσιν
+  text: δοκοῦσιν
   lemma: δοκέω
   normalized: δοκοῦσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: they think
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1380'
-  domain: '031005'
-  ln: '31.29'
-  role: v
+  ids:
+    ref: MAT 6:7!8
+    wordID: n40006007008
+  translation:
+    gloss: they think
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n40006007007
+  discourse:
+    subject: n40006007007
 - position: 10
-  ref: MAT 6:7!10
-  xml_id: n40006007010
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 6:7!10
+    wordID: n40006007010
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 11
-  ref: MAT 6:7!11
-  xml_id: n40006007011
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 089007
-  ln: '89.26'
+  ids:
+    ref: MAT 6:7!11
+    wordID: n40006007011
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.26'
 - position: 12
-  ref: MAT 6:7!12
-  xml_id: n40006007012
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 6:7!12
+    wordID: n40006007012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 6:7!13
-  xml_id: n40006007013
-  unicode: πολυλογίᾳ
+  text: πολυλογίᾳ
   lemma: πολυλογία
   normalized: πολυλογίᾳ
-  class: noun
-  morph: N-DSF
-  gloss: many words
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '4180'
-  domain: '033006'
-  ln: '33.87'
+  ids:
+    ref: MAT 6:7!13
+    wordID: n40006007013
+  translation:
+    gloss: many words
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4180'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.87'
 - position: 14
-  ref: MAT 6:7!14
-  xml_id: n40006007014
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 6:7!14
+    wordID: n40006007014
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40006007007
 - position: 15
-  ref: MAT 6:7!15
-  xml_id: n40006007015
-  unicode: εἰσακουσθήσονται
+  text: εἰσακουσθήσονται
   lemma: εἰσακούω
   normalized: εἰσακουσθήσονται
-  class: verb
-  morph: V-FPI-3P
-  gloss: they will be heard
-  number: plural
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '1522'
-  domain: '024002'
-  ln: '24.60'
-  role: v
-syntax:
-  word_order: V2CL
+  ids:
+    ref: MAT 6:7!15
+    wordID: n40006007015
+  translation:
+    gloss: they will be heard
+  morphology:
+    class: verb
+    morph: V-FPI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1522'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.60'
+  syntax:
+    role: v
+    frame: A1:n40006007007
+  discourse:
+    subject: n40006007007

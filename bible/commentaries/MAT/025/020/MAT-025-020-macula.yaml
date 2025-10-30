@@ -1,367 +1,493 @@
-verse:
-  reference: MAT 25:20
-  book_code: MAT
-  chapter: 25
-  verse: 20
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ προσελθὼν ὁ τὰ πέντε τάλαντα λαβὼν προσήνεγκεν ἄλλα πέντε τάλαντα λέγων
-    Κύριε, πέντε τάλαντά μοι παρέδωκας· ἴδε ἄλλα πέντε τάλαντα ἐκέρδησα.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:20
+text: καὶ προσελθὼν ὁ τὰ πέντε τάλαντα λαβὼν προσήνεγκεν ἄλλα πέντε τάλαντα λέγων
+  Κύριε, πέντε τάλαντά μοι παρέδωκας· ἴδε ἄλλα πέντε τάλαντα ἐκέρδησα.
 words:
 - position: 1
-  ref: MAT 25:20!1
-  xml_id: n40025020001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 25:20!1
+    wordID: n40025020001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 25:20!2
-  xml_id: n40025020002
-  unicode: προσελθὼν
+  text: προσελθὼν
   lemma: προσέρχομαι
   normalized: προσελθών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having come
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '4334'
-  domain: '015005'
-  ln: '15.77'
-  role: v
+  ids:
+    ref: MAT 25:20!2
+    wordID: n40025020002
+  translation:
+    gloss: having come
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n40025020007
+  discourse:
+    subject: n40025020007
 - position: 3
-  ref: MAT 25:20!3
-  xml_id: n40025020003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:20!3
+    wordID: n40025020003
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 25:20!4
-  xml_id: n40025020004
-  unicode: τὰ
+  text: τὰ
   lemma: ὁ
   normalized: τά
-  class: det
-  morph: T-APN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 25:20!4
+    wordID: n40025020004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 25:20!5
-  xml_id: n40025020005
-  unicode: πέντε
+  text: πέντε
   lemma: πέντε
   normalized: πέντε
-  class: num
-  morph: A-NUI
-  gloss: five
-  strong: '4002'
-  domain: '060002'
-  ln: '60.14'
+  ids:
+    ref: MAT 25:20!5
+    wordID: n40025020005
+  translation:
+    gloss: five
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '4002'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.14'
 - position: 6
-  ref: MAT 25:20!6
-  xml_id: n40025020006
-  unicode: τάλαντα
+  text: τάλαντα
   lemma: τάλαντον
   normalized: τάλαντα
-  class: noun
-  morph: N-APN
-  gloss: talents
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5007'
-  domain: '006011'
-  ln: '6.82'
+  ids:
+    ref: MAT 25:20!6
+    wordID: n40025020006
+  translation:
+    gloss: talents
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5007'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.82'
 - position: 7
-  ref: MAT 25:20!7
-  xml_id: n40025020007
-  unicode: λαβὼν
+  text: λαβὼν
   lemma: λαμβάνω
   normalized: λαβών
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having received
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2983'
-  domain: 057009
-  ln: '57.125'
-  role: v
+  ids:
+    ref: MAT 25:20!7
+    wordID: n40025020007
+  translation:
+    gloss: having received
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40025020006
 - position: 8
-  ref: MAT 25:20!8
-  xml_id: n40025020008
-  unicode: προσήνεγκεν
+  text: προσήνεγκεν
   lemma: προσφέρω
   normalized: προσήνεγκεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: brought to [him]
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4374'
-  domain: '015024'
-  ln: '15.192'
-  role: v
+  ids:
+    ref: MAT 25:20!8
+    wordID: n40025020008
+  translation:
+    gloss: brought to [him]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4374'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.192'
+  syntax:
+    role: v
+    frame: A0:n40025020007 A1:n40025020011
 - position: 9
-  ref: MAT 25:20!9
-  xml_id: n40025020009
-  unicode: ἄλλα
+  text: ἄλλα
   lemma: ἄλλος
   normalized: ἄλλα
-  class: adj
-  morph: A-APN
-  gloss: other
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 25:20!9
+    wordID: n40025020009
+  translation:
+    gloss: other
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 10
-  ref: MAT 25:20!10
-  xml_id: n40025020010
-  unicode: πέντε
+  text: πέντε
   lemma: πέντε
   normalized: πέντε
-  class: num
-  morph: A-NUI
-  gloss: five
-  strong: '4002'
-  domain: '060002'
-  ln: '60.14'
+  ids:
+    ref: MAT 25:20!10
+    wordID: n40025020010
+  translation:
+    gloss: five
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '4002'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.14'
 - position: 11
-  ref: MAT 25:20!11
-  xml_id: n40025020011
-  unicode: τάλαντα
+  text: τάλαντα
   lemma: τάλαντον
   normalized: τάλαντα
-  class: noun
-  morph: N-APN
-  gloss: talents
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5007'
-  domain: '006011'
-  ln: '6.82'
+  ids:
+    ref: MAT 25:20!11
+    wordID: n40025020011
+  translation:
+    gloss: talents
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5007'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.82'
 - position: 12
-  ref: MAT 25:20!12
-  xml_id: n40025020012
-  unicode: λέγων
+  text: λέγων
   lemma: λέγω
   normalized: λέγων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: saying
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 25:20!12
+    wordID: n40025020012
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025020007
+  discourse:
+    subject: n40025020007
 - position: 13
-  ref: MAT 25:20!13
-  xml_id: n40025020013
-  unicode: Κύριε
+  text: Κύριε
   lemma: κύριος
   normalized: Κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Master
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: '057001'
-  ln: '57.12'
-  role: aux
+  ids:
+    ref: MAT 25:20!13
+    wordID: n40025020013
+  translation:
+    gloss: Master
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.12'
+  syntax:
+    role: aux
 - position: 14
-  ref: MAT 25:20!14
-  xml_id: n40025020014
-  unicode: πέντε
+  text: πέντε
   lemma: πέντε
   normalized: πέντε
-  class: num
-  morph: A-NUI
-  gloss: five
-  strong: '4002'
-  domain: '060002'
-  ln: '60.14'
+  ids:
+    ref: MAT 25:20!14
+    wordID: n40025020014
+  translation:
+    gloss: five
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '4002'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.14'
 - position: 15
-  ref: MAT 25:20!15
-  xml_id: n40025020015
-  unicode: τάλαντά
+  text: τάλαντά
   lemma: τάλαντον
   normalized: τάλαντα
-  class: noun
-  morph: N-APN
-  gloss: talents
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5007'
-  domain: '006011'
-  ln: '6.82'
+  ids:
+    ref: MAT 25:20!15
+    wordID: n40025020015
+  translation:
+    gloss: talents
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5007'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.82'
 - position: 16
-  ref: MAT 25:20!16
-  xml_id: n40025020016
-  unicode: μοι
+  text: μοι
   lemma: ἐγώ
   normalized: μοι
-  class: pron
-  morph: P-1DS
-  gloss: to me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: io
+  ids:
+    ref: MAT 25:20!16
+    wordID: n40025020016
+  translation:
+    gloss: to me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025020007
 - position: 17
-  ref: MAT 25:20!17
-  xml_id: n40025020017
-  unicode: παρέδωκας
+  text: παρέδωκας
   lemma: παραδίδωμι
   normalized: παρέδωκας
-  class: verb
-  morph: V-AAI-2S
-  gloss: you did deliver
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3860'
-  domain: 057008
-  ln: '57.77'
-  role: v
+  ids:
+    ref: MAT 25:20!17
+    wordID: n40025020017
+  translation:
+    gloss: you did deliver
+  morphology:
+    class: verb
+    morph: V-AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.77'
+  syntax:
+    role: v
+    frame: A0:n40025020013 A1:n40025020015 A2:n40025020016
+  discourse:
+    subject: n40025020013
 - position: 18
-  ref: MAT 25:20!18
-  xml_id: n40025020018
-  unicode: ἴδε
+  text: ἴδε
   lemma: ὁράω
   normalized: ἴδε
-  class: verb
-  morph: V-2AAM-2S
-  gloss: Behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 25:20!18
+    wordID: n40025020018
+  translation:
+    gloss: Behold
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n40025020013
+  discourse:
+    subject: n40025020013
 - position: 19
-  ref: MAT 25:20!19
-  xml_id: n40025020019
-  unicode: ἄλλα
+  text: ἄλλα
   lemma: ἄλλος
   normalized: ἄλλα
-  class: adj
-  morph: A-APN
-  gloss: more
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 25:20!19
+    wordID: n40025020019
+  translation:
+    gloss: more
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 20
-  ref: MAT 25:20!20
-  xml_id: n40025020020
-  unicode: πέντε
+  text: πέντε
   lemma: πέντε
   normalized: πέντε
-  class: num
-  morph: A-NUI
-  gloss: five
-  strong: '4002'
-  domain: '060002'
-  ln: '60.14'
+  ids:
+    ref: MAT 25:20!20
+    wordID: n40025020020
+  translation:
+    gloss: five
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '4002'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.14'
 - position: 21
-  ref: MAT 25:20!21
-  xml_id: n40025020021
-  unicode: τάλαντα
+  text: τάλαντα
   lemma: τάλαντον
   normalized: τάλαντα
-  class: noun
-  morph: N-APN
-  gloss: talents
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5007'
-  domain: '006011'
-  ln: '6.82'
+  ids:
+    ref: MAT 25:20!21
+    wordID: n40025020021
+  translation:
+    gloss: talents
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5007'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.82'
 - position: 22
-  ref: MAT 25:20!22
-  xml_id: n40025020022
-  unicode: ἐκέρδησα
+  text: ἐκέρδησα
   lemma: κερδαίνω
   normalized: ἐκέρδησα
-  class: verb
-  morph: V-AAI-1S
-  gloss: have I gained
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2770'
-  domain: '057016'
-  ln: '57.189'
-  role: v
-syntax:
-  word_order: ADV-S-V-O-ADV
+  ids:
+    ref: MAT 25:20!22
+    wordID: n40025020022
+  translation:
+    gloss: have I gained
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2770'
+  semantic:
+    semanticDomain: '057016'
+    ln: '57.189'
+  syntax:
+    role: v
+    frame: A0:n40025020007 A1:n40025020021
+  discourse:
+    subject: n40025020007

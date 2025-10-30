@@ -1,411 +1,549 @@
-verse:
-  reference: MAT 5:18
-  book_code: MAT
-  chapter: 5
-  verse: 18
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἀμὴν γὰρ λέγω ὑμῖν, ἕως ἂν παρέλθῃ ὁ οὐρανὸς καὶ ἡ γῆ, ἰῶτα ἓν ἢ μία κεραία
-    οὐ μὴ παρέλθῃ ἀπὸ τοῦ νόμου, ἕως ἂν πάντα γένηται.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:18
+text: ἀμὴν γὰρ λέγω ὑμῖν, ἕως ἂν παρέλθῃ ὁ οὐρανὸς καὶ ἡ γῆ, ἰῶτα ἓν ἢ μία κεραία
+  οὐ μὴ παρέλθῃ ἀπὸ τοῦ νόμου, ἕως ἂν πάντα γένηται.
 words:
 - position: 1
-  ref: MAT 5:18!2
-  xml_id: n40005018002
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 5:18!2
+    wordID: n40005018002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 5:18!1
-  xml_id: n40005018001
-  unicode: ἀμὴν
+  text: ἀμὴν
   lemma: ἀμήν
   normalized: ἀμήν
-  class: ptcl
-  morph: HEB
-  gloss: Truly
-  strong: '281'
-  domain: '072001'
-  ln: '72.6'
+  ids:
+    ref: MAT 5:18!1
+    wordID: n40005018001
+  translation:
+    gloss: Truly
+  morphology:
+    class: ptcl
+    morph: HEB
+  lexical:
+    strong: '281'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.6'
 - position: 3
-  ref: MAT 5:18!3
-  xml_id: n40005018003
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 5:18!3
+    wordID: n40005018003
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A2:n40005018004
+  discourse:
+    subject: n40004017005
 - position: 4
-  ref: MAT 5:18!4
-  xml_id: n40005018004
-  unicode: ὑμῖν
+  text: ὑμῖν
   lemma: σύ
   normalized: ὑμῖν
-  class: pron
-  morph: P-2DP
-  gloss: to you
-  number: plural
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: io
+  ids:
+    ref: MAT 5:18!4
+    wordID: n40005018004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
 - position: 5
-  ref: MAT 5:18!5
-  xml_id: n40005018005
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: conj
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 5:18!5
+    wordID: n40005018005
+  translation:
+    gloss: until
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 6
-  ref: MAT 5:18!6
-  xml_id: n40005018006
-  unicode: ἂν
+  text: ἂν
   lemma: ἄν
   normalized: ἄν
-  class: ptcl
-  morph: PRT
-  gloss: '-'
-  strong: '302'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 5:18!6
+    wordID: n40005018006
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
 - position: 7
-  ref: MAT 5:18!7
-  xml_id: n40005018007
-  unicode: παρέλθῃ
+  text: παρέλθῃ
   lemma: παρέρχομαι
   normalized: παρέλθῃ
-  class: verb
-  morph: V-2AAS-3S
-  gloss: shall pass away
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3928'
-  domain: '013003'
-  ln: '13.93'
-  role: v
+  ids:
+    ref: MAT 5:18!7
+    wordID: n40005018007
+  translation:
+    gloss: shall pass away
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3928'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.93'
+  syntax:
+    role: v
+    frame: A0:n40005018009;n40005018012
 - position: 8
-  ref: MAT 5:18!8
-  xml_id: n40005018008
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:18!8
+    wordID: n40005018008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 5:18!9
-  xml_id: n40005018009
-  unicode: οὐρανὸς
+  text: οὐρανὸς
   lemma: οὐρανός
   normalized: οὐρανός
-  class: noun
-  morph: N-NSM
-  gloss: heaven
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3772'
-  domain: '001001'
-  ln: '1.3'
+  ids:
+    ref: MAT 5:18!9
+    wordID: n40005018009
+  translation:
+    gloss: heaven
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3772'
+  semantic:
+    semanticDomain: '001001'
+    ln: '1.3'
 - position: 10
-  ref: MAT 5:18!10
-  xml_id: n40005018010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 5:18!10
+    wordID: n40005018010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 11
-  ref: MAT 5:18!11
-  xml_id: n40005018011
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:18!11
+    wordID: n40005018011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 5:18!12
-  xml_id: n40005018012
-  unicode: γῆ
+  text: γῆ
   lemma: γῆ
   normalized: γῆ
-  class: noun
-  morph: N-NSF
-  gloss: earth
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1093'
-  domain: '001001'
-  ln: '1.3'
+  ids:
+    ref: MAT 5:18!12
+    wordID: n40005018012
+  translation:
+    gloss: earth
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1093'
+  semantic:
+    semanticDomain: '001001'
+    ln: '1.3'
 - position: 13
-  ref: MAT 5:18!13
-  xml_id: n40005018013
-  unicode: ἰῶτα
+  text: ἰῶτα
   lemma: ἰῶτα
   normalized: ἰῶτα
-  class: noun
-  morph: N-LI
-  gloss: iota
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '2503'
-  domain: '033005'
-  ln: '33.36'
+  ids:
+    ref: MAT 5:18!13
+    wordID: n40005018013
+  translation:
+    gloss: iota
+  morphology:
+    class: noun
+    morph: N-LI
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2503'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.36'
 - position: 14
-  ref: MAT 5:18!14
-  xml_id: n40005018014
-  unicode: ἓν
+  text: ἓν
   lemma: εἷς
   normalized: ἕν
-  class: adj
-  morph: A-NSN
-  gloss: one
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: '060002'
-  ln: '60.10'
+  ids:
+    ref: MAT 5:18!14
+    wordID: n40005018014
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.10'
 - position: 15
-  ref: MAT 5:18!15
-  xml_id: n40005018015
-  unicode: ἢ
+  text: ἢ
   lemma: ἤ
   normalized: ἤ
-  class: conj
-  morph: PRT
-  gloss: or
-  strong: '2228'
-  domain: 089024
-  ln: '89.139'
+  ids:
+    ref: MAT 5:18!15
+    wordID: n40005018015
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
 - position: 16
-  ref: MAT 5:18!16
-  xml_id: n40005018016
-  unicode: μία
+  text: μία
   lemma: εἷς
   normalized: μία
-  class: adj
-  morph: A-NSF
-  gloss: one
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '1520'
-  domain: '060002'
-  ln: '60.10'
+  ids:
+    ref: MAT 5:18!16
+    wordID: n40005018016
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.10'
 - position: 17
-  ref: MAT 5:18!17
-  xml_id: n40005018017
-  unicode: κεραία
+  text: κεραία
   lemma: κεραία
   normalized: κεραία
-  class: noun
-  morph: N-NSF
-  gloss: stroke of a letter
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '2762'
-  domain: '033005'
-  ln: '33.37'
+  ids:
+    ref: MAT 5:18!17
+    wordID: n40005018017
+  translation:
+    gloss: stroke of a letter
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2762'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.37'
 - position: 18
-  ref: MAT 5:18!18
-  xml_id: n40005018018
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: 'no'
-  strong: '3756'
-  domain: 069002
-  ln: '69.5'
+  ids:
+    ref: MAT 5:18!18
+    wordID: n40005018018
+  translation:
+    gloss: 'no'
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.5'
 - position: 19
-  ref: MAT 5:18!19
-  xml_id: n40005018019
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
+  ids:
+    ref: MAT 5:18!19
+    wordID: n40005018019
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
 - position: 20
-  ref: MAT 5:18!20
-  xml_id: n40005018020
-  unicode: παρέλθῃ
+  text: παρέλθῃ
   lemma: παρέρχομαι
   normalized: παρέλθῃ
-  class: verb
-  morph: V-2AAS-3S
-  gloss: shall pass away
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3928'
-  domain: '013003'
-  ln: '13.93'
-  role: v
+  ids:
+    ref: MAT 5:18!20
+    wordID: n40005018020
+  translation:
+    gloss: shall pass away
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3928'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.93'
+  syntax:
+    role: v
+    frame: A0:n40005018013;n40005018017
 - position: 21
-  ref: MAT 5:18!21
-  xml_id: n40005018021
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 089021
-  ln: '89.122'
+  ids:
+    ref: MAT 5:18!21
+    wordID: n40005018021
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089021
+    ln: '89.122'
 - position: 22
-  ref: MAT 5:18!22
-  xml_id: n40005018022
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:18!22
+    wordID: n40005018022
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 23
-  ref: MAT 5:18!23
-  xml_id: n40005018023
-  unicode: νόμου
+  text: νόμου
   lemma: νόμος
   normalized: νόμου
-  class: noun
-  morph: N-GSM
-  gloss: law
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3551'
-  domain: '033005'
-  ln: 33.55 33.56
+  ids:
+    ref: MAT 5:18!23
+    wordID: n40005018023
+  translation:
+    gloss: law
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3551'
+  semantic:
+    semanticDomain: '033005'
+    ln: 33.55 33.56
 - position: 24
-  ref: MAT 5:18!24
-  xml_id: n40005018024
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: conj
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 5:18!24
+    wordID: n40005018024
+  translation:
+    gloss: until
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 25
-  ref: MAT 5:18!25
-  xml_id: n40005018025
-  unicode: ἂν
+  text: ἂν
   lemma: ἄν
   normalized: ἄν
-  class: ptcl
-  morph: PRT
-  gloss: '-'
-  strong: '302'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 5:18!25
+    wordID: n40005018025
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
 - position: 26
-  ref: MAT 5:18!26
-  xml_id: n40005018026
-  unicode: πάντα
+  text: πάντα
   lemma: πᾶς
   normalized: πάντα
-  class: adj
-  morph: A-NPN
-  gloss: everything
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
-  role: s
+  ids:
+    ref: MAT 5:18!26
+    wordID: n40005018026
+  translation:
+    gloss: everything
+  morphology:
+    class: adj
+    morph: A-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: s
 - position: 27
-  ref: MAT 5:18!27
-  xml_id: n40005018027
-  unicode: γένηται
+  text: γένηται
   lemma: γίνομαι
   normalized: γένηται
-  class: verb
-  morph: V-2ADS-3S
-  gloss: should happen
-  number: singular
-  person: third
-  tense: aorist
-  voice: middle
-  mood: subjunctive
-  strong: '1096'
-  domain: '013004'
-  ln: '13.107'
-  role: v
-syntax:
-  word_order: V-IO
+  ids:
+    ref: MAT 5:18!27
+    wordID: n40005018027
+  translation:
+    gloss: should happen
+  morphology:
+    class: verb
+    morph: V-2ADS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: subjunctive
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n40005018026

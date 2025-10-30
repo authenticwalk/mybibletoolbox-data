@@ -1,133 +1,164 @@
-verse:
-  reference: MAT 19:15
-  book_code: MAT
-  chapter: 19
-  verse: 15
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἐπιθεὶς τὰς χεῖρας αὐτοῖς ἐπορεύθη ἐκεῖθεν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 19:15
+text: καὶ ἐπιθεὶς τὰς χεῖρας αὐτοῖς ἐπορεύθη ἐκεῖθεν.
 words:
 - position: 1
-  ref: MAT 19:15!1
-  xml_id: n40019015001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 19:15!1
+    wordID: n40019015001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 19:15!2
-  xml_id: n40019015002
-  unicode: ἐπιθεὶς
+  text: ἐπιθεὶς
   lemma: ἐπιτίθημι
   normalized: ἐπιθείς
-  class: verb
-  morph: V-2AAP-NSM
-  gloss: having laid
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2007'
-  domain: 085002
-  ln: '85.51'
-  role: v
+  ids:
+    ref: MAT 19:15!2
+    wordID: n40019015002
+  translation:
+    gloss: having laid
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2007'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.51'
+  syntax:
+    role: v
+    frame: A0:n40019014003 A1:n40019015004 A2:n40019015005
+  discourse:
+    subject: n40019014003
 - position: 3
-  ref: MAT 19:15!3
-  xml_id: n40019015003
-  unicode: τὰς
+  text: τὰς
   lemma: ὁ
   normalized: τάς
-  class: det
-  morph: T-APF
-  gloss: the
-  gender: feminine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 19:15!3
+    wordID: n40019015003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 19:15!4
-  xml_id: n40019015004
-  unicode: χεῖρας
+  text: χεῖρας
   lemma: χείρ
   normalized: χεῖρας
-  class: noun
-  morph: N-APF
-  gloss: hands
-  gender: feminine
-  number: plural
-  case: accusative
-  strong: '5495'
-  domain: 008002
-  ln: '8.30'
+  ids:
+    ref: MAT 19:15!4
+    wordID: n40019015004
+  translation:
+    gloss: hands
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
 - position: 5
-  ref: MAT 19:15!5
-  xml_id: n40019015005
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPN
-  gloss: upon them
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 19:15!5
+    wordID: n40019015005
+  translation:
+    gloss: upon them
+  morphology:
+    class: pron
+    morph: P-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40019014007
 - position: 6
-  ref: MAT 19:15!6
-  xml_id: n40019015006
-  unicode: ἐπορεύθη
+  text: ἐπορεύθη
   lemma: πορεύομαι
   normalized: ἐπορεύθη
-  class: verb
-  morph: V-AOI-3S
-  gloss: He departed
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '4198'
-  domain: '015004'
-  ln: '15.34'
-  role: v
+  ids:
+    ref: MAT 19:15!6
+    wordID: n40019015006
+  translation:
+    gloss: He departed
+  morphology:
+    class: verb
+    morph: V-AOI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4198'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.34'
+  syntax:
+    role: v
+    frame: A1:n40019014003
+  discourse:
+    subject: n40019014003
 - position: 7
-  ref: MAT 19:15!7
-  xml_id: n40019015007
-  unicode: ἐκεῖθεν
+  text: ἐκεῖθεν
   lemma: ἐκεῖθεν
   normalized: ἐκεῖθεν
-  class: adv
-  morph: ADV
-  gloss: from there
-  strong: '1564'
-  domain: 084001
-  ln: '84.10'
-  role: adv
-syntax:
-  word_order: ADV-V-ADV
+  ids:
+    ref: MAT 19:15!7
+    wordID: n40019015007
+  translation:
+    gloss: from there
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1564'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.10'
+  syntax:
+    role: adv

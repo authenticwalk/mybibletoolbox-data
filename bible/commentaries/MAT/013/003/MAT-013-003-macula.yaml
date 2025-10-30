@@ -1,236 +1,308 @@
-verse:
-  reference: MAT 13:3
-  book_code: MAT
-  chapter: 13
-  verse: 3
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἐλάλησεν αὐτοῖς πολλὰ ἐν παραβολαῖς λέγων Ἰδοὺ ἐξῆλθεν ὁ σπείρων τοῦ
-    σπείρειν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:3
+text: καὶ ἐλάλησεν αὐτοῖς πολλὰ ἐν παραβολαῖς λέγων Ἰδοὺ ἐξῆλθεν ὁ σπείρων τοῦ σπείρειν.
 words:
 - position: 1
-  ref: MAT 13:3!1
-  xml_id: n40013003001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 13:3!1
+    wordID: n40013003001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 13:3!2
-  xml_id: n40013003002
-  unicode: ἐλάλησεν
+  text: ἐλάλησεν
   lemma: λαλέω
   normalized: ἐλάλησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: He spoke
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2980'
-  domain: '033006'
-  ln: '33.70'
-  role: v
+  ids:
+    ref: MAT 13:3!2
+    wordID: n40013003002
+  translation:
+    gloss: He spoke
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n40013001007 A2:n40013003003 A1:n40013003004
+  discourse:
+    subject: n40013001007
 - position: 3
-  ref: MAT 13:3!3
-  xml_id: n40013003003
-  unicode: αὐτοῖς
+  text: αὐτοῖς
   lemma: αὐτός
   normalized: αὐτοῖς
-  class: pron
-  morph: P-DPM
-  gloss: to them
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 13:3!3
+    wordID: n40013003003
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013002016
 - position: 4
-  ref: MAT 13:3!4
-  xml_id: n40013003004
-  unicode: πολλὰ
+  text: πολλὰ
   lemma: πολύς
   normalized: πολλά
-  class: adj
-  morph: A-APN
-  gloss: many things
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4183'
-  domain: 059001
-  ln: '59.1'
-  role: o
+  ids:
+    ref: MAT 13:3!4
+    wordID: n40013003004
+  translation:
+    gloss: many things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
+  syntax:
+    role: o
 - position: 5
-  ref: MAT 13:3!5
-  xml_id: n40013003005
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1722'
-  domain: 089012
-  ln: '89.76'
+  ids:
+    ref: MAT 13:3!5
+    wordID: n40013003005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
 - position: 6
-  ref: MAT 13:3!6
-  xml_id: n40013003006
-  unicode: παραβολαῖς
+  text: παραβολαῖς
   lemma: παραβολή
   normalized: παραβολαῖς
-  class: noun
-  morph: N-DPF
-  gloss: parables
-  gender: feminine
-  number: plural
-  case: dative
-  strong: '3850'
-  domain: '033003'
-  ln: '33.15'
+  ids:
+    ref: MAT 13:3!6
+    wordID: n40013003006
+  translation:
+    gloss: parables
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3850'
+  semantic:
+    semanticDomain: '033003'
+    ln: '33.15'
 - position: 7
-  ref: MAT 13:3!7
-  xml_id: n40013003007
-  unicode: λέγων
+  text: λέγων
   lemma: λέγω
   normalized: λέγων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: saying
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 13:3!7
+    wordID: n40013003007
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40013001007
+  discourse:
+    subject: n40013001007
 - position: 8
-  ref: MAT 13:3!8
-  xml_id: n40013003008
-  unicode: Ἰδοὺ
+  text: Ἰδοὺ
   lemma: ὁράω
   normalized: Ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: Behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 13:3!8
+    wordID: n40013003008
+  translation:
+    gloss: Behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n40013002016
+  discourse:
+    subject: n40013002016
 - position: 9
-  ref: MAT 13:3!9
-  xml_id: n40013003009
-  unicode: ἐξῆλθεν
+  text: ἐξῆλθεν
   lemma: ἐξέρχομαι
   normalized: ἐξῆλθεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: went out
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1831'
-  domain: '015004'
-  ln: '15.40'
-  role: v
+  ids:
+    ref: MAT 13:3!9
+    wordID: n40013003009
+  translation:
+    gloss: went out
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1831'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n40013003011
 - position: 10
-  ref: MAT 13:3!10
-  xml_id: n40013003010
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:3!10
+    wordID: n40013003010
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 13:3!11
-  xml_id: n40013003011
-  unicode: σπείρων
+  text: σπείρων
   lemma: σπείρω
   normalized: σπείρων
-  class: verb
-  morph: V-PAP-NSM
-  gloss: sowing
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '4687'
-  domain: '043'
-  ln: '43.6'
-  role: v
+  ids:
+    ref: MAT 13:3!11
+    wordID: n40013003011
+  translation:
+    gloss: sowing
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4687'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.6'
+  syntax:
+    role: v
+    frame: A0:n00000000000
 - position: 12
-  ref: MAT 13:3!12
-  xml_id: n40013003012
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:3!12
+    wordID: n40013003012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 13:3!13
-  xml_id: n40013003013
-  unicode: σπείρειν
+  text: σπείρειν
   lemma: σπείρω
   normalized: σπείρειν
-  class: verb
-  morph: V-PAN
-  gloss: to sow
-  tense: present
-  voice: active
-  mood: infinitive
-  strong: '4687'
-  domain: '043'
-  ln: '43.6'
-  role: v
-syntax:
-  word_order: V-IO-O-ADV-ADV
+  ids:
+    ref: MAT 13:3!13
+    wordID: n40013003013
+  translation:
+    gloss: to sow
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4687'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.6'
+  syntax:
+    role: v
+    frame: A0:n40013003011
+  discourse:
+    subject: n40013003011

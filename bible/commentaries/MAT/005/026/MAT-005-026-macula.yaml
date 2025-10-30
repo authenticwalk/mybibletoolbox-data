@@ -1,212 +1,280 @@
-verse:
-  reference: MAT 5:26
-  book_code: MAT
-  chapter: 5
-  verse: 26
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἀμὴν λέγω σοι, οὐ μὴ ἐξέλθῃς ἐκεῖθεν ἕως ἂν ἀποδῷς τὸν ἔσχατον κοδράντην.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:26
+text: ἀμὴν λέγω σοι, οὐ μὴ ἐξέλθῃς ἐκεῖθεν ἕως ἂν ἀποδῷς τὸν ἔσχατον κοδράντην.
 words:
 - position: 1
-  ref: MAT 5:26!1
-  xml_id: n40005026001
-  unicode: ἀμὴν
+  text: ἀμὴν
   lemma: ἀμήν
   normalized: ἀμήν
-  class: ptcl
-  morph: HEB
-  gloss: Truly
-  strong: '281'
-  domain: '072001'
-  ln: '72.6'
+  ids:
+    ref: MAT 5:26!1
+    wordID: n40005026001
+  translation:
+    gloss: Truly
+  morphology:
+    class: ptcl
+    morph: HEB
+  lexical:
+    strong: '281'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.6'
 - position: 2
-  ref: MAT 5:26!2
-  xml_id: n40005026002
-  unicode: λέγω
+  text: λέγω
   lemma: λέγω
   normalized: λέγω
-  class: verb
-  morph: V-PAI-1S
-  gloss: I say
-  number: singular
-  person: first
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 5:26!2
+    wordID: n40005026002
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A2:n40005026003
+  discourse:
+    subject: n40004017005
 - position: 3
-  ref: MAT 5:26!3
-  xml_id: n40005026003
-  unicode: σοι
+  text: σοι
   lemma: σύ
   normalized: σοι
-  class: pron
-  morph: P-2DS
-  gloss: to you
-  number: singular
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: io
+  ids:
+    ref: MAT 5:26!3
+    wordID: n40005026003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
 - position: 4
-  ref: MAT 5:26!4
-  xml_id: n40005026004
-  unicode: οὐ
+  text: οὐ
   lemma: οὐ
   normalized: οὐ
-  class: adv
-  morph: PRT-N
-  gloss: 'no'
-  strong: '3756'
-  domain: 069002
-  ln: '69.5'
+  ids:
+    ref: MAT 5:26!4
+    wordID: n40005026004
+  translation:
+    gloss: 'no'
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.5'
 - position: 5
-  ref: MAT 5:26!5
-  xml_id: n40005026005
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.5'
+  ids:
+    ref: MAT 5:26!5
+    wordID: n40005026005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.5'
 - position: 6
-  ref: MAT 5:26!6
-  xml_id: n40005026006
-  unicode: ἐξέλθῃς
+  text: ἐξέλθῃς
   lemma: ἐξέρχομαι
   normalized: ἐξέλθῃς
-  class: verb
-  morph: V-2AAS-2S
-  gloss: shall you come out
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1831'
-  domain: '015004'
-  ln: '15.40'
-  role: v
+  ids:
+    ref: MAT 5:26!6
+    wordID: n40005026006
+  translation:
+    gloss: shall you come out
+  morphology:
+    class: verb
+    morph: V-2AAS-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1831'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
 - position: 7
-  ref: MAT 5:26!7
-  xml_id: n40005026007
-  unicode: ἐκεῖθεν
+  text: ἐκεῖθεν
   lemma: ἐκεῖθεν
   normalized: ἐκεῖθεν
-  class: adv
-  morph: ADV
-  gloss: from there
-  strong: '1564'
-  domain: 084001
-  ln: '84.10'
-  role: adv
+  ids:
+    ref: MAT 5:26!7
+    wordID: n40005026007
+  translation:
+    gloss: from there
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1564'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.10'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40005025029
 - position: 8
-  ref: MAT 5:26!8
-  xml_id: n40005026008
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: conj
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 5:26!8
+    wordID: n40005026008
+  translation:
+    gloss: until
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 9
-  ref: MAT 5:26!9
-  xml_id: n40005026009
-  unicode: ἂν
+  text: ἂν
   lemma: ἄν
   normalized: ἄν
-  class: ptcl
-  morph: PRT
-  gloss: '-'
-  strong: '302'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 5:26!9
+    wordID: n40005026009
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
 - position: 10
-  ref: MAT 5:26!10
-  xml_id: n40005026010
-  unicode: ἀποδῷς
+  text: ἀποδῷς
   lemma: ἀποδίδωμι
   normalized: ἀποδῷς
-  class: verb
-  morph: V-2AAS-2S
-  gloss: you should pay
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '591'
-  domain: '057012'
-  ln: '57.153'
-  role: v
+  ids:
+    ref: MAT 5:26!10
+    wordID: n40005026010
+  translation:
+    gloss: you should pay
+  morphology:
+    class: verb
+    morph: V-2AAS-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '591'
+  semantic:
+    semanticDomain: '057012'
+    ln: '57.153'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40005026013
+  discourse:
+    subject: n40005001015
 - position: 11
-  ref: MAT 5:26!11
-  xml_id: n40005026011
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 5:26!11
+    wordID: n40005026011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 5:26!12
-  xml_id: n40005026012
-  unicode: ἔσχατον
+  text: ἔσχατον
   lemma: ἔσχατος
   normalized: ἔσχατον
-  class: adj
-  morph: A-ASM-S
-  gloss: last
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2078'
-  domain: '061'
-  ln: '61.13'
+  ids:
+    ref: MAT 5:26!12
+    wordID: n40005026012
+  translation:
+    gloss: last
+  morphology:
+    class: adj
+    morph: A-ASM-S
+    gender: masculine
+    number: singular
+    case: accusative
+    degree: superlative
+  lexical:
+    strong: '2078'
+  semantic:
+    semanticDomain: '061'
+    ln: '61.13'
 - position: 13
-  ref: MAT 5:26!13
-  xml_id: n40005026013
-  unicode: κοδράντην
+  text: κοδράντην
   lemma: κοδράντης
   normalized: κοδράντην
-  class: noun
-  morph: N-ASM
-  gloss: kodranten
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2835'
-  domain: '006011'
-  ln: '6.78'
-syntax:
-  word_order: V-IO
+  ids:
+    ref: MAT 5:26!13
+    wordID: n40005026013
+  translation:
+    gloss: kodranten
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2835'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.78'

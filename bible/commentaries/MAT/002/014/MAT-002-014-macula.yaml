@@ -1,597 +1,818 @@
-verse:
-  reference: MAT 2:14
-  book_code: MAT
-  chapter: 2
-  verse: 14
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 2:15 ὁ δὲ ἐγερθεὶς παρέλαβεν τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ νυκτὸς
-    καὶ ἀνεχώρησεν εἰς Αἴγυπτον, καὶ ἦν ἐκεῖ ἕως τῆς τελευτῆς Ἠρῴδου· ἵνα πληρωθῇ
-    τὸ ῥηθὲν ὑπὸ κυρίου διὰ τοῦ προφήτου λέγοντος Ἐξ Αἰγύπτου ἐκάλεσα τὸν υἱόν μου.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 2:14
+text: MAT 2:15 ὁ δὲ ἐγερθεὶς παρέλαβεν τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ νυκτὸς καὶ
+  ἀνεχώρησεν εἰς Αἴγυπτον, καὶ ἦν ἐκεῖ ἕως τῆς τελευτῆς Ἠρῴδου· ἵνα πληρωθῇ τὸ ῥηθὲν
+  ὑπὸ κυρίου διὰ τοῦ προφήτου λέγοντος Ἐξ Αἰγύπτου ἐκάλεσα τὸν υἱόν μου.
 words:
 - position: 1
-  ref: MAT 2:14!2
-  xml_id: n40002014002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
+  ids:
+    ref: MAT 2:14!2
+    wordID: n40002014002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 2:14!1
-  xml_id: n40002014001
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 2:14!1
+    wordID: n40002014001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40002013011
 - position: 3
-  ref: MAT 2:14!3
-  xml_id: n40002014003
-  unicode: ἐγερθεὶς
+  text: ἐγερθεὶς
   lemma: ἐγείρω
   normalized: ἐγερθείς
-  class: verb
-  morph: V-APP-NSM
-  gloss: having arisen
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '1453'
-  domain: '017001'
-  ln: '17.9'
-  role: v
+  ids:
+    ref: MAT 2:14!3
+    wordID: n40002014003
+  translation:
+    gloss: having arisen
+  morphology:
+    class: verb
+    morph: V-APP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '1453'
+  semantic:
+    semanticDomain: '017001'
+    ln: '17.9'
+  syntax:
+    role: v
+    frame: A1:n40002013011
+  discourse:
+    subject: n40002013011
 - position: 4
-  ref: MAT 2:14!4
-  xml_id: n40002014004
-  unicode: παρέλαβεν
+  text: παρέλαβεν
   lemma: παραλαμβάνω
   normalized: παρέλαβεν
-  class: verb
-  morph: V-2AAI-3S
-  gloss: he took
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3880'
-  domain: '015023'
-  ln: '15.168'
-  role: v
+  ids:
+    ref: MAT 2:14!4
+    wordID: n40002014004
+  translation:
+    gloss: he took
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3880'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.168'
+  syntax:
+    role: v
+    frame: A0:n40002014001 A1:n40002014006;n40002014009
 - position: 5
-  ref: MAT 2:14!5
-  xml_id: n40002014005
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:14!5
+    wordID: n40002014005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 2:14!6
-  xml_id: n40002014006
-  unicode: παιδίον
+  text: παιδίον
   lemma: παιδίον
   normalized: παιδίον
-  class: noun
-  morph: N-ASN
-  gloss: Child
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3813'
-  domain: 009004
-  ln: '9.42'
+  ids:
+    ref: MAT 2:14!6
+    wordID: n40002014006
+  translation:
+    gloss: Child
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3813'
+  semantic:
+    semanticDomain: 009004
+    ln: '9.42'
 - position: 7
-  ref: MAT 2:14!7
-  xml_id: n40002014007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 2:14!7
+    wordID: n40002014007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 8
-  ref: MAT 2:14!8
-  xml_id: n40002014008
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:14!8
+    wordID: n40002014008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 2:14!9
-  xml_id: n40002014009
-  unicode: μητέρα
+  text: μητέρα
   lemma: μήτηρ
   normalized: μητέρα
-  class: noun
-  morph: N-ASF
-  gloss: mother
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3384'
-  domain: '010002'
-  ln: '10.16'
+  ids:
+    ref: MAT 2:14!9
+    wordID: n40002014009
+  translation:
+    gloss: mother
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3384'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.16'
 - position: 10
-  ref: MAT 2:14!10
-  xml_id: n40002014010
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 2:14!10
+    wordID: n40002014010
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40002014006
 - position: 11
-  ref: MAT 2:14!11
-  xml_id: n40002014011
-  unicode: νυκτὸς
+  text: νυκτὸς
   lemma: νύξ
   normalized: νυκτός
-  class: noun
-  morph: N-GSF
-  gloss: by night
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3571'
-  domain: 067009
-  ln: '67.192'
-  role: adv
+  ids:
+    ref: MAT 2:14!11
+    wordID: n40002014011
+  translation:
+    gloss: by night
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3571'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.192'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 2:14!12
-  xml_id: n40002014012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 2:14!12
+    wordID: n40002014012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 13
-  ref: MAT 2:14!13
-  xml_id: n40002014013
-  unicode: ἀνεχώρησεν
+  text: ἀνεχώρησεν
   lemma: ἀναχωρέω
   normalized: ἀνεχώρησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: withdrew
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '402'
-  domain: '015004'
-  ln: '15.53'
-  role: v
+  ids:
+    ref: MAT 2:14!13
+    wordID: n40002014013
+  translation:
+    gloss: withdrew
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '402'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.53'
+  syntax:
+    role: v
+    frame: A0:n40002013011
+  discourse:
+    subject: n40002013011
 - position: 14
-  ref: MAT 2:14!14
-  xml_id: n40002014014
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.22'
+  ids:
+    ref: MAT 2:14!14
+    wordID: n40002014014
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
 - position: 15
-  ref: MAT 2:14!15
-  xml_id: n40002014015
-  unicode: Αἴγυπτον
+  text: Αἴγυπτον
   lemma: Αἴγυπτος
   normalized: Αἴγυπτον
-  class: noun
-  morph: N-ASF
-  gloss: Egypt
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '125'
-  domain: 093002
-  ln: '93.398'
+  ids:
+    ref: MAT 2:14!15
+    wordID: n40002014015
+  translation:
+    gloss: Egypt
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '125'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.398'
 - position: 16
-  ref: MAT 2:15!1
-  xml_id: n40002015001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 2:15!1
+    wordID: n40002015001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 17
-  ref: MAT 2:15!2
-  xml_id: n40002015002
-  unicode: ἦν
+  text: ἦν
   lemma: εἰμί
   normalized: ἦν
-  class: verb
-  morph: V-IAI-3S
-  gloss: he remained
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: 085001
-  ln: '85.1'
-  role: vc
+  ids:
+    ref: MAT 2:15!2
+    wordID: n40002015002
+  translation:
+    gloss: he remained
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.1'
+  syntax:
+    role: vc
+  discourse:
+    subject: n40002013011
 - position: 18
-  ref: MAT 2:15!3
-  xml_id: n40002015003
-  unicode: ἐκεῖ
+  text: ἐκεῖ
   lemma: ἐκεῖ
   normalized: ἐκεῖ
-  class: adv
-  morph: ADV
-  gloss: there
-  strong: '1563'
-  domain: 083001
-  ln: '83.2'
-  role: p
+  ids:
+    ref: MAT 2:15!3
+    wordID: n40002015003
+  translation:
+    gloss: there
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1563'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.2'
+  syntax:
+    role: p
+  discourse:
+    referent: n40002014015
 - position: 19
-  ref: MAT 2:15!4
-  xml_id: n40002015004
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: prep
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 2:15!4
+    wordID: n40002015004
+  translation:
+    gloss: until
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 20
-  ref: MAT 2:15!5
-  xml_id: n40002015005
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:15!5
+    wordID: n40002015005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 21
-  ref: MAT 2:15!6
-  xml_id: n40002015006
-  unicode: τελευτῆς
+  text: τελευτῆς
   lemma: τελευτή
   normalized: τελευτῆς
-  class: noun
-  morph: N-GSF
-  gloss: death
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '5054'
-  domain: '023007'
-  ln: '23.102'
+  ids:
+    ref: MAT 2:15!6
+    wordID: n40002015006
+  translation:
+    gloss: death
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5054'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.102'
 - position: 22
-  ref: MAT 2:15!7
-  xml_id: n40002015007
-  unicode: Ἠρῴδου
+  text: Ἠρῴδου
   lemma: Ἡρῴδης
   normalized: Ἠρῴδου
-  class: noun
-  morph: N-GSM
-  gloss: of Herod
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2264'
-  domain: 093001
-  ln: 93.144a
+  ids:
+    ref: MAT 2:15!7
+    wordID: n40002015007
+  translation:
+    gloss: of Herod
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '2264'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.144a
 - position: 23
-  ref: MAT 2:15!8
-  xml_id: n40002015008
-  unicode: ἵνα
+  text: ἵνα
   lemma: ἵνα
   normalized: ἵνα
-  class: conj
-  morph: CONJ
-  gloss: so that
-  strong: '2443'
-  domain: 089009
-  ln: '89.59'
+  ids:
+    ref: MAT 2:15!8
+    wordID: n40002015008
+  translation:
+    gloss: so that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
 - position: 24
-  ref: MAT 2:15!9
-  xml_id: n40002015009
-  unicode: πληρωθῇ
+  text: πληρωθῇ
   lemma: πληρόω
   normalized: πληρωθῇ
-  class: verb
-  morph: V-APS-3S
-  gloss: it might be fulfilled
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '4137'
-  domain: '013004'
-  ln: '13.106'
-  role: v
+  ids:
+    ref: MAT 2:15!9
+    wordID: n40002015009
+  translation:
+    gloss: it might be fulfilled
+  morphology:
+    class: verb
+    morph: V-APS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '4137'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.106'
+  syntax:
+    role: v
+    frame: A1:n40002015011
 - position: 25
-  ref: MAT 2:15!10
-  xml_id: n40002015010
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-NSN
-  gloss: that
-  gender: neuter
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:15!10
+    wordID: n40002015010
+  translation:
+    gloss: that
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 26
-  ref: MAT 2:15!11
-  xml_id: n40002015011
-  unicode: ῥηθὲν
+  text: ῥηθὲν
   lemma: εἶπον
   normalized: ῥηθέν
-  class: verb
-  morph: V-APP-NSN
-  gloss: having been spoken
-  gender: neuter
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '2046'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 2:15!11
+    wordID: n40002015011
+  translation:
+    gloss: having been spoken
+  morphology:
+    class: verb
+    morph: V-APP-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '2046'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A1:n00000000000
 - position: 27
-  ref: MAT 2:15!12
-  xml_id: n40002015012
-  unicode: ὑπὸ
+  text: ὑπὸ
   lemma: ὑπό
   normalized: ὑπό
-  class: prep
-  morph: PREP
-  gloss: by
-  strong: '5259'
-  domain: 090001
-  ln: '90.1'
+  ids:
+    ref: MAT 2:15!12
+    wordID: n40002015012
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.1'
 - position: 28
-  ref: MAT 2:15!13
-  xml_id: n40002015013
-  unicode: κυρίου
+  text: κυρίου
   lemma: κύριος
   normalized: κυρίου
-  class: noun
-  morph: N-GSM
-  gloss: '[the] Lord'
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2962'
-  domain: '012001'
-  ln: '12.9'
+  ids:
+    ref: MAT 2:15!13
+    wordID: n40002015013
+  translation:
+    gloss: '[the] Lord'
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
 - position: 29
-  ref: MAT 2:15!14
-  xml_id: n40002015014
-  unicode: διὰ
+  text: διὰ
   lemma: διά
   normalized: διά
-  class: prep
-  morph: PREP
-  gloss: through
-  strong: '1223'
-  domain: 090001
-  ln: '90.4'
+  ids:
+    ref: MAT 2:15!14
+    wordID: n40002015014
+  translation:
+    gloss: through
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.4'
 - position: 30
-  ref: MAT 2:15!15
-  xml_id: n40002015015
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:15!15
+    wordID: n40002015015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 31
-  ref: MAT 2:15!16
-  xml_id: n40002015016
-  unicode: προφήτου
+  text: προφήτου
   lemma: προφήτης
   normalized: προφήτου
-  class: noun
-  morph: N-GSM
-  gloss: prophet
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '4396'
-  domain: 053009
-  ln: '53.79'
+  ids:
+    ref: MAT 2:15!16
+    wordID: n40002015016
+  translation:
+    gloss: prophet
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4396'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.79'
 - position: 32
-  ref: MAT 2:15!17
-  xml_id: n40002015017
-  unicode: λέγοντος
+  text: λέγοντος
   lemma: λέγω
   normalized: λέγοντος
-  class: verb
-  morph: V-PAP-GSM
-  gloss: saying
-  gender: masculine
-  number: singular
-  case: genitive
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 2:15!17
+    wordID: n40002015017
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40002015013
+  discourse:
+    subject: n40002015013
 - position: 33
-  ref: MAT 2:15!18
-  xml_id: n40002015018
-  unicode: Ἐξ
+  text: Ἐξ
   lemma: ἐκ
   normalized: Ἐξ
-  class: prep
-  morph: PREP
-  gloss: Out
-  strong: '1537'
-  domain: 084001
-  ln: '84.4'
+  ids:
+    ref: MAT 2:15!18
+    wordID: n40002015018
+  translation:
+    gloss: Out
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.4'
 - position: 34
-  ref: MAT 2:15!19
-  xml_id: n40002015019
-  unicode: Αἰγύπτου
+  text: Αἰγύπτου
   lemma: Αἴγυπτος
   normalized: Αἰγύπτου
-  class: noun
-  morph: N-GSF
-  gloss: of Egypt
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '125'
-  domain: 093002
-  ln: '93.398'
+  ids:
+    ref: MAT 2:15!19
+    wordID: n40002015019
+  translation:
+    gloss: of Egypt
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '125'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.398'
 - position: 35
-  ref: MAT 2:15!20
-  xml_id: n40002015020
-  unicode: ἐκάλεσα
+  text: ἐκάλεσα
   lemma: καλέω
   normalized: ἐκάλεσα
-  class: verb
-  morph: V-AAI-1S
-  gloss: have I called
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2564'
-  domain: 033029
-  ln: '33.307'
-  role: v
+  ids:
+    ref: MAT 2:15!20
+    wordID: n40002015020
+  translation:
+    gloss: have I called
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2564'
+  semantic:
+    semanticDomain: 033029
+    ln: '33.307'
+  syntax:
+    role: v
+    frame: A0:n40002015013 A1:n40002015022
+  discourse:
+    subject: n40002015013
 - position: 36
-  ref: MAT 2:15!21
-  xml_id: n40002015021
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:15!21
+    wordID: n40002015021
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 37
-  ref: MAT 2:15!22
-  xml_id: n40002015022
-  unicode: υἱόν
+  text: υἱόν
   lemma: υἱός
   normalized: υἱόν
-  class: noun
-  morph: N-ASM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 2:15!22
+    wordID: n40002015022
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 38
-  ref: MAT 2:15!23
-  xml_id: n40002015023
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-syntax:
-  word_order: S-ADV-V-O-ADV
+  ids:
+    ref: MAT 2:15!23
+    wordID: n40002015023
+  translation:
+    gloss: of me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40002015013

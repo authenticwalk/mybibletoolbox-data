@@ -1,174 +1,226 @@
-verse:
-  reference: MAT 16:7
-  book_code: MAT
-  chapter: 16
-  verse: 7
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: οἱ δὲ διελογίζοντο ἐν ἑαυτοῖς λέγοντες ὅτι Ἄρτους οὐκ ἐλάβομεν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 16:7
+text: οἱ δὲ διελογίζοντο ἐν ἑαυτοῖς λέγοντες ὅτι Ἄρτους οὐκ ἐλάβομεν.
 words:
 - position: 1
-  ref: MAT 16:7!2
-  xml_id: n40016007002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '1161'
+  ids:
+    ref: MAT 16:7!2
+    wordID: n40016007002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 16:7!1
-  xml_id: n40016007001
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: '-'
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 16:7!1
+    wordID: n40016007001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40016005004
 - position: 3
-  ref: MAT 16:7!3
-  xml_id: n40016007003
-  unicode: διελογίζοντο
+  text: διελογίζοντο
   lemma: διαλογίζομαι
   normalized: διελογίζοντο
-  class: verb
-  morph: V-INI-3P
-  gloss: they were reasoning
-  number: plural
-  person: third
-  tense: imperfect
-  voice: middlepassive
-  mood: indicative
-  strong: '1260'
-  domain: '033011'
-  ln: '33.158'
-  role: v
+  ids:
+    ref: MAT 16:7!3
+    wordID: n40016007003
+  translation:
+    gloss: they were reasoning
+  morphology:
+    class: verb
+    morph: V-INI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1260'
+  semantic:
+    semanticDomain: '033011'
+    ln: '33.158'
+  syntax:
+    role: v
+    frame: A0:n40016007001
 - position: 4
-  ref: MAT 16:7!4
-  xml_id: n40016007004
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: among
-  strong: '1722'
-  domain: 083003
-  ln: '83.9'
+  ids:
+    ref: MAT 16:7!4
+    wordID: n40016007004
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
 - position: 5
-  ref: MAT 16:7!5
-  xml_id: n40016007005
-  unicode: ἑαυτοῖς
+  text: ἑαυτοῖς
   lemma: ἑαυτοῦ
   normalized: ἑαυτοῖς
-  class: pron
-  morph: F-3DPM
-  gloss: themselves
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
+  ids:
+    ref: MAT 16:7!5
+    wordID: n40016007005
+  translation:
+    gloss: themselves
+  morphology:
+    class: pron
+    morph: F-3DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n40016005004
 - position: 6
-  ref: MAT 16:7!6
-  xml_id: n40016007006
-  unicode: λέγοντες
+  text: λέγοντες
   lemma: λέγω
   normalized: λέγοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: saying
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 16:7!6
+    wordID: n40016007006
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40016005004
+  discourse:
+    subject: n40016005004
 - position: 7
-  ref: MAT 16:7!7
-  xml_id: n40016007007
-  unicode: ὅτι
+  text: ὅτι
   lemma: ὅτι
   normalized: ὅτι
-  class: conj
-  morph: CONJ
-  gloss: Because
-  strong: '3754'
-  domain: 090006
-  ln: '90.21'
+  ids:
+    ref: MAT 16:7!7
+    wordID: n40016007007
+  translation:
+    gloss: Because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
 - position: 8
-  ref: MAT 16:7!8
-  xml_id: n40016007008
-  unicode: Ἄρτους
+  text: Ἄρτους
   lemma: ἄρτος
   normalized: Ἄρτους
-  class: noun
-  morph: N-APM
-  gloss: bread
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '740'
-  domain: '005001'
-  ln: '5.8'
-  role: o
+  ids:
+    ref: MAT 16:7!8
+    wordID: n40016007008
+  translation:
+    gloss: bread
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
+  syntax:
+    role: o
 - position: 9
-  ref: MAT 16:7!9
-  xml_id: n40016007009
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 16:7!9
+    wordID: n40016007009
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 10
-  ref: MAT 16:7!10
-  xml_id: n40016007010
-  unicode: ἐλάβομεν
+  text: ἐλάβομεν
   lemma: λαμβάνω
   normalized: ἐλάβομεν
-  class: verb
-  morph: V-2AAI-1P
-  gloss: we took
-  number: plural
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2983'
-  domain: 018001
-  ln: '18.1'
-  role: v
-syntax:
-  word_order: S-V-ADV-ADV
+  ids:
+    ref: MAT 16:7!10
+    wordID: n40016007010
+  translation:
+    gloss: we took
+  morphology:
+    class: verb
+    morph: V-2AAI-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.1'
+  syntax:
+    role: v
+    frame: A0:n40016005004 A1:n40016007008
+  discourse:
+    subject: n40016005004

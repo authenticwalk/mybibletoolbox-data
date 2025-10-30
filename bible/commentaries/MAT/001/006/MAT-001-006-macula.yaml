@@ -1,1284 +1,1781 @@
-verse:
-  reference: MAT 1:6
-  book_code: MAT
-  chapter: 1
-  verse: 6
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: "MAT 1:7 \n         MAT 1:8 \n         MAT 1:9 \n         MAT 1:10 \n \
-    \        MAT 1:11 Δαυεὶδ δὲ ἐγέννησεν τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου, Σολομὼν\
-    \ δὲ ἐγέννησεν τὸν Ῥοβοάμ, Ῥοβοὰμ δὲ ἐγέννησεν τὸν Ἀβιά, Ἀβιὰ δὲ ἐγέννησεν τὸν\
-    \ Ἀσάφ, Ἀσὰφ δὲ ἐγέννησεν τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησεν τὸν Ἰωράμ, Ἰωρὰμ δὲ\
-    \ ἐγέννησεν τὸν Ὀζείαν, Ὀζείας δὲ ἐγέννησεν τὸν Ἰωαθάμ, Ἰωαθὰμ δὲ ἐγέννησεν τὸν\
-    \ Ἄχαζ, Ἄχαζ δὲ ἐγέννησεν τὸν Ἐζεκίαν, Ἐζεκίας δὲ ἐγέννησεν τὸν Μανασσῆ, Μανασσῆς\
-    \ δὲ ἐγέννησεν τὸν Ἀμώς, Ἀμὼς δὲ ἐγέννησεν τὸν Ἰωσείαν, Ἰωσείας δὲ ἐγέννησεν τὸν\
-    \ Ἰεχονίαν καὶ τοὺς ἀδελφοὺς αὐτοῦ ἐπὶ τῆς μετοικεσίας Βαβυλῶνος."
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 1:6
+text: "MAT 1:7 \n         MAT 1:8 \n         MAT 1:9 \n         MAT 1:10 \n      \
+  \   MAT 1:11 Δαυεὶδ δὲ ἐγέννησεν τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου, Σολομὼν δὲ ἐγέννησεν\
+  \ τὸν Ῥοβοάμ, Ῥοβοὰμ δὲ ἐγέννησεν τὸν Ἀβιά, Ἀβιὰ δὲ ἐγέννησεν τὸν Ἀσάφ, Ἀσὰφ δὲ\
+  \ ἐγέννησεν τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησεν τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησεν τὸν\
+  \ Ὀζείαν, Ὀζείας δὲ ἐγέννησεν τὸν Ἰωαθάμ, Ἰωαθὰμ δὲ ἐγέννησεν τὸν Ἄχαζ, Ἄχαζ δὲ\
+  \ ἐγέννησεν τὸν Ἐζεκίαν, Ἐζεκίας δὲ ἐγέννησεν τὸν Μανασσῆ, Μανασσῆς δὲ ἐγέννησεν\
+  \ τὸν Ἀμώς, Ἀμὼς δὲ ἐγέννησεν τὸν Ἰωσείαν, Ἰωσείας δὲ ἐγέννησεν τὸν Ἰεχονίαν καὶ\
+  \ τοὺς ἀδελφοὺς αὐτοῦ ἐπὶ τῆς μετοικεσίας Βαβυλῶνος."
 words:
 - position: 1
-  ref: MAT 1:6!9
-  xml_id: n40001006009
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:6!9
+    wordID: n40001006009
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 1:6!8
-  xml_id: n40001006008
-  unicode: Δαυεὶδ
+  text: Δαυεὶδ
   lemma: Δαυίδ
   normalized: Δαυείδ
-  class: noun
-  morph: N-PRI
-  gloss: David
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1138'
-  domain: 093001
-  ln: '93.91'
-  role: s
+  ids:
+    ref: MAT 1:6!8
+    wordID: n40001006008
+  translation:
+    gloss: David
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '1138'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.91'
+  syntax:
+    role: s
 - position: 3
-  ref: MAT 1:6!10
-  xml_id: n40001006010
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:6!10
+    wordID: n40001006010
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001006008 A1:n40001006012
 - position: 4
-  ref: MAT 1:6!11
-  xml_id: n40001006011
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:6!11
+    wordID: n40001006011
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 1:6!12
-  xml_id: n40001006012
-  unicode: Σολομῶνα
+  text: Σολομῶνα
   lemma: Σολομών
   normalized: Σολομῶνα
-  class: noun
-  morph: N-ASM
-  gloss: Solomon
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4672'
-  domain: 093001
-  ln: '93.344'
+  ids:
+    ref: MAT 1:6!12
+    wordID: n40001006012
+  translation:
+    gloss: Solomon
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '4672'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.344'
 - position: 6
-  ref: MAT 1:6!13
-  xml_id: n40001006013
-  unicode: ἐκ
+  text: ἐκ
   lemma: ἐκ
   normalized: ἐκ
-  class: prep
-  morph: PREP
-  gloss: out of
-  strong: '1537'
-  domain: 089003
-  ln: '89.3'
+  ids:
+    ref: MAT 1:6!13
+    wordID: n40001006013
+  translation:
+    gloss: out of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 089003
+    ln: '89.3'
 - position: 7
-  ref: MAT 1:6!14
-  xml_id: n40001006014
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: the [wife]
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:6!14
+    wordID: n40001006014
+  translation:
+    gloss: the [wife]
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 1:6!15
-  xml_id: n40001006015
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:6!15
+    wordID: n40001006015
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 1:6!16
-  xml_id: n40001006016
-  unicode: Οὐρίου
+  text: Οὐρίου
   lemma: Οὐρίας
   normalized: Οὐρίου
-  class: noun
-  morph: N-GSM
-  gloss: of Uriah
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3774'
-  domain: 093001
-  ln: '93.291'
+  ids:
+    ref: MAT 1:6!16
+    wordID: n40001006016
+  translation:
+    gloss: of Uriah
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '3774'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.291'
 - position: 10
-  ref: MAT 1:7!2
-  xml_id: n40001007002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:7!2
+    wordID: n40001007002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 1:7!1
-  xml_id: n40001007001
-  unicode: Σολομὼν
+  text: Σολομὼν
   lemma: Σολομών
   normalized: Σολομών
-  class: noun
-  morph: N-NSM
-  gloss: Solomon
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4672'
-  domain: 093001
-  ln: '93.344'
-  role: s
+  ids:
+    ref: MAT 1:7!1
+    wordID: n40001007001
+  translation:
+    gloss: Solomon
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4672'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.344'
+  syntax:
+    role: s
 - position: 12
-  ref: MAT 1:7!3
-  xml_id: n40001007003
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:7!3
+    wordID: n40001007003
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001007001 A1:n40001007005
 - position: 13
-  ref: MAT 1:7!4
-  xml_id: n40001007004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:7!4
+    wordID: n40001007004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 14
-  ref: MAT 1:7!5
-  xml_id: n40001007005
-  unicode: Ῥοβοάμ
+  text: Ῥοβοάμ
   lemma: Ῥοβοάμ
   normalized: Ῥοβοάμ
-  class: noun
-  morph: N-PRI
-  gloss: Rehoboam
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '4497'
-  domain: 093001
-  ln: '93.313'
+  ids:
+    ref: MAT 1:7!5
+    wordID: n40001007005
+  translation:
+    gloss: Rehoboam
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '4497'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.313'
 - position: 15
-  ref: MAT 1:7!7
-  xml_id: n40001007007
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:7!7
+    wordID: n40001007007
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 16
-  ref: MAT 1:7!6
-  xml_id: n40001007006
-  unicode: Ῥοβοὰμ
+  text: Ῥοβοὰμ
   lemma: Ῥοβοάμ
   normalized: Ῥοβοάμ
-  class: noun
-  morph: N-PRI
-  gloss: Rehoboam
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '4497'
-  domain: 093001
-  ln: '93.313'
-  role: s
+  ids:
+    ref: MAT 1:7!6
+    wordID: n40001007006
+  translation:
+    gloss: Rehoboam
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4497'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.313'
+  syntax:
+    role: s
 - position: 17
-  ref: MAT 1:7!8
-  xml_id: n40001007008
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:7!8
+    wordID: n40001007008
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001007006 A1:n40001007010
 - position: 18
-  ref: MAT 1:7!9
-  xml_id: n40001007009
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:7!9
+    wordID: n40001007009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 1:7!10
-  xml_id: n40001007010
-  unicode: Ἀβιά
+  text: Ἀβιά
   lemma: Ἀβιά
   normalized: Ἀβιά
-  class: noun
-  morph: N-PRI
-  gloss: Abijah
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '7'
-  domain: 093001
-  ln: 93.4a
+  ids:
+    ref: MAT 1:7!10
+    wordID: n40001007010
+  translation:
+    gloss: Abijah
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '7'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.4a
 - position: 20
-  ref: MAT 1:7!12
-  xml_id: n40001007012
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:7!12
+    wordID: n40001007012
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 21
-  ref: MAT 1:7!11
-  xml_id: n40001007011
-  unicode: Ἀβιὰ
+  text: Ἀβιὰ
   lemma: Ἀβιά
   normalized: Ἀβιά
-  class: noun
-  morph: N-PRI
-  gloss: Abijah
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '7'
-  domain: 093001
-  ln: 93.4a
-  role: s
+  ids:
+    ref: MAT 1:7!11
+    wordID: n40001007011
+  translation:
+    gloss: Abijah
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '7'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.4a
+  syntax:
+    role: s
 - position: 22
-  ref: MAT 1:7!13
-  xml_id: n40001007013
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:7!13
+    wordID: n40001007013
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001007011 A1:n40001007015
 - position: 23
-  ref: MAT 1:7!14
-  xml_id: n40001007014
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:7!14
+    wordID: n40001007014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 24
-  ref: MAT 1:7!15
-  xml_id: n40001007015
-  unicode: Ἀσάφ
+  text: Ἀσάφ
   lemma: Ἀσάφ
   normalized: Ἀσάφ
-  class: noun
-  morph: N-PRI
-  gloss: Asa
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '760'
-  domain: 093001
-  ln: '93.48'
+  ids:
+    ref: MAT 1:7!15
+    wordID: n40001007015
+  translation:
+    gloss: Asa
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '760'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.48'
 - position: 25
-  ref: MAT 1:8!2
-  xml_id: n40001008002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:8!2
+    wordID: n40001008002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 26
-  ref: MAT 1:8!1
-  xml_id: n40001008001
-  unicode: Ἀσὰφ
+  text: Ἀσὰφ
   lemma: Ἀσάφ
   normalized: Ἀσάφ
-  class: noun
-  morph: N-PRI
-  gloss: Asa
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '760'
-  domain: 093001
-  ln: '93.48'
-  role: s
+  ids:
+    ref: MAT 1:8!1
+    wordID: n40001008001
+  translation:
+    gloss: Asa
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '760'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.48'
+  syntax:
+    role: s
 - position: 27
-  ref: MAT 1:8!3
-  xml_id: n40001008003
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:8!3
+    wordID: n40001008003
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001008001 A1:n40001008005
 - position: 28
-  ref: MAT 1:8!4
-  xml_id: n40001008004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:8!4
+    wordID: n40001008004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 29
-  ref: MAT 1:8!5
-  xml_id: n40001008005
-  unicode: Ἰωσαφάτ
+  text: Ἰωσαφάτ
   lemma: Ἰωσαφάτ
   normalized: Ἰωσαφάτ
-  class: noun
-  morph: N-PRI
-  gloss: Jehoshaphat
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2498'
-  domain: 093001
-  ln: '93.200'
+  ids:
+    ref: MAT 1:8!5
+    wordID: n40001008005
+  translation:
+    gloss: Jehoshaphat
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2498'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.200'
 - position: 30
-  ref: MAT 1:8!7
-  xml_id: n40001008007
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:8!7
+    wordID: n40001008007
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 31
-  ref: MAT 1:8!6
-  xml_id: n40001008006
-  unicode: Ἰωσαφὰτ
+  text: Ἰωσαφὰτ
   lemma: Ἰωσαφάτ
   normalized: Ἰωσαφάτ
-  class: noun
-  morph: N-PRI
-  gloss: Jehoshaphat
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2498'
-  domain: 093001
-  ln: '93.200'
-  role: s
+  ids:
+    ref: MAT 1:8!6
+    wordID: n40001008006
+  translation:
+    gloss: Jehoshaphat
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2498'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.200'
+  syntax:
+    role: s
 - position: 32
-  ref: MAT 1:8!8
-  xml_id: n40001008008
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:8!8
+    wordID: n40001008008
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001008006 A1:n40001008010
 - position: 33
-  ref: MAT 1:8!9
-  xml_id: n40001008009
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:8!9
+    wordID: n40001008009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 34
-  ref: MAT 1:8!10
-  xml_id: n40001008010
-  unicode: Ἰωράμ
+  text: Ἰωράμ
   lemma: Ἰωράμ
   normalized: Ἰωράμ
-  class: noun
-  morph: N-PRI
-  gloss: Joram
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2496'
-  domain: 093001
-  ln: '93.198'
+  ids:
+    ref: MAT 1:8!10
+    wordID: n40001008010
+  translation:
+    gloss: Joram
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2496'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.198'
 - position: 35
-  ref: MAT 1:8!12
-  xml_id: n40001008012
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:8!12
+    wordID: n40001008012
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 36
-  ref: MAT 1:8!11
-  xml_id: n40001008011
-  unicode: Ἰωρὰμ
+  text: Ἰωρὰμ
   lemma: Ἰωράμ
   normalized: Ἰωράμ
-  class: noun
-  morph: N-PRI
-  gloss: Joram
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2496'
-  domain: 093001
-  ln: '93.198'
-  role: s
+  ids:
+    ref: MAT 1:8!11
+    wordID: n40001008011
+  translation:
+    gloss: Joram
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2496'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.198'
+  syntax:
+    role: s
 - position: 37
-  ref: MAT 1:8!13
-  xml_id: n40001008013
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:8!13
+    wordID: n40001008013
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001008011 A1:n40001008015
 - position: 38
-  ref: MAT 1:8!14
-  xml_id: n40001008014
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:8!14
+    wordID: n40001008014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 39
-  ref: MAT 1:8!15
-  xml_id: n40001008015
-  unicode: Ὀζείαν
+  text: Ὀζείαν
   lemma: Ὀζίας
   normalized: Ὀζείαν
-  class: noun
-  morph: N-ASM
-  gloss: Uzziah
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3604'
-  domain: 093001
-  ln: '93.286'
+  ids:
+    ref: MAT 1:8!15
+    wordID: n40001008015
+  translation:
+    gloss: Uzziah
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '3604'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.286'
 - position: 40
-  ref: MAT 1:9!2
-  xml_id: n40001009002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:9!2
+    wordID: n40001009002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 41
-  ref: MAT 1:9!1
-  xml_id: n40001009001
-  unicode: Ὀζείας
+  text: Ὀζείας
   lemma: Ὀζίας
   normalized: Ὀζείας
-  class: noun
-  morph: N-NSM
-  gloss: Uzziah
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3604'
-  domain: 093001
-  ln: '93.286'
-  role: s
+  ids:
+    ref: MAT 1:9!1
+    wordID: n40001009001
+  translation:
+    gloss: Uzziah
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '3604'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.286'
+  syntax:
+    role: s
 - position: 42
-  ref: MAT 1:9!3
-  xml_id: n40001009003
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:9!3
+    wordID: n40001009003
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001009001 A1:n40001009005
 - position: 43
-  ref: MAT 1:9!4
-  xml_id: n40001009004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:9!4
+    wordID: n40001009004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 44
-  ref: MAT 1:9!5
-  xml_id: n40001009005
-  unicode: Ἰωαθάμ
+  text: Ἰωαθάμ
   lemma: Ἰωαθάμ
   normalized: Ἰωαθάμ
-  class: noun
-  morph: N-PRI
-  gloss: Jotham
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2488'
-  domain: 093001
-  ln: '93.185'
+  ids:
+    ref: MAT 1:9!5
+    wordID: n40001009005
+  translation:
+    gloss: Jotham
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2488'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.185'
 - position: 45
-  ref: MAT 1:9!7
-  xml_id: n40001009007
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:9!7
+    wordID: n40001009007
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 46
-  ref: MAT 1:9!6
-  xml_id: n40001009006
-  unicode: Ἰωαθὰμ
+  text: Ἰωαθὰμ
   lemma: Ἰωαθάμ
   normalized: Ἰωαθάμ
-  class: noun
-  morph: N-PRI
-  gloss: Jotham
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2488'
-  domain: 093001
-  ln: '93.185'
-  role: s
+  ids:
+    ref: MAT 1:9!6
+    wordID: n40001009006
+  translation:
+    gloss: Jotham
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2488'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.185'
+  syntax:
+    role: s
 - position: 47
-  ref: MAT 1:9!8
-  xml_id: n40001009008
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:9!8
+    wordID: n40001009008
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001009006 A1:n40001009010
 - position: 48
-  ref: MAT 1:9!9
-  xml_id: n40001009009
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:9!9
+    wordID: n40001009009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 49
-  ref: MAT 1:9!10
-  xml_id: n40001009010
-  unicode: Ἄχαζ
+  text: Ἄχαζ
   lemma: Ἀχάζ
   normalized: Ἄχαζ
-  class: noun
-  morph: N-PRI
-  gloss: Ahaz
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '881'
-  domain: 093001
-  ln: '93.53'
+  ids:
+    ref: MAT 1:9!10
+    wordID: n40001009010
+  translation:
+    gloss: Ahaz
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '881'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.53'
 - position: 50
-  ref: MAT 1:9!12
-  xml_id: n40001009012
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:9!12
+    wordID: n40001009012
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 51
-  ref: MAT 1:9!11
-  xml_id: n40001009011
-  unicode: Ἄχαζ
+  text: Ἄχαζ
   lemma: Ἀχάζ
   normalized: Ἄχαζ
-  class: noun
-  morph: N-PRI
-  gloss: Ahaz
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '881'
-  domain: 093001
-  ln: '93.53'
-  role: s
+  ids:
+    ref: MAT 1:9!11
+    wordID: n40001009011
+  translation:
+    gloss: Ahaz
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '881'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.53'
+  syntax:
+    role: s
 - position: 52
-  ref: MAT 1:9!13
-  xml_id: n40001009013
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:9!13
+    wordID: n40001009013
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001009011 A1:n40001009015
 - position: 53
-  ref: MAT 1:9!14
-  xml_id: n40001009014
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:9!14
+    wordID: n40001009014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 54
-  ref: MAT 1:9!15
-  xml_id: n40001009015
-  unicode: Ἐζεκίαν
+  text: Ἐζεκίαν
   lemma: Ἑζεκίας
   normalized: Ἐζεκίαν
-  class: noun
-  morph: N-ASM
-  gloss: Hezekiah
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '1478'
-  domain: 093001
-  ln: '93.106'
+  ids:
+    ref: MAT 1:9!15
+    wordID: n40001009015
+  translation:
+    gloss: Hezekiah
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '1478'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.106'
 - position: 55
-  ref: MAT 1:10!2
-  xml_id: n40001010002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:10!2
+    wordID: n40001010002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 56
-  ref: MAT 1:10!1
-  xml_id: n40001010001
-  unicode: Ἐζεκίας
+  text: Ἐζεκίας
   lemma: Ἑζεκίας
   normalized: Ἐζεκίας
-  class: noun
-  morph: N-NSM
-  gloss: Hezekiah
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '1478'
-  domain: 093001
-  ln: '93.106'
-  role: s
+  ids:
+    ref: MAT 1:10!1
+    wordID: n40001010001
+  translation:
+    gloss: Hezekiah
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '1478'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.106'
+  syntax:
+    role: s
 - position: 57
-  ref: MAT 1:10!3
-  xml_id: n40001010003
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:10!3
+    wordID: n40001010003
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001010001 A1:n40001010005
 - position: 58
-  ref: MAT 1:10!4
-  xml_id: n40001010004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:10!4
+    wordID: n40001010004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 59
-  ref: MAT 1:10!5
-  xml_id: n40001010005
-  unicode: Μανασσῆ
+  text: Μανασσῆ
   lemma: Μανασσῆ
   normalized: Μανασσῆ
-  class: noun
-  morph: N-ASM
-  gloss: Manasseh
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3128'
-  domain: 093001
-  ln: 93.251b
+  ids:
+    ref: MAT 1:10!5
+    wordID: n40001010005
+  translation:
+    gloss: Manasseh
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '3128'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.251b
 - position: 60
-  ref: MAT 1:10!7
-  xml_id: n40001010007
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:10!7
+    wordID: n40001010007
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 61
-  ref: MAT 1:10!6
-  xml_id: n40001010006
-  unicode: Μανασσῆς
+  text: Μανασσῆς
   lemma: Μανασσῆ
   normalized: Μανασσῆς
-  class: noun
-  morph: N-NSM
-  gloss: Manasseh
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3128'
-  domain: 093001
-  ln: 93.251b
-  role: s
+  ids:
+    ref: MAT 1:10!6
+    wordID: n40001010006
+  translation:
+    gloss: Manasseh
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '3128'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.251b
+  syntax:
+    role: s
 - position: 62
-  ref: MAT 1:10!8
-  xml_id: n40001010008
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:10!8
+    wordID: n40001010008
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001010006 A1:n40001010010
 - position: 63
-  ref: MAT 1:10!9
-  xml_id: n40001010009
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:10!9
+    wordID: n40001010009
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 64
-  ref: MAT 1:10!10
-  xml_id: n40001010010
-  unicode: Ἀμώς
+  text: Ἀμώς
   lemma: Ἀμώς
   normalized: Ἀμώς
-  class: noun
-  morph: N-PRI
-  gloss: Amos
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '301'
-  domain: 093001
-  ln: 93.23a
+  ids:
+    ref: MAT 1:10!10
+    wordID: n40001010010
+  translation:
+    gloss: Amos
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '301'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.23a
 - position: 65
-  ref: MAT 1:10!12
-  xml_id: n40001010012
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:10!12
+    wordID: n40001010012
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 66
-  ref: MAT 1:10!11
-  xml_id: n40001010011
-  unicode: Ἀμὼς
+  text: Ἀμὼς
   lemma: Ἀμώς
   normalized: Ἀμώς
-  class: noun
-  morph: N-PRI
-  gloss: Amos
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '301'
-  domain: 093001
-  ln: 93.23a
-  role: s
+  ids:
+    ref: MAT 1:10!11
+    wordID: n40001010011
+  translation:
+    gloss: Amos
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '301'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.23a
+  syntax:
+    role: s
 - position: 67
-  ref: MAT 1:10!13
-  xml_id: n40001010013
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:10!13
+    wordID: n40001010013
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001010011 A1:n40001010015
 - position: 68
-  ref: MAT 1:10!14
-  xml_id: n40001010014
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:10!14
+    wordID: n40001010014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 69
-  ref: MAT 1:10!15
-  xml_id: n40001010015
-  unicode: Ἰωσείαν
+  text: Ἰωσείαν
   lemma: Ἰωσίας
   normalized: Ἰωσείαν
-  class: noun
-  morph: N-ASM
-  gloss: Josiah
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2502'
-  domain: 093001
-  ln: '93.204'
+  ids:
+    ref: MAT 1:10!15
+    wordID: n40001010015
+  translation:
+    gloss: Josiah
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2502'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.204'
 - position: 70
-  ref: MAT 1:11!2
-  xml_id: n40001011002
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 1:11!2
+    wordID: n40001011002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
 - position: 71
-  ref: MAT 1:11!1
-  xml_id: n40001011001
-  unicode: Ἰωσείας
+  text: Ἰωσείας
   lemma: Ἰωσίας
   normalized: Ἰωσείας
-  class: noun
-  morph: N-NSM
-  gloss: Josiah
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2502'
-  domain: 093001
-  ln: '93.204'
-  role: s
+  ids:
+    ref: MAT 1:11!1
+    wordID: n40001011001
+  translation:
+    gloss: Josiah
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2502'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.204'
+  syntax:
+    role: s
 - position: 72
-  ref: MAT 1:11!3
-  xml_id: n40001011003
-  unicode: ἐγέννησεν
+  text: ἐγέννησεν
   lemma: γεννάω
   normalized: ἐγέννησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: begat
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1080'
-  domain: '023003'
-  ln: '23.58'
-  role: v
+  ids:
+    ref: MAT 1:11!3
+    wordID: n40001011003
+  translation:
+    gloss: begat
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.58'
+  syntax:
+    role: v
+    frame: A0:n40001011001 A1:n40001011005;n40001011008
 - position: 73
-  ref: MAT 1:11!4
-  xml_id: n40001011004
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:11!4
+    wordID: n40001011004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 74
-  ref: MAT 1:11!5
-  xml_id: n40001011005
-  unicode: Ἰεχονίαν
+  text: Ἰεχονίαν
   lemma: Ἰεχονίας
   normalized: Ἰεχονίαν
-  class: noun
-  morph: N-ASM
-  gloss: Jechoniah
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2423'
-  domain: 093001
-  ln: '93.168'
+  ids:
+    ref: MAT 1:11!5
+    wordID: n40001011005
+  translation:
+    gloss: Jechoniah
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2423'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.168'
 - position: 75
-  ref: MAT 1:11!6
-  xml_id: n40001011006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 1:11!6
+    wordID: n40001011006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 76
-  ref: MAT 1:11!7
-  xml_id: n40001011007
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:11!7
+    wordID: n40001011007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 77
-  ref: MAT 1:11!8
-  xml_id: n40001011008
-  unicode: ἀδελφοὺς
+  text: ἀδελφοὺς
   lemma: ἀδελφός
   normalized: ἀδελφούς
-  class: noun
-  morph: N-APM
-  gloss: brothers
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '80'
-  domain: '010003'
-  ln: '10.49'
+  ids:
+    ref: MAT 1:11!8
+    wordID: n40001011008
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '010003'
+    ln: '10.49'
 - position: 78
-  ref: MAT 1:11!9
-  xml_id: n40001011009
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 1:11!9
+    wordID: n40001011009
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40001011005
 - position: 79
-  ref: MAT 1:11!10
-  xml_id: n40001011010
-  unicode: ἐπὶ
+  text: ἐπὶ
   lemma: ἐπί
   normalized: ἐπί
-  class: prep
-  morph: PREP
-  gloss: at [the time]
-  strong: '1909'
-  domain: '067002'
-  ln: '67.33'
+  ids:
+    ref: MAT 1:11!10
+    wordID: n40001011010
+  translation:
+    gloss: at [the time]
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
 - position: 80
-  ref: MAT 1:11!11
-  xml_id: n40001011011
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: of the
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 1:11!11
+    wordID: n40001011011
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 81
-  ref: MAT 1:11!12
-  xml_id: n40001011012
-  unicode: μετοικεσίας
+  text: μετοικεσίας
   lemma: μετοικεσία
   normalized: μετοικεσίας
-  class: noun
-  morph: N-GSF
-  gloss: carrying away
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3350'
-  domain: 085005
-  ln: '85.83'
+  ids:
+    ref: MAT 1:11!12
+    wordID: n40001011012
+  translation:
+    gloss: carrying away
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3350'
+  semantic:
+    semanticDomain: 085005
+    ln: '85.83'
 - position: 82
-  ref: MAT 1:11!13
-  xml_id: n40001011013
-  unicode: Βαβυλῶνος
+  text: Βαβυλῶνος
   lemma: Βαβυλών
   normalized: Βαβυλῶνος
-  class: noun
-  morph: N-GSF
-  gloss: to Babylon
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '897'
-  domain: 093002
-  ln: '93.420'
-syntax:
-  word_order: S-V-O-ADV
+  ids:
+    ref: MAT 1:11!13
+    wordID: n40001011013
+  translation:
+    gloss: to Babylon
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '897'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.420'

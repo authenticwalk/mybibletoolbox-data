@@ -1,499 +1,675 @@
-verse:
-  reference: MAT 11:27
-  book_code: MAT
-  chapter: 11
-  verse: 27
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Πάντα μοι παρεδόθη ὑπὸ τοῦ Πατρός μου, καὶ οὐδεὶς ἐπιγινώσκει τὸν Υἱὸν
-    εἰ μὴ ὁ Πατήρ, οὐδὲ τὸν Πατέρα τις ἐπιγινώσκει εἰ μὴ ὁ Υἱὸς καὶ ᾧ ἐὰν βούληται
-    ὁ Υἱὸς ἀποκαλύψαι.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 11:27
+text: Πάντα μοι παρεδόθη ὑπὸ τοῦ Πατρός μου, καὶ οὐδεὶς ἐπιγινώσκει τὸν Υἱὸν εἰ μὴ
+  ὁ Πατήρ, οὐδὲ τὸν Πατέρα τις ἐπιγινώσκει εἰ μὴ ὁ Υἱὸς καὶ ᾧ ἐὰν βούληται ὁ Υἱὸς
+  ἀποκαλύψαι.
 words:
 - position: 1
-  ref: MAT 11:27!1
-  xml_id: n40011027001
-  unicode: Πάντα
+  text: Πάντα
   lemma: πᾶς
   normalized: Πάντα
-  class: adj
-  morph: A-NPN
-  gloss: All things
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '3956'
-  domain: '063001'
-  ln: '63.2'
-  role: s
+  ids:
+    ref: MAT 11:27!1
+    wordID: n40011027001
+  translation:
+    gloss: All things
+  morphology:
+    class: adj
+    morph: A-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.2'
+  syntax:
+    role: s
 - position: 2
-  ref: MAT 11:27!2
-  xml_id: n40011027002
-  unicode: μοι
+  text: μοι
   lemma: ἐγώ
   normalized: μοι
-  class: pron
-  morph: P-1DS
-  gloss: to Me
-  number: singular
-  case: dative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: io
+  ids:
+    ref: MAT 11:27!2
+    wordID: n40011027002
+  translation:
+    gloss: to Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n40011025007
 - position: 3
-  ref: MAT 11:27!3
-  xml_id: n40011027003
-  unicode: παρεδόθη
+  text: παρεδόθη
   lemma: παραδίδωμι
   normalized: παρεδόθη
-  class: verb
-  morph: V-API-3S
-  gloss: have been delivered
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '3860'
-  domain: 057008
-  ln: '57.77'
-  role: v
+  ids:
+    ref: MAT 11:27!3
+    wordID: n40011027003
+  translation:
+    gloss: have been delivered
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.77'
+  syntax:
+    role: v
+    frame: A1:n40011027001 A2:n40011027002
 - position: 4
-  ref: MAT 11:27!4
-  xml_id: n40011027004
-  unicode: ὑπὸ
+  text: ὑπὸ
   lemma: ὑπό
   normalized: ὑπό
-  class: prep
-  morph: PREP
-  gloss: by
-  strong: '5259'
-  domain: 090001
-  ln: '90.1'
+  ids:
+    ref: MAT 11:27!4
+    wordID: n40011027004
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.1'
 - position: 5
-  ref: MAT 11:27!5
-  xml_id: n40011027005
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:27!5
+    wordID: n40011027005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 11:27!6
-  xml_id: n40011027006
-  unicode: Πατρός
+  text: Πατρός
   lemma: πατήρ
   normalized: Πατρός
-  class: noun
-  morph: N-GSM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 11:27!6
+    wordID: n40011027006
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 7
-  ref: MAT 11:27!7
-  xml_id: n40011027007
-  unicode: μου
+  text: μου
   lemma: ἐγώ
   normalized: μου
-  class: pron
-  morph: P-1GS
-  gloss: of Me
-  number: singular
-  case: genitive
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
+  ids:
+    ref: MAT 11:27!7
+    wordID: n40011027007
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40011025007
 - position: 8
-  ref: MAT 11:27!8
-  xml_id: n40011027008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 11:27!8
+    wordID: n40011027008
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 11:27!9
-  xml_id: n40011027009
-  unicode: οὐδεὶς
+  text: οὐδεὶς
   lemma: οὐδείς
   normalized: οὐδείς
-  class: adj
-  morph: A-NSM-N
-  gloss: no one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3762'
-  domain: 092004
-  ln: '92.23'
-  role: s
+  ids:
+    ref: MAT 11:27!9
+    wordID: n40011027009
+  translation:
+    gloss: no one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
 - position: 10
-  ref: MAT 11:27!10
-  xml_id: n40011027010
-  unicode: ἐπιγινώσκει
+  text: ἐπιγινώσκει
   lemma: ἐπιγινώσκω
   normalized: ἐπιγινώσκει
-  class: verb
-  morph: V-PAI-3S
-  gloss: knows
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1921'
-  domain: 028001
-  ln: '28.2'
-  role: v
+  ids:
+    ref: MAT 11:27!10
+    wordID: n40011027010
+  translation:
+    gloss: knows
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1921'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.2'
+  syntax:
+    role: v
+    frame: A0:n40011027009 A1:n40011027012
 - position: 11
-  ref: MAT 11:27!11
-  xml_id: n40011027011
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:27!11
+    wordID: n40011027011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 11:27!12
-  xml_id: n40011027012
-  unicode: Υἱὸν
+  text: Υἱὸν
   lemma: υἱός
   normalized: Υἱόν
-  class: noun
-  morph: N-ASM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 11:27!12
+    wordID: n40011027012
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 13
-  ref: MAT 11:27!13
-  xml_id: n40011027013
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1487'
-  domain: 089023
-  ln: '89.131'
+  ids:
+    ref: MAT 11:27!13
+    wordID: n40011027013
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.131'
 - position: 14
-  ref: MAT 11:27!14
-  xml_id: n40011027014
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 11:27!14
+    wordID: n40011027014
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 15
-  ref: MAT 11:27!15
-  xml_id: n40011027015
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:27!15
+    wordID: n40011027015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 16
-  ref: MAT 11:27!16
-  xml_id: n40011027016
-  unicode: Πατήρ
+  text: Πατήρ
   lemma: πατήρ
   normalized: Πατήρ
-  class: noun
-  morph: N-NSM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 11:27!16
+    wordID: n40011027016
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 17
-  ref: MAT 11:27!17
-  xml_id: n40011027017
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 11:27!17
+    wordID: n40011027017
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 18
-  ref: MAT 11:27!18
-  xml_id: n40011027018
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:27!18
+    wordID: n40011027018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 19
-  ref: MAT 11:27!19
-  xml_id: n40011027019
-  unicode: Πατέρα
+  text: Πατέρα
   lemma: πατήρ
   normalized: Πατέρα
-  class: noun
-  morph: N-ASM
-  gloss: Father
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3962'
-  domain: '012001'
-  ln: '12.12'
+  ids:
+    ref: MAT 11:27!19
+    wordID: n40011027019
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
 - position: 20
-  ref: MAT 11:27!20
-  xml_id: n40011027020
-  unicode: τις
+  text: τις
   lemma: τὶς
   normalized: τις
-  class: pron
-  morph: X-NSM
-  gloss: anyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5100'
-  domain: 092004
-  ln: '92.12'
-  role: s
+  ids:
+    ref: MAT 11:27!20
+    wordID: n40011027020
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
 - position: 21
-  ref: MAT 11:27!21
-  xml_id: n40011027021
-  unicode: ἐπιγινώσκει
+  text: ἐπιγινώσκει
   lemma: ἐπιγινώσκω
   normalized: ἐπιγινώσκει
-  class: verb
-  morph: V-PAI-3S
-  gloss: does know
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1921'
-  domain: 028001
-  ln: '28.2'
-  role: v
+  ids:
+    ref: MAT 11:27!21
+    wordID: n40011027021
+  translation:
+    gloss: does know
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1921'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.2'
+  syntax:
+    role: v
+    frame: A1:n40011027019 A0:n40011027020
 - position: 22
-  ref: MAT 11:27!22
-  xml_id: n40011027022
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1487'
-  domain: 089023
-  ln: '89.131'
+  ids:
+    ref: MAT 11:27!22
+    wordID: n40011027022
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.131'
 - position: 23
-  ref: MAT 11:27!23
-  xml_id: n40011027023
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 11:27!23
+    wordID: n40011027023
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 24
-  ref: MAT 11:27!24
-  xml_id: n40011027024
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:27!24
+    wordID: n40011027024
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 25
-  ref: MAT 11:27!25
-  xml_id: n40011027025
-  unicode: Υἱὸς
+  text: Υἱὸς
   lemma: υἱός
   normalized: Υἱός
-  class: noun
-  morph: N-NSM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 11:27!25
+    wordID: n40011027025
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 26
-  ref: MAT 11:27!26
-  xml_id: n40011027026
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 11:27!26
+    wordID: n40011027026
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 27
-  ref: MAT 11:27!28
-  xml_id: n40011027028
-  unicode: ἐὰν
+  text: ἐὰν
   lemma: ἐάν
   normalized: ἐάν
-  class: ptcl
-  morph: COND
-  gloss: if
-  strong: '1437'
-  domain: '071001'
-  ln: '71.8'
+  ids:
+    ref: MAT 11:27!28
+    wordID: n40011027028
+  translation:
+    gloss: if
+  morphology:
+    class: ptcl
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
 - position: 28
-  ref: MAT 11:27!27
-  xml_id: n40011027027
-  unicode: ᾧ
+  text: ᾧ
   lemma: ὅς
   normalized: ᾧ
-  class: pron
-  morph: R-DSM
-  gloss: to whom
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: io
+  ids:
+    ref: MAT 11:27!27
+    wordID: n40011027027
+  translation:
+    gloss: to whom
+  morphology:
+    class: pron
+    morph: R-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: io
 - position: 29
-  ref: MAT 11:27!32
-  xml_id: n40011027032
-  unicode: ἀποκαλύψαι
+  text: ἀποκαλύψαι
   lemma: ἀποκαλύπτω
   normalized: ἀποκαλύψαι
-  class: verb
-  morph: V-AAN
-  gloss: to reveal [Him]
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '601'
-  domain: 028003
-  ln: '28.38'
-  role: v
+  ids:
+    ref: MAT 11:27!32
+    wordID: n40011027032
+  translation:
+    gloss: to reveal [Him]
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '601'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.38'
+  syntax:
+    role: v
+    frame: A0:n40011027031 A1:n40011027019 A2:n40011027027
+    discontinuous: 'true'
+  discourse:
+    subject: n40011027031
 - position: 30
-  ref: MAT 11:27!29
-  xml_id: n40011027029
-  unicode: βούληται
+  text: βούληται
   lemma: βούλομαι
   normalized: βούληται
-  class: verb
-  morph: V-PNS-3S
-  gloss: might choose
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: subjunctive
-  strong: '1014'
-  domain: '030004'
-  ln: '30.56'
-  role: v
+  ids:
+    ref: MAT 11:27!29
+    wordID: n40011027029
+  translation:
+    gloss: might choose
+  morphology:
+    class: verb
+    morph: V-PNS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: subjunctive
+  lexical:
+    strong: '1014'
+  semantic:
+    semanticDomain: '030004'
+    ln: '30.56'
+  syntax:
+    role: v
+    frame: A1:n40011027032 A0:n40011027031
 - position: 31
-  ref: MAT 11:27!30
-  xml_id: n40011027030
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 11:27!30
+    wordID: n40011027030
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 32
-  ref: MAT 11:27!31
-  xml_id: n40011027031
-  unicode: Υἱὸς
+  text: Υἱὸς
   lemma: υἱός
   normalized: Υἱός
-  class: noun
-  morph: N-NSM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
-syntax:
-  word_order: S-IO-V-ADV
+  ids:
+    ref: MAT 11:27!31
+    wordID: n40011027031
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'

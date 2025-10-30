@@ -1,265 +1,355 @@
-verse:
-  reference: MAT 21:35
-  book_code: MAT
-  chapter: 21
-  verse: 35
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ λαβόντες οἱ γεωργοὶ τοὺς δούλους αὐτοῦ ὃν μὲν ἔδειραν, ὃν δὲ ἀπέκτειναν,
-    ὃν δὲ ἐλιθοβόλησαν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 21:35
+text: καὶ λαβόντες οἱ γεωργοὶ τοὺς δούλους αὐτοῦ ὃν μὲν ἔδειραν, ὃν δὲ ἀπέκτειναν,
+  ὃν δὲ ἐλιθοβόλησαν.
 words:
 - position: 1
-  ref: MAT 21:35!1
-  xml_id: n40021035001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 21:35!1
+    wordID: n40021035001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 21:35!2
-  xml_id: n40021035002
-  unicode: λαβόντες
+  text: λαβόντες
   lemma: λαμβάνω
   normalized: λαβόντες
-  class: verb
-  morph: V-2AAP-NPM
-  gloss: having taken
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '2983'
-  domain: 018001
-  ln: '18.1'
-  role: v
+  ids:
+    ref: MAT 21:35!2
+    wordID: n40021035002
+  translation:
+    gloss: having taken
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.1'
+  syntax:
+    role: v
+    frame: A0:n40021035004 A1:n40021035006
 - position: 3
-  ref: MAT 21:35!3
-  xml_id: n40021035003
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:35!3
+    wordID: n40021035003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 21:35!4
-  xml_id: n40021035004
-  unicode: γεωργοὶ
+  text: γεωργοὶ
   lemma: γεωργός
   normalized: γεωργοί
-  class: noun
-  morph: N-NPM
-  gloss: farmers
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '1092'
-  domain: '043'
-  ln: '43.2'
+  ids:
+    ref: MAT 21:35!4
+    wordID: n40021035004
+  translation:
+    gloss: farmers
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '1092'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.2'
 - position: 5
-  ref: MAT 21:35!5
-  xml_id: n40021035005
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 21:35!5
+    wordID: n40021035005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 21:35!6
-  xml_id: n40021035006
-  unicode: δούλους
+  text: δούλους
   lemma: δοῦλος (II)
   normalized: δούλους
-  class: noun
-  morph: N-APM
-  gloss: servants
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '1401'
-  domain: 087005
-  ln: '87.76'
+  ids:
+    ref: MAT 21:35!6
+    wordID: n40021035006
+  translation:
+    gloss: servants
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1401'
+  semantic:
+    semanticDomain: 087005
+    ln: '87.76'
 - position: 7
-  ref: MAT 21:35!7
-  xml_id: n40021035007
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 21:35!7
+    wordID: n40021035007
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40021033004
 - position: 8
-  ref: MAT 21:35!9
-  xml_id: n40021035009
-  unicode: μὲν
+  text: μὲν
   lemma: μέν
   normalized: μέν
-  class: conj
-  morph: PRT
-  gloss: '-'
-  strong: '3303'
-  domain: 089017
-  ln: '89.104'
+  ids:
+    ref: MAT 21:35!9
+    wordID: n40021035009
+  translation:
+    gloss: '-'
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '3303'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.104'
+  syntax:
+    discontinuous: 'true'
 - position: 9
-  ref: MAT 21:35!8
-  xml_id: n40021035008
-  unicode: ὃν
+  text: ὃν
   lemma: ὅς
   normalized: ὅν
-  class: pron
-  morph: R-ASM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3739'
-  role: o
+  ids:
+    ref: MAT 21:35!8
+    wordID: n40021035008
+  translation:
+    gloss: one
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
 - position: 10
-  ref: MAT 21:35!10
-  xml_id: n40021035010
-  unicode: ἔδειραν
+  text: ἔδειραν
   lemma: δέρω
   normalized: ἔδειραν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they beat
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1194'
-  domain: 019001
-  ln: '19.2'
-  role: v
+  ids:
+    ref: MAT 21:35!10
+    wordID: n40021035010
+  translation:
+    gloss: they beat
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1194'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.2'
+  syntax:
+    role: v
+    frame: A0:n40021035004 A1:n40021035008
+  discourse:
+    subject: n40021035004
 - position: 11
-  ref: MAT 21:35!12
-  xml_id: n40021035012
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089017
-  ln: '89.104'
+  ids:
+    ref: MAT 21:35!12
+    wordID: n40021035012
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.104'
+  syntax:
+    discontinuous: 'true'
 - position: 12
-  ref: MAT 21:35!11
-  xml_id: n40021035011
-  unicode: ὃν
+  text: ὃν
   lemma: ὅς
   normalized: ὅν
-  class: pron
-  morph: R-ASM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3739'
-  role: o
+  ids:
+    ref: MAT 21:35!11
+    wordID: n40021035011
+  translation:
+    gloss: one
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
 - position: 13
-  ref: MAT 21:35!13
-  xml_id: n40021035013
-  unicode: ἀπέκτειναν
+  text: ἀπέκτειναν
   lemma: ἀποκτείνω
   normalized: ἀπέκτειναν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they killed
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '615'
-  domain: '020004'
-  ln: '20.61'
-  role: v
+  ids:
+    ref: MAT 21:35!13
+    wordID: n40021035013
+  translation:
+    gloss: they killed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '615'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.61'
+  syntax:
+    role: v
+    frame: A0:n40021035004 A1:n40021035011
+  discourse:
+    subject: n40021035004
 - position: 14
-  ref: MAT 21:35!15
-  xml_id: n40021035015
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089017
-  ln: '89.104'
+  ids:
+    ref: MAT 21:35!15
+    wordID: n40021035015
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.104'
+  syntax:
+    discontinuous: 'true'
 - position: 15
-  ref: MAT 21:35!14
-  xml_id: n40021035014
-  unicode: ὃν
+  text: ὃν
   lemma: ὅς
   normalized: ὅν
-  class: pron
-  morph: R-ASM
-  gloss: one
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3739'
-  role: o
+  ids:
+    ref: MAT 21:35!14
+    wordID: n40021035014
+  translation:
+    gloss: one
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
 - position: 16
-  ref: MAT 21:35!16
-  xml_id: n40021035016
-  unicode: ἐλιθοβόλησαν
+  text: ἐλιθοβόλησαν
   lemma: λιθοβολέω
   normalized: ἐλιθοβόλησαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they stoned
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3036'
-  domain: '020004'
-  ln: '20.79'
-  role: v
-syntax:
-  word_order: V-S-O
+  ids:
+    ref: MAT 21:35!16
+    wordID: n40021035016
+  translation:
+    gloss: they stoned
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3036'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.79'
+  syntax:
+    role: v
+    frame: A0:n40021035004 A1:n40021035014
+  discourse:
+    subject: n40021035004

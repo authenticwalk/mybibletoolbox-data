@@ -1,111 +1,126 @@
-verse:
-  reference: MAT 18:7
-  book_code: MAT
-  chapter: 18
-  verse: 7
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Οὐαὶ τῷ κόσμῳ ἀπὸ τῶν σκανδάλων·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:7
+text: Οὐαὶ τῷ κόσμῳ ἀπὸ τῶν σκανδάλων·
 words:
 - position: 1
-  ref: MAT 18:7!1
-  xml_id: n40018007001
-  unicode: Οὐαὶ
+  text: Οὐαὶ
   lemma: οὐαί
   normalized: Οὐαί
-  class: ptcl
-  morph: INJ
-  gloss: Woe
-  strong: '3759'
-  domain: '022001'
-  ln: '22.9'
-  role: s
+  ids:
+    ref: MAT 18:7!1
+    wordID: n40018007001
+  translation:
+    gloss: Woe
+  morphology:
+    class: ptcl
+    morph: INJ
+  lexical:
+    strong: '3759'
+  semantic:
+    semanticDomain: '022001'
+    ln: '22.9'
+  syntax:
+    role: s
 - position: 2
-  ref: MAT 18:7!2
-  xml_id: n40018007002
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSM
-  gloss: to the
-  gender: masculine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:7!2
+    wordID: n40018007002
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 18:7!3
-  xml_id: n40018007003
-  unicode: κόσμῳ
+  text: κόσμῳ
   lemma: κόσμος
   normalized: κόσμῳ
-  class: noun
-  morph: N-DSM
-  gloss: world
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '2889'
-  domain: 009001
-  ln: '9.23'
+  ids:
+    ref: MAT 18:7!3
+    wordID: n40018007003
+  translation:
+    gloss: world
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2889'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.23'
 - position: 4
-  ref: MAT 18:7!4
-  xml_id: n40018007004
-  unicode: ἀπὸ
+  text: ἀπὸ
   lemma: ἀπό
   normalized: ἀπό
-  class: prep
-  morph: PREP
-  gloss: because of
-  strong: '575'
-  domain: 089007
-  ln: '89.25'
+  ids:
+    ref: MAT 18:7!4
+    wordID: n40018007004
+  translation:
+    gloss: because of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.25'
 - position: 5
-  ref: MAT 18:7!5
-  xml_id: n40018007005
-  unicode: τῶν
+  text: τῶν
   lemma: ὁ
   normalized: τῶν
-  class: det
-  morph: T-GPN
-  gloss: the
-  gender: neuter
-  number: plural
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:7!5
+    wordID: n40018007005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 18:7!6
-  xml_id: n40018007006
-  unicode: σκανδάλων
+  text: σκανδάλων
   lemma: σκάνδαλον
   normalized: σκανδάλων
-  class: noun
-  morph: N-GPN
-  gloss: causes of sin
-  gender: neuter
-  number: plural
-  case: genitive
-  strong: '4625'
-  domain: 088038
-  ln: '88.306'
-syntax:
-  word_order: S-IO-ADV
+  ids:
+    ref: MAT 18:7!6
+    wordID: n40018007006
+  translation:
+    gloss: causes of sin
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '4625'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.306'

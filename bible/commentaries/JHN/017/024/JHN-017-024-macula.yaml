@@ -1,0 +1,626 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 17:24
+text: Πατήρ, ὃ δέδωκάς μοι, θέλω ἵνα ὅπου εἰμὶ ἐγὼ κἀκεῖνοι ὦσιν μετ’ ἐμοῦ, ἵνα θεωρῶσιν
+  τὴν δόξαν τὴν ἐμὴν, ἣν δέδωκάς μοι ὅτι ἠγάπησάς με πρὸ καταβολῆς κόσμου.
+words:
+- position: 1
+  text: Πατήρ
+  lemma: πατήρ
+  normalized: Πατήρ
+  ids:
+    ref: JHN 17:24!1
+    wordID: n43017024001
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  syntax:
+    role: aux
+- position: 2
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: JHN 17:24!2
+    wordID: n43017024002
+  translation:
+    gloss: '[those] whom'
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 3
+  text: δέδωκάς
+  lemma: δίδωμι
+  normalized: δέδωκας
+  ids:
+    ref: JHN 17:24!3
+    wordID: n43017024003
+  translation:
+    gloss: You have given
+  morphology:
+    class: verb
+    morph: V-RAI-2S
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:n43017024001 A1:n43017024002 A2:n43017024004
+  discourse:
+    subject: n43017024001
+- position: 4
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: JHN 17:24!4
+    wordID: n43017024004
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n43017001003
+- position: 5
+  text: θέλω
+  lemma: θέλω
+  normalized: θέλω
+  ids:
+    ref: JHN 17:24!5
+    wordID: n43017024005
+  translation:
+    gloss: I desire
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n43017001003
+  discourse:
+    subject: n43017001003
+- position: 6
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: JHN 17:24!6
+    wordID: n43017024006
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.22'
+- position: 7
+  text: ὅπου
+  lemma: ὅπου
+  normalized: ὅπου
+  ids:
+    ref: JHN 17:24!7
+    wordID: n43017024007
+  translation:
+    gloss: where
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '3699'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.5'
+  syntax:
+    role: p
+- position: 8
+  text: εἰμὶ
+  lemma: εἰμί
+  normalized: εἰμί
+  ids:
+    ref: JHN 17:24!8
+    wordID: n43017024008
+  translation:
+    gloss: am
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.1'
+  syntax:
+    role: vc
+- position: 9
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: JHN 17:24!9
+    wordID: n43017024009
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43017001003
+- position: 10
+  text: κἀκεῖνοι
+  lemma: κἀκεῖνος
+  normalized: κἀκεῖνοι
+  ids:
+    ref: JHN 17:24!10
+    wordID: n43017024010
+  translation:
+    gloss: they also
+  morphology:
+    class: pron
+    morph: D-NPM-K
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '2548'
+  semantic:
+    semanticDomain: 089017 092007
+    ln: 89.93 92.30
+  syntax:
+    role: s
+  discourse:
+    referent: n43017024003
+- position: 11
+  text: ὦσιν
+  lemma: εἰμί
+  normalized: ὦσιν
+  ids:
+    ref: JHN 17:24!11
+    wordID: n43017024011
+  translation:
+    gloss: may be
+  morphology:
+    class: verb
+    morph: V-PAS-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: 085001
+    ln: '85.1'
+  syntax:
+    role: vc
+- position: 12
+  text: μετ’
+  lemma: μετά
+  normalized: μετ’
+  ids:
+    ref: JHN 17:24!12
+    wordID: n43017024012
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.108'
+- position: 13
+  text: ἐμοῦ
+  lemma: ἐγώ
+  normalized: ἐμοῦ
+  ids:
+    ref: JHN 17:24!13
+    wordID: n43017024013
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n43017001003
+- position: 14
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: JHN 17:24!14
+    wordID: n43017024014
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 15
+  text: θεωρῶσιν
+  lemma: θεωρέω
+  normalized: θεωρῶσιν
+  ids:
+    ref: JHN 17:24!15
+    wordID: n43017024015
+  translation:
+    gloss: they may behold
+  morphology:
+    class: verb
+    morph: V-PAS-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2334'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.14'
+  syntax:
+    role: v
+    frame: A0:n43017024003 A1:n43017024017
+  discourse:
+    subject: n43017024003
+- position: 16
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: JHN 17:24!16
+    wordID: n43017024016
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 17
+  text: δόξαν
+  lemma: δόξα
+  normalized: δόξαν
+  ids:
+    ref: JHN 17:24!17
+    wordID: n43017024017
+  translation:
+    gloss: glory
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1391'
+  semantic:
+    semanticDomain: 014006 079005
+    ln: 14.49 79.18
+- position: 18
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: JHN 17:24!18
+    wordID: n43017024018
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: ἐμὴν
+  lemma: ἐμός
+  normalized: ἐμήν
+  ids:
+    ref: JHN 17:24!19
+    wordID: n43017024019
+  translation:
+    gloss: My
+  morphology:
+    class: adj
+    morph: S-1SASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: possessive
+  lexical:
+    strong: '1699'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.2'
+  discourse:
+    referent: n43017001003
+- position: 20
+  text: ἣν
+  lemma: ὅς
+  normalized: ἥν
+  ids:
+    ref: JHN 17:24!20
+    wordID: n43017024020
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n43017024017
+- position: 21
+  text: δέδωκάς
+  lemma: δίδωμι
+  normalized: δέδωκας
+  ids:
+    ref: JHN 17:24!21
+    wordID: n43017024021
+  translation:
+    gloss: You gave
+  morphology:
+    class: verb
+    morph: V-RAI-2S
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:n43017024001 A1:n43017024020 A2:n43017024022
+  discourse:
+    subject: n43017024001
+- position: 22
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: JHN 17:24!22
+    wordID: n43017024022
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n43017001003
+- position: 23
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: JHN 17:24!23
+    wordID: n43017024023
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 24
+  text: ἠγάπησάς
+  lemma: ἀγαπάω
+  normalized: ἠγάπησας
+  ids:
+    ref: JHN 17:24!24
+    wordID: n43017024024
+  translation:
+    gloss: You loved
+  morphology:
+    class: verb
+    morph: V-AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n43017024001 A1:n43017024025
+  discourse:
+    subject: n43017024001
+- position: 25
+  text: με
+  lemma: ἐγώ
+  normalized: με
+  ids:
+    ref: JHN 17:24!25
+    wordID: n43017024025
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n43017001003
+- position: 26
+  text: πρὸ
+  lemma: πρό
+  normalized: πρό
+  ids:
+    ref: JHN 17:24!26
+    wordID: n43017024026
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4253'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.17'
+- position: 27
+  text: καταβολῆς
+  lemma: καταβολή
+  normalized: καταβολῆς
+  ids:
+    ref: JHN 17:24!27
+    wordID: n43017024027
+  translation:
+    gloss: '[the] foundation'
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2602'
+  semantic:
+    semanticDomain: '042003'
+    ln: '42.37'
+- position: 28
+  text: κόσμου
+  lemma: κόσμος
+  normalized: κόσμου
+  ids:
+    ref: JHN 17:24!28
+    wordID: n43017024028
+  translation:
+    gloss: of [the] world
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2889'
+  semantic:
+    semanticDomain: '001001'
+    ln: '1.1'

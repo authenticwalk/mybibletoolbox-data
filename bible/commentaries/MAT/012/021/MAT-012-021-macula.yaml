@@ -1,116 +1,136 @@
-verse:
-  reference: MAT 12:21
-  book_code: MAT
-  chapter: 12
-  verse: 21
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ τῷ ὀνόματι αὐτοῦ ἔθνη ἐλπιοῦσιν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:21
+text: καὶ τῷ ὀνόματι αὐτοῦ ἔθνη ἐλπιοῦσιν.
 words:
 - position: 1
-  ref: MAT 12:21!1
-  xml_id: n40012021001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 12:21!1
+    wordID: n40012021001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 2
-  ref: MAT 12:21!2
-  xml_id: n40012021002
-  unicode: τῷ
+  text: τῷ
   lemma: ὁ
   normalized: τῷ
-  class: det
-  morph: T-DSN
-  gloss: in the
-  gender: neuter
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 12:21!2
+    wordID: n40012021002
+  translation:
+    gloss: in the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 3
-  ref: MAT 12:21!3
-  xml_id: n40012021003
-  unicode: ὀνόματι
+  text: ὀνόματι
   lemma: ὄνομα
   normalized: ὀνόματι
-  class: noun
-  morph: N-DSN
-  gloss: name
-  gender: neuter
-  number: singular
-  case: dative
-  strong: '3686'
-  domain: 033009
-  ln: '33.126'
+  ids:
+    ref: MAT 12:21!3
+    wordID: n40012021003
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
 - position: 4
-  ref: MAT 12:21!4
-  xml_id: n40012021004
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 12:21!4
+    wordID: n40012021004
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012018003
 - position: 5
-  ref: MAT 12:21!5
-  xml_id: n40012021005
-  unicode: ἔθνη
+  text: ἔθνη
   lemma: ἔθνος
   normalized: ἔθνη
-  class: noun
-  morph: N-NPN
-  gloss: '[the] Gentiles'
-  gender: neuter
-  number: plural
-  case: nominative
-  strong: '1484'
-  domain: '011002'
-  ln: '11.37'
-  role: s
+  ids:
+    ref: MAT 12:21!5
+    wordID: n40012021005
+  translation:
+    gloss: '[the] Gentiles'
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '1484'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.37'
+  syntax:
+    role: s
 - position: 6
-  ref: MAT 12:21!6
-  xml_id: n40012021006
-  unicode: ἐλπιοῦσιν
+  text: ἐλπιοῦσιν
   lemma: ἐλπίζω
   normalized: ἐλπιοῦσιν
-  class: verb
-  morph: V-FAI-3P-ATT
-  gloss: will hope
-  number: plural
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '1679'
-  domain: '025004'
-  ln: '25.59'
-  role: v
-syntax:
-  word_order: O-S-V
+  ids:
+    ref: MAT 12:21!6
+    wordID: n40012021006
+  translation:
+    gloss: will hope
+  morphology:
+    class: verb
+    morph: V-FAI-3P-ATT
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1679'
+  semantic:
+    semanticDomain: '025004'
+    ln: '25.59'
+  syntax:
+    role: v
+    frame: A1:n40012021003 A0:n40012021005

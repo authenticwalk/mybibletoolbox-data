@@ -1,359 +1,491 @@
-verse:
-  reference: MAT 26:67
-  book_code: MAT
-  chapter: 26
-  verse: 67
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: MAT 26:68 Τότε ἐνέπτυσαν εἰς τὸ πρόσωπον αὐτοῦ καὶ ἐκολάφισαν αὐτόν, οἱ
-    δὲ ἐράπισαν λέγοντες Προφήτευσον ἡμῖν, Χριστέ, τίς ἐστιν ὁ παίσας σε;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:67
+text: MAT 26:68 Τότε ἐνέπτυσαν εἰς τὸ πρόσωπον αὐτοῦ καὶ ἐκολάφισαν αὐτόν, οἱ δὲ ἐράπισαν
+  λέγοντες Προφήτευσον ἡμῖν, Χριστέ, τίς ἐστιν ὁ παίσας σε;
 words:
 - position: 1
-  ref: MAT 26:67!1
-  xml_id: n40026067001
-  unicode: Τότε
+  text: Τότε
   lemma: τότε
   normalized: Τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 26:67!1
+    wordID: n40026067001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 26:67!2
-  xml_id: n40026067002
-  unicode: ἐνέπτυσαν
+  text: ἐνέπτυσαν
   lemma: ἐμπτύω
   normalized: ἐνέπτυσαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they spat
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '1716'
-  domain: '023002'
-  ln: '23.43'
-  role: v
+  ids:
+    ref: MAT 26:67!2
+    wordID: n40026067002
+  translation:
+    gloss: they spat
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1716'
+  semantic:
+    semanticDomain: '023002'
+    ln: '23.43'
+  syntax:
+    role: v
+    frame: A0:n40026059003;n40026059006
+  discourse:
+    subject: n40026059003 n40026059006
 - position: 3
-  ref: MAT 26:67!3
-  xml_id: n40026067003
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '1519'
-  domain: 084002
-  ln: '84.16'
+  ids:
+    ref: MAT 26:67!3
+    wordID: n40026067003
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.16'
 - position: 4
-  ref: MAT 26:67!4
-  xml_id: n40026067004
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:67!4
+    wordID: n40026067004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 26:67!5
-  xml_id: n40026067005
-  unicode: πρόσωπον
+  text: πρόσωπον
   lemma: πρόσωπον
   normalized: πρόσωπον
-  class: noun
-  morph: N-ASN
-  gloss: face
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '4383'
-  domain: 008002
-  ln: '8.18'
+  ids:
+    ref: MAT 26:67!5
+    wordID: n40026067005
+  translation:
+    gloss: face
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4383'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.18'
 - position: 6
-  ref: MAT 26:67!6
-  xml_id: n40026067006
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 26:67!6
+    wordID: n40026067006
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40026064004
 - position: 7
-  ref: MAT 26:67!7
-  xml_id: n40026067007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 26:67!7
+    wordID: n40026067007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 8
-  ref: MAT 26:67!8
-  xml_id: n40026067008
-  unicode: ἐκολάφισαν
+  text: ἐκολάφισαν
   lemma: κολαφίζω
   normalized: ἐκολάφισαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: struck
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2852'
-  domain: 019001
-  ln: '19.7'
-  role: v
+  ids:
+    ref: MAT 26:67!8
+    wordID: n40026067008
+  translation:
+    gloss: struck
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2852'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.7'
+  syntax:
+    role: v
+    frame: A0:n40026059003;n40026059006 A1:n40026067009
+  discourse:
+    subject: n40026059003 n40026059006
 - position: 9
-  ref: MAT 26:67!9
-  xml_id: n40026067009
-  unicode: αὐτόν
+  text: αὐτόν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 26:67!9
+    wordID: n40026067009
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40026064004
 - position: 10
-  ref: MAT 26:67!11
-  xml_id: n40026067011
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: then
-  strong: '1161'
-  domain: 089017
-  ln: '89.94'
+  ids:
+    ref: MAT 26:67!11
+    wordID: n40026067011
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
 - position: 11
-  ref: MAT 26:67!10
-  xml_id: n40026067010
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: Others
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
-  role: s
+  ids:
+    ref: MAT 26:67!10
+    wordID: n40026067010
+  translation:
+    gloss: Others
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
 - position: 12
-  ref: MAT 26:67!12
-  xml_id: n40026067012
-  unicode: ἐράπισαν
+  text: ἐράπισαν
   lemma: ῥαπίζω
   normalized: ἐράπισαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: slapped [Him]
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '4474'
-  domain: 019001
-  ln: '19.4'
-  role: v
+  ids:
+    ref: MAT 26:67!12
+    wordID: n40026067012
+  translation:
+    gloss: slapped [Him]
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4474'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.4'
+  syntax:
+    role: v
+    frame: A0:n40026067010
 - position: 13
-  ref: MAT 26:68!1
-  xml_id: n40026068001
-  unicode: λέγοντες
+  text: λέγοντες
   lemma: λέγω
   normalized: λέγοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: saying
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 26:68!1
+    wordID: n40026068001
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026067010
+  discourse:
+    subject: n40026067010
 - position: 14
-  ref: MAT 26:68!2
-  xml_id: n40026068002
-  unicode: Προφήτευσον
+  text: Προφήτευσον
   lemma: προφητεύω
   normalized: Προφήτευσον
-  class: verb
-  morph: V-AAM-2S
-  gloss: Prophesy
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: imperative
-  strong: '4395'
-  domain: '033053'
-  ln: '33.459'
-  role: v
+  ids:
+    ref: MAT 26:68!2
+    wordID: n40026068002
+  translation:
+    gloss: Prophesy
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4395'
+  semantic:
+    semanticDomain: '033053'
+    ln: '33.459'
+  syntax:
+    role: v
+    frame: A0:n40026068004 A1:n00000000000 A2:n40026068003
+  discourse:
+    subject: n40026068004
 - position: 15
-  ref: MAT 26:68!3
-  xml_id: n40026068003
-  unicode: ἡμῖν
+  text: ἡμῖν
   lemma: ἐγώ
   normalized: ἡμῖν
-  class: pron
-  morph: P-1DP
-  gloss: to us
-  number: plural
-  case: dative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
-  role: io
+  ids:
+    ref: MAT 26:68!3
+    wordID: n40026068003
+  translation:
+    gloss: to us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: io
+  discourse:
+    referent: n40026059003 n40026059006 n40026067010 n40026065003
 - position: 16
-  ref: MAT 26:68!4
-  xml_id: n40026068004
-  unicode: Χριστέ
+  text: Χριστέ
   lemma: Χριστός
   normalized: Χριστέ
-  class: noun
-  morph: N-VSM
-  gloss: Christ
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '5547'
-  domain: 053009
-  ln: '53.82'
-  role: aux
+  ids:
+    ref: MAT 26:68!4
+    wordID: n40026068004
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.82'
+  syntax:
+    role: aux
 - position: 17
-  ref: MAT 26:68!5
-  xml_id: n40026068005
-  unicode: τίς
+  text: τίς
   lemma: τίς
   normalized: τίς
-  class: pron
-  morph: I-NSM
-  gloss: who
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5101'
-  domain: 092004
-  ln: '92.14'
-  role: p
+  ids:
+    ref: MAT 26:68!5
+    wordID: n40026068005
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: I-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: p
 - position: 18
-  ref: MAT 26:68!6
-  xml_id: n40026068006
-  unicode: ἐστιν
+  text: ἐστιν
   lemma: εἰμί
   normalized: ἐστιν
-  class: verb
-  morph: V-PAI-3S
-  gloss: is
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '1510'
-  domain: '013001'
-  ln: '13.4'
-  role: vc
+  ids:
+    ref: MAT 26:68!6
+    wordID: n40026068006
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
 - position: 19
-  ref: MAT 26:68!7
-  xml_id: n40026068007
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 26:68!7
+    wordID: n40026068007
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 20
-  ref: MAT 26:68!8
-  xml_id: n40026068008
-  unicode: παίσας
+  text: παίσας
   lemma: παίω
   normalized: παίσας
-  class: verb
-  morph: V-AAP-NSM
-  gloss: having struck
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '3817'
-  domain: 019001
-  ln: '19.1'
-  role: v
+  ids:
+    ref: MAT 26:68!8
+    wordID: n40026068008
+  translation:
+    gloss: having struck
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3817'
+  semantic:
+    semanticDomain: 019001
+    ln: '19.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40026068009
 - position: 21
-  ref: MAT 26:68!9
-  xml_id: n40026068009
-  unicode: σε
+  text: σε
   lemma: σύ
   normalized: σε
-  class: pron
-  morph: P-2AS
-  gloss: You
-  number: singular
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: o
-syntax:
-  word_order: ADV-V-ADV
+  ids:
+    ref: MAT 26:68!9
+    wordID: n40026068009
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40026068004

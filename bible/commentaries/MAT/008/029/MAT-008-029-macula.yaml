@@ -1,277 +1,374 @@
-verse:
-  reference: MAT 8:29
-  book_code: MAT
-  chapter: 8
-  verse: 29
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ἰδοὺ ἔκραξαν λέγοντες Τί ἡμῖν καὶ σοί, Υἱὲ τοῦ Θεοῦ; ἦλθες ὧδε πρὸ
-    καιροῦ βασανίσαι ἡμᾶς;
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:29
+text: καὶ ἰδοὺ ἔκραξαν λέγοντες Τί ἡμῖν καὶ σοί, Υἱὲ τοῦ Θεοῦ; ἦλθες ὧδε πρὸ καιροῦ
+  βασανίσαι ἡμᾶς;
 words:
 - position: 1
-  ref: MAT 8:29!1
-  xml_id: n40008029001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 8:29!1
+    wordID: n40008029001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 8:29!2
-  xml_id: n40008029002
-  unicode: ἰδοὺ
+  text: ἰδοὺ
   lemma: ὁράω
   normalized: ἰδού
-  class: verb
-  morph: V-2AMM-2S
-  gloss: behold
-  number: singular
-  person: second
-  tense: aorist
-  voice: middle
-  mood: imperative
-  strong: '3708'
-  domain: 091003
-  ln: '91.13'
-  role: aux
+  ids:
+    ref: MAT 8:29!2
+    wordID: n40008029002
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
 - position: 3
-  ref: MAT 8:29!3
-  xml_id: n40008029003
-  unicode: ἔκραξαν
+  text: ἔκραξαν
   lemma: κράζω
   normalized: ἔκραξαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they cried out
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2896'
-  domain: '033006'
-  ln: '33.83'
-  role: v
+  ids:
+    ref: MAT 8:29!3
+    wordID: n40008029003
+  translation:
+    gloss: they cried out
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2896'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.83'
+  syntax:
+    role: v
+    frame: A0:n40008028015
+  discourse:
+    subject: n40008028015
 - position: 4
-  ref: MAT 8:29!4
-  xml_id: n40008029004
-  unicode: λέγοντες
+  text: λέγοντες
   lemma: λέγω
   normalized: λέγοντες
-  class: verb
-  morph: V-PAP-NPM
-  gloss: saying
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: present
-  voice: active
-  mood: participle
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 8:29!4
+    wordID: n40008029004
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40008028015
+  discourse:
+    subject: n40008028015
 - position: 5
-  ref: MAT 8:29!5
-  xml_id: n40008029005
-  unicode: Τί
+  text: Τί
   lemma: τίς
   normalized: Τί
-  class: pron
-  morph: I-NSN
-  gloss: What
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '5101'
-  role: s
+  ids:
+    ref: MAT 8:29!5
+    wordID: n40008029005
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  syntax:
+    role: s
 - position: 6
-  ref: MAT 8:29!6
-  xml_id: n40008029006
-  unicode: ἡμῖν
+  text: ἡμῖν
   lemma: ἐγώ
   normalized: ἡμῖν
-  class: pron
-  morph: P-1DP
-  gloss: to us
-  number: plural
-  case: dative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
+  ids:
+    ref: MAT 8:29!6
+    wordID: n40008029006
+  translation:
+    gloss: to us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n40008028015
 - position: 7
-  ref: MAT 8:29!7
-  xml_id: n40008029007
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
+  ids:
+    ref: MAT 8:29!7
+    wordID: n40008029007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 8
-  ref: MAT 8:29!8
-  xml_id: n40008029008
-  unicode: σοί
+  text: σοί
   lemma: σύ
   normalized: σοί
-  class: pron
-  morph: P-2DS
-  gloss: to you
-  number: singular
-  case: dative
-  strong: '4771'
+  ids:
+    ref: MAT 8:29!8
+    wordID: n40008029008
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n40008029009
 - position: 9
-  ref: MAT 8:29!9
-  xml_id: n40008029009
-  unicode: Υἱὲ
+  text: Υἱὲ
   lemma: υἱός
   normalized: Υἱέ
-  class: noun
-  morph: N-VSM
-  gloss: Son
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '5207'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 8:29!9
+    wordID: n40008029009
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 10
-  ref: MAT 8:29!10
-  xml_id: n40008029010
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: '-'
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 8:29!10
+    wordID: n40008029010
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 11
-  ref: MAT 8:29!11
-  xml_id: n40008029011
-  unicode: Θεοῦ
+  text: Θεοῦ
   lemma: θεός
   normalized: Θεοῦ
-  class: noun
-  morph: N-GSM
-  gloss: of God
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2316'
-  domain: '012001'
-  ln: '12.15'
+  ids:
+    ref: MAT 8:29!11
+    wordID: n40008029011
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
 - position: 12
-  ref: MAT 8:29!12
-  xml_id: n40008029012
-  unicode: ἦλθες
+  text: ἦλθες
   lemma: ἔρχομαι
   normalized: ἦλθες
-  class: verb
-  morph: V-2AAI-2S
-  gloss: Are You come
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2064'
-  domain: '015006'
-  ln: '15.81'
-  role: v
+  ids:
+    ref: MAT 8:29!12
+    wordID: n40008029012
+  translation:
+    gloss: Are You come
+  morphology:
+    class: verb
+    morph: V-2AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n40008029009
+  discourse:
+    subject: n40008029009
 - position: 13
-  ref: MAT 8:29!13
-  xml_id: n40008029013
-  unicode: ὧδε
+  text: ὧδε
   lemma: ὧδε
   normalized: ὧδε
-  class: adv
-  morph: ADV
-  gloss: here
-  strong: '5602'
-  domain: 083001
-  ln: '83.1'
-  role: adv
+  ids:
+    ref: MAT 8:29!13
+    wordID: n40008029013
+  translation:
+    gloss: here
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5602'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.1'
+  syntax:
+    role: adv
 - position: 14
-  ref: MAT 8:29!14
-  xml_id: n40008029014
-  unicode: πρὸ
+  text: πρὸ
   lemma: πρό
   normalized: πρό
-  class: prep
-  morph: PREP
-  gloss: before [the]
-  strong: '4253'
-  domain: '067002'
-  ln: '67.17'
+  ids:
+    ref: MAT 8:29!14
+    wordID: n40008029014
+  translation:
+    gloss: before [the]
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4253'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.17'
 - position: 15
-  ref: MAT 8:29!15
-  xml_id: n40008029015
-  unicode: καιροῦ
+  text: καιροῦ
   lemma: καιρός
   normalized: καιροῦ
-  class: noun
-  morph: N-GSM
-  gloss: time
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2540'
-  domain: '067001'
-  ln: '67.1'
+  ids:
+    ref: MAT 8:29!15
+    wordID: n40008029015
+  translation:
+    gloss: time
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2540'
+  semantic:
+    semanticDomain: '067001'
+    ln: '67.1'
 - position: 16
-  ref: MAT 8:29!16
-  xml_id: n40008029016
-  unicode: βασανίσαι
+  text: βασανίσαι
   lemma: βασανίζω
   normalized: βασανίσαι
-  class: verb
-  morph: V-AAN
-  gloss: to torment
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '928'
-  domain: 038001
-  ln: '38.13'
-  role: v
+  ids:
+    ref: MAT 8:29!16
+    wordID: n40008029016
+  translation:
+    gloss: to torment
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '928'
+  semantic:
+    semanticDomain: 038001
+    ln: '38.13'
+  syntax:
+    role: v
+    frame: A0:n40008029009 A1:n40008029017
+  discourse:
+    subject: n40008029009
 - position: 17
-  ref: MAT 8:29!17
-  xml_id: n40008029017
-  unicode: ἡμᾶς
+  text: ἡμᾶς
   lemma: ἐγώ
   normalized: ἡμᾶς
-  class: pron
-  morph: P-1AP
-  gloss: us
-  number: plural
-  case: accusative
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
-  role: o
-syntax:
-  word_order: V-ADV-ADV-ADV
+  ids:
+    ref: MAT 8:29!17
+    wordID: n40008029017
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: o
+  discourse:
+    referent: n40008028015

@@ -1,275 +1,362 @@
-verse:
-  reference: MAT 18:34
-  book_code: MAT
-  chapter: 18
-  verse: 34
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ ὀργισθεὶς ὁ κύριος αὐτοῦ παρέδωκεν αὐτὸν τοῖς βασανισταῖς ἕως οὗ ἀποδῷ
-    πᾶν τὸ ὀφειλόμενον αὐτῷ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:34
+text: καὶ ὀργισθεὶς ὁ κύριος αὐτοῦ παρέδωκεν αὐτὸν τοῖς βασανισταῖς ἕως οὗ ἀποδῷ πᾶν
+  τὸ ὀφειλόμενον αὐτῷ.
 words:
 - position: 1
-  ref: MAT 18:34!1
-  xml_id: n40018034001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 18:34!1
+    wordID: n40018034001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 18:34!2
-  xml_id: n40018034002
-  unicode: ὀργισθεὶς
+  text: ὀργισθεὶς
   lemma: ὀργίζω
   normalized: ὀργισθείς
-  class: verb
-  morph: V-APP-NSM
-  gloss: having been angry
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '3710'
-  domain: 088024
-  ln: '88.174'
-  role: v
+  ids:
+    ref: MAT 18:34!2
+    wordID: n40018034002
+  translation:
+    gloss: having been angry
+  morphology:
+    class: verb
+    morph: V-APP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3710'
+  semantic:
+    semanticDomain: 088024
+    ln: '88.174'
+  syntax:
+    role: v
+    frame: A1:n40018034004
+  discourse:
+    subject: n40018034004
 - position: 3
-  ref: MAT 18:34!3
-  xml_id: n40018034003
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:34!3
+    wordID: n40018034003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 18:34!4
-  xml_id: n40018034004
-  unicode: κύριος
+  text: κύριος
   lemma: κύριος
   normalized: κύριος
-  class: noun
-  morph: N-NSM
-  gloss: master
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2962'
-  domain: '057001'
-  ln: '57.12'
+  ids:
+    ref: MAT 18:34!4
+    wordID: n40018034004
+  translation:
+    gloss: master
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.12'
 - position: 5
-  ref: MAT 18:34!5
-  xml_id: n40018034005
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 18:34!5
+    wordID: n40018034005
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40018028004
 - position: 6
-  ref: MAT 18:34!6
-  xml_id: n40018034006
-  unicode: παρέδωκεν
+  text: παρέδωκεν
   lemma: παραδίδωμι
   normalized: παρέδωκεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: delivered
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3860'
-  domain: '037007'
-  ln: '37.111'
-  role: v
+  ids:
+    ref: MAT 18:34!6
+    wordID: n40018034006
+  translation:
+    gloss: delivered
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: '037007'
+    ln: '37.111'
+  syntax:
+    role: v
+    frame: A0:n40018034004 A1:n40018034007 A2:n40018034009
 - position: 7
-  ref: MAT 18:34!7
-  xml_id: n40018034007
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 18:34!7
+    wordID: n40018034007
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40018028004
 - position: 8
-  ref: MAT 18:34!8
-  xml_id: n40018034008
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: to the
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:34!8
+    wordID: n40018034008
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 18:34!9
-  xml_id: n40018034009
-  unicode: βασανισταῖς
+  text: βασανισταῖς
   lemma: βασανιστής
   normalized: βασανισταῖς
-  class: noun
-  morph: N-DPM
-  gloss: jailers
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '930'
-  domain: 037009
-  ln: '37.126'
+  ids:
+    ref: MAT 18:34!9
+    wordID: n40018034009
+  translation:
+    gloss: jailers
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '930'
+  semantic:
+    semanticDomain: 037009
+    ln: '37.126'
 - position: 10
-  ref: MAT 18:34!10
-  xml_id: n40018034010
-  unicode: ἕως
+  text: ἕως
   lemma: ἕως
   normalized: ἕως
-  class: prep
-  morph: ADV
-  gloss: until
-  strong: '2193'
-  domain: '067006'
-  ln: '67.119'
+  ids:
+    ref: MAT 18:34!10
+    wordID: n40018034010
+  translation:
+    gloss: until
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
 - position: 11
-  ref: MAT 18:34!11
-  xml_id: n40018034011
-  unicode: οὗ
+  text: οὗ
   lemma: ὅς
   normalized: οὗ
-  class: pron
-  morph: R-GSM
-  gloss: that
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3739'
-  role: adv
+  ids:
+    ref: MAT 18:34!11
+    wordID: n40018034011
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 18:34!12
-  xml_id: n40018034012
-  unicode: ἀποδῷ
+  text: ἀποδῷ
   lemma: ἀποδίδωμι
   normalized: ἀποδῷ
-  class: verb
-  morph: V-2AAS-3S
-  gloss: he should pay
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '591'
-  domain: '057012'
-  ln: '57.153'
-  role: v
+  ids:
+    ref: MAT 18:34!12
+    wordID: n40018034012
+  translation:
+    gloss: he should pay
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '591'
+  semantic:
+    semanticDomain: '057012'
+    ln: '57.153'
+  syntax:
+    role: v
+    frame: A0:n40018028004 A1:n40018034015
+  discourse:
+    subject: n40018028004
 - position: 13
-  ref: MAT 18:34!13
-  xml_id: n40018034013
-  unicode: πᾶν
+  text: πᾶν
   lemma: πᾶς
   normalized: πᾶν
-  class: adj
-  morph: A-ASN
-  gloss: all
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3956'
-  domain: 059003
-  ln: '59.23'
+  ids:
+    ref: MAT 18:34!13
+    wordID: n40018034013
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
 - position: 14
-  ref: MAT 18:34!14
-  xml_id: n40018034014
-  unicode: τὸ
+  text: τὸ
   lemma: ὁ
   normalized: τό
-  class: det
-  morph: T-ASN
-  gloss: '-'
-  gender: neuter
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:34!14
+    wordID: n40018034014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 18:34!15
-  xml_id: n40018034015
-  unicode: ὀφειλόμενον
+  text: ὀφειλόμενον
   lemma: ὀφείλω
   normalized: ὀφειλόμενον
-  class: verb
-  morph: V-PPP-ASN
-  gloss: being owed
-  gender: neuter
-  number: singular
-  case: accusative
-  tense: present
-  voice: passive
-  mood: participle
-  strong: '3784'
-  domain: 057018
-  ln: '57.219'
-  role: v
+  ids:
+    ref: MAT 18:34!15
+    wordID: n40018034015
+  translation:
+    gloss: being owed
+  morphology:
+    class: verb
+    morph: V-PPP-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3784'
+  semantic:
+    semanticDomain: 057018
+    ln: '57.219'
+  syntax:
+    role: v
+    frame: A1:n40018024010 A2:n40018034016
+  discourse:
+    subject: n40018024010
 - position: 16
-  ref: MAT 18:34!16
-  xml_id: n40018034016
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  role: io
-syntax:
-  word_order: ADV-S-V-O-IO-ADV
+  ids:
+    ref: MAT 18:34!16
+    wordID: n40018034016
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  syntax:
+    role: io

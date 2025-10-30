@@ -1,322 +1,439 @@
-verse:
-  reference: MAT 18:32
-  book_code: MAT
-  chapter: 18
-  verse: 32
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: τότε προσκαλεσάμενος αὐτὸν ὁ κύριος αὐτοῦ λέγει αὐτῷ Δοῦλε πονηρέ, πᾶσαν
-    τὴν ὀφειλὴν ἐκείνην ἀφῆκά σοι, ἐπεὶ παρεκάλεσάς με·
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:32
+text: τότε προσκαλεσάμενος αὐτὸν ὁ κύριος αὐτοῦ λέγει αὐτῷ Δοῦλε πονηρέ, πᾶσαν τὴν
+  ὀφειλὴν ἐκείνην ἀφῆκά σοι, ἐπεὶ παρεκάλεσάς με·
 words:
 - position: 1
-  ref: MAT 18:32!1
-  xml_id: n40018032001
-  unicode: τότε
+  text: τότε
   lemma: τότε
   normalized: τότε
-  class: adv
-  morph: ADV
-  gloss: Then
-  strong: '5119'
-  domain: '067002'
-  ln: '67.47'
-  role: adv
+  ids:
+    ref: MAT 18:32!1
+    wordID: n40018032001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
 - position: 2
-  ref: MAT 18:32!2
-  xml_id: n40018032002
-  unicode: προσκαλεσάμενος
+  text: προσκαλεσάμενος
   lemma: προσκαλέω
   normalized: προσκαλεσάμενος
-  class: verb
-  morph: V-ADP-NSM
-  gloss: having called to
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: aorist
-  voice: middle
-  mood: participle
-  strong: '4341'
-  domain: 033029
-  ln: '33.308'
-  role: v
+  ids:
+    ref: MAT 18:32!2
+    wordID: n40018032002
+  translation:
+    gloss: having called to
+  morphology:
+    class: verb
+    morph: V-ADP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '4341'
+  semantic:
+    semanticDomain: 033029
+    ln: '33.308'
+  syntax:
+    role: v
+    frame: A0:n40018032005 A1:n40018032003
+  discourse:
+    subject: n40018032005
 - position: 3
-  ref: MAT 18:32!3
-  xml_id: n40018032003
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 18:32!3
+    wordID: n40018032003
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40018028004
 - position: 4
-  ref: MAT 18:32!4
-  xml_id: n40018032004
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:32!4
+    wordID: n40018032004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 5
-  ref: MAT 18:32!5
-  xml_id: n40018032005
-  unicode: κύριος
+  text: κύριος
   lemma: κύριος
   normalized: κύριος
-  class: noun
-  morph: N-NSM
-  gloss: master
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '2962'
-  domain: '057001'
-  ln: '57.12'
+  ids:
+    ref: MAT 18:32!5
+    wordID: n40018032005
+  translation:
+    gloss: master
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.12'
 - position: 6
-  ref: MAT 18:32!6
-  xml_id: n40018032006
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 18:32!6
+    wordID: n40018032006
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40018028004
 - position: 7
-  ref: MAT 18:32!7
-  xml_id: n40018032007
-  unicode: λέγει
+  text: λέγει
   lemma: λέγω
   normalized: λέγει
-  class: verb
-  morph: V-PAI-3S
-  gloss: says
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 18:32!7
+    wordID: n40018032007
+  translation:
+    gloss: says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40018032005 A2:n40018032008
 - position: 8
-  ref: MAT 18:32!8
-  xml_id: n40018032008
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 18:32!8
+    wordID: n40018032008
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40018028004
 - position: 9
-  ref: MAT 18:32!9
-  xml_id: n40018032009
-  unicode: Δοῦλε
+  text: Δοῦλε
   lemma: δοῦλος (II)
   normalized: Δοῦλε
-  class: noun
-  morph: N-VSM
-  gloss: Servant
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '1401'
-  domain: 087005
-  ln: '87.76'
+  ids:
+    ref: MAT 18:32!9
+    wordID: n40018032009
+  translation:
+    gloss: Servant
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '1401'
+  semantic:
+    semanticDomain: 087005
+    ln: '87.76'
 - position: 10
-  ref: MAT 18:32!10
-  xml_id: n40018032010
-  unicode: πονηρέ
+  text: πονηρέ
   lemma: πονηρός
   normalized: πονηρέ
-  class: adj
-  morph: A-VSM
-  gloss: evil
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '4190'
-  domain: 088015
-  ln: '88.110'
+  ids:
+    ref: MAT 18:32!10
+    wordID: n40018032010
+  translation:
+    gloss: evil
+  morphology:
+    class: adj
+    morph: A-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+  lexical:
+    strong: '4190'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.110'
 - position: 11
-  ref: MAT 18:32!11
-  xml_id: n40018032011
-  unicode: πᾶσαν
+  text: πᾶσαν
   lemma: πᾶς
   normalized: πᾶσαν
-  class: adj
-  morph: A-ASF
-  gloss: all
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3956'
-  domain: '063001'
-  ln: '63.2'
+  ids:
+    ref: MAT 18:32!11
+    wordID: n40018032011
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.2'
 - position: 12
-  ref: MAT 18:32!12
-  xml_id: n40018032012
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 18:32!12
+    wordID: n40018032012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 18:32!13
-  xml_id: n40018032013
-  unicode: ὀφειλὴν
+  text: ὀφειλὴν
   lemma: ὀφειλή
   normalized: ὀφειλήν
-  class: noun
-  morph: N-ASF
-  gloss: debt
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '3782'
-  domain: 057018
-  ln: '57.221'
+  ids:
+    ref: MAT 18:32!13
+    wordID: n40018032013
+  translation:
+    gloss: debt
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3782'
+  semantic:
+    semanticDomain: 057018
+    ln: '57.221'
 - position: 14
-  ref: MAT 18:32!14
-  xml_id: n40018032014
-  unicode: ἐκείνην
+  text: ἐκείνην
   lemma: ἐκεῖνος
   normalized: ἐκείνην
-  class: pron
-  morph: D-ASF
-  gloss: that
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '1565'
-  domain: 092007
-  ln: '92.30'
+  ids:
+    ref: MAT 18:32!14
+    wordID: n40018032014
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: D-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  discourse:
+    referent: n40018024010
 - position: 15
-  ref: MAT 18:32!15
-  xml_id: n40018032015
-  unicode: ἀφῆκά
+  text: ἀφῆκά
   lemma: ἀφίημι
   normalized: ἀφῆκα
-  class: verb
-  morph: V-AAI-1S
-  gloss: I forgave
-  number: singular
-  person: first
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '863'
-  domain: 057018
-  ln: '57.223'
-  role: v
+  ids:
+    ref: MAT 18:32!15
+    wordID: n40018032015
+  translation:
+    gloss: I forgave
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: 057018
+    ln: '57.223'
+  syntax:
+    role: v
+    frame: A0:n40018032005 A1:n40018032013 A2:n40018032016
+  discourse:
+    subject: n40018032005
 - position: 16
-  ref: MAT 18:32!16
-  xml_id: n40018032016
-  unicode: σοι
+  text: σοι
   lemma: σύ
   normalized: σοι
-  class: pron
-  morph: P-2DS
-  gloss: you
-  number: singular
-  case: dative
-  strong: '4771'
-  domain: 092003
-  ln: '92.6'
-  role: io
+  ids:
+    ref: MAT 18:32!16
+    wordID: n40018032016
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n40018032009
 - position: 17
-  ref: MAT 18:32!17
-  xml_id: n40018032017
-  unicode: ἐπεὶ
+  text: ἐπεὶ
   lemma: ἐπεί
   normalized: ἐπεί
-  class: conj
-  morph: CONJ
-  gloss: because
-  strong: '1893'
-  domain: 089007
-  ln: '89.32'
+  ids:
+    ref: MAT 18:32!17
+    wordID: n40018032017
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1893'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.32'
 - position: 18
-  ref: MAT 18:32!18
-  xml_id: n40018032018
-  unicode: παρεκάλεσάς
+  text: παρεκάλεσάς
   lemma: παρακαλέω
   normalized: παρεκάλεσας
-  class: verb
-  morph: V-AAI-2S
-  gloss: you begged
-  number: singular
-  person: second
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '3870'
-  domain: '033012'
-  ln: '33.168'
-  role: v
+  ids:
+    ref: MAT 18:32!18
+    wordID: n40018032018
+  translation:
+    gloss: you begged
+  morphology:
+    class: verb
+    morph: V-AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3870'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.168'
+  syntax:
+    role: v
+    frame: A0:n40018032009 A1:n40018032019
+  discourse:
+    subject: n40018032009
 - position: 19
-  ref: MAT 18:32!19
-  xml_id: n40018032019
-  unicode: με
+  text: με
   lemma: ἐγώ
   normalized: με
-  class: pron
-  morph: P-1AS
-  gloss: me
-  number: singular
-  case: accusative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: o
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 18:32!19
+    wordID: n40018032019
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40018032005

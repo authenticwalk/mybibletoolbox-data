@@ -1,268 +1,358 @@
-verse:
-  reference: MAT 22:46
-  book_code: MAT
-  chapter: 22
-  verse: 46
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ οὐδεὶς ἐδύνατο ἀποκριθῆναι αὐτῷ λόγον, οὐδὲ ἐτόλμησέν τις ἀπ’ ἐκείνης
-    τῆς ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκέτι.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:46
+text: καὶ οὐδεὶς ἐδύνατο ἀποκριθῆναι αὐτῷ λόγον, οὐδὲ ἐτόλμησέν τις ἀπ’ ἐκείνης τῆς
+  ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκέτι.
 words:
 - position: 1
-  ref: MAT 22:46!1
-  xml_id: n40022046001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 22:46!1
+    wordID: n40022046001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 22:46!2
-  xml_id: n40022046002
-  unicode: οὐδεὶς
+  text: οὐδεὶς
   lemma: οὐδείς
   normalized: οὐδείς
-  class: adj
-  morph: A-NSM-N
-  gloss: no one
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3762'
-  domain: 092004
-  ln: '92.23'
-  role: s
+  ids:
+    ref: MAT 22:46!2
+    wordID: n40022046002
+  translation:
+    gloss: no one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
 - position: 3
-  ref: MAT 22:46!3
-  xml_id: n40022046003
-  unicode: ἐδύνατο
+  text: ἐδύνατο
   lemma: δύναμαι
   normalized: ἐδύνατο
-  class: verb
-  morph: V-INI-3S
-  gloss: was able
-  number: singular
-  person: third
-  tense: imperfect
-  voice: middlepassive
-  mood: indicative
-  strong: '1410'
-  domain: '074'
-  ln: '74.5'
-  role: v
+  ids:
+    ref: MAT 22:46!3
+    wordID: n40022046003
+  translation:
+    gloss: was able
+  morphology:
+    class: verb
+    morph: V-INI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n40022046002 A1:n40022046004
 - position: 4
-  ref: MAT 22:46!4
-  xml_id: n40022046004
-  unicode: ἀποκριθῆναι
+  text: ἀποκριθῆναι
   lemma: ἀποκρίνομαι
   normalized: ἀποκριθῆναι
-  class: verb
-  morph: V-AON
-  gloss: to answer
-  tense: aorist
-  voice: passive
-  mood: infinitive
-  strong: '611'
-  domain: '033014'
-  ln: '33.184'
-  role: v
+  ids:
+    ref: MAT 22:46!4
+    wordID: n40022046004
+  translation:
+    gloss: to answer
+  morphology:
+    class: verb
+    morph: V-AON
+    tense: aorist
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n40022046002 A2:n40022046005 A1:n40022046006
+  discourse:
+    subject: n40022046002
 - position: 5
-  ref: MAT 22:46!5
-  xml_id: n40022046005
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 22:46!5
+    wordID: n40022046005
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40022041008
 - position: 6
-  ref: MAT 22:46!6
-  xml_id: n40022046006
-  unicode: λόγον
+  text: λόγον
   lemma: λόγος
   normalized: λόγον
-  class: noun
-  morph: N-ASM
-  gloss: a word
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '3056'
-  domain: '033006'
-  ln: '33.98'
-  role: o
+  ids:
+    ref: MAT 22:46!6
+    wordID: n40022046006
+  translation:
+    gloss: a word
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.98'
+  syntax:
+    role: o
 - position: 7
-  ref: MAT 22:46!7
-  xml_id: n40022046007
-  unicode: οὐδὲ
+  text: οὐδὲ
   lemma: οὐδέ
   normalized: οὐδέ
-  class: conj
-  morph: CONJ-N
-  gloss: nor
-  strong: '3761'
-  domain: 069003
-  ln: '69.7'
+  ids:
+    ref: MAT 22:46!7
+    wordID: n40022046007
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
 - position: 8
-  ref: MAT 22:46!8
-  xml_id: n40022046008
-  unicode: ἐτόλμησέν
+  text: ἐτόλμησέν
   lemma: τολμάω
   normalized: ἐτόλμησεν
-  class: verb
-  morph: V-AAI-3S
-  gloss: dared
-  number: singular
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '5111'
-  domain: '025014'
-  ln: '25.161'
-  role: v
+  ids:
+    ref: MAT 22:46!8
+    wordID: n40022046008
+  translation:
+    gloss: dared
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5111'
+  semantic:
+    semanticDomain: '025014'
+    ln: '25.161'
+  syntax:
+    role: v
+    frame: A0:n40022046009 A1:n40022046014
 - position: 9
-  ref: MAT 22:46!9
-  xml_id: n40022046009
-  unicode: τις
+  text: τις
   lemma: τὶς
   normalized: τις
-  class: pron
-  morph: X-NSM
-  gloss: anyone
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '5100'
-  domain: 092004
-  ln: '92.12'
-  role: s
+  ids:
+    ref: MAT 22:46!9
+    wordID: n40022046009
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
 - position: 10
-  ref: MAT 22:46!10
-  xml_id: n40022046010
-  unicode: ἀπ’
+  text: ἀπ’
   lemma: ἀπό
   normalized: ἀπ’
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: '067006'
-  ln: '67.131'
+  ids:
+    ref: MAT 22:46!10
+    wordID: n40022046010
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.131'
 - position: 11
-  ref: MAT 22:46!11
-  xml_id: n40022046011
-  unicode: ἐκείνης
+  text: ἐκείνης
   lemma: ἐκεῖνος
   normalized: ἐκείνης
-  class: pron
-  morph: D-GSF
-  gloss: that
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '1565'
-  domain: 092007
-  ln: '92.30'
+  ids:
+    ref: MAT 22:46!11
+    wordID: n40022046011
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: D-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
 - position: 12
-  ref: MAT 22:46!12
-  xml_id: n40022046012
-  unicode: τῆς
+  text: τῆς
   lemma: ὁ
   normalized: τῆς
-  class: det
-  morph: T-GSF
-  gloss: '-'
-  gender: feminine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 22:46!12
+    wordID: n40022046012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 13
-  ref: MAT 22:46!13
-  xml_id: n40022046013
-  unicode: ἡμέρας
+  text: ἡμέρας
   lemma: ἡμέρα
   normalized: ἡμέρας
-  class: noun
-  morph: N-GSF
-  gloss: day
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '2250'
-  domain: 067009
-  ln: '67.186'
+  ids:
+    ref: MAT 22:46!13
+    wordID: n40022046013
+  translation:
+    gloss: day
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2250'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.186'
 - position: 14
-  ref: MAT 22:46!14
-  xml_id: n40022046014
-  unicode: ἐπερωτῆσαι
+  text: ἐπερωτῆσαι
   lemma: ἐπερωτάω
   normalized: ἐπερωτῆσαι
-  class: verb
-  morph: V-AAN
-  gloss: to question
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '1905'
-  domain: '033014'
-  ln: '33.180'
-  role: v
+  ids:
+    ref: MAT 22:46!14
+    wordID: n40022046014
+  translation:
+    gloss: to question
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1905'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.180'
+  syntax:
+    role: v
+    frame: A0:n40022046009 A1:n40022046015
+  discourse:
+    subject: n40022046009
 - position: 15
-  ref: MAT 22:46!15
-  xml_id: n40022046015
-  unicode: αὐτὸν
+  text: αὐτὸν
   lemma: αὐτός
   normalized: αὐτόν
-  class: pron
-  morph: P-ASM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
+  ids:
+    ref: MAT 22:46!15
+    wordID: n40022046015
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40022041008
 - position: 16
-  ref: MAT 22:46!16
-  xml_id: n40022046016
-  unicode: οὐκέτι
+  text: οὐκέτι
   lemma: οὐκέτι
   normalized: οὐκέτι
-  class: adv
-  morph: ADV-N
-  gloss: no longer
-  strong: '3765'
-  domain: '067006'
-  ln: '67.130'
-  role: adv
-syntax:
-  word_order: S-V-O
+  ids:
+    ref: MAT 22:46!16
+    wordID: n40022046016
+  translation:
+    gloss: no longer
+  morphology:
+    class: adv
+    morph: ADV-N
+  lexical:
+    strong: '3765'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.130'
+  syntax:
+    role: adv

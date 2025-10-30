@@ -1,283 +1,383 @@
-verse:
-  reference: MAT 13:12
-  book_code: MAT
-  chapter: 13
-  verse: 12
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ὅστις γὰρ ἔχει, δοθήσεται αὐτῷ καὶ περισσευθήσεται· ὅστις δὲ οὐκ ἔχει,
-    καὶ ὃ ἔχει ἀρθήσεται ἀπ’ αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:12
+text: ὅστις γὰρ ἔχει, δοθήσεται αὐτῷ καὶ περισσευθήσεται· ὅστις δὲ οὐκ ἔχει, καὶ ὃ
+  ἔχει ἀρθήσεται ἀπ’ αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 13:12!2
-  xml_id: n40013012002
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 13:12!2
+    wordID: n40013012002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 13:12!1
-  xml_id: n40013012001
-  unicode: ὅστις
+  text: ὅστις
   lemma: ὅστις
   normalized: ὅστις
-  class: pron
-  morph: R-NSM
-  gloss: Whoever
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3748'
-  domain: 092004
-  ln: '92.18'
-  role: s
+  ids:
+    ref: MAT 13:12!1
+    wordID: n40013012001
+  translation:
+    gloss: Whoever
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
 - position: 3
-  ref: MAT 13:12!3
-  xml_id: n40013012003
-  unicode: ἔχει
+  text: ἔχει
   lemma: ἔχω
   normalized: ἔχει
-  class: verb
-  morph: V-PAI-3S
-  gloss: has
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2192'
-  domain: '057001'
-  ln: '57.1'
-  role: v
+  ids:
+    ref: MAT 13:12!3
+    wordID: n40013012003
+  translation:
+    gloss: has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40013012001
 - position: 4
-  ref: MAT 13:12!4
-  xml_id: n40013012004
-  unicode: δοθήσεται
+  text: δοθήσεται
   lemma: δίδωμι
   normalized: δοθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: will be given
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '1325'
-  domain: 057008
-  ln: '57.71'
-  role: v
+  ids:
+    ref: MAT 13:12!4
+    wordID: n40013012004
+  translation:
+    gloss: will be given
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n40013012005
 - position: 5
-  ref: MAT 13:12!5
-  xml_id: n40013012005
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 13:12!5
+    wordID: n40013012005
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013012003
 - position: 6
-  ref: MAT 13:12!6
-  xml_id: n40013012006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 13:12!6
+    wordID: n40013012006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 13:12!7
-  xml_id: n40013012007
-  unicode: περισσευθήσεται
+  text: περισσευθήσεται
   lemma: περισσεύω
   normalized: περισσευθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: he will be in abundance
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '4052'
-  domain: 059006
-  ln: '59.54'
-  role: v
+  ids:
+    ref: MAT 13:12!7
+    wordID: n40013012007
+  translation:
+    gloss: he will be in abundance
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4052'
+  semantic:
+    semanticDomain: 059006
+    ln: '59.54'
+  syntax:
+    role: v
+    frame: A1:n40013012003
+  discourse:
+    subject: n40013012003
 - position: 8
-  ref: MAT 13:12!9
-  xml_id: n40013012009
-  unicode: δὲ
+  text: δὲ
   lemma: δέ
   normalized: δέ
-  class: conj
-  morph: CONJ
-  gloss: now
-  strong: '1161'
-  domain: 089023
-  ln: '89.124'
+  ids:
+    ref: MAT 13:12!9
+    wordID: n40013012009
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
 - position: 9
-  ref: MAT 13:12!8
-  xml_id: n40013012008
-  unicode: ὅστις
+  text: ὅστις
   lemma: ὅστις
   normalized: ὅστις
-  class: pron
-  morph: R-NSM
-  gloss: whoever
-  gender: masculine
-  number: singular
-  case: nominative
-  strong: '3748'
-  domain: 092004
-  ln: '92.18'
-  role: s
+  ids:
+    ref: MAT 13:12!8
+    wordID: n40013012008
+  translation:
+    gloss: whoever
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
 - position: 10
-  ref: MAT 13:12!10
-  xml_id: n40013012010
-  unicode: οὐκ
+  text: οὐκ
   lemma: οὐ
   normalized: οὐκ
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3756'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 13:12!10
+    wordID: n40013012010
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 11
-  ref: MAT 13:12!11
-  xml_id: n40013012011
-  unicode: ἔχει
+  text: ἔχει
   lemma: ἔχω
   normalized: ἔχει
-  class: verb
-  morph: V-PAI-3S
-  gloss: has
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2192'
-  domain: '057001'
-  ln: '57.1'
-  role: v
+  ids:
+    ref: MAT 13:12!11
+    wordID: n40013012011
+  translation:
+    gloss: has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40013012008
 - position: 12
-  ref: MAT 13:12!12
-  xml_id: n40013012012
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: even
-  strong: '2532'
+  ids:
+    ref: MAT 13:12!12
+    wordID: n40013012012
+  translation:
+    gloss: even
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 13
-  ref: MAT 13:12!13
-  xml_id: n40013012013
-  unicode: ὃ
+  text: ὃ
   lemma: ὅς
   normalized: ὅ
-  class: pron
-  morph: R-ASN
-  gloss: what
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3739'
-  domain: 092006
-  ln: '92.27'
-  role: o
+  ids:
+    ref: MAT 13:12!13
+    wordID: n40013012013
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
 - position: 14
-  ref: MAT 13:12!14
-  xml_id: n40013012014
-  unicode: ἔχει
+  text: ἔχει
   lemma: ἔχω
   normalized: ἔχει
-  class: verb
-  morph: V-PAI-3S
-  gloss: he has
-  number: singular
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '2192'
-  domain: '057001'
-  ln: '57.1'
-  role: v
+  ids:
+    ref: MAT 13:12!14
+    wordID: n40013012014
+  translation:
+    gloss: he has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40013012011 A1:n40013012013
+  discourse:
+    subject: n40013012011
 - position: 15
-  ref: MAT 13:12!15
-  xml_id: n40013012015
-  unicode: ἀρθήσεται
+  text: ἀρθήσεται
   lemma: αἴρω
   normalized: ἀρθήσεται
-  class: verb
-  morph: V-FPI-3S
-  gloss: will be taken away
-  number: singular
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '142'
-  domain: 090014
-  ln: '90.96'
-  role: v
+  ids:
+    ref: MAT 13:12!15
+    wordID: n40013012015
+  translation:
+    gloss: will be taken away
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: 090014
+    ln: '90.96'
+  syntax:
+    role: v
+    frame: A1:n40013012014
 - position: 16
-  ref: MAT 13:12!16
-  xml_id: n40013012016
-  unicode: ἀπ’
+  text: ἀπ’
   lemma: ἀπό
   normalized: ἀπ’
-  class: prep
-  morph: PREP
-  gloss: from
-  strong: '575'
-  domain: 089021
-  ln: '89.122'
+  ids:
+    ref: MAT 13:12!16
+    wordID: n40013012016
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089021
+    ln: '89.122'
 - position: 17
-  ref: MAT 13:12!17
-  xml_id: n40013012017
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: S-V
+  ids:
+    ref: MAT 13:12!17
+    wordID: n40013012017
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40013012011

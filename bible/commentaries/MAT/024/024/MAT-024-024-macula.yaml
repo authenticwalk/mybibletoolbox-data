@@ -1,281 +1,369 @@
-verse:
-  reference: MAT 24:24
-  book_code: MAT
-  chapter: 24
-  verse: 24
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἐγερθήσονται γὰρ ψευδόχριστοι καὶ ψευδοπροφῆται, καὶ δώσουσιν σημεῖα μεγάλα
-    καὶ τέρατα ὥστε πλανῆσαι, εἰ δυνατὸν, καὶ τοὺς ἐκλεκτούς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 24:24
+text: ἐγερθήσονται γὰρ ψευδόχριστοι καὶ ψευδοπροφῆται, καὶ δώσουσιν σημεῖα μεγάλα
+  καὶ τέρατα ὥστε πλανῆσαι, εἰ δυνατὸν, καὶ τοὺς ἐκλεκτούς.
 words:
 - position: 1
-  ref: MAT 24:24!2
-  xml_id: n40024024002
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 24:24!2
+    wordID: n40024024002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 24:24!1
-  xml_id: n40024024001
-  unicode: ἐγερθήσονται
+  text: ἐγερθήσονται
   lemma: ἐγείρω
   normalized: ἐγερθήσονται
-  class: verb
-  morph: V-FPI-3P
-  gloss: There will arise
-  number: plural
-  person: third
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '1453'
-  domain: '013003'
-  ln: '13.83'
-  role: v
+  ids:
+    ref: MAT 24:24!1
+    wordID: n40024024001
+  translation:
+    gloss: There will arise
+  morphology:
+    class: verb
+    morph: V-FPI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1453'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.83'
+  syntax:
+    role: v
+    frame: A1:n40024024003;n40024024005
 - position: 3
-  ref: MAT 24:24!3
-  xml_id: n40024024003
-  unicode: ψευδόχριστοι
+  text: ψευδόχριστοι
   lemma: ψευδόχριστος
   normalized: ψευδόχριστοι
-  class: noun
-  morph: N-NPM
-  gloss: false Christs
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '5580'
-  domain: 053009
-  ln: '53.84'
+  ids:
+    ref: MAT 24:24!3
+    wordID: n40024024003
+  translation:
+    gloss: false Christs
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '5580'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.84'
 - position: 4
-  ref: MAT 24:24!4
-  xml_id: n40024024004
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 24:24!4
+    wordID: n40024024004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 5
-  ref: MAT 24:24!5
-  xml_id: n40024024005
-  unicode: ψευδοπροφῆται
+  text: ψευδοπροφῆται
   lemma: ψευδοπροφήτης
   normalized: ψευδοπροφῆται
-  class: noun
-  morph: N-NPM
-  gloss: false prophets
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '5578'
-  domain: 053009
-  ln: '53.81'
+  ids:
+    ref: MAT 24:24!5
+    wordID: n40024024005
+  translation:
+    gloss: false prophets
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '5578'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.81'
 - position: 6
-  ref: MAT 24:24!6
-  xml_id: n40024024006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 24:24!6
+    wordID: n40024024006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 7
-  ref: MAT 24:24!7
-  xml_id: n40024024007
-  unicode: δώσουσιν
+  text: δώσουσιν
   lemma: δίδωμι
   normalized: δώσουσιν
-  class: verb
-  morph: V-FAI-3P
-  gloss: they will give
-  number: plural
-  person: third
-  tense: future
-  voice: active
-  mood: indicative
-  strong: '1325'
-  domain: '013004'
-  ln: '13.128'
-  role: v
+  ids:
+    ref: MAT 24:24!7
+    wordID: n40024024007
+  translation:
+    gloss: they will give
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.128'
+  syntax:
+    role: v
+    frame: A0:n40024024003;n40024024005 A1:n40024024008;n40024024011
+  discourse:
+    subject: n40024024003 n40024024005
 - position: 8
-  ref: MAT 24:24!8
-  xml_id: n40024024008
-  unicode: σημεῖα
+  text: σημεῖα
   lemma: σημεῖον
   normalized: σημεῖα
-  class: noun
-  morph: N-APN
-  gloss: signs
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '4592'
-  domain: '033056'
-  ln: '33.477'
+  ids:
+    ref: MAT 24:24!8
+    wordID: n40024024008
+  translation:
+    gloss: signs
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4592'
+  semantic:
+    semanticDomain: '033056'
+    ln: '33.477'
 - position: 9
-  ref: MAT 24:24!9
-  xml_id: n40024024009
-  unicode: μεγάλα
+  text: μεγάλα
   lemma: μέγας
   normalized: μεγάλα
-  class: adj
-  morph: A-APN
-  gloss: great
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '3173'
-  domain: 078001 087003
-  ln: 78.2 87.22
+  ids:
+    ref: MAT 24:24!9
+    wordID: n40024024009
+  translation:
+    gloss: great
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 078001 087003
+    ln: 78.2 87.22
 - position: 10
-  ref: MAT 24:24!10
-  xml_id: n40024024010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 24:24!10
+    wordID: n40024024010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 11
-  ref: MAT 24:24!11
-  xml_id: n40024024011
-  unicode: τέρατα
+  text: τέρατα
   lemma: τέρας
   normalized: τέρατα
-  class: noun
-  morph: N-APN
-  gloss: wonders
-  gender: neuter
-  number: plural
-  case: accusative
-  strong: '5059'
-  domain: '033056'
-  ln: '33.480'
+  ids:
+    ref: MAT 24:24!11
+    wordID: n40024024011
+  translation:
+    gloss: wonders
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5059'
+  semantic:
+    semanticDomain: '033056'
+    ln: '33.480'
 - position: 12
-  ref: MAT 24:24!12
-  xml_id: n40024024012
-  unicode: ὥστε
+  text: ὥστε
   lemma: ὥστε
   normalized: ὥστε
-  class: conj
-  morph: CONJ
-  gloss: so as
-  strong: '5620'
-  domain: 089008
-  ln: '89.52'
+  ids:
+    ref: MAT 24:24!12
+    wordID: n40024024012
+  translation:
+    gloss: so as
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '5620'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.52'
 - position: 13
-  ref: MAT 24:24!13
-  xml_id: n40024024013
-  unicode: πλανῆσαι
+  text: πλανῆσαι
   lemma: πλανάω
   normalized: πλανῆσαι
-  class: verb
-  morph: V-AAN
-  gloss: to mislead
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '4105'
-  domain: '031002'
-  ln: '31.8'
-  role: v
+  ids:
+    ref: MAT 24:24!13
+    wordID: n40024024013
+  translation:
+    gloss: to mislead
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4105'
+  semantic:
+    semanticDomain: '031002'
+    ln: '31.8'
+  syntax:
+    role: v
+    frame: A0:n40024024003;n40024024005 A1:n40024024018
+  discourse:
+    subject: n40024024003 n40024024005
 - position: 14
-  ref: MAT 24:24!14
-  xml_id: n40024024014
-  unicode: εἰ
+  text: εἰ
   lemma: εἰ
   normalized: εἰ
-  class: conj
-  morph: COND
-  gloss: if
-  strong: '1487'
-  domain: 089010
-  ln: '89.65'
+  ids:
+    ref: MAT 24:24!14
+    wordID: n40024024014
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
 - position: 15
-  ref: MAT 24:24!15
-  xml_id: n40024024015
-  unicode: δυνατὸν
+  text: δυνατὸν
   lemma: δυνατός
   normalized: δυνατόν
-  class: adj
-  morph: A-NSN
-  gloss: possible
-  gender: neuter
-  number: singular
-  case: nominative
-  strong: '1415'
-  domain: '071001'
-  ln: '71.2'
-  role: p
+  ids:
+    ref: MAT 24:24!15
+    wordID: n40024024015
+  translation:
+    gloss: possible
+  morphology:
+    class: adj
+    morph: A-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1415'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.2'
+  syntax:
+    role: p
 - position: 16
-  ref: MAT 24:24!16
-  xml_id: n40024024016
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: adv
-  morph: CONJ
-  gloss: even
-  strong: '2532'
+  ids:
+    ref: MAT 24:24!16
+    wordID: n40024024016
+  translation:
+    gloss: even
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
 - position: 17
-  ref: MAT 24:24!17
-  xml_id: n40024024017
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 24:24!17
+    wordID: n40024024017
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 18
-  ref: MAT 24:24!18
-  xml_id: n40024024018
-  unicode: ἐκλεκτούς
+  text: ἐκλεκτούς
   lemma: ἐκλεκτός
   normalized: ἐκλεκτούς
-  class: adj
-  morph: A-APM
-  gloss: elect
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '1588'
-  domain: '030006'
-  ln: '30.93'
-syntax:
-  word_order: V-S
+  ids:
+    ref: MAT 24:24!18
+    wordID: n40024024018
+  translation:
+    gloss: elect
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '1588'
+  semantic:
+    semanticDomain: '030006'
+    ln: '30.93'

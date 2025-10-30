@@ -1,238 +1,312 @@
-verse:
-  reference: MAT 10:40
-  book_code: MAT
-  chapter: 10
-  verse: 40
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: Ὁ δεχόμενος ὑμᾶς ἐμὲ δέχεται, καὶ ὁ ἐμὲ δεχόμενος δέχεται τὸν ἀποστείλαντά
-    με.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:40
+text: Ὁ δεχόμενος ὑμᾶς ἐμὲ δέχεται, καὶ ὁ ἐμὲ δεχόμενος δέχεται τὸν ἀποστείλαντά με.
 words:
 - position: 1
-  ref: MAT 10:40!1
-  xml_id: n40010040001
-  unicode: Ὁ
+  text: Ὁ
   lemma: ὁ
   normalized: Ὁ
-  class: det
-  morph: T-NSM
-  gloss: The [One]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:40!1
+    wordID: n40010040001
+  translation:
+    gloss: The [One]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 2
-  ref: MAT 10:40!2
-  xml_id: n40010040002
-  unicode: δεχόμενος
+  text: δεχόμενος
   lemma: δέχομαι
   normalized: δεχόμενος
-  class: verb
-  morph: V-PNP-NSM
-  gloss: receiving
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '1209'
-  domain: '034007'
-  ln: '34.53'
-  role: v
+  ids:
+    ref: MAT 10:40!2
+    wordID: n40010040002
+  translation:
+    gloss: receiving
+  morphology:
+    class: verb
+    morph: V-PNP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1209'
+  semantic:
+    semanticDomain: '034007'
+    ln: '34.53'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40010040003
 - position: 3
-  ref: MAT 10:40!3
-  xml_id: n40010040003
-  unicode: ὑμᾶς
+  text: ὑμᾶς
   lemma: σύ
   normalized: ὑμᾶς
-  class: pron
-  morph: P-2AP
-  gloss: you
-  number: plural
-  case: accusative
-  strong: '4771'
-  domain: 092003
-  ln: '92.7'
-  role: o
+  ids:
+    ref: MAT 10:40!3
+    wordID: n40010040003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010005003
 - position: 4
-  ref: MAT 10:40!4
-  xml_id: n40010040004
-  unicode: ἐμὲ
+  text: ἐμὲ
   lemma: ἐγώ
   normalized: ἐμέ
-  class: pron
-  morph: P-1AS
-  gloss: Me
-  number: singular
-  case: accusative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: o
+  ids:
+    ref: MAT 10:40!4
+    wordID: n40010040004
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010005006
 - position: 5
-  ref: MAT 10:40!5
-  xml_id: n40010040005
-  unicode: δέχεται
+  text: δέχεται
   lemma: δέχομαι
   normalized: δέχεται
-  class: verb
-  morph: V-PNI-3S
-  gloss: receives
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1209'
-  domain: '034007'
-  ln: '34.53'
-  role: v
+  ids:
+    ref: MAT 10:40!5
+    wordID: n40010040005
+  translation:
+    gloss: receives
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1209'
+  semantic:
+    semanticDomain: '034007'
+    ln: '34.53'
+  syntax:
+    role: v
+    frame: A0:n40010040002 A1:n40010040004
 - position: 6
-  ref: MAT 10:40!6
-  xml_id: n40010040006
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 10:40!6
+    wordID: n40010040006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 7
-  ref: MAT 10:40!7
-  xml_id: n40010040007
-  unicode: ὁ
+  text: ὁ
   lemma: ὁ
   normalized: ὁ
-  class: det
-  morph: T-NSM
-  gloss: the [one]
-  gender: masculine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:40!7
+    wordID: n40010040007
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 8
-  ref: MAT 10:40!8
-  xml_id: n40010040008
-  unicode: ἐμὲ
+  text: ἐμὲ
   lemma: ἐγώ
   normalized: ἐμέ
-  class: pron
-  morph: P-1AS
-  gloss: Me
-  number: singular
-  case: accusative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: o
+  ids:
+    ref: MAT 10:40!8
+    wordID: n40010040008
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010005006
 - position: 9
-  ref: MAT 10:40!9
-  xml_id: n40010040009
-  unicode: δεχόμενος
+  text: δεχόμενος
   lemma: δέχομαι
   normalized: δεχόμενος
-  class: verb
-  morph: V-PNP-NSM
-  gloss: receiving
-  gender: masculine
-  number: singular
-  case: nominative
-  tense: present
-  voice: middlepassive
-  mood: participle
-  strong: '1209'
-  domain: '034007'
-  ln: '34.53'
-  role: v
+  ids:
+    ref: MAT 10:40!9
+    wordID: n40010040009
+  translation:
+    gloss: receiving
+  morphology:
+    class: verb
+    morph: V-PNP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1209'
+  semantic:
+    semanticDomain: '034007'
+    ln: '34.53'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40010040008
 - position: 10
-  ref: MAT 10:40!10
-  xml_id: n40010040010
-  unicode: δέχεται
+  text: δέχεται
   lemma: δέχομαι
   normalized: δέχεται
-  class: verb
-  morph: V-PNI-3S
-  gloss: receives
-  number: singular
-  person: third
-  tense: present
-  voice: middlepassive
-  mood: indicative
-  strong: '1209'
-  domain: '034007'
-  ln: '34.53'
-  role: v
+  ids:
+    ref: MAT 10:40!10
+    wordID: n40010040010
+  translation:
+    gloss: receives
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1209'
+  semantic:
+    semanticDomain: '034007'
+    ln: '34.53'
+  syntax:
+    role: v
+    frame: A0:n40010040009 A1:n40010040012
 - position: 11
-  ref: MAT 10:40!11
-  xml_id: n40010040011
-  unicode: τὸν
+  text: τὸν
   lemma: ὁ
   normalized: τόν
-  class: det
-  morph: T-ASM
-  gloss: the [One]
-  gender: masculine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 10:40!11
+    wordID: n40010040011
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 12
-  ref: MAT 10:40!12
-  xml_id: n40010040012
-  unicode: ἀποστείλαντά
+  text: ἀποστείλαντά
   lemma: ἀποστέλλω
   normalized: ἀποστείλαντα
-  class: verb
-  morph: V-AAP-ASM
-  gloss: having sent
-  gender: masculine
-  number: singular
-  case: accusative
-  tense: aorist
-  voice: active
-  mood: participle
-  strong: '649'
-  domain: '015004'
-  ln: '15.66'
-  role: v
+  ids:
+    ref: MAT 10:40!12
+    wordID: n40010040012
+  translation:
+    gloss: having sent
+  morphology:
+    class: verb
+    morph: V-AAP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '649'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.66'
+  syntax:
+    role: v
+    frame: A0:n40010033014 A1:n40010040013
+  discourse:
+    subject: n40010033014
 - position: 13
-  ref: MAT 10:40!13
-  xml_id: n40010040013
-  unicode: με
+  text: με
   lemma: ἐγώ
   normalized: με
-  class: pron
-  morph: P-1AS
-  gloss: Me
-  number: singular
-  case: accusative
-  strong: '1473'
-  domain: 092001
-  ln: '92.1'
-  role: o
-syntax:
-  word_order: S-O-V
+  ids:
+    ref: MAT 10:40!13
+    wordID: n40010040013
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010005006

@@ -1,149 +1,187 @@
-verse:
-  reference: MAT 20:33
-  book_code: MAT
-  chapter: 20
-  verse: 33
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: λέγουσιν αὐτῷ Κύριε, ἵνα ἀνοιγῶσιν οἱ ὀφθαλμοὶ ἡμῶν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 20:33
+text: λέγουσιν αὐτῷ Κύριε, ἵνα ἀνοιγῶσιν οἱ ὀφθαλμοὶ ἡμῶν.
 words:
 - position: 1
-  ref: MAT 20:33!1
-  xml_id: n40020033001
-  unicode: λέγουσιν
+  text: λέγουσιν
   lemma: λέγω
   normalized: λέγουσιν
-  class: verb
-  morph: V-PAI-3P
-  gloss: They say
-  number: plural
-  person: third
-  tense: present
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '033006'
-  ln: '33.69'
-  role: v
+  ids:
+    ref: MAT 20:33!1
+    wordID: n40020033001
+  translation:
+    gloss: They say
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40020030004 A2:n40020033002
+  discourse:
+    subject: n40020030004
 - position: 2
-  ref: MAT 20:33!2
-  xml_id: n40020033002
-  unicode: αὐτῷ
+  text: αὐτῷ
   lemma: αὐτός
   normalized: αὐτῷ
-  class: pron
-  morph: P-DSM
-  gloss: to Him
-  gender: masculine
-  number: singular
-  case: dative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: io
+  ids:
+    ref: MAT 20:33!2
+    wordID: n40020033002
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40020032004
 - position: 3
-  ref: MAT 20:33!3
-  xml_id: n40020033003
-  unicode: Κύριε
+  text: Κύριε
   lemma: κύριος
   normalized: Κύριε
-  class: noun
-  morph: N-VSM
-  gloss: Lord
-  gender: masculine
-  number: singular
-  case: vocative
-  strong: '2962'
-  domain: 087003
-  ln: '87.53'
-  role: aux
+  ids:
+    ref: MAT 20:33!3
+    wordID: n40020033003
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.53'
+  syntax:
+    role: aux
 - position: 4
-  ref: MAT 20:33!4
-  xml_id: n40020033004
-  unicode: ἵνα
+  text: ἵνα
   lemma: ἵνα
   normalized: ἵνα
-  class: conj
-  morph: CONJ
-  gloss: that
-  strong: '2443'
-  domain: 090006
-  ln: '90.22'
+  ids:
+    ref: MAT 20:33!4
+    wordID: n40020033004
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.22'
 - position: 5
-  ref: MAT 20:33!5
-  xml_id: n40020033005
-  unicode: ἀνοιγῶσιν
+  text: ἀνοιγῶσιν
   lemma: ἀνοίγω
   normalized: ἀνοιγῶσιν
-  class: verb
-  morph: V-2APS-3P
-  gloss: might be opened
-  number: plural
-  person: third
-  tense: aorist
-  voice: passive
-  mood: subjunctive
-  strong: '455'
-  domain: '024001'
-  ln: '24.43'
-  role: v
+  ids:
+    ref: MAT 20:33!5
+    wordID: n40020033005
+  translation:
+    gloss: might be opened
+  morphology:
+    class: verb
+    morph: V-2APS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '455'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.43'
+  syntax:
+    role: v
+    frame: A1:n40020033007
 - position: 6
-  ref: MAT 20:33!6
-  xml_id: n40020033006
-  unicode: οἱ
+  text: οἱ
   lemma: ὁ
   normalized: οἱ
-  class: det
-  morph: T-NPM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 20:33!6
+    wordID: n40020033006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 7
-  ref: MAT 20:33!7
-  xml_id: n40020033007
-  unicode: ὀφθαλμοὶ
+  text: ὀφθαλμοὶ
   lemma: ὀφθαλμός
   normalized: ὀφθαλμοί
-  class: noun
-  morph: N-NPM
-  gloss: eyes
-  gender: masculine
-  number: plural
-  case: nominative
-  strong: '3788'
-  domain: 008002
-  ln: '8.23'
+  ids:
+    ref: MAT 20:33!7
+    wordID: n40020033007
+  translation:
+    gloss: eyes
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3788'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.23'
 - position: 8
-  ref: MAT 20:33!8
-  xml_id: n40020033008
-  unicode: ἡμῶν
+  text: ἡμῶν
   lemma: ἐγώ
   normalized: ἡμῶν
-  class: pron
-  morph: P-1GP
-  gloss: of us
-  number: plural
-  case: genitive
-  strong: '1473'
-  domain: 092002
-  ln: '92.4'
-syntax:
-  word_order: V-S
+  ids:
+    ref: MAT 20:33!8
+    wordID: n40020033008
+  translation:
+    gloss: of us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n40020030004

@@ -1,70 +1,75 @@
-verse:
-  reference: MAT 9:24
-  book_code: MAT
-  chapter: 9
-  verse: 24
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ κατεγέλων αὐτοῦ.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:24
+text: καὶ κατεγέλων αὐτοῦ.
 words:
 - position: 1
-  ref: MAT 9:24!10
-  xml_id: n40009024010
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 9:24!10
+    wordID: n40009024010
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 9:24!11
-  xml_id: n40009024011
-  unicode: κατεγέλων
+  text: κατεγέλων
   lemma: καταγελάω
   normalized: κατεγέλων
-  class: verb
-  morph: V-IAI-3P
-  gloss: they began to laugh at
-  number: plural
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '2606'
-  domain: '033044'
-  ln: '33.410'
-  role: v
+  ids:
+    ref: MAT 9:24!11
+    wordID: n40009024011
+  translation:
+    gloss: they began to laugh at
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2606'
+  semantic:
+    semanticDomain: '033044'
+    ln: '33.410'
+  syntax:
+    role: v
+    frame: A0:n40009023013;n40009023016 A1:n40009024012
+  discourse:
+    subject: n40009023013 n40009023016
 - position: 3
-  ref: MAT 9:24!12
-  xml_id: n40009024012
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: V-O
+  ids:
+    ref: MAT 9:24!12
+    wordID: n40009024012
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40009023004

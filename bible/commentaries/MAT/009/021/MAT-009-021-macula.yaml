@@ -1,187 +1,244 @@
-verse:
-  reference: MAT 9:21
-  book_code: MAT
-  chapter: 9
-  verse: 21
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἔλεγεν γὰρ ἐν ἑαυτῇ Ἐὰν μόνον ἅψωμαι τοῦ ἱματίου αὐτοῦ σωθήσομαι.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:21
+text: ἔλεγεν γὰρ ἐν ἑαυτῇ Ἐὰν μόνον ἅψωμαι τοῦ ἱματίου αὐτοῦ σωθήσομαι.
 words:
 - position: 1
-  ref: MAT 9:21!2
-  xml_id: n40009021002
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 9:21!2
+    wordID: n40009021002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 9:21!1
-  xml_id: n40009021001
-  unicode: ἔλεγεν
+  text: ἔλεγεν
   lemma: λέγω
   normalized: ἔλεγεν
-  class: verb
-  morph: V-IAI-3S
-  gloss: She was saying
-  number: singular
-  person: third
-  tense: imperfect
-  voice: active
-  mood: indicative
-  strong: '3004'
-  domain: '031001'
-  ln: '31.5'
-  role: v
+  ids:
+    ref: MAT 9:21!1
+    wordID: n40009021001
+  translation:
+    gloss: She was saying
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '031001'
+    ln: '31.5'
+  syntax:
+    role: v
+    frame: A0:n40009020003
+  discourse:
+    subject: n40009020003
 - position: 3
-  ref: MAT 9:21!3
-  xml_id: n40009021003
-  unicode: ἐν
+  text: ἐν
   lemma: ἐν
   normalized: ἐν
-  class: prep
-  morph: PREP
-  gloss: within
-  strong: '1722'
+  ids:
+    ref: MAT 9:21!3
+    wordID: n40009021003
+  translation:
+    gloss: within
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
 - position: 4
-  ref: MAT 9:21!4
-  xml_id: n40009021004
-  unicode: ἑαυτῇ
+  text: ἑαυτῇ
   lemma: ἑαυτοῦ
   normalized: ἑαυτῇ
-  class: pron
-  morph: F-3DSF
-  gloss: herself
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '1438'
-  domain: 092004
-  ln: '92.25'
+  ids:
+    ref: MAT 9:21!4
+    wordID: n40009021004
+  translation:
+    gloss: herself
+  morphology:
+    class: pron
+    morph: F-3DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n40009020003
 - position: 5
-  ref: MAT 9:21!5
-  xml_id: n40009021005
-  unicode: Ἐὰν
+  text: Ἐὰν
   lemma: ἐάν
   normalized: Ἐάν
-  class: conj
-  morph: COND
-  gloss: If
-  strong: '1437'
-  domain: 089010
-  ln: '89.67'
+  ids:
+    ref: MAT 9:21!5
+    wordID: n40009021005
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
 - position: 6
-  ref: MAT 9:21!6
-  xml_id: n40009021006
-  unicode: μόνον
+  text: μόνον
   lemma: μόνος
   normalized: μόνον
-  class: adj
-  morph: ADV
-  gloss: only
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3440'
-  role: adv
+  ids:
+    ref: MAT 9:21!6
+    wordID: n40009021006
+  translation:
+    gloss: only
+  morphology:
+    class: adj
+    morph: ADV
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3440'
+  syntax:
+    role: adv
 - position: 7
-  ref: MAT 9:21!7
-  xml_id: n40009021007
-  unicode: ἅψωμαι
+  text: ἅψωμαι
   lemma: ἅπτω
   normalized: ἅψωμαι
-  class: verb
-  morph: V-AMS-1S
-  gloss: I shall touch
-  number: singular
-  person: first
-  tense: aorist
-  voice: middle
-  mood: subjunctive
-  strong: '680'
-  domain: '024005'
-  ln: '24.73'
-  role: v
+  ids:
+    ref: MAT 9:21!7
+    wordID: n40009021007
+  translation:
+    gloss: I shall touch
+  morphology:
+    class: verb
+    morph: V-AMS-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: middle
+    mood: subjunctive
+  lexical:
+    strong: '680'
+  semantic:
+    semanticDomain: '024005'
+    ln: '24.73'
+  syntax:
+    role: v
+    frame: A0:n40009020003 A1:n40009021009
+  discourse:
+    subject: n40009020003
 - position: 8
-  ref: MAT 9:21!8
-  xml_id: n40009021008
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSN
-  gloss: the
-  gender: neuter
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 9:21!8
+    wordID: n40009021008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 9
-  ref: MAT 9:21!9
-  xml_id: n40009021009
-  unicode: ἱματίου
+  text: ἱματίου
   lemma: ἱμάτιον
   normalized: ἱματίου
-  class: noun
-  morph: N-GSN
-  gloss: garment
-  gender: neuter
-  number: singular
-  case: genitive
-  strong: '2440'
-  domain: '006017'
-  ln: '6.172'
+  ids:
+    ref: MAT 9:21!9
+    wordID: n40009021009
+  translation:
+    gloss: garment
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.172'
 - position: 10
-  ref: MAT 9:21!10
-  xml_id: n40009021010
-  unicode: αὐτοῦ
+  text: αὐτοῦ
   lemma: αὐτός
   normalized: αὐτοῦ
-  class: pron
-  morph: P-GSM
-  gloss: of Him
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 9:21!10
+    wordID: n40009021010
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40009019004
 - position: 11
-  ref: MAT 9:21!11
-  xml_id: n40009021011
-  unicode: σωθήσομαι
+  text: σωθήσομαι
   lemma: σῴζω
   normalized: σωθήσομαι
-  class: verb
-  morph: V-FPI-1S
-  gloss: I will be healed
-  number: singular
-  person: first
-  tense: future
-  voice: passive
-  mood: indicative
-  strong: '4982'
-  domain: 023008
-  ln: '23.136'
-  role: v
-syntax:
-  word_order: ADV-V-O
+  ids:
+    ref: MAT 9:21!11
+    wordID: n40009021011
+  translation:
+    gloss: I will be healed
+  morphology:
+    class: verb
+    morph: V-FPI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4982'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.136'
+  syntax:
+    role: v
+    frame: A1:n40009020003
+  discourse:
+    subject: n40009020003

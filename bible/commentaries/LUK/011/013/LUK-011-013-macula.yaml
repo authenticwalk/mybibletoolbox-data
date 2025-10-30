@@ -1,0 +1,548 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 11:13
+text: εἰ οὖν ὑμεῖς πονηροὶ ὑπάρχοντες οἴδατε δόματα ἀγαθὰ διδόναι τοῖς τέκνοις ὑμῶν,
+  πόσῳ μᾶλλον ὁ Πατὴρ ὁ ἐξ οὐρανοῦ δώσει Πνεῦμα Ἅγιον τοῖς αἰτοῦσιν αὐτόν.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: LUK 11:13!2
+    wordID: n42011013002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: LUK 11:13!1
+    wordID: n42011013001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 3
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: LUK 11:13!3
+    wordID: n42011013003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n42011001016
+- position: 4
+  text: πονηροὶ
+  lemma: πονηρός
+  normalized: πονηροί
+  ids:
+    ref: LUK 11:13!4
+    wordID: n42011013004
+  translation:
+    gloss: evil
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4190'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.110'
+  syntax:
+    role: p
+- position: 5
+  text: ὑπάρχοντες
+  lemma: ὑπάρχω
+  normalized: ὑπάρχοντες
+  ids:
+    ref: LUK 11:13!5
+    wordID: n42011013005
+  translation:
+    gloss: being
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5225'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.5'
+  syntax:
+    role: vc
+  discourse:
+    subject: n42011001016
+- position: 6
+  text: οἴδατε
+  lemma: οἶδα
+  normalized: οἴδατε
+  ids:
+    ref: LUK 11:13!6
+    wordID: n42011013006
+  translation:
+    gloss: know
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.7'
+  syntax:
+    role: v
+    frame: A0:n42011013003 A1:n42011013009
+- position: 7
+  text: δόματα
+  lemma: δόμα
+  normalized: δόματα
+  ids:
+    ref: LUK 11:13!7
+    wordID: n42011013007
+  translation:
+    gloss: gifts
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1390'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.73'
+- position: 8
+  text: ἀγαθὰ
+  lemma: ἀγαθός
+  normalized: ἀγαθά
+  ids:
+    ref: LUK 11:13!8
+    wordID: n42011013008
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.20'
+- position: 9
+  text: διδόναι
+  lemma: δίδωμι
+  normalized: διδόναι
+  ids:
+    ref: LUK 11:13!9
+    wordID: n42011013009
+  translation:
+    gloss: to give
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n42011001016 A1:n42011013007 A2:n42011013011
+  discourse:
+    subject: n42011001016
+- position: 10
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: LUK 11:13!10
+    wordID: n42011013010
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: τέκνοις
+  lemma: τέκνον
+  normalized: τέκνοις
+  ids:
+    ref: LUK 11:13!11
+    wordID: n42011013011
+  translation:
+    gloss: children
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '5043'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.36'
+- position: 12
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: LUK 11:13!12
+    wordID: n42011013012
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n42011001016
+- position: 13
+  text: πόσῳ
+  lemma: πόσος
+  normalized: πόσῳ
+  ids:
+    ref: LUK 11:13!13
+    wordID: n42011013013
+  translation:
+    gloss: how much
+  morphology:
+    class: pron
+    morph: Q-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: interrogative
+  lexical:
+    strong: '4214'
+  semantic:
+    semanticDomain: 059002
+    ln: '59.17'
+- position: 14
+  text: μᾶλλον
+  lemma: μᾶλλον
+  normalized: μᾶλλον
+  ids:
+    ref: LUK 11:13!14
+    wordID: n42011013014
+  translation:
+    gloss: more
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3123'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.28'
+- position: 15
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: LUK 11:13!15
+    wordID: n42011013015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: Πατὴρ
+  lemma: πατήρ
+  normalized: Πατήρ
+  ids:
+    ref: LUK 11:13!16
+    wordID: n42011013016
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+- position: 17
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: LUK 11:13!17
+    wordID: n42011013017
+  translation:
+    gloss: who [is]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 18
+  text: ἐξ
+  lemma: ἐκ
+  normalized: ἐξ
+  ids:
+    ref: LUK 11:13!18
+    wordID: n42011013018
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.16'
+- position: 19
+  text: οὐρανοῦ
+  lemma: οὐρανός
+  normalized: οὐρανοῦ
+  ids:
+    ref: LUK 11:13!19
+    wordID: n42011013019
+  translation:
+    gloss: heaven
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3772'
+  semantic:
+    semanticDomain: '001002'
+    ln: '1.11'
+- position: 20
+  text: δώσει
+  lemma: δίδωμι
+  normalized: δώσει
+  ids:
+    ref: LUK 11:13!20
+    wordID: n42011013020
+  translation:
+    gloss: will give
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n42011013016 A1:n42011013021 A2:n42011013024
+- position: 21
+  text: Πνεῦμα
+  lemma: πνεῦμα
+  normalized: Πνεῦμα
+  ids:
+    ref: LUK 11:13!21
+    wordID: n42011013021
+  translation:
+    gloss: '[the] Spirit'
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.18'
+- position: 22
+  text: Ἅγιον
+  lemma: ἅγιος
+  normalized: Ἅγιον
+  ids:
+    ref: LUK 11:13!22
+    wordID: n42011013022
+  translation:
+    gloss: Holy
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '40'
+  semantic:
+    semanticDomain: 088003
+    ln: '88.24'
+- position: 23
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: LUK 11:13!23
+    wordID: n42011013023
+  translation:
+    gloss: to those
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 24
+  text: αἰτοῦσιν
+  lemma: αἰτέω
+  normalized: αἰτοῦσιν
+  ids:
+    ref: LUK 11:13!24
+    wordID: n42011013024
+  translation:
+    gloss: asking
+  morphology:
+    class: verb
+    morph: V-PAP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42011013025
+- position: 25
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 11:13!25
+    wordID: n42011013025
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42011013016

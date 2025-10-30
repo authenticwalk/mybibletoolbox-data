@@ -1,255 +1,336 @@
-verse:
-  reference: MAT 2:12
-  book_code: MAT
-  chapter: 2
-  verse: 12
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: καὶ χρηματισθέντες κατ’ ὄναρ μὴ ἀνακάμψαι πρὸς Ἠρῴδην, δι’ ἄλλης ὁδοῦ ἀνεχώρησαν
-    εἰς τὴν χώραν αὐτῶν.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 2:12
+text: καὶ χρηματισθέντες κατ’ ὄναρ μὴ ἀνακάμψαι πρὸς Ἠρῴδην, δι’ ἄλλης ὁδοῦ ἀνεχώρησαν
+  εἰς τὴν χώραν αὐτῶν.
 words:
 - position: 1
-  ref: MAT 2:12!1
-  xml_id: n40002012001
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: And
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 2:12!1
+    wordID: n40002012001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 2
-  ref: MAT 2:12!2
-  xml_id: n40002012002
-  unicode: χρηματισθέντες
+  text: χρηματισθέντες
   lemma: χρηματίζω
   normalized: χρηματισθέντες
-  class: verb
-  morph: V-APP-NPM
-  gloss: having been divinely warned
-  gender: masculine
-  number: plural
-  case: nominative
-  tense: aorist
-  voice: passive
-  mood: participle
-  strong: '5537'
-  domain: 028003
-  ln: '28.39'
-  role: v
+  ids:
+    ref: MAT 2:12!2
+    wordID: n40002012002
+  translation:
+    gloss: having been divinely warned
+  morphology:
+    class: verb
+    morph: V-APP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '5537'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.39'
+  syntax:
+    role: v
+    frame: A1:n40002007006 A1:n40002012006
+  discourse:
+    subject: n40002007006
 - position: 3
-  ref: MAT 2:12!3
-  xml_id: n40002012003
-  unicode: κατ’
+  text: κατ’
   lemma: κατά
   normalized: κατ’
-  class: prep
-  morph: PREP
-  gloss: in
-  strong: '2596'
+  ids:
+    ref: MAT 2:12!3
+    wordID: n40002012003
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '2596'
 - position: 4
-  ref: MAT 2:12!4
-  xml_id: n40002012004
-  unicode: ὄναρ
+  text: ὄναρ
   lemma: ὄναρ
   normalized: ὄναρ
-  class: noun
-  morph: N-OI
-  gloss: a dream
-  gender: neuter
-  number: singular
-  case: accusative
-  strong: '3677'
-  domain: '033056'
-  ln: '33.486'
+  ids:
+    ref: MAT 2:12!4
+    wordID: n40002012004
+  translation:
+    gloss: a dream
+  morphology:
+    class: noun
+    morph: N-OI
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3677'
+  semantic:
+    semanticDomain: '033056'
+    ln: '33.486'
 - position: 5
-  ref: MAT 2:12!5
-  xml_id: n40002012005
-  unicode: μὴ
+  text: μὴ
   lemma: μή
   normalized: μή
-  class: adv
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  domain: 069002
-  ln: '69.3'
-  role: adv
+  ids:
+    ref: MAT 2:12!5
+    wordID: n40002012005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
 - position: 6
-  ref: MAT 2:12!6
-  xml_id: n40002012006
-  unicode: ἀνακάμψαι
+  text: ἀνακάμψαι
   lemma: ἀνακάμπτω
   normalized: ἀνακάμψαι
-  class: verb
-  morph: V-AAN
-  gloss: to return
-  tense: aorist
-  voice: active
-  mood: infinitive
-  strong: '344'
-  domain: '015007'
-  ln: '15.89'
-  role: v
+  ids:
+    ref: MAT 2:12!6
+    wordID: n40002012006
+  translation:
+    gloss: to return
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '344'
+  semantic:
+    semanticDomain: '015007'
+    ln: '15.89'
+  syntax:
+    role: v
+    frame: A0:n40002007006
+  discourse:
+    subject: n40002007006
 - position: 7
-  ref: MAT 2:12!7
-  xml_id: n40002012007
-  unicode: πρὸς
+  text: πρὸς
   lemma: πρός
   normalized: πρός
-  class: prep
-  morph: PREP
-  gloss: to
-  strong: '4314'
-  domain: 084002
-  ln: '84.18'
+  ids:
+    ref: MAT 2:12!7
+    wordID: n40002012007
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
 - position: 8
-  ref: MAT 2:12!8
-  xml_id: n40002012008
-  unicode: Ἠρῴδην
+  text: Ἠρῴδην
   lemma: Ἡρῴδης
   normalized: Ἠρῴδην
-  class: noun
-  morph: N-ASM
-  gloss: Herod
-  gender: masculine
-  number: singular
-  case: accusative
-  strong: '2264'
-  domain: 093001
-  ln: 93.144a
+  ids:
+    ref: MAT 2:12!8
+    wordID: n40002012008
+  translation:
+    gloss: Herod
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2264'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.144a
 - position: 9
-  ref: MAT 2:12!9
-  xml_id: n40002012009
-  unicode: δι’
+  text: δι’
   lemma: διά
   normalized: δι’
-  class: prep
-  morph: PREP
-  gloss: by
-  strong: '1223'
-  domain: 084003
-  ln: '84.29'
+  ids:
+    ref: MAT 2:12!9
+    wordID: n40002012009
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 084003
+    ln: '84.29'
 - position: 10
-  ref: MAT 2:12!10
-  xml_id: n40002012010
-  unicode: ἄλλης
+  text: ἄλλης
   lemma: ἄλλος
   normalized: ἄλλης
-  class: adj
-  morph: A-GSF
-  gloss: another
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '243'
-  domain: 058006
-  ln: '58.37'
+  ids:
+    ref: MAT 2:12!10
+    wordID: n40002012010
+  translation:
+    gloss: another
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '243'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
 - position: 11
-  ref: MAT 2:12!11
-  xml_id: n40002012011
-  unicode: ὁδοῦ
+  text: ὁδοῦ
   lemma: ὁδός
   normalized: ὁδοῦ
-  class: noun
-  morph: N-GSF
-  gloss: route
-  gender: feminine
-  number: singular
-  case: genitive
-  strong: '3598'
-  domain: '001016'
-  ln: '1.99'
+  ids:
+    ref: MAT 2:12!11
+    wordID: n40002012011
+  translation:
+    gloss: route
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3598'
+  semantic:
+    semanticDomain: '001016'
+    ln: '1.99'
 - position: 12
-  ref: MAT 2:12!12
-  xml_id: n40002012012
-  unicode: ἀνεχώρησαν
+  text: ἀνεχώρησαν
   lemma: ἀναχωρέω
   normalized: ἀνεχώρησαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they withdrew
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '402'
-  domain: '015007'
-  ln: '15.89'
-  role: v
+  ids:
+    ref: MAT 2:12!12
+    wordID: n40002012012
+  translation:
+    gloss: they withdrew
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '402'
+  semantic:
+    semanticDomain: '015007'
+    ln: '15.89'
+  syntax:
+    role: v
+    frame: A0:n40002007006
+  discourse:
+    subject: n40002007006
 - position: 13
-  ref: MAT 2:12!13
-  xml_id: n40002012013
-  unicode: εἰς
+  text: εἰς
   lemma: εἰς
   normalized: εἰς
-  class: prep
-  morph: PREP
-  gloss: into
-  strong: '1519'
-  domain: 084002
-  ln: '84.16'
+  ids:
+    ref: MAT 2:12!13
+    wordID: n40002012013
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.16'
 - position: 14
-  ref: MAT 2:12!14
-  xml_id: n40002012014
-  unicode: τὴν
+  text: τὴν
   lemma: ὁ
   normalized: τήν
-  class: det
-  morph: T-ASF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 2:12!14
+    wordID: n40002012014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 2:12!15
-  xml_id: n40002012015
-  unicode: χώραν
+  text: χώραν
   lemma: χώρα
   normalized: χώραν
-  class: noun
-  morph: N-ASF
-  gloss: country
-  gender: feminine
-  number: singular
-  case: accusative
-  strong: '5561'
-  domain: '001011'
-  ln: '1.79'
+  ids:
+    ref: MAT 2:12!15
+    wordID: n40002012015
+  translation:
+    gloss: country
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5561'
+  semantic:
+    semanticDomain: '001011'
+    ln: '1.79'
 - position: 16
-  ref: MAT 2:12!16
-  xml_id: n40002012016
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-syntax:
-  word_order: ADV-ADV-V-ADV
+  ids:
+    ref: MAT 2:12!16
+    wordID: n40002012016
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40002007006

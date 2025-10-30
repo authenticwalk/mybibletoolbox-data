@@ -1,552 +1,755 @@
-verse:
-  reference: MAT 13:15
-  book_code: MAT
-  chapter: 13
-  verse: 15
-  testament: NT
-tool:
-  name: macula-source-language
-  version: 1.0.0
-  generated_date: '2025-10-30'
-source:
-  dataset: MACULA Greek Linguistic Datasets
-  url: https://github.com/Clear-Bible/macula-greek
-  license: CC BY 4.0
-  copyright: Biblica, Inc (2022-2024)
-  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
-  definitions: ./MACULA-FIELD-DEFINITIONS.md
-  base_text: Nestle1904
-source_text:
-  language: grc
-  unicode: ἐπαχύνθη γὰρ ἡ καρδία τοῦ λαοῦ τούτου, καὶ τοῖς ὠσὶν βαρέως ἤκουσαν, καὶ
-    τοὺς ὀφθαλμοὺς αὐτῶν ἐκάμμυσαν· μή ποτε ἴδωσιν τοῖς ὀφθαλμοῖς καὶ τοῖς ὠσὶν ἀκούσωσιν
-    καὶ τῇ καρδίᾳ συνῶσιν καὶ ἐπιστρέψωσιν, καὶ ἰάσομαι αὐτούς.
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:15
+text: ἐπαχύνθη γὰρ ἡ καρδία τοῦ λαοῦ τούτου, καὶ τοῖς ὠσὶν βαρέως ἤκουσαν, καὶ τοὺς
+  ὀφθαλμοὺς αὐτῶν ἐκάμμυσαν· μή ποτε ἴδωσιν τοῖς ὀφθαλμοῖς καὶ τοῖς ὠσὶν ἀκούσωσιν
+  καὶ τῇ καρδίᾳ συνῶσιν καὶ ἐπιστρέψωσιν, καὶ ἰάσομαι αὐτούς.
 words:
 - position: 1
-  ref: MAT 13:15!2
-  xml_id: n40013015002
-  unicode: γὰρ
+  text: γὰρ
   lemma: γάρ
   normalized: γάρ
-  class: conj
-  morph: CONJ
-  gloss: for
-  strong: '1063'
-  domain: 089007
-  ln: '89.23'
+  ids:
+    ref: MAT 13:15!2
+    wordID: n40013015002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
 - position: 2
-  ref: MAT 13:15!1
-  xml_id: n40013015001
-  unicode: ἐπαχύνθη
+  text: ἐπαχύνθη
   lemma: παχύνω
   normalized: ἐπαχύνθη
-  class: verb
-  morph: V-API-3S
-  gloss: Has grown dull
-  number: singular
-  person: third
-  tense: aorist
-  voice: passive
-  mood: indicative
-  strong: '3975'
-  domain: '032005'
-  ln: '32.45'
-  role: v
+  ids:
+    ref: MAT 13:15!1
+    wordID: n40013015001
+  translation:
+    gloss: Has grown dull
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3975'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.45'
+  syntax:
+    role: v
+    frame: A0:n40013015004
 - position: 3
-  ref: MAT 13:15!3
-  xml_id: n40013015003
-  unicode: ἡ
+  text: ἡ
   lemma: ὁ
   normalized: ἡ
-  class: det
-  morph: T-NSF
-  gloss: the
-  gender: feminine
-  number: singular
-  case: nominative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!3
+    wordID: n40013015003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 4
-  ref: MAT 13:15!4
-  xml_id: n40013015004
-  unicode: καρδία
+  text: καρδία
   lemma: καρδία
   normalized: καρδία
-  class: noun
-  morph: N-NSF
-  gloss: heart
-  gender: feminine
-  number: singular
-  case: nominative
-  strong: '2588'
-  domain: '026'
-  ln: '26.3'
+  ids:
+    ref: MAT 13:15!4
+    wordID: n40013015004
+  translation:
+    gloss: heart
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2588'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.3'
 - position: 5
-  ref: MAT 13:15!5
-  xml_id: n40013015005
-  unicode: τοῦ
+  text: τοῦ
   lemma: ὁ
   normalized: τοῦ
-  class: det
-  morph: T-GSM
-  gloss: of the
-  gender: masculine
-  number: singular
-  case: genitive
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!5
+    wordID: n40013015005
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 6
-  ref: MAT 13:15!6
-  xml_id: n40013015006
-  unicode: λαοῦ
+  text: λαοῦ
   lemma: λαός
   normalized: λαοῦ
-  class: noun
-  morph: N-GSM
-  gloss: people
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '2992'
-  domain: '011003'
-  ln: '11.55'
+  ids:
+    ref: MAT 13:15!6
+    wordID: n40013015006
+  translation:
+    gloss: people
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2992'
+  semantic:
+    semanticDomain: '011003'
+    ln: '11.55'
 - position: 7
-  ref: MAT 13:15!7
-  xml_id: n40013015007
-  unicode: τούτου
+  text: τούτου
   lemma: οὗτος
   normalized: τούτου
-  class: pron
-  morph: D-GSM
-  gloss: this
-  gender: masculine
-  number: singular
-  case: genitive
-  strong: '3778'
-  domain: 092007
-  ln: '92.29'
+  ids:
+    ref: MAT 13:15!7
+    wordID: n40013015007
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
 - position: 8
-  ref: MAT 13:15!8
-  xml_id: n40013015008
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 13:15!8
+    wordID: n40013015008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 9
-  ref: MAT 13:15!9
-  xml_id: n40013015009
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPN
-  gloss: with the
-  gender: neuter
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!9
+    wordID: n40013015009
+  translation:
+    gloss: with the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 10
-  ref: MAT 13:15!10
-  xml_id: n40013015010
-  unicode: ὠσὶν
+  text: ὠσὶν
   lemma: οὖς
   normalized: ὠσίν
-  class: noun
-  morph: N-DPN
-  gloss: ears
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '3775'
-  domain: '032005'
-  ln: '32.46'
+  ids:
+    ref: MAT 13:15!10
+    wordID: n40013015010
+  translation:
+    gloss: ears
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3775'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.46'
 - position: 11
-  ref: MAT 13:15!11
-  xml_id: n40013015011
-  unicode: βαρέως
+  text: βαρέως
   lemma: βαρέως
   normalized: βαρέως
-  class: adv
-  morph: ADV
-  gloss: barely
-  strong: '917'
-  domain: '032005'
-  ln: '32.46'
-  role: adv
+  ids:
+    ref: MAT 13:15!11
+    wordID: n40013015011
+  translation:
+    gloss: barely
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '917'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.46'
+  syntax:
+    role: adv
 - position: 12
-  ref: MAT 13:15!12
-  xml_id: n40013015012
-  unicode: ἤκουσαν
+  text: ἤκουσαν
   lemma: ἀκούω
   normalized: ἤκουσαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they have heard
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '191'
-  domain: '032005'
-  ln: '32.46'
-  role: v
+  ids:
+    ref: MAT 13:15!12
+    wordID: n40013015012
+  translation:
+    gloss: they have heard
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.46'
+  syntax:
+    role: v
+    frame: A0:n40013015006
+  discourse:
+    subject: n40013015006
 - position: 13
-  ref: MAT 13:15!13
-  xml_id: n40013015013
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 13:15!13
+    wordID: n40013015013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 14
-  ref: MAT 13:15!14
-  xml_id: n40013015014
-  unicode: τοὺς
+  text: τοὺς
   lemma: ὁ
   normalized: τούς
-  class: det
-  morph: T-APM
-  gloss: the
-  gender: masculine
-  number: plural
-  case: accusative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!14
+    wordID: n40013015014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 15
-  ref: MAT 13:15!15
-  xml_id: n40013015015
-  unicode: ὀφθαλμοὺς
+  text: ὀφθαλμοὺς
   lemma: ὀφθαλμός
   normalized: ὀφθαλμούς
-  class: noun
-  morph: N-APM
-  gloss: eyes
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '3788'
-  domain: '027005'
-  ln: '27.50'
+  ids:
+    ref: MAT 13:15!15
+    wordID: n40013015015
+  translation:
+    gloss: eyes
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3788'
+  semantic:
+    semanticDomain: '027005'
+    ln: '27.50'
 - position: 16
-  ref: MAT 13:15!16
-  xml_id: n40013015016
-  unicode: αὐτῶν
+  text: αὐτῶν
   lemma: αὐτός
   normalized: αὐτῶν
-  class: pron
-  morph: P-GPM
-  gloss: of them
-  gender: masculine
-  number: plural
-  case: genitive
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
+  ids:
+    ref: MAT 13:15!16
+    wordID: n40013015016
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40013015006
 - position: 17
-  ref: MAT 13:15!17
-  xml_id: n40013015017
-  unicode: ἐκάμμυσαν
+  text: ἐκάμμυσαν
   lemma: καμμύω
   normalized: ἐκάμμυσαν
-  class: verb
-  morph: V-AAI-3P
-  gloss: they have closed
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: indicative
-  strong: '2576'
-  domain: '027005'
-  ln: '27.50'
-  role: v
+  ids:
+    ref: MAT 13:15!17
+    wordID: n40013015017
+  translation:
+    gloss: they have closed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2576'
+  semantic:
+    semanticDomain: '027005'
+    ln: '27.50'
+  syntax:
+    role: v
+    frame: A0:n40013015006 A1:n40013015015
+  discourse:
+    subject: n40013015006
 - position: 18
-  ref: MAT 13:15!18
-  xml_id: n40013015018
-  unicode: μή
+  text: μή
   lemma: μή
   normalized: μή
-  class: ptcl
-  morph: PRT-N
-  gloss: not
-  strong: '3361'
-  role: adv
+  ids:
+    ref: MAT 13:15!18
+    wordID: n40013015018
+  translation:
+    gloss: not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
 - position: 19
-  ref: MAT 13:15!19
-  xml_id: n40013015019
-  unicode: ποτε
+  text: ποτε
   lemma: ποτέ
   normalized: ποτε
-  class: adv
-  morph: ADV
-  gloss: lest
-  strong: '4218'
-  role: adv
+  ids:
+    ref: MAT 13:15!19
+    wordID: n40013015019
+  translation:
+    gloss: lest
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '4218'
+  syntax:
+    role: adv
 - position: 20
-  ref: MAT 13:15!20
-  xml_id: n40013015020
-  unicode: ἴδωσιν
+  text: ἴδωσιν
   lemma: ὁράω
   normalized: ἴδωσιν
-  class: verb
-  morph: V-2AAS-3P
-  gloss: they should see
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '3708'
-  domain: '024001'
-  ln: '24.1'
-  role: v
+  ids:
+    ref: MAT 13:15!20
+    wordID: n40013015020
+  translation:
+    gloss: they should see
+  morphology:
+    class: verb
+    morph: V-2AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n40013015006
+  discourse:
+    subject: n40013015006
 - position: 21
-  ref: MAT 13:15!21
-  xml_id: n40013015021
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPM
-  gloss: with the
-  gender: masculine
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!21
+    wordID: n40013015021
+  translation:
+    gloss: with the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 22
-  ref: MAT 13:15!22
-  xml_id: n40013015022
-  unicode: ὀφθαλμοῖς
+  text: ὀφθαλμοῖς
   lemma: ὀφθαλμός
   normalized: ὀφθαλμοῖς
-  class: noun
-  morph: N-DPM
-  gloss: eyes
-  gender: masculine
-  number: plural
-  case: dative
-  strong: '3788'
-  domain: 008002
-  ln: '8.23'
+  ids:
+    ref: MAT 13:15!22
+    wordID: n40013015022
+  translation:
+    gloss: eyes
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3788'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.23'
 - position: 23
-  ref: MAT 13:15!23
-  xml_id: n40013015023
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 13:15!23
+    wordID: n40013015023
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 24
-  ref: MAT 13:15!24
-  xml_id: n40013015024
-  unicode: τοῖς
+  text: τοῖς
   lemma: ὁ
   normalized: τοῖς
-  class: det
-  morph: T-DPN
-  gloss: with the
-  gender: neuter
-  number: plural
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!24
+    wordID: n40013015024
+  translation:
+    gloss: with the
+  morphology:
+    class: det
+    morph: T-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 25
-  ref: MAT 13:15!25
-  xml_id: n40013015025
-  unicode: ὠσὶν
+  text: ὠσὶν
   lemma: οὖς
   normalized: ὠσίν
-  class: noun
-  morph: N-DPN
-  gloss: ears
-  gender: neuter
-  number: plural
-  case: dative
-  strong: '3775'
-  domain: 008002
-  ln: '8.24'
+  ids:
+    ref: MAT 13:15!25
+    wordID: n40013015025
+  translation:
+    gloss: ears
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3775'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.24'
 - position: 26
-  ref: MAT 13:15!26
-  xml_id: n40013015026
-  unicode: ἀκούσωσιν
+  text: ἀκούσωσιν
   lemma: ἀκούω
   normalized: ἀκούσωσιν
-  class: verb
-  morph: V-AAS-3P
-  gloss: they should hear
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '191'
-  domain: '024002'
-  ln: '24.52'
-  role: v
+  ids:
+    ref: MAT 13:15!26
+    wordID: n40013015026
+  translation:
+    gloss: they should hear
+  morphology:
+    class: verb
+    morph: V-AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n40013015006
+  discourse:
+    subject: n40013015006
 - position: 27
-  ref: MAT 13:15!27
-  xml_id: n40013015027
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089017
-  ln: '89.92'
+  ids:
+    ref: MAT 13:15!27
+    wordID: n40013015027
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
 - position: 28
-  ref: MAT 13:15!28
-  xml_id: n40013015028
-  unicode: τῇ
+  text: τῇ
   lemma: ὁ
   normalized: τῇ
-  class: det
-  morph: T-DSF
-  gloss: with the
-  gender: feminine
-  number: singular
-  case: dative
-  has_article: true
-  strong: '3588'
-  domain: 092004
-  ln: '92.24'
+  ids:
+    ref: MAT 13:15!28
+    wordID: n40013015028
+  translation:
+    gloss: with the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
 - position: 29
-  ref: MAT 13:15!29
-  xml_id: n40013015029
-  unicode: καρδίᾳ
+  text: καρδίᾳ
   lemma: καρδία
   normalized: καρδίᾳ
-  class: noun
-  morph: N-DSF
-  gloss: heart
-  gender: feminine
-  number: singular
-  case: dative
-  strong: '2588'
-  domain: '026'
-  ln: '26.3'
+  ids:
+    ref: MAT 13:15!29
+    wordID: n40013015029
+  translation:
+    gloss: heart
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2588'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.3'
 - position: 30
-  ref: MAT 13:15!30
-  xml_id: n40013015030
-  unicode: συνῶσιν
+  text: συνῶσιν
   lemma: συνίημι
   normalized: συνῶσιν
-  class: verb
-  morph: V-2AAS-3P
-  gloss: they should understand
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '4920'
-  domain: '032001'
-  ln: '32.5'
-  role: v
+  ids:
+    ref: MAT 13:15!30
+    wordID: n40013015030
+  translation:
+    gloss: they should understand
+  morphology:
+    class: verb
+    morph: V-2AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4920'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.5'
+  syntax:
+    role: v
+    frame: A0:n40013015006
+  discourse:
+    subject: n40013015006
 - position: 31
-  ref: MAT 13:15!31
-  xml_id: n40013015031
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 13:15!31
+    wordID: n40013015031
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 32
-  ref: MAT 13:15!32
-  xml_id: n40013015032
-  unicode: ἐπιστρέψωσιν
+  text: ἐπιστρέψωσιν
   lemma: ἐπιστρέφω
   normalized: ἐπιστρέψωσιν
-  class: verb
-  morph: V-AAS-3P
-  gloss: should return
-  number: plural
-  person: third
-  tense: aorist
-  voice: active
-  mood: subjunctive
-  strong: '1994'
-  domain: '041005'
-  ln: '41.51'
-  role: v
+  ids:
+    ref: MAT 13:15!32
+    wordID: n40013015032
+  translation:
+    gloss: should return
+  morphology:
+    class: verb
+    morph: V-AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1994'
+  semantic:
+    semanticDomain: '041005'
+    ln: '41.51'
+  syntax:
+    role: v
+    frame: A0:n40013015006
+  discourse:
+    subject: n40013015006
 - position: 33
-  ref: MAT 13:15!33
-  xml_id: n40013015033
-  unicode: καὶ
+  text: καὶ
   lemma: καί
   normalized: καί
-  class: conj
-  morph: CONJ
-  gloss: and
-  strong: '2532'
-  domain: 089015
-  ln: '89.87'
+  ids:
+    ref: MAT 13:15!33
+    wordID: n40013015033
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
 - position: 34
-  ref: MAT 13:15!34
-  xml_id: n40013015034
-  unicode: ἰάσομαι
+  text: ἰάσομαι
   lemma: ἰάομαι
   normalized: ἰάσομαι
-  class: verb
-  morph: V-FDI-1S
-  gloss: I will heal
-  number: singular
-  person: first
-  tense: future
-  voice: middle
-  mood: indicative
-  strong: '2390'
-  domain: '013002'
-  ln: '13.66'
-  role: v
+  ids:
+    ref: MAT 13:15!34
+    wordID: n40013015034
+  translation:
+    gloss: I will heal
+  morphology:
+    class: verb
+    morph: V-FDI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '2390'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.66'
+  syntax:
+    role: v
+    frame: A0:n40011027019 A1:n40013015035
+  discourse:
+    subject: n40011027019
 - position: 35
-  ref: MAT 13:15!35
-  xml_id: n40013015035
-  unicode: αὐτούς
+  text: αὐτούς
   lemma: αὐτός
   normalized: αὐτούς
-  class: pron
-  morph: P-APM
-  gloss: them
-  gender: masculine
-  number: plural
-  case: accusative
-  strong: '846'
-  domain: 092004
-  ln: '92.11'
-  role: o
-syntax:
-  word_order: V-S
+  ids:
+    ref: MAT 13:15!35
+    wordID: n40013015035
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o

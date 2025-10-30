@@ -1,0 +1,279 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 3:32
+text: ὃ ἑώρακεν καὶ ἤκουσεν, τοῦτο μαρτυρεῖ, καὶ τὴν μαρτυρίαν αὐτοῦ οὐδεὶς λαμβάνει.
+words:
+- position: 1
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: JHN 3:32!1
+    wordID: n43003032001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 2
+  text: ἑώρακεν
+  lemma: ὁράω
+  normalized: ἑώρακεν
+  ids:
+    ref: JHN 3:32!2
+    wordID: n43003032002
+  translation:
+    gloss: He has seen
+  morphology:
+    class: verb
+    morph: V-RAI-3S-ATT
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    frame: A0:n43003031025 A1:n43003032001
+  discourse:
+    subject: n43003031025
+- position: 3
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 3:32!3
+    wordID: n43003032003
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 4
+  text: ἤκουσεν
+  lemma: ἀκούω
+  normalized: ἤκουσεν
+  ids:
+    ref: JHN 3:32!4
+    wordID: n43003032004
+  translation:
+    gloss: heard
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    frame: A0:n43003031025 A1:n43003032001
+  discourse:
+    subject: n43003031025
+- position: 5
+  text: τοῦτο
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: JHN 3:32!5
+    wordID: n43003032005
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+  discourse:
+    referent: n43003032002
+- position: 6
+  text: μαρτυρεῖ
+  lemma: μαρτυρέω
+  normalized: μαρτυρεῖ
+  ids:
+    ref: JHN 3:32!6
+    wordID: n43003032006
+  translation:
+    gloss: He testifies
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3140'
+  semantic:
+    semanticDomain: '033020'
+    ln: '33.262'
+  syntax:
+    role: v
+    frame: A0:n43003031025 A1:n43003032005
+  discourse:
+    subject: n43003031025
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 3:32!7
+    wordID: n43003032007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091002
+    ln: '91.12'
+- position: 8
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: JHN 3:32!8
+    wordID: n43003032008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: μαρτυρίαν
+  lemma: μαρτυρία
+  normalized: μαρτυρίαν
+  ids:
+    ref: JHN 3:32!9
+    wordID: n43003032009
+  translation:
+    gloss: testimony
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3141'
+  semantic:
+    semanticDomain: '033020'
+    ln: '33.264'
+- position: 10
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: JHN 3:32!10
+    wordID: n43003032010
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n43003031025
+- position: 11
+  text: οὐδεὶς
+  lemma: οὐδείς
+  normalized: οὐδείς
+  ids:
+    ref: JHN 3:32!11
+    wordID: n43003032011
+  translation:
+    gloss: no one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
+- position: 12
+  text: λαμβάνει
+  lemma: λαμβάνω
+  normalized: λαμβάνει
+  ids:
+    ref: JHN 3:32!12
+    wordID: n43003032012
+  translation:
+    gloss: receives
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A1:n43003032009 A0:n43003032011
