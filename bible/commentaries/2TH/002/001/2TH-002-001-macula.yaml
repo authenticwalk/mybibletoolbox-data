@@ -1,0 +1,931 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2TH 2:1
+text: "2TH 2:1 \n         2TH 2:2 Ἐρωτῶμεν δὲ ὑμᾶς, ἀδελφοί, ὑπὲρ τῆς παρουσίας τοῦ\
+  \ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ καὶ ἡμῶν ἐπισυναγωγῆς ἐπ’ αὐτόν, εἰς τὸ μὴ ταχέως σαλευθῆναι\
+  \ ὑμᾶς ἀπὸ τοῦ νοὸς μηδὲ θροεῖσθαι μήτε διὰ πνεύματος μήτε διὰ λόγου μήτε δι’ ἐπιστολῆς\
+  \ ὡς δι’ ἡμῶν, ὡς ὅτι ἐνέστηκεν ἡ ἡμέρα τοῦ Κυρίου."
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 2TH 2:1!2
+    wordID: n53002001002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017 089023
+    ln: 89.124 89.94
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 2TH 2:1!4
+    wordID: n53002001004
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Ἐρωτῶμεν
+  lemma: ἐρωτάω
+  normalized: Ἐρωτῶμεν
+  ids:
+    ref: 2TH 2:1!1
+    wordID: n53002001001
+  translation:
+    gloss: We implore
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2065'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.161'
+  syntax:
+    role: v
+    frame: A0:n53001001001;n53001001003;n53001001005 A1:n53002001003
+  discourse:
+    subject: n53001001001 n53001001003 n53001001005
+- position: 4
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 2TH 2:1!3
+    wordID: n53002001003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n53002001004
+- position: 5
+  text: ὑπὲρ
+  lemma: ὑπέρ
+  normalized: ὑπέρ
+  ids:
+    ref: 2TH 2:1!5
+    wordID: n53002001005
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5228'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.24'
+- position: 6
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: 2TH 2:1!6
+    wordID: n53002001006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: παρουσίας
+  lemma: παρουσία
+  normalized: παρουσίας
+  ids:
+    ref: 2TH 2:1!7
+    wordID: n53002001007
+  translation:
+    gloss: coming
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3952'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.86'
+- position: 8
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 2TH 2:1!8
+    wordID: n53002001008
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: 2TH 2:1!9
+    wordID: n53002001009
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 10
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: 2TH 2:1!10
+    wordID: n53002001010
+  translation:
+    gloss: of us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n53001001001 n53001001003 n53001001005 n53002001004
+- position: 11
+  text: Ἰησοῦ
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦ
+  ids:
+    ref: 2TH 2:1!11
+    wordID: n53002001011
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 12
+  text: Χριστοῦ
+  lemma: Χριστός
+  normalized: Χριστοῦ
+  ids:
+    ref: 2TH 2:1!12
+    wordID: n53002001012
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+  syntax:
+    junction: apposition
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2TH 2:1!13
+    wordID: n53002001013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 14
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: 2TH 2:1!14
+    wordID: n53002001014
+  translation:
+    gloss: our
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n53001001001 n53001001003 n53001001005 n53002001004
+- position: 15
+  text: ἐπισυναγωγῆς
+  lemma: ἐπισυναγωγή
+  normalized: ἐπισυναγωγῆς
+  ids:
+    ref: 2TH 2:1!15
+    wordID: n53002001015
+  translation:
+    gloss: gathering together
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1997'
+  semantic:
+    semanticDomain: '015013'
+    ln: '15.126'
+- position: 16
+  text: ἐπ’
+  lemma: ἐπί
+  normalized: ἐπ’
+  ids:
+    ref: 2TH 2:1!16
+    wordID: n53002001016
+  translation:
+    gloss: unto
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1909'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.17'
+- position: 17
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: 2TH 2:1!17
+    wordID: n53002001017
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n53002001009
+- position: 18
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: 2TH 2:2!1
+    wordID: n53002002001
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 089009 090006
+    ln: 89.57 90.23
+- position: 19
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 2TH 2:2!2
+    wordID: n53002002002
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 20
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 2TH 2:2!3
+    wordID: n53002002003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 21
+  text: ταχέως
+  lemma: ταχέως
+  normalized: ταχέως
+  ids:
+    ref: 2TH 2:2!4
+    wordID: n53002002004
+  translation:
+    gloss: quickly
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5030'
+  semantic:
+    semanticDomain: 067002 067005
+    ln: 67.110 67.56
+  syntax:
+    role: adv
+- position: 22
+  text: σαλευθῆναι
+  lemma: σαλεύω
+  normalized: σαλευθῆναι
+  ids:
+    ref: 2TH 2:2!5
+    wordID: n53002002005
+  translation:
+    gloss: to be shaken
+  morphology:
+    class: verb
+    morph: V-APN
+    tense: aorist
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '4531'
+  semantic:
+    semanticDomain: '025021'
+    ln: '25.242'
+  syntax:
+    role: v
+    frame: A1:n53002002006
+- position: 23
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 2TH 2:2!6
+    wordID: n53002002006
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n53002001004
+- position: 24
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: 2TH 2:2!7
+    wordID: n53002002007
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089021
+    ln: '89.122'
+- position: 25
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 2TH 2:2!8
+    wordID: n53002002008
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 26
+  text: νοὸς
+  lemma: νοῦς
+  normalized: νοός
+  ids:
+    ref: 2TH 2:2!9
+    wordID: n53002002009
+  translation:
+    gloss: mind
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3563'
+  semantic:
+    semanticDomain: '030001'
+    ln: '30.5'
+- position: 27
+  text: μηδὲ
+  lemma: μηδέ
+  normalized: μηδέ
+  ids:
+    ref: 2TH 2:2!10
+    wordID: n53002002010
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
+- position: 28
+  text: θροεῖσθαι
+  lemma: θροέω
+  normalized: θροεῖσθαι
+  ids:
+    ref: 2TH 2:2!11
+    wordID: n53002002011
+  translation:
+    gloss: to be troubled
+  morphology:
+    class: verb
+    morph: V-PPN
+    tense: present
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '2360'
+  semantic:
+    semanticDomain: '025022'
+    ln: '25.262'
+  syntax:
+    frame: A1:n53002001004
+  discourse:
+    subject: n53002001004
+- position: 29
+  text: μήτε
+  lemma: μήτε
+  normalized: μήτε
+  ids:
+    ref: 2TH 2:2!12
+    wordID: n53002002012
+  translation:
+    gloss: neither
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3383'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.9'
+- position: 30
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: 2TH 2:2!13
+    wordID: n53002002013
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.26'
+- position: 31
+  text: πνεύματος
+  lemma: πνεῦμα
+  normalized: πνεύματος
+  ids:
+    ref: 2TH 2:2!14
+    wordID: n53002002014
+  translation:
+    gloss: spirit
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.33'
+- position: 32
+  text: μήτε
+  lemma: μήτε
+  normalized: μήτε
+  ids:
+    ref: 2TH 2:2!15
+    wordID: n53002002015
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3383'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.9'
+- position: 33
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: 2TH 2:2!16
+    wordID: n53002002016
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+- position: 34
+  text: λόγου
+  lemma: λόγος
+  normalized: λόγου
+  ids:
+    ref: 2TH 2:2!17
+    wordID: n53002002017
+  translation:
+    gloss: word
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: '033006'
+    ln: 33.98 33.99
+- position: 35
+  text: μήτε
+  lemma: μήτε
+  normalized: μήτε
+  ids:
+    ref: 2TH 2:2!18
+    wordID: n53002002018
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3383'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.9'
+- position: 36
+  text: δι’
+  lemma: διά
+  normalized: δι’
+  ids:
+    ref: 2TH 2:2!19
+    wordID: n53002002019
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+- position: 37
+  text: ἐπιστολῆς
+  lemma: ἐπιστολή
+  normalized: ἐπιστολῆς
+  ids:
+    ref: 2TH 2:2!20
+    wordID: n53002002020
+  translation:
+    gloss: letter
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1992'
+  semantic:
+    semanticDomain: 006010 033005
+    ln: 33.48 6.63
+- position: 38
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: 2TH 2:2!21
+    wordID: n53002002021
+  translation:
+    gloss: as if
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 39
+  text: δι’
+  lemma: διά
+  normalized: δι’
+  ids:
+    ref: 2TH 2:2!22
+    wordID: n53002002022
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.4'
+- position: 40
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: 2TH 2:2!23
+    wordID: n53002002023
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n53001001001 n53001001003 n53001001005
+- position: 41
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: 2TH 2:2!24
+    wordID: n53002002024
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: 064 090006
+    ln: 64.12 90.21
+- position: 42
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: 2TH 2:2!25
+    wordID: n53002002025
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+- position: 43
+  text: ἐνέστηκεν
+  lemma: ἐνίστημι
+  normalized: ἐνέστηκεν
+  ids:
+    ref: 2TH 2:2!26
+    wordID: n53002002026
+  translation:
+    gloss: is present
+  morphology:
+    class: verb
+    morph: V-RAI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1764'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.41'
+  syntax:
+    role: v
+    frame: A0:n53002002028
+- position: 44
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: 2TH 2:2!27
+    wordID: n53002002027
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 45
+  text: ἡμέρα
+  lemma: ἡμέρα
+  normalized: ἡμέρα
+  ids:
+    ref: 2TH 2:2!28
+    wordID: n53002002028
+  translation:
+    gloss: day
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2250'
+- position: 46
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 2TH 2:2!29
+    wordID: n53002002029
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 47
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: 2TH 2:2!30
+    wordID: n53002002030
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'

@@ -1,0 +1,250 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: HEB 12:6
+text: ὃν γὰρ ἀγαπᾷ Κύριος παιδεύει, μαστιγοῖ δὲ πάντα υἱὸν ὃν παραδέχεται.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: HEB 12:6!2
+    wordID: n58012006002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὃν
+  lemma: ὅς
+  normalized: ὅν
+  ids:
+    ref: HEB 12:6!1
+    wordID: n58012006001
+  translation:
+    gloss: Whom
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+- position: 3
+  text: ἀγαπᾷ
+  lemma: ἀγαπάω
+  normalized: ἀγαπᾷ
+  ids:
+    ref: HEB 12:6!3
+    wordID: n58012006003
+  translation:
+    gloss: He loves
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n58012006004 A1:n58012006001
+  discourse:
+    subject: n58012006004
+- position: 4
+  text: Κύριος
+  lemma: κύριος
+  normalized: Κύριος
+  ids:
+    ref: HEB 12:6!4
+    wordID: n58012006004
+  translation:
+    gloss: '[the] Lord'
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: s
+- position: 5
+  text: παιδεύει
+  lemma: παιδεύω
+  normalized: παιδεύει
+  ids:
+    ref: HEB 12:6!5
+    wordID: n58012006005
+  translation:
+    gloss: disciplines
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3811'
+  semantic:
+    semanticDomain: 036002 038001
+    ln: 36.10 38.4
+  syntax:
+    role: v
+    frame: A1:n58012006003 A0:n58012006004
+- position: 6
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: HEB 12:6!7
+    wordID: n58012006007
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 7
+  text: μαστιγοῖ
+  lemma: μαστιγόω
+  normalized: μαστιγοῖ
+  ids:
+    ref: HEB 12:6!6
+    wordID: n58012006006
+  translation:
+    gloss: He scourges
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3146'
+  semantic:
+    semanticDomain: 019001 038001
+    ln: 19.9 38.11
+  syntax:
+    role: v
+    frame: A0:n58012006004 A1:n58012006009
+  discourse:
+    subject: n58012006004
+- position: 8
+  text: πάντα
+  lemma: πᾶς
+  normalized: πάντα
+  ids:
+    ref: HEB 12:6!8
+    wordID: n58012006008
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.24'
+- position: 9
+  text: υἱὸν
+  lemma: υἱός
+  normalized: υἱόν
+  ids:
+    ref: HEB 12:6!9
+    wordID: n58012006009
+  translation:
+    gloss: son
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.42'
+- position: 10
+  text: ὃν
+  lemma: ὅς
+  normalized: ὅν
+  ids:
+    ref: HEB 12:6!10
+    wordID: n58012006010
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+  discourse:
+    referent: n58012006009
+- position: 11
+  text: παραδέχεται
+  lemma: παραδέχομαι
+  normalized: παραδέχεται
+  ids:
+    ref: HEB 12:6!11
+    wordID: n58012006011
+  translation:
+    gloss: He receives
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '3858'
+  semantic:
+    semanticDomain: '031007'
+    ln: '31.52'
+  syntax:
+    role: v
+    frame: A0:n58012006004 A1:n58012006010
+  discourse:
+    subject: n58012006004

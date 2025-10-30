@@ -1,0 +1,136 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 6:5
+text: ἕκαστος γὰρ τὸ ἴδιον φορτίον βαστάσει.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: GAL 6:5!2
+    wordID: n48006005002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἕκαστος
+  lemma: ἕκαστος
+  normalized: ἕκαστος
+  ids:
+    ref: GAL 6:5!1
+    wordID: n48006005001
+  translation:
+    gloss: Each
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1538'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.27'
+  syntax:
+    role: s
+- position: 3
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: GAL 6:5!3
+    wordID: n48006005003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: ἴδιον
+  lemma: ἴδιος
+  normalized: ἴδιον
+  ids:
+    ref: GAL 6:5!4
+    wordID: n48006005004
+  translation:
+    gloss: his own
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2398'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.4'
+  discourse:
+    referent: n48006005001
+- position: 5
+  text: φορτίον
+  lemma: φορτίον
+  normalized: φορτίον
+  ids:
+    ref: GAL 6:5!5
+    wordID: n48006005005
+  translation:
+    gloss: load
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5413'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.208'
+- position: 6
+  text: βαστάσει
+  lemma: βαστάζω
+  normalized: βαστάσει
+  ids:
+    ref: GAL 6:5!6
+    wordID: n48006005006
+  translation:
+    gloss: shall bear
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '941'
+  semantic:
+    semanticDomain: '025015'
+    ln: '25.177'
+  syntax:
+    role: v
+    frame: A0:n48006005001 A1:n48006005005

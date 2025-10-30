@@ -1,0 +1,95 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1TH 5:25
+text: 1TH 5:25 Ἀδελφοί, προσεύχεσθε περὶ ἡμῶν.
+words:
+- position: 1
+  text: Ἀδελφοί
+  lemma: ἀδελφός
+  normalized: Ἀδελφοί
+  ids:
+    ref: 1TH 5:25!1
+    wordID: n52005025001
+  translation:
+    gloss: Brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+- position: 2
+  text: προσεύχεσθε
+  lemma: προσεύχομαι
+  normalized: προσεύχεσθε
+  ids:
+    ref: 1TH 5:25!2
+    wordID: n52005025002
+  translation:
+    gloss: pray
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '4336'
+  semantic:
+    semanticDomain: '033013'
+    ln: '33.178'
+  syntax:
+    role: v
+    frame: A0:n52005025001
+  discourse:
+    subject: n52005025001
+- position: 3
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: 1TH 5:25!3
+    wordID: n52005025003
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089004 090006 090009
+    ln: 89.6 90.24 90.39
+- position: 4
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: 1TH 5:25!4
+    wordID: n52005025004
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n52001001003 n52003006004 n52002018008

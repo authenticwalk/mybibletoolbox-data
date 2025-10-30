@@ -1,0 +1,573 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 15:5
+text: MAT 15:6 ὑμεῖς δὲ λέγετε Ὃς ἂν εἴπῃ τῷ πατρὶ ἢ τῇ μητρί Δῶρον ὃ ἐὰν ἐξ ἐμοῦ
+  ὠφεληθῇς, οὐ μὴ τιμήσει τὸν πατέρα αὐτοῦ ἢ τὴν μητέρα αὐτοῦ·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 15:5!2
+    wordID: n40015005002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: MAT 15:5!1
+    wordID: n40015005001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n40015001007 n40015001009
+- position: 3
+  text: λέγετε
+  lemma: λέγω
+  normalized: λέγετε
+  ids:
+    ref: MAT 15:5!3
+    wordID: n40015005003
+  translation:
+    gloss: say
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40015005001
+- position: 4
+  text: ἂν
+  lemma: ἄν
+  normalized: ἄν
+  ids:
+    ref: MAT 15:5!5
+    wordID: n40015005005
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
+- position: 5
+  text: Ὃς
+  lemma: ὅς
+  normalized: Ὅς
+  ids:
+    ref: MAT 15:5!4
+    wordID: n40015005004
+  translation:
+    gloss: Whoever
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
+- position: 6
+  text: εἴπῃ
+  lemma: λέγω
+  normalized: εἴπῃ
+  ids:
+    ref: MAT 15:5!6
+    wordID: n40015005006
+  translation:
+    gloss: shall say
+  morphology:
+    class: verb
+    morph: V-2AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40015005004 A2:n40015005008;n40015005011
+- position: 7
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 15:5!7
+    wordID: n40015005007
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: πατρὶ
+  lemma: πατήρ
+  normalized: πατρί
+  ids:
+    ref: MAT 15:5!8
+    wordID: n40015005008
+  translation:
+    gloss: father
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.14'
+- position: 9
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: MAT 15:5!9
+    wordID: n40015005009
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 10
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: MAT 15:5!10
+    wordID: n40015005010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: μητρί
+  lemma: μήτηρ
+  normalized: μητρί
+  ids:
+    ref: MAT 15:5!11
+    wordID: n40015005011
+  translation:
+    gloss: mother
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3384'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.16'
+- position: 12
+  text: Δῶρον
+  lemma: δῶρον
+  normalized: Δῶρον
+  ids:
+    ref: MAT 15:5!12
+    wordID: n40015005012
+  translation:
+    gloss: '[It is] a gift'
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1435'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.84'
+  syntax:
+    role: p
+- position: 13
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: MAT 15:5!14
+    wordID: n40015005014
+  translation:
+    gloss: if
+  morphology:
+    class: ptcl
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
+- position: 14
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: MAT 15:5!13
+    wordID: n40015005013
+  translation:
+    gloss: whatever
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 15
+  text: ἐξ
+  lemma: ἐκ
+  normalized: ἐξ
+  ids:
+    ref: MAT 15:5!15
+    wordID: n40015005015
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.25'
+- position: 16
+  text: ἐμοῦ
+  lemma: ἐγώ
+  normalized: ἐμοῦ
+  ids:
+    ref: MAT 15:5!16
+    wordID: n40015005016
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40015005004
+- position: 17
+  text: ὠφεληθῇς
+  lemma: ὠφελέω
+  normalized: ὠφεληθῇς
+  ids:
+    ref: MAT 15:5!17
+    wordID: n40015005017
+  translation:
+    gloss: you might be profited
+  morphology:
+    class: verb
+    morph: V-APS-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '5623'
+  semantic:
+    semanticDomain: '035001'
+    ln: '35.2'
+  syntax:
+    role: v
+    frame: A1:n40015005008;n40015005011 A1:n40015005013
+  discourse:
+    subject: n40015005008 n40015005011
+- position: 18
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: MAT 15:6!1
+    wordID: n40015006001
+  translation:
+    gloss: 'no'
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+- position: 19
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 15:6!2
+    wordID: n40015006002
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+- position: 20
+  text: τιμήσει
+  lemma: τιμάω
+  normalized: τιμήσει
+  ids:
+    ref: MAT 15:6!3
+    wordID: n40015006003
+  translation:
+    gloss: he shall honor
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5091'
+  semantic:
+    semanticDomain: 087002
+    ln: '87.8'
+  syntax:
+    role: v
+    frame: A0:n40015005006 A1:n40015006005;n40015006009
+  discourse:
+    subject: n40015005006
+- position: 21
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: MAT 15:6!4
+    wordID: n40015006004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 22
+  text: πατέρα
+  lemma: πατήρ
+  normalized: πατέρα
+  ids:
+    ref: MAT 15:6!5
+    wordID: n40015006005
+  translation:
+    gloss: father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.14'
+- position: 23
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 15:6!6
+    wordID: n40015006006
+  translation:
+    gloss: of himself
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40015005006
+- position: 24
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: MAT 15:6!7
+    wordID: n40015006007
+  translation:
+    gloss: or
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '2228'
+- position: 25
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MAT 15:6!8
+    wordID: n40015006008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 26
+  text: μητέρα
+  lemma: μήτηρ
+  normalized: μητέρα
+  ids:
+    ref: MAT 15:6!9
+    wordID: n40015006009
+  translation:
+    gloss: mother
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3384'
+- position: 27
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 15:6!10
+    wordID: n40015006010
+  translation:
+    gloss: of himself
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  discourse:
+    referent: n40015005006

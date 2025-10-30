@@ -1,0 +1,236 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 6:67
+text: εἶπεν οὖν ὁ Ἰησοῦς τοῖς δώδεκα Μὴ καὶ ὑμεῖς θέλετε ὑπάγειν;
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: JHN 6:67!2
+    wordID: n43006067002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: JHN 6:67!1
+    wordID: n43006067001
+  translation:
+    gloss: Said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43006067004 A2:n43006067006
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 6:67!3
+    wordID: n43006067003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: JHN 6:67!4
+    wordID: n43006067004
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 5
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: JHN 6:67!5
+    wordID: n43006067005
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: δώδεκα
+  lemma: δώδεκα
+  normalized: δώδεκα
+  ids:
+    ref: JHN 6:67!6
+    wordID: n43006067006
+  translation:
+    gloss: Twelve
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1427'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.21'
+- position: 7
+  text: Μὴ
+  lemma: μή
+  normalized: Μή
+  ids:
+    ref: JHN 6:67!7
+    wordID: n43006067007
+  translation:
+    gloss: Not
+  morphology:
+    class: ptcl
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069005
+    ln: '69.15'
+- position: 8
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 6:67!8
+    wordID: n43006067008
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 9
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: JHN 6:67!9
+    wordID: n43006067009
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n43006067006
+- position: 10
+  text: θέλετε
+  lemma: θέλω
+  normalized: θέλετε
+  ids:
+    ref: JHN 6:67!10
+    wordID: n43006067010
+  translation:
+    gloss: are wishing
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n43006067009 A1:n43006067011
+- position: 11
+  text: ὑπάγειν
+  lemma: ὑπάγω
+  normalized: ὑπάγειν
+  ids:
+    ref: JHN 6:67!11
+    wordID: n43006067011
+  translation:
+    gloss: to go away
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.52'
+  syntax:
+    role: v
+    frame: A0:n43006067006
+  discourse:
+    subject: n43006067006

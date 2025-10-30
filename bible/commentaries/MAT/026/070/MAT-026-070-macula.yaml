@@ -1,0 +1,236 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:70
+text: ὁ δὲ ἠρνήσατο ἔμπροσθεν πάντων λέγων Οὐκ οἶδα τί λέγεις.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 26:70!2
+    wordID: n40026070002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 26:70!1
+    wordID: n40026070001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026069003
+- position: 3
+  text: ἠρνήσατο
+  lemma: ἀρνέομαι
+  normalized: ἠρνήσατο
+  ids:
+    ref: MAT 26:70!3
+    wordID: n40026070003
+  translation:
+    gloss: he denied
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '720'
+  semantic:
+    semanticDomain: '033022'
+    ln: '33.277'
+  syntax:
+    role: v
+    frame: A0:n40026070001
+- position: 4
+  text: ἔμπροσθεν
+  lemma: ἔμπροσθεν
+  normalized: ἔμπροσθεν
+  ids:
+    ref: MAT 26:70!4
+    wordID: n40026070004
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1715'
+  semantic:
+    semanticDomain: 083006
+    ln: '83.33'
+- position: 5
+  text: πάντων
+  lemma: πᾶς
+  normalized: πάντων
+  ids:
+    ref: MAT 26:70!5
+    wordID: n40026070005
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 6
+  text: λέγων
+  lemma: λέγω
+  normalized: λέγων
+  ids:
+    ref: MAT 26:70!6
+    wordID: n40026070006
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026069003
+  discourse:
+    subject: n40026069003
+- position: 7
+  text: Οὐκ
+  lemma: οὐ
+  normalized: Οὐκ
+  ids:
+    ref: MAT 26:70!7
+    wordID: n40026070007
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: οἶδα
+  lemma: οἶδα
+  normalized: οἶδα
+  ids:
+    ref: MAT 26:70!8
+    wordID: n40026070008
+  translation:
+    gloss: I know
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.4'
+  syntax:
+    role: v
+    frame: A0:n40026069003 A1:n40026070010
+  discourse:
+    subject: n40026069003
+- position: 9
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: MAT 26:70!9
+    wordID: n40026070009
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 10
+  text: λέγεις
+  lemma: λέγω
+  normalized: λέγεις
+  ids:
+    ref: MAT 26:70!10
+    wordID: n40026070010
+  translation:
+    gloss: you say
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026069013 A1:n40026070009
+  discourse:
+    subject: n40026069013

@@ -1,0 +1,102 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 20:16
+text: λέγει αὐτῇ Ἰησοῦς Μαριάμ.
+words:
+- position: 1
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: JHN 20:16!1
+    wordID: n43020016001
+  translation:
+    gloss: Says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n43020016002 A0:n43020016003
+- position: 2
+  text: αὐτῇ
+  lemma: αὐτός
+  normalized: αὐτῇ
+  ids:
+    ref: JHN 20:16!2
+    wordID: n43020016002
+  translation:
+    gloss: to her
+  morphology:
+    class: pron
+    morph: P-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43020011001
+- position: 3
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: JHN 20:16!3
+    wordID: n43020016003
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    role: s
+- position: 4
+  text: Μαριάμ
+  lemma: Μαρία
+  normalized: Μαριάμ
+  ids:
+    ref: JHN 20:16!4
+    wordID: n43020016004
+  translation:
+    gloss: Mary
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: feminine
+    number: singular
+    case: vocative
+    type: proper
+  lexical:
+    strong: '3137'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.253c
+  syntax:
+    role: aux

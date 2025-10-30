@@ -1,0 +1,159 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1TH 5:24
+text: 1TH 5:24 πιστὸς ὁ καλῶν ὑμᾶς, ὃς καὶ ποιήσει.
+words:
+- position: 1
+  text: πιστὸς
+  lemma: πιστός
+  normalized: πιστός
+  ids:
+    ref: 1TH 5:24!1
+    wordID: n52005024001
+  translation:
+    gloss: '[Is] faithful'
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '4103'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.87'
+  syntax:
+    role: p
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: 1TH 5:24!2
+    wordID: n52005024002
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: καλῶν
+  lemma: καλέω
+  normalized: καλῶν
+  ids:
+    ref: 1TH 5:24!3
+    wordID: n52005024003
+  translation:
+    gloss: calling
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2564'
+  semantic:
+    semanticDomain: 033029
+    ln: '33.312'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n52005024004
+- position: 4
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1TH 5:24!4
+    wordID: n52005024004
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n52005014004
+- position: 5
+  text: ὃς
+  lemma: ὅς
+  normalized: ὅς
+  ids:
+    ref: 1TH 5:24!5
+    wordID: n52005024005
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: s
+  discourse:
+    referent: n52005024003
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1TH 5:24!6
+    wordID: n52005024006
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017 091002
+    ln: 89.93 91.12
+  syntax:
+    role: adv
+- position: 7
+  text: ποιήσει
+  lemma: ποιέω
+  normalized: ποιήσει
+  ids:
+    ref: 1TH 5:24!7
+    wordID: n52005024007
+  translation:
+    gloss: will do [it]
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:n52005024005

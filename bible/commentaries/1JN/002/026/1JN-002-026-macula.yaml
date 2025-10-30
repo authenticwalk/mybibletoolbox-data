@@ -1,0 +1,161 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1JN 2:26
+text: 1JN 2:26 Ταῦτα ἔγραψα ὑμῖν περὶ τῶν πλανώντων ὑμᾶς.
+words:
+- position: 1
+  text: Ταῦτα
+  lemma: οὗτος
+  normalized: Ταῦτα
+  ids:
+    ref: 1JN 2:26!1
+    wordID: n62002026001
+  translation:
+    gloss: These things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  syntax:
+    role: o
+- position: 2
+  text: ἔγραψα
+  lemma: γράφω
+  normalized: ἔγραψα
+  ids:
+    ref: 1JN 2:26!2
+    wordID: n62002026002
+  translation:
+    gloss: I have written
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.61'
+  syntax:
+    role: v
+    frame: A0:n62002001002 A1:n62002026001 A2:n62002026003
+  discourse:
+    subject: n62002001002
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1JN 2:26!3
+    wordID: n62002026003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: io
+  discourse:
+    referent: n62002018001
+- position: 4
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: 1JN 2:26!4
+    wordID: n62002026004
+  translation:
+    gloss: concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089007 090006
+    ln: 89.36 90.24
+- position: 5
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: 1JN 2:26!5
+    wordID: n62002026005
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: πλανώντων
+  lemma: πλανάω
+  normalized: πλανώντων
+  ids:
+    ref: 1JN 2:26!6
+    wordID: n62002026006
+  translation:
+    gloss: leading astray
+  morphology:
+    class: verb
+    morph: V-PAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4105'
+  semantic:
+    semanticDomain: '031002'
+    ln: '31.8'
+  syntax:
+    role: v
+    frame: A0:n62002018013 A1:n62002026007
+  discourse:
+    subject: n62002018013
+- position: 7
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1JN 2:26!7
+    wordID: n62002026007
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n62002018001

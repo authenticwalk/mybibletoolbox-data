@@ -1,0 +1,801 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2PE 1:19
+text: "2PE 1:19 \n         2PE 1:20 καὶ ἔχομεν βεβαιότερον τὸν προφητικὸν λόγον, ᾧ\
+  \ καλῶς ποιεῖτε προσέχοντες ὡς λύχνῳ φαίνοντι ἐν αὐχμηρῷ τόπῳ, ἕως οὗ ἡμέρα διαυγάσῃ\
+  \ καὶ φωσφόρος ἀνατείλῃ ἐν ταῖς καρδίαις ὑμῶν· τοῦτο πρῶτον γινώσκοντες, ὅτι πᾶσα\
+  \ προφητεία γραφῆς ἰδίας ἐπιλύσεως οὐ γίνεται·"
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2PE 1:19!1
+    wordID: n61001019001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: ἔχομεν
+  lemma: ἔχω
+  normalized: ἔχομεν
+  ids:
+    ref: 2PE 1:19!2
+    wordID: n61001019002
+  translation:
+    gloss: we have
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n61001001001;n61001001010 A1:n61001019006
+  discourse:
+    subject: n61001001001 n61001001010
+- position: 3
+  text: βεβαιότερον
+  lemma: βέβαιος
+  normalized: βεβαιότερον
+  ids:
+    ref: 2PE 1:19!3
+    wordID: n61001019003
+  translation:
+    gloss: more certain
+  morphology:
+    class: adj
+    morph: A-ASM-C
+    gender: masculine
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '949'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.90'
+  syntax:
+    role: o2
+- position: 4
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: 2PE 1:19!4
+    wordID: n61001019004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: προφητικὸν
+  lemma: προφητικός
+  normalized: προφητικόν
+  ids:
+    ref: 2PE 1:19!5
+    wordID: n61001019005
+  translation:
+    gloss: prophetic
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4397'
+  semantic:
+    semanticDomain: '033053'
+    ln: '33.462'
+- position: 6
+  text: λόγον
+  lemma: λόγος
+  normalized: λόγον
+  ids:
+    ref: 2PE 1:19!6
+    wordID: n61001019006
+  translation:
+    gloss: word
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.98'
+- position: 7
+  text: καλῶς
+  lemma: καλῶς
+  normalized: καλῶς
+  ids:
+    ref: 2PE 1:19!8
+    wordID: n61001019008
+  translation:
+    gloss: well
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2573'
+  semantic:
+    semanticDomain: '072002'
+    ln: '72.12'
+  syntax:
+    role: adv
+- position: 8
+  text: ποιεῖτε
+  lemma: ποιέω
+  normalized: ποιεῖτε
+  ids:
+    ref: 2PE 1:19!9
+    wordID: n61001019009
+  translation:
+    gloss: you do
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: 090011
+    ln: '90.45'
+  syntax:
+    role: v
+    frame: A0:n61001010003
+    discontinuous: 'true'
+  discourse:
+    subject: n61001010003
+- position: 9
+  text: ᾧ
+  lemma: ὅς
+  normalized: ᾧ
+  ids:
+    ref: 2PE 1:19!7
+    wordID: n61001019007
+  translation:
+    gloss: to which
+  morphology:
+    class: pron
+    morph: R-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+  discourse:
+    referent: n61001019006
+- position: 10
+  text: προσέχοντες
+  lemma: προσέχω
+  normalized: προσέχοντες
+  ids:
+    ref: 2PE 1:19!10
+    wordID: n61001019010
+  translation:
+    gloss: taking heed
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4337'
+  semantic:
+    semanticDomain: '030001'
+    ln: '30.35'
+  syntax:
+    role: v
+    frame: A0:n61001010003 A1:n61001019007
+  discourse:
+    subject: n61001010003
+- position: 11
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: 2PE 1:19!11
+    wordID: n61001019011
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 12
+  text: λύχνῳ
+  lemma: λύχνος
+  normalized: λύχνῳ
+  ids:
+    ref: 2PE 1:19!12
+    wordID: n61001019012
+  translation:
+    gloss: to a lamp
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3088'
+  semantic:
+    semanticDomain: '006014'
+    ln: '6.104'
+- position: 13
+  text: φαίνοντι
+  lemma: φαίνω
+  normalized: φαίνοντι
+  ids:
+    ref: 2PE 1:19!13
+    wordID: n61001019013
+  translation:
+    gloss: shining
+  morphology:
+    class: verb
+    morph: V-PEP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '5316'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.37'
+  syntax:
+    role: v
+    frame: A0:n61001019012
+  discourse:
+    subject: n61001019012
+- position: 14
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 2PE 1:19!14
+    wordID: n61001019014
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+- position: 15
+  text: αὐχμηρῷ
+  lemma: αὐχμηρός
+  normalized: αὐχμηρῷ
+  ids:
+    ref: 2PE 1:19!15
+    wordID: n61001019015
+  translation:
+    gloss: '[a] dark'
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '850'
+  semantic:
+    semanticDomain: '014007'
+    ln: '14.58'
+- position: 16
+  text: τόπῳ
+  lemma: τόπος
+  normalized: τόπῳ
+  ids:
+    ref: 2PE 1:19!16
+    wordID: n61001019016
+  translation:
+    gloss: place
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5117'
+  semantic:
+    semanticDomain: 080001
+    ln: '80.1'
+- position: 17
+  text: ἕως
+  lemma: ἕως
+  normalized: ἕως
+  ids:
+    ref: 2PE 1:19!17
+    wordID: n61001019017
+  translation:
+    gloss: until
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '2193'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.119'
+- position: 18
+  text: οὗ
+  lemma: ὅς
+  normalized: οὗ
+  ids:
+    ref: 2PE 1:19!18
+    wordID: n61001019018
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: R-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: adv
+- position: 19
+  text: ἡμέρα
+  lemma: ἡμέρα
+  normalized: ἡμέρα
+  ids:
+    ref: 2PE 1:19!19
+    wordID: n61001019019
+  translation:
+    gloss: day
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2250'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.186'
+  syntax:
+    role: s
+- position: 20
+  text: διαυγάσῃ
+  lemma: διαυγάζω
+  normalized: διαυγάσῃ
+  ids:
+    ref: 2PE 1:19!20
+    wordID: n61001019020
+  translation:
+    gloss: shall have dawned
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1306'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.43'
+  syntax:
+    role: v
+    frame: A0:n61001019019
+- position: 21
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2PE 1:19!21
+    wordID: n61001019021
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 22
+  text: φωσφόρος
+  lemma: φωσφόρος
+  normalized: φωσφόρος
+  ids:
+    ref: 2PE 1:19!22
+    wordID: n61001019022
+  translation:
+    gloss: '[the] morning star'
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '5459'
+  semantic:
+    semanticDomain: '001004'
+    ln: '1.32'
+  syntax:
+    role: s
+- position: 23
+  text: ἀνατείλῃ
+  lemma: ἀνατέλλω
+  normalized: ἀνατείλῃ
+  ids:
+    ref: 2PE 1:19!23
+    wordID: n61001019023
+  translation:
+    gloss: shall have arisen
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '393'
+  semantic:
+    semanticDomain: '014006'
+    ln: '14.41'
+  syntax:
+    role: v
+    frame: A0:n61001019022
+- position: 24
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 2PE 1:19!24
+    wordID: n61001019024
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+- position: 25
+  text: ταῖς
+  lemma: ὁ
+  normalized: ταῖς
+  ids:
+    ref: 2PE 1:19!25
+    wordID: n61001019025
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 26
+  text: καρδίαις
+  lemma: καρδία
+  normalized: καρδίαις
+  ids:
+    ref: 2PE 1:19!26
+    wordID: n61001019026
+  translation:
+    gloss: hearts
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '2588'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.3'
+- position: 27
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: 2PE 1:19!27
+    wordID: n61001019027
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n61001010003
+- position: 28
+  text: τοῦτο
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: 2PE 1:20!1
+    wordID: n61001020001
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  syntax:
+    role: o
+  discourse:
+    referent: n61001020011
+- position: 29
+  text: πρῶτον
+  lemma: πρῶτος
+  normalized: πρῶτον
+  ids:
+    ref: 2PE 1:20!2
+    wordID: n61001020002
+  translation:
+    gloss: first
+  morphology:
+    class: adj
+    morph: ADV-S
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4412'
+  semantic:
+    semanticDomain: '060003'
+    ln: '60.46'
+  syntax:
+    role: adv
+- position: 30
+  text: γινώσκοντες
+  lemma: γινώσκω
+  normalized: γινώσκοντες
+  ids:
+    ref: 2PE 1:20!3
+    wordID: n61001020003
+  translation:
+    gloss: knowing
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.16'
+  syntax:
+    role: v
+    frame: A0:n61001010003 A1:n61001020001
+  discourse:
+    subject: n61001010003
+- position: 31
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: 2PE 1:20!4
+    wordID: n61001020004
+  translation:
+    gloss: that
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '3754'
+- position: 32
+  text: πᾶσα
+  lemma: πᾶς
+  normalized: πᾶσα
+  ids:
+    ref: 2PE 1:20!5
+    wordID: n61001020005
+  translation:
+    gloss: any
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.24'
+- position: 33
+  text: προφητεία
+  lemma: προφητεία
+  normalized: προφητεία
+  ids:
+    ref: 2PE 1:20!6
+    wordID: n61001020006
+  translation:
+    gloss: prophecy
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4394'
+  semantic:
+    semanticDomain: '033053'
+    ln: '33.460'
+- position: 34
+  text: γραφῆς
+  lemma: γραφή
+  normalized: γραφῆς
+  ids:
+    ref: 2PE 1:20!7
+    wordID: n61001020007
+  translation:
+    gloss: of Scripture
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1124'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.53'
+- position: 35
+  text: ἰδίας
+  lemma: ἴδιος
+  normalized: ἰδίας
+  ids:
+    ref: 2PE 1:20!8
+    wordID: n61001020008
+  translation:
+    gloss: of its own
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2398'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.4'
+- position: 36
+  text: ἐπιλύσεως
+  lemma: ἐπίλυσις
+  normalized: ἐπιλύσεως
+  ids:
+    ref: 2PE 1:20!9
+    wordID: n61001020009
+  translation:
+    gloss: interpretation
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1955'
+  semantic:
+    semanticDomain: '033010'
+    ln: '33.141'
+- position: 37
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: 2PE 1:20!10
+    wordID: n61001020010
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 38
+  text: γίνεται
+  lemma: γίνομαι
+  normalized: γίνεται
+  ids:
+    ref: 2PE 1:20!11
+    wordID: n61001020011
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.3'
+  syntax:
+    role: v
+    frame: A0:n61001020006

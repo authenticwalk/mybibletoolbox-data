@@ -1,0 +1,742 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 1:10
+text: 1CO 1:10 Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί, διὰ τοῦ ὀνόματος τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+  ἵνα τὸ αὐτὸ λέγητε πάντες, καὶ μὴ ᾖ ἐν ὑμῖν σχίσματα, ἦτε δὲ κατηρτισμένοι ἐν τῷ
+  αὐτῷ νοῒ καὶ ἐν τῇ αὐτῇ γνώμῃ.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1CO 1:10!2
+    wordID: n46001010002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 1CO 1:10!4
+    wordID: n46001010004
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Παρακαλῶ
+  lemma: παρακαλέω
+  normalized: Παρακαλῶ
+  ids:
+    ref: 1CO 1:10!1
+    wordID: n46001010001
+  translation:
+    gloss: I exhort
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3870'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.168'
+  syntax:
+    role: v
+    frame: A0:n46001001001 A1:n46001010003
+  discourse:
+    subject: n46001001001
+- position: 4
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1CO 1:10!3
+    wordID: n46001010003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n46001010004
+- position: 5
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: 1CO 1:10!5
+    wordID: n46001010005
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
+- position: 6
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 1CO 1:10!6
+    wordID: n46001010006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ὀνόματος
+  lemma: ὄνομα
+  normalized: ὀνόματος
+  ids:
+    ref: 1CO 1:10!7
+    wordID: n46001010007
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 009001 033009
+    ln: 33.126 9.19
+- position: 8
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 1CO 1:10!8
+    wordID: n46001010008
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: 1CO 1:10!9
+    wordID: n46001010009
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 10
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: 1CO 1:10!10
+    wordID: n46001010010
+  translation:
+    gloss: of us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n46001001001 n46001001010 n46001010004 n46001002018
+- position: 11
+  text: Ἰησοῦ
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦ
+  ids:
+    ref: 1CO 1:10!11
+    wordID: n46001010011
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 12
+  text: Χριστοῦ
+  lemma: Χριστός
+  normalized: Χριστοῦ
+  ids:
+    ref: 1CO 1:10!12
+    wordID: n46001010012
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+  syntax:
+    junction: apposition
+- position: 13
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: 1CO 1:10!13
+    wordID: n46001010013
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009 090006
+    ln: 89.59 90.22
+- position: 14
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1CO 1:10!14
+    wordID: n46001010014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: αὐτὸ
+  lemma: αὐτός
+  normalized: αὐτό
+  ids:
+    ref: 1CO 1:10!15
+    wordID: n46001010015
+  translation:
+    gloss: same thing
+  morphology:
+    class: pron
+    morph: P-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 058005
+    ln: '58.31'
+- position: 16
+  text: λέγητε
+  lemma: λέγω
+  normalized: λέγητε
+  ids:
+    ref: 1CO 1:10!16
+    wordID: n46001010016
+  translation:
+    gloss: you speak
+  morphology:
+    class: verb
+    morph: V-PAS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A1:n46001010015 A0:n46001010017
+- position: 17
+  text: πάντες
+  lemma: πᾶς
+  normalized: πάντες
+  ids:
+    ref: 1CO 1:10!17
+    wordID: n46001010017
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: s
+  discourse:
+    referent: n46001010004
+- position: 18
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1CO 1:10!18
+    wordID: n46001010018
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 19
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 1CO 1:10!19
+    wordID: n46001010019
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 20
+  text: ᾖ
+  lemma: εἰμί
+  normalized: ᾖ
+  ids:
+    ref: 1CO 1:10!20
+    wordID: n46001010020
+  translation:
+    gloss: there be
+  morphology:
+    class: verb
+    morph: V-PAS-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.69'
+  syntax:
+    role: vc
+- position: 21
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1CO 1:10!21
+    wordID: n46001010021
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
+- position: 22
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1CO 1:10!22
+    wordID: n46001010022
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n46001010004
+- position: 23
+  text: σχίσματα
+  lemma: σχίσμα
+  normalized: σχίσματα
+  ids:
+    ref: 1CO 1:10!23
+    wordID: n46001010023
+  translation:
+    gloss: divisions
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '4978'
+  semantic:
+    semanticDomain: 039002
+    ln: '39.13'
+  syntax:
+    role: s
+- position: 24
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1CO 1:10!25
+    wordID: n46001010025
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 25
+  text: ἦτε
+  lemma: εἰμί
+  normalized: ἦτε
+  ids:
+    ref: 1CO 1:10!24
+    wordID: n46001010024
+  translation:
+    gloss: you may be
+  morphology:
+    class: verb
+    morph: V-PAS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  discourse:
+    subject: n46001010004
+- position: 26
+  text: κατηρτισμένοι
+  lemma: καταρτίζω
+  normalized: κατηρτισμένοι
+  ids:
+    ref: 1CO 1:10!26
+    wordID: n46001010026
+  translation:
+    gloss: having been knit together
+  morphology:
+    class: verb
+    morph: V-RPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '2675'
+  semantic:
+    semanticDomain: '075'
+    ln: '75.5'
+  syntax:
+    frame: A1:n46001010004
+  discourse:
+    subject: n46001010004
+- position: 27
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1CO 1:10!27
+    wordID: n46001010027
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.5'
+- position: 28
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: 1CO 1:10!28
+    wordID: n46001010028
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 29
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: 1CO 1:10!29
+    wordID: n46001010029
+  translation:
+    gloss: same
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 058005
+    ln: '58.31'
+  discourse:
+    referent: n46001010030
+- position: 30
+  text: νοῒ
+  lemma: νοῦς
+  normalized: νοΐ
+  ids:
+    ref: 1CO 1:10!30
+    wordID: n46001010030
+  translation:
+    gloss: mind
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3563'
+  semantic:
+    semanticDomain: '030001'
+    ln: '30.5'
+- position: 31
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1CO 1:10!31
+    wordID: n46001010031
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 32
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1CO 1:10!32
+    wordID: n46001010032
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.5'
+- position: 33
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: 1CO 1:10!33
+    wordID: n46001010033
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 34
+  text: αὐτῇ
+  lemma: αὐτός
+  normalized: αὐτῇ
+  ids:
+    ref: 1CO 1:10!34
+    wordID: n46001010034
+  translation:
+    gloss: same
+  morphology:
+    class: pron
+    morph: P-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 058005
+    ln: '58.31'
+  discourse:
+    referent: n46001010035
+- position: 35
+  text: γνώμῃ
+  lemma: γνώμη
+  normalized: γνώμῃ
+  ids:
+    ref: 1CO 1:10!35
+    wordID: n46001010035
+  translation:
+    gloss: judgment
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '1106'
+  semantic:
+    semanticDomain: 030004 031001
+    ln: 30.67 31.3

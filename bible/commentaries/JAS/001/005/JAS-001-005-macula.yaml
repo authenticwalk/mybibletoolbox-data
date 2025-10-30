@@ -1,0 +1,399 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 1:5
+text: Εἰ δέ τις ὑμῶν λείπεται σοφίας, αἰτείτω παρὰ τοῦ διδόντος Θεοῦ πᾶσιν ἁπλῶς καὶ
+  μὴ ὀνειδίζοντος, καὶ δοθήσεται αὐτῷ.
+words:
+- position: 1
+  text: δέ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JAS 1:5!2
+    wordID: n59001005002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017 089023
+    ln: 89.124 89.94
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Εἰ
+  lemma: εἰ
+  normalized: Εἰ
+  ids:
+    ref: JAS 1:5!1
+    wordID: n59001005001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+- position: 3
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: JAS 1:5!3
+    wordID: n59001005003
+  translation:
+    gloss: any
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+- position: 4
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: JAS 1:5!4
+    wordID: n59001005004
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n59001002004
+- position: 5
+  text: λείπεται
+  lemma: λείπω
+  normalized: λείπεται
+  ids:
+    ref: JAS 1:5!5
+    wordID: n59001005005
+  translation:
+    gloss: lacks
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3007'
+  semantic:
+    semanticDomain: '057005'
+    ln: '57.43'
+  syntax:
+    role: v
+    frame: A0:n59001005003 A1:n59001005006
+- position: 6
+  text: σοφίας
+  lemma: σοφία
+  normalized: σοφίας
+  ids:
+    ref: JAS 1:5!6
+    wordID: n59001005006
+  translation:
+    gloss: wisdom
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4678'
+  semantic:
+    semanticDomain: '032004'
+    ln: '32.32'
+  syntax:
+    role: o
+- position: 7
+  text: αἰτείτω
+  lemma: αἰτέω
+  normalized: αἰτείτω
+  ids:
+    ref: JAS 1:5!7
+    wordID: n59001005007
+  translation:
+    gloss: let him ask
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n59001005003
+  discourse:
+    subject: n59001005003
+- position: 8
+  text: παρὰ
+  lemma: παρά
+  normalized: παρά
+  ids:
+    ref: JAS 1:5!8
+    wordID: n59001005008
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3844'
+- position: 9
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: JAS 1:5!9
+    wordID: n59001005009
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: διδόντος
+  lemma: δίδωμι
+  normalized: διδόντος
+  ids:
+    ref: JAS 1:5!10
+    wordID: n59001005010
+  translation:
+    gloss: giving
+  morphology:
+    class: verb
+    morph: V-PAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n59001005011 A1:n00000000000 A2:n59001005012
+  discourse:
+    subject: n59001005011
+- position: 11
+  text: πᾶσιν
+  lemma: πᾶς
+  normalized: πᾶσιν
+  ids:
+    ref: JAS 1:5!12
+    wordID: n59001005012
+  translation:
+    gloss: to all
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: io
+- position: 12
+  text: ἁπλῶς
+  lemma: ἁπλῶς
+  normalized: ἁπλῶς
+  ids:
+    ref: JAS 1:5!13
+    wordID: n59001005013
+  translation:
+    gloss: generously
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '574'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.107'
+  syntax:
+    role: adv
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JAS 1:5!14
+    wordID: n59001005014
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 14
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: JAS 1:5!15
+    wordID: n59001005015
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 15
+  text: ὀνειδίζοντος
+  lemma: ὀνειδίζω
+  normalized: ὀνειδίζοντος
+  ids:
+    ref: JAS 1:5!16
+    wordID: n59001005016
+  translation:
+    gloss: finding fault
+  morphology:
+    class: verb
+    morph: V-PAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3679'
+  semantic:
+    semanticDomain: '033046'
+    ln: '33.422'
+  syntax:
+    role: v
+    frame: A0:n59001005011
+    discontinuous: 'true'
+  discourse:
+    subject: n59001005011
+- position: 16
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: JAS 1:5!11
+    wordID: n59001005011
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 17
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JAS 1:5!17
+    wordID: n59001005017
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 18
+  text: δοθήσεται
+  lemma: δίδωμι
+  normalized: δοθήσεται
+  ids:
+    ref: JAS 1:5!18
+    wordID: n59001005018
+  translation:
+    gloss: it will be given
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A1:n59001005006 A2:n59001005019
+  discourse:
+    subject: n59001005006
+- position: 19
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: JAS 1:5!19
+    wordID: n59001005019
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n59001005003

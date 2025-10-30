@@ -1,0 +1,143 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 20:40
+text: οὐκέτι γὰρ ἐτόλμων ἐπερωτᾶν αὐτὸν οὐδέν.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: LUK 20:40!2
+    wordID: n42020040002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οὐκέτι
+  lemma: οὐκέτι
+  normalized: οὐκέτι
+  ids:
+    ref: LUK 20:40!1
+    wordID: n42020040001
+  translation:
+    gloss: No longer
+  morphology:
+    class: adv
+    morph: ADV-N
+  lexical:
+    strong: '3765'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.130'
+  syntax:
+    role: adv
+- position: 3
+  text: ἐτόλμων
+  lemma: τολμάω
+  normalized: ἐτόλμων
+  ids:
+    ref: LUK 20:40!3
+    wordID: n42020040003
+  translation:
+    gloss: did they dare
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5111'
+  semantic:
+    semanticDomain: '025014'
+    ln: '25.161'
+  syntax:
+    role: v
+    frame: A0:n42020039003 A1:n42020040004
+  discourse:
+    subject: n42020039003
+- position: 4
+  text: ἐπερωτᾶν
+  lemma: ἐπερωτάω
+  normalized: ἐπερωτᾶν
+  ids:
+    ref: LUK 20:40!4
+    wordID: n42020040004
+  translation:
+    gloss: to ask
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1905'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.180'
+  syntax:
+    role: v
+    frame: A0:n42020039003 A2:n42020040005 A1:n42020040006
+  discourse:
+    subject: n42020039003
+- position: 5
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 20:40!5
+    wordID: n42020040005
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42020034005
+- position: 6
+  text: οὐδέν
+  lemma: οὐδείς
+  normalized: οὐδέν
+  ids:
+    ref: LUK 20:40!6
+    wordID: n42020040006
+  translation:
+    gloss: anything
+  morphology:
+    class: adj
+    morph: A-ASN-N
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: o2

@@ -1,0 +1,204 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 8:15
+text: ὑμεῖς κατὰ τὴν σάρκα κρίνετε, ἐγὼ οὐ κρίνω οὐδένα.
+words:
+- position: 1
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: JHN 8:15!1
+    wordID: n43008015001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n43008013005
+- position: 2
+  text: κατὰ
+  lemma: κατά
+  normalized: κατά
+  ids:
+    ref: JHN 8:15!2
+    wordID: n43008015002
+  translation:
+    gloss: according to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '2596'
+  semantic:
+    semanticDomain: 089005
+    ln: '89.8'
+- position: 3
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: JHN 8:15!3
+    wordID: n43008015003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: σάρκα
+  lemma: σάρξ
+  normalized: σάρκα
+  ids:
+    ref: JHN 8:15!4
+    wordID: n43008015004
+  translation:
+    gloss: flesh
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.7'
+- position: 5
+  text: κρίνετε
+  lemma: κρίνω
+  normalized: κρίνετε
+  ids:
+    ref: JHN 8:15!5
+    wordID: n43008015005
+  translation:
+    gloss: judge
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '030005'
+    ln: '30.75'
+  syntax:
+    role: v
+    frame: A0:n43008015001
+- position: 6
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: JHN 8:15!6
+    wordID: n43008015006
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43008014002
+- position: 7
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: JHN 8:15!7
+    wordID: n43008015007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: κρίνω
+  lemma: κρίνω
+  normalized: κρίνω
+  ids:
+    ref: JHN 8:15!8
+    wordID: n43008015008
+  translation:
+    gloss: am judging
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '030005'
+    ln: '30.75'
+  syntax:
+    role: v
+    frame: A0:n43008015006 A1:n43008015009
+- position: 9
+  text: οὐδένα
+  lemma: οὐδείς
+  normalized: οὐδένα
+  ids:
+    ref: JHN 8:15!9
+    wordID: n43008015009
+  translation:
+    gloss: no one
+  morphology:
+    class: adj
+    morph: A-ASM-N
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: o

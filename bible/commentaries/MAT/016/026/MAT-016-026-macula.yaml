@@ -1,0 +1,488 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 16:26
+text: τί γὰρ ὠφεληθήσεται ἄνθρωπος ἐὰν τὸν κόσμον ὅλον κερδήσῃ, τὴν δὲ ψυχὴν αὐτοῦ
+  ζημιωθῇ; ἢ τί δώσει ἄνθρωπος ἀντάλλαγμα τῆς ψυχῆς αὐτοῦ;
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: MAT 16:26!2
+    wordID: n40016026002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: MAT 16:26!1
+    wordID: n40016026001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 3
+  text: ὠφεληθήσεται
+  lemma: ὠφελέω
+  normalized: ὠφεληθήσεται
+  ids:
+    ref: MAT 16:26!3
+    wordID: n40016026003
+  translation:
+    gloss: will it profit
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '5623'
+  semantic:
+    semanticDomain: 068003
+    ln: '68.33'
+  syntax:
+    role: v
+    frame: A1:n40016026001 A1:n40016026004
+- position: 4
+  text: ἄνθρωπος
+  lemma: ἄνθρωπος
+  normalized: ἄνθρωπος
+  ids:
+    ref: MAT 16:26!4
+    wordID: n40016026004
+  translation:
+    gloss: a man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+  syntax:
+    role: s
+- position: 5
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: MAT 16:26!5
+    wordID: n40016026005
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
+- position: 6
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: MAT 16:26!6
+    wordID: n40016026006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: κόσμον
+  lemma: κόσμος
+  normalized: κόσμον
+  ids:
+    ref: MAT 16:26!7
+    wordID: n40016026007
+  translation:
+    gloss: world
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2889'
+  semantic:
+    semanticDomain: '001006'
+    ln: '1.39'
+- position: 8
+  text: ὅλον
+  lemma: ὅλος
+  normalized: ὅλον
+  ids:
+    ref: MAT 16:26!8
+    wordID: n40016026008
+  translation:
+    gloss: whole
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3650'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.1'
+- position: 9
+  text: κερδήσῃ
+  lemma: κερδαίνω
+  normalized: κερδήσῃ
+  ids:
+    ref: MAT 16:26!9
+    wordID: n40016026009
+  translation:
+    gloss: he gains
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2770'
+  semantic:
+    semanticDomain: '057016'
+    ln: '57.189'
+  syntax:
+    role: v
+    frame: A0:n40016026004 A1:n40016026007
+  discourse:
+    subject: n40016026004
+- position: 10
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 16:26!11
+    wordID: n40016026011
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 11
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MAT 16:26!10
+    wordID: n40016026010
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: ψυχὴν
+  lemma: ψυχή
+  normalized: ψυχήν
+  ids:
+    ref: MAT 16:26!12
+    wordID: n40016026012
+  translation:
+    gloss: the soul
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+- position: 13
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 16:26!13
+    wordID: n40016026013
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40016026004
+- position: 14
+  text: ζημιωθῇ
+  lemma: ζημιόω
+  normalized: ζημιωθῇ
+  ids:
+    ref: MAT 16:26!14
+    wordID: n40016026014
+  translation:
+    gloss: loses
+  morphology:
+    class: verb
+    morph: V-APS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '2210'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.69'
+  syntax:
+    role: v
+    frame: A1:n40016026004 A1:n40016026012
+  discourse:
+    subject: n40016026004
+- position: 15
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: MAT 16:26!15
+    wordID: n40016026015
+  translation:
+    gloss: Or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 16
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: MAT 16:26!16
+    wordID: n40016026016
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 17
+  text: δώσει
+  lemma: δίδωμι
+  normalized: δώσει
+  ids:
+    ref: MAT 16:26!17
+    wordID: n40016026017
+  translation:
+    gloss: will give
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '057012'
+    ln: '57.152'
+  syntax:
+    role: v
+    frame: A1:n40016026016 A0:n40016026018
+- position: 18
+  text: ἄνθρωπος
+  lemma: ἄνθρωπος
+  normalized: ἄνθρωπος
+  ids:
+    ref: MAT 16:26!18
+    wordID: n40016026018
+  translation:
+    gloss: a man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+  syntax:
+    role: s
+- position: 19
+  text: ἀντάλλαγμα
+  lemma: ἀντάλλαγμα
+  normalized: ἀντάλλαγμα
+  ids:
+    ref: MAT 16:26!19
+    wordID: n40016026019
+  translation:
+    gloss: '[as] an exchange for'
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '465'
+  semantic:
+    semanticDomain: '057010'
+    ln: '57.143'
+- position: 20
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: MAT 16:26!20
+    wordID: n40016026020
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 21
+  text: ψυχῆς
+  lemma: ψυχή
+  normalized: ψυχῆς
+  ids:
+    ref: MAT 16:26!21
+    wordID: n40016026021
+  translation:
+    gloss: soul
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+- position: 22
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 16:26!22
+    wordID: n40016026022
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40016026018

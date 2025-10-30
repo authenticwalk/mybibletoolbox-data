@@ -1,0 +1,290 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 4:32
+text: ὁ δὲ εἶπεν αὐτοῖς Ἐγὼ βρῶσιν ἔχω φαγεῖν ἣν ὑμεῖς οὐκ οἴδατε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JHN 4:32!2
+    wordID: n43004032002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 4:32!1
+    wordID: n43004032001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n43004026004
+- position: 3
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: JHN 4:32!3
+    wordID: n43004032003
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43004032001 A2:n43004032004
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 4:32!4
+    wordID: n43004032004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43004031007
+- position: 5
+  text: Ἐγὼ
+  lemma: ἐγώ
+  normalized: Ἐγώ
+  ids:
+    ref: JHN 4:32!5
+    wordID: n43004032005
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43004026004
+- position: 6
+  text: βρῶσιν
+  lemma: βρῶσις
+  normalized: βρῶσιν
+  ids:
+    ref: JHN 4:32!6
+    wordID: n43004032006
+  translation:
+    gloss: food
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1035'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.1'
+  syntax:
+    role: o
+- position: 7
+  text: ἔχω
+  lemma: ἔχω
+  normalized: ἔχω
+  ids:
+    ref: JHN 4:32!7
+    wordID: n43004032007
+  translation:
+    gloss: have
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n43004032005 A1:n43004032006
+- position: 8
+  text: φαγεῖν
+  lemma: ἐσθίω
+  normalized: φαγεῖν
+  ids:
+    ref: JHN 4:32!8
+    wordID: n43004032008
+  translation:
+    gloss: to eat
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n43004026004
+  discourse:
+    subject: n43004026004
+- position: 9
+  text: ἣν
+  lemma: ὅς
+  normalized: ἥν
+  ids:
+    ref: JHN 4:32!9
+    wordID: n43004032009
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n43004032006
+- position: 10
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: JHN 4:32!10
+    wordID: n43004032010
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n43004031007
+- position: 11
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: JHN 4:32!11
+    wordID: n43004032011
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 12
+  text: οἴδατε
+  lemma: οἶδα
+  normalized: οἴδατε
+  ids:
+    ref: JHN 4:32!12
+    wordID: n43004032012
+  translation:
+    gloss: know
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A1:n43004032009 A0:n43004032010

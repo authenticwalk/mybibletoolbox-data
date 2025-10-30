@@ -1,0 +1,231 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 9:42
+text: ἔτι δὲ προσερχομένου αὐτοῦ ἔρρηξεν αὐτὸν τὸ δαιμόνιον καὶ συνεσπάραξεν·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 9:42!2
+    wordID: n42009042002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἔτι
+  lemma: ἔτι
+  normalized: ἔτι
+  ids:
+    ref: LUK 9:42!1
+    wordID: n42009042001
+  translation:
+    gloss: While
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2089'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.128'
+  syntax:
+    role: adv
+- position: 3
+  text: προσερχομένου
+  lemma: προσέρχομαι
+  normalized: προσερχομένου
+  ids:
+    ref: LUK 9:42!3
+    wordID: n42009042003
+  translation:
+    gloss: he was coming near
+  morphology:
+    class: verb
+    morph: V-PNP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n42009042004
+- position: 4
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: LUK 9:42!4
+    wordID: n42009042004
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n42009041022
+- position: 5
+  text: ἔρρηξεν
+  lemma: ῥήγνυμι
+  normalized: ἔρρηξεν
+  ids:
+    ref: LUK 9:42!5
+    wordID: n42009042005
+  translation:
+    gloss: threw down
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4486'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.168'
+  syntax:
+    role: v
+    frame: A1:n42009042006 A0:n42009042008
+- position: 6
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 9:42!6
+    wordID: n42009042006
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42009041022
+- position: 7
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: LUK 9:42!7
+    wordID: n42009042007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: δαιμόνιον
+  lemma: δαιμόνιον
+  normalized: δαιμόνιον
+  ids:
+    ref: LUK 9:42!8
+    wordID: n42009042008
+  translation:
+    gloss: demon
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1140'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.37'
+- position: 9
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 9:42!9
+    wordID: n42009042009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 10
+  text: συνεσπάραξεν
+  lemma: συσπαράσσω
+  normalized: συνεσπάραξεν
+  ids:
+    ref: LUK 9:42!10
+    wordID: n42009042010
+  translation:
+    gloss: threw [him] into convulsions
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4952'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.167'
+  syntax:
+    role: v
+    frame: A0:n42009042008
+  discourse:
+    subject: n42009042008

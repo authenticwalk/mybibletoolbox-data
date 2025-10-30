@@ -1,0 +1,142 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:4
+text: μακάριοι οἱ πενθοῦντες, ὅτι αὐτοὶ παρακληθήσονται.
+words:
+- position: 1
+  text: μακάριοι
+  lemma: μακάριος
+  normalized: μακάριοι
+  ids:
+    ref: MAT 5:4!1
+    wordID: n40005004001
+  translation:
+    gloss: Blessed [are]
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3107'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.119'
+  syntax:
+    role: p
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: MAT 5:4!2
+    wordID: n40005004002
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: πενθοῦντες
+  lemma: πενθέω
+  normalized: πενθοῦντες
+  ids:
+    ref: MAT 5:4!3
+    wordID: n40005004003
+  translation:
+    gloss: mourning
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3996'
+  semantic:
+    semanticDomain: '025012'
+    ln: '25.142'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 4
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: MAT 5:4!4
+    wordID: n40005004004
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 5
+  text: αὐτοὶ
+  lemma: αὐτός
+  normalized: αὐτοί
+  ids:
+    ref: MAT 5:4!5
+    wordID: n40005004005
+  translation:
+    gloss: they
+  morphology:
+    class: pron
+    morph: P-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40005004003
+- position: 6
+  text: παρακληθήσονται
+  lemma: παρακαλέω
+  normalized: παρακληθήσονται
+  ids:
+    ref: MAT 5:4!6
+    wordID: n40005004006
+  translation:
+    gloss: will be comforted
+  morphology:
+    class: verb
+    morph: V-FPI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3870'
+  semantic:
+    semanticDomain: '025013'
+    ln: '25.150'
+  syntax:
+    role: v
+    frame: A1:n40005004005

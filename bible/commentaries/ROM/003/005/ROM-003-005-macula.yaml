@@ -1,0 +1,223 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 3:5
+text: εἰ δὲ ἡ ἀδικία ἡμῶν Θεοῦ δικαιοσύνην συνίστησιν, τί ἐροῦμεν;
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ROM 3:5!2
+    wordID: n45003005002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: ROM 3:5!1
+    wordID: n45003005001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 3
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: ROM 3:5!3
+    wordID: n45003005003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: ἀδικία
+  lemma: ἀδικία
+  normalized: ἀδικία
+  ids:
+    ref: ROM 3:5!4
+    wordID: n45003005004
+  translation:
+    gloss: unrighteousness
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '93'
+  semantic:
+    semanticDomain: 088002
+    ln: '88.21'
+- position: 5
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: ROM 3:5!5
+    wordID: n45003005005
+  translation:
+    gloss: of us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n45001001001 n45003001006 n45001015008
+- position: 6
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: ROM 3:5!6
+    wordID: n45003005006
+  translation:
+    gloss: God’s
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 7
+  text: δικαιοσύνην
+  lemma: δικαιοσύνη
+  normalized: δικαιοσύνην
+  ids:
+    ref: ROM 3:5!7
+    wordID: n45003005007
+  translation:
+    gloss: righteousness
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1343'
+  semantic:
+    semanticDomain: 088002
+    ln: '88.13'
+- position: 8
+  text: συνίστησιν
+  lemma: συνίστημι
+  normalized: συνίστησιν
+  ids:
+    ref: ROM 3:5!8
+    wordID: n45003005008
+  translation:
+    gloss: shows
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4921'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.49'
+  syntax:
+    role: v
+    frame: A0:n45003005004 A1:n45003005007
+- position: 9
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: ROM 3:5!9
+    wordID: n45003005009
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 10
+  text: ἐροῦμεν
+  lemma: εἶπον
+  normalized: ἐροῦμεν
+  ids:
+    ref: ROM 3:5!10
+    wordID: n45003005010
+  translation:
+    gloss: shall we say
+  morphology:
+    class: verb
+    morph: V-FAI-1P
+    number: plural
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2046'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n45001001001;n45003001006;n45001015008 A1:n45003005009
+  discourse:
+    subject: n45001001001 n45003001006 n45001015008

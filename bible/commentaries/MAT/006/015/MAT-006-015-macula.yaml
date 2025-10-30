@@ -1,0 +1,296 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:15
+text: ἐὰν δὲ μὴ ἀφῆτε τοῖς ἀνθρώποις, οὐδὲ ὁ Πατὴρ ὑμῶν ἀφήσει τὰ παραπτώματα ὑμῶν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 6:15!2
+    wordID: n40006015002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: MAT 6:15!1
+    wordID: n40006015001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+- position: 3
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 6:15!3
+    wordID: n40006015003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 4
+  text: ἀφῆτε
+  lemma: ἀφίημι
+  normalized: ἀφῆτε
+  ids:
+    ref: MAT 6:15!4
+    wordID: n40006015004
+  translation:
+    gloss: you forgive
+  morphology:
+    class: verb
+    morph: V-2AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40006014007 A2:n40006015006
+  discourse:
+    subject: n40005001015
+- position: 5
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: MAT 6:15!5
+    wordID: n40006015005
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: ἀνθρώποις
+  lemma: ἄνθρωπος
+  normalized: ἀνθρώποις
+  ids:
+    ref: MAT 6:15!6
+    wordID: n40006015006
+  translation:
+    gloss: men
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+- position: 7
+  text: οὐδὲ
+  lemma: οὐδέ
+  normalized: οὐδέ
+  ids:
+    ref: MAT 6:15!7
+    wordID: n40006015007
+  translation:
+    gloss: neither
+  morphology:
+    class: adv
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
+  syntax:
+    role: adv
+- position: 8
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 6:15!8
+    wordID: n40006015008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: Πατὴρ
+  lemma: πατήρ
+  normalized: Πατήρ
+  ids:
+    ref: MAT 6:15!9
+    wordID: n40006015009
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+- position: 10
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: MAT 6:15!10
+    wordID: n40006015010
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40005001015
+- position: 11
+  text: ἀφήσει
+  lemma: ἀφίημι
+  normalized: ἀφήσει
+  ids:
+    ref: MAT 6:15!11
+    wordID: n40006015011
+  translation:
+    gloss: will forgive
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A0:n40006015009 A1:n40006015013
+- position: 12
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: MAT 6:15!12
+    wordID: n40006015012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: παραπτώματα
+  lemma: παράπτωμα
+  normalized: παραπτώματα
+  ids:
+    ref: MAT 6:15!13
+    wordID: n40006015013
+  translation:
+    gloss: trespasses
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3900'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.297'
+- position: 14
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: MAT 6:15!14
+    wordID: n40006015014
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40005001015

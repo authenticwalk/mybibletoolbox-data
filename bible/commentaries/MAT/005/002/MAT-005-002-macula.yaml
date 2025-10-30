@@ -1,0 +1,196 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:2
+text: καὶ ἀνοίξας τὸ στόμα αὐτοῦ ἐδίδασκεν αὐτοὺς λέγων
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 5:2!1
+    wordID: n40005002001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: ἀνοίξας
+  lemma: ἀνοίγω
+  normalized: ἀνοίξας
+  ids:
+    ref: MAT 5:2!2
+    wordID: n40005002002
+  translation:
+    gloss: opening
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '455'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.29'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A1:n40005002004
+  discourse:
+    subject: n40004017005
+- position: 3
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: MAT 5:2!3
+    wordID: n40005002003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: στόμα
+  lemma: στόμα
+  normalized: στόμα
+  ids:
+    ref: MAT 5:2!4
+    wordID: n40005002004
+  translation:
+    gloss: mouth
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4750'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.74'
+- position: 5
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 5:2!5
+    wordID: n40005002005
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40004017005
+- position: 6
+  text: ἐδίδασκεν
+  lemma: διδάσκω
+  normalized: ἐδίδασκεν
+  ids:
+    ref: MAT 5:2!6
+    wordID: n40005002006
+  translation:
+    gloss: He was teaching
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1321'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.224'
+  syntax:
+    role: v
+    frame: A0:n40004017005 A1:n40005002007
+  discourse:
+    subject: n40004017005
+- position: 7
+  text: αὐτοὺς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: MAT 5:2!7
+    wordID: n40005002007
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005001015
+- position: 8
+  text: λέγων
+  lemma: λέγω
+  normalized: λέγων
+  ids:
+    ref: MAT 5:2!8
+    wordID: n40005002008
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40004017005
+  discourse:
+    subject: n40004017005

@@ -1,0 +1,409 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1JN 2:28
+text: 1JN 2:28 Καὶ νῦν, τεκνία, μένετε ἐν αὐτῷ, ἵνα ἐὰν φανερωθῇ σχῶμεν παρρησίαν
+  καὶ μὴ αἰσχυνθῶμεν ἀπ’ αὐτοῦ ἐν τῇ παρουσίᾳ αὐτοῦ.
+words:
+- position: 1
+  text: Καὶ
+  lemma: καί
+  normalized: Καί
+  ids:
+    ref: 1JN 2:28!1
+    wordID: n62002028001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: τεκνία
+  lemma: τεκνίον
+  normalized: τεκνία
+  ids:
+    ref: 1JN 2:28!3
+    wordID: n62002028003
+  translation:
+    gloss: little children
+  morphology:
+    class: noun
+    morph: N-VPN
+    gender: neuter
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '5040'
+  semantic:
+    semanticDomain: 009005
+    ln: '9.46'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: νῦν
+  lemma: νῦν
+  normalized: νῦν
+  ids:
+    ref: 1JN 2:28!2
+    wordID: n62002028002
+  translation:
+    gloss: now
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3568'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.38'
+  syntax:
+    role: adv
+- position: 4
+  text: μένετε
+  lemma: μένω
+  normalized: μένετε
+  ids:
+    ref: 1JN 2:28!4
+    wordID: n62002028004
+  translation:
+    gloss: abide
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3306'
+  semantic:
+    semanticDomain: 068002
+    ln: '68.11'
+  syntax:
+    role: v
+    frame: A0:n62002028003
+  discourse:
+    subject: n62002028003
+- position: 5
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1JN 2:28!5
+    wordID: n62002028005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.119'
+- position: 6
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: 1JN 2:28!6
+    wordID: n62002028006
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  discourse:
+    referent: n62002024021
+- position: 7
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: 1JN 2:28!7
+    wordID: n62002028007
+  translation:
+    gloss: so that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 8
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: 1JN 2:28!8
+    wordID: n62002028008
+  translation:
+    gloss: when
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.32'
+- position: 9
+  text: φανερωθῇ
+  lemma: φανερόω
+  normalized: φανερωθῇ
+  ids:
+    ref: 1JN 2:28!9
+    wordID: n62002028009
+  translation:
+    gloss: He appears
+  morphology:
+    class: verb
+    morph: V-APS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '5319'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.19'
+  syntax:
+    role: v
+    frame: A1:n62002024021
+  discourse:
+    subject: n62002024021
+- position: 10
+  text: σχῶμεν
+  lemma: ἔχω
+  normalized: σχῶμεν
+  ids:
+    ref: 1JN 2:28!10
+    wordID: n62002028010
+  translation:
+    gloss: we might have
+  morphology:
+    class: verb
+    morph: V-2AAS-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n62002001002;n62002028003;n62001001011 A1:n62002028011
+  discourse:
+    subject: n62002001002 n62002028003 n62001001011
+- position: 11
+  text: παρρησίαν
+  lemma: παρρησία
+  normalized: παρρησίαν
+  ids:
+    ref: 1JN 2:28!11
+    wordID: n62002028011
+  translation:
+    gloss: boldness
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3954'
+  semantic:
+    semanticDomain: '025014'
+    ln: '25.158'
+  syntax:
+    role: o
+- position: 12
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1JN 2:28!12
+    wordID: n62002028012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 13
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 1JN 2:28!13
+    wordID: n62002028013
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 14
+  text: αἰσχυνθῶμεν
+  lemma: αἰσχύνω
+  normalized: αἰσχυνθῶμεν
+  ids:
+    ref: 1JN 2:28!14
+    wordID: n62002028014
+  translation:
+    gloss: be ashamed
+  morphology:
+    class: verb
+    morph: V-APS-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '153'
+  semantic:
+    semanticDomain: 025018
+    ln: '25.190'
+  syntax:
+    role: v
+    frame: A1:n62002001002;n62002028003;n62001001011
+  discourse:
+    subject: n62002001002 n62002028003 n62001001011
+- position: 15
+  text: ἀπ’
+  lemma: ἀπό
+  normalized: ἀπ’
+  ids:
+    ref: 1JN 2:28!15
+    wordID: n62002028015
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089021
+    ln: '89.122'
+- position: 16
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: 1JN 2:28!16
+    wordID: n62002028016
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  discourse:
+    referent: n62002024021
+- position: 17
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1JN 2:28!17
+    wordID: n62002028017
+  translation:
+    gloss: at
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
+- position: 18
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: 1JN 2:28!18
+    wordID: n62002028018
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: παρουσίᾳ
+  lemma: παρουσία
+  normalized: παρουσίᾳ
+  ids:
+    ref: 1JN 2:28!19
+    wordID: n62002028019
+  translation:
+    gloss: coming
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3952'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.86'
+- position: 20
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: 1JN 2:28!20
+    wordID: n62002028020
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  discourse:
+    referent: n62002024021

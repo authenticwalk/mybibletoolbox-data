@@ -1,0 +1,331 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 20:13
+text: ὁ δὲ ἀποκριθεὶς ἑνὶ αὐτῶν εἶπεν Ἑταῖρε, οὐκ ἀδικῶ σε· οὐχὶ δηναρίου συνεφώνησάς
+  μοι;
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 20:13!2
+    wordID: n40020013002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 20:13!1
+    wordID: n40020013001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40020011006
+- position: 3
+  text: ἀποκριθεὶς
+  lemma: ἀποκρίνομαι
+  normalized: ἀποκριθείς
+  ids:
+    ref: MAT 20:13!3
+    wordID: n40020013003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A1:n40020011006
+  discourse:
+    subject: n40020011006
+- position: 4
+  text: ἑνὶ
+  lemma: εἷς
+  normalized: ἑνί
+  ids:
+    ref: MAT 20:13!4
+    wordID: n40020013004
+  translation:
+    gloss: to one
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
+- position: 5
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: MAT 20:13!5
+    wordID: n40020013005
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40020010004
+- position: 6
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 20:13!6
+    wordID: n40020013006
+  translation:
+    gloss: he said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40020013001 A2:n40020013004
+- position: 7
+  text: Ἑταῖρε
+  lemma: ἑταῖρος
+  normalized: Ἑταῖρε
+  ids:
+    ref: MAT 20:13!7
+    wordID: n40020013007
+  translation:
+    gloss: Friend
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2083'
+  semantic:
+    semanticDomain: '034001'
+    ln: '34.16'
+  syntax:
+    role: aux
+- position: 8
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: MAT 20:13!8
+    wordID: n40020013008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 9
+  text: ἀδικῶ
+  lemma: ἀδικέω
+  normalized: ἀδικῶ
+  ids:
+    ref: MAT 20:13!9
+    wordID: n40020013009
+  translation:
+    gloss: I do wrong
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '91'
+  semantic:
+    semanticDomain: 088002 088016
+    ln: 88.128 88.22
+  syntax:
+    role: v
+    frame: A0:n40020011006 A1:n40020013010
+  discourse:
+    subject: n40020011006
+- position: 10
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: MAT 20:13!10
+    wordID: n40020013010
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: o
+  discourse:
+    referent: n40020013007
+- position: 11
+  text: οὐχὶ
+  lemma: οὐχί
+  normalized: οὐχί
+  ids:
+    ref: MAT 20:13!11
+    wordID: n40020013011
+  translation:
+    gloss: Not
+  morphology:
+    class: ptcl
+    morph: PRT-I
+  lexical:
+    strong: '3780'
+  semantic:
+    semanticDomain: 069004
+    ln: '69.12'
+- position: 12
+  text: δηναρίου
+  lemma: δηνάριον
+  normalized: δηναρίου
+  ids:
+    ref: MAT 20:13!12
+    wordID: n40020013012
+  translation:
+    gloss: for a denarius
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1220'
+  semantic:
+    semanticDomain: '006011'
+    ln: '6.75'
+  syntax:
+    role: adv
+- position: 13
+  text: συνεφώνησάς
+  lemma: συμφωνέω
+  normalized: συνεφώνησας
+  ids:
+    ref: MAT 20:13!13
+    wordID: n40020013013
+  translation:
+    gloss: did you agree with
+  morphology:
+    class: verb
+    morph: V-AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4856'
+  semantic:
+    semanticDomain: '031003'
+    ln: '31.15'
+  syntax:
+    role: v
+    frame: A0:n40020013007
+  discourse:
+    subject: n40020013007
+- position: 14
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: MAT 20:13!14
+    wordID: n40020013014
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40020011006

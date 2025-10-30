@@ -1,0 +1,404 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1JN 4:4
+text: 1JN 4:4 Ὑμεῖς ἐκ τοῦ Θεοῦ ἐστε, τεκνία, καὶ νενικήκατε αὐτούς, ὅτι μείζων ἐστὶν
+  ὁ ἐν ὑμῖν ἢ ὁ ἐν τῷ κόσμῳ.
+words:
+- position: 1
+  text: τεκνία
+  lemma: τεκνίον
+  normalized: τεκνία
+  ids:
+    ref: 1JN 4:4!6
+    wordID: n62004004006
+  translation:
+    gloss: little children
+  morphology:
+    class: noun
+    morph: N-VPN
+    gender: neuter
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '5040'
+  semantic:
+    semanticDomain: 009005
+    ln: '9.46'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 2
+  text: Ὑμεῖς
+  lemma: σύ
+  normalized: Ὑμεῖς
+  ids:
+    ref: 1JN 4:4!1
+    wordID: n62004004001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n62004004006
+- position: 3
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: 1JN 4:4!2
+    wordID: n62004004002
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 089003
+    ln: '89.3'
+- position: 4
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 1JN 4:4!3
+    wordID: n62004004003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: 1JN 4:4!4
+    wordID: n62004004004
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 6
+  text: ἐστε
+  lemma: εἰμί
+  normalized: ἐστε
+  ids:
+    ref: 1JN 4:4!5
+    wordID: n62004004005
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: vc
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1JN 4:4!7
+    wordID: n62004004007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 8
+  text: νενικήκατε
+  lemma: νικάω
+  normalized: νενικήκατε
+  ids:
+    ref: 1JN 4:4!8
+    wordID: n62004004008
+  translation:
+    gloss: have overcome
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3528'
+  semantic:
+    semanticDomain: 039012
+    ln: '39.57'
+  syntax:
+    role: v
+    frame: A0:n62004004006 A1:n62004004009
+  discourse:
+    subject: n62004004006
+- position: 9
+  text: αὐτούς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: 1JN 4:4!9
+    wordID: n62004004009
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    referent: n62004001017
+- position: 10
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: 1JN 4:4!10
+    wordID: n62004004010
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 11
+  text: μείζων
+  lemma: μέγας
+  normalized: μείζων
+  ids:
+    ref: 1JN 4:4!11
+    wordID: n62004004011
+  translation:
+    gloss: greater
+  morphology:
+    class: adj
+    morph: A-NSM-C
+    gender: masculine
+    number: singular
+    case: nominative
+    degree: comparative
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 078001 087003
+    ln: 78.2 87.22
+  syntax:
+    role: p
+- position: 12
+  text: ἐστὶν
+  lemma: εἰμί
+  normalized: ἐστίν
+  ids:
+    ref: 1JN 4:4!12
+    wordID: n62004004012
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: vc
+- position: 13
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: 1JN 4:4!13
+    wordID: n62004004013
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1JN 4:4!14
+    wordID: n62004004014
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.119'
+- position: 15
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1JN 4:4!15
+    wordID: n62004004015
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n62004004006
+- position: 16
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: 1JN 4:4!16
+    wordID: n62004004016
+  translation:
+    gloss: than
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+- position: 17
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: 1JN 4:4!17
+    wordID: n62004004017
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 18
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1JN 4:4!18
+    wordID: n62004004018
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+- position: 19
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: 1JN 4:4!19
+    wordID: n62004004019
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 20
+  text: κόσμῳ
+  lemma: κόσμος
+  normalized: κόσμῳ
+  ids:
+    ref: 1JN 4:4!20
+    wordID: n62004004020
+  translation:
+    gloss: world
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2889'
+  semantic:
+    semanticDomain: '041003'
+    ln: '41.38'

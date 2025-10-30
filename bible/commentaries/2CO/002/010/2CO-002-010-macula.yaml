@@ -1,0 +1,119 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2CO 2:10
+text: 2CO 2:10 ᾧ δέ τι χαρίζεσθε, κἀγώ·
+words:
+- position: 1
+  text: δέ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 2CO 2:10!2
+    wordID: n47002010002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ᾧ
+  lemma: ὅς
+  normalized: ᾧ
+  ids:
+    ref: 2CO 2:10!1
+    wordID: n47002010001
+  translation:
+    gloss: To whomever
+  morphology:
+    class: pron
+    morph: R-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: io
+- position: 3
+  text: τι
+  lemma: τὶς
+  normalized: τι
+  ids:
+    ref: 2CO 2:10!3
+    wordID: n47002010003
+  translation:
+    gloss: anything
+  morphology:
+    class: pron
+    morph: X-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: o
+- position: 4
+  text: χαρίζεσθε
+  lemma: χαρίζομαι
+  normalized: χαρίζεσθε
+  ids:
+    ref: 2CO 2:10!4
+    wordID: n47002010004
+  translation:
+    gloss: you forgive
+  morphology:
+    class: verb
+    morph: V-PNI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '5483'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.10'
+  syntax:
+    role: v
+    frame: A0:n47001008006 A2:n47002010001 A1:n47002010003
+  discourse:
+    subject: n47001008006
+- position: 5
+  text: κἀγώ
+  lemma: κἀγώ
+  normalized: κἀγώ
+  ids:
+    ref: 2CO 2:10!5
+    wordID: n47002010005
+  translation:
+    gloss: I also
+  morphology:
+    class: pron
+    morph: P-1NS-K
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '2504'
+  semantic:
+    semanticDomain: 089017 092001
+    ln: 89.93 92.1
+  syntax:
+    role: s
+  discourse:
+    referent: n47001001001

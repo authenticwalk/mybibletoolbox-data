@@ -1,0 +1,211 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 11:12
+text: εἶπαν οὖν οἱ μαθηταὶ αὐτῷ Κύριε, εἰ κεκοίμηται, σωθήσεται.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: JHN 11:12!2
+    wordID: n43011012002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἶπαν
+  lemma: λέγω
+  normalized: εἶπαν
+  ids:
+    ref: JHN 11:12!1
+    wordID: n43011012001
+  translation:
+    gloss: Said
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43011012004 A2:n43011012005
+- position: 3
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: JHN 11:12!3
+    wordID: n43011012003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: μαθηταὶ
+  lemma: μαθητής
+  normalized: μαθηταί
+  ids:
+    ref: JHN 11:12!4
+    wordID: n43011012004
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
+- position: 5
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: JHN 11:12!5
+    wordID: n43011012005
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43011009002
+- position: 6
+  text: Κύριε
+  lemma: κύριος
+  normalized: Κύριε
+  ids:
+    ref: JHN 11:12!6
+    wordID: n43011012006
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: aux
+- position: 7
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: JHN 11:12!7
+    wordID: n43011012007
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 8
+  text: κεκοίμηται
+  lemma: κοιμάομαι
+  normalized: κεκοίμηται
+  ids:
+    ref: JHN 11:12!8
+    wordID: n43011012008
+  translation:
+    gloss: he has fallen asleep
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2837'
+  semantic:
+    semanticDomain: '023005'
+    ln: '23.66'
+  syntax:
+    role: v
+    frame: A0:n43011011008
+  discourse:
+    subject: n43011011008
+- position: 9
+  text: σωθήσεται
+  lemma: σῴζω
+  normalized: σωθήσεται
+  ids:
+    ref: JHN 11:12!9
+    wordID: n43011012009
+  translation:
+    gloss: he will get well
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4982'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.136'
+  syntax:
+    role: v
+    frame: A1:n43011011008
+  discourse:
+    subject: n43011011008

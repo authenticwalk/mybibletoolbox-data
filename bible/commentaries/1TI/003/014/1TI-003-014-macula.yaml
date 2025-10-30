@@ -1,0 +1,182 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1TI 3:14
+text: 1TI 3:14 Ταῦτά σοι γράφω ἐλπίζων ἐλθεῖν πρὸς σὲ τάχειον·
+words:
+- position: 1
+  text: Ταῦτά
+  lemma: οὗτος
+  normalized: Ταῦτα
+  ids:
+    ref: 1TI 3:14!1
+    wordID: n54003014001
+  translation:
+    gloss: These things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  syntax:
+    role: o
+- position: 2
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: 1TI 3:14!2
+    wordID: n54003014002
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: io
+  discourse:
+    referent: n54001018006
+- position: 3
+  text: γράφω
+  lemma: γράφω
+  normalized: γράφω
+  ids:
+    ref: 1TI 3:14!3
+    wordID: n54003014003
+  translation:
+    gloss: I am writing
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.61'
+  syntax:
+    role: v
+    frame: A0:n54001001001 A1:n54003014001 A2:n54003014002
+  discourse:
+    subject: n54001001001
+- position: 4
+  text: ἐλπίζων
+  lemma: ἐλπίζω
+  normalized: ἐλπίζων
+  ids:
+    ref: 1TI 3:14!4
+    wordID: n54003014004
+  translation:
+    gloss: hoping
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1679'
+  semantic:
+    semanticDomain: '030003'
+    ln: '30.54'
+  syntax:
+    role: v
+    frame: A0:n54001001001 A1:n54003014005
+  discourse:
+    subject: n54001001001
+- position: 5
+  text: ἐλθεῖν
+  lemma: ἔρχομαι
+  normalized: ἐλθεῖν
+  ids:
+    ref: 1TI 3:14!5
+    wordID: n54003014005
+  translation:
+    gloss: to come
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n54001001001
+  discourse:
+    subject: n54001001001
+- position: 6
+  text: πρὸς
+  lemma: πρός
+  normalized: πρός
+  ids:
+    ref: 1TI 3:14!6
+    wordID: n54003014006
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
+- position: 7
+  text: σὲ
+  lemma: σύ
+  normalized: σέ
+  ids:
+    ref: 1TI 3:14!7
+    wordID: n54003014007
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n54001018006
+- position: 8
+  text: τάχειον
+  lemma: ταχύς
+  normalized: τάχειον
+  ids:
+    ref: 1TI 3:14!8
+    wordID: n54003014008
+  translation:
+    gloss: a short time
+  morphology:
+    class: noun
+    morph: ADV-C
+    gender: neuter
+    number: singular
+    case: dative
+  lexical:
+    strong: '5032'
+  syntax:
+    role: adv

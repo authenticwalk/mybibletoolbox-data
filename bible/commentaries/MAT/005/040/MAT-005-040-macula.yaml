@@ -1,0 +1,336 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:40
+text: καὶ τῷ θέλοντί σοι κριθῆναι καὶ τὸν χιτῶνά σου λαβεῖν, ἄφες αὐτῷ καὶ τὸ ἱμάτιον·
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 5:40!1
+    wordID: n40005040001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 2
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 5:40!2
+    wordID: n40005040002
+  translation:
+    gloss: to the one
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: θέλοντί
+  lemma: θέλω
+  normalized: θέλοντι
+  ids:
+    ref: MAT 5:40!3
+    wordID: n40005040003
+  translation:
+    gloss: willing
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40005040005;n40005040010
+- position: 4
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: MAT 5:40!4
+    wordID: n40005040004
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40005001015
+- position: 5
+  text: κριθῆναι
+  lemma: κρίνω
+  normalized: κριθῆναι
+  ids:
+    ref: MAT 5:40!5
+    wordID: n40005040005
+  translation:
+    gloss: to sue
+  morphology:
+    class: verb
+    morph: V-APN
+    tense: aorist
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.30'
+  syntax:
+    role: v
+    frame: A1:n40005040003
+  discourse:
+    subject: n40005040003
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 5:40!6
+    wordID: n40005040006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 7
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: MAT 5:40!7
+    wordID: n40005040007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: χιτῶνά
+  lemma: χιτών
+  normalized: χιτῶνα
+  ids:
+    ref: MAT 5:40!8
+    wordID: n40005040008
+  translation:
+    gloss: tunic
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5509'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.176'
+- position: 9
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: MAT 5:40!9
+    wordID: n40005040009
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n40005001015
+- position: 10
+  text: λαβεῖν
+  lemma: λαμβάνω
+  normalized: λαβεῖν
+  ids:
+    ref: MAT 5:40!10
+    wordID: n40005040010
+  translation:
+    gloss: to take
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.55'
+  syntax:
+    role: v
+    frame: A0:n40005040003 A1:n40005040008
+  discourse:
+    subject: n40005040003
+- position: 11
+  text: ἄφες
+  lemma: ἀφίημι
+  normalized: ἄφες
+  ids:
+    ref: MAT 5:40!11
+    wordID: n40005040011
+  translation:
+    gloss: yield
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.140'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A2:n40005040012 A1:n40005040015
+  discourse:
+    subject: n40005001015
+- position: 12
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: MAT 5:40!12
+    wordID: n40005040012
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005040003
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 5:40!13
+    wordID: n40005040013
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 14
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: MAT 5:40!14
+    wordID: n40005040014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: ἱμάτιον
+  lemma: ἱμάτιον
+  normalized: ἱμάτιον
+  ids:
+    ref: MAT 5:40!15
+    wordID: n40005040015
+  translation:
+    gloss: cloak
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.172'

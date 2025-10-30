@@ -1,0 +1,161 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:34
+text: ἐγὼ δὲ λέγω ὑμῖν μὴ ὀμόσαι ὅλως·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 5:34!2
+    wordID: n40005034002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: MAT 5:34!1
+    wordID: n40005034001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40004017005
+- position: 3
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: MAT 5:34!3
+    wordID: n40005034003
+  translation:
+    gloss: say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40005034001 A2:n40005034004
+- position: 4
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: MAT 5:34!4
+    wordID: n40005034004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
+- position: 5
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 5:34!5
+    wordID: n40005034005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 6
+  text: ὀμόσαι
+  lemma: ὀμνύω
+  normalized: ὀμόσαι
+  ids:
+    ref: MAT 5:34!6
+    wordID: n40005034006
+  translation:
+    gloss: to swear
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3660'
+  semantic:
+    semanticDomain: '033054'
+    ln: '33.463'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
+- position: 7
+  text: ὅλως
+  lemma: ὅλως
+  normalized: ὅλως
+  ids:
+    ref: MAT 5:34!7
+    wordID: n40005034007
+  translation:
+    gloss: at all
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3654'
+  semantic:
+    semanticDomain: 070 078004
+    ln: 70.1 78.44
+  syntax:
+    role: adv

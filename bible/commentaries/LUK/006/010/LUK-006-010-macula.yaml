@@ -1,0 +1,237 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 6:10
+text: καὶ περιβλεψάμενος πάντας αὐτοὺς εἶπεν αὐτῷ Ἔκτεινον τὴν χεῖρά σου.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 6:10!1
+    wordID: n42006010001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: περιβλεψάμενος
+  lemma: περιβλέπω
+  normalized: περιβλεψάμενος
+  ids:
+    ref: LUK 6:10!2
+    wordID: n42006010002
+  translation:
+    gloss: having looked around
+  morphology:
+    class: verb
+    morph: V-AMP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '4017'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.11'
+  syntax:
+    role: v
+    frame: A0:n42006009004 A1:n42006010004
+  discourse:
+    subject: n42006009004
+- position: 3
+  text: πάντας
+  lemma: πᾶς
+  normalized: πάντας
+  ids:
+    ref: LUK 6:10!3
+    wordID: n42006010003
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 4
+  text: αὐτοὺς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: LUK 6:10!4
+    wordID: n42006010004
+  translation:
+    gloss: on them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n42006007005 n42006007008
+- position: 5
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: LUK 6:10!5
+    wordID: n42006010005
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42006009004 A2:n42006010006
+  discourse:
+    subject: n42006009004
+- position: 6
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: LUK 6:10!6
+    wordID: n42006010006
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n42006008010
+- position: 7
+  text: Ἔκτεινον
+  lemma: ἐκτείνω
+  normalized: Ἔκτεινον
+  ids:
+    ref: LUK 6:10!7
+    wordID: n42006010007
+  translation:
+    gloss: Stretch out
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1614'
+  semantic:
+    semanticDomain: '016'
+    ln: '16.19'
+  syntax:
+    role: v
+    frame: A0:n42006008010 A1:n42006010009
+  discourse:
+    subject: n42006008010
+- position: 8
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: LUK 6:10!8
+    wordID: n42006010008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: χεῖρά
+  lemma: χείρ
+  normalized: χεῖρα
+  ids:
+    ref: LUK 6:10!9
+    wordID: n42006010009
+  translation:
+    gloss: hand
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'
+- position: 10
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: LUK 6:10!10
+    wordID: n42006010010
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n42006008010

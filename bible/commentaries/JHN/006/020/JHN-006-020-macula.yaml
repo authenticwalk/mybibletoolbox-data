@@ -1,0 +1,194 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 6:20
+text: ὁ δὲ λέγει αὐτοῖς Ἐγώ εἰμι, μὴ φοβεῖσθε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JHN 6:20!2
+    wordID: n43006020002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 6:20!1
+    wordID: n43006020001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n43006019011
+- position: 3
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: JHN 6:20!3
+    wordID: n43006020003
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43006020001 A2:n43006020004
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 6:20!4
+    wordID: n43006020004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43006016007
+- position: 5
+  text: Ἐγώ
+  lemma: ἐγώ
+  normalized: Ἐγώ
+  ids:
+    ref: JHN 6:20!5
+    wordID: n43006020005
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43006019011
+- position: 6
+  text: εἰμι
+  lemma: εἰμί
+  normalized: εἰμι
+  ids:
+    ref: JHN 6:20!6
+    wordID: n43006020006
+  translation:
+    gloss: am [He]
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.69'
+  syntax:
+    role: vc
+- position: 7
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: JHN 6:20!7
+    wordID: n43006020007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: φοβεῖσθε
+  lemma: φοβέω
+  normalized: φοβεῖσθε
+  ids:
+    ref: JHN 6:20!8
+    wordID: n43006020008
+  translation:
+    gloss: fear
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '5399'
+  semantic:
+    semanticDomain: '025022'
+    ln: '25.252'
+  syntax:
+    role: v
+    frame: A0:n43006016007
+  discourse:
+    subject: n43006016007

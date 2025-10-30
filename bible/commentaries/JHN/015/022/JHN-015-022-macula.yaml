@@ -1,0 +1,207 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 15:22
+text: εἰ μὴ ἦλθον καὶ ἐλάλησα αὐτοῖς, ἁμαρτίαν οὐκ εἴχοσαν·
+words:
+- position: 1
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: JHN 15:22!1
+    wordID: n43015022001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: JHN 15:22!2
+    wordID: n43015022002
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 3
+  text: ἦλθον
+  lemma: ἔρχομαι
+  normalized: ἦλθον
+  ids:
+    ref: JHN 15:22!3
+    wordID: n43015022003
+  translation:
+    gloss: I had come
+  morphology:
+    class: verb
+    morph: V-2AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n43014023002
+  discourse:
+    subject: n43014023002
+- position: 4
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 15:22!4
+    wordID: n43015022004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 5
+  text: ἐλάλησα
+  lemma: λαλέω
+  normalized: ἐλάλησα
+  ids:
+    ref: JHN 15:22!5
+    wordID: n43015022005
+  translation:
+    gloss: spoken
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n43014023002 A2:n43015022006
+  discourse:
+    subject: n43014023002
+- position: 6
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 15:22!6
+    wordID: n43015022006
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43015019031
+- position: 7
+  text: ἁμαρτίαν
+  lemma: ἁμαρτία
+  normalized: ἁμαρτίαν
+  ids:
+    ref: JHN 15:22!7
+    wordID: n43015022007
+  translation:
+    gloss: sin
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '266'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.310'
+  syntax:
+    role: o
+- position: 8
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: JHN 15:22!8
+    wordID: n43015022008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 9
+  text: εἴχοσαν
+  lemma: ἔχω
+  normalized: εἴχοσαν
+  ids:
+    ref: JHN 15:22!9
+    wordID: n43015022009
+  translation:
+    gloss: they would have had
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.65'
+  syntax:
+    role: v
+    frame: A0:n43015019031 A1:n43015022007
+  discourse:
+    subject: n43015019031

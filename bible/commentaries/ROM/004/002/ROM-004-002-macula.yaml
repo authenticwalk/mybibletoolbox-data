@@ -1,0 +1,178 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 4:2
+text: εἰ γὰρ Ἀβραὰμ ἐξ ἔργων ἐδικαιώθη, ἔχει καύχημα·
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: ROM 4:2!2
+    wordID: n45004002002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: ROM 4:2!1
+    wordID: n45004002001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 3
+  text: Ἀβραὰμ
+  lemma: Ἀβραάμ
+  normalized: Ἀβραάμ
+  ids:
+    ref: ROM 4:2!3
+    wordID: n45004002003
+  translation:
+    gloss: Abraham
+  morphology:
+    class: noun
+    morph: N-PRI
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '11'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.7'
+  syntax:
+    role: s
+- position: 4
+  text: ἐξ
+  lemma: ἐκ
+  normalized: ἐξ
+  ids:
+    ref: ROM 4:2!4
+    wordID: n45004002004
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.25'
+- position: 5
+  text: ἔργων
+  lemma: ἔργον
+  normalized: ἔργων
+  ids:
+    ref: ROM 4:2!5
+    wordID: n45004002005
+  translation:
+    gloss: works
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '2041'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.11'
+- position: 6
+  text: ἐδικαιώθη
+  lemma: δικαιόω
+  normalized: ἐδικαιώθη
+  ids:
+    ref: ROM 4:2!6
+    wordID: n45004002006
+  translation:
+    gloss: was justified
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1344'
+  semantic:
+    semanticDomain: '034005'
+    ln: '34.46'
+  syntax:
+    role: v
+    frame: A1:n45004002003
+- position: 7
+  text: ἔχει
+  lemma: ἔχω
+  normalized: ἔχει
+  ids:
+    ref: ROM 4:2!7
+    wordID: n45004002007
+  translation:
+    gloss: he has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.65'
+  syntax:
+    role: v
+    frame: A0:n45004002003 A1:n45004002008
+  discourse:
+    subject: n45004002003
+- position: 8
+  text: καύχημα
+  lemma: καύχημα
+  normalized: καύχημα
+  ids:
+    ref: ROM 4:2!8
+    wordID: n45004002008
+  translation:
+    gloss: ground of boasting
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2745'
+  semantic:
+    semanticDomain: 025019 033039
+    ln: 25.203 33.372
+  syntax:
+    role: o

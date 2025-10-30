@@ -1,0 +1,270 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 7:49
+text: ποῖον οἶκον οἰκοδομήσετέ μοι, λέγει Κύριος, ἢ τίς τόπος τῆς καταπαύσεώς μου;
+words:
+- position: 1
+  text: ποῖον
+  lemma: ποῖος
+  normalized: ποῖον
+  ids:
+    ref: ACT 7:49!12
+    wordID: n44007049012
+  translation:
+    gloss: What kind of
+  morphology:
+    class: pron
+    morph: I-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '4169'
+  semantic:
+    semanticDomain: 058004
+    ln: '58.30'
+- position: 2
+  text: οἶκον
+  lemma: οἶκος
+  normalized: οἶκον
+  ids:
+    ref: ACT 7:49!13
+    wordID: n44007049013
+  translation:
+    gloss: house
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3624'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.2'
+- position: 3
+  text: οἰκοδομήσετέ
+  lemma: οἰκοδομέω
+  normalized: οἰκοδομήσετε
+  ids:
+    ref: ACT 7:49!14
+    wordID: n44007049014
+  translation:
+    gloss: will you build
+  morphology:
+    class: verb
+    morph: V-FAI-2P
+    number: plural
+    person: second
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3618'
+  semantic:
+    semanticDomain: '045'
+    ln: '45.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n44007049013 A2:n44007049015
+- position: 4
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: ACT 7:49!15
+    wordID: n44007049015
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n44007049017
+- position: 5
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: ACT 7:49!16
+    wordID: n44007049016
+  translation:
+    gloss: says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n44007049017
+- position: 6
+  text: Κύριος
+  lemma: κύριος
+  normalized: Κύριος
+  ids:
+    ref: ACT 7:49!17
+    wordID: n44007049017
+  translation:
+    gloss: '[the] Lord'
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: s
+- position: 7
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: ACT 7:49!18
+    wordID: n44007049018
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 8
+  text: τίς
+  lemma: τίς
+  normalized: τίς
+  ids:
+    ref: ACT 7:49!19
+    wordID: n44007049019
+  translation:
+    gloss: what [is]
+  morphology:
+    class: pron
+    morph: I-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: p
+- position: 9
+  text: τόπος
+  lemma: τόπος
+  normalized: τόπος
+  ids:
+    ref: ACT 7:49!20
+    wordID: n44007049020
+  translation:
+    gloss: '[the] place'
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5117'
+  semantic:
+    semanticDomain: 080001
+    ln: '80.1'
+- position: 10
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: ACT 7:49!21
+    wordID: n44007049021
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: καταπαύσεώς
+  lemma: κατάπαυσις
+  normalized: καταπαύσεως
+  ids:
+    ref: ACT 7:49!22
+    wordID: n44007049022
+  translation:
+    gloss: rest
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2663'
+  semantic:
+    semanticDomain: '023006'
+    ln: '23.81'
+- position: 12
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: ACT 7:49!23
+    wordID: n44007049023
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n44007049017

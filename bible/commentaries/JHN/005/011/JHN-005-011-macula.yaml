@@ -1,0 +1,401 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 5:11
+text: ὃς δὲ ἀπεκρίθη αὐτοῖς Ὁ ποιήσας με ὑγιῆ, ἐκεῖνός μοι εἶπεν Ἆρον τὸν κράβαττόν
+  σου καὶ περιπάτει.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JHN 5:11!2
+    wordID: n43005011002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὃς
+  lemma: ὅς
+  normalized: ὅς
+  ids:
+    ref: JHN 5:11!1
+    wordID: n43005011001
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: s
+  discourse:
+    referent: n43005010006
+- position: 3
+  text: ἀπεκρίθη
+  lemma: ἀποκρίνομαι
+  normalized: ἀπεκρίθη
+  ids:
+    ref: JHN 5:11!3
+    wordID: n43005011003
+  translation:
+    gloss: answered
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A0:n43005011001 A2:n43005011004
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 5:11!4
+    wordID: n43005011004
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43005010004
+- position: 5
+  text: Ὁ
+  lemma: ὁ
+  normalized: Ὁ
+  ids:
+    ref: JHN 5:11!5
+    wordID: n43005011005
+  translation:
+    gloss: The [One]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: ποιήσας
+  lemma: ποιέω
+  normalized: ποιήσας
+  ids:
+    ref: JHN 5:11!6
+    wordID: n43005011006
+  translation:
+    gloss: having made
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.9'
+  syntax:
+    role: v
+    frame: A0:n43005008004 A1:n43005011007
+  discourse:
+    subject: n43005008004
+- position: 7
+  text: με
+  lemma: ἐγώ
+  normalized: με
+  ids:
+    ref: JHN 5:11!7
+    wordID: n43005011007
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n43005010006
+- position: 8
+  text: ὑγιῆ
+  lemma: ὑγιής
+  normalized: ὑγιῆ
+  ids:
+    ref: JHN 5:11!8
+    wordID: n43005011008
+  translation:
+    gloss: well
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '5199'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.129'
+  syntax:
+    role: o2
+- position: 9
+  text: ἐκεῖνός
+  lemma: ἐκεῖνος
+  normalized: ἐκεῖνος
+  ids:
+    ref: JHN 5:11!9
+    wordID: n43005011009
+  translation:
+    gloss: that One
+  morphology:
+    class: pron
+    morph: D-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: s
+  discourse:
+    referent: n43005011006
+- position: 10
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: JHN 5:11!10
+    wordID: n43005011010
+  translation:
+    gloss: to me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n43005010006
+- position: 11
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: JHN 5:11!11
+    wordID: n43005011011
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43005011009 A2:n43005011010
+- position: 12
+  text: Ἆρον
+  lemma: αἴρω
+  normalized: Ἆρον
+  ids:
+    ref: JHN 5:11!12
+    wordID: n43005011012
+  translation:
+    gloss: Take up
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: '015024'
+    ln: '15.203'
+  syntax:
+    role: v
+    frame: A0:n43005010006 A1:n43005011014
+  discourse:
+    subject: n43005010006
+- position: 13
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: JHN 5:11!13
+    wordID: n43005011013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: κράβαττόν
+  lemma: κράβαττος
+  normalized: κράβαττον
+  ids:
+    ref: JHN 5:11!14
+    wordID: n43005011014
+  translation:
+    gloss: mat
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2895'
+  semantic:
+    semanticDomain: '006015'
+    ln: '6.107'
+- position: 15
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: JHN 5:11!15
+    wordID: n43005011015
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n43005010006
+- position: 16
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 5:11!16
+    wordID: n43005011016
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 17
+  text: περιπάτει
+  lemma: περιπατέω
+  normalized: περιπάτει
+  ids:
+    ref: JHN 5:11!17
+    wordID: n43005011017
+  translation:
+    gloss: walk
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4043'
+  semantic:
+    semanticDomain: 015029
+    ln: '15.227'
+  syntax:
+    role: v
+    frame: A0:n43005010006
+  discourse:
+    subject: n43005010006

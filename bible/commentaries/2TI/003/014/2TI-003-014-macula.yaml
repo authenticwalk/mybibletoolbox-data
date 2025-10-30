@@ -1,0 +1,651 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2TI 3:14
+text: "2TI 3:14 \n         2TI 3:15 σὺ δὲ μένε ἐν οἷς ἔμαθες καὶ ἐπιστώθης, εἰδὼς\
+  \ παρὰ τίνων ἔμαθες, καὶ ὅτι ἀπὸ βρέφους ἱερὰ γράμματα οἶδας, τὰ δυνάμενά σε σοφίσαι\
+  \ εἰς σωτηρίαν διὰ πίστεως τῆς ἐν Χριστῷ Ἰησοῦ."
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 2TI 3:14!2
+    wordID: n55003014002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: σὺ
+  lemma: σύ
+  normalized: σύ
+  ids:
+    ref: 2TI 3:14!1
+    wordID: n55003014001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n55002001003
+- position: 3
+  text: μένε
+  lemma: μένω
+  normalized: μένε
+  ids:
+    ref: 2TI 3:14!3
+    wordID: n55003014003
+  translation:
+    gloss: abide
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3306'
+  semantic:
+    semanticDomain: 068002
+    ln: '68.11'
+  syntax:
+    role: v
+    frame: A0:n55003014001
+- position: 4
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 2TI 3:14!4
+    wordID: n55003014004
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+- position: 5
+  text: οἷς
+  lemma: ὅς
+  normalized: οἷς
+  ids:
+    ref: 2TI 3:14!5
+    wordID: n55003014005
+  translation:
+    gloss: the things
+  morphology:
+    class: pron
+    morph: R-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 6
+  text: ἔμαθες
+  lemma: μανθάνω
+  normalized: ἔμαθες
+  ids:
+    ref: 2TI 3:14!6
+    wordID: n55003014006
+  translation:
+    gloss: you have learned
+  morphology:
+    class: verb
+    morph: V-2AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3129'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.12'
+  syntax:
+    frame: A0:n55002001003 A1:n55003014005
+  discourse:
+    subject: n55002001003
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2TI 3:14!7
+    wordID: n55003014007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 8
+  text: ἐπιστώθης
+  lemma: πιστόω
+  normalized: ἐπιστώθης
+  ids:
+    ref: 2TI 3:14!8
+    wordID: n55003014008
+  translation:
+    gloss: have been assured of
+  morphology:
+    class: verb
+    morph: V-API-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4104'
+  semantic:
+    semanticDomain: '031006'
+    ln: '31.36'
+  syntax:
+    frame: A1:n55002001003 A1:n55003014005
+  discourse:
+    subject: n55002001003
+- position: 9
+  text: εἰδὼς
+  lemma: οἶδα
+  normalized: εἰδώς
+  ids:
+    ref: 2TI 3:14!9
+    wordID: n55003014009
+  translation:
+    gloss: having known
+  morphology:
+    class: verb
+    morph: V-RAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001 029002
+    ln: 28.1 29.6
+  syntax:
+    role: v
+    frame: A0:n55002001003
+  discourse:
+    subject: n55002001003
+- position: 10
+  text: παρὰ
+  lemma: παρά
+  normalized: παρά
+  ids:
+    ref: 2TI 3:14!10
+    wordID: n55003014010
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3844'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.14'
+- position: 11
+  text: τίνων
+  lemma: τίς
+  normalized: τίνων
+  ids:
+    ref: 2TI 3:14!11
+    wordID: n55003014011
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: I-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: interrogative
+  lexical:
+    strong: '5101'
+- position: 12
+  text: ἔμαθες
+  lemma: μανθάνω
+  normalized: ἔμαθες
+  ids:
+    ref: 2TI 3:14!12
+    wordID: n55003014012
+  translation:
+    gloss: you learned [them]
+  morphology:
+    class: verb
+    morph: V-2AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3129'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.12'
+  syntax:
+    role: v
+    frame: A0:n55002001003
+  discourse:
+    subject: n55002001003
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2TI 3:15!1
+    wordID: n55003015001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 14
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: 2TI 3:15!2
+    wordID: n55003015002
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+- position: 15
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: 2TI 3:15!3
+    wordID: n55003015003
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.131'
+- position: 16
+  text: βρέφους
+  lemma: βρέφος
+  normalized: βρέφους
+  ids:
+    ref: 2TI 3:15!4
+    wordID: n55003015004
+  translation:
+    gloss: childhood
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1025'
+  semantic:
+    semanticDomain: 067008
+    ln: '67.152'
+- position: 17
+  text: οἶδας
+  lemma: οἶδα
+  normalized: οἶδας
+  ids:
+    ref: 2TI 3:15!7
+    wordID: n55003015007
+  translation:
+    gloss: you have known
+  morphology:
+    class: verb
+    morph: V-RAI-2S
+    number: singular
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001 032001
+    ln: 28.1 32.4
+  syntax:
+    role: v
+    frame: A0:n55002001003 A1:n55003015006
+    discontinuous: 'true'
+  discourse:
+    subject: n55002001003
+- position: 18
+  text: ἱερὰ
+  lemma: ἱερός
+  normalized: ἱερά
+  ids:
+    ref: 2TI 3:15!5
+    wordID: n55003015005
+  translation:
+    gloss: sacred
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '2413'
+  semantic:
+    semanticDomain: '053001'
+    ln: '53.9'
+- position: 19
+  text: γράμματα
+  lemma: γράμμα
+  normalized: γράμματα
+  ids:
+    ref: 2TI 3:15!6
+    wordID: n55003015006
+  translation:
+    gloss: writings
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1121'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.50'
+- position: 20
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: 2TI 3:15!8
+    wordID: n55003015008
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 21
+  text: δυνάμενά
+  lemma: δύναμαι
+  normalized: δυνάμενα
+  ids:
+    ref: 2TI 3:15!9
+    wordID: n55003015009
+  translation:
+    gloss: being able
+  morphology:
+    class: verb
+    morph: V-PNP-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n55003015006 A1:n55003015011
+  discourse:
+    subject: n55003015006
+- position: 22
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: 2TI 3:15!10
+    wordID: n55003015010
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n55002001003
+- position: 23
+  text: σοφίσαι
+  lemma: σοφίζω
+  normalized: σοφίσαι
+  ids:
+    ref: 2TI 3:15!11
+    wordID: n55003015011
+  translation:
+    gloss: to make wise
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4679'
+  semantic:
+    semanticDomain: '032004'
+    ln: '32.36'
+  syntax:
+    role: v
+    frame: A0:n55003015006 A1:n55003015010
+  discourse:
+    subject: n55003015006
+- position: 24
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: 2TI 3:15!12
+    wordID: n55003015012
+  translation:
+    gloss: unto
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.48'
+- position: 25
+  text: σωτηρίαν
+  lemma: σωτηρία
+  normalized: σωτηρίαν
+  ids:
+    ref: 2TI 3:15!13
+    wordID: n55003015013
+  translation:
+    gloss: salvation
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4991'
+  semantic:
+    semanticDomain: '021006'
+    ln: 21.25 21.26
+- position: 26
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: 2TI 3:15!14
+    wordID: n55003015014
+  translation:
+    gloss: through
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
+- position: 27
+  text: πίστεως
+  lemma: πίστις
+  normalized: πίστεως
+  ids:
+    ref: 2TI 3:15!15
+    wordID: n55003015015
+  translation:
+    gloss: faith
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4102'
+  semantic:
+    semanticDomain: '031010'
+    ln: '31.102'
+- position: 28
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: 2TI 3:15!16
+    wordID: n55003015016
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 29
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 2TI 3:15!17
+    wordID: n55003015017
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+- position: 30
+  text: Χριστῷ
+  lemma: Χριστός
+  normalized: Χριστῷ
+  ids:
+    ref: 2TI 3:15!18
+    wordID: n55003015018
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+- position: 31
+  text: Ἰησοῦ
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦ
+  ids:
+    ref: 2TI 3:15!19
+    wordID: n55003015019
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    junction: apposition

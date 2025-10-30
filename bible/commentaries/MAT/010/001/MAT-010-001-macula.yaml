@@ -1,0 +1,456 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:1
+text: Καὶ προσκαλεσάμενος τοὺς δώδεκα μαθητὰς αὐτοῦ ἔδωκεν αὐτοῖς ἐξουσίαν πνευμάτων
+  ἀκαθάρτων ὥστε ἐκβάλλειν αὐτὰ καὶ θεραπεύειν πᾶσαν νόσον καὶ πᾶσαν μαλακίαν.
+words:
+- position: 1
+  text: Καὶ
+  lemma: καί
+  normalized: Καί
+  ids:
+    ref: MAT 10:1!1
+    wordID: n40010001001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
+- position: 2
+  text: προσκαλεσάμενος
+  lemma: προσκαλέω
+  normalized: προσκαλεσάμενος
+  ids:
+    ref: MAT 10:1!2
+    wordID: n40010001002
+  translation:
+    gloss: having summoned
+  morphology:
+    class: verb
+    morph: V-ADP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '4341'
+  semantic:
+    semanticDomain: 033029
+    ln: '33.312'
+  syntax:
+    role: v
+    frame: A0:n40009035004 A1:n40010001005
+  discourse:
+    subject: n40009035004
+- position: 3
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: MAT 10:1!3
+    wordID: n40010001003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: δώδεκα
+  lemma: δώδεκα
+  normalized: δώδεκα
+  ids:
+    ref: MAT 10:1!4
+    wordID: n40010001004
+  translation:
+    gloss: twelve
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1427'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.21'
+- position: 5
+  text: μαθητὰς
+  lemma: μαθητής
+  normalized: μαθητάς
+  ids:
+    ref: MAT 10:1!5
+    wordID: n40010001005
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
+- position: 6
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 10:1!6
+    wordID: n40010001006
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40009035004
+- position: 7
+  text: ἔδωκεν
+  lemma: δίδωμι
+  normalized: ἔδωκεν
+  ids:
+    ref: MAT 10:1!7
+    wordID: n40010001007
+  translation:
+    gloss: He gave
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '037005'
+    ln: '37.98'
+  syntax:
+    role: v
+    frame: A0:n40009035004 A2:n40010001008 A1:n40010001009
+  discourse:
+    subject: n40009035004
+- position: 8
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MAT 10:1!8
+    wordID: n40010001008
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40010001005
+- position: 9
+  text: ἐξουσίαν
+  lemma: ἐξουσία
+  normalized: ἐξουσίαν
+  ids:
+    ref: MAT 10:1!9
+    wordID: n40010001009
+  translation:
+    gloss: authority
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1849'
+  semantic:
+    semanticDomain: '037003'
+    ln: '37.35'
+- position: 10
+  text: πνευμάτων
+  lemma: πνεῦμα
+  normalized: πνευμάτων
+  ids:
+    ref: MAT 10:1!10
+    wordID: n40010001010
+  translation:
+    gloss: over spirits
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '4151'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.39'
+- position: 11
+  text: ἀκαθάρτων
+  lemma: ἀκάθαρτος
+  normalized: ἀκαθάρτων
+  ids:
+    ref: MAT 10:1!11
+    wordID: n40010001011
+  translation:
+    gloss: unclean
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '169'
+  semantic:
+    semanticDomain: '053004'
+    ln: '53.39'
+- position: 12
+  text: ὥστε
+  lemma: ὥστε
+  normalized: ὥστε
+  ids:
+    ref: MAT 10:1!12
+    wordID: n40010001012
+  translation:
+    gloss: so as
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '5620'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.61'
+- position: 13
+  text: ἐκβάλλειν
+  lemma: ἐκβάλλω
+  normalized: ἐκβάλλειν
+  ids:
+    ref: MAT 10:1!13
+    wordID: n40010001013
+  translation:
+    gloss: to cast out
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '053011'
+    ln: '53.102'
+  syntax:
+    role: v
+    frame: A0:n40010001005 A1:n40010001014
+  discourse:
+    subject: n40010001005
+- position: 14
+  text: αὐτὰ
+  lemma: αὐτός
+  normalized: αὐτά
+  ids:
+    ref: MAT 10:1!14
+    wordID: n40010001014
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010001010
+- position: 15
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 10:1!15
+    wordID: n40010001015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 16
+  text: θεραπεύειν
+  lemma: θεραπεύω
+  normalized: θεραπεύειν
+  ids:
+    ref: MAT 10:1!16
+    wordID: n40010001016
+  translation:
+    gloss: to heal
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2323'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.139'
+  syntax:
+    role: v
+    frame: A0:n40010001005 A1:n40010001018;n40010001021
+  discourse:
+    subject: n40010001005
+- position: 17
+  text: πᾶσαν
+  lemma: πᾶς
+  normalized: πᾶσαν
+  ids:
+    ref: MAT 10:1!17
+    wordID: n40010001017
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 18
+  text: νόσον
+  lemma: νόσος
+  normalized: νόσον
+  ids:
+    ref: MAT 10:1!18
+    wordID: n40010001018
+  translation:
+    gloss: disease
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3554'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.155'
+- position: 19
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 10:1!19
+    wordID: n40010001019
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 20
+  text: πᾶσαν
+  lemma: πᾶς
+  normalized: πᾶσαν
+  ids:
+    ref: MAT 10:1!20
+    wordID: n40010001020
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 21
+  text: μαλακίαν
+  lemma: μαλακία
+  normalized: μαλακίαν
+  ids:
+    ref: MAT 10:1!21
+    wordID: n40010001021
+  translation:
+    gloss: sickness
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3119'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.154'

@@ -1,0 +1,198 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:32
+text: Αὐτῶν δὲ ἐξερχομένων, ἰδοὺ προσήνεγκαν αὐτῷ κωφὸν δαιμονιζόμενον.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 9:32!2
+    wordID: n40009032002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Αὐτῶν
+  lemma: αὐτός
+  normalized: Αὐτῶν
+  ids:
+    ref: MAT 9:32!1
+    wordID: n40009032001
+  translation:
+    gloss: '[As] they'
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40009028009
+- position: 3
+  text: ἐξερχομένων
+  lemma: ἐξέρχομαι
+  normalized: ἐξερχομένων
+  ids:
+    ref: MAT 9:32!3
+    wordID: n40009032003
+  translation:
+    gloss: were going out
+  morphology:
+    class: verb
+    morph: V-PNP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1831'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n40009032001
+- position: 4
+  text: ἰδοὺ
+  lemma: ὁράω
+  normalized: ἰδού
+  ids:
+    ref: MAT 9:32!4
+    wordID: n40009032004
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+- position: 5
+  text: προσήνεγκαν
+  lemma: προσφέρω
+  normalized: προσήνεγκαν
+  ids:
+    ref: MAT 9:32!5
+    wordID: n40009032005
+  translation:
+    gloss: they brought
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4374'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.172'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A2:n40009032006 A1:n40009032007
+- position: 6
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: MAT 9:32!6
+    wordID: n40009032006
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40009030010
+- position: 7
+  text: κωφὸν
+  lemma: κωφός
+  normalized: κωφόν
+  ids:
+    ref: MAT 9:32!7
+    wordID: n40009032007
+  translation:
+    gloss: mute
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2974'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.106'
+- position: 8
+  text: δαιμονιζόμενον
+  lemma: δαιμονίζομαι
+  normalized: δαιμονιζόμενον
+  ids:
+    ref: MAT 9:32!8
+    wordID: n40009032008
+  translation:
+    gloss: possessed by a demon
+  morphology:
+    class: verb
+    morph: V-PNP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1139'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.41'
+  syntax:
+    role: v
+    frame: A0:n40009032007
+  discourse:
+    subject: n40009032007

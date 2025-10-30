@@ -1,0 +1,211 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 5:5
+text: ἀκούων δὲ ὁ Ἀνανίας τοὺς λόγους τούτους πεσὼν ἐξέψυξεν·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ACT 5:5!2
+    wordID: n44005005002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: ACT 5:5!3
+    wordID: n44005005003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: Ἀνανίας
+  lemma: Ἁνανίας
+  normalized: Ἀνανίας
+  ids:
+    ref: ACT 5:5!4
+    wordID: n44005005004
+  translation:
+    gloss: Ananias
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '367'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.24a
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: ἀκούων
+  lemma: ἀκούω
+  normalized: ἀκούων
+  ids:
+    ref: ACT 5:5!1
+    wordID: n44005005001
+  translation:
+    gloss: Hearing
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n44005005004 A1:n44005005006
+  discourse:
+    subject: n44005005004
+- position: 5
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: ACT 5:5!5
+    wordID: n44005005005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: λόγους
+  lemma: λόγος
+  normalized: λόγους
+  ids:
+    ref: ACT 5:5!6
+    wordID: n44005005006
+  translation:
+    gloss: words
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.98'
+- position: 7
+  text: τούτους
+  lemma: οὗτος
+  normalized: τούτους
+  ids:
+    ref: ACT 5:5!7
+    wordID: n44005005007
+  translation:
+    gloss: these
+  morphology:
+    class: pron
+    morph: D-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+- position: 8
+  text: πεσὼν
+  lemma: πίπτω
+  normalized: πεσών
+  ids:
+    ref: ACT 5:5!8
+    wordID: n44005005008
+  translation:
+    gloss: having fallen down
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4098'
+  semantic:
+    semanticDomain: '015012'
+    ln: '15.119'
+  syntax:
+    role: v
+    frame: A0:n44005005004
+  discourse:
+    subject: n44005005004
+- position: 9
+  text: ἐξέψυξεν
+  lemma: ἐκψύχω
+  normalized: ἐξέψυξεν
+  ids:
+    ref: ACT 5:5!9
+    wordID: n44005005009
+  translation:
+    gloss: he breathed his last
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1634'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.99'
+  syntax:
+    role: v
+    frame: A0:n44005005004

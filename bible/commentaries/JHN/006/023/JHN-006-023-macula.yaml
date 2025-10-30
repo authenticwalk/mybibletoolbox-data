@@ -1,0 +1,325 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 6:23
+text: ἀλλὰ ἦλθεν πλοιάρια ἐκ Τιβεριάδος ἐγγὺς τοῦ τόπου ὅπου ἔφαγον τὸν ἄρτον εὐχαριστήσαντος
+  τοῦ Κυρίου.
+words:
+- position: 1
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: JHN 6:23!1
+    wordID: n43006023001
+  translation:
+    gloss: but other
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+- position: 2
+  text: πλοιάρια
+  lemma: πλοιάριον
+  normalized: πλοιάρια
+  ids:
+    ref: JHN 6:23!3
+    wordID: n43006023003
+  translation:
+    gloss: boats
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4142'
+  semantic:
+    semanticDomain: 006008
+    ln: '6.42'
+  syntax:
+    role: s
+    discontinuous: 'true'
+- position: 3
+  text: ἦλθεν
+  lemma: ἔρχομαι
+  normalized: ἦλθεν
+  ids:
+    ref: JHN 6:23!2
+    wordID: n43006023002
+  translation:
+    gloss: came
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n43006023003
+- position: 4
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: JHN 6:23!4
+    wordID: n43006023004
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.4'
+- position: 5
+  text: Τιβεριάδος
+  lemma: Τιβεριάς
+  normalized: Τιβεριάδος
+  ids:
+    ref: JHN 6:23!5
+    wordID: n43006023005
+  translation:
+    gloss: Tiberias
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '5085'
+  semantic:
+    semanticDomain: 093002
+    ln: 93.597a
+- position: 6
+  text: ἐγγὺς
+  lemma: ἐγγύς
+  normalized: ἐγγύς
+  ids:
+    ref: JHN 6:23!6
+    wordID: n43006023006
+  translation:
+    gloss: near
+  morphology:
+    class: prep
+    morph: ADV
+  lexical:
+    strong: '1451'
+  semantic:
+    semanticDomain: 083005
+    ln: '83.26'
+- position: 7
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: JHN 6:23!7
+    wordID: n43006023007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: τόπου
+  lemma: τόπος
+  normalized: τόπου
+  ids:
+    ref: JHN 6:23!8
+    wordID: n43006023008
+  translation:
+    gloss: place
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5117'
+  semantic:
+    semanticDomain: 080001
+    ln: '80.1'
+- position: 9
+  text: ὅπου
+  lemma: ὅπου
+  normalized: ὅπου
+  ids:
+    ref: JHN 6:23!9
+    wordID: n43006023009
+  translation:
+    gloss: where
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3699'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.5'
+  syntax:
+    role: adv
+  discourse:
+    referent: n43006023008
+- position: 10
+  text: ἔφαγον
+  lemma: ἐσθίω
+  normalized: ἔφαγον
+  ids:
+    ref: JHN 6:23!10
+    wordID: n43006023010
+  translation:
+    gloss: they ate
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n43006022004 A1:n43006023012
+  discourse:
+    subject: n43006022004
+- position: 11
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: JHN 6:23!11
+    wordID: n43006023011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: ἄρτον
+  lemma: ἄρτος
+  normalized: ἄρτον
+  ids:
+    ref: JHN 6:23!12
+    wordID: n43006023012
+  translation:
+    gloss: bread
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
+- position: 13
+  text: εὐχαριστήσαντος
+  lemma: εὐχαριστέω
+  normalized: εὐχαριστήσαντος
+  ids:
+    ref: JHN 6:23!13
+    wordID: n43006023013
+  translation:
+    gloss: having given thanks
+  morphology:
+    class: verb
+    morph: V-AAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2168'
+  semantic:
+    semanticDomain: '033036'
+    ln: '33.349'
+  syntax:
+    role: v
+    frame: A0:n43006023015
+- position: 14
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: JHN 6:23!14
+    wordID: n43006023014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: JHN 6:23!15
+    wordID: n43006023015
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'

@@ -1,0 +1,265 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 11:7
+text: ἤκουσα δὲ καὶ φωνῆς λεγούσης μοι Ἀναστάς, Πέτρε, θῦσον καὶ φάγε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ACT 11:7!2
+    wordID: n44011007002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἤκουσα
+  lemma: ἀκούω
+  normalized: ἤκουσα
+  ids:
+    ref: ACT 11:7!1
+    wordID: n44011007001
+  translation:
+    gloss: I heard
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n44011004003 A1:n44011007005
+  discourse:
+    subject: n44011004003
+- position: 3
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 11:7!3
+    wordID: n44011007003
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+  syntax:
+    role: adv
+- position: 4
+  text: φωνῆς
+  lemma: φωνή
+  normalized: φωνῆς
+  ids:
+    ref: ACT 11:7!4
+    wordID: n44011007004
+  translation:
+    gloss: a voice
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5456'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.103'
+  syntax:
+    role: s
+- position: 5
+  text: λεγούσης
+  lemma: λέγω
+  normalized: λεγούσης
+  ids:
+    ref: ACT 11:7!5
+    wordID: n44011007005
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n44011007004 A2:n44011007006
+- position: 6
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: ACT 11:7!6
+    wordID: n44011007006
+  translation:
+    gloss: to me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n44011004003
+- position: 7
+  text: Πέτρε
+  lemma: Πέτρος
+  normalized: Πέτρε
+  ids:
+    ref: ACT 11:7!8
+    wordID: n44011007008
+  translation:
+    gloss: Peter
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: proper
+  lexical:
+    strong: '4074'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.296'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 8
+  text: Ἀναστάς
+  lemma: ἀνίστημι
+  normalized: Ἀναστάς
+  ids:
+    ref: ACT 11:7!7
+    wordID: n44011007007
+  translation:
+    gloss: Having risen up
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '450'
+  semantic:
+    semanticDomain: '017001'
+    ln: '17.6'
+  syntax:
+    role: v
+    frame: A0:n44011007008
+  discourse:
+    subject: n44011007008
+- position: 9
+  text: θῦσον
+  lemma: θύω
+  normalized: θῦσον
+  ids:
+    ref: ACT 11:7!9
+    wordID: n44011007009
+  translation:
+    gloss: kill
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2380'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.72'
+  syntax:
+    frame: A0:n44011007008
+  discourse:
+    subject: n44011007008
+- position: 10
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 11:7!10
+    wordID: n44011007010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 11
+  text: φάγε
+  lemma: ἐσθίω
+  normalized: φάγε
+  ids:
+    ref: ACT 11:7!11
+    wordID: n44011007011
+  translation:
+    gloss: eat
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    frame: A0:n44011007008
+  discourse:
+    subject: n44011007008

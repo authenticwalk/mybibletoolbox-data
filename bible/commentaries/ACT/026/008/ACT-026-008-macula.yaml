@@ -1,0 +1,221 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 26:8
+text: τί ἄπιστον κρίνεται παρ’ ὑμῖν εἰ ὁ Θεὸς νεκροὺς ἐγείρει;
+words:
+- position: 1
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: ACT 26:8!1
+    wordID: n44026008001
+  translation:
+    gloss: Why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.15'
+  syntax:
+    role: adv
+- position: 2
+  text: ἄπιστον
+  lemma: ἄπιστος
+  normalized: ἄπιστον
+  ids:
+    ref: ACT 26:8!2
+    wordID: n44026008002
+  translation:
+    gloss: incredible
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '571'
+  semantic:
+    semanticDomain: '031006'
+    ln: '31.40'
+  syntax:
+    role: p
+- position: 3
+  text: κρίνεται
+  lemma: κρίνω
+  normalized: κρίνεται
+  ids:
+    ref: ACT 26:8!3
+    wordID: n44026008003
+  translation:
+    gloss: is it judged
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '031001'
+    ln: '31.1'
+  syntax:
+    role: vc
+    frame: A1:n00000000000 A1:n44026008002
+- position: 4
+  text: παρ’
+  lemma: παρά
+  normalized: παρ’
+  ids:
+    ref: ACT 26:8!4
+    wordID: n44026008004
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3844'
+  semantic:
+    semanticDomain: 090005
+    ln: '90.20'
+- position: 5
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: ACT 26:8!5
+    wordID: n44026008005
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n44026007020 n44025023009 n44025023020 n44025023022 n44025024004
+- position: 6
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: ACT 26:8!6
+    wordID: n44026008006
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.26'
+- position: 7
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: ACT 26:8!7
+    wordID: n44026008007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: Θεὸς
+  lemma: θεός
+  normalized: Θεός
+  ids:
+    ref: ACT 26:8!8
+    wordID: n44026008008
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 9
+  text: νεκροὺς
+  lemma: νεκρός
+  normalized: νεκρούς
+  ids:
+    ref: ACT 26:8!9
+    wordID: n44026008009
+  translation:
+    gloss: '[the] dead'
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3498'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.121'
+  syntax:
+    role: o
+- position: 10
+  text: ἐγείρει
+  lemma: ἐγείρω
+  normalized: ἐγείρει
+  ids:
+    ref: ACT 26:8!10
+    wordID: n44026008010
+  translation:
+    gloss: raises
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1453'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.94'
+  syntax:
+    role: v
+    frame: A0:n44026008008 A1:n44026008009

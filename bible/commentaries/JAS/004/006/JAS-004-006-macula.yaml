@@ -1,0 +1,90 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 4:6
+text: μείζονα δὲ δίδωσιν χάριν·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JAS 4:6!2
+    wordID: n59004006002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: μείζονα
+  lemma: μέγας
+  normalized: μείζονα
+  ids:
+    ref: JAS 4:6!1
+    wordID: n59004006001
+  translation:
+    gloss: Greater
+  morphology:
+    class: adj
+    morph: A-ASF-C
+    gender: feminine
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '3173'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.28'
+- position: 3
+  text: χάριν
+  lemma: χάρις
+  normalized: χάριν
+  ids:
+    ref: JAS 4:6!4
+    wordID: n59004006004
+  translation:
+    gloss: grace
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5485'
+  semantic:
+    semanticDomain: 025008 057008 088009
+    ln: 25.89 57.103 88.66
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: δίδωσιν
+  lemma: δίδωμι
+  normalized: δίδωσιν
+  ids:
+    ref: JAS 4:6!3
+    wordID: n59004006003
+  translation:
+    gloss: He gives
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:n59004004023 A1:n59004006004
+  discourse:
+    subject: n59004004023

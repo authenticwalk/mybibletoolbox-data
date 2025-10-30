@@ -1,0 +1,147 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 5:32
+text: καὶ περιεβλέπετο ἰδεῖν τὴν τοῦτο ποιήσασαν.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MRK 5:32!1
+    wordID: n41005032001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: περιεβλέπετο
+  lemma: περιβλέπω
+  normalized: περιεβλέπετο
+  ids:
+    ref: MRK 5:32!2
+    wordID: n41005032002
+  translation:
+    gloss: He was looking around
+  morphology:
+    class: verb
+    morph: V-IMI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '4017'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.11'
+  syntax:
+    role: v
+    frame: A0:n41005030004
+  discourse:
+    subject: n41005030004
+- position: 3
+  text: ἰδεῖν
+  lemma: ὁράω
+  normalized: ἰδεῖν
+  ids:
+    ref: MRK 5:32!3
+    wordID: n41005032003
+  translation:
+    gloss: to see
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n41005030004 A1:n41005032006
+  discourse:
+    subject: n41005030004
+- position: 4
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MRK 5:32!4
+    wordID: n41005032004
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: τοῦτο
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: MRK 5:32!5
+    wordID: n41005032005
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+  discourse:
+    referent: n41005031016
+- position: 6
+  text: ποιήσασαν
+  lemma: ποιέω
+  normalized: ποιήσασαν
+  ids:
+    ref: MRK 5:32!6
+    wordID: n41005032006
+  translation:
+    gloss: having done
+  morphology:
+    class: verb
+    morph: V-AAP-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n41005032005

@@ -1,0 +1,164 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 8:38
+text: ἃ ἐγὼ ἑώρακα παρὰ τῷ Πατρὶ λαλῶ·
+words:
+- position: 1
+  text: ἃ
+  lemma: ὅς
+  normalized: ἅ
+  ids:
+    ref: JHN 8:38!1
+    wordID: n43008038001
+  translation:
+    gloss: That which
+  morphology:
+    class: pron
+    morph: R-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 2
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: JHN 8:38!2
+    wordID: n43008038002
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43008034004
+- position: 3
+  text: ἑώρακα
+  lemma: ὁράω
+  normalized: ἑώρακα
+  ids:
+    ref: JHN 8:38!3
+    wordID: n43008038003
+  translation:
+    gloss: have seen
+  morphology:
+    class: verb
+    morph: V-RAI-1S-ATT
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 024001 032002 090013
+    ln: 24.1 32.11 90.79
+  syntax:
+    role: v
+    frame: A1:n43008038001 A0:n43008038002
+- position: 4
+  text: παρὰ
+  lemma: παρά
+  normalized: παρά
+  ids:
+    ref: JHN 8:38!4
+    wordID: n43008038004
+  translation:
+    gloss: with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3844'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.111'
+- position: 5
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: JHN 8:38!5
+    wordID: n43008038005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: Πατρὶ
+  lemma: πατήρ
+  normalized: Πατρί
+  ids:
+    ref: JHN 8:38!6
+    wordID: n43008038006
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+- position: 7
+  text: λαλῶ
+  lemma: λαλέω
+  normalized: λαλῶ
+  ids:
+    ref: JHN 8:38!7
+    wordID: n43008038007
+  translation:
+    gloss: I speak
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n43008034004 A1:n43008038003
+  discourse:
+    subject: n43008034004

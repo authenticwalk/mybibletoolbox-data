@@ -1,0 +1,274 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1TI 3:5
+text: 1TI 3:5 (εἰ δέ τις τοῦ ἰδίου οἴκου προστῆναι οὐκ οἶδεν, πῶς ἐκκλησίας Θεοῦ ἐπιμελήσεται;)
+words:
+- position: 1
+  text: δέ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1TI 3:5!2
+    wordID: n54003005002
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: 1TI 3:5!1
+    wordID: n54003005001
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+- position: 3
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: 1TI 3:5!3
+    wordID: n54003005003
+  translation:
+    gloss: one
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  syntax:
+    role: s
+- position: 4
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 1TI 3:5!4
+    wordID: n54003005004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἰδίου
+  lemma: ἴδιος
+  normalized: ἰδίου
+  ids:
+    ref: 1TI 3:5!5
+    wordID: n54003005005
+  translation:
+    gloss: own
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2398'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.4'
+  discourse:
+    referent: n54003005003
+- position: 6
+  text: οἴκου
+  lemma: οἶκος
+  normalized: οἴκου
+  ids:
+    ref: 1TI 3:5!6
+    wordID: n54003005006
+  translation:
+    gloss: household
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3624'
+  semantic:
+    semanticDomain: '010001'
+    ln: '10.8'
+- position: 7
+  text: προστῆναι
+  lemma: προΐστημι
+  normalized: προστῆναι
+  ids:
+    ref: 1TI 3:5!7
+    wordID: n54003005007
+  translation:
+    gloss: to manage
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4291'
+  semantic:
+    semanticDomain: '036001'
+    ln: '36.1'
+  syntax:
+    role: v
+    frame: A0:n54003005003 A1:n54003005006
+  discourse:
+    subject: n54003005003
+- position: 8
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: 1TI 3:5!8
+    wordID: n54003005008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 9
+  text: οἶδεν
+  lemma: οἶδα
+  normalized: οἶδεν
+  ids:
+    ref: 1TI 3:5!9
+    wordID: n54003005009
+  translation:
+    gloss: knows
+  morphology:
+    class: verb
+    morph: V-RAI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.7'
+  syntax:
+    role: v
+    frame: A0:n54003005003 A1:n54003005007
+- position: 10
+  text: πῶς
+  lemma: πῶς
+  normalized: πῶς
+  ids:
+    ref: 1TI 3:5!10
+    wordID: n54003005010
+  translation:
+    gloss: how
+  morphology:
+    class: adv
+    morph: ADV-I
+  lexical:
+    strong: '4459'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.16'
+  syntax:
+    role: adv
+- position: 11
+  text: ἐκκλησίας
+  lemma: ἐκκλησία
+  normalized: ἐκκλησίας
+  ids:
+    ref: 1TI 3:5!11
+    wordID: n54003005011
+  translation:
+    gloss: '[the] church'
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1577'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.33'
+- position: 12
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: 1TI 3:5!12
+    wordID: n54003005012
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 13
+  text: ἐπιμελήσεται
+  lemma: ἐπιμελέομαι
+  normalized: ἐπιμελήσεται
+  ids:
+    ref: 1TI 3:5!13
+    wordID: n54003005013
+  translation:
+    gloss: '[how] will he care for'
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1959'
+  semantic:
+    semanticDomain: '030002'
+    ln: '30.40'
+  syntax:
+    role: v
+    frame: A1:n54003005003 A1:n54003005011
+  discourse:
+    subject: n54003005003

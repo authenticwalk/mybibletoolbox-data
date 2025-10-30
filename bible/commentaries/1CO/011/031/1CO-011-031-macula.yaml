@@ -1,0 +1,159 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 11:31
+text: 1CO 11:31 εἰ δὲ ἑαυτοὺς διεκρίνομεν, οὐκ ἂν ἐκρινόμεθα·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1CO 11:31!2
+    wordID: n46011031002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: 1CO 11:31!1
+    wordID: n46011031001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 3
+  text: ἑαυτοὺς
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτούς
+  ids:
+    ref: 1CO 11:31!3
+    wordID: n46011031003
+  translation:
+    gloss: ourselves
+  morphology:
+    class: pron
+    morph: F-1APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n46006002006
+- position: 4
+  text: διεκρίνομεν
+  lemma: διακρίνω
+  normalized: διεκρίνομεν
+  ids:
+    ref: 1CO 11:31!4
+    wordID: n46011031004
+  translation:
+    gloss: we were judging
+  morphology:
+    class: verb
+    morph: V-IAI-1P
+    number: plural
+    person: first
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1252'
+  semantic:
+    semanticDomain: '030007'
+    ln: '30.109'
+  syntax:
+    role: v
+    frame: A0:n46006002006 A1:n46011031003
+  discourse:
+    subject: n46006002006
+- position: 5
+  text: ἂν
+  lemma: ἄν
+  normalized: ἄν
+  ids:
+    ref: 1CO 11:31!6
+    wordID: n46011031006
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071003'
+    ln: '71.14'
+  syntax:
+    discontinuous: 'true'
+- position: 6
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: 1CO 11:31!5
+    wordID: n46011031005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 7
+  text: ἐκρινόμεθα
+  lemma: κρίνω
+  normalized: ἐκρινόμεθα
+  ids:
+    ref: 1CO 11:31!7
+    wordID: n46011031007
+  translation:
+    gloss: we would come under judgment
+  morphology:
+    class: verb
+    morph: V-IPI-1P
+    number: plural
+    person: first
+    tense: imperfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2919'
+  semantic:
+    semanticDomain: '056005'
+    ln: '56.20'
+  syntax:
+    role: v
+    frame: A1:n46006002006
+  discourse:
+    subject: n46006002006

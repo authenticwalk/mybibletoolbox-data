@@ -1,0 +1,188 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 2:16
+text: 1CO 2:16 τίς γὰρ ἔγνω νοῦν Κυρίου, ὃς συμβιβάσει αὐτόν;
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: 1CO 2:16!2
+    wordID: n46002016002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: τίς
+  lemma: τίς
+  normalized: τίς
+  ids:
+    ref: 1CO 2:16!1
+    wordID: n46002016001
+  translation:
+    gloss: Who
+  morphology:
+    class: pron
+    morph: I-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: s
+- position: 3
+  text: ἔγνω
+  lemma: γινώσκω
+  normalized: ἔγνω
+  ids:
+    ref: 1CO 2:16!3
+    wordID: n46002016003
+  translation:
+    gloss: has known
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: 028001 032002
+    ln: 28.1 32.16
+  syntax:
+    role: v
+    frame: A0:n46002016001 A1:n46002016004
+- position: 4
+  text: νοῦν
+  lemma: νοῦς
+  normalized: νοῦν
+  ids:
+    ref: 1CO 2:16!4
+    wordID: n46002016004
+  translation:
+    gloss: '[the] mind'
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3563'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.14'
+- position: 5
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: 1CO 2:16!5
+    wordID: n46002016005
+  translation:
+    gloss: of [the] Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 6
+  text: ὃς
+  lemma: ὅς
+  normalized: ὅς
+  ids:
+    ref: 1CO 2:16!6
+    wordID: n46002016006
+  translation:
+    gloss: Who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
+- position: 7
+  text: συμβιβάσει
+  lemma: συμβιβάζω
+  normalized: συμβιβάσει
+  ids:
+    ref: 1CO 2:16!7
+    wordID: n46002016007
+  translation:
+    gloss: will instruct
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4822'
+  semantic:
+    semanticDomain: '033027'
+    ln: '33.298'
+  syntax:
+    role: v
+    frame: A0:n46002016006 A1:n46002016008
+- position: 8
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: 1CO 2:16!8
+    wordID: n46002016008
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n46002016005

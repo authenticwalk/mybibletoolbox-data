@@ -1,0 +1,114 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 9:12
+text: Ἠ δὲ ἡμέρα ἤρξατο κλίνειν·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 9:12!2
+    wordID: n42009012002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Ἠ
+  lemma: ὁ
+  normalized: Ἠ
+  ids:
+    ref: LUK 9:12!1
+    wordID: n42009012001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: ἡμέρα
+  lemma: ἡμέρα
+  normalized: ἡμέρα
+  ids:
+    ref: LUK 9:12!3
+    wordID: n42009012003
+  translation:
+    gloss: the day
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2250'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.186'
+- position: 4
+  text: ἤρξατο
+  lemma: ἄρχω
+  normalized: ἤρξατο
+  ids:
+    ref: LUK 9:12!4
+    wordID: n42009012004
+  translation:
+    gloss: began
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '756'
+  semantic:
+    semanticDomain: 068001
+    ln: '68.1'
+  syntax:
+    role: v
+    frame: A0:n42009012003 A1:n42009012005
+- position: 5
+  text: κλίνειν
+  lemma: κλίνω
+  normalized: κλίνειν
+  ids:
+    ref: LUK 9:12!5
+    wordID: n42009012005
+  translation:
+    gloss: to decline
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2827'
+  semantic:
+    semanticDomain: 067006 068004
+    ln: 67.118 68.51
+  syntax:
+    role: v
+    frame: A0:n42009012003
+  discourse:
+    subject: n42009012003

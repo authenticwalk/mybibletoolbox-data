@@ -1,0 +1,206 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 14:7
+text: Οὐδεὶς γὰρ ἡμῶν ἑαυτῷ ζῇ, καὶ οὐδεὶς ἑαυτῷ ἀποθνῄσκει·
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: ROM 14:7!2
+    wordID: n45014007002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Οὐδεὶς
+  lemma: οὐδείς
+  normalized: Οὐδείς
+  ids:
+    ref: ROM 14:7!1
+    wordID: n45014007001
+  translation:
+    gloss: No one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+- position: 3
+  text: ἡμῶν
+  lemma: ἐγώ
+  normalized: ἡμῶν
+  ids:
+    ref: ROM 14:7!3
+    wordID: n45014007003
+  translation:
+    gloss: of us
+  morphology:
+    class: pron
+    morph: P-1GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  discourse:
+    referent: n45001001001 n45012019004 n45012005003
+- position: 4
+  text: ἑαυτῷ
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτῷ
+  ids:
+    ref: ROM 14:7!4
+    wordID: n45014007004
+  translation:
+    gloss: to himself
+  morphology:
+    class: pron
+    morph: F-3DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: adv
+  discourse:
+    referent: n45014007001
+- position: 5
+  text: ζῇ
+  lemma: ζάω
+  normalized: ζῇ
+  ids:
+    ref: ROM 14:7!5
+    wordID: n45014007005
+  translation:
+    gloss: lives
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2198'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+  syntax:
+    role: v
+    frame: A0:n45014007001
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 14:7!6
+    wordID: n45014007006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 7
+  text: οὐδεὶς
+  lemma: οὐδείς
+  normalized: οὐδείς
+  ids:
+    ref: ROM 14:7!7
+    wordID: n45014007007
+  translation:
+    gloss: no one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
+- position: 8
+  text: ἑαυτῷ
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτῷ
+  ids:
+    ref: ROM 14:7!8
+    wordID: n45014007008
+  translation:
+    gloss: to himself
+  morphology:
+    class: pron
+    morph: F-3DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: adv
+  discourse:
+    referent: n45014007007
+- position: 9
+  text: ἀποθνῄσκει
+  lemma: ἀποθνῄσκω
+  normalized: ἀποθνῄσκει
+  ids:
+    ref: ROM 14:7!9
+    wordID: n45014007009
+  translation:
+    gloss: dies
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '599'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.99'
+  syntax:
+    role: v
+    frame: A0:n45014007007

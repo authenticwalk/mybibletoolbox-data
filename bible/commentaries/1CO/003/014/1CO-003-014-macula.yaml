@@ -1,0 +1,214 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 3:14
+text: 1CO 3:14 εἴ τινος τὸ ἔργον μενεῖ ὃ ἐποικοδόμησεν, μισθὸν λήμψεται·
+words:
+- position: 1
+  text: εἴ
+  lemma: εἰ
+  normalized: εἴ
+  ids:
+    ref: 1CO 3:14!1
+    wordID: n46003014001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: μενεῖ
+  lemma: μένω
+  normalized: μενεῖ
+  ids:
+    ref: 1CO 3:14!5
+    wordID: n46003014005
+  translation:
+    gloss: will remain
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3306'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.89'
+  syntax:
+    role: v
+    frame: A0:n46003014004
+    discontinuous: 'true'
+- position: 3
+  text: τινος
+  lemma: τὶς
+  normalized: τινος
+  ids:
+    ref: 1CO 3:14!2
+    wordID: n46003014002
+  translation:
+    gloss: of anyone
+  morphology:
+    class: pron
+    morph: X-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+- position: 4
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1CO 3:14!3
+    wordID: n46003014003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἔργον
+  lemma: ἔργον
+  normalized: ἔργον
+  ids:
+    ref: 1CO 3:14!4
+    wordID: n46003014004
+  translation:
+    gloss: work
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2041'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.12'
+- position: 6
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: 1CO 3:14!6
+    wordID: n46003014006
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n46003014004
+- position: 7
+  text: ἐποικοδόμησεν
+  lemma: ἐποικοδομέω
+  normalized: ἐποικοδόμησεν
+  ids:
+    ref: 1CO 3:14!7
+    wordID: n46003014007
+  translation:
+    gloss: he built up
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2026'
+  semantic:
+    semanticDomain: '045'
+    ln: '45.5'
+  syntax:
+    role: v
+    frame: A0:n46003014002 A1:n46003014006
+  discourse:
+    subject: n46003014002
+- position: 8
+  text: μισθὸν
+  lemma: μισθός
+  normalized: μισθόν
+  ids:
+    ref: 1CO 3:14!8
+    wordID: n46003014008
+  translation:
+    gloss: a reward
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3408'
+  semantic:
+    semanticDomain: 038002
+    ln: '38.14'
+  syntax:
+    role: o
+- position: 9
+  text: λήμψεται
+  lemma: λαμβάνω
+  normalized: λήμψεται
+  ids:
+    ref: 1CO 3:14!9
+    wordID: n46003014009
+  translation:
+    gloss: he will receive
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A0:n46003014002 A1:n46003014008
+  discourse:
+    subject: n46003014002
