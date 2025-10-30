@@ -1,0 +1,119 @@
+verse:
+  reference: MAT 22:19
+  book_code: MAT
+  chapter: 22
+  verse: 19
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ἐπιδείξατέ μοι τὸ νόμισμα τοῦ κήνσου.
+words:
+- position: 1
+  ref: MAT 22:19!1
+  xml_id: n40022019001
+  unicode: ἐπιδείξατέ
+  lemma: ἐπιδείκνυμι
+  normalized: ἐπιδείξατε
+  class: verb
+  morph: V-AAM-2P
+  gloss: Show
+  number: plural
+  person: second
+  tense: aorist
+  voice: active
+  mood: imperative
+  strong: '1925'
+  domain: '024001'
+  ln: '24.25'
+  role: v
+- position: 2
+  ref: MAT 22:19!2
+  xml_id: n40022019002
+  unicode: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  class: pron
+  morph: P-1DS
+  gloss: Me
+  number: singular
+  case: dative
+  strong: '1473'
+  domain: 092001
+  ln: '92.1'
+  role: io
+- position: 3
+  ref: MAT 22:19!3
+  xml_id: n40022019003
+  unicode: τὸ
+  lemma: ὁ
+  normalized: τό
+  class: det
+  morph: T-ASN
+  gloss: the
+  gender: neuter
+  number: singular
+  case: accusative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 4
+  ref: MAT 22:19!4
+  xml_id: n40022019004
+  unicode: νόμισμα
+  lemma: νόμισμα
+  normalized: νόμισμα
+  class: noun
+  morph: N-ASN
+  gloss: coin
+  gender: neuter
+  number: singular
+  case: accusative
+  strong: '3546'
+  domain: '006011'
+  ln: '6.70'
+- position: 5
+  ref: MAT 22:19!5
+  xml_id: n40022019005
+  unicode: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  class: det
+  morph: T-GSM
+  gloss: of the
+  gender: masculine
+  number: singular
+  case: genitive
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 6
+  ref: MAT 22:19!6
+  xml_id: n40022019006
+  unicode: κήνσου
+  lemma: κῆνσος
+  normalized: κήνσου
+  class: noun
+  morph: N-GSM
+  gloss: tribute
+  gender: masculine
+  number: singular
+  case: genitive
+  strong: '2778'
+  domain: '057014'
+  ln: '57.180'
+syntax:
+  word_order: V-IO-O

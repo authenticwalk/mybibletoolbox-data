@@ -1,0 +1,147 @@
+verse:
+  reference: MAT 15:16
+  book_code: MAT
+  chapter: 15
+  verse: 16
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ὁ δὲ εἶπεν Ἀκμὴν καὶ ὑμεῖς ἀσύνετοί ἐστε;
+words:
+- position: 1
+  ref: MAT 15:16!2
+  xml_id: n40015016002
+  unicode: δὲ
+  lemma: δέ
+  normalized: δέ
+  class: conj
+  morph: CONJ
+  gloss: And
+  strong: '1161'
+  domain: 089015
+  ln: '89.87'
+- position: 2
+  ref: MAT 15:16!1
+  xml_id: n40015016001
+  unicode: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  class: det
+  morph: T-NSM
+  gloss: '-'
+  gender: masculine
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+  role: s
+- position: 3
+  ref: MAT 15:16!3
+  xml_id: n40015016003
+  unicode: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  class: verb
+  morph: V-2AAI-3S
+  gloss: He said
+  number: singular
+  person: third
+  tense: aorist
+  voice: active
+  mood: indicative
+  strong: '3004'
+  domain: '033006'
+  ln: '33.69'
+  role: v
+- position: 4
+  ref: MAT 15:16!4
+  xml_id: n40015016004
+  unicode: Ἀκμὴν
+  lemma: ἀκμήν
+  normalized: Ἀκμήν
+  class: noun
+  morph: N-ASF
+  gloss: Still
+  gender: feminine
+  number: singular
+  case: accusative
+  strong: '188'
+  domain: '067006'
+  ln: '67.128'
+  role: adv
+- position: 5
+  ref: MAT 15:16!5
+  xml_id: n40015016005
+  unicode: καὶ
+  lemma: καί
+  normalized: καί
+  class: adv
+  morph: CONJ
+  gloss: also
+  strong: '2532'
+  domain: 089017
+  ln: '89.93'
+- position: 6
+  ref: MAT 15:16!6
+  xml_id: n40015016006
+  unicode: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  class: pron
+  morph: P-2NP
+  gloss: you
+  number: plural
+  case: nominative
+  strong: '4771'
+  domain: 092003
+  ln: '92.7'
+- position: 7
+  ref: MAT 15:16!7
+  xml_id: n40015016007
+  unicode: ἀσύνετοί
+  lemma: ἀσύνετος
+  normalized: ἀσύνετοι
+  class: adj
+  morph: A-NPM
+  gloss: without understanding
+  gender: masculine
+  number: plural
+  case: nominative
+  strong: '801'
+  domain: '032005'
+  ln: '32.49'
+  role: p
+- position: 8
+  ref: MAT 15:16!8
+  xml_id: n40015016008
+  unicode: ἐστε
+  lemma: εἰμί
+  normalized: ἐστε
+  class: verb
+  morph: V-PAI-2P
+  gloss: are
+  number: plural
+  person: second
+  tense: present
+  voice: active
+  mood: indicative
+  strong: '1510'
+  domain: '013001'
+  ln: '13.1'
+  role: vc
+syntax:
+  word_order: ADV-S-P-VC

@@ -1,0 +1,177 @@
+verse:
+  reference: MAT 21:22
+  book_code: MAT
+  chapter: 21
+  verse: 22
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: καὶ πάντα ὅσα ἂν αἰτήσητε ἐν τῇ προσευχῇ πιστεύοντες λήμψεσθε.
+words:
+- position: 1
+  ref: MAT 21:22!1
+  xml_id: n40021022001
+  unicode: καὶ
+  lemma: καί
+  normalized: καί
+  class: conj
+  morph: CONJ
+  gloss: And
+  strong: '2532'
+  domain: 089017
+  ln: '89.92'
+- position: 2
+  ref: MAT 21:22!2
+  xml_id: n40021022002
+  unicode: πάντα
+  lemma: πᾶς
+  normalized: πάντα
+  class: adj
+  morph: A-APN
+  gloss: all things
+  gender: neuter
+  number: plural
+  case: accusative
+  strong: '3956'
+  domain: 059003
+  ln: '59.23'
+- position: 3
+  ref: MAT 21:22!4
+  xml_id: n40021022004
+  unicode: ἂν
+  lemma: ἄν
+  normalized: ἄν
+  class: ptcl
+  morph: PRT
+  gloss: '-'
+  strong: '302'
+  domain: '071001'
+  ln: '71.8'
+- position: 4
+  ref: MAT 21:22!3
+  xml_id: n40021022003
+  unicode: ὅσα
+  lemma: ὅσος
+  normalized: ὅσα
+  class: pron
+  morph: K-APN
+  gloss: as many as
+  gender: neuter
+  number: plural
+  case: accusative
+  strong: '3745'
+  domain: 059001
+  ln: '59.7'
+  role: o
+- position: 5
+  ref: MAT 21:22!5
+  xml_id: n40021022005
+  unicode: αἰτήσητε
+  lemma: αἰτέω
+  normalized: αἰτήσητε
+  class: verb
+  morph: V-AAS-2P
+  gloss: you might ask
+  number: plural
+  person: second
+  tense: aorist
+  voice: active
+  mood: subjunctive
+  strong: '154'
+  domain: '033012'
+  ln: '33.163'
+  role: v
+- position: 6
+  ref: MAT 21:22!6
+  xml_id: n40021022006
+  unicode: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  class: prep
+  morph: PREP
+  gloss: in
+  strong: '1722'
+  domain: '067007'
+  ln: '67.136'
+- position: 7
+  ref: MAT 21:22!7
+  xml_id: n40021022007
+  unicode: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  class: det
+  morph: T-DSF
+  gloss: '-'
+  gender: feminine
+  number: singular
+  case: dative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 8
+  ref: MAT 21:22!8
+  xml_id: n40021022008
+  unicode: προσευχῇ
+  lemma: προσευχή
+  normalized: προσευχῇ
+  class: noun
+  morph: N-DSF
+  gloss: prayer
+  gender: feminine
+  number: singular
+  case: dative
+  strong: '4335'
+  domain: '033013'
+  ln: '33.178'
+- position: 9
+  ref: MAT 21:22!9
+  xml_id: n40021022009
+  unicode: πιστεύοντες
+  lemma: πιστεύω
+  normalized: πιστεύοντες
+  class: verb
+  morph: V-PAP-NPM
+  gloss: believing
+  gender: masculine
+  number: plural
+  case: nominative
+  tense: present
+  voice: active
+  mood: participle
+  strong: '4100'
+  domain: 031009
+  ln: '31.85'
+  role: v
+- position: 10
+  ref: MAT 21:22!10
+  xml_id: n40021022010
+  unicode: λήμψεσθε
+  lemma: λαμβάνω
+  normalized: λήμψεσθε
+  class: verb
+  morph: V-FDI-2P
+  gloss: you will receive
+  number: plural
+  person: second
+  tense: future
+  voice: middle
+  mood: indicative
+  strong: '2983'
+  domain: 057009
+  ln: '57.125'
+  role: v
+syntax:
+  word_order: O-ADV-V

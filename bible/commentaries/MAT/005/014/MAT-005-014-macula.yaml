@@ -1,0 +1,119 @@
+verse:
+  reference: MAT 5:14
+  book_code: MAT
+  chapter: 5
+  verse: 14
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: Ὑμεῖς ἐστε τὸ φῶς τοῦ κόσμου.
+words:
+- position: 1
+  ref: MAT 5:14!1
+  xml_id: n40005014001
+  unicode: Ὑμεῖς
+  lemma: σύ
+  normalized: Ὑμεῖς
+  class: pron
+  morph: P-2NP
+  gloss: You
+  number: plural
+  case: nominative
+  strong: '4771'
+  domain: 092003
+  ln: '92.7'
+  role: s
+- position: 2
+  ref: MAT 5:14!2
+  xml_id: n40005014002
+  unicode: ἐστε
+  lemma: εἰμί
+  normalized: ἐστε
+  class: verb
+  morph: V-PAI-2P
+  gloss: are
+  number: plural
+  person: second
+  tense: present
+  voice: active
+  mood: indicative
+  strong: '1510'
+  domain: '013001'
+  ln: '13.4'
+  role: vc
+- position: 3
+  ref: MAT 5:14!3
+  xml_id: n40005014003
+  unicode: τὸ
+  lemma: ὁ
+  normalized: τό
+  class: det
+  morph: T-NSN
+  gloss: the
+  gender: neuter
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 4
+  ref: MAT 5:14!4
+  xml_id: n40005014004
+  unicode: φῶς
+  lemma: φῶς
+  normalized: φῶς
+  class: noun
+  morph: N-NSN
+  gloss: light
+  gender: neuter
+  number: singular
+  case: nominative
+  strong: '5457'
+  domain: '014006'
+  ln: '14.36'
+- position: 5
+  ref: MAT 5:14!5
+  xml_id: n40005014005
+  unicode: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  class: det
+  morph: T-GSM
+  gloss: of the
+  gender: masculine
+  number: singular
+  case: genitive
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 6
+  ref: MAT 5:14!6
+  xml_id: n40005014006
+  unicode: κόσμου
+  lemma: κόσμος
+  normalized: κόσμου
+  class: noun
+  morph: N-GSM
+  gloss: world
+  gender: masculine
+  number: singular
+  case: genitive
+  strong: '2889'
+  domain: 009001
+  ln: '9.23'
+syntax:
+  word_order: S-VC-P

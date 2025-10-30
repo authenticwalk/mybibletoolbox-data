@@ -1,0 +1,132 @@
+verse:
+  reference: MAT 24:13
+  book_code: MAT
+  chapter: 24
+  verse: 13
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ὁ δὲ ὑπομείνας εἰς τέλος, οὗτος σωθήσεται.
+words:
+- position: 1
+  ref: MAT 24:13!2
+  xml_id: n40024013002
+  unicode: δὲ
+  lemma: δέ
+  normalized: δέ
+  class: conj
+  morph: CONJ
+  gloss: however
+  strong: '1161'
+  domain: 089023
+  ln: '89.124'
+- position: 2
+  ref: MAT 24:13!1
+  xml_id: n40024013001
+  unicode: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  class: det
+  morph: T-NSM
+  gloss: The [one]
+  gender: masculine
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 3
+  ref: MAT 24:13!3
+  xml_id: n40024013003
+  unicode: ὑπομείνας
+  lemma: ὑπομένω
+  normalized: ὑπομείνας
+  class: verb
+  morph: V-AAP-NSM
+  gloss: having endured
+  gender: masculine
+  number: singular
+  case: nominative
+  tense: aorist
+  voice: active
+  mood: participle
+  strong: '5278'
+  domain: '025015'
+  ln: '25.175'
+  role: v
+- position: 4
+  ref: MAT 24:13!4
+  xml_id: n40024013004
+  unicode: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  class: prep
+  morph: PREP
+  gloss: to [the]
+  strong: '1519'
+  domain: '067006'
+  ln: '67.119'
+- position: 5
+  ref: MAT 24:13!5
+  xml_id: n40024013005
+  unicode: τέλος
+  lemma: τέλος
+  normalized: τέλος
+  class: noun
+  morph: N-ASN
+  gloss: end
+  gender: neuter
+  number: singular
+  case: accusative
+  strong: '5056'
+  domain: '067003'
+  ln: '67.66'
+- position: 6
+  ref: MAT 24:13!6
+  xml_id: n40024013006
+  unicode: οὗτος
+  lemma: οὗτος
+  normalized: οὗτος
+  class: pron
+  morph: D-NSM
+  gloss: he
+  gender: masculine
+  number: singular
+  case: nominative
+  strong: '3778'
+  domain: 092007
+  ln: '92.29'
+  role: s
+- position: 7
+  ref: MAT 24:13!7
+  xml_id: n40024013007
+  unicode: σωθήσεται
+  lemma: σῴζω
+  normalized: σωθήσεται
+  class: verb
+  morph: V-FPI-3S
+  gloss: will be saved
+  number: singular
+  person: third
+  tense: future
+  voice: passive
+  mood: indicative
+  strong: '4982'
+  domain: 021005 021006
+  ln: 21.18 21.27
+  role: v
+syntax:
+  word_order: V-ADV

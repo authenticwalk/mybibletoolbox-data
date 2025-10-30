@@ -1,0 +1,121 @@
+verse:
+  reference: MAT 20:21
+  book_code: MAT
+  chapter: 20
+  verse: 21
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ὁ δὲ εἶπεν αὐτῇ Τί θέλεις;
+words:
+- position: 1
+  ref: MAT 20:21!2
+  xml_id: n40020021002
+  unicode: δὲ
+  lemma: δέ
+  normalized: δέ
+  class: conj
+  morph: CONJ
+  gloss: And
+  strong: '1161'
+  domain: 089015
+  ln: '89.87'
+- position: 2
+  ref: MAT 20:21!1
+  xml_id: n40020021001
+  unicode: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  class: det
+  morph: T-NSM
+  gloss: '-'
+  gender: masculine
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+  role: s
+- position: 3
+  ref: MAT 20:21!3
+  xml_id: n40020021003
+  unicode: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  class: verb
+  morph: V-2AAI-3S
+  gloss: He said
+  number: singular
+  person: third
+  tense: aorist
+  voice: active
+  mood: indicative
+  strong: '3004'
+  domain: '033006'
+  ln: '33.69'
+  role: v
+- position: 4
+  ref: MAT 20:21!4
+  xml_id: n40020021004
+  unicode: αὐτῇ
+  lemma: αὐτός
+  normalized: αὐτῇ
+  class: pron
+  morph: P-DSF
+  gloss: to her
+  gender: feminine
+  number: singular
+  case: dative
+  strong: '846'
+  domain: 092004
+  ln: '92.11'
+  role: io
+- position: 5
+  ref: MAT 20:21!5
+  xml_id: n40020021005
+  unicode: Τί
+  lemma: τίς
+  normalized: Τί
+  class: pron
+  morph: I-ASN
+  gloss: What
+  gender: neuter
+  number: singular
+  case: accusative
+  strong: '5101'
+  domain: 092004
+  ln: '92.14'
+  role: o
+- position: 6
+  ref: MAT 20:21!6
+  xml_id: n40020021006
+  unicode: θέλεις
+  lemma: θέλω
+  normalized: θέλεις
+  class: verb
+  morph: V-PAI-2S
+  gloss: do you desire
+  number: singular
+  person: second
+  tense: present
+  voice: active
+  mood: indicative
+  strong: '2309'
+  domain: '025001'
+  ln: '25.1'
+  role: v
+syntax:
+  word_order: O-V

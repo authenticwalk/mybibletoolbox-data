@@ -1,0 +1,117 @@
+verse:
+  reference: MAT 13:30
+  book_code: MAT
+  chapter: 13
+  verse: 30
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ἄφετε συναυξάνεσθαι ἀμφότερα ἕως τοῦ θερισμοῦ·
+words:
+- position: 1
+  ref: MAT 13:30!1
+  xml_id: n40013030001
+  unicode: ἄφετε
+  lemma: ἀφίημι
+  normalized: ἄφετε
+  class: verb
+  morph: V-2AAM-2P
+  gloss: Allow
+  number: plural
+  person: second
+  tense: aorist
+  voice: active
+  mood: imperative
+  strong: '863'
+  domain: '013004'
+  ln: '13.140'
+  role: v
+- position: 2
+  ref: MAT 13:30!2
+  xml_id: n40013030002
+  unicode: συναυξάνεσθαι
+  lemma: συναυξάνω
+  normalized: συναυξάνεσθαι
+  class: verb
+  morph: V-PPN
+  gloss: to grow together
+  tense: present
+  voice: passive
+  mood: infinitive
+  strong: '4885'
+  domain: '023011'
+  ln: '23.192'
+  role: v
+- position: 3
+  ref: MAT 13:30!3
+  xml_id: n40013030003
+  unicode: ἀμφότερα
+  lemma: ἀμφότεροι
+  normalized: ἀμφότερα
+  class: adj
+  morph: A-APN
+  gloss: both
+  gender: neuter
+  number: plural
+  case: accusative
+  strong: '297'
+  domain: 059003
+  ln: '59.25'
+  role: s
+- position: 4
+  ref: MAT 13:30!4
+  xml_id: n40013030004
+  unicode: ἕως
+  lemma: ἕως
+  normalized: ἕως
+  class: prep
+  morph: ADV
+  gloss: until
+  strong: '2193'
+  domain: '067006'
+  ln: '67.119'
+- position: 5
+  ref: MAT 13:30!5
+  xml_id: n40013030005
+  unicode: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  class: det
+  morph: T-GSM
+  gloss: the
+  gender: masculine
+  number: singular
+  case: genitive
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 6
+  ref: MAT 13:30!6
+  xml_id: n40013030006
+  unicode: θερισμοῦ
+  lemma: θερισμός
+  normalized: θερισμοῦ
+  class: noun
+  morph: N-GSM
+  gloss: harvest
+  gender: masculine
+  number: singular
+  case: genitive
+  strong: '2326'
+  domain: '043'
+  ln: '43.14'
+syntax:
+  word_order: V-O

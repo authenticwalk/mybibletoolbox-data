@@ -1,0 +1,103 @@
+verse:
+  reference: MAT 5:27
+  book_code: MAT
+  chapter: 5
+  verse: 27
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: Ἠκούσατε ὅτι ἐρρέθη Οὐ μοιχεύσεις.
+words:
+- position: 1
+  ref: MAT 5:27!1
+  xml_id: n40005027001
+  unicode: Ἠκούσατε
+  lemma: ἀκούω
+  normalized: Ἠκούσατε
+  class: verb
+  morph: V-AAI-2P
+  gloss: You have heard
+  number: plural
+  person: second
+  tense: aorist
+  voice: active
+  mood: indicative
+  strong: '191'
+  domain: '033015'
+  ln: '33.212'
+  role: v
+- position: 2
+  ref: MAT 5:27!2
+  xml_id: n40005027002
+  unicode: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  class: conj
+  morph: CONJ
+  gloss: that
+  strong: '3754'
+  domain: 090006
+  ln: '90.21'
+- position: 3
+  ref: MAT 5:27!3
+  xml_id: n40005027003
+  unicode: ἐρρέθη
+  lemma: εἶπον
+  normalized: ἐρρέθη
+  class: verb
+  morph: V-API-3S
+  gloss: it was said
+  number: singular
+  person: third
+  tense: aorist
+  voice: passive
+  mood: indicative
+  strong: '2046'
+  domain: '033006'
+  ln: '33.69'
+  role: v
+- position: 4
+  ref: MAT 5:27!4
+  xml_id: n40005027004
+  unicode: Οὐ
+  lemma: οὐ
+  normalized: Οὐ
+  class: adv
+  morph: PRT-N
+  gloss: Not
+  strong: '3756'
+  domain: 069002
+  ln: '69.3'
+  role: adv
+- position: 5
+  ref: MAT 5:27!5
+  xml_id: n40005027005
+  unicode: μοιχεύσεις
+  lemma: μοιχεύω
+  normalized: μοιχεύσεις
+  class: verb
+  morph: V-FAI-2S
+  gloss: shall you commit adultery
+  number: singular
+  person: second
+  tense: future
+  voice: active
+  mood: indicative
+  strong: '3431'
+  domain: 088036
+  ln: '88.276'
+  role: v
+syntax:
+  word_order: ADV-V

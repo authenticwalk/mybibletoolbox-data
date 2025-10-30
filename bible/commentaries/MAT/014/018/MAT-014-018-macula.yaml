@@ -1,0 +1,133 @@
+verse:
+  reference: MAT 14:18
+  book_code: MAT
+  chapter: 14
+  verse: 18
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ὁ δὲ εἶπεν· Φέρετέ μοι ὧδε αὐτούς.
+words:
+- position: 1
+  ref: MAT 14:18!2
+  xml_id: n40014018002
+  unicode: δὲ
+  lemma: δέ
+  normalized: δέ
+  class: conj
+  morph: CONJ
+  gloss: And
+  strong: '1161'
+  domain: 089015
+  ln: '89.87'
+- position: 2
+  ref: MAT 14:18!1
+  xml_id: n40014018001
+  unicode: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  class: det
+  morph: T-NSM
+  gloss: '-'
+  gender: masculine
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+  role: s
+- position: 3
+  ref: MAT 14:18!3
+  xml_id: n40014018003
+  unicode: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  class: verb
+  morph: V-2AAI-3S
+  gloss: He said
+  number: singular
+  person: third
+  tense: aorist
+  voice: active
+  mood: indicative
+  strong: '3004'
+  domain: '033006'
+  ln: '33.69'
+  role: v
+- position: 4
+  ref: MAT 14:18!4
+  xml_id: n40014018004
+  unicode: Φέρετέ
+  lemma: φέρω
+  normalized: Φέρετε
+  class: verb
+  morph: V-PAM-2P
+  gloss: Bring
+  number: plural
+  person: second
+  tense: present
+  voice: active
+  mood: imperative
+  strong: '5342'
+  domain: '015024'
+  ln: '15.187'
+  role: v
+- position: 5
+  ref: MAT 14:18!5
+  xml_id: n40014018005
+  unicode: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  class: pron
+  morph: P-1DS
+  gloss: to Me
+  number: singular
+  case: dative
+  strong: '1473'
+  domain: 092001
+  ln: '92.1'
+  role: io
+- position: 6
+  ref: MAT 14:18!6
+  xml_id: n40014018006
+  unicode: ὧδε
+  lemma: ὧδε
+  normalized: ὧδε
+  class: adv
+  morph: ADV
+  gloss: here
+  strong: '5602'
+  domain: 083001
+  ln: '83.1'
+  role: adv
+- position: 7
+  ref: MAT 14:18!7
+  xml_id: n40014018007
+  unicode: αὐτούς
+  lemma: αὐτός
+  normalized: αὐτούς
+  class: pron
+  morph: P-APM
+  gloss: them
+  gender: masculine
+  number: plural
+  case: accusative
+  strong: '846'
+  domain: 092004
+  ln: '92.11'
+  role: o
+syntax:
+  word_order: V-IO-ADV-O

@@ -1,0 +1,151 @@
+verse:
+  reference: MAT 5:37
+  book_code: MAT
+  chapter: 5
+  verse: 37
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ἔστω δὲ ὁ λόγος ὑμῶν ναὶ ναί, οὒ οὔ·
+words:
+- position: 1
+  ref: MAT 5:37!2
+  xml_id: n40005037002
+  unicode: δὲ
+  lemma: δέ
+  normalized: δέ
+  class: conj
+  morph: CONJ
+  gloss: however
+  strong: '1161'
+  domain: 089023
+  ln: '89.124'
+- position: 2
+  ref: MAT 5:37!1
+  xml_id: n40005037001
+  unicode: ἔστω
+  lemma: εἰμί
+  normalized: ἔστω
+  class: verb
+  morph: V-PAM-3S
+  gloss: Let it be
+  number: singular
+  person: third
+  tense: present
+  voice: active
+  mood: imperative
+  strong: '1510'
+  domain: '013001'
+  ln: '13.4'
+  role: vc
+- position: 3
+  ref: MAT 5:37!3
+  xml_id: n40005037003
+  unicode: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  class: det
+  morph: T-NSM
+  gloss: the
+  gender: masculine
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+- position: 4
+  ref: MAT 5:37!4
+  xml_id: n40005037004
+  unicode: λόγος
+  lemma: λόγος
+  normalized: λόγος
+  class: noun
+  morph: N-NSM
+  gloss: statement
+  gender: masculine
+  number: singular
+  case: nominative
+  strong: '3056'
+  domain: '033006'
+  ln: '33.98'
+- position: 5
+  ref: MAT 5:37!5
+  xml_id: n40005037005
+  unicode: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  class: pron
+  morph: P-2GP
+  gloss: of you
+  number: plural
+  case: genitive
+  strong: '4771'
+  domain: 092003
+  ln: '92.7'
+- position: 6
+  ref: MAT 5:37!6
+  xml_id: n40005037006
+  unicode: ναὶ
+  lemma: ναί
+  normalized: ναί
+  class: ptcl
+  morph: PRT
+  gloss: 'Yes'
+  strong: '3483'
+  domain: 069001
+  ln: '69.1'
+  role: s
+- position: 7
+  ref: MAT 5:37!7
+  xml_id: n40005037007
+  unicode: ναί
+  lemma: ναί
+  normalized: ναί
+  class: ptcl
+  morph: PRT
+  gloss: ‘Yes
+  strong: '3483'
+  domain: 069001
+  ln: '69.1'
+  role: p
+- position: 8
+  ref: MAT 5:37!8
+  xml_id: n40005037008
+  unicode: οὒ
+  lemma: οὐ
+  normalized: οὔ
+  class: ptcl
+  morph: PRT-N
+  gloss: '[and] ‘No'
+  strong: '3756'
+  domain: 069002
+  ln: '69.2'
+  role: s
+- position: 9
+  ref: MAT 5:37!9
+  xml_id: n40005037009
+  unicode: οὔ
+  lemma: οὐ
+  normalized: οὔ
+  class: ptcl
+  morph: PRT-N
+  gloss: 'No'
+  strong: '3756'
+  domain: 069002
+  ln: '69.2'
+  role: p
+syntax:
+  word_order: VC-S-P

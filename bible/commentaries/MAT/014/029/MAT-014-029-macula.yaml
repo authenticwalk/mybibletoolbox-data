@@ -1,0 +1,89 @@
+verse:
+  reference: MAT 14:29
+  book_code: MAT
+  chapter: 14
+  verse: 29
+  testament: NT
+tool:
+  name: macula-source-language
+  version: 1.0.0
+  generated_date: '2025-10-30'
+source:
+  dataset: MACULA Greek Linguistic Datasets
+  url: https://github.com/Clear-Bible/macula-greek
+  license: CC BY 4.0
+  copyright: Biblica, Inc (2022-2024)
+  citation: MACULA Greek Linguistic Datasets, available at https://github.com/Clear-Bible/macula-greek/
+  definitions: ./MACULA-FIELD-DEFINITIONS.md
+  base_text: Nestle1904
+source_text:
+  language: grc
+  unicode: ὁ δὲ εἶπεν Ἐλθέ.
+words:
+- position: 1
+  ref: MAT 14:29!2
+  xml_id: n40014029002
+  unicode: δὲ
+  lemma: δέ
+  normalized: δέ
+  class: conj
+  morph: CONJ
+  gloss: And
+  strong: '1161'
+  domain: 089015
+  ln: '89.87'
+- position: 2
+  ref: MAT 14:29!1
+  xml_id: n40014029001
+  unicode: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  class: det
+  morph: T-NSM
+  gloss: '-'
+  gender: masculine
+  number: singular
+  case: nominative
+  has_article: true
+  strong: '3588'
+  domain: 092004
+  ln: '92.24'
+  role: s
+- position: 3
+  ref: MAT 14:29!3
+  xml_id: n40014029003
+  unicode: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  class: verb
+  morph: V-2AAI-3S
+  gloss: He said
+  number: singular
+  person: third
+  tense: aorist
+  voice: active
+  mood: indicative
+  strong: '3004'
+  domain: '033006'
+  ln: '33.69'
+  role: v
+- position: 4
+  ref: MAT 14:29!4
+  xml_id: n40014029004
+  unicode: Ἐλθέ
+  lemma: ἔρχομαι
+  normalized: Ἐλθέ
+  class: verb
+  morph: V-2AAM-2S
+  gloss: Come
+  number: singular
+  person: second
+  tense: aorist
+  voice: active
+  mood: imperative
+  strong: '2064'
+  domain: '015006'
+  ln: '15.81'
+  role: v
+syntax:
+  word_order: V2CL
