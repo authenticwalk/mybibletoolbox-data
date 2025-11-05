@@ -1,0 +1,178 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:5
+text: μακάριοι οἱ πραεῖς, ὅτι αὐτοὶ κληρονομήσουσιν τὴν γῆν.
+words:
+- position: 1
+  text: μακάριοι
+  lemma: μακάριος
+  normalized: μακάριοι
+  ids:
+    ref: MAT 5:5!1
+    wordID: n40005005001
+  translation:
+    gloss: Blessed
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3107'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.119'
+  syntax:
+    role: p
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: MAT 5:5!2
+    wordID: n40005005002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: πραεῖς
+  lemma: πραΰς
+  normalized: πραεῖς
+  ids:
+    ref: MAT 5:5!3
+    wordID: n40005005003
+  translation:
+    gloss: meek
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4239'
+  semantic:
+    semanticDomain: 088008
+    ln: '88.60'
+- position: 4
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: MAT 5:5!4
+    wordID: n40005005004
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 5
+  text: αὐτοὶ
+  lemma: αὐτός
+  normalized: αὐτοί
+  ids:
+    ref: MAT 5:5!5
+    wordID: n40005005005
+  translation:
+    gloss: they
+  morphology:
+    class: pron
+    morph: P-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40005005003
+- position: 6
+  text: κληρονομήσουσιν
+  lemma: κληρονομέω
+  normalized: κληρονομήσουσιν
+  ids:
+    ref: MAT 5:5!6
+    wordID: n40005005006
+  translation:
+    gloss: will inherit
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2816'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.131'
+  syntax:
+    role: v
+    frame: A0:n40005005005 A1:n40005005008
+- position: 7
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MAT 5:5!7
+    wordID: n40005005007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: γῆν
+  lemma: γῆ
+  normalized: γῆν
+  ids:
+    ref: MAT 5:5!8
+    wordID: n40005005008
+  translation:
+    gloss: earth
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1093'
+  semantic:
+    semanticDomain: '001006'
+    ln: '1.39'

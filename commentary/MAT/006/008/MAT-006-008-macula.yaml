@@ -1,0 +1,381 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 6:8
+text: μὴ οὖν ὁμοιωθῆτε αὐτοῖς· οἶδεν γὰρ ὁ Πατὴρ ὑμῶν ὧν χρείαν ἔχετε πρὸ τοῦ ὑμᾶς
+  αἰτῆσαι αὐτόν.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: MAT 6:8!2
+    wordID: n40006008002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 6:8!1
+    wordID: n40006008001
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 3
+  text: ὁμοιωθῆτε
+  lemma: ὁμοιόω
+  normalized: ὁμοιωθῆτε
+  ids:
+    ref: MAT 6:8!3
+    wordID: n40006008003
+  translation:
+    gloss: be like
+  morphology:
+    class: verb
+    morph: V-APS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '3666'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.4'
+  syntax:
+    role: v
+    frame: A1:n40005001015
+  discourse:
+    subject: n40005001015
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MAT 6:8!4
+    wordID: n40006008004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40006007007
+- position: 5
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: MAT 6:8!6
+    wordID: n40006008006
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 6
+  text: οἶδεν
+  lemma: οἶδα
+  normalized: οἶδεν
+  ids:
+    ref: MAT 6:8!5
+    wordID: n40006008005
+  translation:
+    gloss: knows
+  morphology:
+    class: verb
+    morph: V-RAI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n40006008008 A1:n40006008012
+- position: 7
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 6:8!7
+    wordID: n40006008007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: Πατὴρ
+  lemma: πατήρ
+  normalized: Πατήρ
+  ids:
+    ref: MAT 6:8!8
+    wordID: n40006008008
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+- position: 9
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: MAT 6:8!9
+    wordID: n40006008009
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n40005001015
+- position: 10
+  text: ὧν
+  lemma: ὅς
+  normalized: ὧν
+  ids:
+    ref: MAT 6:8!10
+    wordID: n40006008010
+  translation:
+    gloss: of what things
+  morphology:
+    class: pron
+    morph: R-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+- position: 11
+  text: χρείαν
+  lemma: χρεία
+  normalized: χρείαν
+  ids:
+    ref: MAT 6:8!11
+    wordID: n40006008011
+  translation:
+    gloss: need
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5532'
+  semantic:
+    semanticDomain: '057005'
+    ln: '57.40'
+- position: 12
+  text: ἔχετε
+  lemma: ἔχω
+  normalized: ἔχετε
+  ids:
+    ref: MAT 6:8!12
+    wordID: n40006008012
+  translation:
+    gloss: you have
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40006008011
+  discourse:
+    subject: n40005001015
+- position: 13
+  text: πρὸ
+  lemma: πρό
+  normalized: πρό
+  ids:
+    ref: MAT 6:8!13
+    wordID: n40006008013
+  translation:
+    gloss: before
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4253'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.17'
+- position: 14
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: MAT 6:8!14
+    wordID: n40006008014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: MAT 6:8!15
+    wordID: n40006008015
+  translation:
+    gloss: your
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n40005001015
+- position: 16
+  text: αἰτῆσαι
+  lemma: αἰτέω
+  normalized: αἰτῆσαι
+  ids:
+    ref: MAT 6:8!16
+    wordID: n40006008016
+  translation:
+    gloss: asking
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n40006008015 A1:n40006008017
+- position: 17
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: MAT 6:8!17
+    wordID: n40006008017
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40006008008

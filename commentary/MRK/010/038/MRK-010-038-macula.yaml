@@ -1,0 +1,213 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 10:38
+text: ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς Οὐκ οἴδατε τί αἰτεῖσθε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 10:38!2
+    wordID: n41010038002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MRK 10:38!1
+    wordID: n41010038001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: MRK 10:38!3
+    wordID: n41010038003
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 4
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MRK 10:38!4
+    wordID: n41010038004
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41010038003 A2:n41010038005
+- position: 5
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MRK 10:38!5
+    wordID: n41010038005
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n41010035004 n41010035006
+- position: 6
+  text: Οὐκ
+  lemma: οὐ
+  normalized: Οὐκ
+  ids:
+    ref: MRK 10:38!6
+    wordID: n41010038006
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 7
+  text: οἴδατε
+  lemma: οἶδα
+  normalized: οἴδατε
+  ids:
+    ref: MRK 10:38!7
+    wordID: n41010038007
+  translation:
+    gloss: you know
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.4'
+  syntax:
+    role: v
+    frame: A0:n41010035004;n41010035006 A1:n41010038009
+  discourse:
+    subject: n41010035004 n41010035006
+- position: 8
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: MRK 10:38!8
+    wordID: n41010038008
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 9
+  text: αἰτεῖσθε
+  lemma: αἰτέω
+  normalized: αἰτεῖσθε
+  ids:
+    ref: MRK 10:38!9
+    wordID: n41010038009
+  translation:
+    gloss: you ask
+  morphology:
+    class: verb
+    morph: V-PMI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '154'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n41010035004;n41010035006 A1:n41010038008
+  discourse:
+    subject: n41010035004 n41010035006

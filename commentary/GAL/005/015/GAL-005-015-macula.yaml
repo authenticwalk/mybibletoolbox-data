@@ -1,0 +1,247 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 5:15
+text: εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε, βλέπετε μὴ ὑπ’ ἀλλήλων ἀναλωθῆτε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: GAL 5:15!2
+    wordID: n48005015002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: GAL 5:15!1
+    wordID: n48005015001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 3
+  text: ἀλλήλους
+  lemma: ἀλλήλων
+  normalized: ἀλλήλους
+  ids:
+    ref: GAL 5:15!3
+    wordID: n48005015003
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  syntax:
+    role: o
+  discourse:
+    referent: n48005013006
+- position: 4
+  text: δάκνετε
+  lemma: δάκνω
+  normalized: δάκνετε
+  ids:
+    ref: GAL 5:15!4
+    wordID: n48005015004
+  translation:
+    gloss: you bite
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1143'
+  semantic:
+    semanticDomain: '020002'
+    ln: '20.26'
+  syntax:
+    frame: A0:n48005013006 A1:n48005015003
+  discourse:
+    subject: n48005013006
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: GAL 5:15!5
+    wordID: n48005015005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 6
+  text: κατεσθίετε
+  lemma: κατεσθίω
+  normalized: κατεσθίετε
+  ids:
+    ref: GAL 5:15!6
+    wordID: n48005015006
+  translation:
+    gloss: devour
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2719'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.45'
+  syntax:
+    frame: A0:n48005013006 A1:n48005015003
+  discourse:
+    subject: n48005013006
+- position: 7
+  text: βλέπετε
+  lemma: βλέπω
+  normalized: βλέπετε
+  ids:
+    ref: GAL 5:15!7
+    wordID: n48005015007
+  translation:
+    gloss: take heed
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '991'
+  semantic:
+    semanticDomain: '027006'
+    ln: '27.58'
+  syntax:
+    role: v
+    frame: A0:n48005013006
+  discourse:
+    subject: n48005013006
+- position: 8
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: GAL 5:15!8
+    wordID: n48005015008
+  translation:
+    gloss: lest
+  morphology:
+    class: conj
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.62'
+- position: 9
+  text: ὑπ’
+  lemma: ὑπό
+  normalized: ὑπ’
+  ids:
+    ref: GAL 5:15!9
+    wordID: n48005015009
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.1'
+- position: 10
+  text: ἀλλήλων
+  lemma: ἀλλήλων
+  normalized: ἀλλήλων
+  ids:
+    ref: GAL 5:15!10
+    wordID: n48005015010
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  discourse:
+    referent: n48005013006
+- position: 11
+  text: ἀναλωθῆτε
+  lemma: ἀναλίσκω
+  normalized: ἀναλωθῆτε
+  ids:
+    ref: GAL 5:15!11
+    wordID: n48005015011
+  translation:
+    gloss: you might be consumed
+  morphology:
+    class: verb
+    morph: V-APS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '355'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.47'
+  syntax:
+    role: v
+    frame: A1:n48005013006
+  discourse:
+    subject: n48005013006

@@ -1,0 +1,336 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:33
+text: Πάλιν ἠκούσατε ὅτι ἐρρέθη τοῖς ἀρχαίοις Οὐκ ἐπιορκήσεις, ἀποδώσεις δὲ τῷ Κυρίῳ
+  τοὺς ὅρκους σου.
+words:
+- position: 1
+  text: Πάλιν
+  lemma: πάλιν
+  normalized: Πάλιν
+  ids:
+    ref: MAT 5:33!1
+    wordID: n40005033001
+  translation:
+    gloss: Again
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3825'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.97'
+  syntax:
+    role: adv
+- position: 2
+  text: ἠκούσατε
+  lemma: ἀκούω
+  normalized: ἠκούσατε
+  ids:
+    ref: MAT 5:33!2
+    wordID: n40005033002
+  translation:
+    gloss: you have heard
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.212'
+  syntax:
+    role: v
+    frame: A0:n40005001015
+  discourse:
+    subject: n40005001015
+- position: 3
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: MAT 5:33!3
+    wordID: n40005033003
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 4
+  text: ἐρρέθη
+  lemma: εἶπον
+  normalized: ἐρρέθη
+  ids:
+    ref: MAT 5:33!4
+    wordID: n40005033004
+  translation:
+    gloss: it was said
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2046'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A1:n40005033008;n40005033009 A2:n40005033006
+  discourse:
+    subject: n40005033008 n40005033009
+- position: 5
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: MAT 5:33!5
+    wordID: n40005033005
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: ἀρχαίοις
+  lemma: ἀρχαῖος
+  normalized: ἀρχαίοις
+  ids:
+    ref: MAT 5:33!6
+    wordID: n40005033006
+  translation:
+    gloss: ancients
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '744'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.98'
+- position: 7
+  text: Οὐκ
+  lemma: οὐ
+  normalized: Οὐκ
+  ids:
+    ref: MAT 5:33!7
+    wordID: n40005033007
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: ἐπιορκήσεις
+  lemma: ἐπιορκέω
+  normalized: ἐπιορκήσεις
+  ids:
+    ref: MAT 5:33!8
+    wordID: n40005033008
+  translation:
+    gloss: shall you swear falsely
+  morphology:
+    class: verb
+    morph: V-FAI-2S
+    number: singular
+    person: second
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1964'
+  semantic:
+    semanticDomain: '033054'
+    ln: 33.464 33.465
+  syntax:
+    role: v
+    frame: A0:n40005033006
+  discourse:
+    subject: n40005033006
+- position: 9
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 5:33!10
+    wordID: n40005033010
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 10
+  text: ἀποδώσεις
+  lemma: ἀποδίδωμι
+  normalized: ἀποδώσεις
+  ids:
+    ref: MAT 5:33!9
+    wordID: n40005033009
+  translation:
+    gloss: you shall keep
+  morphology:
+    class: verb
+    morph: V-FAI-2S
+    number: singular
+    person: second
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '591'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.136'
+  syntax:
+    role: v
+    frame: A0:n40005033006 A2:n40005033012 A1:n40005033014
+  discourse:
+    subject: n40005033006
+- position: 11
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 5:33!11
+    wordID: n40005033011
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: Κυρίῳ
+  lemma: κύριος
+  normalized: Κυρίῳ
+  ids:
+    ref: MAT 5:33!12
+    wordID: n40005033012
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 13
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: MAT 5:33!13
+    wordID: n40005033013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: ὅρκους
+  lemma: ὅρκος
+  normalized: ὅρκους
+  ids:
+    ref: MAT 5:33!14
+    wordID: n40005033014
+  translation:
+    gloss: oaths
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3727'
+  semantic:
+    semanticDomain: '033054'
+    ln: '33.463'
+- position: 15
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: MAT 5:33!15
+    wordID: n40005033015
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n40005033006

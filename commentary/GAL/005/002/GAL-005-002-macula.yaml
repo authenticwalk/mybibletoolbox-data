@@ -1,0 +1,282 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 5:2
+text: Ἴδε ἐγὼ Παῦλος λέγω ὑμῖν ὅτι ἐὰν περιτέμνησθε Χριστὸς ὑμᾶς οὐδὲν ὠφελήσει.
+words:
+- position: 1
+  text: Ἴδε
+  lemma: ὁράω
+  normalized: Ἴδε
+  ids:
+    ref: GAL 5:2!1
+    wordID: n48005002001
+  translation:
+    gloss: Behold
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n48004031002
+  discourse:
+    subject: n48004031002
+- position: 2
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: GAL 5:2!2
+    wordID: n48005002002
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n48001001001
+- position: 3
+  text: Παῦλος
+  lemma: Παῦλος
+  normalized: Παῦλος
+  ids:
+    ref: GAL 5:2!3
+    wordID: n48005002003
+  translation:
+    gloss: Paul
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '3972'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.294a
+  syntax:
+    junction: apposition
+- position: 4
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: GAL 5:2!4
+    wordID: n48005002004
+  translation:
+    gloss: say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n48005002002 A2:n48005002005
+- position: 5
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: GAL 5:2!5
+    wordID: n48005002005
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n48004031002
+- position: 6
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: GAL 5:2!6
+    wordID: n48005002006
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 7
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: GAL 5:2!7
+    wordID: n48005002007
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
+- position: 8
+  text: περιτέμνησθε
+  lemma: περιτέμνω
+  normalized: περιτέμνησθε
+  ids:
+    ref: GAL 5:2!8
+    wordID: n48005002008
+  translation:
+    gloss: you shall become circumcised
+  morphology:
+    class: verb
+    morph: V-PPS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '4059'
+  semantic:
+    semanticDomain: '053006'
+    ln: '53.51'
+  syntax:
+    role: v
+    frame: A1:n48004031002
+  discourse:
+    subject: n48004031002
+- position: 9
+  text: Χριστὸς
+  lemma: Χριστός
+  normalized: Χριστός
+  ids:
+    ref: GAL 5:2!9
+    wordID: n48005002009
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+  syntax:
+    role: s
+- position: 10
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: GAL 5:2!10
+    wordID: n48005002010
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n48004031002
+- position: 11
+  text: οὐδὲν
+  lemma: οὐδείς
+  normalized: οὐδέν
+  ids:
+    ref: GAL 5:2!11
+    wordID: n48005002011
+  translation:
+    gloss: nothing
+  morphology:
+    class: adj
+    morph: A-ASN-N
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3762'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: adv
+- position: 12
+  text: ὠφελήσει
+  lemma: ὠφελέω
+  normalized: ὠφελήσει
+  ids:
+    ref: GAL 5:2!12
+    wordID: n48005002012
+  translation:
+    gloss: will profit
+  morphology:
+    class: verb
+    morph: V-FAI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5623'
+  semantic:
+    semanticDomain: '035001'
+    ln: '35.2'
+  syntax:
+    role: v
+    frame: A0:n48005002009 A2:n48005002010 A1:n48005002011

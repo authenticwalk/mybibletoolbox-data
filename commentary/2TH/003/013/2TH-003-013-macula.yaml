@@ -1,0 +1,137 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2TH 3:13
+text: 2TH 3:13 Ὑμεῖς δέ, ἀδελφοί, μὴ ἐγκακήσητε καλοποιοῦντες.
+words:
+- position: 1
+  text: δέ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 2TH 3:13!2
+    wordID: n53003013002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017 089023
+    ln: 89.124 89.94
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 2TH 3:13!3
+    wordID: n53003013003
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Ὑμεῖς
+  lemma: σύ
+  normalized: Ὑμεῖς
+  ids:
+    ref: 2TH 3:13!1
+    wordID: n53003013001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n53003013003
+- position: 4
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 2TH 3:13!4
+    wordID: n53003013004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 5
+  text: ἐγκακήσητε
+  lemma: ἐγκακέω
+  normalized: ἐγκακήσητε
+  ids:
+    ref: 2TH 3:13!5
+    wordID: n53003013005
+  translation:
+    gloss: shall grow weary
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1573'
+  semantic:
+    semanticDomain: '025024'
+    ln: '25.288'
+  syntax:
+    role: v
+    frame: A0:n53003013001
+- position: 6
+  text: καλοποιοῦντες
+  lemma: καλοποιέω
+  normalized: καλοποιοῦντες
+  ids:
+    ref: 2TH 3:13!6
+    wordID: n53003013006
+  translation:
+    gloss: '[in] well-doing'
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2569'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.5'
+  syntax:
+    role: v
+    frame: A0:n53003013003
+  discourse:
+    subject: n53003013003

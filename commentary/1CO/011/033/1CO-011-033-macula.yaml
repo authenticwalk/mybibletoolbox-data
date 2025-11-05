@@ -1,0 +1,209 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 11:33
+text: 1CO 11:33 ὥστε, ἀδελφοί μου, συνερχόμενοι εἰς τὸ φαγεῖν ἀλλήλους ἐκδέχεσθε.
+words:
+- position: 1
+  text: ὥστε
+  lemma: ὥστε
+  normalized: ὥστε
+  ids:
+    ref: 1CO 11:33!1
+    wordID: n46011033001
+  translation:
+    gloss: So then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '5620'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.52'
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 1CO 11:33!2
+    wordID: n46011033002
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+- position: 3
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: 1CO 11:33!3
+    wordID: n46011033003
+  translation:
+    gloss: of me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n46003022002
+- position: 4
+  text: συνερχόμενοι
+  lemma: συνέρχομαι
+  normalized: συνερχόμενοι
+  ids:
+    ref: 1CO 11:33!4
+    wordID: n46011033004
+  translation:
+    gloss: coming together
+  morphology:
+    class: verb
+    morph: V-PNP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '4905'
+  semantic:
+    semanticDomain: '015013'
+    ln: '15.123'
+  syntax:
+    role: v
+    frame: A0:n46011033002
+  discourse:
+    subject: n46011033002
+- position: 5
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: 1CO 11:33!5
+    wordID: n46011033005
+  translation:
+    gloss: in order
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.57'
+- position: 6
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1CO 11:33!6
+    wordID: n46011033006
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: φαγεῖν
+  lemma: ἐσθίω
+  normalized: φαγεῖν
+  ids:
+    ref: 1CO 11:33!7
+    wordID: n46011033007
+  translation:
+    gloss: to eat
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n46011033002
+  discourse:
+    subject: n46011033002
+- position: 8
+  text: ἀλλήλους
+  lemma: ἀλλήλων
+  normalized: ἀλλήλους
+  ids:
+    ref: 1CO 11:33!8
+    wordID: n46011033008
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  syntax:
+    role: o
+  discourse:
+    referent: n46011033002
+- position: 9
+  text: ἐκδέχεσθε
+  lemma: ἐκδέχομαι
+  normalized: ἐκδέχεσθε
+  ids:
+    ref: 1CO 11:33!9
+    wordID: n46011033009
+  translation:
+    gloss: wait for
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '1551'
+  semantic:
+    semanticDomain: 085003
+    ln: '85.60'
+  syntax:
+    role: v
+    frame: A0:n46011033002 A1:n46011033008
+  discourse:
+    subject: n46011033002

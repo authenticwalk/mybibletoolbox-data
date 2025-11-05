@@ -1,0 +1,225 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:27
+text: ὃ λέγω ὑμῖν ἐν τῇ σκοτίᾳ, εἴπατε ἐν τῷ φωτί·
+words:
+- position: 1
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: MAT 10:27!1
+    wordID: n40010027001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 2
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: MAT 10:27!2
+    wordID: n40010027002
+  translation:
+    gloss: I tell
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40010005006 A1:n40010027001 A2:n40010027003
+  discourse:
+    subject: n40010005006
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: MAT 10:27!3
+    wordID: n40010027003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40010005003
+- position: 4
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: MAT 10:27!4
+    wordID: n40010027004
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 028005
+    ln: '28.71'
+- position: 5
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: MAT 10:27!5
+    wordID: n40010027005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: σκοτίᾳ
+  lemma: σκοτία
+  normalized: σκοτίᾳ
+  ids:
+    ref: MAT 10:27!6
+    wordID: n40010027006
+  translation:
+    gloss: darkness
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4653'
+  semantic:
+    semanticDomain: 014007 028005
+    ln: 14.53 28.71
+- position: 7
+  text: εἴπατε
+  lemma: λέγω
+  normalized: εἴπατε
+  ids:
+    ref: MAT 10:27!7
+    wordID: n40010027007
+  translation:
+    gloss: speak
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010027002
+  discourse:
+    subject: n40010005003
+- position: 8
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: MAT 10:27!8
+    wordID: n40010027008
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 028004
+    ln: '28.64'
+- position: 9
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 10:27!9
+    wordID: n40010027009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: φωτί
+  lemma: φῶς
+  normalized: φωτί
+  ids:
+    ref: MAT 10:27!10
+    wordID: n40010027010
+  translation:
+    gloss: light
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5457'
+  semantic:
+    semanticDomain: 028004
+    ln: '28.64'

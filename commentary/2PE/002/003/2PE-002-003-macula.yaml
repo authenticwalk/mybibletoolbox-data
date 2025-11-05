@@ -1,0 +1,144 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2PE 2:3
+text: 2PE 2:3 καὶ ἐν πλεονεξίᾳ πλαστοῖς λόγοις ὑμᾶς ἐμπορεύσονται·
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2PE 2:3!1
+    wordID: n61002003001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 2PE 2:3!2
+    wordID: n61002003002
+  translation:
+    gloss: through
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+- position: 3
+  text: πλεονεξίᾳ
+  lemma: πλεονεξία
+  normalized: πλεονεξίᾳ
+  ids:
+    ref: 2PE 2:3!3
+    wordID: n61002003003
+  translation:
+    gloss: covetousness
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4124'
+  semantic:
+    semanticDomain: '025002'
+    ln: '25.22'
+- position: 4
+  text: πλαστοῖς
+  lemma: πλαστός
+  normalized: πλαστοῖς
+  ids:
+    ref: 2PE 2:3!4
+    wordID: n61002003004
+  translation:
+    gloss: with fabricated
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '4112'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.11'
+- position: 5
+  text: λόγοις
+  lemma: λόγος
+  normalized: λόγοις
+  ids:
+    ref: 2PE 2:3!5
+    wordID: n61002003005
+  translation:
+    gloss: words
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.98'
+- position: 6
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 2PE 2:3!6
+    wordID: n61002003006
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n61001010003
+- position: 7
+  text: ἐμπορεύσονται
+  lemma: ἐμπορεύομαι
+  normalized: ἐμπορεύσονται
+  ids:
+    ref: 2PE 2:3!7
+    wordID: n61002003007
+  translation:
+    gloss: they will exploit
+  morphology:
+    class: verb
+    morph: V-FDI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1710'
+  semantic:
+    semanticDomain: 088019
+    ln: '88.148'
+  syntax:
+    role: v
+    frame: A0:n61002001013 A1:n61002003006
+  discourse:
+    subject: n61002001013

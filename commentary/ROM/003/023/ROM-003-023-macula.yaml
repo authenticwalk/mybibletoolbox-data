@@ -1,0 +1,454 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 3:23
+text: ROM 3:24 πάντες γὰρ ἥμαρτον καὶ ὑστεροῦνται τῆς δόξης τοῦ Θεοῦ, δικαιούμενοι
+  δωρεὰν τῇ αὐτοῦ χάριτι διὰ τῆς ἀπολυτρώσεως τῆς ἐν Χριστῷ Ἰησοῦ·
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: ROM 3:23!2
+    wordID: n45003023002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: πάντες
+  lemma: πᾶς
+  normalized: πάντες
+  ids:
+    ref: ROM 3:23!1
+    wordID: n45003023001
+  translation:
+    gloss: All
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: s
+- position: 3
+  text: ἥμαρτον
+  lemma: ἁμαρτάνω
+  normalized: ἥμαρτον
+  ids:
+    ref: ROM 3:23!3
+    wordID: n45003023003
+  translation:
+    gloss: have sinned
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '264'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.289'
+  syntax:
+    role: v
+    frame: A0:n45003023001
+- position: 4
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 3:23!4
+    wordID: n45003023004
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 5
+  text: ὑστεροῦνται
+  lemma: ὑστερέω
+  normalized: ὑστεροῦνται
+  ids:
+    ref: ROM 3:23!5
+    wordID: n45003023005
+  translation:
+    gloss: fall short
+  morphology:
+    class: verb
+    morph: V-PPI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '5302'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.21'
+  syntax:
+    role: v
+    frame: A1:n45003023001 A1:n45003023007
+  discourse:
+    subject: n45003023001
+- position: 6
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: ROM 3:23!6
+    wordID: n45003023006
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: δόξης
+  lemma: δόξα
+  normalized: δόξης
+  ids:
+    ref: ROM 3:23!7
+    wordID: n45003023007
+  translation:
+    gloss: glory
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1391'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.23'
+- position: 8
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: ROM 3:23!8
+    wordID: n45003023008
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: ROM 3:23!9
+    wordID: n45003023009
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 10
+  text: δικαιούμενοι
+  lemma: δικαιόω
+  normalized: δικαιούμενοι
+  ids:
+    ref: ROM 3:24!1
+    wordID: n45003024001
+  translation:
+    gloss: being justified
+  morphology:
+    class: verb
+    morph: V-PPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '1344'
+  semantic:
+    semanticDomain: '034005'
+    ln: '34.46'
+  syntax:
+    role: v
+    frame: A1:n45003023001
+  discourse:
+    subject: n45003023001
+- position: 11
+  text: δωρεὰν
+  lemma: δωρεάν
+  normalized: δωρεάν
+  ids:
+    ref: ROM 3:24!2
+    wordID: n45003024002
+  translation:
+    gloss: freely
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '1432'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.85'
+  syntax:
+    role: adv
+- position: 12
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: ROM 3:24!3
+    wordID: n45003024003
+  translation:
+    gloss: by the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: ROM 3:24!4
+    wordID: n45003024004
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n45003023009
+- position: 14
+  text: χάριτι
+  lemma: χάρις
+  normalized: χάριτι
+  ids:
+    ref: ROM 3:24!5
+    wordID: n45003024005
+  translation:
+    gloss: grace
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5485'
+  semantic:
+    semanticDomain: 088009
+    ln: '88.66'
+- position: 15
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: ROM 3:24!6
+    wordID: n45003024006
+  translation:
+    gloss: through
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
+- position: 16
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: ROM 3:24!7
+    wordID: n45003024007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 17
+  text: ἀπολυτρώσεως
+  lemma: ἀπολύτρωσις
+  normalized: ἀπολυτρώσεως
+  ids:
+    ref: ROM 3:24!8
+    wordID: n45003024008
+  translation:
+    gloss: redemption
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '629'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.128'
+- position: 18
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: ROM 3:24!9
+    wordID: n45003024009
+  translation:
+    gloss: that
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ROM 3:24!10
+    wordID: n45003024010
+  translation:
+    gloss: '[is] in'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.6'
+- position: 20
+  text: Χριστῷ
+  lemma: Χριστός
+  normalized: Χριστῷ
+  ids:
+    ref: ROM 3:24!11
+    wordID: n45003024011
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+- position: 21
+  text: Ἰησοῦ
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦ
+  ids:
+    ref: ROM 3:24!12
+    wordID: n45003024012
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    junction: apposition

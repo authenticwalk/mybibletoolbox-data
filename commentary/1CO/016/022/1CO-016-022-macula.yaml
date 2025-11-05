@@ -1,0 +1,181 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 16:22
+text: 1CO 16:22 εἴ τις οὐ φιλεῖ τὸν Κύριον, ἤτω ἀνάθεμα.
+words:
+- position: 1
+  text: εἴ
+  lemma: εἰ
+  normalized: εἴ
+  ids:
+    ref: 1CO 16:22!1
+    wordID: n46016022001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: 1CO 16:22!2
+    wordID: n46016022002
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
+- position: 3
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: 1CO 16:22!3
+    wordID: n46016022003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 4
+  text: φιλεῖ
+  lemma: φιλέω
+  normalized: φιλεῖ
+  ids:
+    ref: 1CO 16:22!4
+    wordID: n46016022004
+  translation:
+    gloss: loves
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5368'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.33'
+  syntax:
+    role: v
+    frame: A0:n46016022002 A1:n46016022006
+- position: 5
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: 1CO 16:22!5
+    wordID: n46016022005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: Κύριον
+  lemma: κύριος
+  normalized: Κύριον
+  ids:
+    ref: 1CO 16:22!6
+    wordID: n46016022006
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 7
+  text: ἤτω
+  lemma: εἰμί
+  normalized: ἤτω
+  ids:
+    ref: 1CO 16:22!7
+    wordID: n46016022007
+  translation:
+    gloss: let him be
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
+  discourse:
+    subject: n46016022002
+- position: 8
+  text: ἀνάθεμα
+  lemma: ἀνάθεμα
+  normalized: ἀνάθεμα
+  ids:
+    ref: 1CO 16:22!8
+    wordID: n46016022008
+  translation:
+    gloss: accursed
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '331'
+  semantic:
+    semanticDomain: '033055'
+    ln: '33.474'
+  syntax:
+    role: p

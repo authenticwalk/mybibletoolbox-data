@@ -1,0 +1,209 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:46
+text: ἐὰν γὰρ ἀγαπήσητε τοὺς ἀγαπῶντας ὑμᾶς, τίνα μισθὸν ἔχετε;
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: MAT 5:46!2
+    wordID: n40005046002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: MAT 5:46!1
+    wordID: n40005046001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
+- position: 3
+  text: ἀγαπήσητε
+  lemma: ἀγαπάω
+  normalized: ἀγαπήσητε
+  ids:
+    ref: MAT 5:46!3
+    wordID: n40005046003
+  translation:
+    gloss: you love
+  morphology:
+    class: verb
+    morph: V-AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40005046005
+  discourse:
+    subject: n40005001015
+- position: 4
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: MAT 5:46!4
+    wordID: n40005046004
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἀγαπῶντας
+  lemma: ἀγαπάω
+  normalized: ἀγαπῶντας
+  ids:
+    ref: MAT 5:46!5
+    wordID: n40005046005
+  translation:
+    gloss: loving
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40005046006
+- position: 6
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: MAT 5:46!6
+    wordID: n40005046006
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n40005001015
+- position: 7
+  text: τίνα
+  lemma: τίς
+  normalized: τίνα
+  ids:
+    ref: MAT 5:46!7
+    wordID: n40005046007
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+- position: 8
+  text: μισθὸν
+  lemma: μισθός
+  normalized: μισθόν
+  ids:
+    ref: MAT 5:46!8
+    wordID: n40005046008
+  translation:
+    gloss: reward
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3408'
+  semantic:
+    semanticDomain: 038002
+    ln: '38.14'
+- position: 9
+  text: ἔχετε
+  lemma: ἔχω
+  normalized: ἔχετε
+  ids:
+    ref: MAT 5:46!9
+    wordID: n40005046009
+  translation:
+    gloss: have you
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40005046008
+  discourse:
+    subject: n40005001015

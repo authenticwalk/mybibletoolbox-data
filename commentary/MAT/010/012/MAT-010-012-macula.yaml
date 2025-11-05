@@ -1,0 +1,164 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:12
+text: εἰσερχόμενοι δὲ εἰς τὴν οἰκίαν ἀσπάσασθε αὐτήν·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 10:12!2
+    wordID: n40010012002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰσερχόμενοι
+  lemma: εἰσέρχομαι
+  normalized: εἰσερχόμενοι
+  ids:
+    ref: MAT 10:12!1
+    wordID: n40010012001
+  translation:
+    gloss: Entering
+  morphology:
+    class: verb
+    morph: V-PNP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: middlepassive
+    mood: participle
+  lexical:
+    strong: '1525'
+  semantic:
+    semanticDomain: 015008
+    ln: '15.93'
+  syntax:
+    role: v
+    frame: A0:n40010005003
+  discourse:
+    subject: n40010005003
+- position: 3
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: MAT 10:12!3
+    wordID: n40010012003
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
+- position: 4
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MAT 10:12!4
+    wordID: n40010012004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: οἰκίαν
+  lemma: οἰκία
+  normalized: οἰκίαν
+  ids:
+    ref: MAT 10:12!5
+    wordID: n40010012005
+  translation:
+    gloss: house
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3614'
+  semantic:
+    semanticDomain: '007002'
+    ln: '7.3'
+- position: 6
+  text: ἀσπάσασθε
+  lemma: ἀσπάζομαι
+  normalized: ἀσπάσασθε
+  ids:
+    ref: MAT 10:12!6
+    wordID: n40010012006
+  translation:
+    gloss: greet
+  morphology:
+    class: verb
+    morph: V-ADM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '782'
+  semantic:
+    semanticDomain: '033003'
+    ln: '33.20'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010012007
+  discourse:
+    subject: n40010005003
+- position: 7
+  text: αὐτήν
+  lemma: αὐτός
+  normalized: αὐτήν
+  ids:
+    ref: MAT 10:12!7
+    wordID: n40010012007
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40010012005

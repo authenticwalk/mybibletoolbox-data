@@ -1,0 +1,135 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 4:5
+text: τὸ ἐπιεικὲς ὑμῶν γνωσθήτω πᾶσιν ἀνθρώποις.
+words:
+- position: 1
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: PHP 4:5!1
+    wordID: n50004005001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: ἐπιεικὲς
+  lemma: ἐπιεικής
+  normalized: ἐπιεικές
+  ids:
+    ref: PHP 4:5!2
+    wordID: n50004005002
+  translation:
+    gloss: gentleness
+  morphology:
+    class: adj
+    morph: A-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1933'
+  semantic:
+    semanticDomain: 088008
+    ln: '88.63'
+- position: 3
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: PHP 4:5!3
+    wordID: n50004005003
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n50004001015
+- position: 4
+  text: γνωσθήτω
+  lemma: γινώσκω
+  normalized: γνωσθήτω
+  ids:
+    ref: PHP 4:5!4
+    wordID: n50004005004
+  translation:
+    gloss: let be known
+  morphology:
+    class: verb
+    morph: V-APM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: imperative
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A1:n50004005002 A2:n50004005006
+- position: 5
+  text: πᾶσιν
+  lemma: πᾶς
+  normalized: πᾶσιν
+  ids:
+    ref: PHP 4:5!5
+    wordID: n50004005005
+  translation:
+    gloss: to all
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 6
+  text: ἀνθρώποις
+  lemma: ἄνθρωπος
+  normalized: ἀνθρώποις
+  ids:
+    ref: PHP 4:5!6
+    wordID: n50004005006
+  translation:
+    gloss: men
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'

@@ -1,0 +1,343 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 14:37
+text: 1CO 14:37 Εἴ τις δοκεῖ προφήτης εἶναι ἢ πνευματικός, ἐπιγινωσκέτω ἃ γράφω ὑμῖν
+  ὅτι Κυρίου ἐστὶν ἐντολή·
+words:
+- position: 1
+  text: Εἴ
+  lemma: εἰ
+  normalized: Εἴ
+  ids:
+    ref: 1CO 14:37!1
+    wordID: n46014037001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: 1CO 14:37!2
+    wordID: n46014037002
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
+- position: 3
+  text: δοκεῖ
+  lemma: δοκέω
+  normalized: δοκεῖ
+  ids:
+    ref: 1CO 14:37!3
+    wordID: n46014037003
+  translation:
+    gloss: considers
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n46014037002 A1:n46014037004;n46014037007
+- position: 4
+  text: εἶναι
+  lemma: εἰμί
+  normalized: εἶναι
+  ids:
+    ref: 1CO 14:37!5
+    wordID: n46014037005
+  translation:
+    gloss: himself to be
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
+    discontinuous: 'true'
+  discourse:
+    subject: n46014037002
+- position: 5
+  text: προφήτης
+  lemma: προφήτης
+  normalized: προφήτης
+  ids:
+    ref: 1CO 14:37!4
+    wordID: n46014037004
+  translation:
+    gloss: a prophet
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4396'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.79'
+- position: 6
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: 1CO 14:37!6
+    wordID: n46014037006
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 7
+  text: πνευματικός
+  lemma: πνευματικός
+  normalized: πνευματικός
+  ids:
+    ref: 1CO 14:37!7
+    wordID: n46014037007
+  translation:
+    gloss: spiritual
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '4152'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.20'
+- position: 8
+  text: ἐπιγινωσκέτω
+  lemma: ἐπιγινώσκω
+  normalized: ἐπιγινωσκέτω
+  ids:
+    ref: 1CO 14:37!8
+    wordID: n46014037008
+  translation:
+    gloss: let him recognize
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1921'
+  semantic:
+    semanticDomain: '027007'
+    ln: '27.61'
+  syntax:
+    role: v
+    frame: A0:n46014037002
+  discourse:
+    subject: n46014037002
+- position: 9
+  text: ἃ
+  lemma: ὅς
+  normalized: ἅ
+  ids:
+    ref: 1CO 14:37!9
+    wordID: n46014037009
+  translation:
+    gloss: the things
+  morphology:
+    class: pron
+    morph: R-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 10
+  text: γράφω
+  lemma: γράφω
+  normalized: γράφω
+  ids:
+    ref: 1CO 14:37!10
+    wordID: n46014037010
+  translation:
+    gloss: I write
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.61'
+  syntax:
+    role: v
+    frame: A0:n46003022002 A1:n46014037009 A2:n46014037011
+  discourse:
+    subject: n46003022002
+- position: 11
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1CO 14:37!11
+    wordID: n46014037011
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n46014026004
+- position: 12
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: 1CO 14:37!12
+    wordID: n46014037012
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 13
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: 1CO 14:37!13
+    wordID: n46014037013
+  translation:
+    gloss: of [the] Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 14
+  text: ἐντολή
+  lemma: ἐντολή
+  normalized: ἐντολή
+  ids:
+    ref: 1CO 14:37!15
+    wordID: n46014037015
+  translation:
+    gloss: '[the] commands'
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1785'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.330'
+  syntax:
+    discontinuous: 'true'
+- position: 15
+  text: ἐστὶν
+  lemma: εἰμί
+  normalized: ἐστίν
+  ids:
+    ref: 1CO 14:37!14
+    wordID: n46014037014
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
+  discourse:
+    subject: n46014037010

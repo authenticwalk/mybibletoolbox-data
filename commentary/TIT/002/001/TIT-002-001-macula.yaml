@@ -1,0 +1,186 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: TIT 2:1
+text: Σὺ δὲ λάλει ἃ πρέπει τῇ ὑγιαινούσῃ διδασκαλίᾳ.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: TIT 2:1!2
+    wordID: n56002001002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Σὺ
+  lemma: σύ
+  normalized: Σύ
+  ids:
+    ref: TIT 2:1!1
+    wordID: n56002001001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n56001004001
+- position: 3
+  text: λάλει
+  lemma: λαλέω
+  normalized: λάλει
+  ids:
+    ref: TIT 2:1!3
+    wordID: n56002001003
+  translation:
+    gloss: speak
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n56002001001 A1:n56002001005
+- position: 4
+  text: ἃ
+  lemma: ὅς
+  normalized: ἅ
+  ids:
+    ref: TIT 2:1!4
+    wordID: n56002001004
+  translation:
+    gloss: the things that
+  morphology:
+    class: pron
+    morph: R-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: s
+- position: 5
+  text: πρέπει
+  lemma: πρέπω
+  normalized: πρέπει
+  ids:
+    ref: TIT 2:1!5
+    wordID: n56002001005
+  translation:
+    gloss: are consistent with
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4241'
+  semantic:
+    semanticDomain: '066'
+    ln: '66.1'
+  syntax:
+    role: v
+    frame: A0:n56002001004
+- position: 6
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: TIT 2:1!6
+    wordID: n56002001006
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ὑγιαινούσῃ
+  lemma: ὑγιαίνω
+  normalized: ὑγιαινούσῃ
+  ids:
+    ref: TIT 2:1!7
+    wordID: n56002001007
+  translation:
+    gloss: sound
+  morphology:
+    class: verb
+    morph: V-PAP-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5198'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.129'
+  syntax:
+    role: v
+    frame: A0:n56002001008
+  discourse:
+    subject: n56002001008
+- position: 8
+  text: διδασκαλίᾳ
+  lemma: διδασκαλία
+  normalized: διδασκαλίᾳ
+  ids:
+    ref: TIT 2:1!8
+    wordID: n56002001008
+  translation:
+    gloss: doctrine
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '1319'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.236'

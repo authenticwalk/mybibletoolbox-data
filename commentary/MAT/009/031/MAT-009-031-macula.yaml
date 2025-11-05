@@ -1,0 +1,228 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:31
+text: οἱ δὲ ἐξελθόντες διεφήμισαν αὐτὸν ἐν ὅλῃ τῇ γῇ ἐκείνῃ.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 9:31!2
+    wordID: n40009031002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: MAT 9:31!1
+    wordID: n40009031001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40009028009
+- position: 3
+  text: ἐξελθόντες
+  lemma: ἐξέρχομαι
+  normalized: ἐξελθόντες
+  ids:
+    ref: MAT 9:31!3
+    wordID: n40009031003
+  translation:
+    gloss: having gone out
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1831'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n40009028009
+  discourse:
+    subject: n40009028009
+- position: 4
+  text: διεφήμισαν
+  lemma: διαφημίζω
+  normalized: διεφήμισαν
+  ids:
+    ref: MAT 9:31!4
+    wordID: n40009031004
+  translation:
+    gloss: they make known
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1310'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.214'
+  syntax:
+    role: v
+    frame: A0:n40009031001 A1:n40009031005
+- position: 5
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: MAT 9:31!5
+    wordID: n40009031005
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40009030010
+- position: 6
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: MAT 9:31!6
+    wordID: n40009031006
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 7
+  text: ὅλῃ
+  lemma: ὅλος
+  normalized: ὅλῃ
+  ids:
+    ref: MAT 9:31!7
+    wordID: n40009031007
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-DSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '3650'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.1'
+- position: 8
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: MAT 9:31!8
+    wordID: n40009031008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: γῇ
+  lemma: γῆ
+  normalized: γῇ
+  ids:
+    ref: MAT 9:31!9
+    wordID: n40009031009
+  translation:
+    gloss: land
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '1093'
+  semantic:
+    semanticDomain: '001011'
+    ln: '1.79'
+- position: 10
+  text: ἐκείνῃ
+  lemma: ἐκεῖνος
+  normalized: ἐκείνῃ
+  ids:
+    ref: MAT 9:31!10
+    wordID: n40009031010
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: D-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'

@@ -1,0 +1,109 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 2:6
+text: ὑμεῖς δὲ ἠτιμάσατε τὸν πτωχόν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JAS 2:6!2
+    wordID: n59002006002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: JAS 2:6!1
+    wordID: n59002006001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n59002005002
+- position: 3
+  text: ἠτιμάσατε
+  lemma: ἀτιμάζω
+  normalized: ἠτιμάσατε
+  ids:
+    ref: JAS 2:6!3
+    wordID: n59002006003
+  translation:
+    gloss: have dishonored
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '818'
+  semantic:
+    semanticDomain: 087004 088016
+    ln: 87.74 88.127
+  syntax:
+    role: v
+    frame: A0:n59002006001 A1:n59002006005
+- position: 4
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: JAS 2:6!4
+    wordID: n59002006004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: πτωχόν
+  lemma: πτωχός
+  normalized: πτωχόν
+  ids:
+    ref: JAS 2:6!5
+    wordID: n59002006005
+  translation:
+    gloss: poor
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4434'
+  semantic:
+    semanticDomain: '057006'
+    ln: '57.53'

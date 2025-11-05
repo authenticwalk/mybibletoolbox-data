@@ -1,0 +1,232 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 8:2
+text: 1CO 8:2 εἴ τις δοκεῖ ἐγνωκέναι τι, οὔπω ἔγνω καθὼς δεῖ γνῶναι·
+words:
+- position: 1
+  text: εἴ
+  lemma: εἰ
+  normalized: εἴ
+  ids:
+    ref: 1CO 8:2!1
+    wordID: n46008002001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: 1CO 8:2!2
+    wordID: n46008002002
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
+- position: 3
+  text: δοκεῖ
+  lemma: δοκέω
+  normalized: δοκεῖ
+  ids:
+    ref: 1CO 8:2!3
+    wordID: n46008002003
+  translation:
+    gloss: thinks
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n46008002002 A1:n46008002004
+- position: 4
+  text: ἐγνωκέναι
+  lemma: γινώσκω
+  normalized: ἐγνωκέναι
+  ids:
+    ref: 1CO 8:2!4
+    wordID: n46008002004
+  translation:
+    gloss: to have known
+  morphology:
+    class: verb
+    morph: V-RAN
+    tense: perfect
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n46008002002 A1:n46008002005
+  discourse:
+    subject: n46008002002
+- position: 5
+  text: τι
+  lemma: τὶς
+  normalized: τι
+  ids:
+    ref: 1CO 8:2!5
+    wordID: n46008002005
+  translation:
+    gloss: anything
+  morphology:
+    class: pron
+    morph: X-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: o
+- position: 6
+  text: οὔπω
+  lemma: οὔπω
+  normalized: οὔπω
+  ids:
+    ref: 1CO 8:2!6
+    wordID: n46008002006
+  translation:
+    gloss: not yet
+  morphology:
+    class: adv
+    morph: ADV-N
+  lexical:
+    strong: '3768'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.129'
+  syntax:
+    role: adv
+- position: 7
+  text: ἔγνω
+  lemma: γινώσκω
+  normalized: ἔγνω
+  ids:
+    ref: 1CO 8:2!7
+    wordID: n46008002007
+  translation:
+    gloss: does he know
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n46008002002
+  discourse:
+    subject: n46008002002
+- position: 8
+  text: καθὼς
+  lemma: καθώς
+  normalized: καθώς
+  ids:
+    ref: 1CO 8:2!8
+    wordID: n46008002008
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2531'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.14'
+- position: 9
+  text: δεῖ
+  lemma: δεῖ
+  normalized: δεῖ
+  ids:
+    ref: 1CO 8:2!9
+    wordID: n46008002009
+  translation:
+    gloss: it is necessary
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1163'
+  semantic:
+    semanticDomain: 071004 071005
+    ln: 71.21 71.34
+  syntax:
+    role: v
+    frame: A0:n46008002010
+- position: 10
+  text: γνῶναι
+  lemma: γινώσκω
+  normalized: γνῶναι
+  ids:
+    ref: 1CO 8:2!10
+    wordID: n46008002010
+  translation:
+    gloss: to know
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.18'
+  syntax:
+    role: v
+    frame: A0:n46008002002
+  discourse:
+    subject: n46008002002

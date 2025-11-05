@@ -1,0 +1,74 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 13:23
+text: ὑμεῖς δὲ βλέπετε·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 13:23!2
+    wordID: n41013023002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: MRK 13:23!1
+    wordID: n41013023001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n41013003016 n41013003018 n41013003020 n41013003022
+- position: 3
+  text: βλέπετε
+  lemma: βλέπω
+  normalized: βλέπετε
+  ids:
+    ref: MRK 13:23!3
+    wordID: n41013023003
+  translation:
+    gloss: take heed
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '991'
+  semantic:
+    semanticDomain: '027006'
+    ln: '27.58'
+  syntax:
+    role: v
+    frame: A0:n41013023001

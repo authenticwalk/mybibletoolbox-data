@@ -1,0 +1,119 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: TIT 2:6
+text: Τοὺς νεωτέρους ὡσαύτως παρακάλει σωφρονεῖν
+words:
+- position: 1
+  text: Τοὺς
+  lemma: ὁ
+  normalized: Τούς
+  ids:
+    ref: TIT 2:6!1
+    wordID: n56002006001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: νεωτέρους
+  lemma: νέος
+  normalized: νεωτέρους
+  ids:
+    ref: TIT 2:6!2
+    wordID: n56002006002
+  translation:
+    gloss: younger [men]
+  morphology:
+    class: adj
+    morph: A-APM-C
+    gender: masculine
+    number: plural
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '3501'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.116'
+- position: 3
+  text: ὡσαύτως
+  lemma: ὡσαύτως
+  normalized: ὡσαύτως
+  ids:
+    ref: TIT 2:6!3
+    wordID: n56002006003
+  translation:
+    gloss: likewise
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5615'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.16'
+  syntax:
+    role: adv
+- position: 4
+  text: παρακάλει
+  lemma: παρακαλέω
+  normalized: παρακάλει
+  ids:
+    ref: TIT 2:6!4
+    wordID: n56002006004
+  translation:
+    gloss: exhort
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3870'
+  semantic:
+    semanticDomain: '025013'
+    ln: '25.150'
+  syntax:
+    role: v
+    frame: A0:n56001004001 A2:n56002006002 A1:n56002006005
+  discourse:
+    subject: n56001004001
+- position: 5
+  text: σωφρονεῖν
+  lemma: σωφρονέω
+  normalized: σωφρονεῖν
+  ids:
+    ref: TIT 2:6!5
+    wordID: n56002006005
+  translation:
+    gloss: to be self-controlled
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4993'
+  semantic:
+    semanticDomain: '032004'
+    ln: '32.34'
+  syntax:
+    role: v
+    frame: A0:n56002006002
+  discourse:
+    subject: n56002006002

@@ -1,0 +1,198 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 2:18
+text: τὸ δὲ αὐτὸ καὶ ὑμεῖς χαίρετε καὶ συνχαίρετέ μοι.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: PHP 2:18!2
+    wordID: n50002018002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: PHP 2:18!1
+    wordID: n50002018001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: αὐτὸ
+  lemma: αὐτός
+  normalized: αὐτό
+  ids:
+    ref: PHP 2:18!3
+    wordID: n50002018003
+  translation:
+    gloss: likewise
+  morphology:
+    class: pron
+    morph: P-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 058005
+    ln: '58.31'
+- position: 4
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:18!4
+    wordID: n50002018004
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 5
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: PHP 2:18!5
+    wordID: n50002018005
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n50002012002
+- position: 6
+  text: χαίρετε
+  lemma: χαίρω
+  normalized: χαίρετε
+  ids:
+    ref: PHP 2:18!6
+    wordID: n50002018006
+  translation:
+    gloss: be glad
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5463'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.125'
+  syntax:
+    role: v
+    frame: A0:n50002018005
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:18!7
+    wordID: n50002018007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 8
+  text: συνχαίρετέ
+  lemma: συγχαίρω
+  normalized: συνχαίρετε
+  ids:
+    ref: PHP 2:18!8
+    wordID: n50002018008
+  translation:
+    gloss: rejoice with
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4796'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.126'
+  syntax:
+    role: v
+    frame: A0:n50002012002
+  discourse:
+    subject: n50002012002
+- position: 9
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: PHP 2:18!9
+    wordID: n50002018009
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: adv
+  discourse:
+    referent: n50001001001

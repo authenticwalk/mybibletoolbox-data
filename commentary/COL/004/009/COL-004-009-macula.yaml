@@ -1,0 +1,116 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: COL 4:9
+text: πάντα ὑμῖν γνωρίσουσιν τὰ ὧδε.
+words:
+- position: 1
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: COL 4:9!13
+    wordID: n51004009013
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n51001002007
+- position: 2
+  text: γνωρίσουσιν
+  lemma: γνωρίζω
+  normalized: γνωρίσουσιν
+  ids:
+    ref: COL 4:9!14
+    wordID: n51004009014
+  translation:
+    gloss: they will make known
+  morphology:
+    class: verb
+    morph: V-FAI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1107'
+  semantic:
+    semanticDomain: 028002
+    ln: '28.26'
+  syntax:
+    role: v
+    frame: A0:n51004007007;n51004009002 A2:n51004009013 A1:n51004009016
+    discontinuous: 'true'
+  discourse:
+    subject: n51004007007 n51004009002
+- position: 3
+  text: πάντα
+  lemma: πᾶς
+  normalized: πάντα
+  ids:
+    ref: COL 4:9!12
+    wordID: n51004009012
+  translation:
+    gloss: All things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 4
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: COL 4:9!15
+    wordID: n51004009015
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ὧδε
+  lemma: ὧδε
+  normalized: ὧδε
+  ids:
+    ref: COL 4:9!16
+    wordID: n51004009016
+  translation:
+    gloss: here
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5602'
+  semantic:
+    semanticDomain: 083001
+    ln: '83.1'

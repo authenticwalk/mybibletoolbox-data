@@ -1,0 +1,254 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:31
+text: Ἐρρέθη δέ Ὃς ἂν ἀπολύσῃ τὴν γυναῖκα αὐτοῦ, δότω αὐτῇ ἀποστάσιον.
+words:
+- position: 1
+  text: δέ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 5:31!2
+    wordID: n40005031002
+  translation:
+    gloss: also
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Ἐρρέθη
+  lemma: εἶπον
+  normalized: Ἐρρέθη
+  ids:
+    ref: MAT 5:31!1
+    wordID: n40005031001
+  translation:
+    gloss: It was said
+  morphology:
+    class: verb
+    morph: V-API-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2046'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A1:n40005031009
+  discourse:
+    subject: n40005031009
+- position: 3
+  text: ἂν
+  lemma: ἄν
+  normalized: ἄν
+  ids:
+    ref: MAT 5:31!4
+    wordID: n40005031004
+  translation:
+    gloss: '-'
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: Ὃς
+  lemma: ὅς
+  normalized: Ὅς
+  ids:
+    ref: MAT 5:31!3
+    wordID: n40005031003
+  translation:
+    gloss: Whoever
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
+- position: 5
+  text: ἀπολύσῃ
+  lemma: ἀπολύω
+  normalized: ἀπολύσῃ
+  ids:
+    ref: MAT 5:31!5
+    wordID: n40005031005
+  translation:
+    gloss: shall divorce
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '034010'
+    ln: '34.78'
+  syntax:
+    role: v
+    frame: A0:n40005031003 A1:n40005031007
+- position: 6
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MAT 5:31!6
+    wordID: n40005031006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: γυναῖκα
+  lemma: γυνή
+  normalized: γυναῖκα
+  ids:
+    ref: MAT 5:31!7
+    wordID: n40005031007
+  translation:
+    gloss: wife
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1135'
+  semantic:
+    semanticDomain: '010004'
+    ln: '10.54'
+- position: 8
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 5:31!8
+    wordID: n40005031008
+  translation:
+    gloss: of him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40005031003
+- position: 9
+  text: δότω
+  lemma: δίδωμι
+  normalized: δότω
+  ids:
+    ref: MAT 5:31!9
+    wordID: n40005031009
+  translation:
+    gloss: let him give
+  morphology:
+    class: verb
+    morph: V-2AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n40005031005 A2:n40005031010 A1:n40005031011
+- position: 10
+  text: αὐτῇ
+  lemma: αὐτός
+  normalized: αὐτῇ
+  ids:
+    ref: MAT 5:31!10
+    wordID: n40005031010
+  translation:
+    gloss: to her
+  morphology:
+    class: pron
+    morph: P-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005031007
+- position: 11
+  text: ἀποστάσιον
+  lemma: ἀποστάσιον
+  normalized: ἀποστάσιον
+  ids:
+    ref: MAT 5:31!11
+    wordID: n40005031011
+  translation:
+    gloss: a letter of divorce
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '647'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.41'
+  syntax:
+    role: o

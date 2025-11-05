@@ -1,0 +1,216 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 3:5
+text: ὁ δὲ ἐπεῖχεν αὐτοῖς προσδοκῶν τι παρ’ αὐτῶν λαβεῖν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ACT 3:5!2
+    wordID: n44003005002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: ACT 3:5!1
+    wordID: n44003005001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n44003002003
+- position: 3
+  text: ἐπεῖχεν
+  lemma: ἐπέχω
+  normalized: ἐπεῖχεν
+  ids:
+    ref: ACT 3:5!3
+    wordID: n44003005003
+  translation:
+    gloss: he began to give heed
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1907'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.33'
+  syntax:
+    role: v
+    frame: A0:n44003005001 A1:n44003005004
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: ACT 3:5!4
+    wordID: n44003005004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n44003004003 n44003004008
+- position: 5
+  text: προσδοκῶν
+  lemma: προσδοκάω
+  normalized: προσδοκῶν
+  ids:
+    ref: ACT 3:5!5
+    wordID: n44003005005
+  translation:
+    gloss: expecting
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4328'
+  semantic:
+    semanticDomain: '030003'
+    ln: '30.55'
+  syntax:
+    role: v
+    frame: A0:n44003002003 A1:n44003005009
+  discourse:
+    subject: n44003002003
+- position: 6
+  text: τι
+  lemma: τὶς
+  normalized: τι
+  ids:
+    ref: ACT 3:5!6
+    wordID: n44003005006
+  translation:
+    gloss: something
+  morphology:
+    class: pron
+    morph: X-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: o
+- position: 7
+  text: παρ’
+  lemma: παρά
+  normalized: παρ’
+  ids:
+    ref: ACT 3:5!7
+    wordID: n44003005007
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3844'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.14'
+- position: 8
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: ACT 3:5!8
+    wordID: n44003005008
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n44003004003 n44003004008
+- position: 9
+  text: λαβεῖν
+  lemma: λαμβάνω
+  normalized: λαβεῖν
+  ids:
+    ref: ACT 3:5!9
+    wordID: n44003005009
+  translation:
+    gloss: to receive
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A0:n44003002003 A1:n44003005006
+  discourse:
+    subject: n44003002003

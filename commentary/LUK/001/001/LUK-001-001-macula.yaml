@@ -1,0 +1,918 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 1:1
+text: "LUK 1:2 \n         LUK 1:3 \n         LUK 1:4 Ἐπειδήπερ πολλοὶ ἐπεχείρησαν\
+  \ ἀνατάξασθαι διήγησιν περὶ τῶν πεπληροφορημένων ἐν ἡμῖν πραγμάτων, καθὼς παρέδοσαν\
+  \ ἡμῖν οἱ ἀπ’ ἀρχῆς αὐτόπται καὶ ὑπηρέται γενόμενοι τοῦ λόγου, ἔδοξε κἀμοὶ παρηκολουθηκότι\
+  \ ἄνωθεν πᾶσιν ἀκριβῶς καθεξῆς σοι γράψαι, κράτιστε Θεόφιλε, ἵνα ἐπιγνῷς περὶ ὧν\
+  \ κατηχήθης λόγων τὴν ἀσφάλειαν."
+words:
+- position: 1
+  text: Ἐπειδήπερ
+  lemma: ἐπειδήπερ
+  normalized: Ἐπειδήπερ
+  ids:
+    ref: LUK 1:1!1
+    wordID: n42001001001
+  translation:
+    gloss: Inasmuch as
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1895'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.32'
+- position: 2
+  text: πολλοὶ
+  lemma: πολύς
+  normalized: πολλοί
+  ids:
+    ref: LUK 1:1!2
+    wordID: n42001001002
+  translation:
+    gloss: many
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4183'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
+  syntax:
+    role: s
+- position: 3
+  text: ἐπεχείρησαν
+  lemma: ἐπιχειρέω
+  normalized: ἐπεχείρησαν
+  ids:
+    ref: LUK 1:1!3
+    wordID: n42001001003
+  translation:
+    gloss: have undertaken
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2021'
+  semantic:
+    semanticDomain: 068005
+    ln: '68.59'
+  syntax:
+    role: v
+    frame: A0:n42001001002 A1:n42001001004
+- position: 4
+  text: ἀνατάξασθαι
+  lemma: ἀνατάσσομαι
+  normalized: ἀνατάξασθαι
+  ids:
+    ref: LUK 1:1!4
+    wordID: n42001001004
+  translation:
+    gloss: to draw up
+  morphology:
+    class: verb
+    morph: V-ADN
+    tense: aorist
+    voice: middle
+    mood: infinitive
+  lexical:
+    strong: '392'
+  semantic:
+    semanticDomain: '062002'
+    ln: '62.3'
+  syntax:
+    role: v
+    frame: A0:n42001001002 A1:n42001001005
+  discourse:
+    subject: n42001001002
+- position: 5
+  text: διήγησιν
+  lemma: διήγησις
+  normalized: διήγησιν
+  ids:
+    ref: LUK 1:1!5
+    wordID: n42001001005
+  translation:
+    gloss: a narration
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1335'
+  semantic:
+    semanticDomain: '033003'
+    ln: '33.11'
+  syntax:
+    role: o
+- position: 6
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: LUK 1:1!6
+    wordID: n42001001006
+  translation:
+    gloss: concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.24'
+- position: 7
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: LUK 1:1!7
+    wordID: n42001001007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: πεπληροφορημένων
+  lemma: πληροφορέω
+  normalized: πεπληροφορημένων
+  ids:
+    ref: LUK 1:1!8
+    wordID: n42001001008
+  translation:
+    gloss: having been accomplished
+  morphology:
+    class: verb
+    morph: V-RPP-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    tense: perfect
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4135'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.106'
+  syntax:
+    role: v
+    frame: A1:n42001001011
+  discourse:
+    subject: n42001001011
+- position: 9
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: LUK 1:1!9
+    wordID: n42001001009
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
+- position: 10
+  text: ἡμῖν
+  lemma: ἐγώ
+  normalized: ἡμῖν
+  ids:
+    ref: LUK 1:1!10
+    wordID: n42001001010
+  translation:
+    gloss: us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+- position: 11
+  text: πραγμάτων
+  lemma: πρᾶγμα
+  normalized: πραγμάτων
+  ids:
+    ref: LUK 1:1!11
+    wordID: n42001001011
+  translation:
+    gloss: things
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '4229'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.105'
+- position: 12
+  text: καθὼς
+  lemma: καθώς
+  normalized: καθώς
+  ids:
+    ref: LUK 1:2!1
+    wordID: n42001002001
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2531'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.14'
+- position: 13
+  text: παρέδοσαν
+  lemma: παραδίδωμι
+  normalized: παρέδοσαν
+  ids:
+    ref: LUK 1:2!2
+    wordID: n42001002002
+  translation:
+    gloss: delivered [them]
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3860'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.237'
+  syntax:
+    role: v
+    frame: A2:n42001002003 A1:n42001001011 A0:n42001002007;n42001002009
+- position: 14
+  text: ἡμῖν
+  lemma: ἐγώ
+  normalized: ἡμῖν
+  ids:
+    ref: LUK 1:2!3
+    wordID: n42001002003
+  translation:
+    gloss: to us
+  morphology:
+    class: pron
+    morph: P-1DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092002
+    ln: '92.4'
+  syntax:
+    role: io
+- position: 15
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: LUK 1:2!4
+    wordID: n42001002004
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: ἀπ’
+  lemma: ἀπό
+  normalized: ἀπ’
+  ids:
+    ref: LUK 1:2!5
+    wordID: n42001002005
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.131'
+- position: 17
+  text: ἀρχῆς
+  lemma: ἀρχή
+  normalized: ἀρχῆς
+  ids:
+    ref: LUK 1:2!6
+    wordID: n42001002006
+  translation:
+    gloss: '[the] beginning'
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '746'
+  semantic:
+    semanticDomain: 058003
+    ln: '58.20'
+- position: 18
+  text: αὐτόπται
+  lemma: αὐτόπτης
+  normalized: αὐτόπται
+  ids:
+    ref: LUK 1:2!7
+    wordID: n42001002007
+  translation:
+    gloss: eyewitnesses
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '845'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.46'
+- position: 19
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 1:2!8
+    wordID: n42001002008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 20
+  text: ὑπηρέται
+  lemma: ὑπηρέτης
+  normalized: ὑπηρέται
+  ids:
+    ref: LUK 1:2!9
+    wordID: n42001002009
+  translation:
+    gloss: servants
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '5257'
+  semantic:
+    semanticDomain: '035002'
+    ln: '35.20'
+- position: 21
+  text: γενόμενοι
+  lemma: γίνομαι
+  normalized: γενόμενοι
+  ids:
+    ref: LUK 1:2!10
+    wordID: n42001002010
+  translation:
+    gloss: having been
+  morphology:
+    class: verb
+    morph: V-2ADP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.3'
+  syntax:
+    role: vc
+  discourse:
+    subject: n42001002007
+- position: 22
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: LUK 1:2!11
+    wordID: n42001002011
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 23
+  text: λόγου
+  lemma: λόγος
+  normalized: λόγου
+  ids:
+    ref: LUK 1:2!12
+    wordID: n42001002012
+  translation:
+    gloss: word
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: 033019
+    ln: '33.260'
+- position: 24
+  text: ἔδοξε
+  lemma: δοκέω
+  normalized: ἔδοξε
+  ids:
+    ref: LUK 1:3!1
+    wordID: n42001003001
+  translation:
+    gloss: it seemed good
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '030006'
+    ln: '30.96'
+  syntax:
+    role: v
+    frame: AA2:n42001003002 A0:n42001003009
+- position: 25
+  text: κἀμοὶ
+  lemma: κἀγώ
+  normalized: κἀμοί
+  ids:
+    ref: LUK 1:3!2
+    wordID: n42001003002
+  translation:
+    gloss: also to me
+  morphology:
+    class: pron
+    morph: P-1DS-K
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '2504'
+  semantic:
+    semanticDomain: 089017 092001
+    ln: 89.93 92.1
+  syntax:
+    role: adv
+- position: 26
+  text: παρηκολουθηκότι
+  lemma: παρακολουθέω
+  normalized: παρηκολουθηκότι
+  ids:
+    ref: LUK 1:3!3
+    wordID: n42001003003
+  translation:
+    gloss: having been acquainted
+  morphology:
+    class: verb
+    morph: V-RAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3877'
+  semantic:
+    semanticDomain: '027004'
+    ln: '27.38'
+  syntax:
+    role: v
+    frame: A0:n42001003002 A1:n42001003005
+  discourse:
+    subject: n42001003002
+- position: 27
+  text: ἄνωθεν
+  lemma: ἄνωθεν
+  normalized: ἄνωθεν
+  ids:
+    ref: LUK 1:3!4
+    wordID: n42001003004
+  translation:
+    gloss: from the first
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '509'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.90'
+  syntax:
+    role: adv
+- position: 28
+  text: πᾶσιν
+  lemma: πᾶς
+  normalized: πᾶσιν
+  ids:
+    ref: LUK 1:3!5
+    wordID: n42001003005
+  translation:
+    gloss: with all things
+  morphology:
+    class: adj
+    morph: A-DPN
+    gender: neuter
+    number: plural
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.2'
+  syntax:
+    role: o
+- position: 29
+  text: ἀκριβῶς
+  lemma: ἀκριβῶς
+  normalized: ἀκριβῶς
+  ids:
+    ref: LUK 1:3!6
+    wordID: n42001003006
+  translation:
+    gloss: carefully
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '199'
+  semantic:
+    semanticDomain: '072002'
+    ln: '72.19'
+  syntax:
+    role: adv
+- position: 30
+  text: καθεξῆς
+  lemma: καθεξῆς
+  normalized: καθεξῆς
+  ids:
+    ref: LUK 1:3!7
+    wordID: n42001003007
+  translation:
+    gloss: with method
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2517'
+  semantic:
+    semanticDomain: '061'
+    ln: '61.1'
+  syntax:
+    role: adv
+- position: 31
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: LUK 1:3!8
+    wordID: n42001003008
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n42001003011
+- position: 32
+  text: γράψαι
+  lemma: γράφω
+  normalized: γράψαι
+  ids:
+    ref: LUK 1:3!9
+    wordID: n42001003009
+  translation:
+    gloss: to write
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.61'
+  syntax:
+    role: v
+    frame: A0:n42001003002 A2:n42001003008
+  discourse:
+    subject: n42001003002
+- position: 33
+  text: κράτιστε
+  lemma: κράτιστος
+  normalized: κράτιστε
+  ids:
+    ref: LUK 1:3!10
+    wordID: n42001003010
+  translation:
+    gloss: most excellent
+  morphology:
+    class: adj
+    morph: A-VSM-S
+    gender: masculine
+    number: singular
+    case: vocative
+    degree: superlative
+  lexical:
+    strong: '2903'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.55'
+- position: 34
+  text: Θεόφιλε
+  lemma: Θεόφιλος
+  normalized: Θεόφιλε
+  ids:
+    ref: LUK 1:3!11
+    wordID: n42001003011
+  translation:
+    gloss: Theophilus
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: proper
+  lexical:
+    strong: '2321'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.153'
+- position: 35
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: LUK 1:4!1
+    wordID: n42001004001
+  translation:
+    gloss: so that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 36
+  text: ἐπιγνῷς
+  lemma: ἐπιγινώσκω
+  normalized: ἐπιγνῷς
+  ids:
+    ref: LUK 1:4!2
+    wordID: n42001004002
+  translation:
+    gloss: you may know
+  morphology:
+    class: verb
+    morph: V-2AAS-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1921'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.16'
+  syntax:
+    role: v
+    frame: A0:n42001003011 A1:n42001004008
+  discourse:
+    subject: n42001003011
+- position: 37
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: LUK 1:4!3
+    wordID: n42001004003
+  translation:
+    gloss: concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.24'
+- position: 38
+  text: ὧν
+  lemma: ὅς
+  normalized: ὧν
+  ids:
+    ref: LUK 1:4!4
+    wordID: n42001004004
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  discourse:
+    referent: n42001004006
+- position: 39
+  text: κατηχήθης
+  lemma: κατηχέω
+  normalized: κατηχήθης
+  ids:
+    ref: LUK 1:4!5
+    wordID: n42001004005
+  translation:
+    gloss: you were instructed
+  morphology:
+    class: verb
+    morph: V-API-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2727'
+  semantic:
+    semanticDomain: 033015 033017
+    ln: 33.190 33.225
+  syntax:
+    role: v
+    frame: A1:n42001003011
+  discourse:
+    subject: n42001003011
+- position: 40
+  text: λόγων
+  lemma: λόγος
+  normalized: λόγων
+  ids:
+    ref: LUK 1:4!6
+    wordID: n42001004006
+  translation:
+    gloss: '[of the] things'
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3056'
+  semantic:
+    semanticDomain: 033019
+    ln: '33.260'
+  syntax:
+    junction: apposition
+- position: 41
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: LUK 1:4!7
+    wordID: n42001004007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 42
+  text: ἀσφάλειαν
+  lemma: ἀσφάλεια
+  normalized: ἀσφάλειαν
+  ids:
+    ref: LUK 1:4!8
+    wordID: n42001004008
+  translation:
+    gloss: certainty
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '803'
+  semantic:
+    semanticDomain: '031006'
+    ln: '31.41'

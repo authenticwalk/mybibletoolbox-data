@@ -1,0 +1,221 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 15:35
+text: καί τινες τῶν παρεστηκότων ἀκούσαντες ἔλεγον Ἴδε Ἠλείαν φωνεῖ.
+words:
+- position: 1
+  text: καί
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MRK 15:35!1
+    wordID: n41015035001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: τινες
+  lemma: τὶς
+  normalized: τινες
+  ids:
+    ref: MRK 15:35!2
+    wordID: n41015035002
+  translation:
+    gloss: some
+  morphology:
+    class: pron
+    morph: X-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+- position: 3
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: MRK 15:35!3
+    wordID: n41015035003
+  translation:
+    gloss: of those
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: παρεστηκότων
+  lemma: παρίστημι
+  normalized: παρεστηκότων
+  ids:
+    ref: MRK 15:35!4
+    wordID: n41015035004
+  translation:
+    gloss: standing by
+  morphology:
+    class: verb
+    morph: V-RAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3936'
+  semantic:
+    semanticDomain: '017001'
+    ln: '17.3'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 5
+  text: ἀκούσαντες
+  lemma: ἀκούω
+  normalized: ἀκούσαντες
+  ids:
+    ref: MRK 15:35!5
+    wordID: n41015035005
+  translation:
+    gloss: having heard
+  morphology:
+    class: verb
+    morph: V-AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.52'
+  syntax:
+    role: v
+    frame: A0:n41015035002
+  discourse:
+    subject: n41015035002
+- position: 6
+  text: ἔλεγον
+  lemma: λέγω
+  normalized: ἔλεγον
+  ids:
+    ref: MRK 15:35!6
+    wordID: n41015035006
+  translation:
+    gloss: were saying
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41015035002
+- position: 7
+  text: Ἴδε
+  lemma: ὁράω
+  normalized: Ἴδε
+  ids:
+    ref: MRK 15:35!7
+    wordID: n41015035007
+  translation:
+    gloss: Behold
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+    frame: A0:n41015035004
+  discourse:
+    subject: n41015035004
+- position: 8
+  text: Ἠλείαν
+  lemma: Ἠλίας
+  normalized: Ἠλείαν
+  ids:
+    ref: MRK 15:35!8
+    wordID: n41015035008
+  translation:
+    gloss: Elijah
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2243'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.142'
+  syntax:
+    role: o
+- position: 9
+  text: φωνεῖ
+  lemma: φωνέω
+  normalized: φωνεῖ
+  ids:
+    ref: MRK 15:35!9
+    wordID: n41015035009
+  translation:
+    gloss: He calls
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5455'
+  semantic:
+    semanticDomain: 033029
+    ln: '33.307'
+  syntax:
+    role: v
+    frame: A0:n41015034007 A1:n41015035008
+  discourse:
+    subject: n41015034007

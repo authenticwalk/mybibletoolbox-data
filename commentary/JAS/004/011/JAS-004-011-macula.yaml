@@ -1,0 +1,97 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 4:11
+text: Μὴ καταλαλεῖτε ἀλλήλων, ἀδελφοί.
+words:
+- position: 1
+  text: Μὴ
+  lemma: μή
+  normalized: Μή
+  ids:
+    ref: JAS 4:11!1
+    wordID: n59004011001
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: καταλαλεῖτε
+  lemma: καταλαλέω
+  normalized: καταλαλεῖτε
+  ids:
+    ref: JAS 4:11!2
+    wordID: n59004011002
+  translation:
+    gloss: speak against
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2635'
+  semantic:
+    semanticDomain: '033042'
+    ln: '33.387'
+  syntax:
+    role: v
+    frame: A0:n59004011004 A1:n59004011003
+  discourse:
+    subject: n59004011004
+- position: 3
+  text: ἀλλήλων
+  lemma: ἀλλήλων
+  normalized: ἀλλήλων
+  ids:
+    ref: JAS 4:11!3
+    wordID: n59004011003
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  syntax:
+    role: o
+  discourse:
+    referent: n59004011004
+- position: 4
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: JAS 4:11!4
+    wordID: n59004011004
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux

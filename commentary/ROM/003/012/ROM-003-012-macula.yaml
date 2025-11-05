@@ -1,0 +1,99 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 3:12
+text: πάντες ἐξέκλιναν, ἅμα ἠχρεώθησαν·
+words:
+- position: 1
+  text: πάντες
+  lemma: πᾶς
+  normalized: πάντες
+  ids:
+    ref: ROM 3:12!1
+    wordID: n45003012001
+  translation:
+    gloss: All
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: s
+- position: 2
+  text: ἐξέκλιναν
+  lemma: ἐκκλίνω
+  normalized: ἐξέκλιναν
+  ids:
+    ref: ROM 3:12!2
+    wordID: n45003012002
+  translation:
+    gloss: have turned away
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1578'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.99'
+  syntax:
+    role: v
+    frame: A0:n45003012001
+- position: 3
+  text: ἅμα
+  lemma: ἅμα
+  normalized: ἅμα
+  ids:
+    ref: ROM 3:12!3
+    wordID: n45003012003
+  translation:
+    gloss: together they
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '260'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.114'
+  syntax:
+    role: adv
+- position: 4
+  text: ἠχρεώθησαν
+  lemma: ἀχρειόω
+  normalized: ἠχρεώθησαν
+  ids:
+    ref: ROM 3:12!4
+    wordID: n45003012004
+  translation:
+    gloss: have become worthless
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '889'
+  semantic:
+    semanticDomain: 088035
+    ln: '88.263'
+  syntax:
+    role: v
+    frame: A1:n45003012001
+  discourse:
+    subject: n45003012001

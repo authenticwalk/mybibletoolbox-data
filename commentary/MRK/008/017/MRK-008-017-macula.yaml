@@ -1,0 +1,239 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 8:17
+text: καὶ γνοὺς λέγει αὐτοῖς Τί διαλογίζεσθε ὅτι ἄρτους οὐκ ἔχετε;
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MRK 8:17!1
+    wordID: n41008017001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: γνοὺς
+  lemma: γινώσκω
+  normalized: γνούς
+  ids:
+    ref: MRK 8:17!2
+    wordID: n41008017002
+  translation:
+    gloss: having known [it]
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.2'
+  syntax:
+    role: v
+    frame: A0:n41006030007
+  discourse:
+    subject: n41006030007
+- position: 3
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: MRK 8:17!3
+    wordID: n41008017003
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41006030007 A2:n41008017004
+  discourse:
+    subject: n41006030007
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MRK 8:17!4
+    wordID: n41008017004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n41008010009
+- position: 5
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: MRK 8:17!5
+    wordID: n41008017005
+  translation:
+    gloss: Why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.15'
+  syntax:
+    role: adv
+- position: 6
+  text: διαλογίζεσθε
+  lemma: διαλογίζομαι
+  normalized: διαλογίζεσθε
+  ids:
+    ref: MRK 8:17!6
+    wordID: n41008017006
+  translation:
+    gloss: reason you
+  morphology:
+    class: verb
+    morph: V-PNI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1260'
+  semantic:
+    semanticDomain: '030001'
+    ln: '30.10'
+  syntax:
+    role: v
+    frame: A0:n41008010009
+  discourse:
+    subject: n41008010009
+- position: 7
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: MRK 8:17!7
+    wordID: n41008017007
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 8
+  text: ἄρτους
+  lemma: ἄρτος
+  normalized: ἄρτους
+  ids:
+    ref: MRK 8:17!8
+    wordID: n41008017008
+  translation:
+    gloss: loaves
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
+  syntax:
+    role: o
+- position: 9
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: MRK 8:17!9
+    wordID: n41008017009
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 10
+  text: ἔχετε
+  lemma: ἔχω
+  normalized: ἔχετε
+  ids:
+    ref: MRK 8:17!10
+    wordID: n41008017010
+  translation:
+    gloss: you have
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n41008010009 A1:n41008017008
+  discourse:
+    subject: n41008010009

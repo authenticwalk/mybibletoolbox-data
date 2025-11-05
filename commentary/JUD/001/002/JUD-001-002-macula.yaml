@@ -1,0 +1,144 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JUD 1:2
+text: ἔλεος ὑμῖν καὶ εἰρήνη καὶ ἀγάπη πληθυνθείη.
+words:
+- position: 1
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: JUD 1:2!2
+    wordID: n65001002002
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: io
+    discontinuous: 'true'
+  discourse:
+    referent: n65001001017
+- position: 2
+  text: ἔλεος
+  lemma: ἔλεος
+  normalized: ἔλεος
+  ids:
+    ref: JUD 1:2!1
+    wordID: n65001002001
+  translation:
+    gloss: Mercy
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1656'
+  semantic:
+    semanticDomain: 088010
+    ln: '88.76'
+- position: 3
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JUD 1:2!3
+    wordID: n65001002003
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 4
+  text: εἰρήνη
+  lemma: εἰρήνη
+  normalized: εἰρήνη
+  ids:
+    ref: JUD 1:2!4
+    wordID: n65001002004
+  translation:
+    gloss: peace
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1515'
+  semantic:
+    semanticDomain: '025021'
+    ln: '25.248'
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JUD 1:2!5
+    wordID: n65001002005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 6
+  text: ἀγάπη
+  lemma: ἀγάπη
+  normalized: ἀγάπη
+  ids:
+    ref: JUD 1:2!6
+    wordID: n65001002006
+  translation:
+    gloss: love
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '26'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+- position: 7
+  text: πληθυνθείη
+  lemma: πληθύνω
+  normalized: πληθυνθείη
+  ids:
+    ref: JUD 1:2!7
+    wordID: n65001002007
+  translation:
+    gloss: be multiplied
+  morphology:
+    class: verb
+    morph: V-APO-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: passive
+    mood: optative
+  lexical:
+    strong: '4129'
+  semantic:
+    semanticDomain: 059007
+    ln: '59.68'
+  syntax:
+    role: v
+    frame: A2:n65001002002 A1:n65001002001;n65001002004;n65001002006

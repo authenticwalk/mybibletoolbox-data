@@ -1,0 +1,195 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 4:38
+text: ἐγὼ ἀπέστειλα ὑμᾶς θερίζειν ὃ οὐχ ὑμεῖς κεκοπιάκατε·
+words:
+- position: 1
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: JHN 4:38!1
+    wordID: n43004038001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43004034004
+- position: 2
+  text: ἀπέστειλα
+  lemma: ἀποστέλλω
+  normalized: ἀπέστειλα
+  ids:
+    ref: JHN 4:38!2
+    wordID: n43004038002
+  translation:
+    gloss: sent
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '649'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.66'
+  syntax:
+    role: v
+    frame: A0:n43004038001 A1:n43004038003
+- position: 3
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: JHN 4:38!3
+    wordID: n43004038003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n43004033004
+- position: 4
+  text: θερίζειν
+  lemma: θερίζω
+  normalized: θερίζειν
+  ids:
+    ref: JHN 4:38!4
+    wordID: n43004038004
+  translation:
+    gloss: to reap
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2325'
+  semantic:
+    semanticDomain: '043'
+    ln: '43.14'
+  syntax:
+    role: v
+    frame: A0:n43004033004 A1:n43004038008
+  discourse:
+    subject: n43004033004
+- position: 5
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: JHN 4:38!5
+    wordID: n43004038005
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 6
+  text: οὐχ
+  lemma: οὐ
+  normalized: οὐχ
+  ids:
+    ref: JHN 4:38!6
+    wordID: n43004038006
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 7
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: JHN 4:38!7
+    wordID: n43004038007
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n43004033004
+- position: 8
+  text: κεκοπιάκατε
+  lemma: κοπιάω
+  normalized: κεκοπιάκατε
+  ids:
+    ref: JHN 4:38!8
+    wordID: n43004038008
+  translation:
+    gloss: have toiled for
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2872'
+  semantic:
+    semanticDomain: '042004'
+    ln: '42.47'
+  syntax:
+    role: v
+    frame: A1:n43004038005 A0:n43004038007

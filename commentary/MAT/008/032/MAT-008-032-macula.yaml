@@ -1,0 +1,102 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:32
+text: καὶ εἶπεν αὐτοῖς Ὑπάγετε.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 8:32!1
+    wordID: n40008032001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 8:32!2
+    wordID: n40008032002
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40008022003 A2:n40008032003
+  discourse:
+    subject: n40008022003
+- position: 3
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MAT 8:32!3
+    wordID: n40008032003
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008031003
+- position: 4
+  text: Ὑπάγετε
+  lemma: ὑπάγω
+  normalized: Ὑπάγετε
+  ids:
+    ref: MAT 8:32!4
+    wordID: n40008032004
+  translation:
+    gloss: Go
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.52'
+  syntax:
+    role: v
+    frame: A0:n40008031003
+  discourse:
+    subject: n40008031003

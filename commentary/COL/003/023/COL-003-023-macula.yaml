@@ -1,0 +1,449 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: COL 3:23
+text: COL 3:24 ὃ ἐὰν ποιῆτε, ἐκ ψυχῆς ἐργάζεσθε ὡς τῷ Κυρίῳ καὶ οὐκ ἀνθρώποις, εἰδότες
+  ὅτι ἀπὸ Κυρίου ἀπολήμψεσθε τὴν ἀνταπόδοσιν τῆς κληρονομίας.
+words:
+- position: 1
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: COL 3:23!2
+    wordID: n51003023002
+  translation:
+    gloss: if
+  morphology:
+    class: ptcl
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: COL 3:23!1
+    wordID: n51003023001
+  translation:
+    gloss: Whatever
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 3
+  text: ποιῆτε
+  lemma: ποιέω
+  normalized: ποιῆτε
+  ids:
+    ref: COL 3:23!3
+    wordID: n51003023003
+  translation:
+    gloss: you might do
+  morphology:
+    class: verb
+    morph: V-PAS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '041001'
+    ln: '41.7'
+  syntax:
+    role: v
+    frame: A0:n51001002007 A1:n51003023001
+  discourse:
+    subject: n51001002007
+- position: 4
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: COL 3:23!4
+    wordID: n51003023004
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 089014
+    ln: '89.85'
+- position: 5
+  text: ψυχῆς
+  lemma: ψυχή
+  normalized: ψυχῆς
+  ids:
+    ref: COL 3:23!5
+    wordID: n51003023005
+  translation:
+    gloss: '[the] soul'
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.4'
+- position: 6
+  text: ἐργάζεσθε
+  lemma: ἐργάζομαι
+  normalized: ἐργάζεσθε
+  ids:
+    ref: COL 3:23!6
+    wordID: n51003023006
+  translation:
+    gloss: work
+  morphology:
+    class: verb
+    morph: V-PNM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '2038'
+  semantic:
+    semanticDomain: '042004'
+    ln: '42.41'
+  syntax:
+    role: v
+    frame: A0:n51001002007 A1:n51003023003 A2:n51003023009;n51003023012
+  discourse:
+    subject: n51001002007
+- position: 7
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: COL 3:23!7
+    wordID: n51003023007
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 8
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: COL 3:23!8
+    wordID: n51003023008
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: Κυρίῳ
+  lemma: κύριος
+  normalized: Κυρίῳ
+  ids:
+    ref: COL 3:23!9
+    wordID: n51003023009
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 10
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: COL 3:23!10
+    wordID: n51003023010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 11
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: COL 3:23!11
+    wordID: n51003023011
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+- position: 12
+  text: ἀνθρώποις
+  lemma: ἄνθρωπος
+  normalized: ἀνθρώποις
+  ids:
+    ref: COL 3:23!12
+    wordID: n51003023012
+  translation:
+    gloss: to men
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+- position: 13
+  text: εἰδότες
+  lemma: οἶδα
+  normalized: εἰδότες
+  ids:
+    ref: COL 3:24!1
+    wordID: n51003024001
+  translation:
+    gloss: knowing
+  morphology:
+    class: verb
+    morph: V-RAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n51001002007
+  discourse:
+    subject: n51001002007
+- position: 14
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: COL 3:24!2
+    wordID: n51003024002
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 15
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: COL 3:24!3
+    wordID: n51003024003
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.15'
+- position: 16
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: COL 3:24!4
+    wordID: n51003024004
+  translation:
+    gloss: '[the] Lord'
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 17
+  text: ἀπολήμψεσθε
+  lemma: ἀπολαμβάνω
+  normalized: ἀπολήμψεσθε
+  ids:
+    ref: COL 3:24!5
+    wordID: n51003024005
+  translation:
+    gloss: you will receive
+  morphology:
+    class: verb
+    morph: V-FDI-2P
+    number: plural
+    person: second
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '618'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.128'
+  syntax:
+    role: v
+    frame: A0:n51001002007 A1:n51003024007
+  discourse:
+    subject: n51001002007
+- position: 18
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: COL 3:24!6
+    wordID: n51003024006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: ἀνταπόδοσιν
+  lemma: ἀνταπόδοσις
+  normalized: ἀνταπόδοσιν
+  ids:
+    ref: COL 3:24!7
+    wordID: n51003024007
+  translation:
+    gloss: reward
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '469'
+  semantic:
+    semanticDomain: 038002
+    ln: '38.20'
+- position: 20
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: COL 3:24!8
+    wordID: n51003024008
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 21
+  text: κληρονομίας
+  lemma: κληρονομία
+  normalized: κληρονομίας
+  ids:
+    ref: COL 3:24!9
+    wordID: n51003024009
+  translation:
+    gloss: inheritance
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2817'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.140'

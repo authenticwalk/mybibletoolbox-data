@@ -1,0 +1,143 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 4:13
+text: πάντα ἰσχύω ἐν τῷ ἐνδυναμοῦντί με.
+words:
+- position: 1
+  text: πάντα
+  lemma: πᾶς
+  normalized: πάντα
+  ids:
+    ref: PHP 4:13!1
+    wordID: n50004013001
+  translation:
+    gloss: '[For] all things'
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: o
+- position: 2
+  text: ἰσχύω
+  lemma: ἰσχύω
+  normalized: ἰσχύω
+  ids:
+    ref: PHP 4:13!2
+    wordID: n50004013002
+  translation:
+    gloss: I have strength
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2480'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.9'
+  syntax:
+    role: v
+    frame: A0:n50001001001 A1:n50004013001
+  discourse:
+    subject: n50001001001
+- position: 3
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: PHP 4:13!3
+    wordID: n50004013003
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089020
+    ln: '89.119'
+- position: 4
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: PHP 4:13!4
+    wordID: n50004013004
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἐνδυναμοῦντί
+  lemma: ἐνδυναμόω
+  normalized: ἐνδυναμοῦντι
+  ids:
+    ref: PHP 4:13!5
+    wordID: n50004013005
+  translation:
+    gloss: strengthening
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1743'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.6'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n50004013006
+- position: 6
+  text: με
+  lemma: ἐγώ
+  normalized: με
+  ids:
+    ref: PHP 4:13!6
+    wordID: n50004013006
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n50001001001

@@ -1,0 +1,218 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 4:26
+text: λέγει αὐτῇ ὁ Ἰησοῦς Ἐγώ εἰμι, ὁ λαλῶν σοι.
+words:
+- position: 1
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: JHN 4:26!1
+    wordID: n43004026001
+  translation:
+    gloss: Says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n43004026002 A0:n43004026004
+- position: 2
+  text: αὐτῇ
+  lemma: αὐτός
+  normalized: αὐτῇ
+  ids:
+    ref: JHN 4:26!2
+    wordID: n43004026002
+  translation:
+    gloss: to her
+  morphology:
+    class: pron
+    morph: P-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43004025004
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 4:26!3
+    wordID: n43004026003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: JHN 4:26!4
+    wordID: n43004026004
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 5
+  text: Ἐγώ
+  lemma: ἐγώ
+  normalized: Ἐγώ
+  ids:
+    ref: JHN 4:26!5
+    wordID: n43004026005
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n43004026004
+- position: 6
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 4:26!7
+    wordID: n43004026007
+  translation:
+    gloss: the [One]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: λαλῶν
+  lemma: λαλέω
+  normalized: λαλῶν
+  ids:
+    ref: JHN 4:26!8
+    wordID: n43004026008
+  translation:
+    gloss: speaking
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n43004026004 A2:n43004026009
+  discourse:
+    subject: n43004026004
+- position: 8
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: JHN 4:26!9
+    wordID: n43004026009
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+    discontinuous: 'true'
+  discourse:
+    referent: n43004025004
+- position: 9
+  text: εἰμι
+  lemma: εἰμί
+  normalized: εἰμι
+  ids:
+    ref: JHN 4:26!6
+    wordID: n43004026006
+  translation:
+    gloss: am [He]
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc

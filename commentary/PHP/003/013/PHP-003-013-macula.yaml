@@ -1,0 +1,146 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 3:13
+text: ἀδελφοί, ἐγὼ ἐμαυτὸν οὔπω λογίζομαι κατειληφέναι·
+words:
+- position: 1
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: PHP 3:13!1
+    wordID: n50003013001
+  translation:
+    gloss: Brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+- position: 2
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: PHP 3:13!2
+    wordID: n50003013002
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n50001001001
+- position: 3
+  text: οὔπω
+  lemma: οὔπω
+  normalized: οὔπω
+  ids:
+    ref: PHP 3:13!4
+    wordID: n50003013004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: ADV-N
+  lexical:
+    strong: '3768'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.129'
+  syntax:
+    role: adv
+- position: 4
+  text: λογίζομαι
+  lemma: λογίζομαι
+  normalized: λογίζομαι
+  ids:
+    ref: PHP 3:13!5
+    wordID: n50003013005
+  translation:
+    gloss: do consider
+  morphology:
+    class: verb
+    morph: V-PNI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '3049'
+  semantic:
+    semanticDomain: '031001'
+    ln: '31.1'
+  syntax:
+    role: v
+    frame: A0:n50003013002 A1:n50003013006
+    discontinuous: 'true'
+- position: 5
+  text: ἐμαυτὸν
+  lemma: ἐμαυτοῦ
+  normalized: ἐμαυτόν
+  ids:
+    ref: PHP 3:13!3
+    wordID: n50003013003
+  translation:
+    gloss: myself
+  morphology:
+    class: pron
+    morph: F-1ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1683'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.3'
+  syntax:
+    role: s
+  discourse:
+    referent: n50001001001
+- position: 6
+  text: κατειληφέναι
+  lemma: καταλαμβάνω
+  normalized: κατειληφέναι
+  ids:
+    ref: PHP 3:13!6
+    wordID: n50003013006
+  translation:
+    gloss: to have taken hold [of it]
+  morphology:
+    class: verb
+    morph: V-2RAN
+    tense: perfect
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2638'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.56'
+  syntax:
+    role: v
+    frame: A0:n50003013003

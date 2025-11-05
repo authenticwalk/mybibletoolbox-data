@@ -1,0 +1,78 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 3:18
+text: 1CO 3:18 Μηδεὶς ἑαυτὸν ἐξαπατάτω·
+words:
+- position: 1
+  text: Μηδεὶς
+  lemma: μηδείς
+  normalized: Μηδείς
+  ids:
+    ref: 1CO 3:18!1
+    wordID: n46003018001
+  translation:
+    gloss: No one
+  morphology:
+    class: adj
+    morph: A-NSM-N
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3367'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: s
+- position: 2
+  text: ἑαυτὸν
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτόν
+  ids:
+    ref: 1CO 3:18!2
+    wordID: n46003018002
+  translation:
+    gloss: himself
+  morphology:
+    class: pron
+    morph: F-3ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n46003018001
+- position: 3
+  text: ἐξαπατάτω
+  lemma: ἐξαπατάω
+  normalized: ἐξαπατάτω
+  ids:
+    ref: 1CO 3:18!3
+    wordID: n46003018003
+  translation:
+    gloss: let deceive
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1818'
+  semantic:
+    semanticDomain: '031002'
+    ln: '31.12'
+  syntax:
+    role: v
+    frame: A0:n46003018001 A1:n46003018002

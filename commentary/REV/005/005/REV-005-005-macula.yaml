@@ -1,0 +1,185 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: REV 5:5
+text: καὶ εἷς ἐκ τῶν πρεσβυτέρων λέγει μοι Μὴ κλαῖε·
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 5:5!1
+    wordID: n66005005001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: εἷς
+  lemma: εἷς
+  normalized: εἷς
+  ids:
+    ref: REV 5:5!2
+    wordID: n66005005002
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1520'
+- position: 3
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: REV 5:5!3
+    wordID: n66005005003
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+- position: 4
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: REV 5:5!4
+    wordID: n66005005004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: πρεσβυτέρων
+  lemma: πρεσβύτερος
+  normalized: πρεσβυτέρων
+  ids:
+    ref: REV 5:5!5
+    wordID: n66005005005
+  translation:
+    gloss: elders
+  morphology:
+    class: adj
+    morph: A-GPM-C
+    gender: masculine
+    number: plural
+    case: genitive
+    degree: comparative
+  lexical:
+    strong: '4245'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.77'
+- position: 6
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: REV 5:5!6
+    wordID: n66005005006
+  translation:
+    gloss: says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n66005005002 A2:n66005005007
+- position: 7
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: REV 5:5!7
+    wordID: n66005005007
+  translation:
+    gloss: to me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n66001009002
+- position: 8
+  text: Μὴ
+  lemma: μή
+  normalized: Μή
+  ids:
+    ref: REV 5:5!8
+    wordID: n66005005008
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 9
+  text: κλαῖε
+  lemma: κλαίω
+  normalized: κλαῖε
+  ids:
+    ref: REV 5:5!9
+    wordID: n66005005009
+  translation:
+    gloss: do weep
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2799'
+  semantic:
+    semanticDomain: '025012'
+    ln: '25.138'
+  syntax:
+    role: v
+    frame: A0:n66001009002
+  discourse:
+    subject: n66001009002

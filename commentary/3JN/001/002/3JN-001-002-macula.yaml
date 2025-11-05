@@ -1,0 +1,275 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 3JN 1:2
+text: 3JN 1:2 Ἀγαπητέ, περὶ πάντων εὔχομαί σε εὐοδοῦσθαι καὶ ὑγιαίνειν, καθὼς εὐοδοῦταί
+  σου ἡ ψυχή.
+words:
+- position: 1
+  text: Ἀγαπητέ
+  lemma: ἀγαπητός
+  normalized: Ἀγαπητέ
+  ids:
+    ref: 3JN 1:2!1
+    wordID: n64001002001
+  translation:
+    gloss: Beloved
+  morphology:
+    class: adj
+    morph: A-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+  lexical:
+    strong: '27'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.45'
+  syntax:
+    role: aux
+- position: 2
+  text: περὶ
+  lemma: περί
+  normalized: περί
+  ids:
+    ref: 3JN 1:2!2
+    wordID: n64001002002
+  translation:
+    gloss: concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.6'
+- position: 3
+  text: πάντων
+  lemma: πᾶς
+  normalized: πάντων
+  ids:
+    ref: 3JN 1:2!3
+    wordID: n64001002003
+  translation:
+    gloss: all things
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 4
+  text: εὔχομαί
+  lemma: εὔχομαι
+  normalized: εὔχομαι
+  ids:
+    ref: 3JN 1:2!4
+    wordID: n64001002004
+  translation:
+    gloss: I pray
+  morphology:
+    class: verb
+    morph: V-PNI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '2172'
+  semantic:
+    semanticDomain: 025001 033013
+    ln: 25.6 33.178
+  syntax:
+    role: v
+    frame: A0:n64001001002 A1:n64001002006;n64001002008
+  discourse:
+    subject: n64001001002
+- position: 5
+  text: σε
+  lemma: σύ
+  normalized: σε
+  ids:
+    ref: 3JN 1:2!5
+    wordID: n64001002005
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n64001002001
+- position: 6
+  text: εὐοδοῦσθαι
+  lemma: εὐοδόω
+  normalized: εὐοδοῦσθαι
+  ids:
+    ref: 3JN 1:2!6
+    wordID: n64001002006
+  translation:
+    gloss: to prosper
+  morphology:
+    class: verb
+    morph: V-PPN
+    tense: present
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '2137'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.47'
+  syntax:
+    frame: A0:n64001002005
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 3JN 1:2!7
+    wordID: n64001002007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 8
+  text: ὑγιαίνειν
+  lemma: ὑγιαίνω
+  normalized: ὑγιαίνειν
+  ids:
+    ref: 3JN 1:2!8
+    wordID: n64001002008
+  translation:
+    gloss: to be in good health
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5198'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.129'
+  syntax:
+    frame: A0:n64001002005
+- position: 9
+  text: καθὼς
+  lemma: καθώς
+  normalized: καθώς
+  ids:
+    ref: 3JN 1:2!9
+    wordID: n64001002009
+  translation:
+    gloss: just as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '2531'
+  semantic:
+    semanticDomain: 078005
+    ln: '78.53'
+- position: 10
+  text: εὐοδοῦταί
+  lemma: εὐοδόω
+  normalized: εὐοδοῦται
+  ids:
+    ref: 3JN 1:2!10
+    wordID: n64001002010
+  translation:
+    gloss: prospers
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2137'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.47'
+  syntax:
+    role: v
+    frame: A0:n64001002013
+- position: 11
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: 3JN 1:2!11
+    wordID: n64001002011
+  translation:
+    gloss: your
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n64001002001
+- position: 12
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: 3JN 1:2!12
+    wordID: n64001002012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: ψυχή
+  lemma: ψυχή
+  normalized: ψυχή
+  ids:
+    ref: 3JN 1:2!13
+    wordID: n64001002013
+  translation:
+    gloss: soul
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5590'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.4'
