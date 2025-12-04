@@ -1,0 +1,487 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: MIC 6:6
+text: בַּמָּה֙ אֲקַדֵּ֣ם יְהוָ֔ה אִכַּ֖ף לֵאלֹהֵ֣י מָר֑וֹם הַאֲקַדְּמֶ֣נּוּ בְעוֹל֔וֹת
+  בַּעֲגָלִ֖ים בְּנֵ֥י שָׁנָֽה׃
+words:
+- position: 1
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: MIC 6:6!1
+    wordID: o330060060011
+  translation:
+    english: with
+    mandarin: 带着
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 2
+  text: מָּה֙
+  lemma: מָה
+  transliteration: mmāh
+  ids:
+    ref: MIC 6:6!1
+    wordID: o330060060012
+  translation:
+    english: what
+    mandarin: 什么
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τίνι
+    strong: '5101'
+- position: 3
+  text: אֲקַדֵּ֣ם
+  lemma: קָדַם
+  transliteration: ʾăqaddēm
+  ids:
+    ref: MIC 6:6!2
+    wordID: o330060060021
+  translation:
+    english: come before
+    mandarin: 朝见
+    gloss: will.I.come.to.meet
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: קָדַם
+    strong: '6923'
+  semantic:
+    sdbh:
+    - '006375001001000'
+    lexdomain:
+    - '002002001016'
+    sense: '3'
+  lxx:
+    text: καταλάβω
+    strong: '2638'
+  syntax:
+    role: v
+    frame: A0:330060050011; A1:330060060031;
+  discourse:
+    subject: '330060050011'
+- position: 4
+  text: יְהוָ֔ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: MIC 6:6!3
+    wordID: o330060060031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: o
+- position: 5
+  text: אִכַּ֖ף
+  lemma: כָּפַף
+  transliteration: ʾikkap̄
+  ids:
+    ref: MIC 6:6!4
+    wordID: o330060060041
+  translation:
+    english: bow
+    mandarin: 敬拜
+    gloss: will.I.bow.myself.down?
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: כָּפַף
+    strong: '3721'
+  semantic:
+    sdbh:
+    - '003406001002000'
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἀντιλήμψομαι
+    strong: '482'
+  syntax:
+    role: v
+    frame: A0:330060050011;
+  discourse:
+    subject: '330060050011'
+- position: 6
+  text: לֵ
+  lemma: לְ
+  transliteration: lē
+  ids:
+    ref: MIC 6:6!5
+    wordID: o330060060051
+  translation:
+    english: before
+    mandarin: 在~面前
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 7
+  text: אלֹהֵ֣י
+  lemma: אֱלֹהִים
+  transliteration: ʾlōhēy
+  ids:
+    ref: MIC 6:6!5
+    wordID: o330060060052
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: μου
+    strong: '3450'
+- position: 8
+  text: מָר֑וֹם
+  lemma: מָרוֹם
+  transliteration: mārôm
+  ids:
+    ref: MIC 6:6!6
+    wordID: o330060060061
+  translation:
+    english: on high
+    mandarin: 至高
+    gloss: of.height
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מָרוֹם
+    strong: '4791'
+  semantic:
+    sdbh:
+    - 004386001006000
+    lexdomain:
+    - '001005002'
+    coredomain:
+    - '185'
+    sense: '2'
+  lxx:
+    text: ὑψίστου
+    strong: '5310'
+- position: 9
+  text: הַ
+  lemma: הֲ
+  transliteration: ha
+  ids:
+    ref: MIC 6:6!7
+    wordID: o330060060071
+  translation:
+    english: '?'
+    mandarin: 难道
+  morphology:
+    class: ptcl
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: הֲ
+    strong: 1886b
+  semantic:
+    sdbh:
+    - '001736001001000'
+    lexdomain:
+    - '004001'
+  lxx:
+    text: εἰ
+    strong: '1487'
+- position: 10
+  text: אֲקַדְּמֶ֣
+  lemma: קָדַם
+  transliteration: ''
+  ids:
+    ref: MIC 6:6!7
+    wordID: o330060060072
+  translation:
+    english: come before
+    mandarin: 朝见
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: קָדַם
+    strong: '6923'
+  semantic:
+    sdbh:
+    - '006375001001000'
+    lexdomain:
+    - '002002001016'
+    sense: '3'
+  lxx:
+    text: καταλήμψομαι
+  syntax:
+    role: v
+    frame: A0:330060050011; A1:330060060073;
+  discourse:
+    subject: '330060050011'
+- position: 11
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 6:6!7
+    wordID: o330060060073
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  semantic:
+    sdbh:
+    - '006375001001000'
+    lexdomain:
+    - '002002001016'
+  lxx:
+    text: αὐτὸν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '330060060052'
+- position: 12
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: MIC 6:6!8
+    wordID: o330060060081
+  translation:
+    english: with
+    mandarin: 带着
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 13
+  text: עוֹל֔וֹת
+  lemma: עֹלָה
+  transliteration: ʿôlôṯ
+  ids:
+    ref: MIC 6:6!8
+    wordID: o330060060082
+  translation:
+    english: burnt offerings
+    mandarin: 燔祭
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֹלָה
+    strong: '5930'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ὁλοκαυτώμασιν
+    strong: '3646'
+- position: 14
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: MIC 6:6!9
+    wordID: o330060060091
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 15
+  text: עֲגָלִ֖ים
+  lemma: עֵגֶל
+  transliteration: ʿăḡāliym
+  ids:
+    ref: MIC 6:6!9
+    wordID: o330060060092
+  translation:
+    english: calves
+    mandarin: 牛犊
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֵגֶל
+    strong: '5695'
+  semantic:
+    sdbh:
+    - 005228001001000
+    lexdomain:
+    - '001001002001002'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: μόσξοις
+- position: 16
+  text: בְּנֵ֥י
+  lemma: בֵּן
+  transliteration: bənēy
+  ids:
+    ref: MIC 6:6!10
+    wordID: o330060060101
+  translation:
+    english: sons of
+    mandarin: 之子
+    gloss: sons
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001006000'
+    lexdomain:
+    - '002001001057'
+    coredomain:
+    - '005'
+    sense: '4'
+- position: 17
+  text: שָׁנָֽה
+  lemma: שָׁנָה
+  transliteration: 'šānāh:'
+  ids:
+    ref: MIC 6:6!11
+    wordID: o330060060111
+  translation:
+    english: year
+    mandarin: 岁
+    gloss: of.a.year
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנָה
+    strong: '8141'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἐνιαυσίοις

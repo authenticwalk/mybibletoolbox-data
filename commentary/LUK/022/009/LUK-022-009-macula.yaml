@@ -1,0 +1,174 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 22:9
+text: οἱ δὲ εἶπαν αὐτῷ Ποῦ θέλεις ἑτοιμάσωμεν;
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 22:9!2
+    wordID: n42022009002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: LUK 22:9!1
+    wordID: n42022009001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n42022008003 n42022008005
+- position: 3
+  text: εἶπαν
+  lemma: λέγω
+  normalized: εἶπαν
+  ids:
+    ref: LUK 22:9!3
+    wordID: n42022009003
+  translation:
+    gloss: they said
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42022009001 A2:n42022009004
+- position: 4
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: LUK 22:9!4
+    wordID: n42022009004
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n42020034005
+- position: 5
+  text: θέλεις
+  lemma: θέλω
+  normalized: θέλεις
+  ids:
+    ref: LUK 22:9!6
+    wordID: n42022009006
+  translation:
+    gloss: will You
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n42020034005
+    discontinuous: 'true'
+  discourse:
+    subject: n42020034005
+- position: 6
+  text: Ποῦ
+  lemma: ποῦ
+  normalized: Ποῦ
+  ids:
+    ref: LUK 22:9!5
+    wordID: n42022009005
+  translation:
+    gloss: Where
+  morphology:
+    class: adv
+    morph: ADV-I
+  lexical:
+    strong: '4226'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.6'
+  syntax:
+    role: adv
+- position: 7
+  text: ἑτοιμάσωμεν
+  lemma: ἑτοιμάζω
+  normalized: ἑτοιμάσωμεν
+  ids:
+    ref: LUK 22:9!7
+    wordID: n42022009007
+  translation:
+    gloss: we should prepare
+  morphology:
+    class: verb
+    morph: V-AAS-1P
+    number: plural
+    person: first
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2090'
+  semantic:
+    semanticDomain: '077'
+    ln: '77.3'
+  syntax:
+    role: v
+    frame: A0:n42022008003;n42022008005
+  discourse:
+    subject: n42022008003 n42022008005

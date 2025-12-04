@@ -1,0 +1,463 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 65:6
+text: נ֤וֹרָא֨וֹת׀בְּצֶ֣דֶק תַּ֭עֲנֵנוּ אֱלֹהֵ֣י יִשְׁעֵ֑נוּ מִבְטָ֥ח כָּל־קַצְוֵי־אֶ֝֗רֶץ
+  וְיָ֣ם רְחֹקִֽים׃
+words:
+- position: 1
+  text: נ֤וֹרָא֨וֹת
+  lemma: יָרֵא
+  transliteration: nôrāʾôṯ
+  ids:
+    ref: PSA 65:6!1
+    wordID: o190650060011
+  translation:
+    english: awesome
+    mandarin: 威严
+    gloss: awesome.[deeds]
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: יָרֵא
+    strong: '3372'
+  semantic:
+    sdbh:
+    - 003081001002000
+    lexdomain:
+    - '002001002001'
+    sense: '3'
+  lxx:
+    text: θαυμαστὸς
+  syntax:
+    role: adv
+- position: 2
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 65:6!2
+    wordID: o190650060021
+  translation:
+    english: in
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 3
+  text: צֶ֣דֶק
+  lemma: צֶדֶק
+  transliteration: ṣeḏeq
+  ids:
+    ref: PSA 65:6!2
+    wordID: o190650060022
+  translation:
+    english: righteousness
+    mandarin: 公义
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: צֶדֶק
+    strong: '6664'
+  semantic:
+    sdbh:
+    - 006129001002000
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - 095
+    sense: '1'
+  lxx:
+    text: δικαιοσύνῃ
+    strong: '1343'
+- position: 4
+  text: תַּ֭עֲנֵ
+  lemma: עָנָה
+  transliteration: ''
+  ids:
+    ref: PSA 65:6!3
+    wordID: o190650060031
+  translation:
+    english: answer
+    mandarin: 应允
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐπάκουσον
+  syntax:
+    role: v
+    frame: A0:190650060041; A1:190650060032;
+  discourse:
+    subject: '190650060041'
+- position: 5
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 65:6!3
+    wordID: o190650060032
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  syntax:
+    role: o
+  discourse:
+    participant: 190650010032 190650050021
+- position: 6
+  text: אֱלֹהֵ֣י
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhēy
+  ids:
+    ref: PSA 65:6!4
+    wordID: o190650060041
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: O.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 7
+  text: יִשְׁעֵ֑
+  lemma: יֵשַׁע
+  transliteration: ''
+  ids:
+    ref: PSA 65:6!5
+    wordID: o190650060051
+  translation:
+    english: salvation
+    mandarin: 拯救
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יֵשַׁע
+    strong: '3468'
+  semantic:
+    sdbh:
+    - '003177001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: σωτὴρ
+    strong: '4990'
+- position: 8
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 65:6!5
+    wordID: o190650060052
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '003177001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 190650010032 190650050021
+- position: 9
+  text: מִבְטָ֥ח
+  lemma: מִבְטָח
+  transliteration: miḇṭāḥ
+  ids:
+    ref: PSA 65:6!6
+    wordID: o190650060061
+  translation:
+    english: hope
+    mandarin: 所倚靠的
+    gloss: '[the].object.of.confidence'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִבְטָח
+    strong: '4009'
+  semantic:
+    sdbh:
+    - 003668001001000
+    lexdomain:
+    - '002001002003'
+    coredomain:
+    - '043'
+    - '152'
+    - '196'
+    - 082
+    sense: '1'
+- position: 10
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: PSA 65:6!7
+    wordID: o190650060071
+  translation:
+    english: all
+    mandarin: 一切
+    gloss: of.all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντων
+    strong: '3956'
+- position: 11
+  text: קַצְוֵי
+  lemma: קָצוּ
+  transliteration: qaṣwê-
+  ids:
+    ref: PSA 65:6!8
+    wordID: o190650060081
+  translation:
+    english: ends
+    mandarin: 尽边
+    gloss: '[the].ends'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קָצוּ
+    strong: '7099'
+  semantic:
+    sense: '1'
+  lxx:
+    text: περάτων
+    strong: '4009'
+- position: 12
+  text: אֶ֝֗רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: PSA 65:6!9
+    wordID: o190650060091
+  translation:
+    english: earth
+    mandarin: 地
+    gloss: of.[the].earth
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆς
+    strong: '1093'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 65:6!10
+    wordID: o190650060101
+  translation:
+    english: and
+    mandarin: 如
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: יָ֣ם
+  lemma: יָם
+  transliteration: yām
+  ids:
+    ref: PSA 65:6!10
+    wordID: o190650060102
+  translation:
+    english: seas
+    mandarin: 海角
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יָם
+    strong: '3220'
+  semantic:
+    sdbh:
+    - 002945001001000
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: θαλάσσῃ
+    strong: '2281'
+- position: 15
+  text: רְחֹקִֽים
+  lemma: רָחֹוק
+  transliteration: 'rəḥōqiym:'
+  ids:
+    ref: PSA 65:6!11
+    wordID: o190650060111
+  translation:
+    english: farthest
+    mandarin: 远处
+    gloss: distant
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָחֹוק
+    strong: '7350'
+  semantic:
+    sense: '2'
+  lxx:
+    text: μακράν
+    strong: '3117'

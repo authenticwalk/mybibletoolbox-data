@@ -1,0 +1,506 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 33:4
+text: וּמִצְרַ֣יִם מְקַבְּרִ֗ים אֵת֩ אֲשֶׁ֨ר הִכָּ֧ה יְהוָ֛ה בָּהֶ֖ם כָּל־בְּכ֑וֹר
+  וּבֵאלֹ֣הֵיהֶ֔ם עָשָׂ֥ה יְהוָ֖ה שְׁפָטִֽים׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: NUM 33:4!1
+    wordID: o040330040011
+  translation:
+    english: now
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: מִצְרַ֣יִם
+  lemma: מִצְרַיִם
+  transliteration: miṣrayim
+  ids:
+    ref: NUM 33:4!1
+    wordID: o040330040012
+  translation:
+    english: Egyptians
+    mandarin: 埃及人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτιοι
+    strong: '124'
+  syntax:
+    role: s
+- position: 3
+  text: מְקַבְּרִ֗ים
+  lemma: קָבַר
+  transliteration: məqabbəriym
+  ids:
+    ref: NUM 33:4!2
+    wordID: o040330040021
+  translation:
+    english: burying
+    mandarin: 埋葬
+    gloss: '[were].burying'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: קָבַר
+    strong: '6912'
+  semantic:
+    sdbh:
+    - '006363001001000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '021'
+    - 099
+    sense: '1'
+  lxx:
+    text: ἔθαπτον
+  syntax:
+    role: v
+    frame: A0:040330040012; A1:040330040091;
+- position: 4
+  text: אֵת֩
+  lemma: אֵת
+  transliteration: ʾēṯ
+  ids:
+    ref: NUM 33:4!3
+    wordID: o040330040031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: אֲשֶׁ֨ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: NUM 33:4!4
+    wordID: o040330040041
+  translation:
+    english: whom
+    mandarin: 所~的
+    gloss: '[those].whom'
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: οὓς
+    strong: '3739'
+- position: 6
+  text: הִכָּ֧ה
+  lemma: נָכָה
+  transliteration: hikkāh
+  ids:
+    ref: NUM 33:4!5
+    wordID: o040330040051
+  translation:
+    english: struck down
+    mandarin: 击杀
+    gloss: he.had.struck.down
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָכָה
+    strong: '5221'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπάταχεν
+    strong: '3960'
+  syntax:
+    role: v
+    frame: AA:040330040061; A0:040330040091;
+- position: 7
+  text: יְהוָ֛ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: NUM 33:4!6
+    wordID: o040330040061
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 8
+  text: בָּ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: NUM 33:4!7
+    wordID: o040330040071
+  translation:
+    english: among
+    mandarin: 在~中间
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 9
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 33:4!7
+    wordID: o040330040072
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὑτῶν
+    strong: '846'
+  discourse:
+    participant: '040330040012'
+- position: 10
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: NUM 33:4!8
+    wordID: o040330040081
+  translation:
+    english: all
+    mandarin: 一切
+    gloss: every
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶν
+    strong: '3956'
+- position: 11
+  text: בְּכ֑וֹר
+  lemma: בְּכֹר
+  transliteration: bəḵôr
+  ids:
+    ref: NUM 33:4!9
+    wordID: o040330040091
+  translation:
+    english: firstborn
+    mandarin: 长子
+    gloss: firstborn
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּכֹר
+    strong: '1060'
+  semantic:
+    sdbh:
+    - 000984001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: πρωτότοκον
+    strong: '4416'
+- position: 12
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: NUM 33:4!10
+    wordID: o040330040101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: בֵ
+  lemma: בְּ
+  transliteration: ḇē
+  ids:
+    ref: NUM 33:4!10
+    wordID: o040330040102
+  translation:
+    english: 'on'
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 14
+  text: אלֹ֣הֵי
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: NUM 33:4!10
+    wordID: o040330040103
+  translation:
+    english: gods
+    mandarin: 神明
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001001000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεοῖς
+    strong: '2316'
+- position: 15
+  text: הֶ֔ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 33:4!10
+    wordID: o040330040104
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 000397001001000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+  discourse:
+    participant: '040330040012'
+- position: 16
+  text: עָשָׂ֥ה
+  lemma: עָשָׂה
+  transliteration: ʿāśāh
+  ids:
+    ref: NUM 33:4!11
+    wordID: o040330040111
+  translation:
+    english: executed
+    mandarin: 施行
+    gloss: he.had.done
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001005000
+    lexdomain:
+    - '002002003003'
+    sense: '3'
+  lxx:
+    text: ἐποίησεν
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:040330040121; A1:040330040131;
+- position: 17
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: NUM 33:4!12
+    wordID: o040330040121
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s
+- position: 18
+  text: שְׁפָטִֽים
+  lemma: שֶׁפֶט
+  transliteration: 'šəp̄āṭiym:'
+  ids:
+    ref: NUM 33:4!13
+    wordID: o040330040131
+  translation:
+    english: judgments
+    mandarin: 审判
+    gloss: acts.of.judgment
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֶׁפֶט
+    strong: '8201'
+  semantic:
+    sdbh:
+    - '007567001001000'
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '196'
+    - '140'
+    - 095
+    - '015'
+    - '055'
+    sense: '1'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: o

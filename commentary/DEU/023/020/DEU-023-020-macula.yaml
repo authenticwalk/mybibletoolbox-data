@@ -1,0 +1,411 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 23:20
+text: לֹא־תַשִּׁ֣יךְ לְאָחִ֔יךָ נֶ֥שֶׁךְ כֶּ֖סֶף נֶ֣שֶׁךְ אֹ֑כֶל נֶ֕שֶׁךְ כָּל־דָּבָ֖ר
+  אֲשֶׁ֥ר יִשָּֽׁךְ׃
+words:
+- position: 1
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 23:20!1
+    wordID: o050230200011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: תַשִּׁ֣יךְ
+  lemma: נָשַׁךְ
+  transliteration: ṯaššiyḵ
+  ids:
+    ref: DEU 23:20!2
+    wordID: o050230200021
+  translation:
+    english: charge
+    mandarin: 取利
+    gloss: you.will.charge.interest
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָשַׁךְ
+    strong: 5391a
+  semantic:
+    sdbh:
+    - 004935002002000
+    lexdomain:
+    - 002003002019
+    sense: '1'
+  lxx:
+    text: ἐκτοκιεῖς
+  syntax:
+    role: v
+    frame: AA:050230180101; A0:050230200041;050230200061;050230200081;
+  discourse:
+    subject: 050230180101
+- position: 3
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: DEU 23:20!3
+    wordID: o050230200031
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 4
+  text: אָחִ֔י
+  lemma: אָח
+  transliteration: ''
+  ids:
+    ref: DEU 23:20!3
+    wordID: o050230200032
+  translation:
+    english: brother
+    mandarin: 弟兄
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָח
+    strong: '0251'
+  semantic:
+    sdbh:
+    - 000238001003000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '2'
+  lxx:
+    text: ἀδελφῷ
+    strong: '80'
+- position: 5
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 23:20!3
+    wordID: o050230200033
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000238001003000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: 050230180101
+- position: 6
+  text: נֶ֥שֶׁךְ
+  lemma: נֶשֶׁךְ
+  transliteration: nešeḵ
+  ids:
+    ref: DEU 23:20!4
+    wordID: o050230200041
+  translation:
+    english: interest
+    mandarin: 利息
+    gloss: interest
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶשֶׁךְ
+    strong: '5392'
+  semantic:
+    sdbh:
+    - 004936001001000
+    lexdomain:
+    - 002003002019
+    sense: '1'
+  lxx:
+    text: τόκον
+- position: 7
+  text: כֶּ֖סֶף
+  lemma: כֶּסֶף
+  transliteration: kesep̄
+  ids:
+    ref: DEU 23:20!5
+    wordID: o050230200051
+  translation:
+    english: money
+    mandarin: 钱
+    gloss: of.money
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֶּסֶף
+    strong: '3701'
+  semantic:
+    sdbh:
+    - 003385001001000
+    lexdomain:
+    - 001006008
+    sense: '1'
+  lxx:
+    text: ἀργυρίου
+    strong: '694'
+- position: 8
+  text: נֶ֣שֶׁךְ
+  lemma: נֶשֶׁךְ
+  transliteration: nešeḵ
+  ids:
+    ref: DEU 23:20!6
+    wordID: o050230200061
+  translation:
+    english: interest
+    mandarin: 利息
+    gloss: interest
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶשֶׁךְ
+    strong: '5392'
+  semantic:
+    sdbh:
+    - 004936001001000
+    lexdomain:
+    - 002003002019
+    sense: '1'
+- position: 9
+  text: אֹ֑כֶל
+  lemma: אֹכֶל
+  transliteration: ʾōḵel
+  ids:
+    ref: DEU 23:20!7
+    wordID: o050230200071
+  translation:
+    english: food
+    mandarin: 粮食
+    gloss: of.food
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֹכֶל
+    strong: '0400'
+  semantic:
+    sdbh:
+    - '000374001001000'
+    lexdomain:
+    - '001004003'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: βρωμάτων
+    strong: '1033'
+- position: 10
+  text: נֶ֕שֶׁךְ
+  lemma: נֶשֶׁךְ
+  transliteration: nešeḵ
+  ids:
+    ref: DEU 23:20!8
+    wordID: o050230200081
+  translation:
+    english: interest
+    mandarin: 利息
+    gloss: interest
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶשֶׁךְ
+    strong: '5392'
+  semantic:
+    sdbh:
+    - 004936001001000
+    lexdomain:
+    - 002003002019
+    sense: '1'
+- position: 11
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: DEU 23:20!9
+    wordID: o050230200091
+  translation:
+    english: any of
+    mandarin: 任何
+    gloss: of.any
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: παντὸς
+    strong: '3956'
+- position: 12
+  text: דָּבָ֖ר
+  lemma: דָּבָר
+  transliteration: dāḇār
+  ids:
+    ref: DEU 23:20!10
+    wordID: o050230200101
+  translation:
+    english: thing
+    mandarin: 东西
+    gloss: thing
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '3'
+  lxx:
+    text: πράγματος
+    strong: '4229'
+- position: 13
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 23:20!11
+    wordID: o050230200111
+  translation:
+    english: that
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: οὗ
+    strong: '3739'
+- position: 14
+  text: יִשָּֽׁךְ
+  lemma: נָשַׁךְ
+  transliteration: 'yiššāḵ:'
+  ids:
+    ref: DEU 23:20!12
+    wordID: o050230200121
+  translation:
+    english: earn interest
+    mandarin: 生利
+    gloss: someone.will.pay.interest
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָשַׁךְ
+    strong: 5391a
+  semantic:
+    sdbh:
+    - 004935002001000
+    lexdomain:
+    - 002003002019
+    sense: '1'
+  lxx:
+    text: ἐκδανείσῃς
+  syntax:
+    role: v
+    frame: A0:050230200101;
+  discourse:
+    subject: '050230200101'

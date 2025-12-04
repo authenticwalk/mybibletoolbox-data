@@ -1,0 +1,118 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: HEB 1:11
+text: αὐτοὶ ἀπολοῦνται, σὺ δὲ διαμένεις·
+words:
+- position: 1
+  text: αὐτοὶ
+  lemma: αὐτός
+  normalized: αὐτοί
+  ids:
+    ref: HEB 1:11!1
+    wordID: n58001011001
+  translation:
+    gloss: They
+  morphology:
+    class: pron
+    morph: P-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n58001010007 n58001010016
+- position: 2
+  text: ἀπολοῦνται
+  lemma: ἀπόλλυμι
+  normalized: ἀπολοῦνται
+  ids:
+    ref: HEB 1:11!2
+    wordID: n58001011002
+  translation:
+    gloss: will perish
+  morphology:
+    class: verb
+    morph: V-FMI-3P
+    number: plural
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '622'
+  semantic:
+    semanticDomain: 013003 020003
+    ln: 13.96 20.31
+  syntax:
+    role: v
+    frame: A0:n58001011001
+- position: 3
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: HEB 1:11!4
+    wordID: n58001011004
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: σὺ
+  lemma: σύ
+  normalized: σύ
+  ids:
+    ref: HEB 1:11!3
+    wordID: n58001011003
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n58001010005
+- position: 5
+  text: διαμένεις
+  lemma: διαμένω
+  normalized: διαμένεις
+  ids:
+    ref: HEB 1:11!5
+    wordID: n58001011005
+  translation:
+    gloss: remain
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1265'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.89'
+  syntax:
+    role: v
+    frame: A0:n58001011003

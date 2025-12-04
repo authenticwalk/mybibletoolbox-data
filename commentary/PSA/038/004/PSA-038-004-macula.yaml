@@ -1,0 +1,505 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 38:4
+text: אֵין־מְתֹ֣ם בִּ֭בְשָׂרִי מִפְּנֵ֣י זַעְמֶ֑ךָ אֵין־שָׁל֥וֹם בַּ֝עֲצָמַ֗י מִפְּנֵ֥י
+  חַטָּאתִֽי׃
+words:
+- position: 1
+  text: אֵין
+  lemma: אַיִן
+  transliteration: ʾên-
+  ids:
+    ref: PSA 38:4!1
+    wordID: o190380040011
+  translation:
+    english: there is no
+    mandarin: 无
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 2
+  text: מְתֹ֣ם
+  lemma: מְתֹם
+  transliteration: məṯōm
+  ids:
+    ref: PSA 38:4!2
+    wordID: o190380040021
+  translation:
+    english: soundness
+    mandarin: 完全
+    gloss: soundness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מְתֹם
+    strong: '4974'
+  semantic:
+    sdbh:
+    - '004561001001000'
+    lexdomain:
+    - '001'
+    coredomain:
+    - '128'
+    sense: '1'
+  lxx:
+    text: ἴασις
+  syntax:
+    role: s
+- position: 3
+  text: בִּ֭
+  lemma: בְּ
+  transliteration: bi
+  ids:
+    ref: PSA 38:4!3
+    wordID: o190380040031
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 4
+  text: בְשָׂרִ
+  lemma: בָּשָׂר
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!3
+    wordID: o190380040032
+  translation:
+    english: flesh
+    mandarin: 肉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בָּשָׂר
+    strong: '1320'
+  semantic:
+    sdbh:
+    - '001217001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: σαρκί
+    strong: '4561'
+- position: 5
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!3
+    wordID: o190380040033
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '001217001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190380010022'
+- position: 6
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: PSA 38:4!4
+    wordID: o190380040041
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 7
+  text: פְּנֵ֣י
+  lemma: פָּנֶה
+  transliteration: pənēy
+  ids:
+    ref: PSA 38:4!4
+    wordID: o190380040042
+  translation:
+    english: because of
+    mandarin: 因
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '3'
+  lxx:
+    text: προσώπου
+    strong: '4383'
+- position: 8
+  text: זַעְמֶ֑
+  lemma: זַעַם
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!5
+    wordID: o190380040051
+  translation:
+    english: indignation
+    mandarin: 烈怒
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: זַעַם
+    strong: '2195'
+  semantic:
+    sdbh:
+    - '002023001001000'
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    sense: '1'
+  lxx:
+    text: ὀργῆς
+    strong: '3709'
+- position: 9
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!5
+    wordID: o190380040052
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '002023001001000'
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190380020011'
+- position: 10
+  text: אֵין
+  lemma: אַיִן
+  transliteration: ʾên-
+  ids:
+    ref: PSA 38:4!6
+    wordID: o190380040061
+  translation:
+    english: there is no
+    mandarin: 不
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 11
+  text: שָׁל֥וֹם
+  lemma: שָׁלוֹם
+  transliteration: šālôm
+  ids:
+    ref: PSA 38:4!7
+    wordID: o190380040071
+  translation:
+    english: health
+    mandarin: 安宁
+    gloss: health
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁלוֹם
+    strong: '7965'
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰρήνη
+    strong: '1515'
+  syntax:
+    role: s
+- position: 12
+  text: בַּ֝
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: PSA 38:4!8
+    wordID: o190380040081
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: τοῖς
+    strong: '3588'
+- position: 13
+  text: עֲצָמַ֗
+  lemma: עֶצֶם
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!8
+    wordID: o190380040082
+  translation:
+    english: bones
+    mandarin: 骨头
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֶצֶם
+    strong: '6106'
+  semantic:
+    sdbh:
+    - 005608001002000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀστέοις
+- position: 14
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!8
+    wordID: o190380040083
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 005608001002000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190380010022'
+- position: 15
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: PSA 38:4!9
+    wordID: o190380040091
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 16
+  text: פְּנֵ֥י
+  lemma: פָּנֶה
+  transliteration: pənēy
+  ids:
+    ref: PSA 38:4!9
+    wordID: o190380040092
+  translation:
+    english: because of
+    mandarin: 因
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '3'
+  lxx:
+    text: προσώπου
+    strong: '4383'
+- position: 17
+  text: חַטָּאתִֽ
+  lemma: חַטָּאת
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!10
+    wordID: o190380040101
+  translation:
+    english: sin
+    mandarin: 罪过
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חַטָּאת
+    strong: '2403'
+  semantic:
+    sdbh:
+    - 002218001001000
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἁμαρτιῶν
+    strong: '266'
+- position: 18
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 38:4!10
+    wordID: o190380040102
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 002218001001000
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190380010022'

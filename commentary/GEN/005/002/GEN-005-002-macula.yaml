@@ -1,0 +1,564 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 5:2
+text: זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם
+  בְּי֖וֹם הִבָּֽרְאָֽם׃ס
+words:
+- position: 1
+  text: זָכָ֥ר
+  lemma: זָכָר
+  transliteration: zāḵār
+  ids:
+    ref: GEN 5:2!1
+    wordID: o010050020011
+  translation:
+    english: male
+    mandarin: 男
+    gloss: male
+  morphology:
+    class: noun
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: זָכָר
+    strong: '2145'
+  semantic:
+    sdbh:
+    - 001982001001000
+    lexdomain:
+    - '002001001047'
+    sense: '1'
+  lxx:
+    text: ἄρσεν
+    strong: '730'
+- position: 2
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: GEN 5:2!2
+    wordID: o010050020021
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 3
+  text: נְקֵבָ֖ה
+  lemma: נְקֵבָה
+  transliteration: nəqēḇāh
+  ids:
+    ref: GEN 5:2!2
+    wordID: o010050020022
+  translation:
+    english: female
+    mandarin: 女
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נְקֵבָה
+    strong: '5347'
+  semantic:
+    sdbh:
+    - 004898001001000
+    lexdomain:
+    - '002001001047'
+    sense: '1'
+  lxx:
+    text: θῆλυ
+    strong: '2338'
+- position: 4
+  text: בְּרָאָ֑
+  lemma: בָּרָא
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!3
+    wordID: o010050020031
+  translation:
+    english: created
+    mandarin: 造
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּרָא
+    strong: '1254'
+  semantic:
+    sdbh:
+    - '001156001002000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+    sense: '1'
+  lxx:
+    text: ἐποίησεν
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:010050010101; A1:010050020032;
+  discourse:
+    subject: '010050010101'
+- position: 5
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!3
+    wordID: o010050020032
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '001156001002000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+  lxx:
+    text: αὐτοὺς
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: 010050010081
+- position: 6
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 5:2!4
+    wordID: o010050020041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: יְבָ֣רֶךְ
+  lemma: בָּרַךְ
+  transliteration: yəḇāreḵ
+  ids:
+    ref: GEN 5:2!4
+    wordID: o010050020042
+  translation:
+    english: blessed
+    mandarin: 赐福
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλόγησεν
+    strong: '2127'
+  syntax:
+    role: v
+    frame: A0:010050010101; A1:010050020052;
+  discourse:
+    subject: '010050010101'
+- position: 8
+  text: אֹתָ֗
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!5
+    wordID: o010050020051
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!5
+    wordID: o010050020052
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτούς
+    strong: '848'
+  discourse:
+    participant: 010050010081
+- position: 10
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 5:2!6
+    wordID: o010050020061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: יִּקְרָ֤א
+  lemma: קָרָא
+  transliteration: yyiqrāʾ
+  ids:
+    ref: GEN 5:2!6
+    wordID: o010050020062
+  translation:
+    english: he called
+    mandarin: 称
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - 006556001009000
+    lexdomain:
+    - '002004002010'
+    coredomain:
+    - '113'
+    sense: '1'
+  lxx:
+    text: ἐπωνόμασεν
+    strong: '2028'
+  syntax:
+    role: v
+    frame: A0:010050010101; A1:010050020081;
+  discourse:
+    subject: '010050010101'
+- position: 12
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 5:2!7
+    wordID: o010050020071
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 13
+  text: שְׁמָ
+  lemma: שֵׁם
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!8
+    wordID: o010050020081
+  translation:
+    english: name of
+    mandarin: ~的名（为）
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001001000'
+    lexdomain:
+    - '002004002010'
+    sense: '1'
+  lxx:
+    text: ὄνομα
+    strong: '3686'
+- position: 14
+  text: ם֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!8
+    wordID: o010050020082
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '007437001001000'
+    lexdomain:
+    - '002004002010'
+  discourse:
+    participant: 010050010081
+- position: 15
+  text: אָדָ֔ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: GEN 5:2!9
+    wordID: o010050020091
+  translation:
+    english: man
+    mandarin: 人
+    gloss: humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: αδαμ
+    strong: '76'
+  syntax:
+    role: o2
+- position: 16
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: GEN 5:2!10
+    wordID: o010050020101
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ᾗ
+    strong: '3739'
+- position: 17
+  text: י֖וֹם
+  lemma: יוֹם
+  transliteration: yôm
+  ids:
+    ref: GEN 5:2!10
+    wordID: o010050020102
+  translation:
+    english: when
+    mandarin: 日子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: ἡμέρᾳ
+    strong: '2250'
+- position: 18
+  text: הִבָּֽרְאָֽ
+  lemma: בָּרָא
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!11
+    wordID: o010050020111
+  translation:
+    english: created
+    mandarin: 创造
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNc
+    stem: niphal
+    type: infinitive construct
+  lexical:
+    stronglemma: בָּרָא
+    strong: '1254'
+  semantic:
+    sdbh:
+    - '001156001002000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+    sense: '1'
+  lxx:
+    text: ἐποίησεν
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A1:010050020112;
+- position: 19
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 5:2!11
+    wordID: o010050020112
+  translation:
+    english: they
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '001156001002000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+  lxx:
+    text: αὐτούς
+    strong: '848'
+  syntax:
+    role: s
+  discourse:
+    participant: 010050010081

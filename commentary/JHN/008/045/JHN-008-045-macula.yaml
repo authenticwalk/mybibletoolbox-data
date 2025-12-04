@@ -1,0 +1,205 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 8:45
+text: ἐγὼ δὲ ὅτι τὴν ἀλήθειαν λέγω, οὐ πιστεύετέ μοι.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JHN 8:45!2
+    wordID: n43008045002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: JHN 8:45!1
+    wordID: n43008045001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: aux
+  discourse:
+    referent: n43008042004
+- position: 3
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: JHN 8:45!3
+    wordID: n43008045003
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 4
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: JHN 8:45!4
+    wordID: n43008045004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἀλήθειαν
+  lemma: ἀλήθεια
+  normalized: ἀλήθειαν
+  ids:
+    ref: JHN 8:45!5
+    wordID: n43008045005
+  translation:
+    gloss: truth
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '225'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.2'
+- position: 6
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: JHN 8:45!6
+    wordID: n43008045006
+  translation:
+    gloss: speak
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43008042004 A1:n43008045005
+  discourse:
+    subject: n43008042004
+- position: 7
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: JHN 8:45!7
+    wordID: n43008045007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: πιστεύετέ
+  lemma: πιστεύω
+  normalized: πιστεύετε
+  ids:
+    ref: JHN 8:45!8
+    wordID: n43008045008
+  translation:
+    gloss: you do believe
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.85'
+  syntax:
+    role: v
+    frame: A0:n43008031009 A1:n43008045009
+  discourse:
+    subject: n43008031009
+- position: 9
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: JHN 8:45!9
+    wordID: n43008045009
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n43008042004

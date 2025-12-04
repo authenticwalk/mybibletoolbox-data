@@ -1,0 +1,645 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 29:4
+text: וָאוֹלֵ֥ךְ אֶתְכֶ֛ם אַרְבָּעִ֥ים שָׁנָ֖ה בַּמִּדְבָּ֑ר לֹֽא־בָל֤וּ שַׂלְמֹֽתֵיכֶם֙
+  מֵעֲלֵיכֶ֔ם וְנַֽעַלְךָ֥ לֹֽא־בָלְתָ֖ה מֵעַ֥ל רַגְלֶֽךָ׃
+words:
+- position: 1
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: DEU 29:4!1
+    wordID: o050290040011
+  translation:
+    english: when
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אוֹלֵ֥ךְ
+  lemma: הלך
+  transliteration: ʾôlēḵ
+  ids:
+    ref: DEU 29:4!1
+    wordID: o050290040012
+  translation:
+    english: led
+    mandarin: 领
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: הלך
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001004000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+    sense: '7'
+  lxx:
+    text: ἤγαγεν
+    strong: '71'
+  syntax:
+    role: v
+    frame: AA:050290030031; A0:050290040022;
+  discourse:
+    subject: 050290030031
+- position: 3
+  text: אֶתְ
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!2
+    wordID: o050290040021
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: כֶ֛ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!2
+    wordID: o050290040022
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: 050290010051
+- position: 5
+  text: אַרְבָּעִ֥ים
+  lemma: אַרְבַּע
+  transliteration: ʾarbāʿiym
+  ids:
+    ref: DEU 29:4!3
+    wordID: o050290040031
+  translation:
+    english: forty
+    mandarin: 四十
+    gloss: forty
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אַרְבַּע
+    strong: '0705'
+  semantic:
+    sdbh:
+    - 000649001002000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: τεσσαράκοντα
+    strong: '1540'
+- position: 6
+  text: שָׁנָ֖ה
+  lemma: שָׁנָה
+  transliteration: šānāh
+  ids:
+    ref: DEU 29:4!4
+    wordID: o050290040041
+  translation:
+    english: years
+    mandarin: 年
+    gloss: year[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנָה
+    strong: '8141'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔτη
+    strong: '2094'
+- position: 7
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: DEU 29:4!5
+    wordID: o050290040051
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 8
+  text: מִּדְבָּ֑ר
+  lemma: מִדְבָּר
+  transliteration: mmiḏbār
+  ids:
+    ref: DEU 29:4!5
+    wordID: o050290040052
+  translation:
+    english: wilderness
+    mandarin: 旷野
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִדְבָּר
+    strong: '4057'
+  semantic:
+    sdbh:
+    - '003713001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ἐρήμῳ
+    strong: '2048'
+- position: 9
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 29:4!6
+    wordID: o050290040061
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 10
+  text: בָל֤וּ
+  lemma: בָּלָה
+  transliteration: ḇālû
+  ids:
+    ref: DEU 29:4!7
+    wordID: o050290040071
+  translation:
+    english: worn out
+    mandarin: 穿破
+    gloss: they.wore.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּלָה
+    strong: '1086'
+  semantic:
+    sdbh:
+    - '001010001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '033'
+    sense: '1'
+  lxx:
+    text: ἐπαλαιώθη
+  syntax:
+    role: v
+    frame: A0:050290040081;
+- position: 11
+  text: שַׂלְמֹֽתֵי
+  lemma: שַׂלְמָה
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!8
+    wordID: o050290040081
+  translation:
+    english: clothes
+    mandarin: 衣服
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שַׂלְמָה
+    strong: '8008'
+  semantic:
+    sdbh:
+    - '007046001001000'
+    lexdomain:
+    - '001004001002'
+    coredomain:
+    - '033'
+    sense: '1'
+  lxx:
+    text: ἱμάτια
+    strong: '2440'
+- position: 12
+  text: כֶם֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!8
+    wordID: o050290040082
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - '007046001001000'
+    lexdomain:
+    - '001004001002'
+    coredomain:
+    - '033'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: 050290010051
+- position: 13
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: DEU 29:4!9
+    wordID: o050290040091
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 14
+  text: עֲלֵי
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!9
+    wordID: o050290040092
+  translation:
+    english: 'on'
+    mandarin: 上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+- position: 15
+  text: כֶ֔ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!9
+    wordID: o050290040093
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  discourse:
+    participant: 050290010051
+- position: 16
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 29:4!10
+    wordID: o050290040101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 17
+  text: נַֽעַלְ
+  lemma: נַעַל
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!10
+    wordID: o050290040102
+  translation:
+    english: sandals
+    mandarin: 鞋
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נַעַל
+    strong: '5275'
+  semantic:
+    sdbh:
+    - 004837001001000
+    lexdomain:
+    - '001004001002'
+    sense: '1'
+- position: 18
+  text: ךָ֥
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!10
+    wordID: o050290040103
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 004837001001000
+    lexdomain:
+    - '001004001002'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: 050290010051
+- position: 19
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 29:4!11
+    wordID: o050290040111
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 20
+  text: בָלְתָ֖ה
+  lemma: בָּלָה
+  transliteration: ḇāləṯāh
+  ids:
+    ref: DEU 29:4!12
+    wordID: o050290040121
+  translation:
+    english: worn out
+    mandarin: 穿坏
+    gloss: it.wore.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּלָה
+    strong: '1086'
+  semantic:
+    sdbh:
+    - '001010001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '033'
+    sense: '1'
+  lxx:
+    text: κατετρίβη
+  syntax:
+    role: v
+    frame: A0:050290040102;
+- position: 21
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: DEU 29:4!13
+    wordID: o050290040131
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 22
+  text: עַ֥ל
+  lemma: עַל
+  transliteration: ʿal
+  ids:
+    ref: DEU 29:4!13
+    wordID: o050290040132
+  translation:
+    english: 'on'
+    mandarin: 上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+- position: 23
+  text: רַגְלֶֽ
+  lemma: רֶגֶל
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!14
+    wordID: o050290040141
+  translation:
+    english: feet
+    mandarin: 脚
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רֶגֶל
+    strong: '7272'
+  semantic:
+    sdbh:
+    - 006686001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ποδῶν
+    strong: '4228'
+- position: 24
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 29:4!14
+    wordID: o050290040142
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 006686001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: 050290010051

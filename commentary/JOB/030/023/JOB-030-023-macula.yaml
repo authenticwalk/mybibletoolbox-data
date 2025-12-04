@@ -1,0 +1,321 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 30:23
+text: כִּֽי־יָ֭דַעְתִּי מָ֣וֶת תְּשִׁיבֵ֑נִי וּבֵ֖ית מוֹעֵ֣ד לְכָל־חָֽי׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: JOB 30:23!1
+    wordID: o180300230011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+- position: 2
+  text: יָ֭דַעְתִּי
+  lemma: יָדַע
+  transliteration: yāḏaʿtî
+  ids:
+    ref: JOB 30:23!2
+    wordID: o180300230021
+  translation:
+    english: know
+    mandarin: 知道
+    gloss: I.know
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: οἶδα
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:180290010021; A1:180300230041;
+  discourse:
+    subject: '180290010021'
+- position: 3
+  text: תְּשִׁיבֵ֑
+  lemma: שׁוּב
+  transliteration: ''
+  ids:
+    ref: JOB 30:23!4
+    wordID: o180300230041
+  translation:
+    english: bring
+    mandarin: 归回
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - '007226001044000'
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    sense: '14'
+  lxx:
+    text: ἐκτρίψει
+  syntax:
+    role: v
+    frame: AA:180290050021; A0:180300230042;
+  discourse:
+    subject: '180290050021'
+- position: 4
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 30:23!4
+    wordID: o180300230042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '007226001044000'
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '180290010021'
+- position: 5
+  text: מָ֣וֶת
+  lemma: מָוֶת
+  transliteration: māweṯ
+  ids:
+    ref: JOB 30:23!3
+    wordID: o180300230031
+  translation:
+    english: death
+    mandarin: 死地
+    gloss: death
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מָוֶת
+    strong: '4194'
+  semantic:
+    sdbh:
+    - 003825001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: θάνατός
+- position: 6
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: JOB 30:23!5
+    wordID: o180300230051
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: γὰρ
+    strong: '1063'
+- position: 7
+  text: בֵ֖ית
+  lemma: בַּיִת
+  transliteration: ḇēyṯ
+  ids:
+    ref: JOB 30:23!5
+    wordID: o180300230052
+  translation:
+    english: house
+    mandarin: 阴宅
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001001000
+    lexdomain:
+    - '001005001001'
+    coredomain:
+    - '020'
+    sense: '6'
+  lxx:
+    text: οἰκία
+    strong: '3614'
+- position: 8
+  text: מוֹעֵ֣ד
+  lemma: מוֹעֵד
+  transliteration: môʿēḏ
+  ids:
+    ref: JOB 30:23!6
+    wordID: o180300230061
+  translation:
+    english: appointed
+    mandarin: 所定的
+    gloss: of.appointed.meeting
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מוֹעֵד
+    strong: '4150'
+  semantic:
+    sdbh:
+    - 003791001003000
+    lexdomain:
+    - '002002001016'
+    sense: '2'
+- position: 9
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: JOB 30:23!7
+    wordID: o180300230071
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 10
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: JOB 30:23!7
+    wordID: o180300230072
+  translation:
+    english: all
+    mandarin: 众
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: παντὶ
+    strong: '3956'
+- position: 11
+  text: חָֽי
+  lemma: חַי
+  transliteration: 'ḥāy:'
+  ids:
+    ref: JOB 30:23!8
+    wordID: o180300230081
+  translation:
+    english: living
+    mandarin: 生
+    gloss: living.[thing]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: חַי
+    strong: 2416a
+  semantic:
+    sdbh:
+    - 002229001001000
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: θνητῷ
+    strong: '2349'

@@ -1,0 +1,636 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 7:2
+text: אַתָּ֣ה תְדַבֵּ֔ר אֵ֖ת כָּל־אֲשֶׁ֣ר אֲצַוֶּ֑ךָּ וְאַהֲרֹ֤ן אָחִ֨יךָ֙ יְדַבֵּ֣ר
+  אֶל־פַּרְעֹ֔ה וְשִׁלַּ֥ח אֶת־בְּנֵֽי־יִשְׂרָאֵ֖ל מֵאַרְצֽוֹ׃
+words:
+- position: 1
+  text: אַתָּ֣ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: EXO 7:2!1
+    wordID: o020070020011
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '020070010041'
+- position: 2
+  text: תְדַבֵּ֔ר
+  lemma: דָבַר
+  transliteration: ṯəḏabbēr
+  ids:
+    ref: EXO 7:2!2
+    wordID: o020070020021
+  translation:
+    english: speak
+    mandarin: 说
+    gloss: you.will.speak
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λαλήσεις
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A0:020070020011; A1:020070020041;
+- position: 3
+  text: אֵ֖ת
+  lemma: אֵת
+  transliteration: ʾēṯ
+  ids:
+    ref: EXO 7:2!3
+    wordID: o020070020031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: EXO 7:2!4
+    wordID: o020070020041
+  translation:
+    english: all
+    mandarin: 凡
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντα
+    strong: '3956'
+- position: 5
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: EXO 7:2!5
+    wordID: o020070020051
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: that
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὅσα
+    strong: '3745'
+- position: 6
+  text: אֲצַוֶּ֑
+  lemma: צָוָה
+  transliteration: ''
+  ids:
+    ref: EXO 7:2!6
+    wordID: o020070020061
+  translation:
+    english: command
+    mandarin: 吩咐
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐντέλλομαι
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:020070010021; A1:020070020062;
+  discourse:
+    subject: '020070010021'
+- position: 7
+  text: ךָּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 7:2!6
+    wordID: o020070020062
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  syntax:
+    role: o
+  discourse:
+    participant: '020070010041'
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EXO 7:2!7
+    wordID: o020070020071
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 9
+  text: אַהֲרֹ֤ן
+  lemma: אַהֲרֹן
+  transliteration: ʾahărōn
+  ids:
+    ref: EXO 7:2!7
+    wordID: o020070020072
+  translation:
+    english: Aaron
+    mandarin: 亚伦
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַהֲרֹן
+    strong: '0175'
+  semantic:
+    sdbh:
+    - '000172001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ααρων
+    strong: '2'
+- position: 10
+  text: אָחִ֨י
+  lemma: אָח
+  transliteration: ''
+  ids:
+    ref: EXO 7:2!8
+    wordID: o020070020081
+  translation:
+    english: brother
+    mandarin: 哥哥
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָח
+    strong: '0251'
+  semantic:
+    sdbh:
+    - 000238001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '1'
+  lxx:
+    text: ἀδελφός
+    strong: '80'
+- position: 11
+  text: ךָ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 7:2!8
+    wordID: o020070020082
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000238001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '020070010041'
+- position: 12
+  text: יְדַבֵּ֣ר
+  lemma: דָבַר
+  transliteration: yəḏabbēr
+  ids:
+    ref: EXO 7:2!9
+    wordID: o020070020091
+  translation:
+    english: tell
+    mandarin: 说
+    gloss: he.will.speak
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λαλήσει
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A0:020070020072;
+- position: 13
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: EXO 7:2!10
+    wordID: o020070020101
+  translation:
+    english: to
+    mandarin: 对
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 14
+  text: פַּרְעֹ֔ה
+  lemma: פַּרְעֹה
+  transliteration: parʿōh
+  ids:
+    ref: EXO 7:2!11
+    wordID: o020070020111
+  translation:
+    english: Pharaoh
+    mandarin: 法老
+    gloss: Pharaoh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: פַּרְעֹה
+    strong: '6547'
+  semantic:
+    sdbh:
+    - '006021001001000'
+    lexdomain:
+    - '001001002003005'
+    - '003001017'
+    coredomain:
+    - '015'
+  lxx:
+    text: φαραω
+    strong: '5328'
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EXO 7:2!12
+    wordID: o020070020121
+  translation:
+    english: so
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ὥστε
+    strong: '5620'
+- position: 16
+  text: שִׁלַּ֥ח
+  lemma: שָׁלַח
+  transliteration: šillaḥ
+  ids:
+    ref: EXO 7:2!12
+    wordID: o020070020122
+  translation:
+    english: let ~ go
+    mandarin: 让~离开
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: weqatal
+  lexical:
+    stronglemma: שָׁלַח
+    strong: '7971'
+  semantic:
+    sdbh:
+    - 007386001023000
+    lexdomain:
+    - '002003002013'
+    coredomain:
+    - '040'
+    sense: '2'
+  lxx:
+    text: ἐχαποστεῖλαι
+    strong: '1821'
+  syntax:
+    role: v
+    frame: A0:020070020111; A1:020070020141;
+  discourse:
+    subject: '020070020111'
+- position: 17
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: EXO 7:2!13
+    wordID: o020070020131
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 18
+  text: בְּנֵֽי
+  lemma: בֵּן
+  transliteration: bənēy-
+  ids:
+    ref: EXO 7:2!14
+    wordID: o020070020141
+  translation:
+    english: sons
+    mandarin: 人
+    gloss: the.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '2'
+  lxx:
+    text: υἱοὺς
+    strong: '5207'
+- position: 19
+  text: יִשְׂרָאֵ֖ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: EXO 7:2!15
+    wordID: o020070020151
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 20
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: EXO 7:2!16
+    wordID: o020070020161
+  translation:
+    english: out of
+    mandarin: 离开
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 21
+  text: אַרְצֽ
+  lemma: אֶרֶץ
+  transliteration: ''
+  ids:
+    ref: EXO 7:2!16
+    wordID: o020070020162
+  translation:
+    english: land
+    mandarin: 地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆς
+    strong: '1093'
+- position: 22
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 7:2!16
+    wordID: o020070020163
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '020070020111'

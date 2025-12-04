@@ -1,0 +1,272 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 29:1
+text: אִ֣ישׁ תּ֭וֹכָחוֹת מַקְשֶׁה־עֹ֑רֶף פֶּ֥תַע יִ֝שָּׁבֵ֗ר וְאֵ֣ין מַרְפֵּֽא׃
+words:
+- position: 1
+  text: אִ֣ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: PRO 29:1!1
+    wordID: o200290010011
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.person
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνὴρ
+    strong: '435'
+- position: 2
+  text: תּ֭וֹכָחוֹת
+  lemma: תּוֹכַחַת
+  transliteration: tôḵāḥôṯ
+  ids:
+    ref: PRO 29:1!2
+    wordID: o200290010021
+  translation:
+    english: reproved
+    mandarin: 责罚
+    gloss: of.rebukes
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תּוֹכַחַת
+    strong: 8433a
+  semantic:
+    sdbh:
+    - '007740001001000'
+    lexdomain:
+    - 002004001009008
+    sense: '1'
+  lxx:
+    text: ἐλέγξων
+- position: 3
+  text: מַקְשֶׁה
+  lemma: קָשָׁה
+  transliteration: maqšeh-
+  ids:
+    ref: PRO 29:1!3
+    wordID: o200290010031
+  translation:
+    english: stubborn
+    mandarin: 硬
+    gloss: '[who].stiffens'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: קָשָׁה
+    strong: '7185'
+  semantic:
+    sdbh:
+    - '006616001005000'
+    lexdomain:
+    - '002001002031'
+    coredomain:
+    - '197'
+    sense: '1'
+  lxx:
+    text: ἀνδρὸς
+    strong: '435'
+  syntax:
+    role: v
+    frame: AA:200290010011; A0:200290010041;
+- position: 4
+  text: עֹ֑רֶף
+  lemma: עֹרֶף
+  transliteration: ʿōrep̄
+  ids:
+    ref: PRO 29:1!4
+    wordID: o200290010041
+  translation:
+    english: neck
+    mandarin: 颈项
+    gloss: a.neck
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֹרֶף
+    strong: '6203'
+  semantic:
+    sense: '1'
+  lxx:
+    text: σκληροτραξήλου
+    strong: '4644'
+  syntax:
+    role: o
+- position: 5
+  text: פֶּ֥תַע
+  lemma: פֶּתַע
+  transliteration: peṯaʿ
+  ids:
+    ref: PRO 29:1!5
+    wordID: o200290010051
+  translation:
+    english: suddenly
+    mandarin: 突然
+    gloss: suddenness
+  morphology:
+    class: noun
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: פֶּתַע
+    strong: '6621'
+  semantic:
+    sdbh:
+    - 006085001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  syntax:
+    role: adv
+- position: 6
+  text: יִ֝שָּׁבֵ֗ר
+  lemma: שָׁבַר
+  transliteration: yiššāḇēr
+  ids:
+    ref: PRO 29:1!6
+    wordID: o200290010061
+  translation:
+    english: broken
+    mandarin: 败
+    gloss: he.will.be.broken
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁבַר
+    strong: '7665'
+  semantic:
+    sdbh:
+    - 007185001002000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '006'
+    - 019
+    - '010'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:200290010011;
+  discourse:
+    subject: '200290010011'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 29:1!7
+    wordID: o200290010071
+  translation:
+    english: with
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὐκ
+    strong: '3756'
+- position: 8
+  text: אֵ֣ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: PRO 29:1!7
+    wordID: o200290010072
+  translation:
+    english: beyond
+    mandarin: 无法
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: ἔστιν
+    strong: '2076'
+  syntax:
+    role: p
+- position: 9
+  text: מַרְפֵּֽא
+  lemma: מַרְפֵּא
+  transliteration: 'marpēʾ:'
+  ids:
+    ref: PRO 29:1!8
+    wordID: o200290010081
+  translation:
+    english: healing
+    mandarin: 挽救
+    gloss: healing
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַרְפֵּא
+    strong: '4832'
+  semantic:
+    sdbh:
+    - '004421001002000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '196'
+    sense: '2'
+  lxx:
+    text: ἴασις
+  syntax:
+    role: s

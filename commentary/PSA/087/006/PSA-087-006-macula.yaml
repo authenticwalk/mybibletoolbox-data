@@ -1,0 +1,259 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 87:6
+text: יְֽהוָ֗ה יִ֭סְפֹּר בִּכְת֣וֹב עַמִּ֑ים זֶ֖ה יֻלַּד־שָׁ֣ם סֶֽלָה׃
+words:
+- position: 1
+  text: יְֽהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 87:6!1
+    wordID: o190870060011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 2
+  text: יִ֭סְפֹּר
+  lemma: סָפַר
+  transliteration: yispōr
+  ids:
+    ref: PSA 87:6!2
+    wordID: o190870060021
+  translation:
+    english: record
+    mandarin: 记
+    gloss: he.will.count
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: סָפַר
+    strong: '5608'
+  semantic:
+    sdbh:
+    - 005148001007000
+    lexdomain:
+    - 002004001009008
+    sense: '4'
+  lxx:
+    text: διηγήσεται
+    strong: '1334'
+  syntax:
+    role: v
+    frame: A0:190870060011; A1:190870060061;
+- position: 3
+  text: בִּ
+  lemma: בְּ
+  transliteration: bi
+  ids:
+    ref: PSA 87:6!3
+    wordID: o190870060031
+  translation:
+    english: in
+    mandarin: 当~的时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 4
+  text: כְת֣וֹב
+  lemma: כָּתַב
+  transliteration: ḵəṯôḇ
+  ids:
+    ref: PSA 87:6!3
+    wordID: o190870060032
+  translation:
+    english: registers
+    mandarin: 名册
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: כָּתַב
+    strong: '3789'
+  semantic:
+    sdbh:
+    - '003466001002000'
+    lexdomain:
+    - 002001001069
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: γραφῇ
+    strong: '1124'
+  syntax:
+    role: v
+    frame: A0:190870060011; A1:190870060041;
+  discourse:
+    subject: '190870060011'
+- position: 5
+  text: עַמִּ֑ים
+  lemma: עַם
+  transliteration: ʿammiym
+  ids:
+    ref: PSA 87:6!4
+    wordID: o190870060041
+  translation:
+    english: peoples
+    mandarin: 万民
+    gloss: peoples
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαῶν
+    strong: '2992'
+  syntax:
+    role: o
+- position: 6
+  text: זֶ֖ה
+  lemma: זֶה
+  transliteration: zeh
+  ids:
+    ref: PSA 87:6!5
+    wordID: o190870060051
+  translation:
+    english: this
+    mandarin: 这
+    gloss: this.one
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+  lxx:
+    text: τούτων
+    strong: '5130'
+  syntax:
+    role: s
+- position: 7
+  text: יֻלַּד
+  lemma: יָלַד
+  transliteration: yullaḏ-
+  ids:
+    ref: PSA 87:6!6
+    wordID: o190870060061
+  translation:
+    english: born
+    mandarin: 生
+    gloss: he.was.born
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: pual
+    type: qatal
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001001000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    - '030'
+    sense: '1'
+  lxx:
+    text: γεγενημένων
+  syntax:
+    role: v
+    frame: A1:190870060051;
+- position: 8
+  text: שָׁ֣ם
+  lemma: שָׁם
+  transliteration: šām
+  ids:
+    ref: PSA 87:6!7
+    wordID: o190870060071
+  translation:
+    english: there
+    mandarin: 那里
+    gloss: there
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  syntax:
+    role: adv
+- position: 9
+  text: סֶֽלָה
+  lemma: סֶלָה
+  transliteration: 'selâ:'
+  ids:
+    ref: PSA 87:6!8
+    wordID: o190870060081
+  translation:
+    english: selah
+    mandarin: 细拉
+    gloss: Selah
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tj
+    type: interjection
+  lexical:
+    stronglemma: סֶלָה
+    strong: '5542'
+  lxx:
+    text: διάψαλμα

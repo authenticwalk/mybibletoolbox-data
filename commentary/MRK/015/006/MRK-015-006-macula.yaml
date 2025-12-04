@@ -1,0 +1,201 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 15:6
+text: Κατὰ δὲ ἑορτὴν ἀπέλυεν αὐτοῖς ἕνα δέσμιον ὃν παρῃτοῦντο.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 15:6!2
+    wordID: n41015006002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Κατὰ
+  lemma: κατά
+  normalized: Κατά
+  ids:
+    ref: MRK 15:6!1
+    wordID: n41015006001
+  translation:
+    gloss: At
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '2596'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
+- position: 3
+  text: ἑορτὴν
+  lemma: ἑορτή
+  normalized: ἑορτήν
+  ids:
+    ref: MRK 15:6!3
+    wordID: n41015006003
+  translation:
+    gloss: '[the] feast'
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1859'
+  semantic:
+    semanticDomain: '051'
+    ln: '51.2'
+- position: 4
+  text: ἀπέλυεν
+  lemma: ἀπολύω
+  normalized: ἀπέλυεν
+  ids:
+    ref: MRK 15:6!4
+    wordID: n41015006004
+  translation:
+    gloss: he used to release
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.127'
+  syntax:
+    role: v
+    frame: A0:n41015005010 A2:n41015006005 A1:n41015006007
+  discourse:
+    subject: n41015005010
+- position: 5
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MRK 15:6!5
+    wordID: n41015006005
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+- position: 6
+  text: ἕνα
+  lemma: εἷς
+  normalized: ἕνα
+  ids:
+    ref: MRK 15:6!6
+    wordID: n41015006006
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1520'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.22'
+- position: 7
+  text: δέσμιον
+  lemma: δέσμιος
+  normalized: δέσμιον
+  ids:
+    ref: MRK 15:6!7
+    wordID: n41015006007
+  translation:
+    gloss: prisoner
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1198'
+  semantic:
+    semanticDomain: 037008
+    ln: '37.117'
+- position: 8
+  text: ὃν
+  lemma: ὅς
+  normalized: ὅν
+  ids:
+    ref: MRK 15:6!8
+    wordID: n41015006008
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n41015006007
+- position: 9
+  text: παρῃτοῦντο
+  lemma: παραιτέομαι
+  normalized: παρῃτοῦντο
+  ids:
+    ref: MRK 15:6!9
+    wordID: n41015006009
+  translation:
+    gloss: they requested
+  morphology:
+    class: verb
+    morph: V-INI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '3868'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.163'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n41015006008

@@ -1,0 +1,325 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 18:48
+text: הָאֵ֗ל הַנּוֹתֵ֣ן נְקָמ֣וֹת לִ֑י וַיַּדְבֵּ֖ר עַמִּ֣ים תַּחְתָּֽי׃
+words:
+- position: 1
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 18:48!1
+    wordID: o190180480011
+  translation:
+    english: the
+    mandarin: 这
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 2
+  text: אֵ֗ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: PSA 18:48!1
+    wordID: o190180480012
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 3
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 18:48!2
+    wordID: o190180480021
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 4
+  text: נּוֹתֵ֣ן
+  lemma: נָתַן
+  transliteration: nnôṯēn
+  ids:
+    ref: PSA 18:48!2
+    wordID: o190180480022
+  translation:
+    english: gave
+    mandarin: 给的
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: διδοὺς
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:190180480012; A1:190180480031;
+  discourse:
+    subject: '190180480012'
+- position: 5
+  text: נְקָמ֣וֹת
+  lemma: נְקָמָה
+  transliteration: nəqāmôṯ
+  ids:
+    ref: PSA 18:48!3
+    wordID: o190180480031
+  translation:
+    english: vengeance
+    mandarin: 伸冤
+    gloss: vengeance(s)
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נְקָמָה
+    strong: '5360'
+  semantic:
+    sdbh:
+    - 004910001001000
+    lexdomain:
+    - '002003002006'
+    - '002001002023'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἐκδικήσεις
+  syntax:
+    role: o
+- position: 6
+  text: לִ֑
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 18:48!4
+    wordID: o190180480041
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 18:48!4
+    wordID: o190180480042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμοὶ
+    strong: '1698'
+  discourse:
+    participant: '190180010042'
+- position: 8
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 18:48!5
+    wordID: o190180480051
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: יַּדְבֵּ֖ר
+  lemma: דָבַר
+  transliteration: yyaḏbēr
+  ids:
+    ref: PSA 18:48!5
+    wordID: o190180480052
+  translation:
+    english: subdues
+    mandarin: 服
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: דָבַר
+    strong: 1696a
+  semantic:
+    sdbh:
+    - '001555001002000'
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+    - '114'
+    - '006'
+    - '127'
+    sense: '2'
+  lxx:
+    text: ὑποτάχας
+  syntax:
+    role: v
+    frame: AA:190180480012; A0:190180480061;
+  discourse:
+    subject: '190180480012'
+- position: 10
+  text: עַמִּ֣ים
+  lemma: עַם
+  transliteration: ʿammiym
+  ids:
+    ref: PSA 18:48!6
+    wordID: o190180480061
+  translation:
+    english: peoples
+    mandarin: 万民
+    gloss: peoples
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοὺς
+    strong: '2992'
+  syntax:
+    role: o
+- position: 11
+  text: תַּחְתָּֽ
+  lemma: תַּחַת
+  transliteration: ''
+  ids:
+    ref: PSA 18:48!7
+    wordID: o190180480071
+  translation:
+    english: under
+    mandarin: 在~以下
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: תַּחַת
+    strong: '8478'
+  lxx:
+    text: ὑπ’
+    strong: '5259'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 18:48!7
+    wordID: o190180480072
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμέ
+    strong: '1691'
+  discourse:
+    participant: '190180010042'

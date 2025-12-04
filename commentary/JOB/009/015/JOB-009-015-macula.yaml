@@ -1,0 +1,256 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 9:15
+text: אֲשֶׁ֣ר אִם־צָ֭דַקְתִּי לֹ֣א אֶעֱנֶ֑ה לִ֝מְשֹׁפְטִ֗י אֶתְחַנָּֽן׃
+words:
+- position: 1
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: JOB 9:15!1
+    wordID: o180090150011
+  translation:
+    english: whom
+    mandarin: 而
+    gloss: who
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+- position: 2
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: JOB 9:15!2
+    wordID: o180090150021
+  translation:
+    english: though
+    mandarin: 即使~也
+    gloss: though
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+- position: 3
+  text: צָ֭דַקְתִּי
+  lemma: צָדֵק
+  transliteration: ṣāḏaqtî
+  ids:
+    ref: JOB 9:15!3
+    wordID: o180090150031
+  translation:
+    english: innocent
+    mandarin: 无辜
+    gloss: I.am.righteous
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: צָדֵק
+    strong: '6663'
+  semantic:
+    sdbh:
+    - 006128001001000
+    lexdomain:
+    - '002003003014'
+    coredomain:
+    - 095
+    sense: '2'
+  lxx:
+    text: δίκαιος
+    strong: '1342'
+  syntax:
+    role: v
+    frame: A0:180090010021;
+  discourse:
+    subject: '180090010021'
+- position: 4
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: JOB 9:15!4
+    wordID: o180090150041
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 5
+  text: אֶעֱנֶ֑ה
+  lemma: עָנָה
+  transliteration: ʾeʿĕneh
+  ids:
+    ref: JOB 9:15!5
+    wordID: o180090150051
+  translation:
+    english: answer
+    mandarin: 回答
+    gloss: I.will.answer
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:180090010021; A1:180090130011;
+  discourse:
+    subject: '180090010021'
+- position: 6
+  text: לִ֝
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: JOB 9:15!6
+    wordID: o180090150061
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 7
+  text: מְשֹׁפְטִ֗
+  lemma: שָׁפַט
+  transliteration: ''
+  ids:
+    ref: JOB 9:15!6
+    wordID: o180090150062
+  translation:
+    english: judge
+    mandarin: 审判
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vmrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: poel
+    type: participle active
+  lexical:
+    stronglemma: שָׁפַט
+    strong: '8199'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κρίματος
+    strong: '2917'
+- position: 8
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 9:15!6
+    wordID: o180090150063
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '180090010021'
+- position: 9
+  text: אֶתְחַנָּֽן
+  lemma: חָנַן
+  transliteration: 'ʾeṯḥannān:'
+  ids:
+    ref: JOB 9:15!7
+    wordID: o180090150071
+  translation:
+    english: appeal for mercy
+    mandarin: 恳求
+    gloss: I.will.seek.favor
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vti1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hithpael
+    type: yiqtol
+  lexical:
+    stronglemma: חָנַן
+    strong: '2603'
+  semantic:
+    sdbh:
+    - 002398001002000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    - '041'
+    - '170'
+    sense: '2'
+  lxx:
+    text: δεηθήσομαι
+    strong: '1189'
+  syntax:
+    role: v
+    frame: A0:180090010021;
+  discourse:
+    subject: '180090010021'

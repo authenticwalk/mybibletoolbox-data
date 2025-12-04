@@ -1,0 +1,794 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2SA 24:9
+text: 2SA 24:9 וַיִּתֵּ֥ן יוֹאָ֛ב אֶת־מִסְפַּ֥ר מִפְקַד־הָעָ֖ם אֶל־הַמֶּ֑לֶךְ וַתְּהִ֣י
+  יִשְׂרָאֵ֡ל שְׁמֹנֶה֩ מֵא֨וֹת אֶ֤לֶף אִֽישׁ־חַ֨יִל֙ שֹׁ֣לֵֽף חֶ֔רֶב וְאִ֣ישׁ יְהוּדָ֔ה
+  חֲמֵשׁ־מֵא֥וֹת אֶ֖לֶף אִֽישׁ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 24:9!1
+    wordID: o100240090011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יִּתֵּ֥ן
+  lemma: נָתַן
+  transliteration: yyittēn
+  ids:
+    ref: 2SA 24:9!1
+    wordID: o100240090012
+  translation:
+    english: gave
+    mandarin: 报告
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔδωκεν
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:100240090021; A1:100240090041;
+- position: 3
+  text: יוֹאָ֛ב
+  lemma: יוֹאָב
+  transliteration: yôʾāḇ
+  ids:
+    ref: 2SA 24:9!2
+    wordID: o100240090021
+  translation:
+    english: Joab
+    mandarin: 约押
+    gloss: Joab
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יוֹאָב
+    strong: '3097'
+  semantic:
+    sdbh:
+    - 002845001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιωαβ
+  syntax:
+    role: s
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2SA 24:9!3
+    wordID: o100240090031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: מִסְפַּ֥ר
+  lemma: מִסְפָּר
+  transliteration: mispar
+  ids:
+    ref: 2SA 24:9!4
+    wordID: o100240090041
+  translation:
+    english: number
+    mandarin: 数目
+    gloss: the.number
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִסְפָּר
+    strong: '4557'
+  semantic:
+    sdbh:
+    - '004173001005000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+    sense: '1'
+  lxx:
+    text: ἀριθμὸν
+    strong: '706'
+- position: 6
+  text: מִפְקַד
+  lemma: מִפְקָד
+  transliteration: mip̄qaḏ-
+  ids:
+    ref: 2SA 24:9!5
+    wordID: o100240090051
+  translation:
+    english: registration
+    mandarin: 数点
+    gloss: of.the.muster
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִפְקָד
+    strong: '4662'
+  semantic:
+    sdbh:
+    - '004270001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    - '138'
+    sense: '1'
+  lxx:
+    text: ἐπισκέψεως
+- position: 7
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: 2SA 24:9!6
+    wordID: o100240090061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 8
+  text: עָ֖ם
+  lemma: עַם
+  transliteration: ʿām
+  ids:
+    ref: 2SA 24:9!6
+    wordID: o100240090062
+  translation:
+    english: people
+    mandarin: 人民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοῦ
+    strong: '2992'
+- position: 9
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: 2SA 24:9!7
+    wordID: o100240090071
+  translation:
+    english: to
+    mandarin: 向
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 10
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 2SA 24:9!8
+    wordID: o100240090081
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 11
+  text: מֶּ֑לֶךְ
+  lemma: מֶלֶךְ
+  transliteration: mmeleḵ
+  ids:
+    ref: 2SA 24:9!8
+    wordID: o100240090082
+  translation:
+    english: king
+    mandarin: 王
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מֶלֶךְ
+    strong: '4428'
+  semantic:
+    sdbh:
+    - 004048001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - '170'
+    - 095
+    sense: '1'
+  lxx:
+    text: βασιλέα
+    strong: '935'
+- position: 12
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 24:9!9
+    wordID: o100240090091
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: תְּהִ֣י
+  lemma: הָיָה
+  transliteration: təhiy
+  ids:
+    ref: 2SA 24:9!9
+    wordID: o100240090092
+  translation:
+    english: there were
+    mandarin: 有
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγένετο
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:100240090101;
+- position: 14
+  text: יִשְׂרָאֵ֡ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: 2SA 24:9!10
+    wordID: o100240090101
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+  syntax:
+    role: s
+- position: 15
+  text: שְׁמֹנֶה֩
+  lemma: שְׁמֹנֶה
+  transliteration: šəmōneh
+  ids:
+    ref: 2SA 24:9!11
+    wordID: o100240090111
+  translation:
+    english: eight
+    mandarin: 八
+    gloss: eight
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שְׁמֹנֶה
+    strong: '8083'
+  semantic:
+    sdbh:
+    - '007474001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+- position: 16
+  text: מֵא֨וֹת
+  lemma: מֵאָה
+  transliteration: mēʾôṯ
+  ids:
+    ref: 2SA 24:9!12
+    wordID: o100240090121
+  translation:
+    english: hundred
+    mandarin: 百
+    gloss: hundred(s)
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: מֵאָה
+    strong: '3967'
+  semantic:
+    sdbh:
+    - '003633001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ὀκτακόσιαι
+- position: 17
+  text: אֶ֤לֶף
+  lemma: אֶלֶף
+  transliteration: ʾelep̄
+  ids:
+    ref: 2SA 24:9!13
+    wordID: o100240090131
+  translation:
+    english: thousand
+    mandarin: 千
+    gloss: thousand
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶלֶף
+    strong: '0505'
+  semantic:
+    sdbh:
+    - 000469002001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ξιλιάδες
+    strong: '5505'
+- position: 18
+  text: אִֽישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš-
+  ids:
+    ref: 2SA 24:9!14
+    wordID: o100240090141
+  translation:
+    english: men
+    mandarin: 人
+    gloss: man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνδρῶν
+    strong: '435'
+- position: 19
+  text: חַ֨יִל֙
+  lemma: חַיִל
+  transliteration: ḥayil
+  ids:
+    ref: 2SA 24:9!15
+    wordID: o100240090151
+  translation:
+    english: valiant
+    mandarin: 勇士
+    gloss: of.strength
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חַיִל
+    strong: '2428'
+  semantic:
+    sdbh:
+    - '002242001001000'
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '170'
+    sense: '4'
+  lxx:
+    text: δυνάμεως
+    strong: '1411'
+- position: 20
+  text: שֹׁ֣לֵֽף
+  lemma: שָׁלַף
+  transliteration: šōlēp̄
+  ids:
+    ref: 2SA 24:9!16
+    wordID: o100240090161
+  translation:
+    english: drew
+    mandarin: 拿
+    gloss: '[who].drew'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׁלַף
+    strong: '8025'
+  semantic:
+    sense: '1'
+  lxx:
+    text: σπωμένων
+  syntax:
+    role: v
+    frame: A0:100240090141; A1:100240090171;
+  discourse:
+    subject: '100240090141'
+- position: 21
+  text: חֶ֔רֶב
+  lemma: חֶרֶב
+  transliteration: ḥereḇ
+  ids:
+    ref: 2SA 24:9!17
+    wordID: o100240090171
+  translation:
+    english: sword
+    mandarin: 刀
+    gloss: a.sword
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶרֶב
+    strong: '2719'
+  semantic:
+    sdbh:
+    - '002505001002000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    - '188'
+    sense: '1'
+  lxx:
+    text: ῥομφαίαν
+    strong: '4501'
+  syntax:
+    role: o
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 2SA 24:9!18
+    wordID: o100240090181
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 23
+  text: אִ֣ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: 2SA 24:9!18
+    wordID: o100240090182
+  translation:
+    english: men
+    mandarin: 人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνὴρ
+    strong: '435'
+- position: 24
+  text: יְהוּדָ֔ה
+  lemma: יְהוּדָה
+  transliteration: yəhûḏāh
+  ids:
+    ref: 2SA 24:9!19
+    wordID: o100240090191
+  translation:
+    english: Judah
+    mandarin: 犹大
+    gloss: of.Judah
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְהוּדָה
+    strong: '3063'
+  semantic:
+    sdbh:
+    - 002819001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: ιουδα
+    strong: '2448'
+- position: 25
+  text: חֲמֵשׁ
+  lemma: חָמֵשׁ
+  transliteration: ḥămēš-
+  ids:
+    ref: 2SA 24:9!20
+    wordID: o100240090201
+  translation:
+    english: five
+    mandarin: 五
+    gloss: '[was].five'
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: חָמֵשׁ
+    strong: '2568'
+  semantic:
+    sdbh:
+    - '002370001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+- position: 26
+  text: מֵא֥וֹת
+  lemma: מֵאָה
+  transliteration: mēʾôṯ
+  ids:
+    ref: 2SA 24:9!21
+    wordID: o100240090211
+  translation:
+    english: hundred
+    mandarin: 百
+    gloss: hundred(s)
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: מֵאָה
+    strong: '3967'
+  semantic:
+    sdbh:
+    - '003633001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: πεντακόσιαι
+- position: 27
+  text: אֶ֖לֶף
+  lemma: אֶלֶף
+  transliteration: ʾelep̄
+  ids:
+    ref: 2SA 24:9!22
+    wordID: o100240090221
+  translation:
+    english: thousand
+    mandarin: 千
+    gloss: thousand
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶלֶף
+    strong: '0505'
+  semantic:
+    sdbh:
+    - 000469002001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ξιλιάδες
+    strong: '5505'
+- position: 28
+  text: אִֽישׁ
+  lemma: אִישׁ
+  transliteration: 'ʾiyš:'
+  ids:
+    ref: 2SA 24:9!23
+    wordID: o100240090231
+  translation:
+    english: men
+    mandarin: 人
+    gloss: man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνδρῶν
+    strong: '435'

@@ -1,0 +1,533 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2SA 1:1
+text: 2SA 1:1 וַיְהִ֗י אַֽחֲרֵי֙ מ֣וֹת שָׁא֔וּל וְדָוִ֣ד שָׁ֔ב מֵהַכּ֖וֹת אֶת־הָעֲמָלֵ֑ק
+  וַיֵּ֧שֶׁב דָּוִ֛ד בְּצִקְלָ֖ג יָמִ֥ים שְׁנָֽיִם׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 1:1!1
+    wordID: o100010010011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יְהִ֗י
+  lemma: הָיָה
+  transliteration: yəhiy
+  ids:
+    ref: 2SA 1:1!1
+    wordID: o100010010012
+  translation:
+    english: came about
+    mandarin: 他是
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγένετο
+    strong: '1096'
+  syntax:
+    role: v
+- position: 3
+  text: אַֽחֲרֵי֙
+  lemma: אַחַר
+  transliteration: ʾaḥărê
+  ids:
+    ref: 2SA 1:1!2
+    wordID: o100010010021
+  translation:
+    english: after
+    mandarin: 后
+    gloss: after
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אַחַר
+    strong: '0310'
+  semantic:
+    sdbh:
+    - 000295002003000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+  lxx:
+    text: μετὰ
+    strong: '3326'
+- position: 4
+  text: מ֣וֹת
+  lemma: מָוֶת
+  transliteration: môṯ
+  ids:
+    ref: 2SA 1:1!3
+    wordID: o100010010031
+  translation:
+    english: death
+    mandarin: 死
+    gloss: the.death
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מָוֶת
+    strong: '4194'
+  semantic:
+    sdbh:
+    - 003825001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: ἀποθανεῖν
+    strong: '599'
+- position: 5
+  text: שָׁא֔וּל
+  lemma: שָׁאוּל
+  transliteration: šāʾûl
+  ids:
+    ref: 2SA 1:1!4
+    wordID: o100010010041
+  translation:
+    english: Saul
+    mandarin: 扫罗
+    gloss: of.Saul
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שָׁאוּל
+    strong: '7586'
+  semantic:
+    sdbh:
+    - '007126001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαουλ
+    strong: '4549'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 2SA 1:1!5
+    wordID: o100010010051
+  translation:
+    english: then
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: דָוִ֣ד
+  lemma: דָּוִד
+  transliteration: ḏāwiḏ
+  ids:
+    ref: 2SA 1:1!5
+    wordID: o100010010052
+  translation:
+    english: David
+    mandarin: 大卫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+  syntax:
+    role: s
+- position: 8
+  text: שָׁ֔ב
+  lemma: שׁוּב
+  transliteration: šāḇ
+  ids:
+    ref: 2SA 1:1!6
+    wordID: o100010010061
+  translation:
+    english: returned
+    mandarin: 回来
+    gloss: he.returned
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - 007226001028000
+    lexdomain:
+    - '002002001011'
+    sense: '1'
+  lxx:
+    text: ἀνέστρεψεν
+    strong: '390'
+  syntax:
+    role: v
+    frame: A0:100010010052;
+- position: 9
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: 2SA 1:1!7
+    wordID: o100010010071
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 10
+  text: הַכּ֖וֹת
+  lemma: נָכָה
+  transliteration: hakôṯ
+  ids:
+    ref: 2SA 1:1!7
+    wordID: o100010010072
+  translation:
+    english: defeating
+    mandarin: 击杀
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: נָכָה
+    strong: '5221'
+  semantic:
+    sense: '1'
+  lxx:
+    text: τύπτων
+  syntax:
+    role: v
+    frame: AA:100010010052; A0:100010010092;
+  discourse:
+    subject: '100010010052'
+- position: 11
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2SA 1:1!8
+    wordID: o100010010081
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: 2SA 1:1!9
+    wordID: o100010010091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 13
+  text: עֲמָלֵ֑ק
+  lemma: עֲמָלֵק
+  transliteration: ʿămālēq
+  ids:
+    ref: 2SA 1:1!9
+    wordID: o100010010092
+  translation:
+    english: Amalekites
+    mandarin: 亚玛力人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: עֲמָלֵק
+    strong: '6002'
+  semantic:
+    sdbh:
+    - '005506001002000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: αμαληκ
+- position: 14
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 1:1!10
+    wordID: o100010010101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: יֵּ֧שֶׁב
+  lemma: יָשַׁב
+  transliteration: yyēšeḇ
+  ids:
+    ref: 2SA 1:1!10
+    wordID: o100010010102
+  translation:
+    english: stayed
+    mandarin: 住
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001006000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: ἐκάθισεν
+    strong: '2523'
+  syntax:
+    role: v
+    frame: A0:100010010111;
+- position: 16
+  text: דָּוִ֛ד
+  lemma: דָּוִד
+  transliteration: dāwiḏ
+  ids:
+    ref: 2SA 1:1!11
+    wordID: o100010010111
+  translation:
+    english: David
+    mandarin: 大卫
+    gloss: David
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+  syntax:
+    role: s
+- position: 17
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: 2SA 1:1!12
+    wordID: o100010010121
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 18
+  text: צִקְלָ֖ג
+  lemma: צִקְלַג
+  transliteration: ṣiqlāḡ
+  ids:
+    ref: 2SA 1:1!12
+    wordID: o100010010122
+  translation:
+    english: Ziklag
+    mandarin: 洗革拉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: צִקְלַג
+    strong: '6860'
+  semantic:
+    sdbh:
+    - '006312001001000'
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: σεκελακ
+- position: 19
+  text: יָמִ֥ים
+  lemma: יוֹם
+  transliteration: yāmiym
+  ids:
+    ref: 2SA 1:1!13
+    wordID: o100010010131
+  translation:
+    english: days
+    mandarin: 天
+    gloss: days
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: ἡμέρας
+    strong: '2250'
+- position: 20
+  text: שְׁנָֽיִם
+  lemma: שְׁנַיִם
+  transliteration: 'šənāyim:'
+  ids:
+    ref: 2SA 1:1!14
+    wordID: o100010010141
+  translation:
+    english: two
+    mandarin: 两
+    gloss: two
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmda
+    gender: masculine
+    number: dual
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שְׁנַיִם
+    strong: '8147'
+  semantic:
+    sdbh:
+    - 007529001001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: δύο
+    strong: '1417'

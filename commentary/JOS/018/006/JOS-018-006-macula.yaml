@@ -1,0 +1,643 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOS 18:6
+text: וְאַתֶּ֞ם תִּכְתְּב֤וּ אֶת־הָאָ֨רֶץ֙ שִׁבְעָ֣ה חֲלָקִ֔ים וַֽהֲבֵאתֶ֥ם אֵלַ֖י
+  הֵ֑נָּה וְיָרִ֨יתִי לָכֶ֤ם גּוֹרָל֙ פֹּ֔ה לִפְנֵ֖י יְהוָ֥ה אֱלֹהֵֽינוּ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 18:6!1
+    wordID: o060180060011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: אַתֶּ֞ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: JOS 18:6!1
+    wordID: o060180060012
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ὑμεῖς
+    strong: '5210'
+  syntax:
+    role: s
+  discourse:
+    participant: 060180030041
+- position: 3
+  text: תִּכְתְּב֤וּ
+  lemma: כָּתַב
+  transliteration: tiḵtəḇû
+  ids:
+    ref: JOS 18:6!2
+    wordID: o060180060021
+  translation:
+    english: describe
+    mandarin: 绘好
+    gloss: you.will.describe.in.writing
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: כָּתַב
+    strong: '3789'
+  semantic:
+    sdbh:
+    - '003466001001000'
+    lexdomain:
+    - 002001001069
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: μερίσατε
+  syntax:
+    role: v
+    frame: A0:060180060012; A1:060180060042;
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JOS 18:6!3
+    wordID: o060180060031
+  translation:
+    mandarin: 对
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: JOS 18:6!4
+    wordID: o060180060041
+  translation:
+    english: the
+    mandarin: 这
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 6
+  text: אָ֨רֶץ֙
+  lemma: אֶרֶץ
+  transliteration: ʾāreṣ
+  ids:
+    ref: JOS 18:6!4
+    wordID: o060180060042
+  translation:
+    english: land
+    mandarin: 地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆν
+    strong: '1093'
+- position: 7
+  text: שִׁבְעָ֣ה
+  lemma: שֶׁבַע
+  transliteration: šiḇʿāh
+  ids:
+    ref: JOS 18:6!5
+    wordID: o060180060051
+  translation:
+    english: seven
+    mandarin: 七
+    gloss: seven
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שֶׁבַע
+    strong: '7651'
+  semantic:
+    sdbh:
+    - 007180001001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ἑπτὰ
+    strong: '2033'
+- position: 8
+  text: חֲלָקִ֔ים
+  lemma: חֵלֶק
+  transliteration: ḥălāqiym
+  ids:
+    ref: JOS 18:6!6
+    wordID: o060180060061
+  translation:
+    english: divisions
+    mandarin: 份
+    gloss: portions
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֵלֶק
+    strong: '2506'
+  semantic:
+    sdbh:
+    - '002313001001000'
+    lexdomain:
+    - '001'
+    coredomain:
+    - 038
+    - '128'
+    sense: '1'
+  lxx:
+    text: μερίδας
+- position: 9
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: JOS 18:6!7
+    wordID: o060180060071
+  translation:
+    english: then
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: הֲבֵאתֶ֥ם
+  lemma: בּוֹא
+  transliteration: hăḇēʾṯem
+  ids:
+    ref: JOS 18:6!7
+    wordID: o060180060072
+  translation:
+    english: bring
+    mandarin: 带~来
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhq2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: hiphil
+    type: weqatal
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἐνέγκατε
+    strong: '5342'
+  syntax:
+    role: v
+    frame: A0:060180030041;
+  discourse:
+    subject: 060180030041
+- position: 11
+  text: אֵלַ֖
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: JOS 18:6!8
+    wordID: o060180060081
+  translation:
+    english: to
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρός
+    strong: '4314'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 18:6!8
+    wordID: o060180060082
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: 060180030021
+- position: 13
+  text: הֵ֑נָּה
+  lemma: הֵנָּה
+  transliteration: hēnnâ
+  ids:
+    ref: JOS 18:6!9
+    wordID: o060180060091
+  translation:
+    english: here
+    mandarin: 这里
+    gloss: hither
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: הֵנָּה
+    strong: '2008'
+  lxx:
+    text: ὧδε
+    strong: '5602'
+  syntax:
+    role: adv
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 18:6!10
+    wordID: o060180060101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: יָרִ֨יתִי
+  lemma: יָרָה
+  transliteration: yāriyṯî
+  ids:
+    ref: JOS 18:6!10
+    wordID: o060180060102
+  translation:
+    english: cast
+    mandarin: 将拈阄
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: יָרָה
+    strong: '3384'
+  semantic:
+    sdbh:
+    - 003093001005000
+    lexdomain:
+    - '002004002012'
+    sense: '2'
+  lxx:
+    text: ἐχοίσω
+  syntax:
+    role: v
+    frame: A0:060180030021; A1:060180060121;
+  discourse:
+    subject: 060180030021
+- position: 16
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: JOS 18:6!11
+    wordID: o060180060111
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 17
+  text: כֶ֤ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 18:6!11
+    wordID: o060180060112
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμῖν
+    strong: '5213'
+  discourse:
+    participant: 060180030041
+- position: 18
+  text: גּוֹרָל֙
+  lemma: גּוֹרָל
+  transliteration: gôrāl
+  ids:
+    ref: JOS 18:6!12
+    wordID: o060180060121
+  translation:
+    english: lots
+    mandarin: 拈阄
+    gloss: a.lot
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹרָל
+    strong: '1486'
+  semantic:
+    sdbh:
+    - '001361001002000'
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: κλῆρον
+    strong: '2819'
+  syntax:
+    role: o
+- position: 19
+  text: פֹּ֔ה
+  lemma: פֹּה
+  transliteration: pōh
+  ids:
+    ref: JOS 18:6!13
+    wordID: o060180060131
+  translation:
+    english: here
+    mandarin: 这里
+    gloss: here
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: פֹּה
+    strong: '6311'
+  semantic:
+    sdbh:
+    - 005795001001000
+    lexdomain:
+    - '003002004'
+- position: 20
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: JOS 18:6!14
+    wordID: o060180060141
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 21
+  text: פְנֵ֖י
+  lemma: פָּנֶה
+  transliteration: p̄ənēy
+  ids:
+    ref: JOS 18:6!14
+    wordID: o060180060142
+  translation:
+    english: presence
+    mandarin: 面前
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔναντι
+    strong: '1725'
+- position: 22
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JOS 18:6!15
+    wordID: o060180060151
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 23
+  text: אֱלֹהֵֽי
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: JOS 18:6!16
+    wordID: o060180060161
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 24
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 18:6!16
+    wordID: o060180060162
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 060180030041 060180030021

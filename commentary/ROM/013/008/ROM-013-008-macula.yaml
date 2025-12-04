@@ -1,0 +1,181 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 13:8
+text: Μηδενὶ μηδὲν ὀφείλετε, εἰ μὴ τὸ ἀλλήλους ἀγαπᾶν·
+words:
+- position: 1
+  text: Μηδενὶ
+  lemma: μηδείς
+  normalized: Μηδενί
+  ids:
+    ref: ROM 13:8!1
+    wordID: n45013008001
+  translation:
+    gloss: To no one
+  morphology:
+    class: adj
+    morph: A-DSM-N
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '3367'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: io
+- position: 2
+  text: μηδὲν
+  lemma: μηδείς
+  normalized: μηδέν
+  ids:
+    ref: ROM 13:8!2
+    wordID: n45013008002
+  translation:
+    gloss: nothing
+  morphology:
+    class: adj
+    morph: A-ASN-N
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3367'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.23'
+  syntax:
+    role: o
+- position: 3
+  text: ὀφείλετε
+  lemma: ὀφείλω
+  normalized: ὀφείλετε
+  ids:
+    ref: ROM 13:8!3
+    wordID: n45013008003
+  translation:
+    gloss: owe
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3784'
+  semantic:
+    semanticDomain: '071004'
+    ln: '71.25'
+  syntax:
+    role: v
+    frame: A0:n45012019004 A2:n45013008001 A1:n45013008002
+  discourse:
+    subject: n45012019004
+- position: 4
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: ROM 13:8!4
+    wordID: n45013008004
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.131'
+- position: 5
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: ROM 13:8!5
+    wordID: n45013008005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 6
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: ROM 13:8!6
+    wordID: n45013008006
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ἀλλήλους
+  lemma: ἀλλήλων
+  normalized: ἀλλήλους
+  ids:
+    ref: ROM 13:8!7
+    wordID: n45013008007
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  syntax:
+    role: o
+  discourse:
+    referent: n45012019004
+- position: 8
+  text: ἀγαπᾶν
+  lemma: ἀγαπάω
+  normalized: ἀγαπᾶν
+  ids:
+    ref: ROM 13:8!8
+    wordID: n45013008008
+  translation:
+    gloss: to love
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n45012019004 A1:n45013008007
+  discourse:
+    subject: n45012019004

@@ -1,0 +1,298 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 2:19
+text: כָּל־בָּ֭אֶיהָ לֹ֣א יְשׁוּב֑וּן וְלֹֽא־יַ֝שִּׂ֗יגוּ אָרְח֥וֹת חַיִּֽים׃
+words:
+- position: 1
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: PRO 2:19!1
+    wordID: o200020190011
+  translation:
+    english: all
+    mandarin: 凡
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 2
+  text: בָּ֭אֶי
+  lemma: בּוֹא
+  transliteration: ''
+  ids:
+    ref: PRO 2:19!2
+    wordID: o200020190021
+  translation:
+    english: go to
+    mandarin: 去
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+- position: 3
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 2:19!2
+    wordID: o200020190022
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: οἱ
+    strong: '3588'
+  discourse:
+    participant: '200020160022'
+- position: 4
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PRO 2:19!3
+    wordID: o200020190031
+  translation:
+    english: never
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 5
+  text: יְשׁוּב֑וּ
+  lemma: שׁוּב
+  transliteration: ''
+  ids:
+    ref: PRO 2:19!4
+    wordID: o200020190041
+  translation:
+    english: return
+    mandarin: 转回
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - 007226001028000
+    lexdomain:
+    - '002002001011'
+    sense: '1'
+  syntax:
+    frame: A0:200020190021;
+- position: 6
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: PRO 2:19!4
+    wordID: o200020190042
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - 007226001028000
+    lexdomain:
+    - '002002001011'
+  lxx:
+    text: ἀναστρέψουσιν
+    strong: '390'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 2:19!5
+    wordID: o200020190051
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 8
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: PRO 2:19!5
+    wordID: o200020190052
+  translation:
+    english: none
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐδὲ
+    strong: '3761'
+  syntax:
+    role: adv
+- position: 9
+  text: יַ֝שִּׂ֗יגוּ
+  lemma: נָשַׂג
+  transliteration: yaśśiyḡû
+  ids:
+    ref: PRO 2:19!6
+    wordID: o200020190061
+  translation:
+    english: reach
+    mandarin: 得~着
+    gloss: they.reach
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָשַׂג
+    strong: '5381'
+  semantic:
+    sdbh:
+    - 004926001003000
+    lexdomain:
+    - '002003003010'
+    sense: '4'
+  syntax:
+    role: v
+    frame: AA:200020190021; A0:200020190071;
+  discourse:
+    subject: '200020190021'
+- position: 10
+  text: אָרְח֥וֹת
+  lemma: אֹרַח
+  transliteration: ʾārḥôṯ
+  ids:
+    ref: PRO 2:19!7
+    wordID: o200020190071
+  translation:
+    english: paths
+    mandarin: 路
+    gloss: '[the].paths'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֹרַח
+    strong: '0734'
+  semantic:
+    sdbh:
+    - '000676001003000'
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: τρίβους
+    strong: '5147'
+- position: 11
+  text: חַיִּֽים
+  lemma: חַיִּים
+  transliteration: 'ḥayyiym:'
+  ids:
+    ref: PRO 2:19!8
+    wordID: o200020190081
+  translation:
+    english: life
+    mandarin: 生命
+    gloss: of.life
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חַיִּים
+    strong: '2416'
+  semantic:
+    sdbh:
+    - '002237001001000'
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: ζωῆς
+    strong: '2222'

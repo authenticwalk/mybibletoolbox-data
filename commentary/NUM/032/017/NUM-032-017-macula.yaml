@@ -1,0 +1,791 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 32:17
+text: וַאֲנַ֜חְנוּ נֵחָלֵ֣ץ חֻשִׁ֗ים לִפְנֵי֙ בְּנֵ֣י יִשְׂרָאֵ֔ל עַ֛ד אֲשֶׁ֥ר אִם־הֲבִֽיאֹנֻ֖ם
+  אֶל־מְקוֹמָ֑ם וְיָשַׁ֤ב טַפֵּ֨נוּ֙ בְּעָרֵ֣י הַמִּבְצָ֔ר מִפְּנֵ֖י יֹשְׁבֵ֥י הָאָֽרֶץ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: NUM 32:17!1
+    wordID: o040320170011
+  translation:
+    english: but
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אֲנַ֜חְנוּ
+  lemma: אֲנַחְנוּ
+  transliteration: ʾănaḥənû
+  ids:
+    ref: NUM 32:17!1
+    wordID: o040320170012
+  translation:
+    english: we
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cp
+    gender: common
+    number: plural
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנַחְנוּ
+    strong: 0587
+  lxx:
+    text: ἡμεῖς
+    strong: '2249'
+  syntax:
+    role: s
+  discourse:
+    participant: 040320060032 040320060053
+- position: 3
+  text: נֵחָלֵ֣ץ
+  lemma: חָלַץ
+  transliteration: nēḥālēṣ
+  ids:
+    ref: NUM 32:17!2
+    wordID: o040320170021
+  translation:
+    english: arm
+    mandarin: 武装
+    gloss: we.will.equip.ourselves
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: חָלַץ
+    strong: 2502a
+  semantic:
+    sdbh:
+    - 002308002001000
+    lexdomain:
+    - '002001001060'
+    coredomain:
+    - '172'
+    sense: '1'
+  lxx:
+    text: ἐνοπλισάμενοι
+  syntax:
+    role: v
+    frame: A0:040320170012;
+- position: 4
+  text: חֻשִׁ֗ים
+  lemma: חוּשׁ
+  transliteration: ḥušiym
+  ids:
+    ref: NUM 32:17!3
+    wordID: o040320170031
+  translation:
+    english: ready
+    mandarin: 准备
+    gloss: hurried
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: חוּשׁ
+    strong: '2363'
+  semantic:
+    sdbh:
+    - 002180001002000
+    lexdomain:
+    - '002003003022'
+    coredomain:
+    - '180'
+    sense: '3'
+  lxx:
+    text: προφυλακὴ
+  syntax:
+    role: v
+    frame: A0:040320060032;040320060053;
+  discourse:
+    subject: 040320060032 040320060053
+- position: 5
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: NUM 32:17!4
+    wordID: o040320170041
+  translation:
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: פְנֵי֙
+  lemma: פָּנֶה
+  transliteration: p̄ənê
+  ids:
+    ref: NUM 32:17!4
+    wordID: o040320170042
+  translation:
+    english: ahead of
+    mandarin: 前面
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '1'
+  lxx:
+    text: πρότεροι
+- position: 7
+  text: בְּנֵ֣י
+  lemma: בֵּן
+  transliteration: bənēy
+  ids:
+    ref: NUM 32:17!5
+    wordID: o040320170051
+  translation:
+    english: sons
+    mandarin: 人
+    gloss: the.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '2'
+  lxx:
+    text: υἱῶν
+    strong: '5207'
+- position: 8
+  text: יִשְׂרָאֵ֔ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: NUM 32:17!6
+    wordID: o040320170061
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 9
+  text: עַ֛ד
+  lemma: עַד
+  transliteration: ʿaḏ
+  ids:
+    ref: NUM 32:17!7
+    wordID: o040320170071
+  translation:
+    english: until
+    mandarin: 直到
+    gloss: until
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001003000'
+    lexdomain:
+    - '002002003'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 10
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: NUM 32:17!8
+    wordID: o040320170081
+  translation:
+    english: that
+    gloss: that
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἂν
+    strong: '302'
+- position: 11
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: NUM 32:17!9
+    wordID: o040320170091
+  translation:
+    english: when
+    gloss: (if)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+- position: 12
+  text: הֲבִֽיאֹנֻ֖
+  lemma: בּוֹא
+  transliteration: ''
+  ids:
+    ref: NUM 32:17!10
+    wordID: o040320170101
+  translation:
+    english: brought
+    mandarin: 领
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἀγάγωμεν
+    strong: '33'
+  syntax:
+    role: v
+    frame: AA:040320060032;040320060053; A0:040320170102;
+  discourse:
+    subject: 040320060032 040320060053
+- position: 13
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 32:17!10
+    wordID: o040320170102
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοὺς
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: '040320170051'
+- position: 14
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: NUM 32:17!11
+    wordID: o040320170111
+  translation:
+    english: to
+    mandarin: 到
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 15
+  text: מְקוֹמָ֑
+  lemma: מָקוֹם
+  transliteration: ''
+  ids:
+    ref: NUM 32:17!12
+    wordID: o040320170121
+  translation:
+    english: place
+    mandarin: 地方
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מָקוֹם
+    strong: '4725'
+  semantic:
+    sdbh:
+    - '004324001001000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: τόπον
+    strong: '5117'
+- position: 16
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 32:17!12
+    wordID: o040320170122
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '004324001001000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+  discourse:
+    participant: '040320170051'
+- position: 17
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 32:17!13
+    wordID: o040320170131
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 18
+  text: יָשַׁ֤ב
+  lemma: יָשַׁב
+  transliteration: yāšaḇ
+  ids:
+    ref: NUM 32:17!13
+    wordID: o040320170132
+  translation:
+    english: live
+    mandarin: 住
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001011000'
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '1'
+  lxx:
+    text: κατοικήσει
+  syntax:
+    role: v
+    frame: A0:040320170141;
+- position: 19
+  text: טַפֵּ֨
+  lemma: טַף
+  transliteration: ''
+  ids:
+    ref: NUM 32:17!14
+    wordID: o040320170141
+  translation:
+    english: little ones
+    mandarin: 孩童
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: טַף
+    strong: '2945'
+  semantic:
+    sdbh:
+    - 002709001002000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '1'
+- position: 20
+  text: נוּ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 32:17!14
+    wordID: o040320170142
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 002709001002000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 040320060032 040320060053
+- position: 21
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: NUM 32:17!15
+    wordID: o040320170151
+  translation:
+    english: in
+    mandarin: 在~内
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 22
+  text: עָרֵ֣י
+  lemma: עִיר
+  transliteration: ʿārēy
+  ids:
+    ref: NUM 32:17!15
+    wordID: o040320170152
+  translation:
+    english: cities
+    mandarin: 城
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עִיר
+    strong: '5892'
+  semantic:
+    sdbh:
+    - '005411001001000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+  lxx:
+    text: πόλεσιν
+    strong: '4172'
+- position: 23
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: NUM 32:17!16
+    wordID: o040320170161
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 24
+  text: מִּבְצָ֔ר
+  lemma: מִבְצָר
+  transliteration: mmiḇṣār
+  ids:
+    ref: NUM 32:17!16
+    wordID: o040320170162
+  translation:
+    english: fortified
+    mandarin: 坚固
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִבְצָר
+    strong: '4013'
+  semantic:
+    sdbh:
+    - '003674001002000'
+    lexdomain:
+    - '001005001003'
+    coredomain:
+    - '182'
+    - '172'
+    sense: '1'
+  lxx:
+    text: τετειξισμέναις
+- position: 25
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: NUM 32:17!17
+    wordID: o040320170171
+  translation:
+    english: from
+    mandarin: 因为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 26
+  text: פְּנֵ֖י
+  lemma: פָּנֶה
+  transliteration: pənēy
+  ids:
+    ref: NUM 32:17!17
+    wordID: o040320170172
+  translation:
+    mandarin: 因为
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '3'
+  lxx:
+    text: διὰ
+    strong: '1223'
+- position: 27
+  text: יֹשְׁבֵ֥י
+  lemma: יָשַׁב
+  transliteration: yōšəḇēy
+  ids:
+    ref: NUM 32:17!18
+    wordID: o040320170181
+  translation:
+    english: inhabitants
+    mandarin: 居民
+    gloss: the.inhabitants
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001011000'
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '3'
+  lxx:
+    text: κατοικοῦντας
+    strong: '2730'
+- position: 28
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: NUM 32:17!19
+    wordID: o040320170191
+  translation:
+    english: the
+    mandarin: 这
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 29
+  text: אָֽרֶץ
+  lemma: אֶרֶץ
+  transliteration: 'ʾāreṣ:'
+  ids:
+    ref: NUM 32:17!19
+    wordID: o040320170192
+  translation:
+    english: land
+    mandarin: 地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆν
+    strong: '1093'

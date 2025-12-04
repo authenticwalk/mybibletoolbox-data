@@ -1,0 +1,443 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 13:18
+text: וּקְשָׁת֖וֹת נְעָרִ֣ים תְּרַטַּ֑שְׁנָה וּפְרִי־בֶ֨טֶן֙ לֹ֣א יְרַחֵ֔מוּ עַל־בָּנִ֖ים
+  לֹֽא־תָח֥וּס עֵינָֽם׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ISA 13:18!1
+    wordID: o230130180011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: קְשָׁת֖וֹת
+  lemma: קֶשֶׁת
+  transliteration: qəšāṯôṯ
+  ids:
+    ref: ISA 13:18!1
+    wordID: o230130180012
+  translation:
+    english: bows
+    mandarin: 弓
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קֶשֶׁת
+    strong: '7198'
+  semantic:
+    sdbh:
+    - '006631001001000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    sense: '1'
+  lxx:
+    text: τοχεύματα
+  syntax:
+    role: s
+- position: 3
+  text: נְעָרִ֣ים
+  lemma: נַעַר
+  transliteration: nəʿāriym
+  ids:
+    ref: ISA 13:18!2
+    wordID: o230130180021
+  translation:
+    english: young men
+    mandarin: 少年人
+    gloss: youths
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נַעַר
+    strong: '5288'
+  semantic:
+    sdbh:
+    - 004849001001000
+    lexdomain:
+    - '001001002003'
+    - '001001002003001'
+    coredomain:
+    - '005'
+    - 082
+    sense: '2'
+  lxx:
+    text: νεανίσκων
+  syntax:
+    role: o
+- position: 4
+  text: תְּרַטַּ֑שְׁנָה
+  lemma: רָטַשׁ
+  transliteration: təraṭṭašənâ
+  ids:
+    ref: ISA 13:18!3
+    wordID: o230130180031
+  translation:
+    english: slaughter
+    mandarin: 射死
+    gloss: they.will.dash.in.pieces
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3fp
+    gender: feminine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: רָטַשׁ
+    strong: '7376'
+  semantic:
+    sense: '2'
+  lxx:
+    text: συντρίψουσιν
+  syntax:
+    role: v
+    frame: A0:230130180012; A1:230130180021;
+- position: 5
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ISA 13:18!4
+    wordID: o230130180041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: פְרִי
+  lemma: פְּרִי
+  transliteration: p̄ərî-
+  ids:
+    ref: ISA 13:18!4
+    wordID: o230130180042
+  translation:
+    english: fruit
+    mandarin: 婴儿
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פְּרִי
+    strong: '6529'
+  semantic:
+    sdbh:
+    - '006004001005000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '129'
+    sense: '1'
+- position: 7
+  text: בֶ֨טֶן֙
+  lemma: בֶּטֶן
+  transliteration: ḇeṭen
+  ids:
+    ref: ISA 13:18!5
+    wordID: o230130180051
+  translation:
+    english: womb
+    mandarin: 腹
+    gloss: of.[the].womb
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֶּטֶן
+    strong: 0990
+  semantic:
+    sdbh:
+    - 000920001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '3'
+- position: 8
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: ISA 13:18!6
+    wordID: o230130180061
+  translation:
+    english: 'no'
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 9
+  text: יְרַחֵ֔מוּ
+  lemma: רָחַם
+  transliteration: yəraḥēmû
+  ids:
+    ref: ISA 13:18!7
+    wordID: o230130180071
+  translation:
+    english: have ~ mercy
+    mandarin: 怜悯
+    gloss: they.will.have.compassion.on
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: רָחַם
+    strong: '7355'
+  semantic:
+    sdbh:
+    - 006758001002000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    sense: '1'
+  lxx:
+    text: ἐλεήσωσιν
+  syntax:
+    role: v
+    frame: A0:230130170051; A1:230130180042;
+  discourse:
+    subject: '230130170051'
+- position: 10
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: ISA 13:18!8
+    wordID: o230130180081
+  translation:
+    english: 'on'
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 11
+  text: בָּנִ֖ים
+  lemma: בֵּן
+  transliteration: bāniym
+  ids:
+    ref: ISA 13:18!9
+    wordID: o230130180091
+  translation:
+    english: children
+    mandarin: 小孩
+    gloss: children
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '5'
+  lxx:
+    text: τέκνοις
+    strong: '5043'
+- position: 12
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: ISA 13:18!10
+    wordID: o230130180101
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 13
+  text: תָח֥וּס
+  lemma: חוּס
+  transliteration: ṯāḥûs
+  ids:
+    ref: ISA 13:18!11
+    wordID: o230130180111
+  translation:
+    english: pity
+    mandarin: 顾惜
+    gloss: it.will.look.with.pity
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חוּס
+    strong: '2347'
+  semantic:
+    sdbh:
+    - '002166001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '106'
+    - '036'
+    sense: '1'
+  lxx:
+    text: φείσονται
+  syntax:
+    role: v
+    frame: A0:230130180121;
+- position: 14
+  text: עֵינָֽ
+  lemma: עַיִן
+  transliteration: ''
+  ids:
+    ref: ISA 13:18!12
+    wordID: o230130180121
+  translation:
+    english: eyes
+    mandarin: 眼
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀφθαλμοὶ
+    strong: '3788'
+- position: 15
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 13:18!12
+    wordID: o230130180122
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  discourse:
+    participant: '230130170051'

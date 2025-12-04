@@ -1,0 +1,225 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 5:20
+text: וְלֹֽא־תַעֲנֶ֥ה בְרֵֽעֲךָ֖ עֵ֥ד שָֽׁוְא׃ס
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 5:20!1
+    wordID: o050050200011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 5:20!1
+    wordID: o050050200012
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 3
+  text: תַעֲנֶ֥ה
+  lemma: עָנָה
+  transliteration: ṯaʿăneh
+  ids:
+    ref: DEU 5:20!2
+    wordID: o050050200021
+  translation:
+    english: bear
+    mandarin: 做
+    gloss: you.must.testify
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001002000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    - 095
+    sense: '2'
+  lxx:
+    text: ψευδομαρτυρήσεις
+    strong: '5576'
+  syntax:
+    role: v
+    frame: A0:050050010091; A1:050050200041;
+  discourse:
+    subject: 050050010091
+- position: 4
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: DEU 5:20!3
+    wordID: o050050200031
+  translation:
+    english: against
+    mandarin: 陷害
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 5
+  text: רֵֽעֲ
+  lemma: רֵעַ
+  transliteration: ''
+  ids:
+    ref: DEU 5:20!3
+    wordID: o050050200032
+  translation:
+    english: neighbor
+    mandarin: 邻舍
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רֵעַ
+    strong: '7453'
+  semantic:
+    sdbh:
+    - 006846002001000
+    lexdomain:
+    - '001001002003003'
+    sense: '1'
+- position: 6
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 5:20!3
+    wordID: o050050200033
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 006846002001000
+    lexdomain:
+    - '001001002003003'
+  lxx:
+    text: κατὰ
+    strong: '2596'
+  discourse:
+    participant: 050050010091
+- position: 7
+  text: עֵ֥ד
+  lemma: עֵד
+  transliteration: ʿēḏ
+  ids:
+    ref: DEU 5:20!4
+    wordID: o050050200041
+  translation:
+    english: witness
+    mandarin: 见证
+    gloss: testimony
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֵד
+    strong: '5707'
+  semantic:
+    sdbh:
+    - '005236001004000'
+    lexdomain:
+    - 002004001009008
+    sense: '1'
+  lxx:
+    text: μαρτυρίαν
+    strong: '3141'
+- position: 8
+  text: שָֽׁוְא
+  lemma: שָׁוְא
+  transliteration: 'šāwəʾ:'
+  ids:
+    ref: DEU 5:20!5
+    wordID: o050050200051
+  translation:
+    english: 'false'
+    mandarin: 假
+    gloss: of.worthlessness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁוְא
+    strong: '7723'
+  semantic:
+    sdbh:
+    - '007223001002000'
+    lexdomain:
+    - '002001003007'
+    coredomain:
+    - '184'
+    - '017'
+    sense: '3'
+  lxx:
+    text: ψευδῆ
+    strong: '5579'

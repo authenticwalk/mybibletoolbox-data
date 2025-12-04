@@ -1,0 +1,433 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 79:8
+text: אַֽל־תִּזְכָּר־לָנוּ֮ עֲוֺנֹ֪ת רִאשֹׁ֫נִ֥ים מַ֭הֵר יְקַדְּמ֣וּנוּ רַחֲמֶ֑יךָ
+  כִּ֖י דַלּ֣וֹנוּ מְאֹֽד׃
+words:
+- position: 1
+  text: אַֽל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 79:8!1
+    wordID: o190790080011
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: תִּזְכָּר
+  lemma: זָכַר
+  transliteration: tizkār-
+  ids:
+    ref: PSA 79:8!2
+    wordID: o190790080021
+  translation:
+    english: remember
+    mandarin: 记得
+    gloss: remember
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: זָכַר
+    strong: '2142'
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+    sense: '1'
+  lxx:
+    text: μνησθῇς
+    strong: '3415'
+  syntax:
+    role: v
+    frame: A0:190790050031; A1:190790080041;
+  discourse:
+    subject: '190790050031'
+- position: 3
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 79:8!3
+    wordID: o190790080031
+  translation:
+    english: against
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 4
+  text: נוּ֮
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:8!3
+    wordID: o190790080032
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 190790010022 190790070041
+- position: 5
+  text: עֲוֺנֹ֪ת
+  lemma: עָוֺן
+  transliteration: ʿăwōnōṯ
+  ids:
+    ref: PSA 79:8!4
+    wordID: o190790080041
+  translation:
+    english: iniquities
+    mandarin: 罪孽
+    gloss: '[the].iniquities'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָוֺן
+    strong: '5771'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: ἀνομιῶν
+    strong: '458'
+- position: 6
+  text: רִאשֹׁ֫נִ֥ים
+  lemma: רִאשׁוֹן
+  transliteration: riʾšōniym
+  ids:
+    ref: PSA 79:8!5
+    wordID: o190790080051
+  translation:
+    english: former
+    mandarin: 先前
+    gloss: of.[the].forefathers
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רִאשׁוֹן
+    strong: '7223'
+  semantic:
+    sdbh:
+    - '006651001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '2'
+  lxx:
+    text: ἀρξαίων
+    strong: '744'
+- position: 7
+  text: מַ֭הֵר
+  lemma: מַהֵר
+  transliteration: mahēr
+  ids:
+    ref: PSA 79:8!6
+    wordID: o190790080061
+  translation:
+    english: quickly
+    mandarin: 快快
+    gloss: quickly
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: imperative
+  lexical:
+    stronglemma: מַהֵר
+    strong: '4116'
+  semantic:
+    sdbh:
+    - 003759001006000
+    lexdomain:
+    - '002002003003'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: ταξὺ
+    strong: '5035'
+  syntax:
+    role: adv
+- position: 8
+  text: יְקַדְּמ֣וּ
+  lemma: קָדַם
+  transliteration: ''
+  ids:
+    ref: PSA 79:8!7
+    wordID: o190790080071
+  translation:
+    english: come ~ tomeet
+    mandarin: 临到
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: קָדַם
+    strong: '6923'
+  semantic:
+    sdbh:
+    - '006375001005000'
+    lexdomain:
+    - '002003002017'
+    coredomain:
+    - '110'
+    - 092
+    sense: '2'
+  lxx:
+    text: προκαταλαβέτωσαν
+  syntax:
+    role: v
+    frame: A1:190790080072; A0:190790080081;
+- position: 9
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:8!7
+    wordID: o190790080072
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '006375001005000'
+    lexdomain:
+    - '002003002017'
+    coredomain:
+    - '110'
+    - 092
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: 190790010022 190790070041
+- position: 10
+  text: רַחֲמֶ֑י
+  lemma: רַחֲמִים
+  transliteration: ''
+  ids:
+    ref: PSA 79:8!8
+    wordID: o190790080081
+  translation:
+    english: compassion
+    mandarin: 怜悯
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רַחֲמִים
+    strong: '7356'
+  semantic:
+    sdbh:
+    - '006763001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    sense: '1'
+  lxx:
+    text: οἰκτιρμοί
+    strong: '3628'
+- position: 11
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:8!8
+    wordID: o190790080082
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '006763001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190790050031'
+- position: 12
+  text: כִּ֖י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: PSA 79:8!9
+    wordID: o190790080091
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 13
+  text: דַלּ֣וֹנוּ
+  lemma: דָּלַל
+  transliteration: ḏallônû
+  ids:
+    ref: PSA 79:8!10
+    wordID: o190790080101
+  translation:
+    english: brought ~ low
+    mandarin: 落到~卑微的地步
+    gloss: we.have.become.low
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: דָּלַל
+    strong: '1809'
+  semantic:
+    sdbh:
+    - '001665001003000'
+    lexdomain:
+    - '002001002015'
+    coredomain:
+    - '170'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἐπτωξεύσαμεν
+  syntax:
+    role: v
+    frame: A0:190790010022;190790070041;
+  discourse:
+    subject: 190790010022 190790070041
+- position: 14
+  text: מְאֹֽד
+  lemma: מְאֹד
+  transliteration: 'məʾōḏ:'
+  ids:
+    ref: PSA 79:8!11
+    wordID: o190790080111
+  translation:
+    english: very
+    mandarin: 极
+    gloss: exceedingly
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: מְאֹד
+    strong: '3966'
+  lxx:
+    text: σφόδρα
+    strong: '4970'
+  syntax:
+    role: adv

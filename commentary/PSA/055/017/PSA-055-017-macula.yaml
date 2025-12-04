@@ -1,0 +1,244 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 55:17
+text: אֲ֭נִי אֶל־אֱלֹהִ֣ים אֶקְרָ֑א וַ֝יהוָ֗ה יוֹשִׁיעֵֽנִי׃
+words:
+- position: 1
+  text: אֲ֭נִי
+  lemma: אֲנִי
+  transliteration: ʾănî
+  ids:
+    ref: PSA 55:17!1
+    wordID: o190550170011
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '190550010042'
+- position: 2
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: PSA 55:17!2
+    wordID: o190550170021
+  translation:
+    english: to
+    mandarin: 向
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 3
+  text: אֱלֹהִ֣ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 55:17!3
+    wordID: o190550170031
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸν
+    strong: '2316'
+- position: 4
+  text: אֶקְרָ֑א
+  lemma: קָרָא
+  transliteration: ʾeqrāʾ
+  ids:
+    ref: PSA 55:17!4
+    wordID: o190550170041
+  translation:
+    english: call
+    mandarin: 求告
+    gloss: I.will.call.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐκέκραχα
+    strong: '2896'
+  syntax:
+    role: v
+    frame: A0:190550170011;
+- position: 5
+  text: וַ֝
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 55:17!5
+    wordID: o190550170051
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: יהוָ֗ה
+  lemma: יהוה
+  transliteration: yhwāh
+  ids:
+    ref: PSA 55:17!5
+    wordID: o190550170052
+  translation:
+    english: LORD
+    mandarin: 耶和华
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s
+- position: 7
+  text: יוֹשִׁיעֵֽ
+  lemma: יָשַׁע
+  transliteration: ''
+  ids:
+    ref: PSA 55:17!6
+    wordID: o190550170061
+  translation:
+    english: save
+    mandarin: 拯救
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: יָשַׁע
+    strong: '3467'
+  semantic:
+    sdbh:
+    - '003176001002000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: εἰσήκουσέν
+    strong: '1522'
+  syntax:
+    role: v
+    frame: AA:190550170052; A0:190550170062;
+- position: 8
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 55:17!6
+    wordID: o190550170062
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '003176001002000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  lxx:
+    text: μου
+    strong: '3450'
+  syntax:
+    role: o
+  discourse:
+    participant: '190550010042'

@@ -1,0 +1,179 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 25:4
+text: לֹא־תַחְסֹ֥ם שׁ֖וֹר בְּדִישֽׁוֹ׃ס
+words:
+- position: 1
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 25:4!1
+    wordID: o050250040011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: תַחְסֹ֥ם
+  lemma: חָסַם
+  transliteration: ṯaḥsōm
+  ids:
+    ref: DEU 25:4!2
+    wordID: o050250040021
+  translation:
+    english: muzzle
+    mandarin: 笼住~嘴
+    gloss: you.will.muzzle
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָסַם
+    strong: '2629'
+  semantic:
+    sdbh:
+    - '002422001001000'
+    lexdomain:
+    - '002001001062'
+    coredomain:
+    - '001'
+    - '040'
+    - '010'
+    sense: '1'
+  lxx:
+    text: φιμώσεις
+    strong: '5392'
+  syntax:
+    role: v
+    frame: A0:050240070072; A1:050250040031;
+  discourse:
+    subject: '050240070072'
+- position: 3
+  text: שׁ֖וֹר
+  lemma: שׁוֹר
+  transliteration: šôr
+  ids:
+    ref: DEU 25:4!3
+    wordID: o050250040031
+  translation:
+    english: ox
+    mandarin: 牛
+    gloss: an.ox
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שׁוֹר
+    strong: '7794'
+  semantic:
+    sense: '1'
+  lxx:
+    text: βοῦν
+    strong: '1016'
+  syntax:
+    role: o
+- position: 4
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: DEU 25:4!4
+    wordID: o050250040041
+  translation:
+    english: while
+    mandarin: 时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 5
+  text: דִישֽׁ
+  lemma: דּוּשׁ
+  transliteration: ''
+  ids:
+    ref: DEU 25:4!4
+    wordID: o050250040042
+  translation:
+    english: treading out
+    mandarin: 踹谷
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: דּוּשׁ
+    strong: '1758'
+  semantic:
+    sdbh:
+    - '001615001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '007'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:050250040043;
+- position: 6
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 25:4!4
+    wordID: o050250040043
+  translation:
+    english: it
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '001615001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '007'
+  syntax:
+    role: s
+  discourse:
+    participant: '050250040031'

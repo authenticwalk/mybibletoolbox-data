@@ -1,0 +1,457 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 90:2
+text: בְּטֶ֤רֶם׀הָ֘רִ֤ים יֻלָּ֗דוּ וַתְּח֣וֹלֵֽל אֶ֣רֶץ וְתֵבֵ֑ל וּֽמֵעוֹלָ֥ם עַד־ע֝וֹלָ֗ם
+  אַתָּ֥ה אֵֽל׃
+words:
+- position: 1
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 90:2!1
+    wordID: o190900020011
+  translation:
+    english: at
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 2
+  text: טֶ֤רֶם
+  lemma: טֶרֶם
+  transliteration: ṭerem
+  ids:
+    ref: PSA 90:2!1
+    wordID: o190900020012
+  translation:
+    english: before
+    mandarin: 之先
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: טֶרֶם
+    strong: '2962'
+  semantic:
+    sdbh:
+    - '002726001001000'
+    lexdomain:
+    - '002002002010'
+  lxx:
+    text: πρὸ
+    strong: '4253'
+- position: 3
+  text: הָ֘רִ֤ים
+  lemma: הַר
+  transliteration: hāriym
+  ids:
+    ref: PSA 90:2!2
+    wordID: o190900020021
+  translation:
+    english: mountains
+    mandarin: 群山
+    gloss: mountains
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הַר
+    strong: '2022'
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ὄρη
+    strong: '3735'
+  syntax:
+    role: s
+- position: 4
+  text: יֻלָּ֗דוּ
+  lemma: יָלַד
+  transliteration: yullāḏû
+  ids:
+    ref: PSA 90:2!3
+    wordID: o190900020031
+  translation:
+    english: born
+    mandarin: 生出
+    gloss: they.were.born
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: pual
+    type: yiqtol
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001005000
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - '030'
+    sense: '6'
+  lxx:
+    text: γενηθῆναι
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A1:190900020021;
+- position: 5
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 90:2!4
+    wordID: o190900020041
+  translation:
+    english: or
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: תְּח֣וֹלֵֽל
+  lemma: חיל
+  transliteration: təḥôlēl
+  ids:
+    ref: PSA 90:2!4
+    wordID: o190900020042
+  translation:
+    english: brought forth
+    mandarin: 造成
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vow2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: polel
+    type: wayyiqtol
+  lexical:
+    stronglemma: חיל
+    strong: 2342a
+  semantic:
+    sdbh:
+    - 002239001007000
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+    sense: '6'
+  lxx:
+    text: πλασθῆναι
+  syntax:
+    role: v
+    frame: A0:190900010051; A1:190900020051;190900020062;
+  discourse:
+    subject: '190900010051'
+- position: 7
+  text: אֶ֣רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: PSA 90:2!5
+    wordID: o190900020051
+  translation:
+    english: earth
+    mandarin: 大地
+    gloss: '[the].earth'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆν
+    strong: '1093'
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 90:2!6
+    wordID: o190900020061
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: תֵבֵ֑ל
+  lemma: תֵּבֵל
+  transliteration: ṯēḇēl
+  ids:
+    ref: PSA 90:2!6
+    wordID: o190900020062
+  translation:
+    english: world
+    mandarin: 世界
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תֵּבֵל
+    strong: '8398'
+  semantic:
+    sdbh:
+    - '007703001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    sense: '1'
+  lxx:
+    text: οἰκουμένην
+    strong: '3625'
+- position: 10
+  text: וּֽ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 90:2!7
+    wordID: o190900020071
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: PSA 90:2!7
+    wordID: o190900020072
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 12
+  text: עוֹלָ֥ם
+  lemma: עוֹלָם
+  transliteration: ʿôlām
+  ids:
+    ref: PSA 90:2!7
+    wordID: o190900020073
+  translation:
+    english: everlasting
+    mandarin: 亘古
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: αἰῶνος
+    strong: '165'
+- position: 13
+  text: עַד
+  lemma: עַד
+  transliteration: ʿaḏ-
+  ids:
+    ref: PSA 90:2!8
+    wordID: o190900020081
+  translation:
+    english: to
+    mandarin: 到
+    gloss: until
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001002000'
+    lexdomain:
+    - '002002002010'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 14
+  text: ע֝וֹלָ֗ם
+  lemma: עוֹלָם
+  transliteration: ʿôlām
+  ids:
+    ref: PSA 90:2!9
+    wordID: o190900020091
+  translation:
+    english: everlasting
+    mandarin: 永远
+    gloss: perpetuity
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: αἰῶνος
+    strong: '165'
+- position: 15
+  text: אַתָּ֥ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: PSA 90:2!10
+    wordID: o190900020101
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190900010051'
+- position: 16
+  text: אֵֽל
+  lemma: אֵל
+  transliteration: 'ʾēl:'
+  ids:
+    ref: PSA 90:2!11
+    wordID: o190900020111
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: '[are].God'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: p

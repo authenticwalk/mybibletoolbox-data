@@ -1,0 +1,494 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 12:12
+text: אַל־נָ֥א תְהִ֖י כַּמֵּ֑ת אֲשֶׁ֤ר בְּצֵאתוֹ֙ מֵרֶ֣חֶם אִמּ֔וֹ וַיֵּאָכֵ֖ל חֲצִ֥י
+  בְשָׂרֽוֹ׃
+words:
+- position: 1
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: NUM 12:12!1
+    wordID: o040120120011
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: נָ֥א
+  lemma: נָא
+  transliteration: nāʾ
+  ids:
+    ref: NUM 12:12!2
+    wordID: o040120120021
+  translation:
+    english: please
+    mandarin: 求
+    gloss: please
+  morphology:
+    class: ij
+    pos: particle
+    morph: Te
+    type: exhortation
+  lexical:
+    stronglemma: נָא
+    strong: '4994'
+  syntax:
+    role: adv
+- position: 3
+  text: תְהִ֖י
+  lemma: הָיָה
+  transliteration: ṯəhiy
+  ids:
+    ref: NUM 12:12!3
+    wordID: o040120120031
+  translation:
+    english: be
+    mandarin: 让
+    gloss: let.her.be
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: γένηται
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:040120100121;
+  discourse:
+    subject: '040120100121'
+- position: 4
+  text: כַּ
+  lemma: כְּ
+  transliteration: ka
+  ids:
+    ref: NUM 12:12!4
+    wordID: o040120120041
+  translation:
+    english: like
+    mandarin: 像
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡσεὶ
+    strong: '5616'
+- position: 5
+  text: מֵּ֑ת
+  lemma: מוּת
+  transliteration: mmēṯ
+  ids:
+    ref: NUM 12:12!4
+    wordID: o040120120042
+  translation:
+    english: dead
+    mandarin: 死胎
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001001000
+    lexdomain:
+    - 002001001019
+    sense: '4'
+- position: 6
+  text: אֲשֶׁ֤ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: NUM 12:12!5
+    wordID: o040120120051
+  translation:
+    english: whose
+    gloss: whom
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+- position: 7
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: NUM 12:12!6
+    wordID: o040120120061
+  translation:
+    english: when
+    mandarin: 一~就
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 8
+  text: צֵאת
+  lemma: יָצָא
+  transliteration: ''
+  ids:
+    ref: NUM 12:12!6
+    wordID: o040120120062
+  translation:
+    english: comes out
+    mandarin: 出
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: יָצָא
+    strong: '3318'
+  semantic:
+    sdbh:
+    - '003035001001000'
+    lexdomain:
+    - '002002001011'
+    sense: '4'
+  lxx:
+    text: ἐκπορευόμενον
+    strong: '1607'
+  syntax:
+    role: v
+    frame: A0:040120120063;
+- position: 9
+  text: וֹ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 12:12!6
+    wordID: o040120120063
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '003035001001000'
+    lexdomain:
+    - '002002001011'
+  syntax:
+    role: s
+  discourse:
+    participant: '040120120043'
+- position: 10
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: NUM 12:12!7
+    wordID: o040120120071
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐκ
+    strong: '1537'
+- position: 11
+  text: רֶ֣חֶם
+  lemma: רֶחֶם
+  transliteration: reḥem
+  ids:
+    ref: NUM 12:12!7
+    wordID: o040120120072
+  translation:
+    english: womb
+    mandarin: 肚腹
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רֶחֶם
+    strong: '7358'
+  semantic:
+    sdbh:
+    - 006759001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    - '030'
+    sense: '1'
+  lxx:
+    text: μήτρας
+    strong: '3388'
+- position: 12
+  text: אִמּ֔
+  lemma: אֵם
+  transliteration: ''
+  ids:
+    ref: NUM 12:12!8
+    wordID: o040120120081
+  translation:
+    english: mother’s
+    mandarin: ~母亲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵם
+    strong: '0517'
+  semantic:
+    sdbh:
+    - 000481001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: μητρὸς
+    strong: '3384'
+- position: 13
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 12:12!8
+    wordID: o040120120082
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 000481001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  discourse:
+    participant: '040120120043'
+- position: 14
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: NUM 12:12!9
+    wordID: o040120120091
+  translation:
+    english: then
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: יֵּאָכֵ֖ל
+  lemma: אָכַל
+  transliteration: yyēʾāḵēl
+  ids:
+    ref: NUM 12:12!9
+    wordID: o040120120092
+  translation:
+    english: eaten away
+    mandarin: 烂掉
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '2'
+  lxx:
+    text: κατεσθίει
+    strong: '2719'
+  syntax:
+    role: v
+    frame: A1:040120120101;
+- position: 16
+  text: חֲצִ֥י
+  lemma: חֲצִי
+  transliteration: ḥăṣiy
+  ids:
+    ref: NUM 12:12!10
+    wordID: o040120120101
+  translation:
+    english: half
+    mandarin: 一半
+    gloss: (the).half
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֲצִי
+    strong: '2677'
+  semantic:
+    sdbh:
+    - 002469001001000
+    lexdomain:
+    - '001'
+    coredomain:
+    - 038
+    sense: '1'
+  lxx:
+    text: ἥμισυ
+    strong: '2255'
+- position: 17
+  text: בְשָׂרֽ
+  lemma: בָּשָׂר
+  transliteration: ''
+  ids:
+    ref: NUM 12:12!11
+    wordID: o040120120111
+  translation:
+    english: flesh
+    mandarin: 肉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בָּשָׂר
+    strong: '1320'
+  semantic:
+    sdbh:
+    - '001217001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: σαρκῶν
+    strong: '4561'
+- position: 18
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 12:12!11
+    wordID: o040120120112
+  translation:
+    english: whose
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '001217001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  discourse:
+    participant: '040120120043'

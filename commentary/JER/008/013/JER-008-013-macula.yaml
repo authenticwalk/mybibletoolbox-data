@@ -1,0 +1,642 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 8:13
+text: אָסֹ֥ף אֲסִיפֵ֖ם נְאֻם־יְהֹוָ֑ה אֵין֩ עֲנָבִ֨ים בַּגֶּ֜פֶן וְאֵ֧ין תְּאֵנִ֣ים
+  בַּתְּאֵנָ֗ה וְהֶֽעָלֶה֙ נָבֵ֔ל וָאֶתֵּ֥ן לָהֶ֖ם יַעַבְרֽוּם׃
+words:
+- position: 1
+  text: אָסֹ֥ף
+  lemma: אָסַף
+  transliteration: ʾāsōp̄
+  ids:
+    ref: JER 8:13!1
+    wordID: o240080130011
+  translation:
+    english: gather
+    mandarin: 结集
+    gloss: surely.(gather)
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqa
+    stem: qal
+    type: infinitive absolute
+  lexical:
+    stronglemma: אָסַף
+    strong: '0622'
+  semantic:
+    sdbh:
+    - 000569001002000
+    lexdomain:
+    - '002003002014'
+  syntax:
+    role: adv
+- position: 2
+  text: אֲסִיפֵ֖
+  lemma: אסף
+  transliteration: ''
+  ids:
+    ref: JER 8:13!2
+    wordID: o240080130021
+  translation:
+    english: bring ~ toan end
+    mandarin: 收走
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: אסף
+    strong: '5486'
+  semantic:
+    sdbh:
+    - 000569001010000
+    lexdomain:
+    - '002002002006'
+    coredomain:
+    - 099
+    - '006'
+    sense: '2'
+  syntax:
+    role: v
+    frame: AA:240080120191; A0:240080130022;
+  discourse:
+    subject: '240080120191'
+- position: 3
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 8:13!2
+    wordID: o240080130022
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 000569001010000
+    lexdomain:
+    - '002002002006'
+    coredomain:
+    - 099
+    - '006'
+  syntax:
+    role: o
+  discourse:
+    participant: '240080110041'
+- position: 4
+  text: נְאֻם
+  lemma: נְאֻם
+  transliteration: nəʾum-
+  ids:
+    ref: JER 8:13!3
+    wordID: o240080130031
+  translation:
+    english: declares
+    mandarin: 说
+    gloss: the.utterance
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נְאֻם
+    strong: '5002'
+  semantic:
+    sdbh:
+    - 004584001001000
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    - '134'
+    sense: '1'
+  lxx:
+    text: λέγει
+    strong: '3004'
+- position: 5
+  text: יְהֹוָ֑ה
+  lemma: יהוה
+  transliteration: yəhōwāh
+  ids:
+    ref: JER 8:13!4
+    wordID: o240080130041
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 6
+  text: אֵין֩
+  lemma: אַיִן
+  transliteration: ʾên
+  ids:
+    ref: JER 8:13!5
+    wordID: o240080130051
+  translation:
+    english: there will be no
+    mandarin: 没有
+    gloss: there.[will].not.[be]
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 7
+  text: עֲנָבִ֨ים
+  lemma: עֵנָב
+  transliteration: ʿănāḇiym
+  ids:
+    ref: JER 8:13!6
+    wordID: o240080130061
+  translation:
+    english: grapes
+    mandarin: 葡萄
+    gloss: grapes
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֵנָב
+    strong: '6025'
+  semantic:
+    sense: '1'
+  lxx:
+    text: σταφυλὴ
+  syntax:
+    role: s
+- position: 8
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: JER 8:13!7
+    wordID: o240080130071
+  translation:
+    english: 'on'
+    mandarin: 上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: גֶּ֜פֶן
+  lemma: גֶּפֶן
+  transliteration: gep̄en
+  ids:
+    ref: JER 8:13!7
+    wordID: o240080130072
+  translation:
+    english: vine
+    mandarin: 葡萄树
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גֶּפֶן
+    strong: '1612'
+  semantic:
+    sdbh:
+    - '001477001002000'
+    lexdomain:
+    - '001003001'
+    coredomain:
+    - '125'
+    - '007'
+    sense: '1'
+- position: 10
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 8:13!8
+    wordID: o240080130081
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: אֵ֧ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: JER 8:13!8
+    wordID: o240080130082
+  translation:
+    english: 'no'
+    mandarin: 没有
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 12
+  text: תְּאֵנִ֣ים
+  lemma: תְּאֵנָה
+  transliteration: təʾēniym
+  ids:
+    ref: JER 8:13!9
+    wordID: o240080130091
+  translation:
+    english: figs
+    mandarin: 无花果
+    gloss: figs
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּאֵנָה
+    strong: '8384'
+  semantic:
+    sdbh:
+    - 007688001001000
+    lexdomain:
+    - '001003002'
+    - '001004003004'
+    coredomain:
+    - '125'
+    sense: '2'
+  lxx:
+    text: σῦκα
+    strong: '4810'
+  syntax:
+    role: s
+- position: 13
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: JER 8:13!10
+    wordID: o240080130101
+  translation:
+    english: 'on'
+    mandarin: 上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 14
+  text: תְּאֵנָ֗ה
+  lemma: תְּאֵנָה
+  transliteration: təʾēnāh
+  ids:
+    ref: JER 8:13!10
+    wordID: o240080130102
+  translation:
+    english: fig tree
+    mandarin: 无花果树
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּאֵנָה
+    strong: '8384'
+  semantic:
+    sdbh:
+    - 007688001001000
+    lexdomain:
+    - '001003002'
+    - '001004003004'
+    coredomain:
+    - '125'
+    sense: '1'
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 8:13!11
+    wordID: o240080130111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: הֶֽ
+  lemma: הַ
+  transliteration: he
+  ids:
+    ref: JER 8:13!11
+    wordID: o240080130112
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰ
+    strong: '3588'
+- position: 17
+  text: עָלֶה֙
+  lemma: עָלֶה
+  transliteration: ʿāleh
+  ids:
+    ref: JER 8:13!11
+    wordID: o240080130113
+  translation:
+    english: leaves
+    mandarin: 叶子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָלֶה
+    strong: '5929'
+  semantic:
+    sdbh:
+    - '005443001001000'
+    lexdomain:
+    - '001003002'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: φύλλα
+    strong: '5444'
+- position: 18
+  text: נָבֵ֔ל
+  lemma: נָבֵל
+  transliteration: nāḇēl
+  ids:
+    ref: JER 8:13!12
+    wordID: o240080130121
+  translation:
+    english: wither
+    mandarin: 枯干
+    gloss: it.will.wither
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָבֵל
+    strong: '5034'
+  semantic:
+    sdbh:
+    - '004615001001000'
+    lexdomain:
+    - '002001001022'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: κατερρύηκεν
+  syntax:
+    role: v
+    frame: A0:240080130113;
+- position: 19
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: JER 8:13!13
+    wordID: o240080130131
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 20
+  text: אֶתֵּ֥ן
+  lemma: נָתַן
+  transliteration: ʾettēn
+  ids:
+    ref: JER 8:13!13
+    wordID: o240080130132
+  translation:
+    english: given
+    mandarin: 赐给
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:240080130041; A1:240080130151;
+  discourse:
+    subject: '240080130041'
+- position: 21
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: JER 8:13!14
+    wordID: o240080130141
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 22
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 8:13!14
+    wordID: o240080130142
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  discourse:
+    participant: '240080110041'
+- position: 23
+  text: יַעַבְרֽוּ
+  lemma: עָבַר
+  transliteration: ''
+  ids:
+    ref: JER 8:13!15
+    wordID: o240080130151
+  translation:
+    english: passed away
+    mandarin: 离开
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '8'
+  syntax:
+    role: v
+    frame: A0:240060220092;
+  discourse:
+    subject: '240060220092'
+- position: 24
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 8:13!15
+    wordID: o240080130152
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  syntax:
+    role: adv
+  discourse:
+    participant: '240080110041'

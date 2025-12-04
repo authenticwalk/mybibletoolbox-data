@@ -1,0 +1,195 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 119:130
+text: פֵּ֖תַח דְּבָרֶ֥יךָ יָאִ֗יר מֵבִ֥ין פְּתָיִֽים׃
+words:
+- position: 1
+  text: פֵּ֖תַח
+  lemma: פֵּתַח
+  transliteration: pēṯaḥ
+  ids:
+    ref: PSA 119:130!1
+    wordID: o191191300011
+  translation:
+    english: unfolding
+    mandarin: 解开
+    gloss: the.opening
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פֵּתַח
+    strong: '6608'
+  semantic:
+    sdbh:
+    - '006071001001000'
+    lexdomain:
+    - '002001003005'
+    coredomain:
+    - '041'
+    - '199'
+    sense: '1'
+- position: 2
+  text: דְּבָרֶ֥י
+  lemma: דָּבָר
+  transliteration: ''
+  ids:
+    ref: PSA 119:130!2
+    wordID: o191191300021
+  translation:
+    english: words
+    mandarin: 话
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λόγων
+    strong: '3056'
+- position: 3
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 119:130!2
+    wordID: o191191300022
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191191260032'
+- position: 4
+  text: יָאִ֗יר
+  lemma: אוֹר
+  transliteration: yāʾiyr
+  ids:
+    ref: PSA 119:130!3
+    wordID: o191191300031
+  translation:
+    english: gives light
+    mandarin: 发出亮光
+    gloss: it.gives.light
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: אוֹר
+    strong: '0215'
+  semantic:
+    sdbh:
+    - '000205001002000'
+    lexdomain:
+    - 002001001049
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: φωτιεῖ
+  syntax:
+    role: v
+    frame: A0:191191300011;
+- position: 5
+  text: מֵבִ֥ין
+  lemma: בִּין
+  transliteration: mēḇiyn
+  ids:
+    ref: PSA 119:130!4
+    wordID: o191191300041
+  translation:
+    english: gives understanding
+    mandarin: 有悟性
+    gloss: '[it.is].giving.understanding.to'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: בִּין
+    strong: 0995
+  semantic:
+    sdbh:
+    - 000924001004000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '199'
+  syntax:
+    role: v
+    frame: AA:191191300011; A0:191191300051;
+  discourse:
+    subject: '191191300011'
+- position: 6
+  text: פְּתָיִֽים
+  lemma: פֶּתִי
+  transliteration: 'pəṯāyiym:'
+  ids:
+    ref: PSA 119:130!5
+    wordID: o191191300051
+  translation:
+    english: simple
+    mandarin: 愚人
+    gloss: simple.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פֶּתִי
+    strong: '6612'
+  semantic:
+    sdbh:
+    - '006076001001000'
+    lexdomain:
+    - '002001002010'
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: νηπίους
+  syntax:
+    role: o

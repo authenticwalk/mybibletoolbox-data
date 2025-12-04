@@ -1,0 +1,213 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 150:6
+text: כֹּ֣ל הַ֭נְּשָׁמָה תְּהַלֵּ֥ל יָ֗הּ הַֽלְלוּ־יָֽהּ׃
+words:
+- position: 1
+  text: כֹּ֣ל
+  lemma: כֹּל
+  transliteration: kōl
+  ids:
+    ref: PSA 150:6!1
+    wordID: o191500060011
+  translation:
+    english: everything
+    mandarin: 凡
+    gloss: every
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσα
+    strong: '3956'
+- position: 2
+  text: הַ֭
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 150:6!2
+    wordID: o191500060021
+  translation:
+    english: that
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 3
+  text: נְּשָׁמָה
+  lemma: נְשָׁמָה
+  transliteration: nnəšāmâ
+  ids:
+    ref: PSA 150:6!2
+    wordID: o191500060022
+  translation:
+    english: breath
+    mandarin: 气息
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נְשָׁמָה
+    strong: '5397'
+  semantic:
+    sdbh:
+    - 004940001002000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 082
+    - '010'
+    - 099
+    sense: '1'
+  lxx:
+    text: πνοὴ
+- position: 4
+  text: תְּהַלֵּ֥ל
+  lemma: הָלַל
+  transliteration: təhallēl
+  ids:
+    ref: PSA 150:6!3
+    wordID: o191500060031
+  translation:
+    english: praise
+    mandarin: 赞美
+    gloss: let.it.praise
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: הָלַל
+    strong: 1984a
+  semantic:
+    sdbh:
+    - 001827002001000
+    lexdomain:
+    - 002004001009009
+    coredomain:
+    - '041'
+    - '130'
+    - '170'
+    sense: '1'
+  lxx:
+    text: αἰνεσάτω
+    strong: '134'
+  syntax:
+    role: v
+    frame: A0:191500060022; A1:191500060041;
+- position: 5
+  text: יָ֗הּ
+  lemma: יָהּ
+  transliteration: yāẖ
+  ids:
+    ref: PSA 150:6!4
+    wordID: o191500060041
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יָהּ
+    strong: '3050'
+  semantic:
+    sdbh:
+    - 002810001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: o
+- position: 6
+  text: הַֽלְלוּ
+  lemma: הָלַל
+  transliteration: haləlû-
+  ids:
+    ref: PSA 150:6!5
+    wordID: o191500060051
+  translation:
+    english: praise
+    mandarin: 赞美
+    gloss: praise
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: piel
+    type: imperative
+  lexical:
+    stronglemma: הָלַל
+    strong: 1984a
+  semantic:
+    sdbh:
+    - 001827002001000
+    lexdomain:
+    - 002004001009009
+    coredomain:
+    - '041'
+    - '130'
+    - '170'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:191500060022; A1:191500060061;
+  discourse:
+    subject: '191500060022'
+- position: 7
+  text: יָֽהּ
+  lemma: יָהּ
+  transliteration: 'yāẖ:'
+  ids:
+    ref: PSA 150:6!6
+    wordID: o191500060061
+  translation:
+    english: Lord
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יָהּ
+    strong: '3050'
+  semantic:
+    sdbh:
+    - 002810001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: αλληλουια
+    strong: '239'
+  syntax:
+    role: o

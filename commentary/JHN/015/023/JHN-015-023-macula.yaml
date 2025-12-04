@@ -1,0 +1,185 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 15:23
+text: ὁ ἐμὲ μισῶν καὶ τὸν Πατέρα μου μισεῖ.
+words:
+- position: 1
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 15:23!1
+    wordID: n43015023001
+  translation:
+    gloss: The [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: ἐμὲ
+  lemma: ἐγώ
+  normalized: ἐμέ
+  ids:
+    ref: JHN 15:23!2
+    wordID: n43015023002
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n43014023002
+- position: 3
+  text: μισῶν
+  lemma: μισέω
+  normalized: μισῶν
+  ids:
+    ref: JHN 15:23!3
+    wordID: n43015023003
+  translation:
+    gloss: hating
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3404'
+  semantic:
+    semanticDomain: 088026
+    ln: '88.198'
+  syntax:
+    role: v
+    frame: A0:n43015019031 A1:n43015023002
+  discourse:
+    subject: n43015019031
+- position: 4
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 15:23!4
+    wordID: n43015023004
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 5
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: JHN 15:23!5
+    wordID: n43015023005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: Πατέρα
+  lemma: πατήρ
+  normalized: Πατέρα
+  ids:
+    ref: JHN 15:23!6
+    wordID: n43015023006
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+- position: 7
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: JHN 15:23!7
+    wordID: n43015023007
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n43014023002
+- position: 8
+  text: μισεῖ
+  lemma: μισέω
+  normalized: μισεῖ
+  ids:
+    ref: JHN 15:23!8
+    wordID: n43015023008
+  translation:
+    gloss: hates
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3404'
+  semantic:
+    semanticDomain: 088026
+    ln: '88.198'
+  syntax:
+    role: v
+    frame: A0:n43015023003 A1:n43015023006

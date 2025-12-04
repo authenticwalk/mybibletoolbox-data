@@ -1,0 +1,389 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 66:4
+text: כָּל־הָאָ֤רֶץ׀יִשְׁתַּחֲו֣וּ לְ֭ךָ וִֽיזַמְּרוּ־לָ֑ךְ יְזַמְּר֖וּ שִׁמְךָ֣ סֶֽלָה׃
+words:
+- position: 1
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: PSA 66:4!1
+    wordID: o190660040011
+  translation:
+    english: all
+    mandarin: 全
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσα
+    strong: '3956'
+- position: 2
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 66:4!2
+    wordID: o190660040021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ἡ
+    strong: '3588'
+- position: 3
+  text: אָ֤רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾāreṣ
+  ids:
+    ref: PSA 66:4!2
+    wordID: o190660040022
+  translation:
+    english: earth
+    mandarin: 地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆ
+    strong: '1093'
+- position: 4
+  text: יִשְׁתַּחֲו֣וּ
+  lemma: חוה
+  transliteration: yištaḥăwû
+  ids:
+    ref: PSA 66:4!3
+    wordID: o190660040031
+  translation:
+    english: worship
+    mandarin: 敬拜
+    gloss: they.bow.down
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vvi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: 'unknown: v'
+    type: yiqtol
+  lexical:
+    stronglemma: חוה
+    strong: 7812a
+  semantic:
+    sdbh:
+    - '002154002001000'
+    lexdomain:
+    - 002001001009
+    coredomain:
+    - 019
+    - '170'
+    - '015'
+    sense: '1'
+  lxx:
+    text: προσκυνησάτωσάν
+  syntax:
+    role: v
+    frame: A0:190660040022;
+- position: 5
+  text: לְ֭
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 66:4!4
+    wordID: o190660040041
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 66:4!4
+    wordID: o190660040042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '190660030022'
+- position: 7
+  text: וִֽ
+  lemma: וְ
+  transliteration: wi
+  ids:
+    ref: PSA 66:4!5
+    wordID: o190660040051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: יזַמְּרוּ
+  lemma: זָמַר
+  transliteration: yzammərû-
+  ids:
+    ref: PSA 66:4!5
+    wordID: o190660040052
+  translation:
+    english: sing praise
+    mandarin: 歌颂
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: זָמַר
+    strong: '2167'
+  semantic:
+    sdbh:
+    - '002001001001000'
+    lexdomain:
+    - 002004001009006
+    - 002004001009009
+    coredomain:
+    - '130'
+    - '111'
+    sense: '1'
+  lxx:
+    text: ψαλάτωσάν
+  syntax:
+    role: v
+    frame: A0:190660040022;
+  discourse:
+    subject: '190660040022'
+- position: 9
+  text: לָ֑
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 66:4!6
+    wordID: o190660040061
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 10
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 66:4!6
+    wordID: o190660040062
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '190660030022'
+- position: 11
+  text: יְזַמְּר֖וּ
+  lemma: זָמַר
+  transliteration: yəzammərû
+  ids:
+    ref: PSA 66:4!7
+    wordID: o190660040071
+  translation:
+    english: sing praises
+    mandarin: 歌颂
+    gloss: they.sing.praises.to
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: זָמַר
+    strong: '2167'
+  semantic:
+    sdbh:
+    - '002001001001000'
+    lexdomain:
+    - 002004001009006
+    - 002004001009009
+    coredomain:
+    - '130'
+    - '111'
+    sense: '1'
+  lxx:
+    text: ψαλάτωσαν
+  syntax:
+    role: v
+    frame: A0:190660040022; A1:190660040081;
+  discourse:
+    subject: '190660040022'
+- position: 12
+  text: שִׁמְ
+  lemma: שֵׁם
+  transliteration: ''
+  ids:
+    ref: PSA 66:4!8
+    wordID: o190660040081
+  translation:
+    english: name
+    mandarin: 名
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001004000'
+    lexdomain:
+    - '003001016'
+    sense: '1'
+  lxx:
+    text: ὀνόματί
+    strong: '3686'
+- position: 13
+  text: ךָ֣
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 66:4!8
+    wordID: o190660040082
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '007437001004000'
+    lexdomain:
+    - '003001016'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190660030022'
+- position: 14
+  text: סֶֽלָה
+  lemma: סֶלָה
+  transliteration: 'selâ:'
+  ids:
+    ref: PSA 66:4!9
+    wordID: o190660040091
+  translation:
+    english: selah
+    mandarin: 细拉
+    gloss: Selah
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tj
+    type: interjection
+  lexical:
+    stronglemma: סֶלָה
+    strong: '5542'
+  lxx:
+    text: διάψαλμα

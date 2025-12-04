@@ -1,0 +1,329 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: HOS 8:9
+text: כִּֽי־הֵ֨מָּה֙ עָל֣וּ אַשּׁ֔וּר פֶּ֖רֶא בּוֹדֵ֣ד ל֑וֹ אֶפְרַ֖יִם הִתְנ֥וּ אֲהָבִֽים
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: HOS 8:9!1
+    wordID: o280080090011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: הֵ֨מָּה֙
+  lemma: הֵמָּה
+  transliteration: hēmmāh
+  ids:
+    ref: HOS 8:9!2
+    wordID: o280080090021
+  translation:
+    english: they
+    mandarin: 他们
+    gloss: they
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '280080080021'
+- position: 3
+  text: עָל֣וּ
+  lemma: עָלָה
+  transliteration: ʿālû
+  ids:
+    ref: HOS 8:9!3
+    wordID: o280080090031
+  translation:
+    english: gone up
+    mandarin: 投奔
+    gloss: they.have.gone.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001005000'
+    lexdomain:
+    - '002002001011'
+    sense: '1'
+  lxx:
+    text: ἀνέβησαν
+    strong: '305'
+  syntax:
+    role: v
+    frame: A0:280080090021;
+- position: 4
+  text: אַשּׁ֔וּר
+  lemma: אַשּׁוּר
+  transliteration: ʾaššûr
+  ids:
+    ref: HOS 8:9!4
+    wordID: o280080090041
+  translation:
+    english: Assyria
+    mandarin: 亚述
+    gloss: Assyria
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַשּׁוּר
+    strong: 0804
+  semantic:
+    sdbh:
+    - '000740001002000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: ἀσσυρίους
+  syntax:
+    role: adv
+- position: 5
+  text: פֶּ֖רֶא
+  lemma: פֶּרֶא
+  transliteration: pereʾ
+  ids:
+    ref: HOS 8:9!5
+    wordID: o280080090051
+  translation:
+    english: wild donkey
+    mandarin: 野驴
+    gloss: a.wild.donkey
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פֶּרֶא
+    strong: '6501'
+  semantic:
+    sdbh:
+    - 005978001001000
+    lexdomain:
+    - '001001002001001'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: ἀνέθαλεν
+    strong: '330'
+- position: 6
+  text: בּוֹדֵ֣ד
+  lemma: בָּדַד
+  transliteration: bôḏēḏ
+  ids:
+    ref: HOS 8:9!6
+    wordID: o280080090061
+  translation:
+    english: wandering alone
+    mandarin: 独行
+    gloss: isolated
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: בָּדַד
+    strong: 0909
+  semantic:
+    sdbh:
+    - 000843001001000
+    lexdomain:
+    - '002003002002'
+    coredomain:
+    - '074'
+  syntax:
+    role: v
+    frame: A0:280080090051;
+  discourse:
+    subject: '280080090051'
+- position: 7
+  text: ל֑
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: HOS 8:9!7
+    wordID: o280080090071
+  translation:
+    english: to
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: καθ’
+    strong: '2596'
+- position: 8
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 8:9!7
+    wordID: o280080090072
+  translation:
+    english: itself
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: ἑαυτὸν
+    strong: '1438'
+  discourse:
+    participant: '280080090051'
+- position: 9
+  text: אֶפְרַ֖יִם
+  lemma: אֶפְרַיִם
+  transliteration: ʾep̄rayim
+  ids:
+    ref: HOS 8:9!8
+    wordID: o280080090081
+  translation:
+    english: Ephraim
+    mandarin: 以法莲
+    gloss: Ephraim
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אֶפְרַיִם
+    strong: 0669
+  semantic:
+    sdbh:
+    - '000615001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: εφραιμ
+    strong: '2187'
+  syntax:
+    role: s
+- position: 10
+  text: הִתְנ֥וּ
+  lemma: תָּנָה
+  transliteration: hiṯnû
+  ids:
+    ref: HOS 8:9!9
+    wordID: o280080090091
+  translation:
+    english: sold
+    mandarin: 贿买
+    gloss: they.have.hired
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: תָּנָה
+    strong: '8566'
+  semantic:
+    sense: '1'
+  lxx:
+    text: δῶρα
+    strong: '1435'
+  syntax:
+    role: v
+    frame: AA:280080090081; A0:280080090101;
+- position: 11
+  text: אֲהָבִֽים
+  lemma: אַהַב
+  transliteration: ʾăhāḇiym
+  ids:
+    ref: HOS 8:9!10
+    wordID: o280080090101
+  translation:
+    english: lovers
+    mandarin: 情人
+    gloss: loves
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אַהַב
+    strong: 0158
+  semantic:
+    sdbh:
+    - '000157001002000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '004'
+    sense: '2'
+  lxx:
+    text: ἠγάπησαν
+    strong: '25'
+  syntax:
+    role: o

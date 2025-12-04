@@ -1,0 +1,376 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 6:13
+text: οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν, ἀλλὰ θέλουσιν ὑμᾶς περιτέμνεσθαι
+  ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ καυχήσωνται.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: GAL 6:13!2
+    wordID: n48006013002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οὐδὲ
+  lemma: οὐδέ
+  normalized: οὐδέ
+  ids:
+    ref: GAL 6:13!1
+    wordID: n48006013001
+  translation:
+    gloss: Not even
+  morphology:
+    class: adv
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.8'
+- position: 3
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: GAL 6:13!3
+    wordID: n48006013003
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: περιτεμνόμενοι
+  lemma: περιτέμνω
+  normalized: περιτεμνόμενοι
+  ids:
+    ref: GAL 6:13!4
+    wordID: n48006013004
+  translation:
+    gloss: being circumcised
+  morphology:
+    class: verb
+    morph: V-PPP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '4059'
+  semantic:
+    semanticDomain: '053006'
+    ln: '53.51'
+  syntax:
+    role: v
+    frame: A1:n48006012002
+  discourse:
+    subject: n48006012002
+- position: 5
+  text: αὐτοὶ
+  lemma: αὐτός
+  normalized: αὐτοί
+  ids:
+    ref: GAL 6:13!5
+    wordID: n48006013005
+  translation:
+    gloss: themselves
+  morphology:
+    class: pron
+    morph: P-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092008
+    ln: '92.37'
+  discourse:
+    referent: n48006013004
+- position: 6
+  text: νόμον
+  lemma: νόμος
+  normalized: νόμον
+  ids:
+    ref: GAL 6:13!6
+    wordID: n48006013006
+  translation:
+    gloss: '[the] Law'
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3551'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.55'
+  syntax:
+    role: o
+- position: 7
+  text: φυλάσσουσιν
+  lemma: φυλάσσω
+  normalized: φυλάσσουσιν
+  ids:
+    ref: GAL 6:13!7
+    wordID: n48006013007
+  translation:
+    gloss: keep
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5442'
+  semantic:
+    semanticDomain: '036003'
+    ln: '36.19'
+  syntax:
+    role: v
+    frame: A0:n48006013004 A1:n48006013006
+- position: 8
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: GAL 6:13!8
+    wordID: n48006013008
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.2'
+- position: 9
+  text: θέλουσιν
+  lemma: θέλω
+  normalized: θέλουσιν
+  ids:
+    ref: GAL 6:13!9
+    wordID: n48006013009
+  translation:
+    gloss: they desire
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n48006013004 A1:n48006013011
+  discourse:
+    subject: n48006013004
+- position: 10
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: GAL 6:13!10
+    wordID: n48006013010
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n48006001011
+- position: 11
+  text: περιτέμνεσθαι
+  lemma: περιτέμνω
+  normalized: περιτέμνεσθαι
+  ids:
+    ref: GAL 6:13!11
+    wordID: n48006013011
+  translation:
+    gloss: to be circumcised
+  morphology:
+    class: verb
+    morph: V-PPN
+    tense: present
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '4059'
+  semantic:
+    semanticDomain: '053006'
+    ln: '53.51'
+  syntax:
+    role: v
+    frame: A1:n48006013010
+- position: 12
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: GAL 6:13!12
+    wordID: n48006013012
+  translation:
+    gloss: so that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 13
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: GAL 6:13!13
+    wordID: n48006013013
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.5'
+- position: 14
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: GAL 6:13!14
+    wordID: n48006013014
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: ὑμετέρᾳ
+  lemma: ὑμέτερος
+  normalized: ὑμετέρᾳ
+  ids:
+    ref: GAL 6:13!15
+    wordID: n48006013015
+  translation:
+    gloss: your
+  morphology:
+    class: adj
+    morph: S-2PDSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '5212'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.9'
+  discourse:
+    referent: n48006001011
+- position: 16
+  text: σαρκὶ
+  lemma: σάρξ
+  normalized: σαρκί
+  ids:
+    ref: GAL 6:13!16
+    wordID: n48006013016
+  translation:
+    gloss: flesh
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.63'
+- position: 17
+  text: καυχήσωνται
+  lemma: καυχάομαι
+  normalized: καυχήσωνται
+  ids:
+    ref: GAL 6:13!17
+    wordID: n48006013017
+  translation:
+    gloss: they may boast
+  morphology:
+    class: verb
+    morph: V-ADS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: subjunctive
+  lexical:
+    strong: '2744'
+  semantic:
+    semanticDomain: 033039
+    ln: '33.368'
+  syntax:
+    role: v
+    frame: A0:n48006013004
+  discourse:
+    subject: n48006013004

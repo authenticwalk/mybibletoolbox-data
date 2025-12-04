@@ -1,0 +1,273 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 83:15
+text: כְּאֵ֥שׁ תִּבְעַר־יָ֑עַר וּ֝כְלֶהָבָ֗ה תְּלַהֵ֥ט הָרִֽים׃
+words:
+- position: 1
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: PSA 83:15!1
+    wordID: o190830150011
+  translation:
+    english: as
+    mandarin: 怎样
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡσεὶ
+    strong: '5616'
+- position: 2
+  text: אֵ֥שׁ
+  lemma: אֵשׁ
+  transliteration: ʾēš
+  ids:
+    ref: PSA 83:15!1
+    wordID: o190830150012
+  translation:
+    english: fire
+    mandarin: 火
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵשׁ
+    strong: 0784
+  semantic:
+    sdbh:
+    - '000724001001000'
+    lexdomain:
+    - '001006006'
+    coredomain:
+    - '067'
+    sense: '1'
+  lxx:
+    text: πῦρ
+    strong: '4442'
+- position: 3
+  text: תִּבְעַר
+  lemma: בָּעַר
+  transliteration: tiḇʿar-
+  ids:
+    ref: PSA 83:15!2
+    wordID: o190830150021
+  translation:
+    english: burns
+    mandarin: 焚烧
+    gloss: '[which].it.burns'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בָּעַר
+    strong: '1197'
+  semantic:
+    sdbh:
+    - '001106001004000'
+    lexdomain:
+    - '002001001010'
+    coredomain:
+    - '067'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:190830150012; A1:190830150031;
+  discourse:
+    subject: '190830150012'
+- position: 4
+  text: יָ֑עַר
+  lemma: יַעַר
+  transliteration: yāʿar
+  ids:
+    ref: PSA 83:15!3
+    wordID: o190830150031
+  translation:
+    english: forest
+    mandarin: 森林
+    gloss: a.forest
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יַעַר
+    strong: '3293'
+  semantic:
+    sdbh:
+    - '003012001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '115'
+    - '125'
+    sense: '1'
+  lxx:
+    text: δρυμόν
+  syntax:
+    role: o
+- position: 5
+  text: וּ֝
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 83:15!4
+    wordID: o190830150041
+  translation:
+    english: or
+    mandarin: 或
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 6
+  text: כְ
+  lemma: כְּ
+  transliteration: ḵ
+  ids:
+    ref: PSA 83:15!4
+    wordID: o190830150042
+  translation:
+    english: as
+    mandarin: 怎样
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: εἰ
+    strong: '1487'
+- position: 7
+  text: לֶהָבָ֗ה
+  lemma: לֶהָבָה
+  transliteration: lehāḇāh
+  ids:
+    ref: PSA 83:15!4
+    wordID: o190830150043
+  translation:
+    english: flame
+    mandarin: 火焰
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֶהָבָה
+    strong: '3852'
+  semantic:
+    sdbh:
+    - '003521001001000'
+    lexdomain:
+    - '001006006'
+    sense: '1'
+  lxx:
+    text: φλὸχ
+    strong: '5395'
+- position: 8
+  text: תְּלַהֵ֥ט
+  lemma: לָהַט
+  transliteration: təlahēṭ
+  ids:
+    ref: PSA 83:15!5
+    wordID: o190830150051
+  translation:
+    english: sets ~ ablaze
+    mandarin: 烧着
+    gloss: '[which].it.sets.ablaze'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: לָהַט
+    strong: '3857'
+  semantic:
+    sdbh:
+    - '003527001002000'
+    lexdomain:
+    - '002001001010'
+    coredomain:
+    - '067'
+    sense: '1'
+  lxx:
+    text: κατακαύσαι
+  syntax:
+    role: v
+    frame: A0:190830150043; A1:190830150061;
+  discourse:
+    subject: '190830150043'
+- position: 9
+  text: הָרִֽים
+  lemma: הַר
+  transliteration: 'hāriym:'
+  ids:
+    ref: PSA 83:15!6
+    wordID: o190830150061
+  translation:
+    english: mountains
+    mandarin: 山岭
+    gloss: mountains
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הַר
+    strong: '2022'
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ὄρη
+    strong: '3735'
+  syntax:
+    role: o

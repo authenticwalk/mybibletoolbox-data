@@ -1,0 +1,274 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 18:28
+text: כִּֽי־אַ֭תָּה עַם־עָנִ֣י תוֹשִׁ֑יעַ וְעֵינַ֖יִם רָמ֣וֹת תַּשְׁפִּֽיל׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 18:28!1
+    wordID: o190180280011
+  translation:
+    english: for
+    mandarin: 因
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: אַ֭תָּה
+  lemma: אַתָּה
+  transliteration: ʾattâ
+  ids:
+    ref: PSA 18:28!2
+    wordID: o190180280021
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190180250021'
+- position: 3
+  text: עַם
+  lemma: עַם
+  transliteration: ʿam-
+  ids:
+    ref: PSA 18:28!3
+    wordID: o190180280031
+  translation:
+    english: people
+    mandarin: 人
+    gloss: a.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαὸν
+    strong: '2992'
+- position: 4
+  text: עָנִ֣י
+  lemma: עָנִי
+  transliteration: ʿāniy
+  ids:
+    ref: PSA 18:28!4
+    wordID: o190180280041
+  translation:
+    english: humble
+    mandarin: 困苦
+    gloss: afflicted
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָנִי
+    strong: '6041'
+  semantic:
+    sdbh:
+    - '005546001002000'
+    lexdomain:
+    - '001001002003001'
+    - '002001002015'
+    - '002001002015'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ταπεινὸν
+- position: 5
+  text: תוֹשִׁ֑יעַ
+  lemma: יָשַׁע
+  transliteration: ṯôšiyᵃʿ
+  ids:
+    ref: PSA 18:28!5
+    wordID: o190180280051
+  translation:
+    english: save
+    mandarin: 拯救
+    gloss: you.save
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: יָשַׁע
+    strong: '3467'
+  semantic:
+    sdbh:
+    - '003176001002000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: σώσεις
+    strong: '4982'
+  syntax:
+    role: v
+    frame: AA:190180280021; A0:190180280031;
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 18:28!6
+    wordID: o190180280061
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: עֵינַ֖יִם
+  lemma: עַיִן
+  transliteration: ʿênayim
+  ids:
+    ref: PSA 18:28!6
+    wordID: o190180280062
+  translation:
+    english: eyes
+    mandarin: 眼目
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbda
+    gender: both
+    number: dual
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀφθαλμοὺς
+    strong: '3788'
+- position: 8
+  text: רָמ֣וֹת
+  lemma: רוּם
+  transliteration: rāmôṯ
+  ids:
+    ref: PSA 18:28!7
+    wordID: o190180280071
+  translation:
+    english: haughty
+    mandarin: 高傲
+    gloss: uplifted
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רוּם
+    strong: '7311'
+  semantic:
+    sdbh:
+    - 006722001009000
+    lexdomain:
+    - '002001002012'
+    sense: '7'
+  lxx:
+    text: ὑπερηφάνων
+  syntax:
+    frame: A0:190180280062;
+  discourse:
+    subject: '190180280062'
+- position: 9
+  text: תַּשְׁפִּֽיל
+  lemma: שָׁפֵל
+  transliteration: 'tašpiyl:'
+  ids:
+    ref: PSA 18:28!8
+    wordID: o190180280081
+  translation:
+    english: bring down
+    mandarin: 降卑
+    gloss: you.bring.low
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁפֵל
+    strong: '8213'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ταπεινώσεις
+  syntax:
+    role: v
+    frame: AA:190180250021; A0:190180280062;
+  discourse:
+    subject: '190180250021'

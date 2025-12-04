@@ -1,0 +1,298 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 69:30
+text: וַ֭אֲנִי עָנִ֣י וְכוֹאֵ֑ב יְשׁוּעָתְךָ֖ אֱלֹהִ֣ים תְּשַׂגְּבֵֽנִי׃
+words:
+- position: 1
+  text: וַ֭
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 69:30!1
+    wordID: o190690300011
+  translation:
+    english: and
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: אֲנִי
+  lemma: אֲנִי
+  transliteration: ʾănî
+  ids:
+    ref: PSA 69:30!1
+    wordID: o190690300012
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ^^^
+  syntax:
+    role: s
+  discourse:
+    participant: '190690010042'
+- position: 3
+  text: עָנִ֣י
+  lemma: עָנִי
+  transliteration: ʿāniy
+  ids:
+    ref: PSA 69:30!2
+    wordID: o190690300021
+  translation:
+    english: afflicted
+    mandarin: 困苦
+    gloss: '[am].afflicted'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָנִי
+    strong: '6041'
+  semantic:
+    sdbh:
+    - '005546001001000'
+    lexdomain:
+    - '001001002003001'
+    - '002003003021'
+    - '002001001040'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πτωξὸς
+    strong: '4434'
+  syntax:
+    role: p
+- position: 4
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 69:30!3
+    wordID: o190690300031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: כוֹאֵ֑ב
+  lemma: כָּאַב
+  transliteration: ḵôʾēḇ
+  ids:
+    ref: PSA 69:30!3
+    wordID: o190690300032
+  translation:
+    english: in pain
+    mandarin: 忧伤
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: כָּאַב
+    strong: '3510'
+  semantic:
+    sdbh:
+    - '003216001004000'
+    lexdomain:
+    - '002001002013'
+    coredomain:
+    - 093
+    sense: '1'
+  lxx:
+    text: ἀλγῶν
+  syntax:
+    role: v
+    frame: A0:190690010042;
+  discourse:
+    subject: '190690010042'
+- position: 6
+  text: יְשׁוּעָתְ
+  lemma: יְשׁוּעָה
+  transliteration: ''
+  ids:
+    ref: PSA 69:30!4
+    wordID: o190690300041
+  translation:
+    english: salvation
+    mandarin: 救恩
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יְשׁוּעָה
+    strong: '3444'
+  semantic:
+    sdbh:
+    - '003152001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: σωτηρία
+    strong: '4991'
+- position: 7
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 69:30!4
+    wordID: o190690300042
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '003152001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  discourse:
+    participant: '190690300051'
+- position: 8
+  text: תְּשַׂגְּבֵֽ
+  lemma: שָׂגַב
+  transliteration: ''
+  ids:
+    ref: PSA 69:30!6
+    wordID: o190690300061
+  translation:
+    english: protect
+    mandarin: 安置在高处
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: שָׂגַב
+    strong: '7682'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀντελάβετό
+    strong: '482'
+  syntax:
+    role: v
+    frame: A0:190690300041; A1:190690300062;
+- position: 9
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 69:30!6
+    wordID: o190690300062
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  lxx:
+    text: μου
+    strong: '3450'
+  syntax:
+    role: o
+  discourse:
+    participant: '190690010042'
+- position: 10
+  text: אֱלֹהִ֣ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 69:30!5
+    wordID: o190690300051
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: O.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'

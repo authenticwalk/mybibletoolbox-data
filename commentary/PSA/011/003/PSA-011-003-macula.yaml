@@ -1,0 +1,237 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 11:3
+text: כִּ֣י הַ֭שָּׁתוֹת יֵֽהָרֵס֑וּן צַ֝דִּ֗יק מַה־פָּעָֽל׃
+words:
+- position: 1
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: PSA 11:3!1
+    wordID: o190110030011
+  translation:
+    english: when
+    mandarin: 若
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: הַ֭
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 11:3!2
+    wordID: o190110030021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ἃ
+    strong: '3739'
+- position: 3
+  text: שָּׁתוֹת
+  lemma: שָׁת
+  transliteration: ššāṯôṯ
+  ids:
+    ref: PSA 11:3!2
+    wordID: o190110030022
+  translation:
+    english: foundations
+    mandarin: 根基
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁת
+    strong: '8357'
+  semantic:
+    sdbh:
+    - '007666001001000'
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - '017'
+    sense: '2'
+  lxx:
+    text: κατηρτίσω
+    strong: '2675'
+- position: 4
+  text: יֵֽהָרֵס֑וּ
+  lemma: הָרַס
+  transliteration: ''
+  ids:
+    ref: PSA 11:3!3
+    wordID: o190110030031
+  translation:
+    english: destroyed
+    mandarin: 毁坏
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: הָרַס
+    strong: '2040'
+  semantic:
+    sdbh:
+    - 001888001002000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+    sense: '2'
+  syntax:
+    frame: A1:190110030022;
+- position: 5
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: PSA 11:3!3
+    wordID: o190110030032
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - 001888001002000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+  lxx:
+    text: καθεῖλον
+- position: 6
+  text: צַ֝דִּ֗יק
+  lemma: צַדִּיק
+  transliteration: ṣaddiyq
+  ids:
+    ref: PSA 11:3!4
+    wordID: o190110030041
+  translation:
+    english: righteous
+    mandarin: 义人
+    gloss: '[the].righteous'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: צַדִּיק
+    strong: '6662'
+  semantic:
+    sdbh:
+    - '006127001001000'
+    lexdomain:
+    - '002003003014'
+    - '002001002016'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: δίκαιος
+    strong: '1342'
+  syntax:
+    role: s
+- position: 7
+  text: מַה
+  lemma: מָה
+  transliteration: mah-
+  ids:
+    ref: PSA 11:3!5
+    wordID: o190110030051
+  translation:
+    english: what
+    mandarin: 什么
+    gloss: what?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: o
+- position: 8
+  text: פָּעָֽל
+  lemma: פָּעַל
+  transliteration: 'pāʿāl:'
+  ids:
+    ref: PSA 11:3!6
+    wordID: o190110030061
+  translation:
+    english: do
+    mandarin: 做
+    gloss: does.he.do
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: פָּעַל
+    strong: '6466'
+  semantic:
+    sdbh:
+    - 005943001001000
+    lexdomain:
+    - '002002002005'
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: ἐποίησεν
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:190110030041; A1:190110030051;

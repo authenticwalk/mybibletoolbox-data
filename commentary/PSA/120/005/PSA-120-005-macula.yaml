@@ -1,0 +1,271 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 120:5
+text: אֽוֹיָה־לִ֭י כִּי־גַ֣רְתִּי מֶ֑שֶׁךְ שָׁ֝כַ֗נְתִּי עִֽם־אָהֳלֵ֥י קֵדָֽר׃
+words:
+- position: 1
+  text: אֽוֹיָה
+  lemma: אוֹיָה
+  transliteration: ʾôyâ-
+  ids:
+    ref: PSA 120:5!1
+    wordID: o191200050011
+  translation:
+    english: woe
+    mandarin: 有祸
+    gloss: woe!
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tj
+    type: interjection
+  lexical:
+    stronglemma: אוֹיָה
+    strong: 0190
+  semantic:
+    sdbh:
+    - 000185001001000
+    lexdomain:
+    - '004005'
+  syntax:
+    role: s
+- position: 2
+  text: לִ֭
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 120:5!2
+    wordID: o191200050021
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 3
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 120:5!2
+    wordID: o191200050022
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  discourse:
+    participant: '191200010062'
+- position: 4
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: PSA 120:5!3
+    wordID: o191200050031
+  translation:
+    english: that
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 5
+  text: גַ֣רְתִּי
+  lemma: גּוּר
+  transliteration: ḡarətî
+  ids:
+    ref: PSA 120:5!4
+    wordID: o191200050041
+  translation:
+    english: sojourn
+    mandarin: 寄居
+    gloss: I.have.sojourned
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: גּוּר
+    strong: '1481'
+  semantic:
+    sdbh:
+    - '001357001001000'
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    - '032'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:191200010062;
+  discourse:
+    subject: '191200010062'
+- position: 6
+  text: מֶ֑שֶׁךְ
+  lemma: מֶשֶׁךְ
+  transliteration: mešeḵ
+  ids:
+    ref: PSA 120:5!5
+    wordID: o191200050051
+  translation:
+    english: Meshech
+    mandarin: 米设
+    gloss: Meshech
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מֶשֶׁךְ
+    strong: '4902'
+  semantic:
+    sdbh:
+    - 004488002003000
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: ἐμακρύνθη
+  syntax:
+    role: adv
+- position: 7
+  text: שָׁ֝כַ֗נְתִּי
+  lemma: שָׁכַן
+  transliteration: šāḵanətî
+  ids:
+    ref: PSA 120:5!6
+    wordID: o191200050061
+  translation:
+    english: dwell
+    mandarin: 住
+    gloss: I.have.dwelt
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁכַן
+    strong: '7931'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κατεσκήνωσα
+  syntax:
+    role: v
+    frame: A0:191200010062;
+  discourse:
+    subject: '191200010062'
+- position: 8
+  text: עִֽם
+  lemma: עִם
+  transliteration: ʿim-
+  ids:
+    ref: PSA 120:5!7
+    wordID: o191200050071
+  translation:
+    english: among
+    mandarin: 在~中
+    gloss: with
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עִם
+    strong: '5973'
+  lxx:
+    text: μετὰ
+    strong: '3326'
+- position: 9
+  text: אָהֳלֵ֥י
+  lemma: אֹהֶל
+  transliteration: ʾohŏlēy
+  ids:
+    ref: PSA 120:5!8
+    wordID: o191200050081
+  translation:
+    english: tents
+    mandarin: 帐棚
+    gloss: the.tents
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֹהֶל
+    strong: 0168
+  semantic:
+    sdbh:
+    - '000166001005000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '114'
+    sense: '1'
+  lxx:
+    text: σκηνωμάτων
+- position: 10
+  text: קֵדָֽר
+  lemma: קֵדָר
+  transliteration: 'qēḏār:'
+  ids:
+    ref: PSA 120:5!9
+    wordID: o191200050091
+  translation:
+    english: Kedar
+    mandarin: 基达
+    gloss: of.Kedar
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: קֵדָר
+    strong: '6938'
+  semantic:
+    sdbh:
+    - 006388001002000
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: κηδαρ

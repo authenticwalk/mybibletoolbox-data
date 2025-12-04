@@ -1,0 +1,441 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 5:9
+text: יְהוָ֤ה׀נְחֵ֬נִי בְצִדְקָתֶ֗ךָ לְמַ֥עַן שׁוֹרְרָ֑י הַיְשַׁ֖ר לְפָנַ֣י דַּרְכֶּֽךָ׃
+words:
+- position: 1
+  text: יְהוָ֤ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 5:9!1
+    wordID: o190050090011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: נְחֵ֬
+  lemma: נָחָה
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!2
+    wordID: o190050090021
+  translation:
+    english: lead
+    mandarin: 引领
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: נָחָה
+    strong: '5148'
+  semantic:
+    sdbh:
+    - 004719001003000
+    lexdomain:
+    - '002004002007'
+    sense: '1'
+  lxx:
+    text: ὁδήγησόν
+  syntax:
+    role: v
+    frame: A0:190050090011; A1:190050090022;
+  discourse:
+    subject: '190050090011'
+- position: 3
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!2
+    wordID: o190050090022
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 004719001003000
+    lexdomain:
+    - '002004002007'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190050010052'
+- position: 4
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 5:9!3
+    wordID: o190050090031
+  translation:
+    english: in
+    mandarin: 凭
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 5
+  text: צִדְקָתֶ֗
+  lemma: צְדָקָה
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!3
+    wordID: o190050090032
+  translation:
+    english: righteousness
+    mandarin: 公义
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: צְדָקָה
+    strong: '6666'
+  semantic:
+    sdbh:
+    - '006130001002000'
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - 095
+    sense: '1'
+  lxx:
+    text: δικαιοσύνῃ
+    strong: '1343'
+- position: 6
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!3
+    wordID: o190050090033
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '006130001002000'
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - 095
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190050090011'
+- position: 7
+  text: לְמַ֥עַן
+  lemma: לְמַעַן
+  transliteration: ləmaʿan
+  ids:
+    ref: PSA 5:9!4
+    wordID: o190050090041
+  translation:
+    english: because of
+    mandarin: 因~的缘故
+    gloss: on.account.of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְמַעַן
+    strong: '4616'
+  lxx:
+    text: ἕνεκα
+    strong: '1752'
+- position: 8
+  text: שׁוֹרְרָ֑
+  lemma: שׁוֹרֵר
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!5
+    wordID: o190050090051
+  translation:
+    english: enemies
+    mandarin: 仇敌
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שׁוֹרֵר
+    strong: '8324'
+  semantic:
+    sdbh:
+    - '007272001001000'
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+  lxx:
+    text: ἐξθρῶν
+    strong: '2190'
+- position: 9
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!5
+    wordID: o190050090052
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '007272001001000'
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190050010052'
+- position: 10
+  text: הַיְשַׁ֖ר
+  lemma: יָשַׁר
+  transliteration: '**hayəšar'
+  ids:
+    ref: PSA 5:9!7
+    wordID: o190050090071
+  translation:
+    english: make ~ straight
+    mandarin: 正直
+    gloss: make.straight
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: יָשַׁר
+    strong: '3474'
+  semantic:
+    sdbh:
+    - 003184001005000
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - '017'
+    - '173'
+    sense: '2'
+  lxx:
+    text: κατεύθυνον
+  syntax:
+    role: v
+    frame: AA:190050090011; A0:190050090091;
+  discourse:
+    subject: '190050090011'
+- position: 11
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 5:9!8
+    wordID: o190050090081
+  translation:
+    english: before
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 12
+  text: פָנַ֣
+  lemma: פָּנֶה
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!8
+    wordID: o190050090082
+  translation:
+    mandarin: 面前
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '1'
+- position: 13
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!8
+    wordID: o190050090083
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190050010052'
+- position: 14
+  text: דַּרְכֶּֽ
+  lemma: דֶּרֶךְ
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!9
+    wordID: o190050090091
+  translation:
+    english: way
+    mandarin: 道路
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דֶּרֶךְ
+    strong: '1870'
+  semantic:
+    sdbh:
+    - 001719001005000
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: ὁδόν
+    strong: '3598'
+- position: 15
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 5:9!9
+    wordID: o190050090092
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 001719001005000
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190050090011'

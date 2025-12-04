@@ -1,0 +1,327 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 41:11
+text: וְאַתָּ֤ה יְהוָ֗ה חָנֵּ֥נִי וַהֲקִימֵ֑נִי וַֽאֲשַׁלְּמָ֥ה לָהֶֽם׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 41:11!1
+    wordID: o190410110011
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δέ
+    strong: '1161'
+- position: 2
+  text: יְהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 41:11!2
+    wordID: o190410110021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 3
+  text: אַתָּ֤ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: PSA 41:11!1
+    wordID: o190410110012
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190410110021'
+- position: 4
+  text: חָנֵּ֥
+  lemma: חָנַן
+  transliteration: ''
+  ids:
+    ref: PSA 41:11!3
+    wordID: o190410110031
+  translation:
+    english: gracious
+    mandarin: 怜悯
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: חָנַן
+    strong: '2603'
+  semantic:
+    sdbh:
+    - 002398001001000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    sense: '1'
+  lxx:
+    text: ἐλέησόν
+    strong: '1653'
+  syntax:
+    role: v
+    frame: A0:190410110012; A1:190410110032;
+- position: 5
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 41:11!3
+    wordID: o190410110032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 002398001001000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190410010032'
+- position: 6
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 41:11!4
+    wordID: o190410110041
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: הֲקִימֵ֑
+  lemma: קוּם
+  transliteration: ''
+  ids:
+    ref: PSA 41:11!4
+    wordID: o190410110042
+  translation:
+    english: raise ~ up
+    mandarin: 起来
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: קוּם
+    strong: '6965'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἀνάστησόν
+    strong: '450'
+  syntax:
+    role: v
+    frame: AA:190410110021; A0:190410110043;
+  discourse:
+    subject: '190410110021'
+- position: 8
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 41:11!4
+    wordID: o190410110043
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190410010032'
+- position: 9
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 41:11!5
+    wordID: o190410110051
+  translation:
+    english: that
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: אֲשַׁלְּמָ֥ה
+  lemma: שָׁלֵם
+  transliteration: ʾăšalləmāh
+  ids:
+    ref: PSA 41:11!5
+    wordID: o190410110052
+  translation:
+    english: repay
+    mandarin: 报复
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vph1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: cohortative
+  lexical:
+    stronglemma: שָׁלֵם
+    strong: '7999'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνταποδώσω
+    strong: '467'
+  syntax:
+    role: v
+    frame: A0:190410010032;
+  discourse:
+    subject: '190410010032'
+- position: 11
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 41:11!6
+    wordID: o190410110061
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 12
+  text: הֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 41:11!6
+    wordID: o190410110062
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: 190410080051 190410100021

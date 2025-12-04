@@ -1,0 +1,255 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 10:10
+text: ὁ κλέπτης οὐκ ἔρχεται εἰ μὴ ἵνα κλέψῃ καὶ θύσῃ καὶ ἀπολέσῃ·
+words:
+- position: 1
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 10:10!1
+    wordID: n43010010001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: κλέπτης
+  lemma: κλέπτης
+  normalized: κλέπτης
+  ids:
+    ref: JHN 10:10!2
+    wordID: n43010010002
+  translation:
+    gloss: thief
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2812'
+  semantic:
+    semanticDomain: '057021'
+    ln: '57.233'
+- position: 3
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: JHN 10:10!3
+    wordID: n43010010003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 4
+  text: ἔρχεται
+  lemma: ἔρχομαι
+  normalized: ἔρχεται
+  ids:
+    ref: JHN 10:10!4
+    wordID: n43010010004
+  translation:
+    gloss: comes
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n43010010002
+- position: 5
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: JHN 10:10!5
+    wordID: n43010010005
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.131'
+- position: 6
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: JHN 10:10!6
+    wordID: n43010010006
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+- position: 7
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: JHN 10:10!7
+    wordID: n43010010007
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 8
+  text: κλέψῃ
+  lemma: κλέπτω
+  normalized: κλέψῃ
+  ids:
+    ref: JHN 10:10!8
+    wordID: n43010010008
+  translation:
+    gloss: he might steal
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2813'
+  semantic:
+    semanticDomain: '057021'
+    ln: '57.232'
+  syntax:
+    role: v
+    frame: A0:n43010010002
+  discourse:
+    subject: n43010010002
+- position: 9
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 10:10!9
+    wordID: n43010010009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 10
+  text: θύσῃ
+  lemma: θύω
+  normalized: θύσῃ
+  ids:
+    ref: JHN 10:10!10
+    wordID: n43010010010
+  translation:
+    gloss: might kill
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2380'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.72'
+  syntax:
+    role: v
+    frame: A0:n43010010002
+  discourse:
+    subject: n43010010002
+- position: 11
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 10:10!11
+    wordID: n43010010011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 12
+  text: ἀπολέσῃ
+  lemma: ἀπόλλυμι
+  normalized: ἀπολέσῃ
+  ids:
+    ref: JHN 10:10!12
+    wordID: n43010010012
+  translation:
+    gloss: might destroy
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '622'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.31'
+  syntax:
+    role: v
+    frame: A0:n43010010002
+  discourse:
+    subject: n43010010002

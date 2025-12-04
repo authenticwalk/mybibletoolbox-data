@@ -1,0 +1,203 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 119:4
+text: אַ֭תָּה צִוִּ֥יתָה פִקֻּדֶ֗יךָ לִשְׁמֹ֥ר מְאֹֽד׃
+words:
+- position: 1
+  text: אַ֭תָּה
+  lemma: אַתָּה
+  transliteration: ʾattâ
+  ids:
+    ref: PSA 119:4!1
+    wordID: o191190040011
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '191190010061'
+- position: 2
+  text: צִוִּ֥יתָה
+  lemma: צָוָה
+  transliteration: ṣiwwiyṯâ
+  ids:
+    ref: PSA 119:4!2
+    wordID: o191190040021
+  translation:
+    english: commanded
+    mandarin: 吩咐
+    gloss: you.have.commanded
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐνετείλω
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:191190040011; A1:191190040031;
+- position: 3
+  text: פִקֻּדֶ֗י
+  lemma: פִּקּוּדִים
+  transliteration: ''
+  ids:
+    ref: PSA 119:4!3
+    wordID: o191190040031
+  translation:
+    english: precepts
+    mandarin: 训词
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פִּקּוּדִים
+    strong: '6490'
+  semantic:
+    sdbh:
+    - 005968001001000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    sense: '1'
+- position: 4
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 119:4!3
+    wordID: o191190040032
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 005968001001000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191190010061'
+- position: 5
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: PSA 119:4!4
+    wordID: o191190040041
+  translation:
+    english: to
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: שְׁמֹ֥ר
+  lemma: שָׁמַר
+  transliteration: šəmōr
+  ids:
+    ref: PSA 119:4!4
+    wordID: o191190040042
+  translation:
+    english: kept
+    mandarin: 遵守
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001004000
+    lexdomain:
+    - '002003003010'
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: φυλάχασθαι
+    strong: '5442'
+  syntax:
+    role: v
+    frame: A0:191190010021;191190020021;
+  discourse:
+    subject: 191190010021 191190020021
+- position: 7
+  text: מְאֹֽד
+  lemma: מְאֹד
+  transliteration: 'məʾōḏ:'
+  ids:
+    ref: PSA 119:4!5
+    wordID: o191190040051
+  translation:
+    english: diligently
+    mandarin: 切实
+    gloss: exceedingly
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: מְאֹד
+    strong: '3966'
+  lxx:
+    text: σφόδρα
+    strong: '4970'
+  syntax:
+    role: adv

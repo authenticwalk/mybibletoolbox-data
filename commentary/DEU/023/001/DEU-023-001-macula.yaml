@@ -1,0 +1,399 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 23:1
+text: לֹא־יִקַּ֥ח אִ֖ישׁ אֶת־אֵ֣שֶׁת אָבִ֑יו וְלֹ֥א יְגַלֶּ֖ה כְּנַ֥ף אָבִֽיו׃ס
+words:
+- position: 1
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 23:1!1
+    wordID: o050230010011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: יִקַּ֥ח
+  lemma: לָקַח
+  transliteration: yiqqaḥ
+  ids:
+    ref: DEU 23:1!2
+    wordID: o050230010021
+  translation:
+    english: marry
+    mandarin: 娶
+    gloss: he.will.take
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: לָקַח
+    strong: '3947'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λήμψεται
+    strong: '2983'
+  syntax:
+    role: v
+    frame: A0:050230010031; A1:050230010051;
+- position: 3
+  text: אִ֖ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: DEU 23:1!3
+    wordID: o050230010031
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνθρωπος
+    strong: '444'
+  syntax:
+    role: s
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: DEU 23:1!4
+    wordID: o050230010041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: אֵ֣שֶׁת
+  lemma: אִשָּׁה
+  transliteration: ʾēšeṯ
+  ids:
+    ref: DEU 23:1!5
+    wordID: o050230010051
+  translation:
+    english: wife
+    mandarin: 妻子
+    gloss: the.wife
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִשָּׁה
+    strong: 0802
+  semantic:
+    sdbh:
+    - 000738001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '1'
+  lxx:
+    text: γυναῖκα
+    strong: '1135'
+- position: 6
+  text: אָבִ֑י
+  lemma: אָב
+  transliteration: ''
+  ids:
+    ref: DEU 23:1!6
+    wordID: o050230010061
+  translation:
+    english: father’s
+    mandarin: 父亲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָב
+    strong: '0001'
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: πατρὸς
+    strong: '3962'
+- position: 7
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 23:1!6
+    wordID: o050230010062
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '050230010031'
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 23:1!7
+    wordID: o050230010071
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: DEU 23:1!7
+    wordID: o050230010072
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 10
+  text: יְגַלֶּ֖ה
+  lemma: גָּלָה
+  transliteration: yəḡalleh
+  ids:
+    ref: DEU 23:1!8
+    wordID: o050230010081
+  translation:
+    english: uncover
+    mandarin: 掀开
+    gloss: he.will.uncover
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: גָּלָה
+    strong: '1540'
+  semantic:
+    sdbh:
+    - '001413001003000'
+    lexdomain:
+    - '002003001017'
+    coredomain:
+    - 019
+    - '033'
+    - '170'
+    sense: '2'
+  lxx:
+    text: ἀποκαλύψει
+    strong: '602'
+  syntax:
+    role: v
+    frame: A0:050230010031; A1:050230010091;
+  discourse:
+    subject: '050230010031'
+- position: 11
+  text: כְּנַ֥ף
+  lemma: כָּנָף
+  transliteration: kənap̄
+  ids:
+    ref: DEU 23:1!9
+    wordID: o050230010091
+  translation:
+    english: bed
+    mandarin: 衣襟
+    gloss: the.skirt
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כָּנָף
+    strong: '3671'
+  semantic:
+    sdbh:
+    - 003359001002000
+    lexdomain:
+    - '001002'
+    sense: '2'
+  lxx:
+    text: συγκάλυμμα
+- position: 12
+  text: אָבִֽי
+  lemma: אָב
+  transliteration: ''
+  ids:
+    ref: DEU 23:1!10
+    wordID: o050230010101
+  translation:
+    english: father’s
+    mandarin: 父亲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָב
+    strong: '0001'
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: πατρὸς
+    strong: '3962'
+- position: 13
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 23:1!10
+    wordID: o050230010102
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '050230010031'

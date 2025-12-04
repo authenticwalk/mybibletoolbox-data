@@ -1,0 +1,760 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: MIC 2:3
+text: לָכֵ֗ן כֹּ֚ה אָמַ֣ר יְהוָ֔ה הִנְנִ֥י חֹשֵׁ֛ב עַל־הַמִּשְׁפָּחָ֥ה הַזֹּ֖את רָעָ֑ה
+  אֲ֠שֶׁר לֹֽא־תָמִ֨ישׁוּ מִשָּׁ֜ם צַוְּארֹֽתֵיכֶ֗ם וְלֹ֤א תֵֽלְכוּ֙ רוֹמָ֔ה כִּ֛י
+  עֵ֥ת רָעָ֖ה הִֽיא׃
+words:
+- position: 1
+  text: לָ
+  lemma: לָכֵן
+  transliteration: lā
+  ids:
+    ref: MIC 2:3!1
+    wordID: o330020030011
+  translation:
+    mandarin: 所以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לָכֵן
+    strong: 3807a
+  lxx:
+    text: διὰ
+    strong: '1223'
+- position: 2
+  text: כֵ֗ן
+  lemma: כֵּן
+  transliteration: ḵēn
+  ids:
+    ref: MIC 2:3!1
+    wordID: o330020030012
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+- position: 3
+  text: כֹּ֚ה
+  lemma: כֹּה
+  transliteration: kōh
+  ids:
+    ref: MIC 2:3!2
+    wordID: o330020030021
+  translation:
+    english: thus
+    mandarin: 这样
+    gloss: thus
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: כֹּה
+    strong: '3541'
+  lxx:
+    text: τάδε
+    strong: '3592'
+  syntax:
+    role: adv
+- position: 4
+  text: אָמַ֣ר
+  lemma: אָמַר
+  transliteration: ʾāmar
+  ids:
+    ref: MIC 2:3!3
+    wordID: o330020030031
+  translation:
+    english: says
+    mandarin: 说
+    gloss: he.says
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγει
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:330020030041;
+- position: 5
+  text: יְהוָ֔ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: MIC 2:3!4
+    wordID: o330020030041
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 6
+  text: הִנְ
+  lemma: הִנֵּה
+  transliteration: ''
+  ids:
+    ref: MIC 2:3!5
+    wordID: o330020030051
+  translation:
+    english: now
+    mandarin: 看
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: הִנֵּה
+    strong: '2009'
+  lxx:
+    text: ἰδοὺ
+    strong: '2400'
+  syntax:
+    role: p
+- position: 7
+  text: נִ֥י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 2:3!5
+    wordID: o330020030052
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '330020030041'
+- position: 8
+  text: חֹשֵׁ֛ב
+  lemma: חָשַׁב
+  transliteration: ḥōšēḇ
+  ids:
+    ref: MIC 2:3!6
+    wordID: o330020030061
+  translation:
+    english: planning
+    mandarin: 筹划
+    gloss: '[am].planning'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: חָשַׁב
+    strong: '2803'
+  semantic:
+    sdbh:
+    - '002577001002000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: λογίζομαι
+    strong: '3049'
+  syntax:
+    role: v
+    frame: A0:330020030052; A1:330020030101;
+- position: 9
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: MIC 2:3!7
+    wordID: o330020030071
+  translation:
+    english: against
+    mandarin: 在~上
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 10
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: MIC 2:3!8
+    wordID: o330020030081
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 11
+  text: מִּשְׁפָּחָ֥ה
+  lemma: מִשְׁפָּחָה
+  transliteration: mmišpāḥāh
+  ids:
+    ref: MIC 2:3!8
+    wordID: o330020030082
+  translation:
+    english: family
+    mandarin: 家族
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִשְׁפָּחָה
+    strong: '4940'
+  semantic:
+    sdbh:
+    - '004527001001000'
+    lexdomain:
+    - '001001002003004'
+    sense: '1'
+  lxx:
+    text: φυλὴν
+    strong: '5443'
+- position: 12
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: MIC 2:3!9
+    wordID: o330020030091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 13
+  text: זֹּ֖את
+  lemma: זֹאת
+  transliteration: zzōʾṯ
+  ids:
+    ref: MIC 2:3!9
+    wordID: o330020030092
+  translation:
+    english: this
+    mandarin: 这
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxfs
+    gender: feminine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֹאת
+    strong: '2063'
+  lxx:
+    text: ταύτην
+    strong: '5026'
+  discourse:
+    participant: '330020010021'
+- position: 14
+  text: רָעָ֑ה
+  lemma: רָעָה
+  transliteration: rāʿāh
+  ids:
+    ref: MIC 2:3!10
+    wordID: o330020030101
+  translation:
+    english: disaster
+    mandarin: 灾祸
+    gloss: calamity
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רָעָה
+    strong: 7451b
+  semantic:
+    sdbh:
+    - 006859001003000
+    lexdomain:
+    - '002003003021'
+    sense: '2'
+  lxx:
+    text: κακά
+    strong: '2556'
+- position: 15
+  text: אֲ֠שֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: MIC 2:3!11
+    wordID: o330020030111
+  translation:
+    english: which
+    mandarin: 而
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὧν
+    strong: '3739'
+- position: 16
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: MIC 2:3!12
+    wordID: o330020030121
+  translation:
+    english: cannot
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 17
+  text: תָמִ֨ישׁוּ
+  lemma: מוּשׁ
+  transliteration: ṯāmiyšû
+  ids:
+    ref: MIC 2:3!13
+    wordID: o330020030131
+  translation:
+    english: remove
+    mandarin: 解脱
+    gloss: you.will.remove
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: מוּשׁ
+    strong: '4185'
+  semantic:
+    sdbh:
+    - 003819001006000
+    lexdomain:
+    - 002003003009
+    sense: '2'
+  lxx:
+    text: ἄρητε
+  syntax:
+    role: v
+    frame: AA:330020030082; A0:330020030151;
+  discourse:
+    subject: '330020030082'
+- position: 18
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: MIC 2:3!14
+    wordID: o330020030141
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 19
+  text: שָּׁ֜ם
+  lemma: שָׁם
+  transliteration: ššām
+  ids:
+    ref: MIC 2:3!14
+    wordID: o330020030142
+  translation:
+    english: there
+    mandarin: 那里
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+- position: 20
+  text: צַוְּארֹֽתֵי
+  lemma: צַוָּאר
+  transliteration: ''
+  ids:
+    ref: MIC 2:3!15
+    wordID: o330020030151
+  translation:
+    english: necks
+    mandarin: 颈项
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: צַוָּאר
+    strong: '6677'
+  semantic:
+    sdbh:
+    - '006141001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+- position: 21
+  text: כֶ֗ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 2:3!15
+    wordID: o330020030152
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - '006141001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '330020030082'
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: MIC 2:3!16
+    wordID: o330020030161
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 23
+  text: לֹ֤א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: MIC 2:3!16
+    wordID: o330020030162
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 24
+  text: תֵֽלְכוּ֙
+  lemma: הלך
+  transliteration: ṯēləḵû
+  ids:
+    ref: MIC 2:3!17
+    wordID: o330020030171
+  translation:
+    english: walk
+    mandarin: 行
+    gloss: you.will.walk
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הלך
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001005000
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '2'
+  lxx:
+    text: πορευθῆτε
+    strong: '4198'
+  syntax:
+    role: v
+    frame: A0:330020030082;
+  discourse:
+    subject: '330020030082'
+- position: 25
+  text: רוֹמָ֔ה
+  lemma: רוֹמָה
+  transliteration: rômāh
+  ids:
+    ref: MIC 2:3!18
+    wordID: o330020030181
+  translation:
+    english: proudly
+    mandarin: 昂首
+    gloss: haughtily
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: רוֹמָה
+    strong: '7317'
+  lxx:
+    text: ὀρθοὶ
+  syntax:
+    role: adv
+- position: 26
+  text: כִּ֛י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: MIC 2:3!19
+    wordID: o330020030191
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 27
+  text: עֵ֥ת
+  lemma: עֵת
+  transliteration: ʿēṯ
+  ids:
+    ref: MIC 2:3!20
+    wordID: o330020030201
+  translation:
+    english: time
+    mandarin: 时刻
+    gloss: '[will.be].a.time'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֵת
+    strong: '6256'
+  semantic:
+    sdbh:
+    - 005738001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: καιρὸς
+    strong: '2540'
+- position: 28
+  text: רָעָ֖ה
+  lemma: רַע
+  transliteration: rāʿāh
+  ids:
+    ref: MIC 2:3!21
+    wordID: o330020030211
+  translation:
+    english: evil
+    mandarin: 灾难
+    gloss: evil
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aafsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַע
+    strong: '7451'
+  semantic:
+    sdbh:
+    - 006847001005000
+    lexdomain:
+    - '002003003021'
+    sense: '1'
+  lxx:
+    text: πονηρός
+    strong: '4190'
+- position: 29
+  text: הִֽיא
+  lemma: הִיא
+  transliteration: 'hiyʾ:'
+  ids:
+    ref: MIC 2:3!22
+    wordID: o330020030221
+  translation:
+    english: it
+    mandarin: 这
+    gloss: it
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הִיא
+    strong: 1931a
+  lxx:
+    text: ἐστιν
+    strong: '2076'
+  syntax:
+    role: s

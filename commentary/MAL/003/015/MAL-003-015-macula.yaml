@@ -1,0 +1,447 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: MAL 3:15
+text: וְעַתָּ֕ה אֲנַ֖חְנוּ מְאַשְּׁרִ֣ים זֵדִ֑ים גַּם־נִבְנוּ֙ עֹשֵׂ֣י רִשְׁעָ֔ה גַּ֧ם
+  בָּחֲנ֛וּ אֱלֹהִ֖ים וַיִּמָּלֵֽטוּ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: MAL 3:15!1
+    wordID: o390030150011
+  translation:
+    english: but
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: עַתָּ֕ה
+  lemma: עַתָּה
+  transliteration: ʿattāh
+  ids:
+    ref: MAL 3:15!1
+    wordID: o390030150012
+  translation:
+    english: now
+    mandarin: 如今
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: עַתָּה
+    strong: '6258'
+  semantic:
+    sdbh:
+    - '005741001002000'
+    lexdomain:
+    - '004003'
+  lxx:
+    text: νῦν
+    strong: '3568'
+- position: 3
+  text: אֲנַ֖חְנוּ
+  lemma: אֲנַחְנוּ
+  transliteration: ʾănaḥənû
+  ids:
+    ref: MAL 3:15!2
+    wordID: o390030150021
+  translation:
+    english: we
+    mandarin: 我们
+    gloss: we
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cp
+    gender: common
+    number: plural
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנַחְנוּ
+    strong: 0587
+  lxx:
+    text: ἡμεῖς
+    strong: '2249'
+  syntax:
+    role: s
+  discourse:
+    participant: '390030060071'
+- position: 4
+  text: מְאַשְּׁרִ֣ים
+  lemma: אָשַׁר
+  transliteration: məʾaššəriym
+  ids:
+    ref: MAL 3:15!3
+    wordID: o390030150031
+  translation:
+    english: call ~ blessed
+    mandarin: 称~为有福
+    gloss: '[are].calling.blessed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: אָשַׁר
+    strong: 0833a
+  semantic:
+    sdbh:
+    - '000770002001000'
+    lexdomain:
+    - 002004001009009
+    - '002001002024'
+    coredomain:
+    - 093
+    - '170'
+    - '196'
+    sense: '1'
+  lxx:
+    text: μακαρίζομεν
+    strong: '3106'
+  syntax:
+    role: v
+    frame: A0:390030150021; A1:390030150041;
+- position: 5
+  text: זֵדִ֑ים
+  lemma: זֵד
+  transliteration: zēḏiym
+  ids:
+    ref: MAL 3:15!4
+    wordID: o390030150041
+  translation:
+    english: arrogant
+    mandarin: 狂傲
+    gloss: arrogant.[people]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: זֵד
+    strong: '2086'
+  semantic:
+    sdbh:
+    - 001930001001000
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '106'
+    - '170'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἀλλοτρίους
+    strong: '245'
+  syntax:
+    role: o
+- position: 6
+  text: גַּם
+  lemma: גַּם
+  transliteration: gam-
+  ids:
+    ref: MAL 3:15!5
+    wordID: o390030150051
+  translation:
+    english: not only
+    mandarin: 并且
+    gloss: both
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: נִבְנוּ֙
+  lemma: בָּנָה
+  transliteration: niḇnû
+  ids:
+    ref: MAL 3:15!6
+    wordID: o390030150061
+  translation:
+    english: prosper
+    mandarin: 建立
+    gloss: they.have.been.built.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: בָּנָה
+    strong: '1129'
+  semantic:
+    sdbh:
+    - '001053001001000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - '045'
+    sense: '1'
+  lxx:
+    text: ἀνοικοδομοῦνται
+    strong: '456'
+  syntax:
+    role: v
+    frame: A1:390030150071;
+- position: 8
+  text: עֹשֵׂ֣י
+  lemma: עָשָׂה
+  transliteration: ʿōśēy
+  ids:
+    ref: MAL 3:15!7
+    wordID: o390030150071
+  translation:
+    english: commit
+    mandarin: 干
+    gloss: '[those.who].do'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ποιοῦντες
+    strong: '4160'
+  syntax:
+    frame: A1:390030150081;
+- position: 9
+  text: רִשְׁעָ֔ה
+  lemma: רִשְׁעָה
+  transliteration: rišʿāh
+  ids:
+    ref: MAL 3:15!8
+    wordID: o390030150081
+  translation:
+    english: wickedness
+    mandarin: 坏事
+    gloss: (of).wickedness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רִשְׁעָה
+    strong: '7564'
+  semantic:
+    sdbh:
+    - 006948001001000
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '017'
+    - '145'
+    sense: '1'
+  lxx:
+    text: ἄνομα
+    strong: '459'
+- position: 10
+  text: גַּ֧ם
+  lemma: גַּם
+  transliteration: gam
+  ids:
+    ref: MAL 3:15!9
+    wordID: o390030150091
+  translation:
+    english: even
+    mandarin: 虽然
+    gloss: as.well.as
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: בָּחֲנ֛וּ
+  lemma: בָּחַן
+  transliteration: bāḥănû
+  ids:
+    ref: MAL 3:15!10
+    wordID: o390030150101
+  translation:
+    english: test
+    mandarin: 试探
+    gloss: they.have.tested
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּחַן
+    strong: 0974
+  semantic:
+    sdbh:
+    - 000907001001000
+    lexdomain:
+    - '002004002013'
+    sense: '1'
+  lxx:
+    text: ἀντέστησαν
+    strong: '436'
+  syntax:
+    role: v
+    frame: A0:390030150071; A1:390030150111;
+  discourse:
+    subject: '390030150071'
+- position: 12
+  text: אֱלֹהִ֖ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: MAL 3:15!11
+    wordID: o390030150111
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεῷ
+    strong: '2316'
+  syntax:
+    role: o
+- position: 13
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: MAL 3:15!12
+    wordID: o390030150121
+  translation:
+    english: and
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: יִּמָּלֵֽטוּ
+  lemma: מָלַט
+  transliteration: 'yyimmālēṭû:'
+  ids:
+    ref: MAL 3:15!12
+    wordID: o390030150122
+  translation:
+    english: escape
+    mandarin: 逃脱
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: niphal
+    type: wayyiqtol
+  lexical:
+    stronglemma: מָלַט
+    strong: '4422'
+  semantic:
+    sdbh:
+    - '004040001006000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἐσώθησαν
+  syntax:
+    role: v
+    frame: A0:390030150071;
+  discourse:
+    subject: '390030150071'

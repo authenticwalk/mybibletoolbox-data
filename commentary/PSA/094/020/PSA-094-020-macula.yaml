@@ -1,0 +1,290 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 94:20
+text: הַֽ֭יְחָבְרְךָ כִּסֵּ֣א הַוּ֑וֹת יֹצֵ֖ר עָמָ֣ל עֲלֵי־חֹֽק׃
+words:
+- position: 1
+  text: הַֽ֭
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 94:20!1
+    wordID: o190940200011
+  translation:
+    english: '?'
+    mandarin: 岂
+  morphology:
+    class: ptcl
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: הַ
+    strong: 1886b
+  semantic:
+    sdbh:
+    - '001736001001000'
+    lexdomain:
+    - '004001'
+  lxx:
+    text: μὴ
+    strong: '3361'
+- position: 2
+  text: יְחָבְרְ
+  lemma: חָבַר
+  transliteration: ''
+  ids:
+    ref: PSA 94:20!1
+    wordID: o190940200012
+  translation:
+    english: allied with
+    mandarin: 与~同在
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָבַר
+    strong: '2266'
+  semantic:
+    sdbh:
+    - 002096001005000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+    - '046'
+    - '127'
+    sense: '2'
+  lxx:
+    text: συμπροσέσται
+  syntax:
+    role: v
+    frame: A1:190940200013; A0:190940200021;
+- position: 3
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 94:20!1
+    wordID: o190940200013
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 002096001005000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+    - '046'
+    - '127'
+  lxx:
+    text: σοι
+    strong: '4671'
+  syntax:
+    role: o
+  discourse:
+    participant: '190940180061'
+- position: 4
+  text: כִּסֵּ֣א
+  lemma: כִּסֵּא
+  transliteration: kissēʾ
+  ids:
+    ref: PSA 94:20!2
+    wordID: o190940200021
+  translation:
+    english: throne
+    mandarin: 权位
+    gloss: a.throne
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כִּסֵּא
+    strong: '3678'
+  semantic:
+    sdbh:
+    - '003363001003000'
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+    - '148'
+    sense: '1'
+  lxx:
+    text: θρόνος
+    strong: '2362'
+- position: 5
+  text: הַוּ֑וֹת
+  lemma: הַוָּה
+  transliteration: hawwôṯ
+  ids:
+    ref: PSA 94:20!3
+    wordID: o190940200031
+  translation:
+    english: corrupt
+    mandarin: 腐败
+    gloss: of.destruction(s)
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הַוָּה
+    strong: 1942a
+  semantic:
+    sdbh:
+    - 001785002001000
+    lexdomain:
+    - '002003003021'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἀνομίας
+    strong: '458'
+- position: 6
+  text: יֹצֵ֖ר
+  lemma: יָצַר
+  transliteration: yōṣēr
+  ids:
+    ref: PSA 94:20!4
+    wordID: o190940200041
+  translation:
+    english: contrive
+    mandarin: 架弄
+    gloss: '[one.who].fashions'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָצַר
+    strong: '3335'
+  semantic:
+    sdbh:
+    - 003048001002000
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:190940200021; A1:190940200051;
+  discourse:
+    subject: '190940200021'
+- position: 7
+  text: עָמָ֣ל
+  lemma: עָמָל
+  transliteration: ʿāmāl
+  ids:
+    ref: PSA 94:20!5
+    wordID: o190940200051
+  translation:
+    english: mischief
+    mandarin: 奸恶
+    gloss: mischief
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָמָל
+    strong: '5999'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κόπον
+    strong: '2873'
+  syntax:
+    role: o
+- position: 8
+  text: עֲלֵי
+  lemma: עַל
+  transliteration: ʿălê-
+  ids:
+    ref: PSA 94:20!6
+    wordID: o190940200061
+  translation:
+    english: by
+    mandarin: 凭着
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 9
+  text: חֹֽק
+  lemma: חֹק
+  transliteration: 'ḥōq:'
+  ids:
+    ref: PSA 94:20!7
+    wordID: o190940200071
+  translation:
+    english: statute
+    mandarin: 律例
+    gloss: a.decree
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֹק
+    strong: '2706'
+  semantic:
+    sdbh:
+    - 002494001003000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    - '015'
+    sense: '1'
+  lxx:
+    text: προστάγματι

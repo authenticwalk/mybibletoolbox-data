@@ -1,0 +1,136 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 12:21
+text: καὶ τῷ ὀνόματι αὐτοῦ ἔθνη ἐλπιοῦσιν.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 12:21!1
+    wordID: n40012021001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 2
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 12:21!2
+    wordID: n40012021002
+  translation:
+    gloss: in the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: ὀνόματι
+  lemma: ὄνομα
+  normalized: ὀνόματι
+  ids:
+    ref: MAT 12:21!3
+    wordID: n40012021003
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
+- position: 4
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 12:21!4
+    wordID: n40012021004
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40012018003
+- position: 5
+  text: ἔθνη
+  lemma: ἔθνος
+  normalized: ἔθνη
+  ids:
+    ref: MAT 12:21!5
+    wordID: n40012021005
+  translation:
+    gloss: '[the] Gentiles'
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '1484'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.37'
+  syntax:
+    role: s
+- position: 6
+  text: ἐλπιοῦσιν
+  lemma: ἐλπίζω
+  normalized: ἐλπιοῦσιν
+  ids:
+    ref: MAT 12:21!6
+    wordID: n40012021006
+  translation:
+    gloss: will hope
+  morphology:
+    class: verb
+    morph: V-FAI-3P-ATT
+    number: plural
+    person: third
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1679'
+  semantic:
+    semanticDomain: '025004'
+    ln: '25.59'
+  syntax:
+    role: v
+    frame: A1:n40012021003 A0:n40012021005

@@ -1,0 +1,365 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 8:21
+text: ἕτερος δὲ τῶν μαθητῶν εἶπεν αὐτῷ Κύριε, ἐπίτρεψόν μοι πρῶτον ἀπελθεῖν καὶ θάψαι
+  τὸν πατέρα μου.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 8:21!2
+    wordID: n40008021002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.94'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἕτερος
+  lemma: ἕτερος
+  normalized: ἕτερος
+  ids:
+    ref: MAT 8:21!1
+    wordID: n40008021001
+  translation:
+    gloss: Another
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '2087'
+  semantic:
+    semanticDomain: 058006
+    ln: '58.37'
+- position: 3
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: MAT 8:21!3
+    wordID: n40008021003
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: μαθητῶν
+  lemma: μαθητής
+  normalized: μαθητῶν
+  ids:
+    ref: MAT 8:21!4
+    wordID: n40008021004
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
+- position: 5
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 8:21!5
+    wordID: n40008021005
+  translation:
+    gloss: said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40008021001 A2:n40008021006
+- position: 6
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: MAT 8:21!6
+    wordID: n40008021006
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008020005
+- position: 7
+  text: Κύριε
+  lemma: κύριος
+  normalized: Κύριε
+  ids:
+    ref: MAT 8:21!7
+    wordID: n40008021007
+  translation:
+    gloss: Lord
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: 012001 087003
+    ln: 12.9 87.53
+  syntax:
+    role: aux
+- position: 8
+  text: ἐπίτρεψόν
+  lemma: ἐπιτρέπω
+  normalized: ἐπίτρεψον
+  ids:
+    ref: MAT 8:21!8
+    wordID: n40008021008
+  translation:
+    gloss: allow
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2010'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.138'
+  syntax:
+    role: v
+    frame: A0:n40008021007 A2:n40008021009 A1:n40008021011;n40008021013
+  discourse:
+    subject: n40008021007
+- position: 9
+  text: μοι
+  lemma: ἐγώ
+  normalized: μοι
+  ids:
+    ref: MAT 8:21!9
+    wordID: n40008021009
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: io
+  discourse:
+    referent: n40008021001
+- position: 10
+  text: πρῶτον
+  lemma: πρῶτος
+  normalized: πρῶτον
+  ids:
+    ref: MAT 8:21!10
+    wordID: n40008021010
+  translation:
+    gloss: first
+  morphology:
+    class: adj
+    morph: ADV-S
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '4412'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.18'
+  syntax:
+    role: adv
+- position: 11
+  text: ἀπελθεῖν
+  lemma: ἀπέρχομαι
+  normalized: ἀπελθεῖν
+  ids:
+    ref: MAT 8:21!11
+    wordID: n40008021011
+  translation:
+    gloss: to go
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40008021001
+  discourse:
+    subject: n40008021001
+- position: 12
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 8:21!12
+    wordID: n40008021012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 13
+  text: θάψαι
+  lemma: θάπτω
+  normalized: θάψαι
+  ids:
+    ref: MAT 8:21!13
+    wordID: n40008021013
+  translation:
+    gloss: to bury
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2290'
+  semantic:
+    semanticDomain: '035004'
+    ln: '35.46'
+  syntax:
+    role: v
+    frame: A0:n40008021001 A1:n40008021015
+  discourse:
+    subject: n40008021001
+- position: 14
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: MAT 8:21!14
+    wordID: n40008021014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: πατέρα
+  lemma: πατήρ
+  normalized: πατέρα
+  ids:
+    ref: MAT 8:21!15
+    wordID: n40008021015
+  translation:
+    gloss: father
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '010002'
+    ln: '10.14'
+- position: 16
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: MAT 8:21!16
+    wordID: n40008021016
+  translation:
+    gloss: of me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40008021001

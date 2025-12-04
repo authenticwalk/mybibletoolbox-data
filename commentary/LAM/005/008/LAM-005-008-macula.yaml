@@ -1,0 +1,258 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LAM 5:8
+text: עֲבָדִים֙ מָ֣שְׁלוּ בָ֔נוּ פֹּרֵ֖ק אֵ֥ין מִיָּדָֽם׃
+words:
+- position: 1
+  text: עֲבָדִים֙
+  lemma: עֶבֶד
+  transliteration: ʿăḇāḏîm
+  ids:
+    ref: LAM 5:8!1
+    wordID: o250050080011
+  translation:
+    english: slaves
+    mandarin: 奴仆
+    gloss: slaves
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֶבֶד
+    strong: '5650'
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+    sense: '1'
+  lxx:
+    text: δοῦλοι
+    strong: '1401'
+  syntax:
+    role: s
+- position: 2
+  text: מָ֣שְׁלוּ
+  lemma: מָשַׁל
+  transliteration: māšəlû
+  ids:
+    ref: LAM 5:8!2
+    wordID: o250050080021
+  translation:
+    english: rule
+    mandarin: 辖制
+    gloss: they.have.ruled
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָשַׁל
+    strong: '4910'
+  semantic:
+    sdbh:
+    - 004497002001000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+    sense: '1'
+  lxx:
+    text: ἐκυρίευσαν
+  syntax:
+    role: v
+    frame: A0:250050080011;
+- position: 3
+  text: בָ֔
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: LAM 5:8!3
+    wordID: o250050080031
+  translation:
+    english: over
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 4
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LAM 5:8!3
+    wordID: o250050080032
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 250030010022 250040220031
+- position: 5
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: LAM 5:8!5
+    wordID: o250050080051
+  translation:
+    english: 'no'
+    mandarin: 没有
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 6
+  text: פֹּרֵ֖ק
+  lemma: פָּרַק
+  transliteration: pōrēq
+  ids:
+    ref: LAM 5:8!4
+    wordID: o250050080041
+  translation:
+    english: deliver
+    mandarin: 救
+    gloss: '[one.who].tears.away'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: פָּרַק
+    strong: '6561'
+  semantic:
+    sense: '3'
+  lxx:
+    text: λυτρούμενος
+    strong: '3084'
+  syntax:
+    role: v
+    frame: A1:250030010022;250040220031;
+- position: 7
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: LAM 5:8!6
+    wordID: o250050080061
+  translation:
+    english: from
+    mandarin: 脱离
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 8
+  text: יָּדָֽ
+  lemma: יָד
+  transliteration: ''
+  ids:
+    ref: LAM 5:8!6
+    wordID: o250050080062
+  translation:
+    english: hand
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001024000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+    sense: '1'
+  lxx:
+    text: ξειρὸς
+    strong: '5495'
+- position: 9
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LAM 5:8!6
+    wordID: o250050080063
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 002787001024000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+  discourse:
+    participant: '250050080011'

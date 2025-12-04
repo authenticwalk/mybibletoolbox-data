@@ -1,0 +1,258 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 20:23
+text: ἄν τινων ἀφῆτε τὰς ἁμαρτίας, ἀφέωνται αὐτοῖς· ἄν τινων κρατῆτε, κεκράτηνται.
+words:
+- position: 1
+  text: ἄν
+  lemma: ἄν
+  normalized: ἄν
+  ids:
+    ref: JHN 20:23!1
+    wordID: n43020023001
+  translation:
+    gloss: If
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+- position: 2
+  text: ἀφῆτε
+  lemma: ἀφίημι
+  normalized: ἀφῆτε
+  ids:
+    ref: JHN 20:23!3
+    wordID: n43020023003
+  translation:
+    gloss: you might forgive
+  morphology:
+    class: verb
+    morph: V-2AAS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A0:n43020020015 A1:n43020023005
+    discontinuous: 'true'
+  discourse:
+    subject: n43020020015
+- position: 3
+  text: τινων
+  lemma: τὶς
+  normalized: τινων
+  ids:
+    ref: JHN 20:23!2
+    wordID: n43020023002
+  translation:
+    gloss: of any
+  morphology:
+    class: pron
+    morph: X-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+- position: 4
+  text: τὰς
+  lemma: ὁ
+  normalized: τάς
+  ids:
+    ref: JHN 20:23!4
+    wordID: n43020023004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ἁμαρτίας
+  lemma: ἁμαρτία
+  normalized: ἁμαρτίας
+  ids:
+    ref: JHN 20:23!5
+    wordID: n43020023005
+  translation:
+    gloss: sins
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '266'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.310'
+- position: 6
+  text: ἀφέωνται
+  lemma: ἀφίημι
+  normalized: ἀφέωνται
+  ids:
+    ref: JHN 20:23!6
+    wordID: n43020023006
+  translation:
+    gloss: they are forgiven
+  morphology:
+    class: verb
+    morph: V-RPI-3P
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: '040002'
+    ln: '40.8'
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n43020023007
+- position: 7
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 20:23!7
+    wordID: n43020023007
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43020023003
+- position: 8
+  text: ἄν
+  lemma: ἄν
+  normalized: ἄν
+  ids:
+    ref: JHN 20:23!8
+    wordID: n43020023008
+  translation:
+    gloss: If
+  morphology:
+    class: ptcl
+    morph: PRT
+  lexical:
+    strong: '302'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.8'
+- position: 9
+  text: τινων
+  lemma: τὶς
+  normalized: τινων
+  ids:
+    ref: JHN 20:23!9
+    wordID: n43020023009
+  translation:
+    gloss: any
+  morphology:
+    class: pron
+    morph: X-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: o
+- position: 10
+  text: κρατῆτε
+  lemma: κρατέω
+  normalized: κρατῆτε
+  ids:
+    ref: JHN 20:23!10
+    wordID: n43020023010
+  translation:
+    gloss: you might retain
+  morphology:
+    class: verb
+    morph: V-PAS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2902'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.34'
+  syntax:
+    role: v
+    frame: A0:n43020020015 A1:n43020023009
+  discourse:
+    subject: n43020020015
+- position: 11
+  text: κεκράτηνται
+  lemma: κρατέω
+  normalized: κεκράτηνται
+  ids:
+    ref: JHN 20:23!11
+    wordID: n43020023011
+  translation:
+    gloss: they are retained
+  morphology:
+    class: verb
+    morph: V-RPI-3P
+    number: plural
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2902'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.34'
+  syntax:
+    role: v
+    frame: A1:n43020023010
+  discourse:
+    subject: n43020023010

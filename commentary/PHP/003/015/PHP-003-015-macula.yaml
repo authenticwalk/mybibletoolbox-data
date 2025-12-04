@@ -1,0 +1,123 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 3:15
+text: Ὅσοι οὖν τέλειοι, τοῦτο φρονῶμεν·
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: PHP 3:15!2
+    wordID: n50003015002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Ὅσοι
+  lemma: ὅσος
+  normalized: Ὅσοι
+  ids:
+    ref: PHP 3:15!1
+    wordID: n50003015001
+  translation:
+    gloss: As many as
+  morphology:
+    class: pron
+    morph: K-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3745'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.7'
+  syntax:
+    role: s
+- position: 3
+  text: τέλειοι
+  lemma: τέλειος
+  normalized: τέλειοι
+  ids:
+    ref: PHP 3:15!3
+    wordID: n50003015003
+  translation:
+    gloss: '[are] mature'
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '5046'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.18'
+  syntax:
+    role: p
+- position: 4
+  text: τοῦτο
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: PHP 3:15!4
+    wordID: n50003015004
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+  discourse:
+    referent: n50003014003
+- position: 5
+  text: φρονῶμεν
+  lemma: φρονέω
+  normalized: φρονῶμεν
+  ids:
+    ref: PHP 3:15!5
+    wordID: n50003015005
+  translation:
+    gloss: should be of mind
+  morphology:
+    class: verb
+    morph: V-PAS-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '5426'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.16'
+  syntax:
+    role: v
+    frame: A0:n50001001001;n50002019006;n50002025004;n50003001003 A0:n50003015003
+      A1:n50003015004
+  discourse:
+    subject: n50001001001 n50002019006 n50002025004 n50003001003

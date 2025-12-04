@@ -1,0 +1,623 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EZK 28:7
+text: לָכֵ֗ן הִנְנִ֨י מֵבִ֤יא עָלֶ֨יךָ֙ זָרִ֔ים עָרִיצֵ֖י גּוֹיִ֑ם וְהֵרִ֤יקוּ חַרְבוֹתָם֙
+  עַל־יְפִ֣י חָכְמָתֶ֔ךָ וְחִלְּל֖וּ יִפְעָתֶֽךָ׃
+words:
+- position: 1
+  text: לָ
+  lemma: לָכֵן
+  transliteration: lā
+  ids:
+    ref: EZK 28:7!1
+    wordID: o260280070011
+  translation:
+    english: therefore
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לָכֵן
+    strong: 3807a
+  lxx:
+    text: ἀντὶ
+    strong: '473'
+- position: 2
+  text: כֵ֗ן
+  lemma: כֵּן
+  transliteration: ḵēn
+  ids:
+    ref: EZK 28:7!1
+    wordID: o260280070012
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: τούτου
+    strong: '5127'
+- position: 3
+  text: הִנְ
+  lemma: הִנֵּה
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!2
+    wordID: o260280070021
+  translation:
+    english: behold
+    mandarin: 看
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: הִנֵּה
+    strong: '2009'
+  lxx:
+    text: ἰδοὺ
+    strong: '2400'
+  syntax:
+    role: p
+- position: 4
+  text: נִ֨י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!2
+    wordID: o260280070022
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '260280020081'
+- position: 5
+  text: מֵבִ֤יא
+  lemma: בּוֹא
+  transliteration: mēḇiyʾ
+  ids:
+    ref: EZK 28:7!3
+    wordID: o260280070031
+  translation:
+    english: bring
+    mandarin: 来
+    gloss: '[am].about.to.bring'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἐπάγω
+    strong: '1863'
+  syntax:
+    role: v
+    frame: AA:260280070022; A0:260280070051;
+- position: 6
+  text: עָלֶ֨י
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!4
+    wordID: o260280070041
+  translation:
+    english: against
+    mandarin: 攻击
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 7
+  text: ךָ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!4
+    wordID: o260280070042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σὲ
+    strong: '4571'
+  discourse:
+    participant: '260280020042'
+- position: 8
+  text: זָרִ֔ים
+  lemma: זָר
+  transliteration: zāriym
+  ids:
+    ref: EZK 28:7!5
+    wordID: o260280070051
+  translation:
+    english: strangers
+    mandarin: 外族人
+    gloss: strangers
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: זָר
+    strong: 2114b
+  semantic:
+    sdbh:
+    - '002041001001000'
+    lexdomain:
+    - '001001002003001'
+    sense: '1'
+  lxx:
+    text: ἀλλοτρίους
+    strong: '245'
+- position: 9
+  text: עָרִיצֵ֖י
+  lemma: עָרִיץ
+  transliteration: ʿārîṣēy
+  ids:
+    ref: EZK 28:7!6
+    wordID: o260280070061
+  translation:
+    english: ruthless
+    mandarin: 凶暴
+    gloss: ruthless.[ones]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampc
+    gender: masculine
+    number: plural
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: עָרִיץ
+    strong: '6184'
+  semantic:
+    sdbh:
+    - '005670001001000'
+    lexdomain:
+    - 002001002009
+    - '002001001060'
+    - '002001002012'
+    - '001001002003002'
+    - '002001002007'
+    - '002003003013'
+    coredomain:
+    - '006'
+    - '172'
+    sense: '1'
+  lxx:
+    text: λοιμοὺς
+- position: 10
+  text: גּוֹיִ֑ם
+  lemma: גּוֹי
+  transliteration: gôyim
+  ids:
+    ref: EZK 28:7!7
+    wordID: o260280070071
+  translation:
+    english: nations
+    mandarin: 列国
+    gloss: of.nations
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹי
+    strong: '1471'
+  semantic:
+    sdbh:
+    - '001347001001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἐθνῶν
+    strong: '1484'
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EZK 28:7!8
+    wordID: o260280070081
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: הֵרִ֤יקוּ
+  lemma: רִיק
+  transliteration: hēriyqû
+  ids:
+    ref: EZK 28:7!8
+    wordID: o260280070082
+  translation:
+    english: draw
+    mandarin: 拔出
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhq3cp
+    gender: common
+    number: plural
+    person: third
+    stem: hiphil
+    type: weqatal
+  lexical:
+    stronglemma: רִיק
+    strong: 7324a
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐκκενώσουσιν
+  syntax:
+    role: v
+    frame: AA:260280070051; A0:260280070091;
+  discourse:
+    subject: '260280070051'
+- position: 13
+  text: חַרְבוֹתָ
+  lemma: חֶרֶב
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!9
+    wordID: o260280070091
+  translation:
+    english: swords
+    mandarin: 刀
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֶרֶב
+    strong: '2719'
+  semantic:
+    sdbh:
+    - '002505001002000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    - '188'
+    sense: '1'
+- position: 14
+  text: ם֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!9
+    wordID: o260280070092
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '002505001002000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    - '188'
+  discourse:
+    participant: '260280070051'
+- position: 15
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: EZK 28:7!10
+    wordID: o260280070101
+  translation:
+    english: against
+    mandarin: 攻击
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 16
+  text: יְפִ֣י
+  lemma: יֳפִי
+  transliteration: yəp̄iy
+  ids:
+    ref: EZK 28:7!11
+    wordID: o260280070111
+  translation:
+    english: beauty
+    mandarin: 美物
+    gloss: the.beauty
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יֳפִי
+    strong: '3308'
+  semantic:
+    sdbh:
+    - '003024001001000'
+    lexdomain:
+    - 002001001028
+    coredomain:
+    - '016'
+    sense: '1'
+  lxx:
+    text: σὲ
+    strong: '4571'
+- position: 17
+  text: חָכְמָתֶ֔
+  lemma: חׇכְמָה
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!12
+    wordID: o260280070121
+  translation:
+    english: wisdom
+    mandarin: 智慧
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חׇכְמָה
+    strong: '2451'
+  semantic:
+    sdbh:
+    - '002265001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+- position: 18
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!12
+    wordID: o260280070122
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '002265001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '260280020042'
+- position: 19
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EZK 28:7!13
+    wordID: o260280070131
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 20
+  text: חִלְּל֖וּ
+  lemma: חָלַל
+  transliteration: ḥilləlû
+  ids:
+    ref: EZK 28:7!13
+    wordID: o260280070132
+  translation:
+    english: defile
+    mandarin: 亵渎
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpq3cp
+    gender: common
+    number: plural
+    person: third
+    stem: piel
+    type: weqatal
+  lexical:
+    stronglemma: חָלַל
+    strong: '2490'
+  semantic:
+    sdbh:
+    - 002299003001000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - 019
+    - '006'
+    sense: '1'
+  lxx:
+    text: στρώσουσιν
+  syntax:
+    role: v
+    frame: A0:260280070051; A1:260280070141;
+  discourse:
+    subject: '260280070051'
+- position: 21
+  text: יִפְעָתֶֽ
+  lemma: יִפְעָה
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!14
+    wordID: o260280070141
+  translation:
+    english: splendor
+    mandarin: 光彩
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יִפְעָה
+    strong: '3314'
+  semantic:
+    sdbh:
+    - '003031001001000'
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '170'
+    sense: '1'
+- position: 22
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EZK 28:7!14
+    wordID: o260280070142
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '003031001001000'
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '170'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '260280020042'

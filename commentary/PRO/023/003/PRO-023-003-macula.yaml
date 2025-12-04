@@ -1,0 +1,262 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 23:3
+text: אַל־תִּ֭תְאָולְמַטְעַמּוֹתָ֑יו וְ֝ה֗וּא לֶ֣חֶם כְּזָבִֽים׃
+words:
+- position: 1
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PRO 23:3!1
+    wordID: o200230030011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: תִּ֭תְאָו
+  lemma: אָוָה
+  transliteration: tiṯʾāw
+  ids:
+    ref: PRO 23:3!2
+    wordID: o200230030021
+  translation:
+    english: desire
+    mandarin: 贪恋
+    gloss: crave
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vtj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hithpael
+    type: jussive
+  lexical:
+    stronglemma: אָוָה
+    strong: 0183
+  semantic:
+    sdbh:
+    - 000179001001000
+    lexdomain:
+    - '002004001001001'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ἐπιθύμει
+  syntax:
+    role: v
+    frame: A0:200190270021;
+  discourse:
+    subject: '200190270021'
+- position: 3
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PRO 23:3!3
+    wordID: o200230030031
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῶν
+    strong: '3588'
+- position: 4
+  text: מַטְעַמּוֹתָ֑י
+  lemma: מַטְעַמִּים
+  transliteration: ''
+  ids:
+    ref: PRO 23:3!3
+    wordID: o200230030032
+  translation:
+    english: delicacies
+    mandarin: 美食
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַטְעַמִּים
+    strong: '4303'
+  semantic:
+    sdbh:
+    - 003931001001000
+    lexdomain:
+    - '001004003'
+    coredomain:
+    - 069
+    - '137'
+    sense: '1'
+  lxx:
+    text: ἐδεσμάτων
+- position: 5
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 23:3!3
+    wordID: o200230030033
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 003931001001000
+    lexdomain:
+    - '001004003'
+    coredomain:
+    - 069
+    - '137'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '200230010051'
+- position: 6
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 23:3!4
+    wordID: o200230030041
+  translation:
+    english: for
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: γὰρ
+    strong: '1063'
+- position: 7
+  text: ה֗וּא
+  lemma: הוּא
+  transliteration: hûʾ
+  ids:
+    ref: PRO 23:3!4
+    wordID: o200230030042
+  translation:
+    english: that
+    mandarin: 那
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: ταῦτα
+    strong: '5023'
+  syntax:
+    role: s
+  discourse:
+    participant: '200230030032'
+- position: 8
+  text: לֶ֣חֶם
+  lemma: לֶחֶם
+  transliteration: leḥem
+  ids:
+    ref: PRO 23:3!5
+    wordID: o200230030051
+  translation:
+    english: food
+    mandarin: 食物
+    gloss: '[is].food'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: לֶחֶם
+    strong: '3899'
+  semantic:
+    sdbh:
+    - '003565001001000'
+    lexdomain:
+    - '001004003001'
+    - '001004003'
+    sense: '1'
+- position: 9
+  text: כְּזָבִֽים
+  lemma: כָּזָב
+  transliteration: 'kəzāḇiym:'
+  ids:
+    ref: PRO 23:3!6
+    wordID: o200230030061
+  translation:
+    english: deceptive
+    mandarin: 圈套
+    gloss: of.lies
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כָּזָב
+    strong: '3577'
+  semantic:
+    sdbh:
+    - '003276001002000'
+    lexdomain:
+    - '002001003007'
+    coredomain:
+    - '184'
+    sense: '1'
+  lxx:
+    text: ψευδοῦς

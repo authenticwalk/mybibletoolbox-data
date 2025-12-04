@@ -1,0 +1,479 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOL 1:19
+text: אֵלֶ֥יךָ יְהוָ֖ה אֶקְרָ֑א כִּ֣י אֵ֗שׁ אָֽכְלָה֙ נְא֣וֹת מִדְבָּ֔ר וְלֶ֣הָבָ֔ה
+  לִהֲטָ֖ה כָּל־עֲצֵ֥י הַשָּׂדֶֽה׃
+words:
+- position: 1
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JOL 1:19!2
+    wordID: o290010190021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אֵלֶ֥י
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: JOL 1:19!1
+    wordID: o290010190011
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 3
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOL 1:19!1
+    wordID: o290010190012
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σέ
+    strong: '4571'
+  discourse:
+    participant: '290010190021'
+- position: 4
+  text: אֶקְרָ֑א
+  lemma: קָרָא
+  transliteration: ʾeqrāʾ
+  ids:
+    ref: JOL 1:19!3
+    wordID: o290010190031
+  translation:
+    english: call
+    mandarin: 呼求
+    gloss: I.call
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: βοήσομαι
+    strong: '994'
+  syntax:
+    role: v
+    frame: A0:290010010061;
+  discourse:
+    subject: '290010010061'
+- position: 5
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: JOL 1:19!4
+    wordID: o290010190041
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 6
+  text: אֵ֗שׁ
+  lemma: אֵשׁ
+  transliteration: ʾēš
+  ids:
+    ref: JOL 1:19!5
+    wordID: o290010190051
+  translation:
+    english: fire
+    mandarin: 火
+    gloss: fire
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵשׁ
+    strong: 0784
+  semantic:
+    sdbh:
+    - '000724001001000'
+    lexdomain:
+    - '001006006'
+    coredomain:
+    - '067'
+    sense: '1'
+  lxx:
+    text: πῦρ
+    strong: '4442'
+  syntax:
+    role: s
+- position: 7
+  text: אָֽכְלָה֙
+  lemma: אָכַל
+  transliteration: ʾāḵəlāh
+  ids:
+    ref: JOL 1:19!6
+    wordID: o290010190061
+  translation:
+    english: devoured
+    mandarin: 吞灭
+    gloss: it.has.consumed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001003000'
+    lexdomain:
+    - '002002002006'
+    - 002001001019
+    coredomain:
+    - '052'
+    - 099
+    - '006'
+    sense: '2'
+  lxx:
+    text: ἀνήλωσεν
+    strong: '355'
+  syntax:
+    role: v
+    frame: A0:290010190051; A1:290010190071;
+- position: 8
+  text: נְא֣וֹת
+  lemma: נָוָה
+  transliteration: nəʾôṯ
+  ids:
+    ref: JOL 1:19!7
+    wordID: o290010190071
+  translation:
+    english: pastures
+    mandarin: 草场
+    gloss: '[the].pastures'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נָוָה
+    strong: '4999'
+  semantic:
+    sdbh:
+    - 004690001002000
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    - '115'
+    - '157'
+    sense: '1'
+- position: 9
+  text: מִדְבָּ֔ר
+  lemma: מִדְבָּר
+  transliteration: miḏbār
+  ids:
+    ref: JOL 1:19!8
+    wordID: o290010190081
+  translation:
+    english: wilderness
+    mandarin: 旷野
+    gloss: of.[the].wilderness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִדְבָּר
+    strong: '4057'
+  semantic:
+    sdbh:
+    - '003713001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ἐρήμου
+    strong: '2048'
+- position: 10
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOL 1:19!9
+    wordID: o290010190091
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: לֶ֣הָבָ֔ה
+  lemma: לֶהָבָה
+  transliteration: lehāḇāh
+  ids:
+    ref: JOL 1:19!9
+    wordID: o290010190092
+  translation:
+    english: flames
+    mandarin: 火焰
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֶהָבָה
+    strong: '3852'
+  semantic:
+    sdbh:
+    - '003521001001000'
+    lexdomain:
+    - '001006006'
+    sense: '1'
+  lxx:
+    text: φλὸχ
+    strong: '5395'
+  syntax:
+    role: s
+- position: 12
+  text: לִהֲטָ֖ה
+  lemma: לָהַט
+  transliteration: lihăṭāh
+  ids:
+    ref: JOL 1:19!10
+    wordID: o290010190101
+  translation:
+    english: burned
+    mandarin: 烧尽
+    gloss: it.has.set.ablaze
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: לָהַט
+    strong: '3857'
+  semantic:
+    sdbh:
+    - '003527001003000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+    sense: '2'
+  lxx:
+    text: ἀνῆψεν
+  syntax:
+    role: v
+    frame: A0:290010190092; A1:290010190121;
+- position: 13
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: JOL 1:19!11
+    wordID: o290010190111
+  translation:
+    english: all
+    mandarin: 都
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντα
+    strong: '3956'
+- position: 14
+  text: עֲצֵ֥י
+  lemma: עֵץ
+  transliteration: ʿăṣēy
+  ids:
+    ref: JOL 1:19!12
+    wordID: o290010190121
+  translation:
+    english: trees
+    mandarin: 树木
+    gloss: the.trees
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֵץ
+    strong: '6086'
+  semantic:
+    sdbh:
+    - 005588001001000
+    lexdomain:
+    - '001003002'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: χύλα
+    strong: '3586'
+- position: 15
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: JOL 1:19!13
+    wordID: o290010190131
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 16
+  text: שָּׂדֶֽה
+  lemma: שָׂדֶה
+  transliteration: 'śśāḏeh:'
+  ids:
+    ref: JOL 1:19!13
+    wordID: o290010190132
+  translation:
+    english: field
+    mandarin: 田野
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׂדֶה
+    strong: '7704'
+  semantic:
+    sdbh:
+    - 006984001001000
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '115'
+    sense: '1'
+  lxx:
+    text: ἀγροῦ
+    strong: '68'

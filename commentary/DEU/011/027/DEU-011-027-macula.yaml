@@ -1,0 +1,462 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 11:27
+text: אֶֽת־הַבְּרָכָ֑ה אֲשֶׁ֣ר תִּשְׁמְע֗וּ אֶל־מִצְוֺת֙ יְהוָ֣ה אֱלֹֽהֵיכֶ֔ם אֲשֶׁ֧ר
+  אָנֹכִ֛י מְצַוֶּ֥ה אֶתְכֶ֖ם הַיּֽוֹם׃
+words:
+- position: 1
+  text: אֶֽת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: DEU 11:27!1
+    wordID: o050110270011
+  translation:
+    mandarin: 至于
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 2
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 11:27!2
+    wordID: o050110270021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 3
+  text: בְּרָכָ֑ה
+  lemma: בְּרָכָה
+  transliteration: bərāḵāh
+  ids:
+    ref: DEU 11:27!2
+    wordID: o050110270022
+  translation:
+    english: blessing
+    mandarin: 祝福
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּרָכָה
+    strong: '1293'
+  semantic:
+    sdbh:
+    - 001192001001000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλογίαν
+    strong: '2129'
+- position: 4
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 11:27!3
+    wordID: o050110270031
+  translation:
+    english: if
+    mandarin: 若
+    gloss: that
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 5
+  text: תִּשְׁמְע֗וּ
+  lemma: שָׁמַע
+  transliteration: tišməʿû
+  ids:
+    ref: DEU 11:27!4
+    wordID: o050110270041
+  translation:
+    english: obey
+    mandarin: 听从
+    gloss: you.will.obey
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἀκούσητε
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:050110060261;
+  discourse:
+    subject: '050110060261'
+- position: 6
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: DEU 11:27!5
+    wordID: o050110270051
+  translation:
+    english: to
+    gloss: (to)
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: τὰς
+    strong: '3588'
+- position: 7
+  text: מִצְוֺת֙
+  lemma: מִצְוָה
+  transliteration: miṣwōṯ
+  ids:
+    ref: DEU 11:27!6
+    wordID: o050110270061
+  translation:
+    english: commandments
+    mandarin: 诫命
+    gloss: the.commandments
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִצְוָה
+    strong: '4687'
+  semantic:
+    sdbh:
+    - 004292001001000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    - '015'
+    sense: '1'
+  lxx:
+    text: ἐντολὰς
+    strong: '1785'
+- position: 8
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 11:27!7
+    wordID: o050110270071
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 9
+  text: אֱלֹֽהֵי
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: DEU 11:27!8
+    wordID: o050110270081
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 10
+  text: כֶ֔ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 11:27!8
+    wordID: o050110270082
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '050110060261'
+- position: 11
+  text: אֲשֶׁ֧ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 11:27!9
+    wordID: o050110270091
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἃς
+    strong: '3739'
+- position: 12
+  text: אָנֹכִ֛י
+  lemma: אָנֹכִי
+  transliteration: ʾānōḵiy
+  ids:
+    ref: DEU 11:27!10
+    wordID: o050110270101
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '050050010021'
+- position: 13
+  text: מְצַוֶּ֥ה
+  lemma: צָוָה
+  transliteration: məṣawweh
+  ids:
+    ref: DEU 11:27!11
+    wordID: o050110270111
+  translation:
+    english: commanding
+    mandarin: 吩咐
+    gloss: '[am].commanding'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐντέλλομαι
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:050110270101; A2:050110270122; A1:050110270061;
+- position: 14
+  text: אֶתְ
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: DEU 11:27!12
+    wordID: o050110270121
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 15
+  text: כֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 11:27!12
+    wordID: o050110270122
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμῖν
+    strong: '5213'
+  discourse:
+    participant: '050110060261'
+- position: 16
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 11:27!13
+    wordID: o050110270131
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 17
+  text: יּֽוֹם
+  lemma: יוֹם
+  transliteration: 'yyôm:'
+  ids:
+    ref: DEU 11:27!13
+    wordID: o050110270132
+  translation:
+    english: day
+    mandarin: 今日
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: σήμερον
+    strong: '4594'

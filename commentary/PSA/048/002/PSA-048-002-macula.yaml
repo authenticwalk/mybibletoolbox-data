@@ -1,0 +1,363 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 48:2
+text: גָּ֘ד֤וֹל יְהוָ֣ה וּמְהֻלָּ֣ל מְאֹ֑ד בְּעִ֥יר אֱ֝לֹהֵ֗ינוּ הַר־קָדְשֽׁוֹ׃
+words:
+- position: 1
+  text: גָּ֘ד֤וֹל
+  lemma: גָּדוֹל
+  transliteration: gāḏôl
+  ids:
+    ref: PSA 48:2!1
+    wordID: o190480020011
+  translation:
+    english: great
+    mandarin: 至大
+    gloss: '[is].great'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: גָּדוֹל
+    strong: '1419'
+  semantic:
+    sdbh:
+    - 001299001003000
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '170'
+    sense: '7'
+  lxx:
+    text: μέγας
+    strong: '3173'
+  syntax:
+    role: p
+- position: 2
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 48:2!2
+    wordID: o190480020021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 3
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 48:2!3
+    wordID: o190480020031
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: מְהֻלָּ֣ל
+  lemma: הָלַל
+  transliteration: məhullāl
+  ids:
+    ref: PSA 48:2!3
+    wordID: o190480020032
+  translation:
+    english: praised
+    mandarin: 赞美
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: pual
+    type: participle passive
+  lexical:
+    stronglemma: הָלַל
+    strong: 1984a
+  semantic:
+    sdbh:
+    - 001827002002000
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '041'
+    - '130'
+    - '170'
+    sense: '1'
+  lxx:
+    text: αἰνετὸς
+  syntax:
+    role: v
+    frame: A1:190480020021;
+  discourse:
+    subject: '190480020021'
+- position: 5
+  text: מְאֹ֑ד
+  lemma: מְאֹד
+  transliteration: məʾōḏ
+  ids:
+    ref: PSA 48:2!4
+    wordID: o190480020041
+  translation:
+    english: greatly
+    mandarin: 大
+    gloss: exceedingly
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: מְאֹד
+    strong: '3966'
+  lxx:
+    text: σφόδρα
+    strong: '4970'
+  syntax:
+    role: adv
+- position: 6
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 48:2!5
+    wordID: o190480020051
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 7
+  text: עִ֥יר
+  lemma: עִיר
+  transliteration: ʿiyr
+  ids:
+    ref: PSA 48:2!5
+    wordID: o190480020052
+  translation:
+    english: city
+    mandarin: 城
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עִיר
+    strong: '5892'
+  semantic:
+    sdbh:
+    - '005411001001000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+  lxx:
+    text: πόλει
+    strong: '4172'
+- position: 8
+  text: אֱ֝לֹהֵ֗י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 48:2!6
+    wordID: o190480020061
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 9
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 48:2!6
+    wordID: o190480020062
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 190480010032 190480120061
+- position: 10
+  text: הַר
+  lemma: הַר
+  transliteration: har-
+  ids:
+    ref: PSA 48:2!7
+    wordID: o190480020071
+  translation:
+    english: mountain
+    mandarin: 山
+    gloss: the.mountain
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: הַר
+    strong: '2022'
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ὄρει
+    strong: '3735'
+- position: 11
+  text: קָדְשֽׁ
+  lemma: קֹדֶשׁ
+  transliteration: ''
+  ids:
+    ref: PSA 48:2!8
+    wordID: o190480020081
+  translation:
+    english: holy
+    mandarin: 圣
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קֹדֶשׁ
+    strong: '6944'
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἁγίῳ
+    strong: '40'
+- position: 12
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 48:2!8
+    wordID: o190480020082
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190480020061'

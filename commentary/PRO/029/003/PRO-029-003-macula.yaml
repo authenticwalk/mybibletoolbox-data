@@ -1,0 +1,377 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 29:3
+text: אִֽישׁ־אֹהֵ֣ב חָ֭כְמָה יְשַׂמַּ֣ח אָבִ֑יו וְרֹעֶ֥ה ז֝וֹנ֗וֹת יְאַבֶּד־הֽוֹן׃
+words:
+- position: 1
+  text: אִֽישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš-
+  ids:
+    ref: PRO 29:3!1
+    wordID: o200290030011
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.person
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνδρὸς
+    strong: '435'
+- position: 2
+  text: אֹהֵ֣ב
+  lemma: אָהֵב
+  transliteration: ʾōhēḇ
+  ids:
+    ref: PRO 29:3!2
+    wordID: o200290030021
+  translation:
+    english: loves
+    mandarin: 爱慕
+    gloss: '[who].loves'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָהֵב
+    strong: '0157'
+  semantic:
+    sdbh:
+    - '000156001001000'
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+    sense: '1'
+  lxx:
+    text: φιλοῦντος
+  syntax:
+    role: v
+    frame: A0:200290030011; A1:200290030031;
+  discourse:
+    subject: '200290030011'
+- position: 3
+  text: חָ֭כְמָה
+  lemma: חׇכְמָה
+  transliteration: ḥoḵmâ
+  ids:
+    ref: PRO 29:3!3
+    wordID: o200290030031
+  translation:
+    english: wisdom
+    mandarin: 智慧
+    gloss: wisdom
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חׇכְמָה
+    strong: '2451'
+  semantic:
+    sdbh:
+    - '002265001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: σοφίαν
+    strong: '4678'
+  syntax:
+    role: o
+- position: 4
+  text: יְשַׂמַּ֣ח
+  lemma: שָׂמַח
+  transliteration: yəśammaḥ
+  ids:
+    ref: PRO 29:3!4
+    wordID: o200290030041
+  translation:
+    english: makes ~ glad
+    mandarin: 喜乐
+    gloss: he.makes.glad
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: שָׂמַח
+    strong: '8055'
+  semantic:
+    sdbh:
+    - '007052001002000'
+    lexdomain:
+    - '002001002022'
+    coredomain:
+    - 093
+    sense: '1'
+  lxx:
+    text: εὐφραίνεται
+  syntax:
+    role: v
+    frame: A0:200290030011; A1:200290030051;
+- position: 5
+  text: אָבִ֑י
+  lemma: אָב
+  transliteration: ''
+  ids:
+    ref: PRO 29:3!5
+    wordID: o200290030051
+  translation:
+    english: father
+    mandarin: 父亲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָב
+    strong: '0001'
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: πατὴρ
+    strong: '3962'
+- position: 6
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 29:3!5
+    wordID: o200290030052
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '200290030011'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 29:3!6
+    wordID: o200290030061
+  translation:
+    english: but
+    mandarin: 则
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 8
+  text: רֹעֶ֥ה
+  lemma: רָעָה
+  transliteration: rōʿeh
+  ids:
+    ref: PRO 29:3!6
+    wordID: o200290030062
+  translation:
+    english: companion
+    mandarin: 结交
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רָעָה
+    strong: 7462a
+  semantic:
+    sdbh:
+    - 006856002005000
+    lexdomain:
+    - '001001002003003'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:200290030071;
+- position: 9
+  text: ז֝וֹנ֗וֹת
+  lemma: זָנָה
+  transliteration: zônôṯ
+  ids:
+    ref: PRO 29:3!7
+    wordID: o200290030071
+  translation:
+    english: prostitutes
+    mandarin: 妓女
+    gloss: prostitutes
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: זָנָה
+    strong: '2185'
+  semantic:
+    sdbh:
+    - '002012001001000'
+    lexdomain:
+    - '001001002003011'
+    coredomain:
+    - '105'
+    - '155'
+    - '200'
+    - 082
+    sense: '1'
+  lxx:
+    text: πόρνας
+  syntax:
+    role: o
+- position: 10
+  text: יְאַבֶּד
+  lemma: אָבַד
+  transliteration: yəʾabbeḏ-
+  ids:
+    ref: PRO 29:3!8
+    wordID: o200290030081
+  translation:
+    english: squander
+    mandarin: 浪费
+    gloss: he.destroys
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: אָבַד
+    strong: '0006'
+  semantic:
+    sdbh:
+    - '000005001006000'
+    lexdomain:
+    - '002002002006'
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    - '052'
+    - '140'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἀπολεῖ
+    strong: '622'
+  syntax:
+    role: v
+    frame: A0:200290030062; A1:200290030091;
+- position: 11
+  text: הֽוֹן
+  lemma: הוֹן
+  transliteration: 'hôn:'
+  ids:
+    ref: PRO 29:3!9
+    wordID: o200290030091
+  translation:
+    english: wealth
+    mandarin: 钱财
+    gloss: wealth
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הוֹן
+    strong: '1952'
+  semantic:
+    sdbh:
+    - 001794001001000
+    lexdomain:
+    - '001'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πλοῦτον
+    strong: '4149'
+  syntax:
+    role: o

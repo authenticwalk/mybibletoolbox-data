@@ -1,0 +1,245 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 23:1
+text: מִזְמ֥וֹר לְדָוִ֑דיְהוָ֥ה רֹ֝עִ֗י לֹ֣א אֶחְסָֽר׃
+words:
+- position: 1
+  text: מִזְמ֥וֹר
+  lemma: מִזְמוֹר
+  transliteration: mizmôr
+  ids:
+    ref: PSA 23:1!1
+    wordID: o190230010011
+  translation:
+    english: psalm
+    mandarin: 诗
+    gloss: a.psalm
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִזְמוֹר
+    strong: '4210'
+  semantic:
+    sdbh:
+    - 003842001001000
+    lexdomain:
+    - 002004001009006
+    coredomain:
+    - '111'
+    sense: '1'
+  lxx:
+    text: ψαλμὸς
+    strong: '5568'
+  syntax:
+    role: s
+- position: 2
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 23:1!2
+    wordID: o190230010021
+  translation:
+    english: of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 3
+  text: דָוִ֑ד
+  lemma: דָּוִד
+  transliteration: ḏāwiḏ
+  ids:
+    ref: PSA 23:1!2
+    wordID: o190230010022
+  translation:
+    english: David
+    mandarin: 大卫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+- position: 4
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 23:1!3
+    wordID: o190230010031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 5
+  text: רֹ֝עִ֗
+  lemma: רָעָה
+  transliteration: ''
+  ids:
+    ref: PSA 23:1!4
+    wordID: o190230010041
+  translation:
+    english: shepherd
+    mandarin: 牧者
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רָעָה
+    strong: '7473'
+  semantic:
+    sdbh:
+    - 006856001006000
+    lexdomain:
+    - 001001002003009
+    coredomain:
+    - '200'
+    - '157'
+    sense: '1'
+  lxx:
+    text: ποιμαίνει
+    strong: '4165'
+  syntax:
+    frame: A0:190230010031;
+  discourse:
+    subject: '190230010031'
+- position: 6
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 23:1!4
+    wordID: o190230010042
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 006856001006000
+    lexdomain:
+    - 001001002003009
+    coredomain:
+    - '200'
+    - '157'
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '190230010022'
+- position: 7
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PSA 23:1!5
+    wordID: o190230010051
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  syntax:
+    role: adv
+- position: 8
+  text: אֶחְסָֽר
+  lemma: חָסֵר
+  transliteration: 'ʾeḥsār:'
+  ids:
+    ref: PSA 23:1!6
+    wordID: o190230010061
+  translation:
+    english: want
+    mandarin: 缺乏
+    gloss: I.lack
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָסֵר
+    strong: '2637'
+  semantic:
+    sdbh:
+    - 002429001002000
+    lexdomain:
+    - 002003002019
+    coredomain:
+    - '138'
+    - '128'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:190230010022;
+  discourse:
+    subject: '190230010022'

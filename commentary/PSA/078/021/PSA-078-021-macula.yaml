@@ -1,0 +1,449 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 78:21
+text: לָכֵ֤ן׀שָׁמַ֥ע יְהוָ֗ה וַֽיִּתְעַבָּ֥ר וְ֭אֵשׁ נִשְּׂקָ֣ה בְיַעֲקֹ֑ב וְגַם־אַ֝֗ף
+  עָלָ֥ה בְיִשְׂרָאֵֽל׃
+words:
+- position: 1
+  text: לָ
+  lemma: לָכֵן
+  transliteration: lā
+  ids:
+    ref: PSA 78:21!1
+    wordID: o190780210011
+  translation:
+    english: when
+    mandarin: 所以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לָכֵן
+    strong: 3807a
+  lxx:
+    text: διὰ
+    strong: '1223'
+- position: 2
+  text: כֵ֤ן
+  lemma: כֵּן
+  transliteration: ḵēn
+  ids:
+    ref: PSA 78:21!1
+    wordID: o190780210012
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+- position: 3
+  text: שָׁמַ֥ע
+  lemma: שָׁמַע
+  transliteration: šāmaʿ
+  ids:
+    ref: PSA 78:21!2
+    wordID: o190780210021
+  translation:
+    english: heard
+    mandarin: 听见
+    gloss: he.heard
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἤκουσεν
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:190780210031;
+- position: 4
+  text: יְהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 78:21!3
+    wordID: o190780210031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 5
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 78:21!4
+    wordID: o190780210041
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: יִּתְעַבָּ֥ר
+  lemma: עָבַר
+  transliteration: yyiṯʿabbār
+  ids:
+    ref: PSA 78:21!4
+    wordID: o190780210042
+  translation:
+    english: very angry
+    mandarin: 震怒
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vtw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hithpael
+    type: wayyiqtol
+  lexical:
+    stronglemma: עָבַר
+    strong: 5674a
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνεβάλετο
+    strong: '306'
+  syntax:
+    role: v
+    frame: A0:190780210031;
+  discourse:
+    subject: '190780210031'
+- position: 7
+  text: וְ֭
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 78:21!5
+    wordID: o190780210051
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: אֵשׁ
+  lemma: אֵשׁ
+  transliteration: ʾēš
+  ids:
+    ref: PSA 78:21!5
+    wordID: o190780210052
+  translation:
+    english: fire
+    mandarin: 烈火
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵשׁ
+    strong: 0784
+  semantic:
+    sdbh:
+    - '000724001001000'
+    lexdomain:
+    - '001006006'
+    coredomain:
+    - '067'
+    sense: '1'
+  lxx:
+    text: πῦρ
+    strong: '4442'
+  syntax:
+    role: s
+- position: 9
+  text: נִשְּׂקָ֣ה
+  lemma: נשׂק
+  transliteration: niśśəqāh
+  ids:
+    ref: PSA 78:21!6
+    wordID: o190780210061
+  translation:
+    english: kindled
+    mandarin: 烧起
+    gloss: it.was.kindled
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: נשׂק
+    strong: '5400'
+  semantic:
+    sdbh:
+    - 004945001003000
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    sense: '1'
+  lxx:
+    text: ἀνήφθη
+    strong: '381'
+  syntax:
+    role: v
+    frame: A1:190780210052;
+- position: 10
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 78:21!7
+    wordID: o190780210071
+  translation:
+    english: against
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 11
+  text: יַעֲקֹ֑ב
+  lemma: יַעֲקֹב
+  transliteration: yaʿăqōḇ
+  ids:
+    ref: PSA 78:21!7
+    wordID: o190780210072
+  translation:
+    english: Jacob
+    mandarin: 雅各
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יַעֲקֹב
+    strong: '3290'
+  semantic:
+    sdbh:
+    - 003009001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιακωβ
+    strong: '2384'
+- position: 12
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 78:21!8
+    wordID: o190780210081
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: גַם
+  lemma: גַּם
+  transliteration: ḡam-
+  ids:
+    ref: PSA 78:21!8
+    wordID: o190780210082
+  translation:
+    english: also
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 14
+  text: אַ֝֗ף
+  lemma: אַף
+  transliteration: ʾap̄
+  ids:
+    ref: PSA 78:21!9
+    wordID: o190780210091
+  translation:
+    english: anger
+    mandarin: 怒气
+    gloss: anger
+  morphology:
+    class: noun
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: אַף
+    strong: 0639
+  semantic:
+    sdbh:
+    - 000584001009000
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    sense: '1'
+  lxx:
+    text: ὀργὴ
+    strong: '3709'
+  syntax:
+    role: s
+- position: 15
+  text: עָלָ֥ה
+  lemma: עָלָה
+  transliteration: ʿālāh
+  ids:
+    ref: PSA 78:21!10
+    wordID: o190780210101
+  translation:
+    english: mounted
+    mandarin: 上腾
+    gloss: it.went.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001023000'
+    lexdomain:
+    - '002001003012'
+    coredomain:
+    - 090
+    sense: '6'
+  lxx:
+    text: ἀνέβη
+    strong: '305'
+  syntax:
+    role: v
+    frame: A0:190780210091;
+- position: 16
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 78:21!11
+    wordID: o190780210111
+  translation:
+    english: against
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 17
+  text: יִשְׂרָאֵֽל
+  lemma: יִשְׂרָאֵל
+  transliteration: 'yiśrāʾēl:'
+  ids:
+    ref: PSA 78:21!11
+    wordID: o190780210112
+  translation:
+    english: Israel
+    mandarin: 以色列
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'

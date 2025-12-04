@@ -1,0 +1,482 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EST 2:10
+text: לֹא־הִגִּ֣ידָה אֶסְתֵּ֔ר אֶת־עַמָּ֖הּ וְאֶת־מֽוֹלַדְתָּ֑הּ כִּ֧י מָרְדֳּכַ֛י
+  צִוָּ֥ה עָלֶ֖יהָ אֲשֶׁ֥ר לֹא־תַגִּֽיד׃
+words:
+- position: 1
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: EST 2:10!1
+    wordID: o170020100011
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐξ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: הִגִּ֣ידָה
+  lemma: נָגַד
+  transliteration: higgiyḏâ
+  ids:
+    ref: EST 2:10!2
+    wordID: o170020100021
+  translation:
+    english: reveal
+    mandarin: 告诉
+    gloss: she.had.told
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָגַד
+    strong: '5046'
+  semantic:
+    sdbh:
+    - '004626001001000'
+    lexdomain:
+    - 002004001009008
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '041'
+    sense: '1'
+  lxx:
+    text: ὑπέδειχεν
+    strong: '5263'
+  syntax:
+    role: v
+    frame: AA:170020100031; A0:170020100051;170020100071;
+- position: 3
+  text: אֶסְתֵּ֔ר
+  lemma: אֶסְתֵּר
+  transliteration: ʾestēr
+  ids:
+    ref: EST 2:10!3
+    wordID: o170020100031
+  translation:
+    english: Esther
+    mandarin: 以斯帖
+    gloss: Esther
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אֶסְתֵּר
+    strong: '0635'
+  semantic:
+    sdbh:
+    - 000582001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: εσθηρ
+  syntax:
+    role: s
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: EST 2:10!4
+    wordID: o170020100041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: עַמָּ֖
+  lemma: עַם
+  transliteration: ''
+  ids:
+    ref: EST 2:10!5
+    wordID: o170020100051
+  translation:
+    english: people
+    mandarin: 种族
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+- position: 6
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EST 2:10!5
+    wordID: o170020100052
+  translation:
+    english: her
+    mandarin: 自己
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: τὸ
+    strong: '3588'
+  discourse:
+    participant: '170020100031'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EST 2:10!6
+    wordID: o170020100061
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὐδὲ
+    strong: '3761'
+- position: 8
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: EST 2:10!6
+    wordID: o170020100062
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: מֽוֹלַדְתָּ֑
+  lemma: מוֹלֶדֶת
+  transliteration: ''
+  ids:
+    ref: EST 2:10!7
+    wordID: o170020100071
+  translation:
+    english: kindred
+    mandarin: 亲属
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מוֹלֶדֶת
+    strong: '4138'
+  semantic:
+    sdbh:
+    - '003777001002000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '1'
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 10
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EST 2:10!7
+    wordID: o170020100072
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '003777001002000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+  lxx:
+    text: πατρίδα
+    strong: '3968'
+  discourse:
+    participant: '170020100031'
+- position: 11
+  text: כִּ֧י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: EST 2:10!8
+    wordID: o170020100081
+  translation:
+    english: because
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+- position: 12
+  text: מָרְדֳּכַ֛י
+  lemma: מׇרְדֳּכַי
+  transliteration: mordŏḵay
+  ids:
+    ref: EST 2:10!9
+    wordID: o170020100091
+  translation:
+    english: Mordecai
+    mandarin: 末底改
+    gloss: Mordecai
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מׇרְדֳּכַי
+    strong: '4782'
+  semantic:
+    sdbh:
+    - '004377001002000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: μαρδοξαῖος
+  syntax:
+    role: s
+- position: 13
+  text: צִוָּ֥ה
+  lemma: צָוָה
+  transliteration: ṣiwwāh
+  ids:
+    ref: EST 2:10!10
+    wordID: o170020100101
+  translation:
+    english: charged
+    mandarin: 嘱咐
+    gloss: he.had.commanded
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐνετείλατο
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:170020100091; A1:170020100141;
+- position: 14
+  text: עָלֶ֖י
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: EST 2:10!11
+    wordID: o170020100111
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+- position: 15
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EST 2:10!11
+    wordID: o170020100112
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐτῇ
+    strong: '846'
+  discourse:
+    participant: '170020100031'
+- position: 16
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: EST 2:10!12
+    wordID: o170020100121
+  translation:
+    english: that
+    gloss: (cmp)
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+- position: 17
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: EST 2:10!13
+    wordID: o170020100131
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 18
+  text: תַגִּֽיד
+  lemma: נָגַד
+  transliteration: 'ṯaggiyḏ:'
+  ids:
+    ref: EST 2:10!14
+    wordID: o170020100141
+  translation:
+    english: tell
+    mandarin: 告诉
+    gloss: she.will.tell
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָגַד
+    strong: '5046'
+  semantic:
+    sdbh:
+    - '004626001001000'
+    lexdomain:
+    - 002004001009008
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἀπαγγεῖλαι
+    strong: '518'
+  syntax:
+    role: v
+    frame: AA:170020100031; A0:170020100051;170020100071;
+  discourse:
+    subject: '170020100031'

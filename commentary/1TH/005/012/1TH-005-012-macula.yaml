@@ -1,0 +1,563 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1TH 5:12
+text: "1TH 5:12 \n         1TH 5:13 Ἐρωτῶμεν δὲ ὑμᾶς, ἀδελφοί, εἰδέναι τοὺς κοπιῶντας\
+  \ ἐν ὑμῖν καὶ προϊσταμένους ὑμῶν ἐν Κυρίῳ καὶ νουθετοῦντας ὑμᾶς, καὶ ἡγεῖσθαι αὐτοὺς\
+  \ ὑπερεκπερισσῶς ἐν ἀγάπῃ διὰ τὸ ἔργον αὐτῶν."
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1TH 5:12!2
+    wordID: n52005012002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089017 089023
+    ln: 89.124 89.94
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 1TH 5:12!4
+    wordID: n52005012004
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Ἐρωτῶμεν
+  lemma: ἐρωτάω
+  normalized: Ἐρωτῶμεν
+  ids:
+    ref: 1TH 5:12!1
+    wordID: n52005012001
+  translation:
+    gloss: We implore
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2065'
+  semantic:
+    semanticDomain: '033012'
+    ln: '33.161'
+  syntax:
+    role: v
+    frame: A0:n52001001003;n52003006004;n52002018008 A1:n52005012005;n52005013002
+  discourse:
+    subject: n52001001003 n52003006004 n52002018008
+- position: 4
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1TH 5:12!3
+    wordID: n52005012003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    referent: n52005012004
+- position: 5
+  text: εἰδέναι
+  lemma: οἶδα
+  normalized: εἰδέναι
+  ids:
+    ref: 1TH 5:12!5
+    wordID: n52005012005
+  translation:
+    gloss: to appreciate
+  morphology:
+    class: verb
+    morph: V-RAN
+    tense: perfect
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 087002
+    ln: '87.12'
+  syntax:
+    role: v
+    frame: A0:n52005012003 A1:n52005012007;n52005012011;n52005012016
+- position: 6
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: 1TH 5:12!6
+    wordID: n52005012006
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: κοπιῶντας
+  lemma: κοπιάω
+  normalized: κοπιῶντας
+  ids:
+    ref: 1TH 5:12!7
+    wordID: n52005012007
+  translation:
+    gloss: toiling
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2872'
+  semantic:
+    semanticDomain: '042004'
+    ln: '42.47'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 8
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1TH 5:12!8
+    wordID: n52005012008
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
+- position: 9
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: 1TH 5:12!9
+    wordID: n52005012009
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n52005012004
+- position: 10
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1TH 5:12!10
+    wordID: n52005012010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 11
+  text: προϊσταμένους
+  lemma: προΐστημι
+  normalized: προϊσταμένους
+  ids:
+    ref: 1TH 5:12!11
+    wordID: n52005012011
+  translation:
+    gloss: taking the lead
+  morphology:
+    class: verb
+    morph: V-PMP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '4291'
+  semantic:
+    semanticDomain: '036001'
+    ln: '36.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n52005012012
+- position: 12
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: 1TH 5:12!12
+    wordID: n52005012012
+  translation:
+    gloss: over you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n52005012004
+- position: 13
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1TH 5:12!13
+    wordID: n52005012013
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004 089012 089020
+    ln: 89.119 89.5 89.76
+- position: 14
+  text: Κυρίῳ
+  lemma: κύριος
+  normalized: Κυρίῳ
+  ids:
+    ref: 1TH 5:12!14
+    wordID: n52005012014
+  translation:
+    gloss: '[the] Lord'
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 15
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1TH 5:12!15
+    wordID: n52005012015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 16
+  text: νουθετοῦντας
+  lemma: νουθετέω
+  normalized: νουθετοῦντας
+  ids:
+    ref: 1TH 5:12!16
+    wordID: n52005012016
+  translation:
+    gloss: admonishing
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3560'
+  semantic:
+    semanticDomain: 033017 033046 033047
+    ln: 33.231 33.418 33.424
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n52005012017
+- position: 17
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1TH 5:12!17
+    wordID: n52005012017
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: o
+  discourse:
+    referent: n52005012004
+- position: 18
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1TH 5:13!1
+    wordID: n52005013001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 19
+  text: ἡγεῖσθαι
+  lemma: ἡγέομαι
+  normalized: ἡγεῖσθαι
+  ids:
+    ref: 1TH 5:13!2
+    wordID: n52005013002
+  translation:
+    gloss: to esteem
+  morphology:
+    class: verb
+    morph: V-PNN
+    tense: present
+    voice: middlepassive
+    mood: infinitive
+  lexical:
+    strong: '2233'
+  semantic:
+    semanticDomain: '031001'
+    ln: '31.1'
+  syntax:
+    role: v
+    frame: A0:n52005012004 A1:n52005013003
+  discourse:
+    subject: n52005012004
+- position: 20
+  text: αὐτοὺς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: 1TH 5:13!3
+    wordID: n52005013003
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n52005012007
+- position: 21
+  text: ὑπερεκπερισσῶς
+  lemma: ὑπερεκπερισσῶς
+  normalized: ὑπερεκπερισσῶς
+  ids:
+    ref: 1TH 5:13!4
+    wordID: n52005013004
+  translation:
+    gloss: exceedingly
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: 5228+1537+4053
+  syntax:
+    role: adv
+- position: 22
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: 1TH 5:13!5
+    wordID: n52005013005
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089007 089013 089014
+    ln: 89.26 89.80 89.84
+- position: 23
+  text: ἀγάπῃ
+  lemma: ἀγάπη
+  normalized: ἀγάπῃ
+  ids:
+    ref: 1TH 5:13!6
+    wordID: n52005013006
+  translation:
+    gloss: love
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '26'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+- position: 24
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: 1TH 5:13!7
+    wordID: n52005013007
+  translation:
+    gloss: because of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.26'
+- position: 25
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: 1TH 5:13!8
+    wordID: n52005013008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 26
+  text: ἔργον
+  lemma: ἔργον
+  normalized: ἔργον
+  ids:
+    ref: 1TH 5:13!9
+    wordID: n52005013009
+  translation:
+    gloss: work
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2041'
+  semantic:
+    semanticDomain: '042004'
+    ln: '42.42'
+- position: 27
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: 1TH 5:13!10
+    wordID: n52005013010
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n52005012007

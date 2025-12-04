@@ -1,0 +1,716 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 8:9
+text: אֶ֗רֶץ אֲשֶׁ֨ר לֹ֤א בְמִסְכֵּנֻת֙ תֹּֽאכַל־בָּ֣הּ לֶ֔חֶם לֹֽא־תֶחְסַ֥ר כֹּ֖ל
+  בָּ֑הּ אֶ֚רֶץ אֲשֶׁ֣ר אֲבָנֶ֣יהָ בַרְזֶ֔ל וּמֵהֲרָרֶ֖יהָ תַּחְצֹ֥ב נְחֹֽשֶׁת׃
+words:
+- position: 1
+  text: אֶ֗רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: DEU 8:9!1
+    wordID: o050080090011
+  translation:
+    english: land
+    mandarin: 地
+    gloss: a.land
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆ
+    strong: '1093'
+- position: 2
+  text: אֲשֶׁ֨ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 8:9!2
+    wordID: o050080090021
+  translation:
+    english: where
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἧς
+    strong: '3739'
+- position: 3
+  text: לֹ֤א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: DEU 8:9!3
+    wordID: o050080090031
+  translation:
+    english: without
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 4
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: DEU 8:9!4
+    wordID: o050080090041
+  translation:
+    english: in
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: μετὰ
+    strong: '3326'
+- position: 5
+  text: מִסְכֵּנֻת֙
+  lemma: מִסְכֵּנֻת
+  transliteration: miskēnuṯ
+  ids:
+    ref: DEU 8:9!4
+    wordID: o050080090042
+  translation:
+    english: scarcity
+    mandarin: 缺
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִסְכֵּנֻת
+    strong: '4544'
+  semantic:
+    sdbh:
+    - '004160001001000'
+    lexdomain:
+    - '002001001040'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πτωξείας
+- position: 6
+  text: תֹּֽאכַל
+  lemma: אָכַל
+  transliteration: tōʾḵal-
+  ids:
+    ref: DEU 8:9!5
+    wordID: o050080090051
+  translation:
+    english: eat
+    mandarin: 吃
+    gloss: you.will.eat
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγῃ
+    strong: '5315'
+  syntax:
+    role: v
+    frame: A0:050060040021; A1:050080090071;
+  discourse:
+    subject: '050060040021'
+- position: 7
+  text: בָּ֣
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!6
+    wordID: o050080090061
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 8
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!6
+    wordID: o050080090062
+  translation:
+    english: it
+    mandarin: 其
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  discourse:
+    participant: 050080090011
+- position: 9
+  text: לֶ֔חֶם
+  lemma: לֶחֶם
+  transliteration: leḥem
+  ids:
+    ref: DEU 8:9!7
+    wordID: o050080090071
+  translation:
+    english: food
+    mandarin: 食物
+    gloss: food
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֶחֶם
+    strong: '3899'
+  semantic:
+    sdbh:
+    - '003565001001000'
+    lexdomain:
+    - '001004003001'
+    - '001004003'
+    sense: '1'
+  lxx:
+    text: ἄρτον
+    strong: '740'
+  syntax:
+    role: o
+- position: 10
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 8:9!8
+    wordID: o050080090081
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 11
+  text: תֶחְסַ֥ר
+  lemma: חָסֵר
+  transliteration: ṯeḥsar
+  ids:
+    ref: DEU 8:9!9
+    wordID: o050080090091
+  translation:
+    english: lack
+    mandarin: 缺乏
+    gloss: you.will.lack
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָסֵר
+    strong: '2637'
+  semantic:
+    sdbh:
+    - 002429001002000
+    lexdomain:
+    - 002003002019
+    coredomain:
+    - '138'
+    - '128'
+    sense: '1'
+  lxx:
+    text: ἐνδεηθήσῃ
+  syntax:
+    role: v
+    frame: A0:050060040021; A1:050080090101;
+  discourse:
+    subject: '050060040021'
+- position: 12
+  text: כֹּ֖ל
+  lemma: כֹּל
+  transliteration: kōl
+  ids:
+    ref: DEU 8:9!10
+    wordID: o050080090101
+  translation:
+    english: anything
+    mandarin: 任何
+    gloss: anything
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: οὐδὲν
+    strong: '3762'
+  syntax:
+    role: o
+- position: 13
+  text: בָּ֑
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!11
+    wordID: o050080090111
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐπ’
+    strong: '1909'
+- position: 14
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!11
+    wordID: o050080090112
+  translation:
+    english: it
+    mandarin: 其
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐτῆς
+    strong: '846'
+  discourse:
+    participant: 050080090011
+- position: 15
+  text: אֶ֚רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: DEU 8:9!12
+    wordID: o050080090121
+  translation:
+    english: land
+    mandarin: 地
+    gloss: a.land
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆ
+    strong: '1093'
+- position: 16
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 8:9!13
+    wordID: o050080090131
+  translation:
+    english: whose
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἧς
+    strong: '3739'
+- position: 17
+  text: אֲבָנֶ֣י
+  lemma: אֶבֶן
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!14
+    wordID: o050080090141
+  translation:
+    english: stones
+    mandarin: 石头
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֶבֶן
+    strong: 0068
+  semantic:
+    sdbh:
+    - '000065001002000'
+    lexdomain:
+    - '001006015'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: οἱ
+    strong: '3588'
+- position: 18
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!14
+    wordID: o050080090142
+  translation:
+    english: whose
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '000065001002000'
+    lexdomain:
+    - '001006015'
+    coredomain:
+    - '115'
+  lxx:
+    text: λίθοι
+    strong: '3037'
+  discourse:
+    participant: 050080090121
+- position: 19
+  text: בַרְזֶ֔ל
+  lemma: בַּרְזֶל
+  transliteration: ḇarzel
+  ids:
+    ref: DEU 8:9!15
+    wordID: o050080090151
+  translation:
+    english: iron
+    mandarin: 铁
+    gloss: '[are].iron'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בַּרְזֶל
+    strong: '1270'
+  semantic:
+    sdbh:
+    - '001171001001000'
+    lexdomain:
+    - 001006008
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: σίδηρος
+    strong: '4604'
+  syntax:
+    role: p
+- position: 20
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DEU 8:9!16
+    wordID: o050080090161
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 21
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: DEU 8:9!16
+    wordID: o050080090162
+  translation:
+    english: from
+    mandarin: 里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 22
+  text: הֲרָרֶ֖י
+  lemma: הַר
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!16
+    wordID: o050080090163
+  translation:
+    english: hills
+    mandarin: 山
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: הַר
+    strong: '2022'
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ὀρέων
+    strong: '3735'
+- position: 23
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 8:9!16
+    wordID: o050080090164
+  translation:
+    english: whose
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+  lxx:
+    text: τῶν
+    strong: '3588'
+  discourse:
+    participant: 050080090121
+- position: 24
+  text: תַּחְצֹ֥ב
+  lemma: חָצַב
+  transliteration: taḥṣōḇ
+  ids:
+    ref: DEU 8:9!17
+    wordID: o050080090171
+  translation:
+    english: mine
+    mandarin: 挖出
+    gloss: you.will.dig
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָצַב
+    strong: '2672'
+  semantic:
+    sdbh:
+    - '002464001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '027'
+    sense: '2'
+  lxx:
+    text: μεταλλεύσεις
+  syntax:
+    role: v
+    frame: A0:050060040021; A1:050080090181;
+  discourse:
+    subject: '050060040021'
+- position: 25
+  text: נְחֹֽשֶׁת
+  lemma: נְחֹשֶׁת
+  transliteration: 'nəḥōšeṯ:'
+  ids:
+    ref: DEU 8:9!18
+    wordID: o050080090181
+  translation:
+    english: copper
+    mandarin: 铜
+    gloss: copper
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נְחֹשֶׁת
+    strong: '5178'
+  semantic:
+    sdbh:
+    - 004749001001000
+    lexdomain:
+    - 001006008
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ξαλκόν
+    strong: '5475'
+  syntax:
+    role: o

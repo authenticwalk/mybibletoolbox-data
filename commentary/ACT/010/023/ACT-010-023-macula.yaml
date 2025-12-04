@@ -1,0 +1,105 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 10:23
+text: εἰσκαλεσάμενος οὖν αὐτοὺς ἐξένισεν.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: ACT 10:23!2
+    wordID: n44010023002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: εἰσκαλεσάμενος
+  lemma: εἰσκαλέομαι
+  normalized: εἰσκαλεσάμενος
+  ids:
+    ref: ACT 10:23!1
+    wordID: n44010023001
+  translation:
+    gloss: Having called in
+  morphology:
+    class: verb
+    morph: V-ADP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1528'
+  semantic:
+    semanticDomain: '033030'
+    ln: '33.316'
+  syntax:
+    role: v
+    frame: A0:n44010021003 A1:n44010023003
+  discourse:
+    subject: n44010021003
+- position: 3
+  text: αὐτοὺς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: ACT 10:23!3
+    wordID: n44010023003
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n44010021006
+- position: 4
+  text: ἐξένισεν
+  lemma: ξενίζω
+  normalized: ἐξένισεν
+  ids:
+    ref: ACT 10:23!4
+    wordID: n44010023004
+  translation:
+    gloss: he lodged [them]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3579'
+  semantic:
+    semanticDomain: 034008
+    ln: '34.57'
+  syntax:
+    role: v
+    frame: A0:n44010021003
+  discourse:
+    subject: n44010021003

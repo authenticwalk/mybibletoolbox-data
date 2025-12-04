@@ -1,0 +1,314 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 9:20
+text: Καὶ ἰδοὺ γυνὴ αἱμορροοῦσα δώδεκα ἔτη προσελθοῦσα ὄπισθεν ἥψατο τοῦ κρασπέδου
+  τοῦ ἱματίου αὐτοῦ·
+words:
+- position: 1
+  text: Καὶ
+  lemma: καί
+  normalized: Καί
+  ids:
+    ref: MAT 9:20!1
+    wordID: n40009020001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: ἰδοὺ
+  lemma: ὁράω
+  normalized: ἰδού
+  ids:
+    ref: MAT 9:20!2
+    wordID: n40009020002
+  translation:
+    gloss: behold
+  morphology:
+    class: verb
+    morph: V-2AMM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: middle
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 091003
+    ln: '91.13'
+  syntax:
+    role: aux
+- position: 3
+  text: γυνὴ
+  lemma: γυνή
+  normalized: γυνή
+  ids:
+    ref: MAT 9:20!3
+    wordID: n40009020003
+  translation:
+    gloss: a woman
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1135'
+  semantic:
+    semanticDomain: 009003
+    ln: '9.34'
+- position: 4
+  text: αἱμορροοῦσα
+  lemma: αἱμορροέω
+  normalized: αἱμορροοῦσα
+  ids:
+    ref: MAT 9:20!4
+    wordID: n40009020004
+  translation:
+    gloss: having had a flux of blood
+  morphology:
+    class: verb
+    morph: V-PAP-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '131'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.181'
+  syntax:
+    role: v
+    frame: A0:n40009020003
+  discourse:
+    subject: n40009020003
+- position: 5
+  text: δώδεκα
+  lemma: δώδεκα
+  normalized: δώδεκα
+  ids:
+    ref: MAT 9:20!5
+    wordID: n40009020005
+  translation:
+    gloss: twelve
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1427'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.21'
+- position: 6
+  text: ἔτη
+  lemma: ἔτος
+  normalized: ἔτη
+  ids:
+    ref: MAT 9:20!6
+    wordID: n40009020006
+  translation:
+    gloss: years
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2094'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.167'
+- position: 7
+  text: προσελθοῦσα
+  lemma: προσέρχομαι
+  normalized: προσελθοῦσα
+  ids:
+    ref: MAT 9:20!7
+    wordID: n40009020007
+  translation:
+    gloss: having come up
+  morphology:
+    class: verb
+    morph: V-2AAP-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n40009020003
+  discourse:
+    subject: n40009020003
+- position: 8
+  text: ὄπισθεν
+  lemma: ὄπισθεν
+  normalized: ὄπισθεν
+  ids:
+    ref: MAT 9:20!8
+    wordID: n40009020008
+  translation:
+    gloss: behind [Him]
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3693'
+  semantic:
+    semanticDomain: 084001
+    ln: '84.12'
+  syntax:
+    role: adv
+- position: 9
+  text: ἥψατο
+  lemma: ἅπτω
+  normalized: ἥψατο
+  ids:
+    ref: MAT 9:20!9
+    wordID: n40009020009
+  translation:
+    gloss: touched
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '680'
+  semantic:
+    semanticDomain: '024005'
+    ln: '24.73'
+  syntax:
+    role: v
+    frame: A0:n40009020003 A1:n40009020011
+- position: 10
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: MAT 9:20!10
+    wordID: n40009020010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: κρασπέδου
+  lemma: κράσπεδον
+  normalized: κρασπέδου
+  ids:
+    ref: MAT 9:20!11
+    wordID: n40009020011
+  translation:
+    gloss: fringe
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2899'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.180'
+- position: 12
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: MAT 9:20!12
+    wordID: n40009020012
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: ἱματίου
+  lemma: ἱμάτιον
+  normalized: ἱματίου
+  ids:
+    ref: MAT 9:20!13
+    wordID: n40009020013
+  translation:
+    gloss: garment
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2440'
+  semantic:
+    semanticDomain: '006017'
+    ln: '6.172'
+- position: 14
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 9:20!14
+    wordID: n40009020014
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40009019004

@@ -1,0 +1,603 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 143:1
+text: מִזְמ֗וֹר לְדָ֫וִ֥דיְהוָ֤ה׀שְׁמַ֬ע תְּפִלָּתִ֗י הַאֲזִ֥ינָה אֶל־תַּחֲנוּנַ֑י
+  בֶּאֱמֻנָתְךָ֥ עֲ֝נֵ֗נִי בְּצִדְקָתֶֽךָ׃
+words:
+- position: 1
+  text: מִזְמ֗וֹר
+  lemma: מִזְמוֹר
+  transliteration: mizmôr
+  ids:
+    ref: PSA 143:1!1
+    wordID: o191430010011
+  translation:
+    english: psalm
+    mandarin: 诗
+    gloss: a.psalm
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִזְמוֹר
+    strong: '4210'
+  semantic:
+    sdbh:
+    - 003842001001000
+    lexdomain:
+    - 002004001009006
+    coredomain:
+    - '111'
+    sense: '1'
+  lxx:
+    text: ψαλμὸς
+    strong: '5568'
+  syntax:
+    role: s
+- position: 2
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 143:1!2
+    wordID: o191430010021
+  translation:
+    english: of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 3
+  text: דָ֫וִ֥ד
+  lemma: דָּוִד
+  transliteration: ḏāwiḏ
+  ids:
+    ref: PSA 143:1!2
+    wordID: o191430010022
+  translation:
+    english: David
+    mandarin: 大卫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+- position: 4
+  text: יְהוָ֤ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 143:1!3
+    wordID: o191430010031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 5
+  text: שְׁמַ֬ע
+  lemma: שָׁמַע
+  transliteration: šəmaʿ
+  ids:
+    ref: PSA 143:1!4
+    wordID: o191430010041
+  translation:
+    english: hear
+    mandarin: 听
+    gloss: hear
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '3'
+  lxx:
+    text: εἰσάκουσον
+    strong: '1522'
+  syntax:
+    role: v
+    frame: A0:191430010031; A1:191430010051;
+  discourse:
+    subject: '191430010031'
+- position: 6
+  text: תְּפִלָּתִ֗
+  lemma: תְּפִלָּה
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!5
+    wordID: o191430010051
+  translation:
+    english: prayer
+    mandarin: 祷告
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: תְּפִלָּה
+    strong: '8605'
+  semantic:
+    sdbh:
+    - 007898001001000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '041'
+    - '131'
+    sense: '1'
+  lxx:
+    text: προσευξῆς
+    strong: '4335'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!5
+    wordID: o191430010052
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 007898001001000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '041'
+    - '131'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '191430010022'
+- position: 8
+  text: הַאֲזִ֥ינָ
+  lemma: אָזַן
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!6
+    wordID: o191430010061
+  translation:
+    english: listen
+    mandarin: 垂听
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: אָזַן
+    strong: 0238
+  semantic:
+    sdbh:
+    - '000225001001000'
+    lexdomain:
+    - '002004001003'
+    coredomain:
+    - '154'
+    - '041'
+  syntax:
+    frame: A0:191430010031;
+  discourse:
+    subject: '191430010031'
+- position: 9
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!6
+    wordID: o191430010062
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sh
+    type: paragogic he
+  lexical:
+    stronglemma: ה
+    strong: 1886j
+  semantic:
+    sdbh:
+    - '000225001001000'
+    lexdomain:
+    - '002004001003'
+    coredomain:
+    - '154'
+    - '041'
+  lxx:
+    text: ἐνώτισαι
+    strong: '1801'
+- position: 10
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: PSA 143:1!7
+    wordID: o191430010071
+  translation:
+    english: to
+    mandarin: 于
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 11
+  text: תַּחֲנוּנַ֑
+  lemma: תַּחֲנוּן
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!8
+    wordID: o191430010081
+  translation:
+    english: supplications
+    mandarin: 恳求
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: תַּחֲנוּן
+    strong: '8469'
+  semantic:
+    sdbh:
+    - '007770001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    - '041'
+    - '170'
+    sense: '1'
+  lxx:
+    text: δέησίν
+    strong: '1162'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!8
+    wordID: o191430010082
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '007770001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    - '041'
+    - '170'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '191430010022'
+- position: 13
+  text: בֶּ
+  lemma: בְּ
+  transliteration: be
+  ids:
+    ref: PSA 143:1!9
+    wordID: o191430010091
+  translation:
+    english: in
+    mandarin: 凭
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 14
+  text: אֱמֻנָתְ
+  lemma: אֱמוּנָה
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!9
+    wordID: o191430010092
+  translation:
+    english: faithfulness
+    mandarin: 信实
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱמוּנָה
+    strong: '0530'
+  semantic:
+    sdbh:
+    - 000487001003000
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+- position: 15
+  text: ךָ֥
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!9
+    wordID: o191430010093
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000487001003000
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191430010031'
+- position: 16
+  text: עֲ֝נֵ֗
+  lemma: עָנָה
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!10
+    wordID: o191430010101
+  translation:
+    english: answer
+    mandarin: 应允
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐπάκουσόν
+  syntax:
+    role: v
+    frame: A0:191430010031; A1:191430010102;
+  discourse:
+    subject: '191430010031'
+- position: 17
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!10
+    wordID: o191430010102
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+  lxx:
+    text: μου
+    strong: '3450'
+  syntax:
+    role: o
+  discourse:
+    participant: '191430010022'
+- position: 18
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 143:1!11
+    wordID: o191430010111
+  translation:
+    english: in
+    mandarin: 凭
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 19
+  text: צִדְקָתֶֽ
+  lemma: צְדָקָה
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!11
+    wordID: o191430010112
+  translation:
+    english: righteousness
+    mandarin: 公义
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: צְדָקָה
+    strong: '6666'
+  semantic:
+    sdbh:
+    - '006130001002000'
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - 095
+    sense: '1'
+  lxx:
+    text: δικαιοσύνῃ
+    strong: '1343'
+- position: 20
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 143:1!11
+    wordID: o191430010113
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '006130001002000'
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - 095
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191430010031'

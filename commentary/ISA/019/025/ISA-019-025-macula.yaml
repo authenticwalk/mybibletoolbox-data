@@ -1,0 +1,564 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 19:25
+text: אֲשֶׁ֧ר בֵּרֲכ֛וֹ יְהוָ֥ה צְבָא֖וֹת לֵאמֹ֑ר בָּר֨וּךְ עַמִּ֜י מִצְרַ֗יִם וּמַעֲשֵׂ֤ה
+  יָדַי֙ אַשּׁ֔וּר וְנַחֲלָתִ֖י יִשְׂרָאֵֽל׃ס
+words:
+- position: 1
+  text: אֲשֶׁ֧ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: ISA 19:25!1
+    wordID: o230190250011
+  translation:
+    english: whom
+    mandarin: 因为
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἣν
+    strong: '3739'
+- position: 2
+  text: בֵּרֲכ֛
+  lemma: בָּרַךְ
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!2
+    wordID: o230190250021
+  translation:
+    english: blessed
+    mandarin: 赐福
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλόγησεν
+    strong: '2127'
+  syntax:
+    role: v
+    frame: A1:230190250022; A0:230190250031;
+- position: 3
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!2
+    wordID: o230190250022
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+  syntax:
+    role: o
+  discourse:
+    participant: 230190240041 230190240062 230190240073
+- position: 4
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: ISA 19:25!3
+    wordID: o230190250031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 5
+  text: צְבָא֖וֹת
+  lemma: צָבָא
+  transliteration: ṣəḇāʾôṯ
+  ids:
+    ref: ISA 19:25!4
+    wordID: o230190250041
+  translation:
+    english: hosts
+    mandarin: 万军
+    gloss: of.hosts
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: צָבָא
+    strong: '6635'
+  semantic:
+    sdbh:
+    - '006101001007000'
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: σαβαωθ
+    strong: '4519'
+- position: 6
+  text: לֵ
+  lemma: לְ
+  transliteration: lē
+  ids:
+    ref: ISA 19:25!5
+    wordID: o230190250051
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: אמֹ֑ר
+  lemma: אָמַר
+  transliteration: ʾmōr
+  ids:
+    ref: ISA 19:25!5
+    wordID: o230190250052
+  translation:
+    english: saying
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγων
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:230190250031; A1:230190250061;
+  discourse:
+    subject: '230190250031'
+- position: 8
+  text: בָּר֨וּךְ
+  lemma: בָּרַךְ
+  transliteration: bārûḵ
+  ids:
+    ref: ISA 19:25!6
+    wordID: o230190250061
+  translation:
+    english: blessed
+    mandarin: 有福
+    gloss: '[be].blessed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '2'
+  lxx:
+    text: εὐλογημένος
+    strong: '2127'
+  syntax:
+    role: v
+    frame: A1:230190250071;230190250092;230190250122;
+- position: 9
+  text: עַמִּ֜
+  lemma: עַם
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!7
+    wordID: o230190250071
+  translation:
+    english: people
+    mandarin: 百姓
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαός
+    strong: '2992'
+- position: 10
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!7
+    wordID: o230190250072
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '230190250031'
+- position: 11
+  text: מִצְרַ֗יִם
+  lemma: מִצְרַיִם
+  transliteration: miṣrayim
+  ids:
+    ref: ISA 19:25!8
+    wordID: o230190250081
+  translation:
+    english: Egypt
+    mandarin: 埃及
+    gloss: Egypt
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτῳ
+    strong: '125'
+- position: 12
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ISA 19:25!9
+    wordID: o230190250091
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: מַעֲשֵׂ֤ה
+  lemma: מַעֲשֶׂה
+  transliteration: maʿăśēh
+  ids:
+    ref: ISA 19:25!9
+    wordID: o230190250092
+  translation:
+    english: work
+    mandarin: 工程
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲשֶׂה
+    strong: '4639'
+  semantic:
+    sdbh:
+    - '004247001004000'
+    lexdomain:
+    - '001004001'
+    sense: '1'
+- position: 14
+  text: יָדַ
+  lemma: יָד
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!10
+    wordID: o230190250101
+  translation:
+    english: hands
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbdc
+    gender: both
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001016000
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+- position: 15
+  text: י֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!10
+    wordID: o230190250102
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 002787001016000
+    lexdomain:
+    - '002002003003'
+  discourse:
+    participant: '230190250031'
+- position: 16
+  text: אַשּׁ֔וּר
+  lemma: אַשּׁוּר
+  transliteration: ʾaššûr
+  ids:
+    ref: ISA 19:25!11
+    wordID: o230190250111
+  translation:
+    english: Assyria
+    mandarin: 亚述
+    gloss: Assyria
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַשּׁוּר
+    strong: 0804
+  semantic:
+    sdbh:
+    - '000740001002000'
+    lexdomain:
+    - '003001006'
+- position: 17
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 19:25!12
+    wordID: o230190250121
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 18
+  text: נַחֲלָתִ֖
+  lemma: נַחֲלָה
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!12
+    wordID: o230190250122
+  translation:
+    english: inheritance
+    mandarin: 产业
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נַחֲלָה
+    strong: '5159'
+  semantic:
+    sdbh:
+    - '004730001003000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '046'
+    sense: '1'
+  lxx:
+    text: κληρονομία
+    strong: '2817'
+- position: 19
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 19:25!12
+    wordID: o230190250123
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '004730001003000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '046'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '230190250031'
+- position: 20
+  text: יִשְׂרָאֵֽל
+  lemma: יִשְׂרָאֵל
+  transliteration: 'yiśrāʾēl:'
+  ids:
+    ref: ISA 19:25!13
+    wordID: o230190250131
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'

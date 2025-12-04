@@ -1,0 +1,265 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 82:6
+text: אֲֽנִי־אָ֭מַרְתִּי אֱלֹהִ֣ים אַתֶּ֑ם וּבְנֵ֖י עֶלְי֣וֹן כֻּלְּכֶֽם׃
+words:
+- position: 1
+  text: אֲֽנִי
+  lemma: אֲנִי
+  transliteration: ʾănî-
+  ids:
+    ref: PSA 82:6!1
+    wordID: o190820060011
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '190820010031'
+- position: 2
+  text: אָ֭מַרְתִּי
+  lemma: אָמַר
+  transliteration: ʾāmartî
+  ids:
+    ref: PSA 82:6!2
+    wordID: o190820060021
+  translation:
+    english: said
+    mandarin: 说
+    gloss: I.said
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπα
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:190820060011;
+- position: 3
+  text: אֱלֹהִ֣ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 82:6!3
+    wordID: o190820060031
+  translation:
+    english: gods
+    mandarin: 神
+    gloss: '[are].gods'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001001000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεοί
+    strong: '2316'
+  syntax:
+    role: p
+- position: 4
+  text: אַתֶּ֑ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: PSA 82:6!4
+    wordID: o190820060041
+  translation:
+    english: you
+    mandarin: 你们
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ἐστε
+    strong: '2075'
+  syntax:
+    role: s
+  discourse:
+    participant: '190820010081'
+- position: 5
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 82:6!5
+    wordID: o190820060051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: בְנֵ֖י
+  lemma: בֵּן
+  transliteration: ḇənēy
+  ids:
+    ref: PSA 82:6!5
+    wordID: o190820060052
+  translation:
+    english: sons
+    mandarin: 儿子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001004000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 038
+    sense: '1'
+  lxx:
+    text: υἱοὶ
+    strong: '5207'
+- position: 7
+  text: עֶלְי֣וֹן
+  lemma: עֶלְיוֹן
+  transliteration: ʿelyôn
+  ids:
+    ref: PSA 82:6!6
+    wordID: o190820060061
+  translation:
+    english: most high
+    mandarin: 至高者
+    gloss: of.the.Most.High
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עֶלְיוֹן
+    strong: 5945a
+  semantic:
+    sdbh:
+    - 005458001003000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: ὑψίστου
+    strong: '5310'
+- position: 8
+  text: כֻּלְּ
+  lemma: כֹּל
+  transliteration: ''
+  ids:
+    ref: PSA 82:6!7
+    wordID: o190820060071
+  translation:
+    english: all
+    mandarin: 都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 9
+  text: כֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 82:6!7
+    wordID: o190820060072
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  discourse:
+    participant: '190820010081'

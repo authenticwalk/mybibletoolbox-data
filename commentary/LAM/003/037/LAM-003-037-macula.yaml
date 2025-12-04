@@ -1,0 +1,263 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LAM 3:37
+text: מִ֣י זֶ֤ה אָמַר֙ וַתֶּ֔הִי אֲדֹנָ֖י לֹ֥א צִוָּֽה׃
+words:
+- position: 1
+  text: מִ֣י
+  lemma: מִי
+  transliteration: miy
+  ids:
+    ref: LAM 3:37!1
+    wordID: o250030370011
+  translation:
+    english: who
+    mandarin: 谁
+    gloss: who?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מִי
+    strong: '4310'
+  semantic:
+    sdbh:
+    - 003938001001000
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τίς
+    strong: '5101'
+  syntax:
+    role: s
+- position: 2
+  text: זֶ֤ה
+  lemma: זֶה
+  transliteration: zeh
+  ids:
+    ref: LAM 3:37!2
+    wordID: o250030370021
+  translation:
+    english: there
+    mandarin: 这样
+    gloss: this
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+  lxx:
+    text: οὕτως
+    strong: '3779'
+  syntax:
+    role: o
+- position: 3
+  text: אָמַר֙
+  lemma: אָמַר
+  transliteration: ʾāmar
+  ids:
+    ref: LAM 3:37!3
+    wordID: o250030370031
+  translation:
+    english: speak
+    mandarin: 说
+    gloss: has.he.spoken
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:250030370011; A1:250030370021;
+- position: 4
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: LAM 3:37!4
+    wordID: o250030370041
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: תֶּ֔הִי
+  lemma: הָיָה
+  transliteration: tehî
+  ids:
+    ref: LAM 3:37!4
+    wordID: o250030370042
+  translation:
+    english: happen
+    mandarin: 成
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγενήθη
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:250030370021;
+  discourse:
+    subject: '250030370021'
+- position: 6
+  text: אֲדֹנָ֖
+  lemma: אֲדֹנָי
+  transliteration: ''
+  ids:
+    ref: LAM 3:37!5
+    wordID: o250030370051
+  translation:
+    english: Lord
+    mandarin: 主
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֲדֹנָי
+    strong: '0136'
+  semantic:
+    sdbh:
+    - '000136001001000'
+    lexdomain:
+    - '003001017'
+    coredomain:
+    - '055'
+    sense: '1'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LAM 3:37!5
+    wordID: o250030370052
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '000136001001000'
+    lexdomain:
+    - '003001017'
+    coredomain:
+    - '055'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  discourse:
+    participant: '250030010022'
+- position: 8
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: LAM 3:37!6
+    wordID: o250030370061
+  translation:
+    english: not
+    mandarin: 除非
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 9
+  text: צִוָּֽה
+  lemma: צָוָה
+  transliteration: 'ṣiwwāh:'
+  ids:
+    ref: LAM 3:37!7
+    wordID: o250030370071
+  translation:
+    english: commanded
+    mandarin: 命定
+    gloss: he.commanded.[it]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐνετείλατο
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:250030370051;

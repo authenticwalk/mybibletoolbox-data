@@ -1,0 +1,285 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LAM 5:5
+text: עַ֤ל צַוָּארֵ֨נוּ֙ נִרְדָּ֔פְנוּ יָגַ֖עְנוּ וְלֹ֥א הֽוּנַ֖חלָֽנוּ׃
+words:
+- position: 1
+  text: עַ֤ל
+  lemma: עַל
+  transliteration: ʿal
+  ids:
+    ref: LAM 5:5!1
+    wordID: o250050050011
+  translation:
+    english: at
+    mandarin: 到
+    gloss: at
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 2
+  text: צַוָּארֵ֨
+  lemma: צַוָּאר
+  transliteration: ''
+  ids:
+    ref: LAM 5:5!2
+    wordID: o250050050021
+  translation:
+    english: necks
+    mandarin: 颈项
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: צַוָּאר
+    strong: '6677'
+  semantic:
+    sdbh:
+    - '006141001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: τράξηλον
+    strong: '5137'
+- position: 3
+  text: נוּ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LAM 5:5!2
+    wordID: o250050050022
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '006141001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 250030010022 250040220031
+- position: 4
+  text: נִרְדָּ֔פְנוּ
+  lemma: רָדַף
+  transliteration: nirdāp̄ənû
+  ids:
+    ref: LAM 5:5!3
+    wordID: o250050050031
+  translation:
+    english: pursuers
+    mandarin: 追赶
+    gloss: we.have.been.pursued
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: רָדַף
+    strong: '7291'
+  semantic:
+    sdbh:
+    - '006705001001000'
+    - '006705001010000'
+    lexdomain:
+    - 002002001018
+    - '002003003021'
+    coredomain:
+    - '110'
+    - '044'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἐδιώξθημεν
+  syntax:
+    role: v
+    frame: A1:250030010022;250040220031;
+  discourse:
+    subject: 250030010022 250040220031
+- position: 5
+  text: יָגַ֖עְנוּ
+  lemma: יָגֵעַ
+  transliteration: yāḡaʿənû
+  ids:
+    ref: LAM 5:5!4
+    wordID: o250050050041
+  translation:
+    english: weary
+    mandarin: 疲乏
+    gloss: we.have.become.weary
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָגֵעַ
+    strong: '3021'
+  semantic:
+    sdbh:
+    - 002781001001000
+    lexdomain:
+    - '002001001065'
+    coredomain:
+    - '172'
+    sense: '1'
+  lxx:
+    text: ἐκοπιάσαμεν
+  syntax:
+    role: v
+    frame: A0:250030010022;250040220031;
+  discourse:
+    subject: 250030010022 250040220031
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: '**wə'
+  ids:
+    ref: LAM 5:5!6
+    wordID: o250050050061
+  translation:
+    english: and
+    mandarin: '@'
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 7
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: '**lōʾ'
+  ids:
+    ref: LAM 5:5!6
+    wordID: o250050050062
+  translation:
+    english: 'no'
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 8
+  text: הֽוּנַ֖ח
+  lemma: נוּחַ
+  transliteration: hûnaḥ
+  ids:
+    ref: LAM 5:5!7
+    wordID: o250050050071
+  translation:
+    english: rest
+    mandarin: 得休息
+    gloss: it.has.been.given.rest
+  morphology:
+    class: verb
+    pos: verb
+    morph: VHp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hophal
+    type: qatal
+  lexical:
+    stronglemma: נוּחַ
+    strong: '5117'
+  semantic:
+    sdbh:
+    - 004691001009000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '196'
+    sense: '1'
+  syntax:
+    role: v
+- position: 9
+  text: לָֽ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: LAM 5:5!8
+    wordID: o250050050081
+  translation:
+    english: for
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 10
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LAM 5:5!8
+    wordID: o250050050082
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  discourse:
+    participant: 250030010022 250040220031

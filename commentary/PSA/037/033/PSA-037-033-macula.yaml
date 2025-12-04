@@ -1,0 +1,397 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 37:33
+text: יְ֭הוָה לֹא־יַעַזְבֶ֣נּוּ בְיָד֑וֹ וְלֹ֥א יַ֝רְשִׁיעֶ֗נּוּ בְּהִשָּׁפְטֽוֹ׃
+words:
+- position: 1
+  text: יְ֭הוָה
+  lemma: יהוה
+  transliteration: yhwh
+  ids:
+    ref: PSA 37:33!1
+    wordID: o190370330011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s
+- position: 2
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: PSA 37:33!2
+    wordID: o190370330021
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 3
+  text: יַעַזְבֶ֣
+  lemma: עָזַב
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!3
+    wordID: o190370330031
+  translation:
+    english: leave
+    mandarin: 撇弃
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָזַב
+    strong: '5800'
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+    sense: '2'
+  lxx:
+    text: ἐγκαταλίπῃ
+  syntax:
+    role: v
+    frame: A0:190370330011; A1:190370330032;
+- position: 4
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!3
+    wordID: o190370330032
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+  lxx:
+    text: αὐτὸν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '190370320033'
+- position: 5
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 37:33!4
+    wordID: o190370330041
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 6
+  text: יָד֑
+  lemma: יָד
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!4
+    wordID: o190370330042
+  translation:
+    english: power
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001024000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+    sense: '1'
+  lxx:
+    text: ξεῖρας
+    strong: '5495'
+- position: 7
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!4
+    wordID: o190370330043
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 002787001024000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190370320021'
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 37:33!5
+    wordID: o190370330051
+  translation:
+    english: or
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὐδὲ
+    strong: '3761'
+- position: 9
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PSA 37:33!5
+    wordID: o190370330052
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 10
+  text: יַ֝רְשִׁיעֶ֗
+  lemma: רָשַׁע
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!6
+    wordID: o190370330061
+  translation:
+    english: condemned
+    mandarin: 定~罪
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: רָשַׁע
+    strong: '7561'
+  semantic:
+    sdbh:
+    - 006945001002000
+    lexdomain:
+    - '002003003013'
+    coredomain:
+    - 095
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: καταδικάσηται
+  syntax:
+    role: v
+    frame: AA:190370330011; A0:190370330062;
+  discourse:
+    subject: '190370330011'
+- position: 11
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!6
+    wordID: o190370330062
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  semantic:
+    sdbh:
+    - 006945001002000
+    lexdomain:
+    - '002003003013'
+    coredomain:
+    - 095
+    - '145'
+    - '017'
+  lxx:
+    text: αὐτόν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '190370320033'
+- position: 12
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 37:33!7
+    wordID: o190370330071
+  translation:
+    english: when
+    mandarin: 当~的时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ὅταν
+    strong: '3752'
+- position: 13
+  text: הִשָּׁפְטֽ
+  lemma: שָׁפַט
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!7
+    wordID: o190370330072
+  translation:
+    english: judged
+    mandarin: 审判
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNc
+    stem: niphal
+    type: infinitive construct
+  lexical:
+    stronglemma: שָׁפַט
+    strong: '8199'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κρίνηται
+  syntax:
+    role: v
+    frame: A1:190370330073;
+- position: 14
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 37:33!7
+    wordID: o190370330073
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτῷ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '190370320033'

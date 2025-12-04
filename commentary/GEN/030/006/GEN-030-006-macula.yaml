@@ -1,0 +1,652 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 30:6
+text: וַתֹּ֤אמֶר רָחֵל֙ דָּנַ֣נִּי אֱלֹהִ֔ים וְגַם֙ שָׁמַ֣ע בְּקֹלִ֔י וַיִּתֶּן־לִ֖י
+  בֵּ֑ן עַל־כֵּ֛ן קָרְאָ֥ה שְׁמ֖וֹ דָּֽן׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:6!1
+    wordID: o010300060011
+  translation:
+    english: and
+    mandarin: 便
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: תֹּ֤אמֶר
+  lemma: אָמַר
+  transliteration: tōʾmer
+  ids:
+    ref: GEN 30:6!1
+    wordID: o010300060012
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:010300060021;
+- position: 3
+  text: רָחֵל֙
+  lemma: רָחֵל
+  transliteration: rāḥēl
+  ids:
+    ref: GEN 30:6!2
+    wordID: o010300060021
+  translation:
+    english: Rachel
+    mandarin: 拉结
+    gloss: Rachel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: רָחֵל
+    strong: '7354'
+  semantic:
+    sdbh:
+    - '006757002001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ραξηλ
+    strong: '4478'
+  syntax:
+    role: s
+- position: 4
+  text: דָּנַ֣
+  lemma: דִּין
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!3
+    wordID: o010300060031
+  translation:
+    english: vindicated
+    mandarin: 伸~冤
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: דִּין
+    strong: '1777'
+  semantic:
+    sdbh:
+    - '001634001001000'
+    lexdomain:
+    - '002004002006'
+    - '002001002023'
+    - 002003003018
+    coredomain:
+    - 095
+    - '015'
+    sense: '1'
+  lxx:
+    text: ἔκρινέν
+  syntax:
+    role: v
+    frame: A1:010300060032; A0:010300060041;
+- position: 5
+  text: נִּי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!3
+    wordID: o010300060032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '001634001001000'
+    lexdomain:
+    - '002004002006'
+    - '002001002023'
+    - 002003003018
+    coredomain:
+    - 095
+    - '015'
+  lxx:
+    text: μοι
+    strong: '3427'
+  syntax:
+    role: o
+  discourse:
+    participant: '010300060021'
+- position: 6
+  text: אֱלֹהִ֔ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: GEN 30:6!4
+    wordID: o010300060041
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  syntax:
+    role: s
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 30:6!5
+    wordID: o010300060051
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: גַם֙
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: GEN 30:6!5
+    wordID: o010300060052
+  translation:
+    english: also
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 9
+  text: שָׁמַ֣ע
+  lemma: שָׁמַע
+  transliteration: šāmaʿ
+  ids:
+    ref: GEN 30:6!6
+    wordID: o010300060061
+  translation:
+    english: heard
+    mandarin: 听
+    gloss: he.has.listened
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπήκουσεν
+    strong: '1873'
+  syntax:
+    role: v
+    frame: A0:010300060041;
+  discourse:
+    subject: '010300060041'
+- position: 10
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: GEN 30:6!7
+    wordID: o010300060071
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: τῆς
+    strong: '3588'
+- position: 11
+  text: קֹלִ֔
+  lemma: קוֹל
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!7
+    wordID: o010300060072
+  translation:
+    english: voice
+    mandarin: 声音
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קוֹל
+    strong: '6963'
+  semantic:
+    sense: '1'
+  lxx:
+    text: φωνῆς
+    strong: '5456'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!7
+    wordID: o010300060073
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '010300060021'
+- position: 13
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:6!8
+    wordID: o010300060081
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: יִּתֶּן
+  lemma: נָתַן
+  transliteration: yyitten-
+  ids:
+    ref: GEN 30:6!8
+    wordID: o010300060082
+  translation:
+    english: given
+    mandarin: 赐给
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔδωκέν
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:010300060041; A1:010300060101;
+  discourse:
+    subject: '010300060041'
+- position: 15
+  text: לִ֖
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!9
+    wordID: o010300060091
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 16
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!9
+    wordID: o010300060092
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: '010300060021'
+- position: 17
+  text: בֵּ֑ן
+  lemma: בֵּן
+  transliteration: bēn
+  ids:
+    ref: GEN 30:6!10
+    wordID: o010300060101
+  translation:
+    english: son
+    mandarin: 儿子
+    gloss: a.son
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: υἱόν
+    strong: '5207'
+  syntax:
+    role: o
+- position: 18
+  text: עַל
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!11
+    wordID: o010300060111
+  translation:
+    english: because of
+    mandarin: 因此
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: διὰ
+    strong: '1223'
+- position: 19
+  text: כֵּ֛ן
+  lemma: כֵּן
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!12
+    wordID: o010300060121
+  translation:
+    english: this
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+- position: 20
+  text: קָרְאָ֥ה
+  lemma: קָרָא
+  transliteration: qārʾāh
+  ids:
+    ref: GEN 30:6!13
+    wordID: o010300060131
+  translation:
+    english: called
+    mandarin: 她称
+    gloss: she.called
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - 006556001009000
+    lexdomain:
+    - '002004002010'
+    coredomain:
+    - '113'
+    sense: '1'
+  lxx:
+    text: ἐκάλεσεν
+    strong: '2564'
+  syntax:
+    role: v
+    frame: A0:010300060021; A1:010300060141;
+  discourse:
+    subject: '010300060021'
+- position: 21
+  text: שְׁמ֖
+  lemma: שֵׁם
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!14
+    wordID: o010300060141
+  translation:
+    english: name
+    mandarin: ~名
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001001000'
+    lexdomain:
+    - '002004002010'
+    sense: '1'
+  lxx:
+    text: ὄνομα
+    strong: '3686'
+- position: 22
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 30:6!14
+    wordID: o010300060142
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '007437001001000'
+    lexdomain:
+    - '002004002010'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '010300050051'
+- position: 23
+  text: דָּֽן
+  lemma: דָּן
+  transliteration: 'dān:'
+  ids:
+    ref: GEN 30:6!15
+    wordID: o010300060151
+  translation:
+    english: Dan
+    mandarin: 但
+    gloss: Dan
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּן
+    strong: '1835'
+  semantic:
+    sdbh:
+    - 001689001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: δαν
+  syntax:
+    role: o2

@@ -1,0 +1,959 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 1KI 12:21
+text: 1KI 12:21 וַיָּבֹ֣א רְחַבְעָם֮ יְרוּשָׁלִַם֒ וַיַּקְהֵל֩ אֶת־כָּל־בֵּ֨ית יְהוּדָ֜ה
+  וְאֶת־שֵׁ֣בֶט בִּנְיָמִ֗ן מֵאָ֨ה וּשְׁמֹנִ֥ים אֶ֛לֶף בָּח֖וּר עֹשֵׂ֣ה מִלְחָמָ֑ה
+  לְהִלָּחֵם֙ עִם־בֵּ֣ית יִשְׂרָאֵ֔ל לְהָשִׁיב֙ אֶת־הַמְּלוּכָ֔ה לִרְחַבְעָ֖ם בֶּן־שְׁלֹמֹֽה׃פ
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: '**wa'
+  ids:
+    ref: 1KI 12:21!2
+    wordID: o110120210021
+  translation:
+    english: when
+    mandarin: '@ 当'
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: יָּבֹ֣א
+  lemma: בּוֹא
+  transliteration: '**yyāḇōʾ'
+  ids:
+    ref: 1KI 12:21!2
+    wordID: o110120210022
+  translation:
+    english: came
+    mandarin: 来到
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσῆλθεν
+    strong: '1525'
+  syntax:
+    role: v
+    frame: A0:110120210031;
+- position: 3
+  text: רְחַבְעָם֮
+  lemma: רְחַבְעָם
+  transliteration: rəḥaḇʿām
+  ids:
+    ref: 1KI 12:21!3
+    wordID: o110120210031
+  translation:
+    english: Rehoboam
+    mandarin: 罗波安
+    gloss: Rehoboam
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: רְחַבְעָם
+    strong: '7346'
+  semantic:
+    sdbh:
+    - 006749001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ροβοαμ
+  syntax:
+    role: s
+- position: 4
+  text: יְרוּשָׁלִַם֒
+  lemma: יְרוּשָׁלִַ͏ם
+  transliteration: yərûšālaim
+  ids:
+    ref: 1KI 12:21!4
+    wordID: o110120210041
+  translation:
+    english: Jerusalem
+    mandarin: 耶路撒冷
+    gloss: Jerusalem
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְרוּשָׁלִַ͏ם
+    strong: '3389'
+  semantic:
+    sdbh:
+    - 003099001001000
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: ιερουσαλημ
+    strong: '2414'
+  syntax:
+    role: adv
+- position: 5
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 1KI 12:21!5
+    wordID: o110120210051
+  translation:
+    english: then
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: יַּקְהֵל֩
+  lemma: קָהַל
+  transliteration: yyaqhēl
+  ids:
+    ref: 1KI 12:21!5
+    wordID: o110120210052
+  translation:
+    english: assembled
+    mandarin: 召集
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: קָהַל
+    strong: '6950'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐχεκκλησίασεν
+  syntax:
+    role: v
+    frame: AA:110120210031; A0:110120210081;110120210111;
+  discourse:
+    subject: '110120210031'
+- position: 7
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 1KI 12:21!6
+    wordID: o110120210061
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 8
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: 1KI 12:21!7
+    wordID: o110120210071
+  translation:
+    english: all
+    mandarin: 全
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 9
+  text: בֵּ֨ית
+  lemma: בַּיִת
+  transliteration: bēyṯ
+  ids:
+    ref: 1KI 12:21!8
+    wordID: o110120210081
+  translation:
+    english: house
+    mandarin: 家
+    gloss: the.house
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001004000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '062'
+    sense: '2'
+  lxx:
+    text: συναγωγὴν
+    strong: '4864'
+- position: 10
+  text: יְהוּדָ֜ה
+  lemma: יְהוּדָה
+  transliteration: yəhûḏāh
+  ids:
+    ref: 1KI 12:21!9
+    wordID: o110120210091
+  translation:
+    english: Judah
+    mandarin: 犹大
+    gloss: of.Judah
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְהוּדָה
+    strong: '3063'
+  semantic:
+    sdbh:
+    - 002819001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: ιουδα
+    strong: '2448'
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 1KI 12:21!10
+    wordID: o110120210101
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 1KI 12:21!10
+    wordID: o110120210102
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 13
+  text: שֵׁ֣בֶט
+  lemma: שֵׁבֶט
+  transliteration: šēḇeṭ
+  ids:
+    ref: 1KI 12:21!11
+    wordID: o110120210111
+  translation:
+    english: tribe
+    mandarin: 支派
+    gloss: the.tribe
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁבֶט
+    strong: '7626'
+  semantic:
+    sdbh:
+    - '007160001007000'
+    lexdomain:
+    - '001001002003004'
+    sense: '1'
+  lxx:
+    text: σκῆπτρον
+- position: 14
+  text: בִּנְיָמִ֗ן
+  lemma: בִּנְיָמִן
+  transliteration: binyāmin
+  ids:
+    ref: 1KI 12:21!12
+    wordID: o110120210121
+  translation:
+    english: Benjamin
+    mandarin: 便雅悯
+    gloss: of.Benjamin
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: בִּנְיָמִן
+    strong: '1144'
+  semantic:
+    sdbh:
+    - '001063001001000'
+    lexdomain:
+    - '003001007'
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: βενιαμιν
+    strong: '958'
+- position: 15
+  text: מֵאָ֨ה
+  lemma: מֵאָה
+  transliteration: mēʾāh
+  ids:
+    ref: 1KI 12:21!13
+    wordID: o110120210131
+  translation:
+    english: one hundred
+    mandarin: 百
+    gloss: one.hundred
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: מֵאָה
+    strong: '3967'
+  semantic:
+    sdbh:
+    - '003633001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ἑκατὸν
+    strong: '1540'
+- position: 16
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: 1KI 12:21!14
+    wordID: o110120210141
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  semantic:
+    sdbh:
+    - '007474001002000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 17
+  text: שְׁמֹנִ֥ים
+  lemma: שְׁמֹנֶה
+  transliteration: šəmōniym
+  ids:
+    ref: 1KI 12:21!14
+    wordID: o110120210142
+  translation:
+    english: eighty
+    mandarin: 八十
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שְׁמֹנֶה
+    strong: '8084'
+  lxx:
+    text: εἴκοσι
+    strong: '1501'
+- position: 18
+  text: אֶ֛לֶף
+  lemma: אֶלֶף
+  transliteration: ʾelep̄
+  ids:
+    ref: 1KI 12:21!15
+    wordID: o110120210151
+  translation:
+    english: thousand
+    mandarin: 千
+    gloss: thousand
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶלֶף
+    strong: '0505'
+  semantic:
+    sdbh:
+    - 000469002001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ξιλιάδες
+    strong: '5505'
+- position: 19
+  text: בָּח֖וּר
+  lemma: בָּחַר
+  transliteration: bāḥûr
+  ids:
+    ref: 1KI 12:21!16
+    wordID: o110120210161
+  translation:
+    english: chosen
+    mandarin: 精选
+    gloss: chosen.[man]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: בָּחַר
+    strong: 0977
+  semantic:
+    sdbh:
+    - 000910001004000
+    lexdomain:
+    - '001001002003013'
+    coredomain:
+    - '188'
+    sense: '2'
+  lxx:
+    text: νεανιῶν
+- position: 20
+  text: עֹשֵׂ֣ה
+  lemma: עָשָׂה
+  transliteration: ʿōśēh
+  ids:
+    ref: 1KI 12:21!17
+    wordID: o110120210171
+  translation:
+    english: doing
+    mandarin: 作
+    gloss: maker[s]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '27'
+  lxx:
+    text: ποιούντων
+  syntax:
+    frame: A0:110120210161; A1:110120210181;
+  discourse:
+    subject: '110120210161'
+- position: 21
+  text: מִלְחָמָ֑ה
+  lemma: מִלְחָמָה
+  transliteration: milḥāmāh
+  ids:
+    ref: 1KI 12:21!18
+    wordID: o110120210181
+  translation:
+    english: fight
+    mandarin: 战士
+    gloss: of.war
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִלְחָמָה
+    strong: '4421'
+  semantic:
+    sdbh:
+    - 004039001001000
+    lexdomain:
+    - '002003002007'
+    coredomain:
+    - '188'
+    sense: '3'
+  lxx:
+    text: πόλεμον
+    strong: '4171'
+- position: 22
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 1KI 12:21!19
+    wordID: o110120210191
+  translation:
+    english: to
+    mandarin: 为了
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 23
+  text: הִלָּחֵם֙
+  lemma: לָחַם
+  transliteration: hillāḥēm
+  ids:
+    ref: 1KI 12:21!19
+    wordID: o110120210192
+  translation:
+    english: fight
+    mandarin: 争战
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNc
+    stem: niphal
+    type: infinitive construct
+  lexical:
+    stronglemma: לָחַם
+    strong: '3898'
+  semantic:
+    sdbh:
+    - '003563002002000'
+    lexdomain:
+    - '002003002007'
+    sense: '1'
+  lxx:
+    text: πολεμεῖν
+  syntax:
+    role: v
+    frame: A0:110120210031;
+  discourse:
+    subject: '110120210031'
+- position: 24
+  text: עִם
+  lemma: עִם
+  transliteration: ʿim-
+  ids:
+    ref: 1KI 12:21!20
+    wordID: o110120210201
+  translation:
+    english: against
+    mandarin: 和
+    gloss: with
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עִם
+    strong: '5973'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 25
+  text: בֵּ֣ית
+  lemma: בַּיִת
+  transliteration: bēyṯ
+  ids:
+    ref: 1KI 12:21!21
+    wordID: o110120210211
+  translation:
+    english: house
+    mandarin: 家
+    gloss: the.house
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001004000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '062'
+    sense: '2'
+  lxx:
+    text: οἶκον
+    strong: '3624'
+- position: 26
+  text: יִשְׂרָאֵ֔ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: 1KI 12:21!22
+    wordID: o110120210221
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 27
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 1KI 12:21!23
+    wordID: o110120210231
+  translation:
+    english: to
+    mandarin: 好
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 28
+  text: הָשִׁיב֙
+  lemma: שׁוּב
+  transliteration: hāšîḇ
+  ids:
+    ref: 1KI 12:21!23
+    wordID: o110120210232
+  translation:
+    english: restore
+    mandarin: 夺回
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - 007226001048000
+    lexdomain:
+    - '002003003010'
+    sense: '4'
+  lxx:
+    text: ἐπιστρέψαι
+    strong: '1994'
+  syntax:
+    role: v
+    frame: AA:110120210031; A0:110120210252;
+  discourse:
+    subject: '110120210031'
+- position: 29
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 1KI 12:21!24
+    wordID: o110120210241
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 30
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 1KI 12:21!25
+    wordID: o110120210251
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 31
+  text: מְּלוּכָ֔ה
+  lemma: מְלוּכָה
+  transliteration: mməlûḵāh
+  ids:
+    ref: 1KI 12:21!25
+    wordID: o110120210252
+  translation:
+    english: kingdom
+    mandarin: 王国
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מְלוּכָה
+    strong: '4410'
+  semantic:
+    sdbh:
+    - '004030001001000'
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '015'
+    - '148'
+    sense: '1'
+  lxx:
+    text: βασιλείαν
+    strong: '932'
+- position: 32
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: 1KI 12:21!26
+    wordID: o110120210261
+  translation:
+    english: to
+    mandarin: 归
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 33
+  text: רְחַבְעָ֖ם
+  lemma: רְחַבְעָם
+  transliteration: rəḥaḇʿām
+  ids:
+    ref: 1KI 12:21!26
+    wordID: o110120210262
+  translation:
+    english: Rehoboam
+    mandarin: 罗波安
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: רְחַבְעָם
+    strong: '7346'
+  semantic:
+    sdbh:
+    - 006749001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ροβοαμ
+- position: 34
+  text: בֶּן
+  lemma: בֵּן
+  transliteration: ben-
+  ids:
+    ref: 1KI 12:21!27
+    wordID: o110120210271
+  translation:
+    english: son
+    mandarin: 儿子
+    gloss: the.son
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: υἱῷ
+    strong: '5207'
+- position: 35
+  text: שְׁלֹמֹֽה
+  lemma: שְׁלֹמֹה
+  transliteration: 'šəlōmōh:'
+  ids:
+    ref: 1KI 12:21!28
+    wordID: o110120210281
+  translation:
+    english: Solomon
+    mandarin: 所罗门
+    gloss: of.Solomon
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שְׁלֹמֹה
+    strong: '8010'
+  semantic:
+    sdbh:
+    - '007414001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαλωμων
+    strong: '4672'

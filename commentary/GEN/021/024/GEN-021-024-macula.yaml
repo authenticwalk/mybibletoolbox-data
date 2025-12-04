@@ -1,0 +1,157 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 21:24
+text: וַיֹּ֨אמֶר֙ אַבְרָהָ֔ם אָנֹכִ֖י אִשָּׁבֵֽעַ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 21:24!1
+    wordID: o010210240011
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יֹּ֨אמֶר֙
+  lemma: אָמַר
+  transliteration: yyōʾmer
+  ids:
+    ref: GEN 21:24!1
+    wordID: o010210240012
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:010210240021;
+- position: 3
+  text: אַבְרָהָ֔ם
+  lemma: אַבְרָהָם
+  transliteration: ʾaḇrāhām
+  ids:
+    ref: GEN 21:24!2
+    wordID: o010210240021
+  translation:
+    english: Abraham
+    mandarin: 亚伯拉罕
+    gloss: Abraham
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַבְרָהָם
+    strong: 0085
+  semantic:
+    sdbh:
+    - 000084001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: αβρααμ
+    strong: '11'
+  syntax:
+    role: s
+- position: 4
+  text: אָנֹכִ֖י
+  lemma: אָנֹכִי
+  transliteration: ʾānōḵiy
+  ids:
+    ref: GEN 21:24!3
+    wordID: o010210240031
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '010210240021'
+- position: 5
+  text: אִשָּׁבֵֽעַ
+  lemma: שָׁבַע
+  transliteration: 'ʾiššāḇēᵃʿ:'
+  ids:
+    ref: GEN 21:24!4
+    wordID: o010210240041
+  translation:
+    english: swear
+    mandarin: 起誓
+    gloss: I.will.swear
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁבַע
+    strong: '7650'
+  semantic:
+    sdbh:
+    - 007178001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '041'
+    - '118'
+    sense: '1'
+  lxx:
+    text: ὀμοῦμαι
+  syntax:
+    role: v
+    frame: A0:010210240031;

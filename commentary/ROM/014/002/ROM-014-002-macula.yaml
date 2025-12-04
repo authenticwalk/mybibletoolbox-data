@@ -1,0 +1,231 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 14:2
+text: ὃς μὲν πιστεύει φαγεῖν πάντα, ὁ δὲ ἀσθενῶν λάχανα ἐσθίει.
+words:
+- position: 1
+  text: μὲν
+  lemma: μέν
+  normalized: μέν
+  ids:
+    ref: ROM 14:2!2
+    wordID: n45014002002
+  translation:
+    gloss: indeed
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '3303'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.136'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὃς
+  lemma: ὅς
+  normalized: ὅς
+  ids:
+    ref: ROM 14:2!1
+    wordID: n45014002001
+  translation:
+    gloss: One
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: s
+- position: 3
+  text: πιστεύει
+  lemma: πιστεύω
+  normalized: πιστεύει
+  ids:
+    ref: ROM 14:2!3
+    wordID: n45014002003
+  translation:
+    gloss: believes
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.85'
+  syntax:
+    role: v
+    frame: A0:n45014002001
+- position: 4
+  text: φαγεῖν
+  lemma: ἐσθίω
+  normalized: φαγεῖν
+  ids:
+    ref: ROM 14:2!4
+    wordID: n45014002004
+  translation:
+    gloss: to eat
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n45014002001 A1:n45014002005
+  discourse:
+    subject: n45014002001
+- position: 5
+  text: πάντα
+  lemma: πᾶς
+  normalized: πάντα
+  ids:
+    ref: ROM 14:2!5
+    wordID: n45014002005
+  translation:
+    gloss: all things
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 058004
+    ln: '58.28'
+  syntax:
+    role: o
+- position: 6
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ROM 14:2!7
+    wordID: n45014002007
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.136'
+  syntax:
+    discontinuous: 'true'
+- position: 7
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: ROM 14:2!6
+    wordID: n45014002006
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ἀσθενῶν
+  lemma: ἀσθενέω
+  normalized: ἀσθενῶν
+  ids:
+    ref: ROM 14:2!8
+    wordID: n45014002008
+  translation:
+    gloss: being weak
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '770'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.26'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 9
+  text: λάχανα
+  lemma: λάχανον
+  normalized: λάχανα
+  ids:
+    ref: ROM 14:2!9
+    wordID: n45014002009
+  translation:
+    gloss: vegetables
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3001'
+  semantic:
+    semanticDomain: '003003'
+    ln: '3.29'
+  syntax:
+    role: o
+- position: 10
+  text: ἐσθίει
+  lemma: ἐσθίω
+  normalized: ἐσθίει
+  ids:
+    ref: ROM 14:2!10
+    wordID: n45014002010
+  translation:
+    gloss: eats
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2068'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n45014002008 A1:n45014002009

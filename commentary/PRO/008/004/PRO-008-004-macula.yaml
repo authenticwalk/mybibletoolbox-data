@@ -1,0 +1,265 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 8:4
+text: אֲלֵיכֶ֣ם אִישִׁ֣ים אֶקְרָ֑א וְ֝קוֹלִ֗י אֶל־בְּנֵ֥י אָדָֽם׃
+words:
+- position: 1
+  text: אִישִׁ֣ים
+  lemma: אִישׁ
+  transliteration: ʾîšiym
+  ids:
+    ref: PRO 8:4!2
+    wordID: o200080040021
+  translation:
+    english: people
+    mandarin: 人
+    gloss: O.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνθρωποι
+    strong: '444'
+- position: 2
+  text: אֲלֵי
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: PRO 8:4!1
+    wordID: o200080040011
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 3
+  text: כֶ֣ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 8:4!1
+    wordID: o200080040012
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: '200080040021'
+- position: 4
+  text: אֶקְרָ֑א
+  lemma: קָרָא
+  transliteration: ʾeqrāʾ
+  ids:
+    ref: PRO 8:4!3
+    wordID: o200080040031
+  translation:
+    english: call
+    mandarin: 呼唤
+    gloss: I.call
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: παρακαλῶ
+    strong: '3870'
+  syntax:
+    role: v
+    frame: A0:200080010042;
+  discourse:
+    subject: '200080010042'
+- position: 5
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 8:4!4
+    wordID: o200080040041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 6
+  text: קוֹלִ֗
+  lemma: קוֹל
+  transliteration: ''
+  ids:
+    ref: PRO 8:4!4
+    wordID: o200080040042
+  translation:
+    english: cry
+    mandarin: 呼吁
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קוֹל
+    strong: '6963'
+  semantic:
+    sense: '1'
+  lxx:
+    text: φωνὴν
+    strong: '5456'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 8:4!4
+    wordID: o200080040043
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμὴν
+    strong: '1699'
+  discourse:
+    participant: '200080010042'
+- position: 8
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: PRO 8:4!5
+    wordID: o200080040051
+  translation:
+    english: to
+    mandarin: 向
+    gloss: '[is].to'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 9
+  text: בְּנֵ֥י
+  lemma: בֵּן
+  transliteration: bənēy
+  ids:
+    ref: PRO 8:4!6
+    wordID: o200080040061
+  translation:
+    english: children
+    mandarin: 之子
+    gloss: '[the].children'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001004000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 038
+    sense: '8'
+  lxx:
+    text: υἱοῖς
+    strong: '5207'
+- position: 10
+  text: אָדָֽם
+  lemma: אָדָם
+  transliteration: 'ʾāḏām:'
+  ids:
+    ref: PRO 8:4!7
+    wordID: o200080040071
+  translation:
+    english: adam
+    mandarin: 人
+    gloss: of.humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἀνθρώπων
+    strong: '444'

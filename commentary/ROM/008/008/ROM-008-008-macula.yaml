@@ -1,0 +1,199 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 8:8
+text: οἱ δὲ ἐν σαρκὶ ὄντες Θεῷ ἀρέσαι οὐ δύνανται.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ROM 8:8!2
+    wordID: n45008008002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: ROM 8:8!1
+    wordID: n45008008001
+  translation:
+    gloss: Those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ROM 8:8!3
+    wordID: n45008008003
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.8'
+- position: 4
+  text: σαρκὶ
+  lemma: σάρξ
+  normalized: σαρκί
+  ids:
+    ref: ROM 8:8!4
+    wordID: n45008008004
+  translation:
+    gloss: flesh
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: '026'
+    ln: '26.7'
+- position: 5
+  text: ὄντες
+  lemma: εἰμί
+  normalized: ὄντες
+  ids:
+    ref: ROM 8:8!5
+    wordID: n45008008005
+  translation:
+    gloss: being
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
+    frame: A0:n00000000000
+- position: 6
+  text: Θεῷ
+  lemma: θεός
+  normalized: Θεῷ
+  ids:
+    ref: ROM 8:8!6
+    wordID: n45008008006
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+  syntax:
+    role: o
+- position: 7
+  text: ἀρέσαι
+  lemma: ἀρέσκω
+  normalized: ἀρέσαι
+  ids:
+    ref: ROM 8:8!7
+    wordID: n45008008007
+  translation:
+    gloss: to please
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '700'
+  semantic:
+    semanticDomain: 025008
+    ln: '25.90'
+  syntax:
+    role: v
+    frame: A0:n45008008004 A1:n45008008006
+  discourse:
+    subject: n45008008004
+- position: 8
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: ROM 8:8!8
+    wordID: n45008008008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 9
+  text: δύνανται
+  lemma: δύναμαι
+  normalized: δύνανται
+  ids:
+    ref: ROM 8:8!9
+    wordID: n45008008009
+  translation:
+    gloss: are able
+  morphology:
+    class: verb
+    morph: V-PNI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n45008008004 A1:n45008008007

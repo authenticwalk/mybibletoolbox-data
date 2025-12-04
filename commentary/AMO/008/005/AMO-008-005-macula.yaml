@@ -1,0 +1,752 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: AMO 8:5
+text: לֵאמֹ֗ר מָתַ֞י יַעֲבֹ֤ר הַחֹ֨דֶשׁ֙ וְנַשְׁבִּ֣ירָה שֶּׁ֔בֶר וְהַשַּׁבָּ֖ת וְנִפְתְּחָה־בָּ֑ר
+  לְהַקְטִ֤ין אֵיפָה֙ וּלְהַגְדִּ֣יל שֶׁ֔קֶל וּלְעַוֵּ֖ת מֹאזְנֵ֥י מִרְמָֽה׃
+words:
+- position: 1
+  text: לֵ
+  lemma: לְ
+  transliteration: lē
+  ids:
+    ref: AMO 8:5!1
+    wordID: o300080050011
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: οἱ
+    strong: '3588'
+- position: 2
+  text: אמֹ֗ר
+  lemma: אָמַר
+  transliteration: ʾmōr
+  ids:
+    ref: AMO 8:5!1
+    wordID: o300080050012
+  translation:
+    english: saying
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγοντες
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:300080040032;
+  discourse:
+    subject: '300080040032'
+- position: 3
+  text: מָתַ֞י
+  lemma: מָתַי
+  transliteration: māṯay
+  ids:
+    ref: AMO 8:5!2
+    wordID: o300080050021
+  translation:
+    english: when
+    mandarin: 几时
+    gloss: when?
+  morphology:
+    class: ptcl
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָתַי
+    strong: '4970'
+  semantic:
+    sdbh:
+    - '004556001001000'
+    lexdomain:
+    - '003002005'
+  lxx:
+    text: πότε
+    strong: '4219'
+  syntax:
+    role: adv
+- position: 4
+  text: יַעֲבֹ֤ר
+  lemma: עָבַר
+  transliteration: yaʿăḇōr
+  ids:
+    ref: AMO 8:5!3
+    wordID: o300080050031
+  translation:
+    english: over
+    mandarin: 过去
+    gloss: will.it.pass
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '2'
+  lxx:
+    text: διελεύσεται
+    strong: '1330'
+  syntax:
+    role: v
+    frame: A0:300080050042;
+- position: 5
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: AMO 8:5!4
+    wordID: o300080050041
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 6
+  text: חֹ֨דֶשׁ֙
+  lemma: חֹדֶשׁ
+  transliteration: ḥōḏeš
+  ids:
+    ref: AMO 8:5!4
+    wordID: o300080050042
+  translation:
+    english: new moon
+    mandarin: 新月节
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֹדֶשׁ
+    strong: '2320'
+  semantic:
+    sdbh:
+    - '002145001002000'
+    lexdomain:
+    - '002002002011'
+    coredomain:
+    - '066'
+    sense: '2'
+  lxx:
+    text: μὴν
+    strong: '3376'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: AMO 8:5!5
+    wordID: o300080050051
+  translation:
+    english: that
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: נַשְׁבִּ֣ירָה
+  lemma: שָׁבַר
+  transliteration: našbiyrâ
+  ids:
+    ref: AMO 8:5!5
+    wordID: o300080050052
+  translation:
+    english: sell
+    mandarin: 卖
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: hiphil
+    type: cohortative
+  lexical:
+    stronglemma: שָׁבַר
+    strong: '7666'
+  semantic:
+    sdbh:
+    - 007185002002000
+    lexdomain:
+    - 002003002019
+    coredomain:
+    - 069
+    sense: '2'
+  lxx:
+    text: ἐμπολήσομεν
+  syntax:
+    role: v
+    frame: AA:300080040032; A0:300080050061;
+  discourse:
+    subject: '300080040032'
+- position: 9
+  text: שֶּׁ֔בֶר
+  lemma: שֶׁבֶר
+  transliteration: ššeḇer
+  ids:
+    ref: AMO 8:5!6
+    wordID: o300080050061
+  translation:
+    english: grain
+    mandarin: 粮食
+    gloss: grain
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֶׁבֶר
+    strong: '7668'
+  semantic:
+    sdbh:
+    - 007186002001000
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - '125'
+    - 069
+    sense: '1'
+  syntax:
+    role: o
+- position: 10
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: AMO 8:5!7
+    wordID: o300080050071
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: AMO 8:5!7
+    wordID: o300080050072
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰ
+    strong: '3588'
+- position: 12
+  text: שַּׁבָּ֖ת
+  lemma: שַׁבָּת
+  transliteration: ššabbāṯ
+  ids:
+    ref: AMO 8:5!7
+    wordID: o300080050073
+  translation:
+    english: sabbath
+    mandarin: 安息日
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שַׁבָּת
+    strong: '7676'
+  semantic:
+    sdbh:
+    - 007192001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: σάββατα
+    strong: '4521'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: AMO 8:5!8
+    wordID: o300080050081
+  translation:
+    english: that
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: נִפְתְּחָה
+  lemma: פָּתַח
+  transliteration: nip̄təḥâ-
+  ids:
+    ref: AMO 8:5!8
+    wordID: o300080050082
+  translation:
+    english: market
+    mandarin: 摆开
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: פָּתַח
+    strong: '6605'
+  semantic:
+    sdbh:
+    - 006070001019000
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: ἀνοίχομεν
+    strong: '455'
+  syntax:
+    role: v
+    frame: A0:300080040032; A1:300080050091;
+  discourse:
+    subject: '300080040032'
+- position: 15
+  text: בָּ֑ר
+  lemma: בַּר
+  transliteration: bār
+  ids:
+    ref: AMO 8:5!9
+    wordID: o300080050091
+  translation:
+    english: wheat
+    mandarin: 谷物
+    gloss: grain
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בַּר
+    strong: '1250'
+  semantic:
+    sdbh:
+    - '001154003001000'
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - '125'
+    - 069
+    sense: '1'
+  lxx:
+    text: θησαυροὺς
+    strong: '2344'
+  syntax:
+    role: o
+- position: 16
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: AMO 8:5!10
+    wordID: o300080050101
+  translation:
+    english: that
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 17
+  text: הַקְטִ֤ין
+  lemma: קָטֹן
+  transliteration: haqṭiyn
+  ids:
+    ref: AMO 8:5!10
+    wordID: o300080050102
+  translation:
+    english: make ~ small
+    mandarin: 小
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: קָטֹן
+    strong: '6994'
+  semantic:
+    sdbh:
+    - '006432001001000'
+    lexdomain:
+    - '002001001035'
+    coredomain:
+    - '161'
+    sense: '1'
+  syntax:
+    role: v
+    frame: AA:300080040032; A0:300080050111;
+  discourse:
+    subject: '300080040032'
+- position: 18
+  text: אֵיפָה֙
+  lemma: אֵיפָה
+  transliteration: ʾêp̄āh
+  ids:
+    ref: AMO 8:5!11
+    wordID: o300080050111
+  translation:
+    english: ephah
+    mandarin: 升斗
+    gloss: an.ephah
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵיפָה
+    strong: '0374'
+  semantic:
+    sdbh:
+    - '000353001001000'
+    lexdomain:
+    - '002001001011'
+    coredomain:
+    - '138'
+    sense: '1'
+  lxx:
+    text: μέτρον
+    strong: '3358'
+  syntax:
+    role: o
+- position: 19
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: AMO 8:5!12
+    wordID: o300080050121
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 20
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: AMO 8:5!12
+    wordID: o300080050122
+  translation:
+    english: to
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 21
+  text: הַגְדִּ֣יל
+  lemma: גָּדַל
+  transliteration: haḡdiyl
+  ids:
+    ref: AMO 8:5!12
+    wordID: o300080050123
+  translation:
+    english: great
+    mandarin: 大
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: גָּדַל
+    strong: '1431'
+  semantic:
+    sdbh:
+    - '001312001002000'
+    lexdomain:
+    - '002001001034'
+    coredomain:
+    - '161'
+    sense: '3'
+  lxx:
+    text: μεγαλῦναι
+  syntax:
+    role: v
+    frame: AA:300080040032; A0:300080050131;
+  discourse:
+    subject: '300080040032'
+- position: 22
+  text: שֶׁ֔קֶל
+  lemma: שֶׁקֶל
+  transliteration: šeqel
+  ids:
+    ref: AMO 8:5!13
+    wordID: o300080050131
+  translation:
+    english: shekel
+    mandarin: 戥子
+    gloss: a.shekel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֶׁקֶל
+    strong: '8255'
+  semantic:
+    sdbh:
+    - '007612001001000'
+    lexdomain:
+    - '002001001066'
+    sense: '1'
+  lxx:
+    text: στάθμια
+  syntax:
+    role: o
+- position: 23
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: AMO 8:5!14
+    wordID: o300080050141
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 24
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: AMO 8:5!14
+    wordID: o300080050142
+  translation:
+    english: to
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 25
+  text: עַוֵּ֖ת
+  lemma: עָוַת
+  transliteration: ʿawwēṯ
+  ids:
+    ref: AMO 8:5!14
+    wordID: o300080050143
+  translation:
+    english: practice deceit
+    mandarin: 欺哄
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpc
+    stem: piel
+    type: infinitive construct
+  lexical:
+    stronglemma: עָוַת
+    strong: '5791'
+  semantic:
+    sdbh:
+    - '005316001003000'
+    lexdomain:
+    - '002001001006'
+    sense: '3'
+  lxx:
+    text: ποιῆσαι
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:300080040032; A1:300080050151;
+  discourse:
+    subject: '300080040032'
+- position: 26
+  text: מֹאזְנֵ֥י
+  lemma: מֹאזְנַיִם
+  transliteration: mōʾzənēy
+  ids:
+    ref: AMO 8:5!15
+    wordID: o300080050151
+  translation:
+    english: scales
+    mandarin: 天平
+    gloss: balances
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmdc
+    gender: masculine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מֹאזְנַיִם
+    strong: '3976'
+  semantic:
+    sdbh:
+    - '003640001001000'
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '190'
+    sense: '1'
+  lxx:
+    text: ζυγὸν
+    strong: '2218'
+- position: 27
+  text: מִרְמָֽה
+  lemma: מִרְמָה
+  transliteration: 'mirmāh:'
+  ids:
+    ref: AMO 8:5!16
+    wordID: o300080050161
+  translation:
+    english: dishonest
+    mandarin: 诡诈
+    gloss: of.deceit
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִרְמָה
+    strong: '4820'
+  semantic:
+    sdbh:
+    - '004410001001000'
+    lexdomain:
+    - '002001003007'
+    coredomain:
+    - '184'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἄδικον
+    strong: '94'

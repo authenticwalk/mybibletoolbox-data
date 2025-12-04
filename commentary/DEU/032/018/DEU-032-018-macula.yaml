@@ -1,0 +1,292 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 32:18
+text: צ֥וּר יְלָדְךָ֖ תֶּ֑שִׁי וַתִּשְׁכַּ֖ח אֵ֥ל מְחֹלְלֶֽךָ׃
+words:
+- position: 1
+  text: צ֥וּר
+  lemma: צוּר
+  transliteration: ṣûr
+  ids:
+    ref: DEU 32:18!1
+    wordID: o050320180011
+  translation:
+    english: rock
+    mandarin: 磐石
+    gloss: '[the].rock'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: צוּר
+    strong: '6697'
+  semantic:
+    sdbh:
+    - '006161001003000'
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸν
+    strong: '2316'
+- position: 2
+  text: יְלָדְ
+  lemma: יָלַד
+  transliteration: ''
+  ids:
+    ref: DEU 32:18!2
+    wordID: o050320180021
+  translation:
+    english: bore
+    mandarin: 生
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001005000
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - '030'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:050320180011; A1:050320180022;
+  discourse:
+    subject: 050320180011
+- position: 3
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 32:18!2
+    wordID: o050320180022
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 002931001005000
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - '030'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '050320150021'
+- position: 4
+  text: תֶּ֑שִׁי
+  lemma: שָׁיָה
+  transliteration: tešî
+  ids:
+    ref: DEU 32:18!3
+    wordID: o050320180031
+  translation:
+    english: neglected
+    mandarin: 轻忽
+    gloss: you.forgot
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁיָה
+    strong: '7876'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐγκατέλιπες
+    strong: '1459'
+  syntax:
+    role: v
+    frame: A0:050320150021; A1:050320180011;
+  discourse:
+    subject: '050320150021'
+- position: 5
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: DEU 32:18!4
+    wordID: o050320180041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: תִּשְׁכַּ֖ח
+  lemma: שָׁכַח
+  transliteration: tiškaḥ
+  ids:
+    ref: DEU 32:18!4
+    wordID: o050320180042
+  translation:
+    english: forgot
+    mandarin: 忘记
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: שָׁכַח
+    strong: '7911'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπελάθου
+  syntax:
+    role: v
+    frame: A0:050320150021; A1:050320180051;
+  discourse:
+    subject: '050320150021'
+- position: 7
+  text: אֵ֥ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: DEU 32:18!5
+    wordID: o050320180051
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 8
+  text: מְחֹלְלֶֽ
+  lemma: חיל
+  transliteration: ''
+  ids:
+    ref: DEU 32:18!6
+    wordID: o050320180061
+  translation:
+    english: gave ~ birth
+    mandarin: 产
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vormsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: polel
+    type: participle active
+  lexical:
+    stronglemma: חיל
+    strong: 2342a
+  semantic:
+    sdbh:
+    - 002239001006000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '030'
+    sense: '4'
+  syntax:
+    frame: A0:050320180051; A1:050320180062;
+  discourse:
+    subject: 050320180051
+- position: 9
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 32:18!6
+    wordID: o050320180062
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 002239001006000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '030'
+  lxx:
+    text: σε
+    strong: '4571'
+  discourse:
+    participant: '050320150021'

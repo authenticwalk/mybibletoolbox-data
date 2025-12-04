@@ -1,0 +1,292 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 16:1
+text: מִכְתָּ֥ם לְדָוִ֑דשָֽׁמְרֵ֥נִי אֵ֝֗ל כִּֽי־חָסִ֥יתִי בָֽךְ׃
+words:
+- position: 1
+  text: מִכְתָּ֥ם
+  lemma: מִכְתָּם
+  transliteration: miḵtām
+  ids:
+    ref: PSA 16:1!1
+    wordID: o190160010011
+  translation:
+    english: miktam
+    mandarin: 金诗
+    gloss: a.miktam
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִכְתָּם
+    strong: '4387'
+  semantic:
+    sdbh:
+    - '004010001001000'
+    lexdomain:
+    - 002004001009006
+    sense: '1'
+  lxx:
+    text: στηλογραφία
+  syntax:
+    role: s
+- position: 2
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 16:1!2
+    wordID: o190160010021
+  translation:
+    english: of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 3
+  text: דָוִ֑ד
+  lemma: דָּוִד
+  transliteration: ḏāwiḏ
+  ids:
+    ref: PSA 16:1!2
+    wordID: o190160010022
+  translation:
+    english: David
+    mandarin: 大卫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+- position: 4
+  text: שָֽׁמְרֵ֥
+  lemma: שָׁמַר
+  transliteration: ''
+  ids:
+    ref: PSA 16:1!3
+    wordID: o190160010031
+  translation:
+    english: protect
+    mandarin: 保护
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '4'
+  lxx:
+    text: φύλαχόν
+  syntax:
+    role: v
+    frame: A0:190160010041; A1:190160010032;
+  discourse:
+    subject: '190160010041'
+- position: 5
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 16:1!3
+    wordID: o190160010032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190160010022'
+- position: 6
+  text: אֵ֝֗ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: PSA 16:1!4
+    wordID: o190160010041
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: O.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 7
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 16:1!5
+    wordID: o190160010051
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 8
+  text: חָסִ֥יתִי
+  lemma: חָסָה
+  transliteration: ḥāsiyṯî
+  ids:
+    ref: PSA 16:1!6
+    wordID: o190160010061
+  translation:
+    english: take refuge
+    mandarin: 投靠
+    gloss: I.have.taken.refuge
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: חָסָה
+    strong: '2620'
+  semantic:
+    sdbh:
+    - '002413001002000'
+    lexdomain:
+    - '002001002003'
+    coredomain:
+    - '152'
+    - '043'
+    - '196'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:190160010022;
+  discourse:
+    subject: '190160010022'
+- position: 9
+  text: בָֽ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: PSA 16:1!7
+    wordID: o190160010071
+  translation:
+    english: in
+    mandarin: 于~里面
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 10
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 16:1!7
+    wordID: o190160010072
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: ἤλπισα
+    strong: '1679'
+  discourse:
+    participant: '190160010041'

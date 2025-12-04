@@ -1,0 +1,223 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 32:9
+text: לֹֽא־רַבִּ֥ים יֶחְכָּ֑מוּ וּ֝זְקֵנִ֗ים יָבִ֥ינוּ מִשְׁפָּֽט׃
+words:
+- position: 1
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: JOB 32:9!1
+    wordID: o180320090011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐξ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: רַבִּ֥ים
+  lemma: רַב
+  transliteration: rabbiym
+  ids:
+    ref: JOB 32:9!2
+    wordID: o180320090021
+  translation:
+    english: abundant
+    mandarin: 大
+    gloss: many.[people]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001004000'
+    lexdomain:
+    - 002001001038
+    sense: '5'
+  lxx:
+    text: πολυξρόνιοί
+  syntax:
+    role: s
+- position: 3
+  text: יֶחְכָּ֑מוּ
+  lemma: חָכַם
+  transliteration: yeḥkāmû
+  ids:
+    ref: JOB 32:9!3
+    wordID: o180320090031
+  translation:
+    english: wise
+    mandarin: 有智慧
+    gloss: they.are.wise
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָכַם
+    strong: '2449'
+  semantic:
+    sdbh:
+    - '002263001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: σοφοί
+    strong: '4680'
+  syntax:
+    role: v
+    frame: A0:180320090021;
+- position: 4
+  text: וּ֝
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: JOB 32:9!4
+    wordID: o180320090041
+  translation:
+    english: nor
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὐδ’
+    strong: '3761'
+- position: 5
+  text: זְקֵנִ֗ים
+  lemma: זָקֵן
+  transliteration: zəqēniym
+  ids:
+    ref: JOB 32:9!4
+    wordID: o180320090042
+  translation:
+    english: aged
+    mandarin: 年老的
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: זָקֵן
+    strong: '2205'
+  semantic:
+    sdbh:
+    - '002033001002000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '005'
+    sense: '1'
+  lxx:
+    text: γέροντες
+  syntax:
+    role: s
+- position: 6
+  text: יָבִ֥ינוּ
+  lemma: בִּין
+  transliteration: yāḇiynû
+  ids:
+    ref: JOB 32:9!5
+    wordID: o180320090051
+  translation:
+    english: understand
+    mandarin: 明白
+    gloss: they.understand
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בִּין
+    strong: 0995
+  semantic:
+    sdbh:
+    - 000924001002000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '199'
+  lxx:
+    text: οἴδασιν
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:180320090042; A1:180320090061;
+- position: 7
+  text: מִשְׁפָּֽט
+  lemma: מִשְׁפָּט
+  transliteration: 'mišpāṭ:'
+  ids:
+    ref: JOB 32:9!6
+    wordID: o180320090061
+  translation:
+    english: what is right
+    mandarin: 是非
+    gloss: justice
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִשְׁפָּט
+    strong: '4941'
+  semantic:
+    sdbh:
+    - 004528001006000
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - 095
+    sense: '1'
+  lxx:
+    text: κρίμα
+    strong: '2917'
+  syntax:
+    role: o

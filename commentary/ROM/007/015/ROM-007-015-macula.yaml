@@ -1,0 +1,121 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 7:15
+text: ὃ γὰρ κατεργάζομαι οὐ γινώσκω·
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: ROM 7:15!2
+    wordID: n45007015002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: ROM 7:15!1
+    wordID: n45007015001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 3
+  text: κατεργάζομαι
+  lemma: κατεργάζομαι
+  normalized: κατεργάζομαι
+  ids:
+    ref: ROM 7:15!3
+    wordID: n45007015003
+  translation:
+    gloss: I do
+  morphology:
+    class: verb
+    morph: V-PNI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '2716'
+  semantic:
+    semanticDomain: 090011
+    ln: '90.47'
+  syntax:
+    role: v
+    frame: A0:n45001001001 A1:n45007015001
+  discourse:
+    subject: n45001001001
+- position: 4
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: ROM 7:15!4
+    wordID: n45007015004
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 5
+  text: γινώσκω
+  lemma: γινώσκω
+  normalized: γινώσκω
+  ids:
+    ref: ROM 7:15!5
+    wordID: n45007015005
+  translation:
+    gloss: I understand
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.16'
+  syntax:
+    role: v
+    frame: A0:n45001001001 A1:n45007015003
+  discourse:
+    subject: n45001001001

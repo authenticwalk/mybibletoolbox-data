@@ -1,0 +1,405 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 13:2
+text: καὶ ἀποκριθεὶς εἶπεν αὐτοῖς Δοκεῖτε ὅτι οἱ Γαλιλαῖοι οὗτοι ἁμαρτωλοὶ παρὰ πάντας
+  τοὺς Γαλιλαίους ἐγένοντο, ὅτι ταῦτα πεπόνθασιν;
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 13:2!1
+    wordID: n42013002001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: ἀποκριθεὶς
+  lemma: ἀποκρίνομαι
+  normalized: ἀποκριθείς
+  ids:
+    ref: LUK 13:2!2
+    wordID: n42013002002
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n42012042004
+  discourse:
+    subject: n42012042004
+- position: 3
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: LUK 13:2!3
+    wordID: n42013002003
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42012042004 A2:n42013002004
+  discourse:
+    subject: n42012042004
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: LUK 13:2!4
+    wordID: n42013002004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n42013001003
+- position: 5
+  text: Δοκεῖτε
+  lemma: δοκέω
+  normalized: Δοκεῖτε
+  ids:
+    ref: LUK 13:2!5
+    wordID: n42013002005
+  translation:
+    gloss: Think you
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.29'
+  syntax:
+    role: v
+    frame: A0:n42013001003
+  discourse:
+    subject: n42013001003
+- position: 6
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: LUK 13:2!6
+    wordID: n42013002006
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 7
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: LUK 13:2!7
+    wordID: n42013002007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: Γαλιλαῖοι
+  lemma: Γαλιλαῖος
+  normalized: Γαλιλαῖοι
+  ids:
+    ref: LUK 13:2!8
+    wordID: n42013002008
+  translation:
+    gloss: Galileans
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '1057'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.445'
+- position: 9
+  text: οὗτοι
+  lemma: οὗτος
+  normalized: οὗτοι
+  ids:
+    ref: LUK 13:2!9
+    wordID: n42013002009
+  translation:
+    gloss: these
+  morphology:
+    class: pron
+    morph: D-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  discourse:
+    referent: n42013001012
+- position: 10
+  text: ἁμαρτωλοὶ
+  lemma: ἁμαρτωλός
+  normalized: ἁμαρτωλοί
+  ids:
+    ref: LUK 13:2!10
+    wordID: n42013002010
+  translation:
+    gloss: sinners
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '268'
+  semantic:
+    semanticDomain: 088038
+    ln: '88.295'
+  syntax:
+    role: p
+- position: 11
+  text: παρὰ
+  lemma: παρά
+  normalized: παρά
+  ids:
+    ref: LUK 13:2!11
+    wordID: n42013002011
+  translation:
+    gloss: beyond
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3844'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.29'
+- position: 12
+  text: πάντας
+  lemma: πᾶς
+  normalized: πάντας
+  ids:
+    ref: LUK 13:2!12
+    wordID: n42013002012
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 13
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: LUK 13:2!13
+    wordID: n42013002013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: Γαλιλαίους
+  lemma: Γαλιλαῖος
+  normalized: Γαλιλαίους
+  ids:
+    ref: LUK 13:2!14
+    wordID: n42013002014
+  translation:
+    gloss: Galileans
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '1057'
+  semantic:
+    semanticDomain: 093002
+    ln: '93.445'
+- position: 15
+  text: ἐγένοντο
+  lemma: γίνομαι
+  normalized: ἐγένοντο
+  ids:
+    ref: LUK 13:2!15
+    wordID: n42013002015
+  translation:
+    gloss: were
+  morphology:
+    class: verb
+    morph: V-2ADI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.3'
+  syntax:
+    role: vc
+- position: 16
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: LUK 13:2!16
+    wordID: n42013002016
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 17
+  text: ταῦτα
+  lemma: οὗτος
+  normalized: ταῦτα
+  ids:
+    ref: LUK 13:2!17
+    wordID: n42013002017
+  translation:
+    gloss: such things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+  discourse:
+    referent: n42013001017
+- position: 18
+  text: πεπόνθασιν
+  lemma: πάσχω
+  normalized: πεπόνθασιν
+  ids:
+    ref: LUK 13:2!18
+    wordID: n42013002018
+  translation:
+    gloss: they have suffered
+  morphology:
+    class: verb
+    morph: V-2RAI-3P
+    number: plural
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3958'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.66'
+  syntax:
+    role: v
+    frame: A0:n42013002008 A1:n42013002017
+  discourse:
+    subject: n42013002008

@@ -1,0 +1,217 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 19:13
+text: שְׁגִיא֥וֹת מִֽי־יָבִ֑ין מִֽנִּסְתָּר֥וֹת נַקֵּֽנִי׃
+words:
+- position: 1
+  text: שְׁגִיא֥וֹת
+  lemma: שְׁגִיאָה
+  transliteration: šəḡîʾôṯ
+  ids:
+    ref: PSA 19:13!1
+    wordID: o190190130011
+  translation:
+    english: errors
+    mandarin: 过错
+    gloss: errors
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שְׁגִיאָה
+    strong: '7691'
+  semantic:
+    sdbh:
+    - '007200001001000'
+    lexdomain:
+    - '002003003017'
+    sense: '1'
+  lxx:
+    text: παραπτώματα
+    strong: '3900'
+  syntax:
+    role: o
+- position: 2
+  text: מִֽי
+  lemma: מִי
+  transliteration: miy-
+  ids:
+    ref: PSA 19:13!2
+    wordID: o190190130021
+  translation:
+    english: who
+    mandarin: 谁
+    gloss: who?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מִי
+    strong: '4310'
+  semantic:
+    sdbh:
+    - 003938001001000
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τίς
+    strong: '5101'
+  syntax:
+    role: s
+- position: 3
+  text: יָבִ֑ין
+  lemma: בִּין
+  transliteration: yāḇiyn
+  ids:
+    ref: PSA 19:13!3
+    wordID: o190190130031
+  translation:
+    english: discern
+    mandarin: 察觉
+    gloss: will.he.discern
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בִּין
+    strong: 0995
+  semantic:
+    sdbh:
+    - 000924001002000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '199'
+  lxx:
+    text: συνήσει
+  syntax:
+    role: v
+    frame: A1:190190130011; A0:190190130021;
+- position: 4
+  text: מִֽ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: PSA 19:13!4
+    wordID: o190190130041
+  translation:
+    english: from
+    mandarin: 自
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 5
+  text: נִּסְתָּר֥וֹת
+  lemma: סָתַר
+  transliteration: nnistārôṯ
+  ids:
+    ref: PSA 19:13!4
+    wordID: o190190130042
+  translation:
+    english: hidden
+    mandarin: 隐而未现
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: סָתַר
+    strong: '5641'
+  semantic:
+    sdbh:
+    - 005181001007000
+    lexdomain:
+    - 002004002008
+    sense: '1'
+- position: 6
+  text: נַקֵּֽ
+  lemma: נָקָה
+  transliteration: ''
+  ids:
+    ref: PSA 19:13!5
+    wordID: o190190130051
+  translation:
+    english: acquit
+    mandarin: 赦免
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: imperative
+  lexical:
+    stronglemma: נָקָה
+    strong: '5352'
+  semantic:
+    sdbh:
+    - 004902001004000
+    lexdomain:
+    - '002003003014'
+    sense: '2'
+  lxx:
+    text: καθάρισόν
+  syntax:
+    role: v
+    frame: A0:190190100071; A1:190190130052;
+  discourse:
+    subject: '190190100071'
+- position: 7
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 19:13!5
+    wordID: o190190130052
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 004902001004000
+    lexdomain:
+    - '002003003014'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190190010032'

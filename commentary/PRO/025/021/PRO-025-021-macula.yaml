@@ -1,0 +1,414 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 25:21
+text: אִם־רָעֵ֣ב שֹׂ֭נַאֲךָ הַאֲכִלֵ֣הוּ לָ֑חֶם וְאִם־צָ֝מֵ֗א הַשְׁקֵ֥הוּ מָֽיִם׃
+words:
+- position: 1
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: PRO 25:21!1
+    wordID: o200250210011
+  translation:
+    english: if
+    mandarin: 若~就
+    gloss: if
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 2
+  text: רָעֵ֣ב
+  lemma: רָעֵב
+  transliteration: rāʿēḇ
+  ids:
+    ref: PRO 25:21!2
+    wordID: o200250210021
+  translation:
+    english: hungry
+    mandarin: 饿
+    gloss: '[is].hungry'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָעֵב
+    strong: '7457'
+  semantic:
+    sdbh:
+    - 006850001001000
+    lexdomain:
+    - '002004001001002'
+    coredomain:
+    - 019
+    - 069
+    - '063'
+    - '196'
+    sense: '1'
+  lxx:
+    text: πεινᾷ
+    strong: '3983'
+  syntax:
+    role: p
+- position: 3
+  text: שֹׂ֭נַאֲ
+  lemma: שָׂנֵא
+  transliteration: ''
+  ids:
+    ref: PRO 25:21!3
+    wordID: o200250210031
+  translation:
+    english: enemy
+    mandarin: 仇敌
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׂנֵא
+    strong: '8130'
+  semantic:
+    sdbh:
+    - 007059001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '2'
+  lxx:
+    text: ἐξθρός
+    strong: '2190'
+  syntax:
+    frame: A1:200250210032;
+- position: 4
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 25:21!3
+    wordID: o200250210032
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 007059001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '200240210041'
+- position: 5
+  text: הַאֲכִלֵ֣
+  lemma: אָכַל
+  transliteration: ''
+  ids:
+    ref: PRO 25:21!4
+    wordID: o200250210041
+  translation:
+    english: give ~ toeat
+    mandarin: 给~吃
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001002000'
+    lexdomain:
+    - '002001001024'
+    sense: '1'
+  lxx:
+    text: τρέφε
+  syntax:
+    role: v
+    frame: AA:200240210041; A0:200250210042; A1:200250210051;
+  discourse:
+    subject: '200240210041'
+- position: 6
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 25:21!4
+    wordID: o200250210042
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - '000373001002000'
+    lexdomain:
+    - '002001001024'
+  lxx:
+    text: αὐτόν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '200250210031'
+- position: 7
+  text: לָ֑חֶם
+  lemma: לֶחֶם
+  transliteration: lāḥem
+  ids:
+    ref: PRO 25:21!5
+    wordID: o200250210051
+  translation:
+    english: food
+    mandarin: 饭
+    gloss: food
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֶחֶם
+    strong: '3899'
+  semantic:
+    sdbh:
+    - '003565001001000'
+    lexdomain:
+    - '001004003001'
+    - '001004003'
+    sense: '1'
+  syntax:
+    role: o2
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 25:21!6
+    wordID: o200250210061
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 9
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: PRO 25:21!6
+    wordID: o200250210062
+  translation:
+    english: if
+    mandarin: 若~就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 10
+  text: צָ֝מֵ֗א
+  lemma: צָמֵא
+  transliteration: ṣāmēʾ
+  ids:
+    ref: PRO 25:21!7
+    wordID: o200250210071
+  translation:
+    english: thirsty
+    mandarin: 渴
+    gloss: '[he.is].thirsty'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: צָמֵא
+    strong: '6771'
+  semantic:
+    sdbh:
+    - '006227001001000'
+    lexdomain:
+    - '002004001001003'
+    coredomain:
+    - 019
+    - '196'
+    sense: '1'
+  lxx:
+    text: διψᾷ
+    strong: '1372'
+  syntax:
+    role: p
+- position: 11
+  text: הַשְׁקֵ֥
+  lemma: שָׁקָה
+  transliteration: ''
+  ids:
+    ref: PRO 25:21!8
+    wordID: o200250210081
+  translation:
+    english: give ~ todrink
+    mandarin: 给~喝
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: שָׁקָה
+    strong: '8248'
+  semantic:
+    sdbh:
+    - '007606001003000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '101'
+    - 069
+    sense: '1'
+  lxx:
+    text: πότιζε
+    strong: '4222'
+  syntax:
+    role: v
+    frame: AA:200240210041; A0:200250210082; A1:200250210091;
+  discourse:
+    subject: '200240210041'
+- position: 12
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 25:21!8
+    wordID: o200250210082
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - '007606001003000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '101'
+    - 069
+  lxx:
+    text: αὐτόν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '200250210031'
+- position: 13
+  text: מָֽיִם
+  lemma: מַיִם
+  transliteration: 'māyim:'
+  ids:
+    ref: PRO 25:21!9
+    wordID: o200250210091
+  translation:
+    english: water
+    mandarin: 水
+    gloss: water
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  syntax:
+    role: o2

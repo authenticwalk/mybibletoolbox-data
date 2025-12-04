@@ -1,0 +1,194 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 31:53
+text: אַנְשֵׁי֙ הַצָּבָ֔א בָּזְז֖וּ אִ֥ישׁ לֽוֹ׃
+words:
+- position: 1
+  text: אַנְשֵׁי֙
+  lemma: אִישׁ
+  transliteration: ʾanšê
+  ids:
+    ref: NUM 31:53!1
+    wordID: o040310530011
+  translation:
+    english: men
+    mandarin: 人
+    gloss: the.men
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνδρες
+    strong: '435'
+- position: 2
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: NUM 31:53!2
+    wordID: o040310530021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: οἱ
+    strong: '3588'
+- position: 3
+  text: צָּבָ֔א
+  lemma: צָבָא
+  transliteration: ṣṣāḇāʾ
+  ids:
+    ref: NUM 31:53!2
+    wordID: o040310530022
+  translation:
+    english: battle
+    mandarin: 打仗
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: צָבָא
+    strong: '6635'
+  semantic:
+    sdbh:
+    - '006101001004000'
+    lexdomain:
+    - '001001002003004'
+    sense: '2'
+  lxx:
+    text: πολεμισταὶ
+- position: 4
+  text: בָּזְז֖וּ
+  lemma: בָּזַז
+  transliteration: bāzəzû
+  ids:
+    ref: NUM 31:53!3
+    wordID: o040310530031
+  translation:
+    english: taken plunder
+    mandarin: 掠夺
+    gloss: they.had.taken.plunder
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּזַז
+    strong: 0962
+  semantic:
+    sdbh:
+    - 000892001001000
+    lexdomain:
+    - '002003002020'
+    coredomain:
+    - '128'
+    - '188'
+    - '006'
+    sense: '1'
+  lxx:
+    text: ἐπρονόμευσαν
+  syntax:
+    role: v
+    frame: A0:040310530011;
+- position: 5
+  text: אִ֥ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: NUM 31:53!4
+    wordID: o040310530041
+  translation:
+    english: each
+    mandarin: 各自
+    gloss: everyone
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἕκαστος
+    strong: '1538'
+  syntax:
+    role: adv
+  discourse:
+    participant: '040310530011'
+- position: 6
+  text: לֽ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: NUM 31:53!5
+    wordID: o040310530051
+  translation:
+    english: for
+    mandarin: 归
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 31:53!5
+    wordID: o040310530052
+  translation:
+    english: himself
+    mandarin: 自己
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: ἑαυτῷ
+    strong: '1438'
+  discourse:
+    participant: '040310530041'

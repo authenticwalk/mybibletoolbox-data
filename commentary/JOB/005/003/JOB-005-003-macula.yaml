@@ -1,0 +1,274 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 5:3
+text: אֲֽנִי־רָ֭אִיתִי אֱוִ֣יל מַשְׁרִ֑ישׁ וָאֶקּ֖וֹב נָוֵ֣הוּ פִתְאֹֽם׃
+words:
+- position: 1
+  text: אֲֽנִי
+  lemma: אֲנִי
+  transliteration: ʾănî-
+  ids:
+    ref: JOB 5:3!1
+    wordID: o180050030011
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '180040010021'
+- position: 2
+  text: רָ֭אִיתִי
+  lemma: רָאָה
+  transliteration: rāʾîṯî
+  ids:
+    ref: JOB 5:3!2
+    wordID: o180050030021
+  translation:
+    english: seen
+    mandarin: 见
+    gloss: I.have.seen
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ἑώρακα
+    strong: '3708'
+  syntax:
+    role: v
+    frame: A0:180050030011; A1:180050030041;
+- position: 3
+  text: אֱוִ֣יל
+  lemma: אֱוִיל
+  transliteration: ʾĕwiyl
+  ids:
+    ref: JOB 5:3!3
+    wordID: o180050030031
+  translation:
+    english: fool
+    mandarin: 愚妄人
+    gloss: a.fool
+  morphology:
+    class: noun
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: אֱוִיל
+    strong: 0191
+  semantic:
+    sdbh:
+    - 000186001001000
+    lexdomain:
+    - '002001002010'
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: ἄφρονας
+    strong: '878'
+  syntax:
+    role: s
+- position: 4
+  text: מַשְׁרִ֑ישׁ
+  lemma: שָׁרַשׁ
+  transliteration: mašriyš
+  ids:
+    ref: JOB 5:3!4
+    wordID: o180050030041
+  translation:
+    english: taking root
+    mandarin: 扎下根
+    gloss: taking.root
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: שָׁרַשׁ
+    strong: '8327'
+  semantic:
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:180050030031;
+- position: 5
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: JOB 5:3!5
+    wordID: o180050030051
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 6
+  text: אֶקּ֖וֹב
+  lemma: קָבַב
+  transliteration: ʾeqqôḇ
+  ids:
+    ref: JOB 5:3!5
+    wordID: o180050030052
+  translation:
+    english: cursed
+    mandarin: 咒诅
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: קָבַב
+    strong: '6895'
+  semantic:
+    sdbh:
+    - 006349001001000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἐβρώθη
+  syntax:
+    role: v
+    frame: A0:180040010021; A1:180050030061;
+  discourse:
+    subject: '180040010021'
+- position: 7
+  text: נָוֵ֣
+  lemma: נָוֶה
+  transliteration: ''
+  ids:
+    ref: JOB 5:3!6
+    wordID: o180050030061
+  translation:
+    english: dwelling
+    mandarin: 居所
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נָוֶה
+    strong: '5116'
+  semantic:
+    sdbh:
+    - 004689001002000
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+- position: 8
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 5:3!6
+    wordID: o180050030062
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - 004689001002000
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+  discourse:
+    participant: '180050030031'
+- position: 9
+  text: פִתְאֹֽם
+  lemma: פִּתְאֹם
+  transliteration: 'p̄iṯʾōm:'
+  ids:
+    ref: JOB 5:3!7
+    wordID: o180050030071
+  translation:
+    english: suddenly
+    mandarin: 忽然
+    gloss: suddenly
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: פִּתְאֹם
+    strong: '6597'
+  syntax:
+    role: adv

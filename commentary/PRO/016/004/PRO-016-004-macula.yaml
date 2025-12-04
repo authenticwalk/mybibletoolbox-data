@@ -1,0 +1,328 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 16:4
+text: כֹּ֤לפָּעַ֣ל יְ֭הוָה לַֽמַּעֲנֵ֑הוּ וְגַם־רָ֝שָׁ֗ע לְי֣וֹם רָעָֽה׃
+words:
+- position: 1
+  text: כֹּ֤ל
+  lemma: כֹּל
+  transliteration: kōl
+  ids:
+    ref: PRO 16:4!1
+    wordID: o200160040011
+  translation:
+    english: everything
+    mandarin: 各
+    gloss: everything
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντα
+    strong: '3956'
+  syntax:
+    role: o
+- position: 2
+  text: פָּעַ֣ל
+  lemma: פָּעַל
+  transliteration: pāʿal
+  ids:
+    ref: PRO 16:4!2
+    wordID: o200160040021
+  translation:
+    english: made
+    mandarin: 造
+    gloss: he.makes
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: פָּעַל
+    strong: '6466'
+  semantic:
+    sdbh:
+    - 005943001001000
+    lexdomain:
+    - '002002002005'
+    - '002002003003'
+    sense: '3'
+  lxx:
+    text: ἔργα
+    strong: '2041'
+  syntax:
+    role: v
+    frame: A1:200160040011; A0:200160040031;
+- position: 3
+  text: יְ֭הוָה
+  lemma: יהוה
+  transliteration: yhwh
+  ids:
+    ref: PRO 16:4!3
+    wordID: o200160040031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s
+- position: 4
+  text: לַֽ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: PRO 16:4!4
+    wordID: o200160040041
+  translation:
+    english: for
+    mandarin: 有
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 5
+  text: מַּעֲנֵ֑
+  lemma: מַעֲנֶה
+  transliteration: ''
+  ids:
+    ref: PRO 16:4!4
+    wordID: o200160040042
+  translation:
+    english: purpose
+    mandarin: 目的
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲנֶה
+    strong: 4617a
+  semantic:
+    sdbh:
+    - 004228001002000
+    lexdomain:
+    - '002004002014'
+    sense: '1'
+- position: 6
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 16:4!4
+    wordID: o200160040043
+  translation:
+    english: his
+    mandarin: 其
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - 004228001002000
+    lexdomain:
+    - '002004002014'
+  discourse:
+    participant: '200160040031'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 16:4!5
+    wordID: o200160040051
+  translation:
+    english: and
+    mandarin: 连
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 8
+  text: גַם
+  lemma: גַּם
+  transliteration: ḡam-
+  ids:
+    ref: PRO 16:4!5
+    wordID: o200160040052
+  translation:
+    english: even
+    mandarin: 连~也
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: φυλάσσεται
+- position: 9
+  text: רָ֝שָׁ֗ע
+  lemma: רָשָׁע
+  transliteration: rāšāʿ
+  ids:
+    ref: PRO 16:4!6
+    wordID: o200160040061
+  translation:
+    english: wicked
+    mandarin: 恶人
+    gloss: '[the].wicked'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָשָׁע
+    strong: '7563'
+  semantic:
+    sdbh:
+    - 006947001001000
+    lexdomain:
+    - '002001002007'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  syntax:
+    role: o
+- position: 10
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PRO 16:4!7
+    wordID: o200160040071
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 11
+  text: י֣וֹם
+  lemma: יוֹם
+  transliteration: yôm
+  ids:
+    ref: PRO 16:4!7
+    wordID: o200160040072
+  translation:
+    english: day
+    mandarin: 日子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: ἡμέραν
+    strong: '2250'
+- position: 12
+  text: רָעָֽה
+  lemma: רָעָה
+  transliteration: 'rāʿāh:'
+  ids:
+    ref: PRO 16:4!8
+    wordID: o200160040081
+  translation:
+    english: trouble
+    mandarin: 祸患
+    gloss: of.trouble
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רָעָה
+    strong: 7451b
+  semantic:
+    sdbh:
+    - 006859001003000
+    lexdomain:
+    - '002003003021'
+    sense: '1'
+  lxx:
+    text: κακήν
+    strong: '2556'

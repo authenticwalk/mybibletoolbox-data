@@ -1,0 +1,363 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 59:11
+text: אֱלֹהֵ֣י חַסְדִּ֣י יְקַדְּמֵ֑נִי אֱ֝לֹהִ֗ים יַרְאֵ֥נִי בְשֹׁרְרָֽי׃
+words:
+- position: 1
+  text: אֱלֹהֵ֣י
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhēy
+  ids:
+    ref: PSA 59:11!1
+    wordID: o190590110011
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: the.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 2
+  text: חַסְדִּ֣
+  lemma: חֶסֶד
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!3
+    wordID: o190590110031
+  translation:
+    english: steadfast love
+    mandarin: 慈爱
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֶסֶד
+    strong: '2617'
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: ἔλεος
+    strong: '1656'
+- position: 3
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!3
+    wordID: o190590110032
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190590010042'
+- position: 4
+  text: יְקַדְּמֵ֑
+  lemma: קָדַם
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!4
+    wordID: o190590110041
+  translation:
+    english: meet
+    mandarin: 迎接
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: קָדַם
+    strong: '6923'
+  semantic:
+    sdbh:
+    - '006375001005000'
+    lexdomain:
+    - '002003002017'
+    coredomain:
+    - '110'
+    - 092
+    sense: '2'
+  lxx:
+    text: προφθάσει
+  syntax:
+    role: v
+    frame: A0:190590110011; A1:190590110042;
+- position: 5
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!4
+    wordID: o190590110042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '006375001005000'
+    lexdomain:
+    - '002003002017'
+    coredomain:
+    - '110'
+    - 092
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190590010042'
+- position: 6
+  text: אֱ֝לֹהִ֗ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 59:11!5
+    wordID: o190590110051
+  translation:
+    english: God
+    mandarin: 神
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  syntax:
+    role: s
+- position: 7
+  text: יַרְאֵ֥
+  lemma: רָאָה
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!6
+    wordID: o190590110061
+  translation:
+    english: look
+    mandarin: 看见
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001004000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: δείχει
+    strong: '1166'
+  syntax:
+    role: v
+    frame: AA:190590110051; A0:190590110062;
+- position: 8
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!6
+    wordID: o190590110062
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '006634001004000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+  lxx:
+    text: μοι
+    strong: '3427'
+  syntax:
+    role: o
+  discourse:
+    participant: '190590010042'
+- position: 9
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 59:11!7
+    wordID: o190590110071
+  translation:
+    english: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 10
+  text: שֹׁרְרָֽ
+  lemma: שׁוֹרֵר
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!7
+    wordID: o190590110072
+  translation:
+    english: enemies
+    mandarin: 仇敌
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שׁוֹרֵר
+    strong: '8324'
+  semantic:
+    sdbh:
+    - '007272001001000'
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 59:11!7
+    wordID: o190590110073
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '007272001001000'
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190590010042'

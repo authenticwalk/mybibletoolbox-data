@@ -1,0 +1,452 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ECC 4:2
+text: וְשַׁבֵּ֧חַ אֲנִ֛י אֶת־הַמֵּתִ֖ים שֶׁכְּבָ֣ר מֵ֑תוּ מִן־הַ֣חַיִּ֔ים אֲשֶׁ֛ר
+  הֵ֥מָּה חַיִּ֖ים עֲדֶֽנָה׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ECC 4:2!1
+    wordID: o210040020011
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: και
+    strong: '2532'
+- position: 2
+  text: שַׁבֵּ֧חַ
+  lemma: שָׁבַח
+  transliteration: šabbēᵃḥ
+  ids:
+    ref: ECC 4:2!1
+    wordID: o210040020012
+  translation:
+    english: commended
+    mandarin: 赞叹
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpa
+    stem: piel
+    type: infinitive absolute
+  lexical:
+    stronglemma: שָׁבַח
+    strong: '7623'
+  semantic:
+    sdbh:
+    - '007157001001000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: ἐπήνεσα
+  syntax:
+    role: v
+    frame: A0:210040020021; A1:210040020042;
+- position: 3
+  text: אֲנִ֛י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: ECC 4:2!2
+    wordID: o210040020021
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγω
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '210010120021'
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: ECC 4:2!3
+    wordID: o210040020031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ECC 4:2!4
+    wordID: o210040020041
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τους
+    strong: '3588'
+- position: 6
+  text: מֵּתִ֖ים
+  lemma: מוּת
+  transliteration: mmēṯiym
+  ids:
+    ref: ECC 4:2!4
+    wordID: o210040020042
+  translation:
+    english: dead
+    mandarin: 死人
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001001000
+    lexdomain:
+    - 002001001019
+    sense: '4'
+  lxx:
+    text: τεθνηκότας
+- position: 7
+  text: שֶׁ
+  lemma: שֶׁ
+  transliteration: še
+  ids:
+    ref: ECC 4:2!5
+    wordID: o210040020051
+  translation:
+    english: who
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: שֶׁ
+    strong: 7578a
+  lxx:
+    text: τους
+    strong: '3588'
+- position: 8
+  text: כְּבָ֣ר
+  lemma: כְּבָר
+  transliteration: kəḇār
+  ids:
+    ref: ECC 4:2!5
+    wordID: o210040020052
+  translation:
+    english: already
+    mandarin: 已
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: כְּבָר
+    strong: '3528'
+  semantic:
+    sdbh:
+    - '003234002001000'
+    lexdomain:
+    - '003001015'
+  lxx:
+    text: ἤδη
+    strong: '2235'
+  syntax:
+    role: adv
+- position: 9
+  text: מֵ֑תוּ
+  lemma: מוּת
+  transliteration: mēṯû
+  ids:
+    ref: ECC 4:2!6
+    wordID: o210040020061
+  translation:
+    english: died
+    mandarin: 死
+    gloss: they.had.died
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001001000
+    lexdomain:
+    - 002001001019
+    sense: '4'
+  lxx:
+    text: ἀποθανόντας
+    strong: '599'
+  syntax:
+    role: v
+    frame: A0:210040020042;
+  discourse:
+    subject: '210040020042'
+- position: 10
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: ECC 4:2!7
+    wordID: o210040020071
+  translation:
+    english: more ~ than
+    mandarin: 胜过
+    gloss: more.than
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ὑπερ
+    strong: '5228'
+- position: 11
+  text: הַ֣
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ECC 4:2!8
+    wordID: o210040020081
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τους
+    strong: '3588'
+- position: 12
+  text: חַיִּ֔ים
+  lemma: חַי
+  transliteration: ḥayyiym
+  ids:
+    ref: ECC 4:2!8
+    wordID: o210040020082
+  translation:
+    english: living
+    mandarin: 活人
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: חַי
+    strong: 2416a
+  semantic:
+    sdbh:
+    - 002229001001000
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: ζῶντας
+    strong: '2198'
+- position: 13
+  text: אֲשֶׁ֛ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: ECC 4:2!9
+    wordID: o210040020091
+  translation:
+    english: who
+    gloss: who
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὅσοι
+    strong: '3745'
+- position: 14
+  text: הֵ֥מָּה
+  lemma: הֵמָּה
+  transliteration: hēmmâ
+  ids:
+    ref: ECC 4:2!10
+    wordID: o210040020101
+  translation:
+    english: they
+    mandarin: 那些
+    gloss: they
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  lxx:
+    text: αὐτοι
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '210040020082'
+- position: 15
+  text: חַיִּ֖ים
+  lemma: חַי
+  transliteration: ḥayyiym
+  ids:
+    ref: ECC 4:2!11
+    wordID: o210040020111
+  translation:
+    english: alive
+    mandarin: 活着
+    gloss: '[were].alive'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: חַי
+    strong: 2416a
+  semantic:
+    sdbh:
+    - 002229001001000
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '2'
+  lxx:
+    text: ζῶσιν
+    strong: '2198'
+  syntax:
+    role: p
+- position: 16
+  text: עֲדֶֽנָ
+  lemma: עֲדֶנָה
+  transliteration: ''
+  ids:
+    ref: ECC 4:2!12
+    wordID: o210040020121
+  translation:
+    english: still
+    mandarin: 还
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: עֲדֶנָה
+    strong: '5728'
+  semantic:
+    sdbh:
+    - 005258001001000
+    lexdomain:
+    - '002002003001'
+- position: 17
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: ECC 4:2!12
+    wordID: o210040020122
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sh
+    type: paragogic he
+  lexical:
+    stronglemma: ה
+    strong: 1886j
+  semantic:
+    sdbh:
+    - 005258001001000
+    lexdomain:
+    - '002002003001'
+  lxx:
+    text: τοῦ
+    strong: '3588'

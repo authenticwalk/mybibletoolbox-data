@@ -1,0 +1,428 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2CH 6:42
+text: 2CH 6:42 יְהוָ֣ה אֱלֹהִ֔ים אַל־תָּשֵׁ֖ב פְּנֵ֣י מְשִׁיחֶ֑יךָ זָכְרָ֕ה לְחַֽסְדֵ֖י
+  דָּוִ֥יד עַבְדֶּֽךָ׃פ
+words:
+- position: 1
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: 2CH 6:42!1
+    wordID: o140060420011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אֱלֹהִ֔ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: 2CH 6:42!2
+    wordID: o140060420021
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 3
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: 2CH 6:42!3
+    wordID: o140060420031
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 4
+  text: תָּשֵׁ֖ב
+  lemma: שׁוּב
+  transliteration: tāšēḇ
+  ids:
+    ref: 2CH 6:42!4
+    wordID: o140060420041
+  translation:
+    english: turn away
+    mandarin: 回绝
+    gloss: turn.away
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: jussive
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - '007226001077000'
+    lexdomain:
+    - '002001002031'
+    coredomain:
+    - '197'
+    sense: '5'
+  lxx:
+    text: ἀποστρέψῃς
+    strong: '654'
+  syntax:
+    role: v
+    frame: AA:140060420011; A0:140060420051;
+  discourse:
+    subject: '140060420011'
+- position: 5
+  text: פְּנֵ֣י
+  lemma: פָּנֶה
+  transliteration: pənēy
+  ids:
+    ref: 2CH 6:42!5
+    wordID: o140060420051
+  translation:
+    english: face
+    mandarin: 情面
+    gloss: the.face
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '2'
+  lxx:
+    text: πρόσωπον
+    strong: '4383'
+- position: 6
+  text: מְשִׁיחֶ֑י
+  lemma: מָשִׁיחַ
+  transliteration: ''
+  ids:
+    ref: 2CH 6:42!6
+    wordID: o140060420061
+  translation:
+    english: anointed
+    mandarin: 受膏者
+  morphology:
+    class: adj
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מָשִׁיחַ
+    strong: '4899'
+  semantic:
+    sdbh:
+    - 004486001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    sense: '1'
+- position: 7
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2CH 6:42!6
+    wordID: o140060420062
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 004486001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '140060420011'
+- position: 8
+  text: זָכְרָ֕
+  lemma: זָכַר
+  transliteration: ''
+  ids:
+    ref: 2CH 6:42!7
+    wordID: o140060420071
+  translation:
+    english: remember
+    mandarin: 记念
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: זָכַר
+    strong: '2142'
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+    sense: '1'
+  syntax:
+    frame: A0:140060420011;
+  discourse:
+    subject: '140060420011'
+- position: 9
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: 2CH 6:42!7
+    wordID: o140060420072
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sh
+    type: paragogic he
+  lexical:
+    stronglemma: ה
+    strong: 1886j
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+  lxx:
+    text: μνήσθητι
+    strong: '3415'
+- position: 10
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 2CH 6:42!8
+    wordID: o140060420081
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τὰ
+    strong: '3588'
+- position: 11
+  text: חַֽסְדֵ֖י
+  lemma: חֶסֶד
+  transliteration: ḥasəḏēy
+  ids:
+    ref: 2CH 6:42!8
+    wordID: o140060420082
+  translation:
+    english: steadfast love
+    mandarin: 慈爱
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֶסֶד
+    strong: '2617'
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: ἐλέη
+- position: 12
+  text: דָּוִ֥יד
+  lemma: דָּוִד
+  transliteration: dāwiyḏ
+  ids:
+    ref: 2CH 6:42!9
+    wordID: o140060420091
+  translation:
+    english: David
+    mandarin: 大卫
+    gloss: of.David
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+- position: 13
+  text: עַבְדֶּֽ
+  lemma: עֶבֶד
+  transliteration: ''
+  ids:
+    ref: 2CH 6:42!10
+    wordID: o140060420101
+  translation:
+    english: servant
+    mandarin: 仆人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֶבֶד
+    strong: '5650'
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+    sense: '1'
+- position: 14
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2CH 6:42!10
+    wordID: o140060420102
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '140060420011'

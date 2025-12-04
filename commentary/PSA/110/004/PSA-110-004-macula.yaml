@@ -1,0 +1,356 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 110:4
+text: נִשְׁבַּ֤ע יְהוָ֨ה׀וְלֹ֥א יִנָּחֵ֗ם אַתָּֽה־כֹהֵ֥ן לְעוֹלָ֑ם עַל־דִּ֝בְרָתִ֗י
+  מַלְכִּי־צֶֽדֶק׃
+words:
+- position: 1
+  text: נִשְׁבַּ֤ע
+  lemma: שָׁבַע
+  transliteration: nišbaʿ
+  ids:
+    ref: PSA 110:4!1
+    wordID: o191100040011
+  translation:
+    english: sworn
+    mandarin: 起~誓
+    gloss: he.has.sworn.an.oath
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: שָׁבַע
+    strong: '7650'
+  semantic:
+    sdbh:
+    - 007178001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '041'
+    - '118'
+    sense: '1'
+  lxx:
+    text: ὤμοσεν
+    strong: '3660'
+  syntax:
+    role: v
+    frame: A0:191100040021;
+- position: 2
+  text: יְהוָ֨ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 110:4!2
+    wordID: o191100040021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 3
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 110:4!3
+    wordID: o191100040031
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PSA 110:4!3
+    wordID: o191100040032
+  translation:
+    english: not
+    mandarin: 决不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 5
+  text: יִנָּחֵ֗ם
+  lemma: נָחַם
+  transliteration: yinnāḥēm
+  ids:
+    ref: PSA 110:4!4
+    wordID: o191100040041
+  translation:
+    english: change ~ mind
+    mandarin: 后悔
+    gloss: he.will.repent
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: נָחַם
+    strong: '5162'
+  semantic:
+    sdbh:
+    - '004733002001000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '2'
+  lxx:
+    text: μεταμεληθήσεται
+    strong: '3338'
+  syntax:
+    role: v
+    frame: A0:191100040021;
+  discourse:
+    subject: '191100040021'
+- position: 6
+  text: אַתָּֽה
+  lemma: אַתָּה
+  transliteration: ʾattāh-
+  ids:
+    ref: PSA 110:4!5
+    wordID: o191100040051
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '191100010052'
+- position: 7
+  text: כֹהֵ֥ן
+  lemma: כֹּהֵן
+  transliteration: ḵōhēn
+  ids:
+    ref: PSA 110:4!6
+    wordID: o191100040061
+  translation:
+    english: priest
+    mandarin: 祭司
+    gloss: '[are].a.priest'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּהֵן
+    strong: '3548'
+  semantic:
+    sdbh:
+    - '003253001001000'
+    lexdomain:
+    - 001001002003008
+    coredomain:
+    - '132'
+    sense: '1'
+  lxx:
+    text: ἱερεὺς
+    strong: '2409'
+  syntax:
+    role: p
+- position: 8
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 110:4!7
+    wordID: o191100040071
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 9
+  text: עוֹלָ֑ם
+  lemma: עוֹלָם
+  transliteration: ʿôlām
+  ids:
+    ref: PSA 110:4!7
+    wordID: o191100040072
+  translation:
+    english: forever
+    mandarin: 永远
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: αἰῶνα
+    strong: '165'
+- position: 10
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PSA 110:4!8
+    wordID: o191100040081
+  translation:
+    english: according to
+    mandarin: 照着
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: κατὰ
+    strong: '2596'
+- position: 11
+  text: דִּ֝בְרָתִ֗י
+  lemma: דִּבְרָה
+  transliteration: diḇrāṯiy
+  ids:
+    ref: PSA 110:4!9
+    wordID: o191100040091
+  translation:
+    english: order
+    mandarin: 体系
+    gloss: the.manner
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דִּבְרָה
+    strong: '1700'
+  semantic:
+    sdbh:
+    - '001560001002000'
+    lexdomain:
+    - '002001'
+    sense: '2'
+- position: 12
+  text: מַלְכִּי
+  lemma: מַלְכִּי צֶדֶק
+  transliteration: ''
+  ids:
+    ref: PSA 110:4!10
+    wordID: o191100040101
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מַלְכִּי צֶדֶק
+  semantic:
+    sdbh:
+    - '004055001001000'
+    lexdomain:
+    - '003001007'
+- position: 13
+  text: צֶֽדֶק
+  lemma: מַלְכִּיצֶדֶק
+  transliteration: ''
+  ids:
+    ref: PSA 110:4!11
+    wordID: o191100040111
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מַלְכִּיצֶדֶק
+  semantic:
+    sdbh:
+    - '004055001001000'
+    lexdomain:
+    - '003001007'

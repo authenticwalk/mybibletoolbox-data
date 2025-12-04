@@ -1,0 +1,295 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 32:12
+text: יְהוָ֖ה בָּדָ֣ד יַנְחֶ֑נּוּ וְאֵ֥ין עִמּ֖וֹ אֵ֥ל נֵכָֽר׃
+words:
+- position: 1
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 32:12!1
+    wordID: o050320120011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 2
+  text: בָּדָ֣ד
+  lemma: בָּדָד
+  transliteration: bāḏāḏ
+  ids:
+    ref: DEU 32:12!2
+    wordID: o050320120021
+  translation:
+    english: alone
+    mandarin: 独自
+    gloss: alone
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בָּדָד
+    strong: 0910
+  semantic:
+    sdbh:
+    - 000845001001000
+    lexdomain:
+    - '002003002002'
+    coredomain:
+    - '074'
+    sense: '1'
+  lxx:
+    text: μόνος
+    strong: '3441'
+  syntax:
+    role: adv
+- position: 3
+  text: יַנְחֶ֑
+  lemma: נָחָה
+  transliteration: ''
+  ids:
+    ref: DEU 32:12!3
+    wordID: o050320120031
+  translation:
+    english: guided
+    mandarin: 引导
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָחָה
+    strong: '5148'
+  semantic:
+    sdbh:
+    - 004719001001000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    sense: '1'
+  lxx:
+    text: ἦγεν
+    strong: '71'
+  syntax:
+    role: v
+    frame: AA:050320120011; A0:050320120032;
+- position: 4
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 32:12!3
+    wordID: o050320120032
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  semantic:
+    sdbh:
+    - 004719001001000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+  lxx:
+    text: αὐτούς
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: 050320090051
+- position: 5
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 32:12!4
+    wordID: o050320120041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: DEU 32:12!4
+    wordID: o050320120042
+  translation:
+    english: 'no'
+    mandarin: 无
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 7
+  text: עִמּ֖
+  lemma: עִם
+  transliteration: ''
+  ids:
+    ref: DEU 32:12!5
+    wordID: o050320120051
+  translation:
+    english: with
+    mandarin: 与~同在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עִם
+    strong: '5973'
+  lxx:
+    text: μετ’
+    strong: '3326'
+- position: 8
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 32:12!5
+    wordID: o050320120052
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  discourse:
+    participant: 050320090051
+- position: 9
+  text: אֵ֥ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: DEU 32:12!6
+    wordID: o050320120061
+  translation:
+    english: god
+    mandarin: 神
+    gloss: a.god
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001001000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 10
+  text: נֵכָֽר
+  lemma: נֵכָר
+  transliteration: 'nēḵār:'
+  ids:
+    ref: DEU 32:12!7
+    wordID: o050320120071
+  translation:
+    english: foreign
+    mandarin: 外邦
+    gloss: of.foreignness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נֵכָר
+    strong: '5236'
+  semantic:
+    sdbh:
+    - 004804001001000
+    lexdomain:
+    - '002001001020'
+    coredomain:
+    - '160'
+    sense: '1'
+  lxx:
+    text: ἀλλότριος
+    strong: '245'

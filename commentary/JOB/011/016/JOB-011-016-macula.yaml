@@ -1,0 +1,232 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 11:16
+text: כִּי־אַ֭תָּה עָמָ֣ל תִּשְׁכָּ֑ח כְּמַ֖יִם עָבְר֣וּ תִזְכֹּֽר׃
+words:
+- position: 1
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: JOB 11:16!1
+    wordID: o180110160011
+  translation:
+    english: for
+    mandarin: 必
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אַ֭תָּה
+  lemma: אַתָּה
+  transliteration: ʾattâ
+  ids:
+    ref: JOB 11:16!2
+    wordID: o180110160021
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  syntax:
+    role: s
+  discourse:
+    participant: '180090010021'
+- position: 3
+  text: עָמָ֣ל
+  lemma: עָמָל
+  transliteration: ʿāmāl
+  ids:
+    ref: JOB 11:16!3
+    wordID: o180110160031
+  translation:
+    english: misery
+    mandarin: 苦楚
+    gloss: trouble
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָמָל
+    strong: '5999'
+  semantic:
+    sense: '1'
+  syntax:
+    role: o
+- position: 4
+  text: תִּשְׁכָּ֑ח
+  lemma: שָׁכַח
+  transliteration: tiškāḥ
+  ids:
+    ref: JOB 11:16!4
+    wordID: o180110160041
+  translation:
+    english: forget
+    mandarin: 忘记
+    gloss: you.will.forget
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁכַח
+    strong: '7911'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπιλήσῃ
+  syntax:
+    role: v
+    frame: A0:180110160021; A1:180110160031;
+- position: 5
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: JOB 11:16!5
+    wordID: o180110160051
+  translation:
+    english: as
+    mandarin: 如
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὥσπερ
+    strong: '5618'
+- position: 6
+  text: מַ֖יִם
+  lemma: מַיִם
+  transliteration: mayim
+  ids:
+    ref: JOB 11:16!5
+    wordID: o180110160052
+  translation:
+    english: waters
+    mandarin: 水
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  lxx:
+    text: κῦμα
+- position: 7
+  text: עָבְר֣וּ
+  lemma: עָבַר
+  transliteration: ʿāḇərû
+  ids:
+    ref: JOB 11:16!6
+    wordID: o180110160061
+  translation:
+    english: passed away
+    mandarin: 逝去
+    gloss: '[which].they.have.passed.away'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '8'
+  lxx:
+    text: παρελθὸν
+    strong: '3928'
+  syntax:
+    role: v
+    frame: A0:180110160052;
+  discourse:
+    subject: '180110160052'
+- position: 8
+  text: תִזְכֹּֽר
+  lemma: זָכַר
+  transliteration: 'ṯizkōr:'
+  ids:
+    ref: JOB 11:16!7
+    wordID: o180110160071
+  translation:
+    english: remember
+    mandarin: 记得
+    gloss: you.will.remember.[it]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: זָכַר
+    strong: '2142'
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:180090010021; A1:180110160031;
+  discourse:
+    subject: '180090010021'

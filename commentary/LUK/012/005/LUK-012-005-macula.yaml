@@ -1,0 +1,126 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 12:5
+text: ὑποδείξω δὲ ὑμῖν τίνα φοβηθῆτε·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 12:5!2
+    wordID: n42012005002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὑποδείξω
+  lemma: ὑποδείκνυμι
+  normalized: ὑποδείξω
+  ids:
+    ref: LUK 12:5!1
+    wordID: n42012005001
+  translation:
+    gloss: I will show
+  morphology:
+    class: verb
+    morph: V-FAI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5263'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.47'
+  syntax:
+    role: v
+    frame: A0:n42011039004 A2:n42012005003
+  discourse:
+    subject: n42011039004
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: LUK 12:5!3
+    wordID: n42012005003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n42012004005
+- position: 4
+  text: τίνα
+  lemma: τίς
+  normalized: τίνα
+  ids:
+    ref: LUK 12:5!4
+    wordID: n42012005004
+  translation:
+    gloss: whom
+  morphology:
+    class: pron
+    morph: I-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 5
+  text: φοβηθῆτε
+  lemma: φοβέω
+  normalized: φοβηθῆτε
+  ids:
+    ref: LUK 12:5!5
+    wordID: n42012005005
+  translation:
+    gloss: you should fear
+  morphology:
+    class: verb
+    morph: V-AOS-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: subjunctive
+  lexical:
+    strong: '5399'
+  semantic:
+    semanticDomain: '025022'
+    ln: '25.252'
+  syntax:
+    role: v
+    frame: A1:n42012004005 A1:n42012005004
+  discourse:
+    subject: n42012004005

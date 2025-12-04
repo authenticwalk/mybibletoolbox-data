@@ -1,0 +1,614 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 65:10
+text: פָּקַ֥דְתָּ הָאָ֨רֶץ׀וַתְּשֹׁ֪קְקֶ֡הָ רַבַּ֬ת תַּעְשְׁרֶ֗נָּה פֶּ֣לֶג אֱ֭לֹהִים
+  מָ֣לֵא מָ֑יִם תָּכִ֥ין דְּ֝גָנָ֗ם כִּי־כֵ֥ן תְּכִינֶֽהָ׃
+words:
+- position: 1
+  text: פָּקַ֥דְתָּ
+  lemma: פָּקַד
+  transliteration: pāqaḏətā
+  ids:
+    ref: PSA 65:10!1
+    wordID: o190650100011
+  translation:
+    english: visit
+    mandarin: 眷顾
+    gloss: you.visit
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: פָּקַד
+    strong: '6485'
+  semantic:
+    sdbh:
+    - 005963001006000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '4'
+  lxx:
+    text: ἐπεσκέψω
+  syntax:
+    role: v
+    frame: A0:190650060041; A1:190650100022;
+  discourse:
+    subject: '190650060041'
+- position: 2
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 65:10!2
+    wordID: o190650100021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 3
+  text: אָ֨רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾāreṣ
+  ids:
+    ref: PSA 65:10!2
+    wordID: o190650100022
+  translation:
+    english: earth
+    mandarin: 大地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆν
+    strong: '1093'
+- position: 4
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 65:10!3
+    wordID: o190650100031
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: תְּשֹׁ֪קְקֶ֡
+  lemma: שׁוּק
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!3
+    wordID: o190650100032
+  translation:
+    english: water
+    mandarin: 用雨水滋润
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vow2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: polel
+    type: wayyiqtol
+  lexical:
+    stronglemma: שׁוּק
+    strong: '7783'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἐμέθυσας
+  syntax:
+    role: v
+    frame: A0:190650060041; A1:190650100033;
+  discourse:
+    subject: '190650060041'
+- position: 6
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!3
+    wordID: o190650100033
+  translation:
+    english: it
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐτήν
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: '190650100022'
+- position: 7
+  text: רַבַּ֬ת
+  lemma: רַב
+  transliteration: rabbaṯ
+  ids:
+    ref: PSA 65:10!4
+    wordID: o190650100041
+  translation:
+    english: greatly
+    mandarin: 丰收
+    gloss: much
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aafsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001003000'
+    lexdomain:
+    - '002001003012'
+    coredomain:
+    - 090
+    sense: '6'
+  lxx:
+    text: ἐπλήθυνας
+    strong: '4129'
+  syntax:
+    role: adv
+- position: 8
+  text: תַּעְשְׁרֶ֗
+  lemma: עָשַׁר
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!5
+    wordID: o190650100051
+  translation:
+    english: enrich
+    mandarin: 肥沃
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: עָשַׁר
+    strong: '6238'
+  semantic:
+    sense: '2'
+  syntax:
+    role: v
+    frame: AA:190650060041; A0:190650100052;
+  discourse:
+    subject: '190650060041'
+- position: 9
+  text: נָּה
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!5
+    wordID: o190650100052
+  translation:
+    english: it
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5089a
+  lxx:
+    text: αὐτήν
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: '190650100022'
+- position: 10
+  text: פֶּ֣לֶג
+  lemma: פֶּלֶג
+  transliteration: peleḡ
+  ids:
+    ref: PSA 65:10!6
+    wordID: o190650100061
+  translation:
+    english: stream
+    mandarin: 河
+    gloss: the.stream
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פֶּלֶג
+    strong: '6388'
+  semantic:
+    sdbh:
+    - 005868001001000
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '189'
+    sense: '1'
+- position: 11
+  text: אֱ֭לֹהִים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhîm
+  ids:
+    ref: PSA 65:10!7
+    wordID: o190650100071
+  translation:
+    english: God
+    mandarin: 神
+    gloss: of.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 12
+  text: מָ֣לֵא
+  lemma: מָלֵא
+  transliteration: mālēʾ
+  ids:
+    ref: PSA 65:10!8
+    wordID: o190650100081
+  translation:
+    english: full of
+    mandarin: 满
+    gloss: '[is].full'
+  morphology:
+    class: adj
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָלֵא
+    strong: '4392'
+  semantic:
+    sdbh:
+    - '004012001001000'
+    lexdomain:
+    - '002002001003'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: ἐπληρώθη
+    strong: '4137'
+  syntax:
+    role: v
+- position: 13
+  text: מָ֑יִם
+  lemma: מַיִם
+  transliteration: māyim
+  ids:
+    ref: PSA 65:10!9
+    wordID: o190650100091
+  translation:
+    english: water
+    mandarin: 水
+    gloss: water
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  lxx:
+    text: ὑδάτων
+    strong: '5204'
+  syntax:
+    role: o
+- position: 14
+  text: תָּכִ֥ין
+  lemma: כּוּן
+  transliteration: tāḵiyn
+  ids:
+    ref: PSA 65:10!10
+    wordID: o190650100101
+  translation:
+    english: provide
+    mandarin: 预备
+    gloss: you.prepare
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: כּוּן
+    strong: '3559'
+  semantic:
+    sdbh:
+    - '003263001020000'
+    lexdomain:
+    - '002001002021'
+    sense: '1'
+  lxx:
+    text: ἡτοίμασας
+    strong: '2090'
+  syntax:
+    role: v
+    frame: AA:190650100071; A0:190650100111;
+  discourse:
+    subject: '190650100071'
+- position: 15
+  text: דְּ֝גָנָ֗
+  lemma: דָּגָן
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!11
+    wordID: o190650100111
+  translation:
+    english: grain
+    mandarin: 五谷
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּגָן
+    strong: '1715'
+  semantic:
+    sdbh:
+    - '001573001001000'
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - 069
+    - '007'
+    sense: '1'
+- position: 16
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!11
+    wordID: o190650100112
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '001573001001000'
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - 069
+    - '007'
+  discourse:
+    participant: '190650080071'
+- position: 17
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: PSA 65:10!12
+    wordID: o190650100121
+  translation:
+    english: for
+    mandarin: 就是
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 18
+  text: כֵ֥ן
+  lemma: כֵּן
+  transliteration: ḵēn
+  ids:
+    ref: PSA 65:10!13
+    wordID: o190650100131
+  translation:
+    english: so
+    mandarin: 这样
+    gloss: thus
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: οὕτως
+    strong: '3779'
+  syntax:
+    role: adv
+- position: 19
+  text: תְּכִינֶֽ
+  lemma: כּוּן
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!14
+    wordID: o190650100141
+  translation:
+    english: prepare
+    mandarin: 预备
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: כּוּן
+    strong: '3559'
+  semantic:
+    sdbh:
+    - '003263001020000'
+    lexdomain:
+    - '002001002021'
+    sense: '1'
+  syntax:
+    role: v
+    frame: AA:190650100071; A0:190650100142;
+  discourse:
+    subject: '190650100071'
+- position: 20
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 65:10!14
+    wordID: o190650100142
+  translation:
+    english: it
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '003263001020000'
+    lexdomain:
+    - '002001002021'
+  lxx:
+    text: ἡ
+    strong: '3588'
+  syntax:
+    role: o
+  discourse:
+    participant: '190650100022'

@@ -1,0 +1,362 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 22:23
+text: καὶ αὐτοὶ ἤρξαντο συνζητεῖν πρὸς ἑαυτοὺς τὸ τίς ἄρα εἴη ἐξ αὐτῶν ὁ τοῦτο μέλλων
+  πράσσειν.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 22:23!1
+    wordID: n42022023001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 2
+  text: αὐτοὶ
+  lemma: αὐτός
+  normalized: αὐτοί
+  ids:
+    ref: LUK 22:23!2
+    wordID: n42022023002
+  translation:
+    gloss: they
+  morphology:
+    class: pron
+    morph: P-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n42022014009
+- position: 3
+  text: ἤρξαντο
+  lemma: ἄρχω
+  normalized: ἤρξαντο
+  ids:
+    ref: LUK 22:23!3
+    wordID: n42022023003
+  translation:
+    gloss: began
+  morphology:
+    class: verb
+    morph: V-ADI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '756'
+  semantic:
+    semanticDomain: 068001
+    ln: '68.1'
+  syntax:
+    role: v
+    frame: A0:n42022023002 A1:n42022023004
+- position: 4
+  text: συνζητεῖν
+  lemma: συζητέω
+  normalized: συνζητεῖν
+  ids:
+    ref: LUK 22:23!4
+    wordID: n42022023004
+  translation:
+    gloss: to question
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4802'
+  semantic:
+    semanticDomain: '033011'
+    ln: '33.157'
+  syntax:
+    role: v
+    frame: A0:n42022014009 A1:n42022023008
+  discourse:
+    subject: n42022014009
+- position: 5
+  text: πρὸς
+  lemma: πρός
+  normalized: πρός
+  ids:
+    ref: LUK 22:23!5
+    wordID: n42022023005
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
+- position: 6
+  text: ἑαυτοὺς
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτούς
+  ids:
+    ref: LUK 22:23!6
+    wordID: n42022023006
+  translation:
+    gloss: themselves
+  morphology:
+    class: pron
+    morph: F-3APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n42022014009
+- position: 7
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: LUK 22:23!7
+    wordID: n42022023007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ἄρα
+  lemma: ἆρα
+  normalized: ἄρα
+  ids:
+    ref: LUK 22:23!9
+    wordID: n42022023009
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: PRT-I
+  lexical:
+    strong: '687'
+  semantic:
+    semanticDomain: '071001'
+    ln: '71.7'
+  syntax:
+    discontinuous: 'true'
+- position: 9
+  text: τίς
+  lemma: τίς
+  normalized: τίς
+  ids:
+    ref: LUK 22:23!8
+    wordID: n42022023008
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: I-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: p
+- position: 10
+  text: εἴη
+  lemma: εἰμί
+  normalized: εἴη
+  ids:
+    ref: LUK 22:23!10
+    wordID: n42022023010
+  translation:
+    gloss: it might be
+  morphology:
+    class: verb
+    morph: V-PAO-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: optative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
+- position: 11
+  text: ἐξ
+  lemma: ἐκ
+  normalized: ἐξ
+  ids:
+    ref: LUK 22:23!11
+    wordID: n42022023011
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: '063004'
+    ln: '63.20'
+- position: 12
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: LUK 22:23!12
+    wordID: n42022023012
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n42022014009
+- position: 13
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: LUK 22:23!13
+    wordID: n42022023013
+  translation:
+    gloss: who
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: τοῦτο
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: LUK 22:23!14
+    wordID: n42022023014
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+- position: 15
+  text: πράσσειν
+  lemma: πράσσω
+  normalized: πράσσειν
+  ids:
+    ref: LUK 22:23!16
+    wordID: n42022023016
+  translation:
+    gloss: to do
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4238'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.8'
+  syntax:
+    role: v
+    frame: A0:n42022023015 A1:n42022023014
+    discontinuous: 'true'
+  discourse:
+    subject: n42022023015
+- position: 16
+  text: μέλλων
+  lemma: μέλλω
+  normalized: μέλλων
+  ids:
+    ref: LUK 22:23!15
+    wordID: n42022023015
+  translation:
+    gloss: is about
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3195'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.62'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42022023016

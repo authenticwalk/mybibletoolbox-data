@@ -1,0 +1,374 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 30:4
+text: יְֽהוָ֗ה הֶֽעֱלִ֣יתָ מִן־שְׁא֣וֹל נַפְשִׁ֑י חִ֝יִּיתַ֗נִי מִיָּֽרְדִי־בֽוֹר׃
+words:
+- position: 1
+  text: יְֽהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 30:4!1
+    wordID: o190300040011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: הֶֽעֱלִ֣יתָ
+  lemma: עָלָה
+  transliteration: heʿĕliyṯā
+  ids:
+    ref: PSA 30:4!2
+    wordID: o190300040021
+  translation:
+    english: brought ~ up
+    mandarin: 救上来
+    gloss: you.brought.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001006000'
+    lexdomain:
+    - '002002001011'
+    sense: '3'
+  lxx:
+    text: ἀνήγαγες
+    strong: '321'
+  syntax:
+    role: v
+    frame: AA:190300040011; A0:190300040051;
+  discourse:
+    subject: '190300040011'
+- position: 3
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: PSA 30:4!3
+    wordID: o190300040031
+  translation:
+    english: from
+    mandarin: 从
+    gloss: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 4
+  text: שְׁא֣וֹל
+  lemma: שְׁאוֹל
+  transliteration: šəʾôl
+  ids:
+    ref: PSA 30:4!4
+    wordID: o190300040041
+  translation:
+    english: sheol
+    mandarin: 阴间
+    gloss: Sheol
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שְׁאוֹל
+    strong: '7585'
+  semantic:
+    sdbh:
+    - '007125001001000'
+    lexdomain:
+    - '001005002003'
+    coredomain:
+    - '185'
+    - 099
+    sense: '1'
+  lxx:
+    text: ᾅδου
+    strong: '86'
+- position: 5
+  text: נַפְשִׁ֑
+  lemma: נֶפֶשׁ
+  transliteration: ''
+  ids:
+    ref: PSA 30:4!5
+    wordID: o190300040051
+  translation:
+    english: soul
+    mandarin: 灵魂
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶפֶשׁ
+    strong: '5315'
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+    sense: '1'
+  lxx:
+    text: ψυξήν
+    strong: '5590'
+- position: 6
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 30:4!5
+    wordID: o190300040052
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190300010052'
+- position: 7
+  text: חִ֝יִּיתַ֗
+  lemma: חָיָה
+  transliteration: ''
+  ids:
+    ref: PSA 30:4!6
+    wordID: o190300040061
+  translation:
+    english: spared
+    mandarin: 存活
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: חָיָה
+    strong: '2421'
+  semantic:
+    sdbh:
+    - '002232001003000'
+    lexdomain:
+    - '002001001003'
+    sense: '2'
+  lxx:
+    text: ἔσωσάς
+  syntax:
+    role: v
+    frame: A0:190300040011; A1:190300040062;
+  discourse:
+    subject: '190300040011'
+- position: 8
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 30:4!6
+    wordID: o190300040062
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '002232001003000'
+    lexdomain:
+    - '002001001003'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190300010052'
+- position: 9
+  text: מִ
+  lemma: מִן
+  transliteration: '**mi'
+  ids:
+    ref: PSA 30:4!8
+    wordID: o190300040081
+  translation:
+    english: from among
+    mandarin: 不至于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 10
+  text: יָּֽרְדִ
+  lemma: יָרַד
+  transliteration: ''
+  ids:
+    ref: PSA 30:4!8
+    wordID: o190300040082
+  translation:
+    english: going down
+    mandarin: 沦入
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: יָרַד
+    strong: '3381'
+  semantic:
+    sdbh:
+    - 003090001005000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: τῶν
+    strong: '3588'
+  syntax:
+    role: v
+    frame: A0:190300040083;
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 30:4!8
+    wordID: o190300040083
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 003090001005000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+  lxx:
+    text: καταβαινόντων
+    strong: '2597'
+  syntax:
+    role: s
+  discourse:
+    participant: '190300010052'
+- position: 12
+  text: בֽוֹר
+  lemma: בּוֹר
+  transliteration: 'ḇôr:'
+  ids:
+    ref: PSA 30:4!9
+    wordID: o190300040091
+  translation:
+    english: pit
+    mandarin: 冥府
+    gloss: (of).[the].pit
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בּוֹר
+    strong: 0953
+  semantic:
+    sdbh:
+    - 000883001003000
+    lexdomain:
+    - '001005002003'
+    coredomain:
+    - '185'
+    - 099
+    sense: '4'
+  lxx:
+    text: λάκκον
+  syntax:
+    role: adv

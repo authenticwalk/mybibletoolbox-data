@@ -1,0 +1,207 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 10:8
+text: ἀσθενοῦντας θεραπεύετε, νεκροὺς ἐγείρετε, λεπροὺς καθαρίζετε, δαιμόνια ἐκβάλλετε·
+words:
+- position: 1
+  text: ἀσθενοῦντας
+  lemma: ἀσθενέω
+  normalized: ἀσθενοῦντας
+  ids:
+    ref: MAT 10:8!1
+    wordID: n40010008001
+  translation:
+    gloss: '[Those] ailing'
+  morphology:
+    class: verb
+    morph: V-PAP-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '770'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.144'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 2
+  text: θεραπεύετε
+  lemma: θεραπεύω
+  normalized: θεραπεύετε
+  ids:
+    ref: MAT 10:8!2
+    wordID: n40010008002
+  translation:
+    gloss: heal
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2323'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.139'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010008001
+  discourse:
+    subject: n40010005003
+- position: 3
+  text: νεκροὺς
+  lemma: νεκρός
+  normalized: νεκρούς
+  ids:
+    ref: MAT 10:8!3
+    wordID: n40010008003
+  translation:
+    gloss: dead
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3498'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.121'
+  syntax:
+    role: o
+- position: 4
+  text: ἐγείρετε
+  lemma: ἐγείρω
+  normalized: ἐγείρετε
+  ids:
+    ref: MAT 10:8!4
+    wordID: n40010008004
+  translation:
+    gloss: raise
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1453'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.94'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010008003
+  discourse:
+    subject: n40010005003
+- position: 5
+  text: λεπροὺς
+  lemma: λεπρός
+  normalized: λεπρούς
+  ids:
+    ref: MAT 10:8!5
+    wordID: n40010008005
+  translation:
+    gloss: lepers
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '3015'
+  semantic:
+    semanticDomain: 023009
+    ln: '23.162'
+  syntax:
+    role: o
+- position: 6
+  text: καθαρίζετε
+  lemma: καθαρίζω
+  normalized: καθαρίζετε
+  ids:
+    ref: MAT 10:8!6
+    wordID: n40010008006
+  translation:
+    gloss: cleanse
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2511'
+  semantic:
+    semanticDomain: 023008
+    ln: '23.137'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010008005
+  discourse:
+    subject: n40010005003
+- position: 7
+  text: δαιμόνια
+  lemma: δαιμόνιον
+  normalized: δαιμόνια
+  ids:
+    ref: MAT 10:8!7
+    wordID: n40010008007
+  translation:
+    gloss: demons
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1140'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.37'
+  syntax:
+    role: o
+- position: 8
+  text: ἐκβάλλετε
+  lemma: ἐκβάλλω
+  normalized: ἐκβάλλετε
+  ids:
+    ref: MAT 10:8!8
+    wordID: n40010008008
+  translation:
+    gloss: cast out
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1544'
+  semantic:
+    semanticDomain: '053011'
+    ln: '53.102'
+  syntax:
+    role: v
+    frame: A0:n40010005003 A1:n40010008007
+  discourse:
+    subject: n40010005003

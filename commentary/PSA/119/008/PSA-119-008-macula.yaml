@@ -1,0 +1,274 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 119:8
+text: אֶת־חֻקֶּ֥יךָ אֶשְׁמֹ֑ר אַֽל־תַּעַזְבֵ֥נִי עַד־מְאֹֽד׃
+words:
+- position: 1
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: PSA 119:8!1
+    wordID: o191190080011
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 2
+  text: חֻקֶּ֥י
+  lemma: חֹק
+  transliteration: ''
+  ids:
+    ref: PSA 119:8!2
+    wordID: o191190080021
+  translation:
+    english: statutes
+    mandarin: 律例
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֹק
+    strong: '2706'
+  semantic:
+    sdbh:
+    - 002494001003000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    - '015'
+    sense: '1'
+- position: 3
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 119:8!2
+    wordID: o191190080022
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 002494001003000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    - '015'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191190010061'
+- position: 4
+  text: אֶשְׁמֹ֑ר
+  lemma: שָׁמַר
+  transliteration: ʾešmōr
+  ids:
+    ref: PSA 119:8!3
+    wordID: o191190080031
+  translation:
+    english: keep
+    mandarin: 遵守
+    gloss: I.will.keep
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001004000
+    lexdomain:
+    - '002003003010'
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: φυλάχω
+    strong: '5442'
+  syntax:
+    role: v
+    frame: A0:191190050032; A1:191190080021;
+  discourse:
+    subject: '191190050032'
+- position: 5
+  text: אַֽל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 119:8!4
+    wordID: o191190080041
+  translation:
+    english: not
+    mandarin: 不
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μή
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 6
+  text: תַּעַזְבֵ֥
+  lemma: עָזַב
+  transliteration: ''
+  ids:
+    ref: PSA 119:8!5
+    wordID: o191190080051
+  translation:
+    english: forsake
+    mandarin: 弃绝
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: עָזַב
+    strong: '5800'
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+    sense: '1'
+  lxx:
+    text: ἐγκαταλίπῃς
+  syntax:
+    role: v
+    frame: A0:191190010061; A1:191190080052;
+  discourse:
+    subject: '191190010061'
+- position: 7
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 119:8!5
+    wordID: o191190080052
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '191190050032'
+- position: 8
+  text: עַד
+  lemma: עַד
+  transliteration: ʿaḏ-
+  ids:
+    ref: PSA 119:8!6
+    wordID: o191190080061
+  translation:
+    english: to
+    mandarin: 总
+    gloss: up.to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - 005237001009000
+    lexdomain:
+    - '002001003012'
+    coredomain:
+    - 090
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 9
+  text: מְאֹֽד
+  lemma: מְאֹד
+  transliteration: 'məʾōḏ:'
+  ids:
+    ref: PSA 119:8!7
+    wordID: o191190080071
+  translation:
+    english: utterly
+    gloss: muchness
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: מְאֹד
+    strong: '3966'
+  lxx:
+    text: σφόδρα
+    strong: '4970'

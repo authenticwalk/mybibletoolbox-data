@@ -1,0 +1,826 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 31:3
+text: וּמִצְרַ֤יִם אָדָם֙ וְֽלֹא־אֵ֔ל וְסוּסֵיהֶ֥ם בָּשָׂ֖ר וְלֹא־ר֑וּחַ וַֽיהוָ֞ה
+  יַטֶּ֣ה יָד֗וֹ וְכָשַׁ֤ל עוֹזֵר֙ וְנָפַ֣ל עָזֻ֔ר וְיַחְדָּ֖ו כֻּלָּ֥ם יִכְלָיֽוּן׃ס
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ISA 31:3!1
+    wordID: o230310030011
+  translation:
+    english: but
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: מִצְרַ֤יִם
+  lemma: מִצְרַיִם
+  transliteration: miṣrayim
+  ids:
+    ref: ISA 31:3!1
+    wordID: o230310030012
+  translation:
+    english: Egyptians
+    mandarin: 埃及人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτιον
+    strong: '124'
+  syntax:
+    role: s
+- position: 3
+  text: אָדָם֙
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: ISA 31:3!2
+    wordID: o230310030021
+  translation:
+    english: men
+    mandarin: 人
+    gloss: '[is].humankind'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἄνθρωπον
+    strong: '444'
+  syntax:
+    role: p
+- position: 4
+  text: וְֽ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 31:3!3
+    wordID: o230310030031
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: ISA 31:3!3
+    wordID: o230310030032
+  translation:
+    english: not
+    mandarin: 不是
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 6
+  text: אֵ֔ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: ISA 31:3!4
+    wordID: o230310030041
+  translation:
+    english: God
+    mandarin: 神
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001001000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεόν
+    strong: '2316'
+  syntax:
+    role: p
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 31:3!5
+    wordID: o230310030051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 8
+  text: סוּסֵי
+  lemma: סוּס
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!5
+    wordID: o230310030052
+  translation:
+    english: horses
+    mandarin: 马
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: סוּס
+    strong: '5483'
+  semantic:
+    sdbh:
+    - '005023001001000'
+    lexdomain:
+    - '001001002001002'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: ἵππων
+    strong: '2462'
+- position: 9
+  text: הֶ֥ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!5
+    wordID: o230310030053
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '005023001001000'
+    lexdomain:
+    - '001001002001002'
+    coredomain:
+    - '010'
+  discourse:
+    participant: '230310030012'
+- position: 10
+  text: בָּשָׂ֖ר
+  lemma: בָּשָׂר
+  transliteration: bāśār
+  ids:
+    ref: ISA 31:3!6
+    wordID: o230310030061
+  translation:
+    english: flesh
+    mandarin: 血肉
+    gloss: '[are].flesh'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בָּשָׂר
+    strong: '1320'
+  semantic:
+    sdbh:
+    - '001217001005000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 099
+    - '010'
+    - 082
+    sense: '1'
+  lxx:
+    text: σάρκας
+    strong: '4561'
+  syntax:
+    role: p
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 31:3!7
+    wordID: o230310030071
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: ISA 31:3!7
+    wordID: o230310030072
+  translation:
+    english: not
+    mandarin: 不是
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 13
+  text: ר֑וּחַ
+  lemma: רוּחַ
+  transliteration: rûᵃḥ
+  ids:
+    ref: ISA 31:3!8
+    wordID: o230310030081
+  translation:
+    english: spirit
+    mandarin: 灵
+    gloss: spirit
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רוּחַ
+    strong: '7307'
+  semantic:
+    sdbh:
+    - 006718001002000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: βοήθεια
+    strong: '996'
+  syntax:
+    role: p
+- position: 14
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: ISA 31:3!9
+    wordID: o230310030091
+  translation:
+    english: when
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 15
+  text: יהוָ֞ה
+  lemma: יהוה
+  transliteration: yhwāh
+  ids:
+    ref: ISA 31:3!9
+    wordID: o230310030092
+  translation:
+    english: LORD
+    mandarin: 耶和华
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s
+- position: 16
+  text: יַטֶּ֣ה
+  lemma: נָטָה
+  transliteration: yaṭṭeh
+  ids:
+    ref: ISA 31:3!10
+    wordID: o230310030101
+  translation:
+    english: stretches out
+    mandarin: 伸
+    gloss: he.will.stretch.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָטָה
+    strong: '5186'
+  semantic:
+    sdbh:
+    - '004755002002000'
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἐπάχει
+  syntax:
+    role: v
+    frame: AA:230310030092; A0:230310030111;
+- position: 17
+  text: יָד֗
+  lemma: יָד
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!11
+    wordID: o230310030111
+  translation:
+    english: hand
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001050000
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ξεῖρα
+    strong: '5495'
+- position: 18
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!11
+    wordID: o230310030112
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 002787001050000
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '230310030092'
+- position: 19
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 31:3!12
+    wordID: o230310030121
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 20
+  text: כָשַׁ֤ל
+  lemma: כָּשַׁל
+  transliteration: ḵāšal
+  ids:
+    ref: ISA 31:3!12
+    wordID: o230310030122
+  translation:
+    english: stumble
+    mandarin: 绊跌
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: כָּשַׁל
+    strong: '3782'
+  semantic:
+    sdbh:
+    - 003459001001000
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: κοπιάσουσιν
+  syntax:
+    role: v
+    frame: A0:230310030131;
+- position: 21
+  text: עוֹזֵר֙
+  lemma: עָזַר
+  transliteration: ʿôzēr
+  ids:
+    ref: ISA 31:3!13
+    wordID: o230310030131
+  translation:
+    english: helper
+    mandarin: 帮助
+    gloss: '[the.one.who].helps'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: עָזַר
+    strong: '5826'
+  semantic:
+    sdbh:
+    - '005350001002000'
+    lexdomain:
+    - '002003002015'
+    sense: '1'
+  lxx:
+    text: βοηθοῦντες
+    strong: '997'
+  syntax:
+    role: s
+    frame: A0:230310030012;
+  discourse:
+    subject: '230310030012'
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 31:3!14
+    wordID: o230310030141
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 23
+  text: נָפַ֣ל
+  lemma: נָפַל
+  transliteration: nāp̄al
+  ids:
+    ref: ISA 31:3!14
+    wordID: o230310030142
+  translation:
+    english: fall
+    mandarin: 跌倒
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: נָפַל
+    strong: '5307'
+  semantic:
+    sdbh:
+    - 004866001037000
+    lexdomain:
+    - 002001001058
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:230310030151;
+- position: 24
+  text: עָזֻ֔ר
+  lemma: עָזַר
+  transliteration: ʿāzur
+  ids:
+    ref: ISA 31:3!15
+    wordID: o230310030151
+  translation:
+    english: helped
+    mandarin: 帮助
+    gloss: '[the.one.who.is].helped'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: עָזַר
+    strong: '5826'
+  semantic:
+    sdbh:
+    - '005350001002000'
+    lexdomain:
+    - '002003002015'
+    sense: '1'
+  syntax:
+    role: s
+    frame: A1:230310020161;
+  discourse:
+    subject: '230310020161'
+- position: 25
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 31:3!16
+    wordID: o230310030161
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 26
+  text: יַחְדָּ֖ו
+  lemma: יָחְדָּו
+  transliteration: yaḥdāw
+  ids:
+    ref: ISA 31:3!16
+    wordID: o230310030162
+  translation:
+    english: together
+    mandarin: 一同
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: יָחְדָּו
+    strong: 3162a
+  semantic:
+    sdbh:
+    - 002892001001000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+  lxx:
+    text: ἅμα
+    strong: '260'
+  syntax:
+    role: adv
+- position: 27
+  text: כֻּלָּ֥
+  lemma: כֹּל
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!17
+    wordID: o230310030171
+  translation:
+    english: all
+    mandarin: 都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 28
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!17
+    wordID: o230310030172
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  discourse:
+    participant: 230310030131 230310030151
+- position: 29
+  text: יִכְלָיֽוּ
+  lemma: כָּלָה
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!18
+    wordID: o230310030181
+  translation:
+    english: perish
+    mandarin: 灭亡
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: כָּלָה
+    strong: '3615'
+  semantic:
+    sdbh:
+    - '003311001012000'
+    lexdomain:
+    - '002002002006'
+    sense: '11'
+  syntax:
+    frame: A0:230310030172;
+- position: 30
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: ISA 31:3!18
+    wordID: o230310030182
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - '003311001012000'
+    lexdomain:
+    - '002002002006'
+  lxx:
+    text: ἀπολοῦνται
+    strong: '622'

@@ -1,0 +1,362 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 67:2
+text: אֱלֹהִ֗ים יְחָנֵּ֥נוּ וִֽיבָרְכֵ֑נוּ יָ֤אֵ֥ר פָּנָ֖יו אִתָּ֣נוּ סֶֽלָה׃
+words:
+- position: 1
+  text: אֱלֹהִ֗ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 67:2!1
+    wordID: o190670020011
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  syntax:
+    role: s
+- position: 2
+  text: יְחָנֵּ֥
+  lemma: חָנַן
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!2
+    wordID: o190670020021
+  translation:
+    english: gracious
+    mandarin: 怜悯
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: חָנַן
+    strong: '2603'
+  semantic:
+    sdbh:
+    - 002398001001000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    sense: '1'
+  lxx:
+    text: οἰκτιρήσαι
+  syntax:
+    role: v
+    frame: A0:190670020011; A1:190670020022;
+- position: 3
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!2
+    wordID: o190670020022
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 002398001001000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+- position: 4
+  text: וִֽ
+  lemma: וְ
+  transliteration: wi
+  ids:
+    ref: PSA 67:2!3
+    wordID: o190670020031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: יבָרְכֵ֑
+  lemma: בָּרַךְ
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!3
+    wordID: o190670020032
+  translation:
+    english: bless
+    mandarin: 赐福
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλογήσαι
+  syntax:
+    role: v
+    frame: A0:190670020011; A1:190670020033;
+  discourse:
+    subject: '190670020011'
+- position: 6
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!3
+    wordID: o190670020033
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: '190670020022'
+- position: 7
+  text: יָ֤אֵ֥ר
+  lemma: אוֹר
+  transliteration: yāʾēr
+  ids:
+    ref: PSA 67:2!4
+    wordID: o190670020041
+  translation:
+    english: shine
+    mandarin: 光照
+    gloss: may.he.make.shine
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhj3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: jussive
+  lexical:
+    stronglemma: אוֹר
+    strong: '0215'
+  semantic:
+    sdbh:
+    - '000205001002000'
+    lexdomain:
+    - 002001001049
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: ἐπιφάναι
+  syntax:
+    role: v
+    frame: AA:190670020011; A0:190670020051;
+  discourse:
+    subject: '190670020011'
+- position: 8
+  text: פָּנָ֖י
+  lemma: פָּנֶה
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!5
+    wordID: o190670020051
+  translation:
+    english: face
+    mandarin: 脸
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '2'
+  lxx:
+    text: πρόσωπον
+    strong: '4383'
+- position: 9
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!5
+    wordID: o190670020052
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190670020011'
+- position: 10
+  text: אִתָּ֣
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!6
+    wordID: o190670020061
+  translation:
+    english: upon
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֵת
+    strong: 0854
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 11
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:2!6
+    wordID: o190670020062
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  discourse:
+    participant: '190670020022'
+- position: 12
+  text: סֶֽלָה
+  lemma: סֶלָה
+  transliteration: 'selâ:'
+  ids:
+    ref: PSA 67:2!7
+    wordID: o190670020071
+  translation:
+    english: selah
+    mandarin: 细拉
+    gloss: Selah
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tj
+    type: interjection
+  lexical:
+    stronglemma: סֶלָה
+    strong: '5542'
+  lxx:
+    text: διάψαλμα

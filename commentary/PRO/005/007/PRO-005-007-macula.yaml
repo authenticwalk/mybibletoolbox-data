@@ -1,0 +1,337 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 5:7
+text: וְעַתָּ֣ה בָ֭נִים שִׁמְעוּ־לִ֑י וְאַל־תָּ֝ס֗וּרוּ מֵאִמְרֵי־פִֽי׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 5:7!1
+    wordID: o200050070011
+  translation:
+    english: so
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὖν
+    strong: '3767'
+- position: 2
+  text: עַתָּ֣ה
+  lemma: עַתָּה
+  transliteration: ʿattāh
+  ids:
+    ref: PRO 5:7!1
+    wordID: o200050070012
+  translation:
+    english: now
+    mandarin: 现在
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: עַתָּה
+    strong: '6258'
+  semantic:
+    sdbh:
+    - '005741001002000'
+    lexdomain:
+    - '004003'
+  lxx:
+    text: νῦν
+    strong: '3568'
+- position: 3
+  text: בָ֭נִים
+  lemma: בֵּן
+  transliteration: ḇānîm
+  ids:
+    ref: PRO 5:7!2
+    wordID: o200050070021
+  translation:
+    english: sons
+    mandarin: 孩子们
+    gloss: O.children
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001010000'
+    lexdomain:
+    - '003001017'
+    coredomain:
+    - '004'
+    sense: '5'
+  lxx:
+    text: υἱέ
+    strong: '5207'
+- position: 4
+  text: שִׁמְעוּ
+  lemma: שָׁמַע
+  transliteration: šimʿû-
+  ids:
+    ref: PRO 5:7!3
+    wordID: o200050070031
+  translation:
+    english: listen
+    mandarin: 听从
+    gloss: listen
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἄκουέ
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:200050070021;
+  discourse:
+    subject: '200050070021'
+- position: 5
+  text: לִ֑
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PRO 5:7!4
+    wordID: o200050070041
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 5:7!4
+    wordID: o200050070042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '200010010021'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 5:7!5
+    wordID: o200050070051
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PRO 5:7!5
+    wordID: o200050070052
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 9
+  text: תָּ֝ס֗וּרוּ
+  lemma: סוּר
+  transliteration: tāsûrû
+  ids:
+    ref: PRO 5:7!6
+    wordID: o200050070061
+  translation:
+    english: depart
+    mandarin: 离弃
+    gloss: depart
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: סוּר
+    strong: '5493'
+  semantic:
+    sense: '7'
+  syntax:
+    role: v
+    frame: A0:200050070021;
+  discourse:
+    subject: '200050070021'
+- position: 10
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: PRO 5:7!7
+    wordID: o200050070071
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 11
+  text: אִמְרֵי
+  lemma: אֵמֶר
+  transliteration: ʾimrê-
+  ids:
+    ref: PRO 5:7!7
+    wordID: o200050070072
+  translation:
+    english: words
+    mandarin: 话
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵמֶר
+    strong: '0561'
+  semantic:
+    sdbh:
+    - '000515001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+- position: 12
+  text: פִֽ
+  lemma: פֶּה
+  transliteration: ''
+  ids:
+    ref: PRO 5:7!8
+    wordID: o200050070081
+  translation:
+    english: mouth
+    mandarin: 口
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פֶּה
+    strong: '6310'
+  semantic:
+    sdbh:
+    - 005794001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+- position: 13
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 5:7!8
+    wordID: o200050070082
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 005794001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  discourse:
+    participant: '200010010021'

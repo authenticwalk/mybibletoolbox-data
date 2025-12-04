@@ -1,0 +1,310 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 7:11
+text: ἡ γὰρ ἁμαρτία ἀφορμὴν λαβοῦσα διὰ τῆς ἐντολῆς ἐξηπάτησέν με καὶ δι’ αὐτῆς ἀπέκτεινεν.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: ROM 7:11!2
+    wordID: n45007011002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: ROM 7:11!1
+    wordID: n45007011001
+  translation:
+    gloss: The
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: ἁμαρτία
+  lemma: ἁμαρτία
+  normalized: ἁμαρτία
+  ids:
+    ref: ROM 7:11!3
+    wordID: n45007011003
+  translation:
+    gloss: sin
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '266'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.118'
+- position: 4
+  text: ἀφορμὴν
+  lemma: ἀφορμή
+  normalized: ἀφορμήν
+  ids:
+    ref: ROM 7:11!4
+    wordID: n45007011004
+  translation:
+    gloss: an occasion
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '874'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.46'
+  syntax:
+    role: o
+- position: 5
+  text: λαβοῦσα
+  lemma: λαμβάνω
+  normalized: λαβοῦσα
+  ids:
+    ref: ROM 7:11!5
+    wordID: n45007011005
+  translation:
+    gloss: having taken
+  morphology:
+    class: verb
+    morph: V-2AAP-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.1'
+  syntax:
+    role: v
+    frame: A0:n45007011003 A1:n45007011004
+  discourse:
+    subject: n45007011003
+- position: 6
+  text: διὰ
+  lemma: διά
+  normalized: διά
+  ids:
+    ref: ROM 7:11!6
+    wordID: n45007011006
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
+- position: 7
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: ROM 7:11!7
+    wordID: n45007011007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ἐντολῆς
+  lemma: ἐντολή
+  normalized: ἐντολῆς
+  ids:
+    ref: ROM 7:11!8
+    wordID: n45007011008
+  translation:
+    gloss: commandment
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1785'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.330'
+- position: 9
+  text: ἐξηπάτησέν
+  lemma: ἐξαπατάω
+  normalized: ἐξηπάτησεν
+  ids:
+    ref: ROM 7:11!9
+    wordID: n45007011009
+  translation:
+    gloss: deceived
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1818'
+  semantic:
+    semanticDomain: '031002'
+    ln: '31.12'
+  syntax:
+    role: v
+    frame: A0:n45007011003 A1:n45007011010
+- position: 10
+  text: με
+  lemma: ἐγώ
+  normalized: με
+  ids:
+    ref: ROM 7:11!10
+    wordID: n45007011010
+  translation:
+    gloss: me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n45001001001
+- position: 11
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 7:11!11
+    wordID: n45007011011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 12
+  text: δι’
+  lemma: διά
+  normalized: δι’
+  ids:
+    ref: ROM 7:11!12
+    wordID: n45007011012
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1223'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
+- position: 13
+  text: αὐτῆς
+  lemma: αὐτός
+  normalized: αὐτῆς
+  ids:
+    ref: ROM 7:11!13
+    wordID: n45007011013
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n45007011008
+- position: 14
+  text: ἀπέκτεινεν
+  lemma: ἀποκτείνω
+  normalized: ἀπέκτεινεν
+  ids:
+    ref: ROM 7:11!14
+    wordID: n45007011014
+  translation:
+    gloss: put [me] to death
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '615'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.61'
+  syntax:
+    role: v
+    frame: A0:n45007011003
+  discourse:
+    subject: n45007011003

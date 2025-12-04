@@ -1,0 +1,230 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2TI 2:13
+text: 2TI 2:13 εἰ ἀπιστοῦμεν, ἐκεῖνος πιστὸς μένει, ἀρνήσασθαι γὰρ ἑαυτὸν οὐ δύναται.
+words:
+- position: 1
+  text: εἰ
+  lemma: εἰ
+  normalized: εἰ
+  ids:
+    ref: 2TI 2:13!1
+    wordID: n55002013001
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+- position: 2
+  text: ἀπιστοῦμεν
+  lemma: ἀπιστέω
+  normalized: ἀπιστοῦμεν
+  ids:
+    ref: 2TI 2:13!2
+    wordID: n55002013002
+  translation:
+    gloss: we are faithless
+  morphology:
+    class: verb
+    morph: V-PAI-1P
+    number: plural
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '569'
+  semantic:
+    semanticDomain: 031009 031010
+    ln: 31.105 31.97
+  syntax:
+    role: v
+    frame: A0:n55001001001;n55002001003;n55002010007
+  discourse:
+    subject: n55001001001 n55002001003 n55002010007
+- position: 3
+  text: ἐκεῖνος
+  lemma: ἐκεῖνος
+  normalized: ἐκεῖνος
+  ids:
+    ref: 2TI 2:13!3
+    wordID: n55002013003
+  translation:
+    gloss: He
+  morphology:
+    class: pron
+    morph: D-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: s
+  discourse:
+    referent: n55002010015
+- position: 4
+  text: πιστὸς
+  lemma: πιστός
+  normalized: πιστός
+  ids:
+    ref: 2TI 2:13!4
+    wordID: n55002013004
+  translation:
+    gloss: faithful
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '4103'
+  semantic:
+    semanticDomain: 031009
+    ln: '31.87'
+  syntax:
+    role: p
+- position: 5
+  text: μένει
+  lemma: μένω
+  normalized: μένει
+  ids:
+    ref: 2TI 2:13!5
+    wordID: n55002013005
+  translation:
+    gloss: remains
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3306'
+  semantic:
+    semanticDomain: 068002
+    ln: '68.11'
+  syntax:
+    role: vc
+- position: 6
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: 2TI 2:13!7
+    wordID: n55002013007
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 7
+  text: ἀρνήσασθαι
+  lemma: ἀρνέομαι
+  normalized: ἀρνήσασθαι
+  ids:
+    ref: 2TI 2:13!6
+    wordID: n55002013006
+  translation:
+    gloss: to deny
+  morphology:
+    class: verb
+    morph: V-ADN
+    tense: aorist
+    voice: middle
+    mood: infinitive
+  lexical:
+    strong: '720'
+  semantic:
+    semanticDomain: 088029
+    ln: '88.231'
+  syntax:
+    role: v
+    frame: A0:n55002010015 A1:n55002013008
+  discourse:
+    subject: n55002010015
+- position: 8
+  text: ἑαυτὸν
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτόν
+  ids:
+    ref: 2TI 2:13!8
+    wordID: n55002013008
+  translation:
+    gloss: Himself
+  morphology:
+    class: pron
+    morph: F-3ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n55002010015
+- position: 9
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: 2TI 2:13!9
+    wordID: n55002013009
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 10
+  text: δύναται
+  lemma: δύναμαι
+  normalized: δύναται
+  ids:
+    ref: 2TI 2:13!10
+    wordID: n55002013010
+  translation:
+    gloss: He is able
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1410'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.5'
+  syntax:
+    role: v
+    frame: A0:n55002010015 A1:n55002013006
+  discourse:
+    subject: n55002010015

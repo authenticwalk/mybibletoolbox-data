@@ -1,0 +1,259 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 13:4
+text: וְֽאוּלָ֗ם אַתֶּ֥ם טֹֽפְלֵי־שָׁ֑קֶר רֹפְאֵ֖י אֱלִ֣ל כֻּלְּכֶֽם׃
+words:
+- position: 1
+  text: וְֽ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOB 13:4!1
+    wordID: o180130040011
+  translation:
+    english: but
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: אוּלָ֗ם
+  lemma: אוּלָם
+  transliteration: ʾûlām
+  ids:
+    ref: JOB 13:4!1
+    wordID: o180130040012
+  translation:
+    english: but
+    mandarin: 然而
+  morphology:
+    class: cj
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: אוּלָם
+    strong: 0199
+  semantic:
+    sdbh:
+    - 000191001001000
+    lexdomain:
+    - '004002'
+  lxx:
+    text: δέ
+    strong: '1161'
+- position: 3
+  text: אַתֶּ֥ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: JOB 13:4!2
+    wordID: o180130040021
+  translation:
+    english: you
+    mandarin: 你们
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ἐστε
+    strong: '2075'
+  syntax:
+    role: s
+  discourse:
+    participant: 180040010021 180080010021 180110010021
+- position: 4
+  text: טֹֽפְלֵי
+  lemma: טָפַל
+  transliteration: ṭōp̄əlê-
+  ids:
+    ref: JOB 13:4!3
+    wordID: o180130040031
+  translation:
+    english: use
+    mandarin: 编造
+    gloss: '[are.those.who].smear'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: טָפַל
+    strong: '2950'
+  semantic:
+    sdbh:
+    - '002715001001000'
+    - '002715001001000'
+    lexdomain:
+    - '002003001005'
+    - '002003001005'
+    coredomain:
+    - '045'
+    - '045'
+    sense: '1'
+  lxx:
+    text: ἰατροὶ
+  syntax:
+    frame: A1:180130040041; A0:180040010021;180080010021;180110010021;
+  discourse:
+    subject: 180040010021 180080010021 180110010021
+- position: 5
+  text: שָׁ֑קֶר
+  lemma: שֶׁקֶר
+  transliteration: šāqer
+  ids:
+    ref: JOB 13:4!4
+    wordID: o180130040041
+  translation:
+    english: lies
+    mandarin: 谎言
+    gloss: of.falsehood
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֶׁקֶר
+    strong: '8267'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄδικοι
+    strong: '94'
+- position: 6
+  text: רֹפְאֵ֖י
+  lemma: רָפָא
+  transliteration: rōp̄ʾēy
+  ids:
+    ref: JOB 13:4!5
+    wordID: o180130040051
+  translation:
+    english: physicians
+    mandarin: 医生
+    gloss: '[are].healers'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רָפָא
+    strong: '7495'
+  semantic:
+    sdbh:
+    - 006884001005000
+    lexdomain:
+    - 001001002003009
+    coredomain:
+    - '200'
+    - '076'
+    sense: '2'
+  syntax:
+    frame: A0:180040010021;180080010021;180110010021;
+  discourse:
+    subject: 180040010021 180080010021 180110010021
+- position: 7
+  text: אֱלִ֣ל
+  lemma: אֱלִיל
+  transliteration: ʾĕlil
+  ids:
+    ref: JOB 13:4!6
+    wordID: o180130040061
+  translation:
+    english: worthless
+    mandarin: 无用
+    gloss: of.worthlessness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלִיל
+    strong: '0457'
+  semantic:
+    sdbh:
+    - '000421001002000'
+    lexdomain:
+    - '002001002030'
+    coredomain:
+    - '137'
+    sense: '2'
+  lxx:
+    text: κακῶν
+    strong: '2556'
+- position: 8
+  text: כֻּלְּ
+  lemma: כֹּל
+  transliteration: ''
+  ids:
+    ref: JOB 13:4!7
+    wordID: o180130040071
+  translation:
+    english: all
+    mandarin: 都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 9
+  text: כֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 13:4!7
+    wordID: o180130040072
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  discourse:
+    participant: 180040010021 180080010021 180110010021

@@ -1,0 +1,231 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 30:5
+text: וַתַּ֣הַר בִּלְהָ֔ה וַתֵּ֥לֶד לְיַעֲקֹ֖ב בֵּֽן׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:5!1
+    wordID: o010300050011
+  translation:
+    english: and
+    mandarin: 后来
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: תַּ֣הַר
+  lemma: הָרָה
+  transliteration: tahar
+  ids:
+    ref: GEN 30:5!1
+    wordID: o010300050012
+  translation:
+    english: conceived
+    mandarin: 怀孕
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָרָה
+    strong: '2029'
+  semantic:
+    sdbh:
+    - 001876001001000
+    lexdomain:
+    - '002001001041'
+    coredomain:
+    - '030'
+    sense: '1'
+  lxx:
+    text: συνέλαβεν
+    strong: '4815'
+  syntax:
+    role: v
+    frame: A0:010300050021;
+- position: 3
+  text: בִּלְהָ֔ה
+  lemma: בִּלְהָה
+  transliteration: bilhāh
+  ids:
+    ref: GEN 30:5!2
+    wordID: o010300050021
+  translation:
+    english: Bilhah
+    mandarin: 辟拉
+    gloss: Bilhah
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: בִּלְהָה
+    strong: '1090'
+  semantic:
+    sdbh:
+    - '001014001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: βαλλα
+  syntax:
+    role: s
+- position: 4
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:5!3
+    wordID: o010300050031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: תֵּ֥לֶד
+  lemma: יָלַד
+  transliteration: tēleḏ
+  ids:
+    ref: GEN 30:5!3
+    wordID: o010300050032
+  translation:
+    english: bore
+    mandarin: 生
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001001000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    - '030'
+    sense: '1'
+  lxx:
+    text: ἔτεκεν
+    strong: '5088'
+  syntax:
+    role: v
+    frame: A0:010300050021; A1:010300050051;
+  discourse:
+    subject: '010300050021'
+- position: 6
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: GEN 30:5!4
+    wordID: o010300050041
+  translation:
+    english: for
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 7
+  text: יַעֲקֹ֖ב
+  lemma: יַעֲקֹב
+  transliteration: yaʿăqōḇ
+  ids:
+    ref: GEN 30:5!4
+    wordID: o010300050042
+  translation:
+    english: Jacob
+    mandarin: 雅各
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יַעֲקֹב
+    strong: '3290'
+  semantic:
+    sdbh:
+    - 003009001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιακωβ
+    strong: '2384'
+- position: 8
+  text: בֵּֽן
+  lemma: בֵּן
+  transliteration: 'bēn:'
+  ids:
+    ref: GEN 30:5!5
+    wordID: o010300050051
+  translation:
+    english: son
+    mandarin: 儿子
+    gloss: a.son
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: υἱόν
+    strong: '5207'
+  syntax:
+    role: o

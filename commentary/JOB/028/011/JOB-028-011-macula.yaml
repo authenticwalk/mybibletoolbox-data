@@ -1,0 +1,250 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 28:11
+text: מִ֭בְּכִי נְהָר֣וֹת חִבֵּ֑שׁ וְ֝תַעֲלֻמָ֗הּיֹ֣צִא אֽוֹר׃פ
+words:
+- position: 1
+  text: מִ֭
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: JOB 28:11!1
+    wordID: o180280110011
+  translation:
+    english: from
+    mandarin: 不
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: βάθη
+    strong: '899'
+- position: 2
+  text: בְּכִי
+  lemma: בְּכִי
+  transliteration: bəḵî
+  ids:
+    ref: JOB 28:11!1
+    wordID: o180280110012
+  translation:
+    english: sources
+    mandarin: 滴流
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּכִי
+    strong: '1065'
+  semantic:
+    sdbh:
+    - 000989001001000
+    - 003669001001000
+    lexdomain:
+    - '002001002013'
+    - '001005002002005'
+    coredomain:
+    - 019
+    - '194'
+    - 093
+    - '196'
+    - '189'
+    sense: '1'
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 3
+  text: נְהָר֣וֹת
+  lemma: נָהָר
+  transliteration: nəhārôṯ
+  ids:
+    ref: JOB 28:11!2
+    wordID: o180280110021
+  translation:
+    english: rivers
+    mandarin: 水源
+    gloss: rivers
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נָהָר
+    strong: '5104'
+  semantic:
+    sdbh:
+    - 004680001001000
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '189'
+    sense: '2'
+  lxx:
+    text: ποταμῶν
+    strong: '4215'
+  syntax:
+    role: o
+- position: 4
+  text: חִבֵּ֑שׁ
+  lemma: חָבַשׁ
+  transliteration: ḥibbēš
+  ids:
+    ref: JOB 28:11!3
+    wordID: o180280110031
+  translation:
+    english: dams up
+    mandarin: 封闭
+    gloss: he.restrains
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: חָבַשׁ
+    strong: '2280'
+  semantic:
+    sdbh:
+    - 002109001002000
+    lexdomain:
+    - '002003001005'
+    sense: '5'
+  lxx:
+    text: ἀνεκάλυψεν
+    strong: '343'
+  syntax:
+    role: v
+    frame: A0:180280040092; A1:180280110021;
+  discourse:
+    subject: '180280040092'
+- position: 5
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOB 28:11!4
+    wordID: o180280110041
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 6
+  text: תַעֲלֻמָ֗הּ
+  lemma: תַּעֲלֻם
+  transliteration: ṯaʿălumāẖ
+  ids:
+    ref: JOB 28:11!4
+    wordID: o180280110042
+  translation:
+    english: hidden things
+    mandarin: 隐藏之物
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תַּעֲלֻם
+    strong: '8587'
+  semantic:
+    sense: '2'
+  syntax:
+    role: o
+- position: 7
+  text: יֹ֣צִא
+  lemma: יָצָא
+  transliteration: yōṣiʾ
+  ids:
+    ref: JOB 28:11!5
+    wordID: o180280110051
+  translation:
+    english: bring
+    mandarin: 显露
+    gloss: he.brings.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: יָצָא
+    strong: '3318'
+  semantic:
+    sdbh:
+    - '003035001002000'
+    lexdomain:
+    - '002002001011'
+    sense: '11'
+  syntax:
+    role: v
+    frame: AA:180280040092; A0:180280110042;
+  discourse:
+    subject: '180280040092'
+- position: 8
+  text: אֽוֹר
+  lemma: אוֹר
+  transliteration: 'ʾôr:'
+  ids:
+    ref: JOB 28:11!6
+    wordID: o180280110061
+  translation:
+    english: light
+    mandarin: 光
+    gloss: light
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אוֹר
+    strong: '0216'
+  semantic:
+    sdbh:
+    - '000207001001000'
+    lexdomain:
+    - 002001001049
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: φῶς
+    strong: '5457'
+  syntax:
+    role: adv

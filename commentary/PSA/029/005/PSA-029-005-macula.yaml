@@ -1,0 +1,319 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 29:5
+text: ק֣וֹל יְ֭הוָה שֹׁבֵ֣ר אֲרָזִ֑ים וַיְשַׁבֵּ֥ר יְ֝הוָ֗ה אֶת־אַרְזֵ֥י הַלְּבָנֽוֹן׃
+words:
+- position: 1
+  text: ק֣וֹל
+  lemma: קוֹל
+  transliteration: qôl
+  ids:
+    ref: PSA 29:5!1
+    wordID: o190290050011
+  translation:
+    english: voice
+    mandarin: 声音
+    gloss: the.voice
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קוֹל
+    strong: '6963'
+  semantic:
+    sense: '1'
+  lxx:
+    text: φωνὴ
+    strong: '5456'
+- position: 2
+  text: יְ֭הוָה
+  lemma: יהוה
+  transliteration: yhwh
+  ids:
+    ref: PSA 29:5!2
+    wordID: o190290050021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 3
+  text: שֹׁבֵ֣ר
+  lemma: שָׁבַר
+  transliteration: šōḇēr
+  ids:
+    ref: PSA 29:5!3
+    wordID: o190290050031
+  translation:
+    english: breaks
+    mandarin: 震断
+    gloss: '[is].breaking'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׁבַר
+    strong: '7665'
+  semantic:
+    sdbh:
+    - 007185001001000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '006'
+    - '052'
+    sense: '1'
+  lxx:
+    text: συντρίβοντος
+    strong: '4937'
+  syntax:
+    role: v
+    frame: A0:190290050011; A1:190290050041;
+- position: 4
+  text: אֲרָזִ֑ים
+  lemma: אֶרֶז
+  transliteration: ʾărāziym
+  ids:
+    ref: PSA 29:5!4
+    wordID: o190290050041
+  translation:
+    english: cedars
+    mandarin: 香柏树
+    gloss: cedars
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶז
+    strong: '0730'
+  semantic:
+    sdbh:
+    - '000671001001000'
+    lexdomain:
+    - '001003002'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: κέδρους
+  syntax:
+    role: o
+- position: 5
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 29:5!5
+    wordID: o190290050051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: יְשַׁבֵּ֥ר
+  lemma: שָׁבַר
+  transliteration: yəšabbēr
+  ids:
+    ref: PSA 29:5!5
+    wordID: o190290050052
+  translation:
+    english: shatters
+    mandarin: 震断
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: שָׁבַר
+    strong: '7665'
+  semantic:
+    sdbh:
+    - 007185001001000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '006'
+    - '052'
+    sense: '1'
+  lxx:
+    text: συντρίψει
+    strong: '4937'
+  syntax:
+    role: v
+    frame: A0:190290050061; A1:190290050081;
+- position: 7
+  text: יְ֝הוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 29:5!6
+    wordID: o190290050061
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 8
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: PSA 29:5!7
+    wordID: o190290050071
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: אַרְזֵ֥י
+  lemma: אֶרֶז
+  transliteration: ʾarzēy
+  ids:
+    ref: PSA 29:5!8
+    wordID: o190290050081
+  translation:
+    english: cedars
+    mandarin: 香柏树
+    gloss: the.cedars
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֶרֶז
+    strong: '0730'
+  semantic:
+    sdbh:
+    - '000671001001000'
+    lexdomain:
+    - '001003002'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: κέδρους
+- position: 10
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 29:5!9
+    wordID: o190290050091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 11
+  text: לְּבָנֽוֹן
+  lemma: לְבָנוֹן
+  transliteration: 'lləḇānôn:'
+  ids:
+    ref: PSA 29:5!9
+    wordID: o190290050092
+  translation:
+    english: Lebanon
+    mandarin: 黎巴嫩
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: לְבָנוֹן
+    strong: '3844'
+  semantic:
+    sdbh:
+    - '003514001001000'
+    lexdomain:
+    - 003001008
+  lxx:
+    text: λιβάνου

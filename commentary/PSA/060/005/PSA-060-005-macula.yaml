@@ -1,0 +1,264 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 60:5
+text: הִרְאִ֣יתָה עַמְּךָ֣ קָשָׁ֑ה הִ֝שְׁקִיתָ֗נוּ יַ֣יִן תַּרְעֵלָֽה׃
+words:
+- position: 1
+  text: הִרְאִ֣יתָה
+  lemma: רָאָה
+  transliteration: hirʾiyṯâ
+  ids:
+    ref: PSA 60:5!1
+    wordID: o190600050011
+  translation:
+    english: shown
+    mandarin: 遇见
+    gloss: you.have.made.see
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001004000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '5'
+  lxx:
+    text: ἔδειχας
+  syntax:
+    role: v
+    frame: AA:190600030011; A0:190600050021; A1:190600050031;
+  discourse:
+    subject: '190600030011'
+- position: 2
+  text: עַמְּ
+  lemma: עַם
+  transliteration: ''
+  ids:
+    ref: PSA 60:5!2
+    wordID: o190600050021
+  translation:
+    english: people
+    mandarin: 子民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαῷ
+    strong: '2992'
+- position: 3
+  text: ךָ֣
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 60:5!2
+    wordID: o190600050022
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190600030011'
+- position: 4
+  text: קָשָׁ֑ה
+  lemma: קָשֶׁה
+  transliteration: qāšāh
+  ids:
+    ref: PSA 60:5!3
+    wordID: o190600050031
+  translation:
+    english: hard
+    mandarin: 艰难
+    gloss: a.hard.[thing]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aafsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: קָשֶׁה
+    strong: '7186'
+  semantic:
+    sdbh:
+    - '006617001007000'
+    lexdomain:
+    - '002003003021'
+    sense: '2'
+  lxx:
+    text: σκληρά
+  syntax:
+    role: o2
+- position: 5
+  text: הִ֝שְׁקִיתָ֗
+  lemma: שָׁקָה
+  transliteration: ''
+  ids:
+    ref: PSA 60:5!4
+    wordID: o190600050041
+  translation:
+    english: given ~ todrink
+    mandarin: 喝
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: שָׁקָה
+    strong: '8248'
+  semantic:
+    sdbh:
+    - '007606001003000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '101'
+    - 069
+    sense: '1'
+  lxx:
+    text: ἐπότισας
+  syntax:
+    role: v
+    frame: AA:190600030011; A0:190600050042; A1:190600050051;
+  discourse:
+    subject: '190600030011'
+- position: 6
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 60:5!4
+    wordID: o190600050042
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '007606001003000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '101'
+    - 069
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: 190600010062 190600050021
+- position: 7
+  text: יַ֣יִן
+  lemma: יַיִן
+  transliteration: yayin
+  ids:
+    ref: PSA 60:5!5
+    wordID: o190600050051
+  translation:
+    english: wine
+    mandarin: 酒
+    gloss: wine
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יַיִן
+    strong: '3196'
+  semantic:
+    sdbh:
+    - 002924001001000
+    lexdomain:
+    - '001006007'
+    - '001004003005'
+    - '001004003002'
+    coredomain:
+    - '101'
+    sense: '1'
+  lxx:
+    text: οἶνον
+    strong: '3631'
+- position: 8
+  text: תַּרְעֵלָֽה
+  lemma: תַּרְעֵלָה
+  transliteration: 'tarʿēlāh:'
+  ids:
+    ref: PSA 60:5!6
+    wordID: o190600050061
+  translation:
+    english: stagger
+    mandarin: 东倒西歪
+    gloss: of.staggering
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תַּרְעֵלָה
+    strong: '8653'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κατανύχεως
+    strong: '2659'

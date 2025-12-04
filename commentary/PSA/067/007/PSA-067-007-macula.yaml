@@ -1,0 +1,307 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 67:7
+text: אֶ֭רֶץ נָתְנָ֣ה יְבוּלָ֑הּ יְ֝בָרְכֵ֗נוּ אֱלֹהִ֥ים אֱלֹהֵֽינוּ׃
+words:
+- position: 1
+  text: אֶ֭רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: PSA 67:7!1
+    wordID: o190670070011
+  translation:
+    english: earth
+    mandarin: 地
+    gloss: earth
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆ
+    strong: '1093'
+  syntax:
+    role: s
+- position: 2
+  text: נָתְנָ֣ה
+  lemma: נָתַן
+  transliteration: nāṯənāh
+  ids:
+    ref: PSA 67:7!2
+    wordID: o190670070021
+  translation:
+    english: yielded
+    mandarin: 出
+    gloss: it.gives
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔδωκεν
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:190670070011; A1:190670070031;
+- position: 3
+  text: יְבוּלָ֑
+  lemma: יְבוּל
+  transliteration: ''
+  ids:
+    ref: PSA 67:7!3
+    wordID: o190670070031
+  translation:
+    english: harvest
+    mandarin: 土产
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יְבוּל
+    strong: '2981'
+  semantic:
+    sdbh:
+    - '002744001001000'
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - '125'
+    - '007'
+    - '196'
+    sense: '1'
+  lxx:
+    text: καρπὸν
+    strong: '2590'
+- position: 4
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:7!3
+    wordID: o190670070032
+  translation:
+    english: its
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '002744001001000'
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - '125'
+    - '007'
+    - '196'
+  lxx:
+    text: τὸν
+    strong: '3588'
+  discourse:
+    participant: '190670070011'
+- position: 5
+  text: יְ֝בָרְכֵ֗
+  lemma: בָּרַךְ
+  transliteration: ''
+  ids:
+    ref: PSA 67:7!4
+    wordID: o190670070041
+  translation:
+    english: bless
+    mandarin: 赐福
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλογήσαι
+  syntax:
+    role: v
+    frame: A1:190670070042; A0:190670070051;
+- position: 6
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:7!4
+    wordID: o190670070042
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: '190670020022'
+- position: 7
+  text: אֱלֹהִ֥ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 67:7!5
+    wordID: o190670070051
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 8
+  text: אֱלֹהֵֽי
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 67:7!6
+    wordID: o190670070061
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 9
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 67:7!6
+    wordID: o190670070062
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: '190670020022'

@@ -1,0 +1,678 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1PE 3:10
+text: "1PE 3:10 \n         1PE 3:11 ὁ γὰρ θέλων ζωὴν ἀγαπᾶν καὶ ἰδεῖν ἡμέρας ἀγαθὰς\
+  \ παυσάτω τὴν γλῶσσαν ἀπὸ κακοῦ καὶ χείλη τοῦ μὴ λαλῆσαι δόλον, ἐκκλινάτω δὲ ἀπὸ\
+  \ κακοῦ καὶ ποιησάτω ἀγαθόν, ζητησάτω εἰρήνην καὶ διωξάτω αὐτήν·"
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: 1PE 3:10!2
+    wordID: n60003010002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: 1PE 3:10!1
+    wordID: n60003010001
+  translation:
+    gloss: The [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: θέλων
+  lemma: θέλω
+  normalized: θέλων
+  ids:
+    ref: 1PE 3:10!3
+    wordID: n60003010003
+  translation:
+    gloss: desiring
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n60003010005;n60003010007
+- position: 4
+  text: ζωὴν
+  lemma: ζωή
+  normalized: ζωήν
+  ids:
+    ref: 1PE 3:10!4
+    wordID: n60003010004
+  translation:
+    gloss: life
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2222'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+  syntax:
+    role: o
+- position: 5
+  text: ἀγαπᾶν
+  lemma: ἀγαπάω
+  normalized: ἀγαπᾶν
+  ids:
+    ref: 1PE 3:10!5
+    wordID: n60003010005
+  translation:
+    gloss: to love
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025010'
+    ln: '25.104'
+  syntax:
+    role: v
+    frame: A0:n60003010003 A1:n60003010004
+  discourse:
+    subject: n60003010003
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1PE 3:10!6
+    wordID: n60003010006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 7
+  text: ἰδεῖν
+  lemma: ὁράω
+  normalized: ἰδεῖν
+  ids:
+    ref: 1PE 3:10!7
+    wordID: n60003010007
+  translation:
+    gloss: to see
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.79'
+  syntax:
+    role: v
+    frame: A0:n60003010003 A1:n60003010008
+  discourse:
+    subject: n60003010003
+- position: 8
+  text: ἡμέρας
+  lemma: ἡμέρα
+  normalized: ἡμέρας
+  ids:
+    ref: 1PE 3:10!8
+    wordID: n60003010008
+  translation:
+    gloss: days
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2250'
+  semantic:
+    semanticDomain: 067008
+    ln: '67.142'
+- position: 9
+  text: ἀγαθὰς
+  lemma: ἀγαθός
+  normalized: ἀγαθάς
+  ids:
+    ref: 1PE 3:10!9
+    wordID: n60003010009
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-APF
+    gender: feminine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.20'
+- position: 10
+  text: παυσάτω
+  lemma: παύω
+  normalized: παυσάτω
+  ids:
+    ref: 1PE 3:10!10
+    wordID: n60003010010
+  translation:
+    gloss: let him keep
+  morphology:
+    class: verb
+    morph: V-AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3973'
+  semantic:
+    semanticDomain: 068004
+    ln: '68.46'
+  syntax:
+    role: v
+    frame: A0:n60003010003 A1:n60003010012
+- position: 11
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: 1PE 3:10!11
+    wordID: n60003010011
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: γλῶσσαν
+  lemma: γλῶσσα
+  normalized: γλῶσσαν
+  ids:
+    ref: 1PE 3:10!12
+    wordID: n60003010012
+  translation:
+    gloss: tongue
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1100'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.74'
+- position: 13
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: 1PE 3:10!13
+    wordID: n60003010013
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+- position: 14
+  text: κακοῦ
+  lemma: κακός
+  normalized: κακοῦ
+  ids:
+    ref: 1PE 3:10!14
+    wordID: n60003010014
+  translation:
+    gloss: evil
+  morphology:
+    class: adj
+    morph: A-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2556'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.106'
+- position: 15
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1PE 3:10!15
+    wordID: n60003010015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 16
+  text: χείλη
+  lemma: χεῖλος
+  normalized: χείλη
+  ids:
+    ref: 1PE 3:10!16
+    wordID: n60003010016
+  translation:
+    gloss: lips
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '5491'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.74'
+  syntax:
+    role: o
+- position: 17
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: 1PE 3:10!17
+    wordID: n60003010017
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 18
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: 1PE 3:10!18
+    wordID: n60003010018
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 19
+  text: λαλῆσαι
+  lemma: λαλέω
+  normalized: λαλῆσαι
+  ids:
+    ref: 1PE 3:10!19
+    wordID: n60003010019
+  translation:
+    gloss: to speak
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n60003010016 A1:n60003010020
+  discourse:
+    subject: n60003010016
+- position: 20
+  text: δόλον
+  lemma: δόλος
+  normalized: δόλον
+  ids:
+    ref: 1PE 3:10!20
+    wordID: n60003010020
+  translation:
+    gloss: deceit
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1388'
+  semantic:
+    semanticDomain: 088021
+    ln: '88.154'
+  syntax:
+    role: o
+- position: 21
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1PE 3:11!2
+    wordID: n60003011002
+  translation:
+    gloss: also
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 22
+  text: ἐκκλινάτω
+  lemma: ἐκκλίνω
+  normalized: ἐκκλινάτω
+  ids:
+    ref: 1PE 3:11!1
+    wordID: n60003011001
+  translation:
+    gloss: Let him turn away
+  morphology:
+    class: verb
+    morph: V-AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1578'
+  semantic:
+    semanticDomain: 068004
+    ln: '68.41'
+  syntax:
+    role: v
+    frame: A0:n60003010003
+  discourse:
+    subject: n60003010003
+- position: 23
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: 1PE 3:11!3
+    wordID: n60003011003
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+- position: 24
+  text: κακοῦ
+  lemma: κακός
+  normalized: κακοῦ
+  ids:
+    ref: 1PE 3:11!4
+    wordID: n60003011004
+  translation:
+    gloss: evil
+  morphology:
+    class: adj
+    morph: A-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+  lexical:
+    strong: '2556'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.106'
+- position: 25
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1PE 3:11!5
+    wordID: n60003011005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 26
+  text: ποιησάτω
+  lemma: ποιέω
+  normalized: ποιησάτω
+  ids:
+    ref: 1PE 3:11!6
+    wordID: n60003011006
+  translation:
+    gloss: let him do
+  morphology:
+    class: verb
+    morph: V-AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n60003010003 A1:n60003011007
+  discourse:
+    subject: n60003010003
+- position: 27
+  text: ἀγαθόν
+  lemma: ἀγαθός
+  normalized: ἀγαθόν
+  ids:
+    ref: 1PE 3:11!7
+    wordID: n60003011007
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.1'
+  syntax:
+    role: o
+- position: 28
+  text: ζητησάτω
+  lemma: ζητέω
+  normalized: ζητησάτω
+  ids:
+    ref: 1PE 3:11!8
+    wordID: n60003011008
+  translation:
+    gloss: Let him seek
+  morphology:
+    class: verb
+    morph: V-AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2212'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.19'
+  syntax:
+    role: v
+    frame: A0:n60003010003 A1:n60003011009
+  discourse:
+    subject: n60003010003
+- position: 29
+  text: εἰρήνην
+  lemma: εἰρήνη
+  normalized: εἰρήνην
+  ids:
+    ref: 1PE 3:11!9
+    wordID: n60003011009
+  translation:
+    gloss: peace
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1515'
+  semantic:
+    semanticDomain: '022007'
+    ln: '22.42'
+  syntax:
+    role: o
+- position: 30
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 1PE 3:11!10
+    wordID: n60003011010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 31
+  text: διωξάτω
+  lemma: διώκω
+  normalized: διωξάτω
+  ids:
+    ref: 1PE 3:11!11
+    wordID: n60003011011
+  translation:
+    gloss: let him pursue
+  morphology:
+    class: verb
+    morph: V-AAM-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1377'
+  semantic:
+    semanticDomain: '015021'
+    ln: '15.158'
+  syntax:
+    role: v
+    frame: A0:n60003010003 A1:n60003011012
+  discourse:
+    subject: n60003010003
+- position: 32
+  text: αὐτήν
+  lemma: αὐτός
+  normalized: αὐτήν
+  ids:
+    ref: 1PE 3:11!12
+    wordID: n60003011012
+  translation:
+    gloss: it
+  morphology:
+    class: pron
+    morph: P-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    referent: n60003011009

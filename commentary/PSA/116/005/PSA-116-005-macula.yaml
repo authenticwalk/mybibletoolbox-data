@@ -1,0 +1,236 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 116:5
+text: חַנּ֣וּן יְהֹוָ֣ה וְצַדִּ֑יק וֵ֖אלֹהֵ֣ינוּ מְרַחֵֽם׃
+words:
+- position: 1
+  text: יְהֹוָ֣ה
+  lemma: יהוה
+  transliteration: yəhōwāh
+  ids:
+    ref: PSA 116:5!2
+    wordID: o191160050021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s
+- position: 2
+  text: חַנּ֣וּן
+  lemma: חַנּוּן
+  transliteration: ḥannûn
+  ids:
+    ref: PSA 116:5!1
+    wordID: o191160050011
+  translation:
+    english: gracious
+    mandarin: 有恩惠
+    gloss: '[is].gracious'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: חַנּוּן
+    strong: '2587'
+  semantic:
+    sdbh:
+    - 002382001001000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    sense: '1'
+  lxx:
+    text: ἐλεήμων
+    strong: '1655'
+- position: 3
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 116:5!3
+    wordID: o191160050031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: צַדִּ֑יק
+  lemma: צַדִּיק
+  transliteration: ṣaddiyq
+  ids:
+    ref: PSA 116:5!3
+    wordID: o191160050032
+  translation:
+    english: righteous
+    mandarin: 有公义
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: צַדִּיק
+    strong: '6662'
+  semantic:
+    sdbh:
+    - '006127001001000'
+    lexdomain:
+    - '002003003014'
+    - '002001002016'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: δίκαιος
+    strong: '1342'
+- position: 5
+  text: וֵ֖
+  lemma: וְ
+  transliteration: wē
+  ids:
+    ref: PSA 116:5!4
+    wordID: o191160050041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: אלֹהֵ֣י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 116:5!4
+    wordID: o191160050042
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 7
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 116:5!4
+    wordID: o191160050043
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 191160010062 191160060021
+- position: 8
+  text: מְרַחֵֽם
+  lemma: רָחַם
+  transliteration: 'məraḥēm:'
+  ids:
+    ref: PSA 116:5!5
+    wordID: o191160050051
+  translation:
+    english: merciful
+    mandarin: 有怜悯
+    gloss: '[is].having.compassion'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: רָחַם
+    strong: '7355'
+  semantic:
+    sdbh:
+    - 006758001002000
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    sense: '1'
+  lxx:
+    text: ἐλεᾷ
+  syntax:
+    role: p
+    frame: A0:191160050042;
+  discourse:
+    subject: '191160050042'

@@ -1,0 +1,105 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 23:16
+text: παιδεύσας οὖν αὐτὸν ἀπολύσω.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: LUK 23:16!2
+    wordID: n42023016002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: παιδεύσας
+  lemma: παιδεύω
+  normalized: παιδεύσας
+  ids:
+    ref: LUK 23:16!1
+    wordID: n42023016001
+  translation:
+    gloss: Having chastised
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3811'
+  semantic:
+    semanticDomain: 038001
+    ln: '38.4'
+  syntax:
+    role: v
+    frame: A0:n42023013001 A1:n42023016003
+  discourse:
+    subject: n42023013001
+- position: 3
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 23:16!3
+    wordID: n42023016003
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42023014023
+- position: 4
+  text: ἀπολύσω
+  lemma: ἀπολύω
+  normalized: ἀπολύσω
+  ids:
+    ref: LUK 23:16!4
+    wordID: n42023016004
+  translation:
+    gloss: I will release [Him]
+  morphology:
+    class: verb
+    morph: V-FAI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.127'
+  syntax:
+    role: v
+    frame: A0:n42023013001
+  discourse:
+    subject: n42023013001

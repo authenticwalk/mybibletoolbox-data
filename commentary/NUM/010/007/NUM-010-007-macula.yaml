@@ -1,0 +1,258 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 10:7
+text: וּבְהַקְהִ֖יל אֶת־הַקָּהָ֑ל תִּתְקְע֖וּ וְלֹ֥א תָרִֽיעוּ׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: NUM 10:7!1
+    wordID: o040100070011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: NUM 10:7!1
+    wordID: o040100070012
+  translation:
+    english: when
+    mandarin: 时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ὅταν
+    strong: '3752'
+- position: 3
+  text: הַקְהִ֖יל
+  lemma: קָהַל
+  transliteration: haqhiyl
+  ids:
+    ref: NUM 10:7!1
+    wordID: o040100070013
+  translation:
+    english: gathered
+    mandarin: 召集
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: קָהַל
+    strong: '6950'
+  semantic:
+    sense: '1'
+  lxx:
+    text: συναγάγητε
+  syntax:
+    role: v
+    frame: AA:040100010041;040100080012; A0:040100070032;
+  discourse:
+    subject: 040100010041 040100080012
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: NUM 10:7!2
+    wordID: o040100070021
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: NUM 10:7!3
+    wordID: o040100070031
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 6
+  text: קָּהָ֑ל
+  lemma: קָהָל
+  transliteration: qqāhāl
+  ids:
+    ref: NUM 10:7!3
+    wordID: o040100070032
+  translation:
+    english: assembly
+    mandarin: 会众
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קָהָל
+    strong: '6951'
+  semantic:
+    sense: '1'
+  lxx:
+    text: συναγωγήν
+    strong: '4864'
+- position: 7
+  text: תִּתְקְע֖וּ
+  lemma: תָּקַע
+  transliteration: tiṯqəʿû
+  ids:
+    ref: NUM 10:7!4
+    wordID: o040100070041
+  translation:
+    english: blow
+    mandarin: 吹号
+    gloss: you.will.give.a.blast
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: תָּקַע
+    strong: '8628'
+  semantic:
+    sdbh:
+    - 007920001007000
+    lexdomain:
+    - 002004001009007
+    coredomain:
+    - '111'
+    - '041'
+    sense: '1'
+  lxx:
+    text: σαλπιεῖτε
+  syntax:
+    role: v
+    frame: A0:040100010041;040100080012;
+  discourse:
+    subject: 040100010041 040100080012
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 10:7!5
+    wordID: o040100070051
+  translation:
+    english: but
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: NUM 10:7!5
+    wordID: o040100070052
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 10
+  text: תָרִֽיעוּ
+  lemma: רוּעַ
+  transliteration: 'ṯāriyʿû:'
+  ids:
+    ref: NUM 10:7!6
+    wordID: o040100070061
+  translation:
+    english: sound an alarm
+    mandarin: 吹出大声
+    gloss: you.will.give.an.alarm
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: רוּעַ
+    strong: '7321'
+  semantic:
+    sense: '3'
+  lxx:
+    text: σημασίᾳ
+  syntax:
+    role: v
+    frame: A0:040100010041;040100080012;
+  discourse:
+    subject: 040100010041 040100080012

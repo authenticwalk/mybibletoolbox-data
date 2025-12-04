@@ -1,0 +1,259 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 27:22
+text: λέγει αὐτοῖς ὁ Πειλᾶτος Τί οὖν ποιήσω Ἰησοῦν τὸν λεγόμενον Χριστόν;
+words:
+- position: 1
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: MAT 27:22!1
+    wordID: n40027022001
+  translation:
+    gloss: Says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n40027022002 A0:n40027022004
+- position: 2
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MAT 27:22!2
+    wordID: n40027022002
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n40027020009
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 27:22!3
+    wordID: n40027022003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Πειλᾶτος
+  lemma: Πιλᾶτος
+  normalized: Πειλᾶτος
+  ids:
+    ref: MAT 27:22!4
+    wordID: n40027022004
+  translation:
+    gloss: Pilate
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4091'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.297'
+- position: 5
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: MAT 27:22!6
+    wordID: n40027022006
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 6
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: MAT 27:22!5
+    wordID: n40027022005
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 7
+  text: ποιήσω
+  lemma: ποιέω
+  normalized: ποιήσω
+  ids:
+    ref: MAT 27:22!7
+    wordID: n40027022007
+  translation:
+    gloss: should I do with
+  morphology:
+    class: verb
+    morph: V-AAS-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n40027022004 A1:n40027022005
+  discourse:
+    subject: n40027022004
+- position: 8
+  text: Ἰησοῦν
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦν
+  ids:
+    ref: MAT 27:22!8
+    wordID: n40027022008
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 9
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: MAT 27:22!9
+    wordID: n40027022009
+  translation:
+    gloss: who
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: λεγόμενον
+  lemma: λέγω
+  normalized: λεγόμενον
+  ids:
+    ref: MAT 27:22!10
+    wordID: n40027022010
+  translation:
+    gloss: is called
+  morphology:
+    class: verb
+    morph: V-PPP-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.131'
+  syntax:
+    role: vc
+  discourse:
+    subject: n40027022008
+- position: 11
+  text: Χριστόν
+  lemma: Χριστός
+  normalized: Χριστόν
+  ids:
+    ref: MAT 27:22!11
+    wordID: n40027022011
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 053009
+    ln: '53.82'
+  syntax:
+    role: p

@@ -1,0 +1,265 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 122:9
+text: לְ֭מַעַן בֵּית־יְהוָ֣ה אֱלֹהֵ֑ינוּ אֲבַקְשָׁ֖ה ט֣וֹב לָֽךְ׃
+words:
+- position: 1
+  text: לְ֭מַעַן
+  lemma: לְמַעַן
+  transliteration: ləmaʿan
+  ids:
+    ref: PSA 122:9!1
+    wordID: o191220090011
+  translation:
+    english: for the sake of
+    mandarin: 为了
+    gloss: for.the.sake.of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְמַעַן
+    strong: '4616'
+  lxx:
+    text: ἕνεκα
+    strong: '1752'
+- position: 2
+  text: בֵּית
+  lemma: בַּיִת
+  transliteration: bêṯ-
+  ids:
+    ref: PSA 122:9!2
+    wordID: o191220090021
+  translation:
+    english: house
+    mandarin: 殿
+    gloss: the.house
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001001000
+    lexdomain:
+    - '001005001001'
+    coredomain:
+    - '020'
+    sense: '1'
+  lxx:
+    text: οἴκου
+    strong: '3624'
+- position: 3
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 122:9!3
+    wordID: o191220090031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 4
+  text: אֱלֹהֵ֑י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 122:9!4
+    wordID: o191220090041
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 5
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 122:9!4
+    wordID: o191220090042
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 191220010032 191220080021 191220080032
+- position: 6
+  text: אֲבַקְשָׁ֖ה
+  lemma: בָּקַשׁ
+  transliteration: ʾăḇaqšāh
+  ids:
+    ref: PSA 122:9!5
+    wordID: o191220090051
+  translation:
+    english: seek
+    mandarin: 求
+    gloss: I.will.seek
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vph1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: cohortative
+  lexical:
+    stronglemma: בָּקַשׁ
+    strong: '1245'
+  semantic:
+    sdbh:
+    - 001152001008000
+    lexdomain:
+    - '002004002001001'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: ἐχεζήτησα
+    strong: '1567'
+  syntax:
+    role: v
+    frame: A0:191220010032; A1:191220090061;
+  discourse:
+    subject: '191220010032'
+- position: 7
+  text: ט֣וֹב
+  lemma: טוֹב
+  transliteration: ṭôḇ
+  ids:
+    ref: PSA 122:9!6
+    wordID: o191220090061
+  translation:
+    english: good
+    mandarin: 福
+    gloss: good
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: טוֹב
+    strong: '2896'
+  semantic:
+    sdbh:
+    - '002666001003000'
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἀγαθά
+    strong: '18'
+  syntax:
+    role: o
+- position: 8
+  text: לָֽ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 122:9!7
+    wordID: o191220090071
+  translation:
+    english: of
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 9
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 122:9!7
+    wordID: o191220090072
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '191220060031'

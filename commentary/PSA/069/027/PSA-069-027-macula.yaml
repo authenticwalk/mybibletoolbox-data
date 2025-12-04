@@ -1,0 +1,316 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 69:27
+text: כִּֽי־אַתָּ֣ה אֲשֶׁר־הִכִּ֣יתָ רָדָ֑פוּ וְאֶל־מַכְא֖וֹב חֲלָלֶ֣יךָ יְסַפֵּֽרוּ׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 69:27!1
+    wordID: o190690270011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: אַתָּ֣ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: PSA 69:27!2
+    wordID: o190690270021
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: ὃν
+    strong: '3739'
+  discourse:
+    participant: '190690170021'
+- position: 3
+  text: אֲשֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer-
+  ids:
+    ref: PSA 69:27!3
+    wordID: o190690270031
+  translation:
+    english: whom
+    mandarin: 所~的
+    gloss: '[those].whom'
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: σὺ
+    strong: '4771'
+- position: 4
+  text: הִכִּ֣יתָ
+  lemma: נָכָה
+  transliteration: hikkiyṯā
+  ids:
+    ref: PSA 69:27!4
+    wordID: o190690270041
+  translation:
+    english: struck
+    mandarin: 击打
+    gloss: you.struck
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָכָה
+    strong: '5221'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπάταχας
+  syntax:
+    role: v
+    frame: A0:190690170021;
+  discourse:
+    subject: '190690170021'
+- position: 5
+  text: רָדָ֑פוּ
+  lemma: רָדַף
+  transliteration: rāḏāp̄û
+  ids:
+    ref: PSA 69:27!5
+    wordID: o190690270051
+  translation:
+    english: persecute
+    mandarin: 迫害
+    gloss: they.have.harassed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רָדַף
+    strong: '7291'
+  semantic:
+    sdbh:
+    - '006705001010000'
+    lexdomain:
+    - '002003003021'
+    coredomain:
+    - '044'
+    - '196'
+    sense: '1'
+  lxx:
+    text: κατεδίωχαν
+    strong: '2614'
+  syntax:
+    role: v
+    frame: A0:190690200081; A1:190690270041;
+  discourse:
+    subject: '190690200081'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 69:27!6
+    wordID: o190690270061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: PSA 69:27!6
+    wordID: o190690270062
+  translation:
+    english: about
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 8
+  text: מַכְא֖וֹב
+  lemma: מַכְאוֹב
+  transliteration: maḵʾôḇ
+  ids:
+    ref: PSA 69:27!7
+    wordID: o190690270071
+  translation:
+    english: pain
+    mandarin: 痛苦
+    gloss: the.pain
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַכְאוֹב
+    strong: '4341'
+  semantic:
+    sdbh:
+    - 003966001001000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - 019
+    - '076'
+    sense: '1'
+- position: 9
+  text: חֲלָלֶ֣י
+  lemma: חָלָל
+  transliteration: ''
+  ids:
+    ref: PSA 69:27!8
+    wordID: o190690270081
+  translation:
+    english: wounded
+    mandarin: 所击伤的人
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampc
+    gender: masculine
+    number: plural
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: חָלָל
+    strong: '2491'
+  semantic:
+    sdbh:
+    - '002300001002000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - 093
+    sense: '2'
+- position: 10
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 69:27!8
+    wordID: o190690270082
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '002300001002000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - 093
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190690170021'
+- position: 11
+  text: יְסַפֵּֽרוּ
+  lemma: סָפַר
+  transliteration: 'yəsappērû:'
+  ids:
+    ref: PSA 69:27!9
+    wordID: o190690270091
+  translation:
+    english: talk
+    mandarin: 谈笑
+    gloss: they.have.recounted
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: סָפַר
+    strong: '5608'
+  semantic:
+    sdbh:
+    - 005148001007000
+    lexdomain:
+    - 002004001009008
+    sense: '3'
+  lxx:
+    text: προσέθηκαν
+  syntax:
+    role: v
+    frame: A0:190690200081;
+  discourse:
+    subject: '190690200081'

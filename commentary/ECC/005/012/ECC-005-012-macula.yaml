@@ -1,0 +1,450 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ECC 5:12
+text: יֵ֚שׁ רָעָ֣ה חוֹלָ֔ה רָאִ֖יתִי תַּ֣חַת הַשָּׁ֑מֶשׁ עֹ֛שֶׁר שָׁמ֥וּר לִבְעָלָ֖יו
+  לְרָעָתֽוֹ׃
+words:
+- position: 1
+  text: יֵ֚שׁ
+  lemma: יֵשׁ
+  transliteration: yēš
+  ids:
+    ref: ECC 5:12!1
+    wordID: o210050120011
+  translation:
+    english: there is
+    mandarin: 有
+    gloss: there.[is]
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: יֵשׁ
+    strong: '3426'
+  lxx:
+    text: ἔστιν
+    strong: '2076'
+  syntax:
+    role: p
+- position: 2
+  text: רָעָ֣ה
+  lemma: רָעָה
+  transliteration: rāʿāh
+  ids:
+    ref: ECC 5:12!2
+    wordID: o210050120021
+  translation:
+    english: evil
+    mandarin: 祸患
+    gloss: an.evil
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רָעָה
+    strong: 7451b
+  semantic:
+    sdbh:
+    - 006859001001000
+    lexdomain:
+    - '002001003020'
+    sense: '1'
+- position: 3
+  text: חוֹלָ֔ה
+  lemma: חָלָה
+  transliteration: ḥôlāh
+  ids:
+    ref: ECC 5:12!3
+    wordID: o210050120031
+  translation:
+    english: grievous
+    mandarin: 令人痛心
+    gloss: severe
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: חָלָה
+    strong: '2470'
+  semantic:
+    sdbh:
+    - 002280001007000
+    lexdomain:
+    - '002001003012'
+    coredomain:
+    - 090
+    - '196'
+    sense: '4'
+  lxx:
+    text: ἀρρωστία
+  syntax:
+    frame: A0:210050120021;
+  discourse:
+    subject: '210050120021'
+- position: 4
+  text: רָאִ֖יתִי
+  lemma: רָאָה
+  transliteration: rāʾiyṯî
+  ids:
+    ref: ECC 5:12!4
+    wordID: o210050120041
+  translation:
+    english: seen
+    mandarin: 看见
+    gloss: '[which].I.have.seen'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: εἶδον
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:210010120021; A1:210050120011;
+  discourse:
+    subject: '210010120021'
+- position: 5
+  text: תַּ֣חַת
+  lemma: תַּחַת
+  transliteration: taḥaṯ
+  ids:
+    ref: ECC 5:12!5
+    wordID: o210050120051
+  translation:
+    english: under
+    mandarin: 之下
+    gloss: under
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: תַּחַת
+    strong: '8478'
+  lxx:
+    text: ὑπο
+    strong: '5259'
+- position: 6
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ECC 5:12!6
+    wordID: o210050120061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τον
+    strong: '3588'
+- position: 7
+  text: שָּׁ֑מֶשׁ
+  lemma: שֶׁמֶשׁ
+  transliteration: ššāmeš
+  ids:
+    ref: ECC 5:12!6
+    wordID: o210050120062
+  translation:
+    english: sun
+    mandarin: 日光
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֶׁמֶשׁ
+    strong: '8121'
+  semantic:
+    sdbh:
+    - 007511001008000
+    lexdomain:
+    - '002002001013'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: ἥλιον
+    strong: '2246'
+- position: 8
+  text: עֹ֛שֶׁר
+  lemma: עֹשֶׁר
+  transliteration: ʿōšer
+  ids:
+    ref: ECC 5:12!7
+    wordID: o210050120071
+  translation:
+    english: wealth
+    mandarin: 财富
+    gloss: wealth
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֹשֶׁר
+    strong: '6239'
+  semantic:
+    sdbh:
+    - '005724001001000'
+    lexdomain:
+    - '002001001046'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πλοῦτον
+    strong: '4149'
+  syntax:
+    role: s
+- position: 9
+  text: שָׁמ֥וּר
+  lemma: שָׁמַר
+  transliteration: šāmûr
+  ids:
+    ref: ECC 5:12!8
+    wordID: o210050120081
+  translation:
+    english: hoarded
+    mandarin: 积存
+    gloss: '[was].being.kept'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: φυλασσόμενον
+    strong: '5442'
+  syntax:
+    role: v
+    frame: A1:210050120071;
+- position: 10
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: ECC 5:12!9
+    wordID: o210050120091
+  translation:
+    english: by
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῶ
+    strong: '3588'
+- position: 11
+  text: בְעָלָ֖י
+  lemma: בַּעַל
+  transliteration: ''
+  ids:
+    ref: ECC 5:12!9
+    wordID: o210050120092
+  translation:
+    english: owner
+    mandarin: 财主
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּעַל
+    strong: '1167'
+  semantic:
+    sdbh:
+    - 001082001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - 082
+    sense: '1'
+  lxx:
+    text: παρ’
+    strong: '3844'
+- position: 12
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ECC 5:12!9
+    wordID: o210050120093
+  translation:
+    english: its
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 001082001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - 082
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '210050120071'
+- position: 13
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: ECC 5:12!10
+    wordID: o210050120101
+  translation:
+    english: to
+    mandarin: 导致
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 14
+  text: רָעָתֽ
+  lemma: רָעָה
+  transliteration: ''
+  ids:
+    ref: ECC 5:12!10
+    wordID: o210050120102
+  translation:
+    english: harm
+    mandarin: 害
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רָעָה
+    strong: 7451b
+  semantic:
+    sdbh:
+    - 006859001003000
+    lexdomain:
+    - '002003003021'
+    sense: '3'
+  lxx:
+    text: κακίαν
+    strong: '2549'
+- position: 15
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ECC 5:12!10
+    wordID: o210050120103
+  translation:
+    english: his
+    mandarin: 自己
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 006859001003000
+    lexdomain:
+    - '002003003021'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '210050120092'

@@ -1,0 +1,564 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 21:20
+text: οἱ δὲ ἀκούσαντες ἐδόξαζον τὸν Θεόν, εἶπάν τε αὐτῷ Θεωρεῖς, ἀδελφέ, πόσαι μυριάδες
+  εἰσὶν ἐν τοῖς Ἰουδαίοις τῶν πεπιστευκότων, καὶ πάντες ζηλωταὶ τοῦ νόμου ὑπάρχουσιν·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ACT 21:20!2
+    wordID: n44021020002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: ACT 21:20!1
+    wordID: n44021020001
+  translation:
+    gloss: Those
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n44021018015 n44021018010
+- position: 3
+  text: ἀκούσαντες
+  lemma: ἀκούω
+  normalized: ἀκούσαντες
+  ids:
+    ref: ACT 21:20!3
+    wordID: n44021020003
+  translation:
+    gloss: having heard
+  morphology:
+    class: verb
+    morph: V-AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.212'
+  syntax:
+    role: v
+    frame: A0:n44021018015;n44021018010
+  discourse:
+    subject: n44021018015 n44021018010
+- position: 4
+  text: ἐδόξαζον
+  lemma: δοξάζω
+  normalized: ἐδόξαζον
+  ids:
+    ref: ACT 21:20!4
+    wordID: n44021020004
+  translation:
+    gloss: began glorifying
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1392'
+  semantic:
+    semanticDomain: '033037'
+    ln: '33.357'
+  syntax:
+    role: v
+    frame: A0:n44021020001 A1:n44021020006
+- position: 5
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: ACT 21:20!5
+    wordID: n44021020005
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: Θεόν
+  lemma: θεός
+  normalized: Θεόν
+  ids:
+    ref: ACT 21:20!6
+    wordID: n44021020006
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 7
+  text: τε
+  lemma: τέ
+  normalized: τε
+  ids:
+    ref: ACT 21:20!8
+    wordID: n44021020008
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '5037'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.88'
+  syntax:
+    discontinuous: 'true'
+- position: 8
+  text: εἶπάν
+  lemma: λέγω
+  normalized: εἶπαν
+  ids:
+    ref: ACT 21:20!7
+    wordID: n44021020007
+  translation:
+    gloss: They said
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n44021018015;n44021018010 A2:n44021020009
+  discourse:
+    subject: n44021018015 n44021018010
+- position: 9
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: ACT 21:20!9
+    wordID: n44021020009
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n44021018006
+- position: 10
+  text: Θεωρεῖς
+  lemma: θεωρέω
+  normalized: Θεωρεῖς
+  ids:
+    ref: ACT 21:20!10
+    wordID: n44021020010
+  translation:
+    gloss: You see
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2334'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.11'
+  syntax:
+    role: v
+    frame: A0:n44021020011
+  discourse:
+    subject: n44021020011
+- position: 11
+  text: ἀδελφέ
+  lemma: ἀδελφός
+  normalized: ἀδελφέ
+  ids:
+    ref: ACT 21:20!11
+    wordID: n44021020011
+  translation:
+    gloss: brother
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+- position: 12
+  text: πόσαι
+  lemma: πόσος
+  normalized: πόσαι
+  ids:
+    ref: ACT 21:20!12
+    wordID: n44021020012
+  translation:
+    gloss: how many
+  morphology:
+    class: pron
+    morph: Q-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '4214'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.5'
+- position: 13
+  text: μυριάδες
+  lemma: μυριάς
+  normalized: μυριάδες
+  ids:
+    ref: ACT 21:20!13
+    wordID: n44021020013
+  translation:
+    gloss: myriads
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3461'
+  semantic:
+    semanticDomain: '060001'
+    ln: '60.8'
+- position: 14
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: ACT 21:20!18
+    wordID: n44021020018
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: πεπιστευκότων
+  lemma: πιστεύω
+  normalized: πεπιστευκότων
+  ids:
+    ref: ACT 21:20!19
+    wordID: n44021020019
+  translation:
+    gloss: having believed
+  morphology:
+    class: verb
+    morph: V-RAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: '031010'
+    ln: '31.102'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+    discontinuous: 'true'
+- position: 16
+  text: εἰσὶν
+  lemma: εἰμί
+  normalized: εἰσίν
+  ids:
+    ref: ACT 21:20!14
+    wordID: n44021020014
+  translation:
+    gloss: there are
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013003'
+    ln: '13.69'
+  syntax:
+    role: vc
+- position: 17
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ACT 21:20!15
+    wordID: n44021020015
+  translation:
+    gloss: among
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.9'
+- position: 18
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: ACT 21:20!16
+    wordID: n44021020016
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: Ἰουδαίοις
+  lemma: Ἰουδαῖος
+  normalized: Ἰουδαίοις
+  ids:
+    ref: ACT 21:20!17
+    wordID: n44021020017
+  translation:
+    gloss: Jews
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '2453'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.172'
+- position: 20
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ACT 21:20!20
+    wordID: n44021020020
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 21
+  text: πάντες
+  lemma: πᾶς
+  normalized: πάντες
+  ids:
+    ref: ACT 21:20!21
+    wordID: n44021020021
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+  syntax:
+    role: s
+  discourse:
+    referent: n44021020013
+- position: 22
+  text: ζηλωταὶ
+  lemma: ζηλωτής
+  normalized: ζηλωταί
+  ids:
+    ref: ACT 21:20!22
+    wordID: n44021020022
+  translation:
+    gloss: zealous ones
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '2207'
+  semantic:
+    semanticDomain: '025006'
+    ln: '25.77'
+- position: 23
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: ACT 21:20!23
+    wordID: n44021020023
+  translation:
+    gloss: for the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 24
+  text: νόμου
+  lemma: νόμος
+  normalized: νόμου
+  ids:
+    ref: ACT 21:20!24
+    wordID: n44021020024
+  translation:
+    gloss: law
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3551'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.55'
+- position: 25
+  text: ὑπάρχουσιν
+  lemma: ὑπάρχω
+  normalized: ὑπάρχουσιν
+  ids:
+    ref: ACT 21:20!25
+    wordID: n44021020025
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5225'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.5'
+  syntax:
+    role: vc

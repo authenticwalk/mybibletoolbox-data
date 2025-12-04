@@ -1,0 +1,439 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 5:11
+text: אַתֶּ֗ם לְכ֨וּ קְח֤וּ לָכֶם֙ תֶּ֔בֶן מֵאֲשֶׁ֖ר תִּמְצָ֑אוּ כִּ֣י אֵ֥ין נִגְרָ֛ע
+  מֵעֲבֹדַתְכֶ֖ם דָּבָֽר׃
+words:
+- position: 1
+  text: אַתֶּ֗ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: EXO 5:11!1
+    wordID: o020050110011
+  translation:
+    english: you
+    mandarin: 你们
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ὑμεῖς
+    strong: '5210'
+  syntax:
+    role: s
+  discourse:
+    participant: '020050100072'
+- position: 2
+  text: לְכ֨וּ
+  lemma: הלך
+  transliteration: ləḵû
+  ids:
+    ref: EXO 5:11!2
+    wordID: o020050110021
+  translation:
+    english: go
+    mandarin: 去
+    gloss: go
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: הלך
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001002000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+    sense: '3'
+  lxx:
+    text: πορευόμενοι
+    strong: '4198'
+  syntax:
+    role: v
+    frame: A0:020050110011;
+- position: 3
+  text: קְח֤וּ
+  lemma: לָקַח
+  transliteration: qəḥû
+  ids:
+    ref: EXO 5:11!3
+    wordID: o020050110031
+  translation:
+    english: get
+    mandarin: 找
+    gloss: acquire
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: לָקַח
+    strong: '3947'
+  semantic:
+    sense: '5'
+  lxx:
+    text: συλλέγετε
+  syntax:
+    role: v
+    frame: A0:020050100072; A1:020050110051;
+  discourse:
+    subject: '020050100072'
+- position: 4
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: EXO 5:11!4
+    wordID: o020050110041
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 5
+  text: כֶם֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 5:11!4
+    wordID: o020050110042
+  translation:
+    english: yourselves
+    mandarin: 自己
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ἑαυτοῖς
+    strong: '1438'
+  discourse:
+    participant: '020050100072'
+- position: 6
+  text: תֶּ֔בֶן
+  lemma: תֶּבֶן
+  transliteration: teḇen
+  ids:
+    ref: EXO 5:11!5
+    wordID: o020050110051
+  translation:
+    english: straw
+    mandarin: 草
+    gloss: straw
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תֶּבֶן
+    strong: '8401'
+  semantic:
+    sdbh:
+    - 007708001001000
+    lexdomain:
+    - '001003001'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: ἄξυρα
+    strong: '892'
+  syntax:
+    role: o
+- position: 7
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: EXO 5:11!6
+    wordID: o020050110061
+  translation:
+    english: from
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ὅθεν
+    strong: '3606'
+- position: 8
+  text: אֲשֶׁ֖ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: EXO 5:11!6
+    wordID: o020050110062
+  translation:
+    english: whatever
+    mandarin: 哪里
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 9
+  text: תִּמְצָ֑אוּ
+  lemma: מָצָא
+  transliteration: timṣāʾû
+  ids:
+    ref: EXO 5:11!7
+    wordID: o020050110071
+  translation:
+    english: find
+    mandarin: 找到
+    gloss: you.will.find.[it]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001001000
+    lexdomain:
+    - '002002001015'
+    sense: '1'
+  lxx:
+    text: εὕρητε
+    strong: '2147'
+  syntax:
+    role: v
+    frame: A0:020050100072; A1:020050110051;
+  discourse:
+    subject: '020050100072'
+- position: 10
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: EXO 5:11!8
+    wordID: o020050110081
+  translation:
+    english: but
+    mandarin: 但
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+- position: 11
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: EXO 5:11!9
+    wordID: o020050110091
+  translation:
+    english: not
+    mandarin: 不
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 12
+  text: נִגְרָ֛ע
+  lemma: גָּרַע
+  transliteration: niḡrāʿ
+  ids:
+    ref: EXO 5:11!10
+    wordID: o020050110101
+  translation:
+    english: reduced
+    mandarin: 减少
+    gloss: diminished
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: גָּרַע
+    strong: '1639'
+  semantic:
+    sdbh:
+    - '001504001004000'
+    lexdomain:
+    - '002001001045'
+    coredomain:
+    - '138'
+    sense: '1'
+  lxx:
+    text: ἀφαιρεῖται
+    strong: '851'
+  syntax:
+    role: v
+    frame: A1:020050110121;
+- position: 13
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: EXO 5:11!11
+    wordID: o020050110111
+  translation:
+    english: in
+    mandarin: 从~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 14
+  text: עֲבֹדַתְ
+  lemma: עֲבֹדָה
+  transliteration: ''
+  ids:
+    ref: EXO 5:11!11
+    wordID: o020050110112
+  translation:
+    english: work
+    mandarin: 工作
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֲבֹדָה
+    strong: '5656'
+  semantic:
+    sense: '1'
+- position: 15
+  text: כֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 5:11!11
+    wordID: o020050110113
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '020050100072'
+- position: 16
+  text: דָּבָֽר
+  lemma: דָּבָר
+  transliteration: 'dāḇār:'
+  ids:
+    ref: EXO 5:11!12
+    wordID: o020050110121
+  translation:
+    english: thing
+    mandarin: 一点
+    gloss: anything
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '32'
+  lxx:
+    text: οὐθέν
+    strong: '3762'
+  syntax:
+    role: s

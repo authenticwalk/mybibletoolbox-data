@@ -1,0 +1,296 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 12:9
+text: סָבִ֗יב רְשָׁעִ֥ים יִתְהַלָּכ֑וּן כְּרֻ֥ם זֻ֝לּ֗וּת לִבְנֵ֥י אָדָֽם׃
+words:
+- position: 1
+  text: סָבִ֗יב
+  lemma: סָבִיב
+  transliteration: sāḇiyḇ
+  ids:
+    ref: PSA 12:9!1
+    wordID: o190120090011
+  translation:
+    english: on every side
+    mandarin: 到处
+    gloss: all.around
+  morphology:
+    class: adv
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: סָבִיב
+    strong: '5439'
+  lxx:
+    text: κύκλῳ
+    strong: '2945'
+  syntax:
+    role: adv
+- position: 2
+  text: רְשָׁעִ֥ים
+  lemma: רָשָׁע
+  transliteration: rəšāʿiym
+  ids:
+    ref: PSA 12:9!2
+    wordID: o190120090021
+  translation:
+    english: wicked
+    mandarin: 恶人
+    gloss: wicked.[people]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָשָׁע
+    strong: '7563'
+  semantic:
+    sdbh:
+    - 006947001001000
+    lexdomain:
+    - '002001002007'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἀσεβεῖς
+    strong: '765'
+  syntax:
+    role: s
+- position: 3
+  text: יִתְהַלָּכ֑וּ
+  lemma: הָלַךְ
+  transliteration: ''
+  ids:
+    ref: PSA 12:9!3
+    wordID: o190120090031
+  translation:
+    english: prowl
+    mandarin: 横行
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vti3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: hithpael
+    type: yiqtol
+  lexical:
+    stronglemma: הָלַךְ
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001003000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+    sense: '2'
+  lxx:
+    text: περιπατοῦσιν
+    strong: '4043'
+  syntax:
+    frame: A0:190120090021;
+- position: 4
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: PSA 12:9!3
+    wordID: o190120090032
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - 001824001003000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+- position: 5
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: PSA 12:9!4
+    wordID: o190120090041
+  translation:
+    english: when
+    mandarin: 时
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: κατὰ
+    strong: '2596'
+- position: 6
+  text: רֻ֥ם
+  lemma: רוּם
+  transliteration: rum
+  ids:
+    ref: PSA 12:9!4
+    wordID: o190120090042
+  translation:
+    english: exalted
+    mandarin: 歌颂
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: רוּם
+    strong: '7311'
+  semantic:
+    sdbh:
+    - 006722001008000
+    lexdomain:
+    - '002001003006'
+    coredomain:
+    - '159'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:190120090051;
+- position: 7
+  text: זֻ֝לּ֗וּת
+  lemma: זֻלֻּת
+  transliteration: zullûṯ
+  ids:
+    ref: PSA 12:9!5
+    wordID: o190120090051
+  translation:
+    english: vileness
+    mandarin: 邪恶
+    gloss: vileness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: זֻלֻּת
+    strong: '2149'
+  semantic:
+    sdbh:
+    - 001987001001000
+    lexdomain:
+    - '002001003020'
+    coredomain:
+    - '017'
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἐπολυώρησας
+  syntax:
+    role: s
+- position: 8
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: PSA 12:9!6
+    wordID: o190120090061
+  translation:
+    english: among
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοὺς
+    strong: '3588'
+- position: 9
+  text: בְנֵ֥י
+  lemma: בֵּן
+  transliteration: ḇənēy
+  ids:
+    ref: PSA 12:9!6
+    wordID: o190120090062
+  translation:
+    english: children
+    mandarin: 子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001004000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 038
+    sense: '8'
+  lxx:
+    text: υἱοὺς
+    strong: '5207'
+- position: 10
+  text: אָדָֽם
+  lemma: אָדָם
+  transliteration: 'ʾāḏām:'
+  ids:
+    ref: PSA 12:9!7
+    wordID: o190120090071
+  translation:
+    english: humankind
+    mandarin: 人
+    gloss: of.humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἀνθρώπων
+    strong: '444'

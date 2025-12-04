@@ -1,0 +1,633 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: SNG 8:1
+text: מִ֤י יִתֶּנְךָ֙ כְּאָ֣ח לִ֔י יוֹנֵ֖ק שְׁדֵ֣י אִמִּ֑י אֶֽמְצָאֲךָ֤ בַחוּץ֙ אֶשָׁ֣קְךָ֔גַּ֖ם
+  לֹא־יָב֥וּזוּ לִֽי׃
+words:
+- position: 1
+  text: מִ֤י
+  lemma: מִי
+  transliteration: miy
+  ids:
+    ref: SNG 8:1!1
+    wordID: o220080010011
+  translation:
+    english: how
+    mandarin: 谁
+    gloss: who?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מִי
+    strong: '4310'
+  semantic:
+    sdbh:
+    - 003938001001000
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τίς
+    strong: '5101'
+  syntax:
+    role: s
+- position: 2
+  text: יִתֶּנְ
+  lemma: נָתַן
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!2
+    wordID: o220080010021
+  translation:
+    english: wish
+    mandarin: 容
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '9'
+  lxx:
+    text: δῴη
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:220080010011; A1:220080010022;
+- position: 3
+  text: ךָ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!2
+    wordID: o220080010022
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '220070140111'
+- position: 4
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: SNG 8:1!3
+    wordID: o220080010031
+  translation:
+    english: like
+    mandarin: 像
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+- position: 5
+  text: אָ֣ח
+  lemma: אָח
+  transliteration: ʾāḥ
+  ids:
+    ref: SNG 8:1!3
+    wordID: o220080010032
+  translation:
+    english: brother
+    mandarin: 兄弟
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָח
+    strong: '0251'
+  semantic:
+    sdbh:
+    - 000238001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '1'
+  lxx:
+    text: ἀδελφιδόν
+- position: 6
+  text: לִ֔
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!4
+    wordID: o220080010041
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!4
+    wordID: o220080010042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '220070020051'
+- position: 8
+  text: יוֹנֵ֖ק
+  lemma: יָנַק
+  transliteration: yônēq
+  ids:
+    ref: SNG 8:1!5
+    wordID: o220080010051
+  translation:
+    english: who nursed
+    mandarin: 吃~的
+    gloss: the.sucking.child
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָנַק
+    strong: '3126'
+  semantic:
+    sdbh:
+    - 002965001001000
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    - '121'
+    sense: '2'
+  lxx:
+    text: θηλάζοντα
+- position: 9
+  text: שְׁדֵ֣י
+  lemma: שַׁד
+  transliteration: šəḏēy
+  ids:
+    ref: SNG 8:1!6
+    wordID: o220080010061
+  translation:
+    english: breasts
+    mandarin: 奶
+    gloss: of.the.breasts
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmdc
+    gender: masculine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שַׁד
+    strong: '7699'
+  semantic:
+    sdbh:
+    - 007208001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: μαστοὺς
+- position: 10
+  text: אִמִּ֑
+  lemma: אֵם
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!7
+    wordID: o220080010071
+  translation:
+    english: mother’s
+    mandarin: 母亲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵם
+    strong: '0517'
+  semantic:
+    sdbh:
+    - 000481001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: μητρός
+    strong: '3384'
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!7
+    wordID: o220080010072
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 000481001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '220070020051'
+- position: 12
+  text: אֶֽמְצָאֲ
+  lemma: מָצָא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!8
+    wordID: o220080010081
+  translation:
+    english: found
+    mandarin: 遇见
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001015000
+    lexdomain:
+    - '002003002017'
+    sense: '1'
+  lxx:
+    text: εὑροῦσά
+  syntax:
+    role: v
+    frame: A0:220070020051; A1:220080010082;
+  discourse:
+    subject: '220070020051'
+- position: 13
+  text: ךָ֤
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!8
+    wordID: o220080010082
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 004280001015000
+    lexdomain:
+    - '002003002017'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '220070140111'
+- position: 14
+  text: בַ
+  lemma: בְּ
+  transliteration: ḇa
+  ids:
+    ref: SNG 8:1!9
+    wordID: o220080010091
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 15
+  text: חוּץ֙
+  lemma: חוּץ
+  transliteration: ḥûṣ
+  ids:
+    ref: SNG 8:1!9
+    wordID: o220080010092
+  translation:
+    english: public
+    mandarin: 外头
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חוּץ
+    strong: '2351'
+  semantic:
+    sdbh:
+    - '002170001001000'
+    lexdomain:
+    - '003002004'
+    sense: '1'
+  lxx:
+    text: ἔχω
+    strong: '1854'
+- position: 16
+  text: אֶשָׁ֣קְ
+  lemma: נָשַׁק
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!10
+    wordID: o220080010101
+  translation:
+    english: kiss
+    mandarin: 吻
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָשַׁק
+    strong: '5401'
+  semantic:
+    sdbh:
+    - 004944001001000
+    lexdomain:
+    - '002003001011'
+    sense: '1'
+  lxx:
+    text: φιλήσω
+    strong: '5368'
+  syntax:
+    role: v
+    frame: A0:220070020051; A1:220080010102;
+  discourse:
+    subject: '220070020051'
+- position: 17
+  text: ךָ֔
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!10
+    wordID: o220080010102
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 004944001001000
+    lexdomain:
+    - '002003001011'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '220070140111'
+- position: 18
+  text: גַּ֖ם
+  lemma: גַּם
+  transliteration: gam
+  ids:
+    ref: SNG 8:1!11
+    wordID: o220080010111
+  translation:
+    english: and
+    mandarin: 也
+    gloss: also
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: γε
+    strong: '1065'
+- position: 19
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: SNG 8:1!12
+    wordID: o220080010121
+  translation:
+    english: 'no'
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 20
+  text: יָב֥וּזוּ
+  lemma: בּוּז
+  transliteration: yāḇûzû
+  ids:
+    ref: SNG 8:1!13
+    wordID: o220080010131
+  translation:
+    english: despise
+    mandarin: 轻看
+    gloss: people.will.despise
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בּוּז
+    strong: 0936
+  semantic:
+    sdbh:
+    - 000869001001000
+    lexdomain:
+    - '002001002005'
+    - 002004001009012
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἐχουδενώσουσίν
+  syntax:
+    role: v
+    frame: A0:;
+- position: 21
+  text: לִֽ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!14
+    wordID: o220080010141
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 22
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:1!14
+    wordID: o220080010142
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: '220070020051'

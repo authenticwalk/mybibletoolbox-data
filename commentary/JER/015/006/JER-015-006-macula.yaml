@@ -1,0 +1,604 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 15:6
+text: אַ֣תְּ נָטַ֥שְׁתְּ אֹתִ֛י נְאֻם־יְהוָ֖ה אָח֣וֹר תֵּלֵ֑כִי וָאַ֨ט אֶת־יָדִ֤י
+  עָלַ֨יִךְ֙ וָֽאַשְׁחִיתֵ֔ךְ נִלְאֵ֖יתִי הִנָּחֵֽם׃
+words:
+- position: 1
+  text: אַ֣תְּ
+  lemma: אַתְּ
+  transliteration: ʾatə
+  ids:
+    ref: JER 15:6!1
+    wordID: o240150060011
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתְּ
+    strong: 0859b
+  syntax:
+    role: s
+  discourse:
+    participant: '240150050051'
+- position: 2
+  text: נָטַ֥שְׁתְּ
+  lemma: נָטַשׁ
+  transliteration: nāṭaštə
+  ids:
+    ref: JER 15:6!2
+    wordID: o240150060021
+  translation:
+    english: rejected
+    mandarin: 弃绝
+    gloss: you.abandoned
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָטַשׁ
+    strong: '5203'
+  semantic:
+    sdbh:
+    - 004771001009000
+    lexdomain:
+    - '002001002027'
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: ἀπεστράφης
+    strong: '654'
+  syntax:
+    role: v
+    frame: A0:240150060011; A1:240150060032;
+- position: 3
+  text: אֹתִ֛
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: JER 15:6!3
+    wordID: o240150060031
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:6!3
+    wordID: o240150060032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '240150030061'
+- position: 5
+  text: נְאֻם
+  lemma: נְאֻם
+  transliteration: nəʾum-
+  ids:
+    ref: JER 15:6!4
+    wordID: o240150060041
+  translation:
+    english: declares
+    mandarin: 说
+    gloss: the.utterance
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נְאֻם
+    strong: '5002'
+  semantic:
+    sdbh:
+    - 004584001001000
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    - '134'
+    sense: '1'
+  lxx:
+    text: λέγει
+    strong: '3004'
+- position: 6
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JER 15:6!5
+    wordID: o240150060051
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 7
+  text: אָח֣וֹר
+  lemma: אָחוֹר
+  transliteration: ʾāḥôr
+  ids:
+    ref: JER 15:6!6
+    wordID: o240150060061
+  translation:
+    english: backward
+    mandarin: 背
+    gloss: backwards
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָחוֹר
+    strong: 0268
+  semantic:
+    sdbh:
+    - '000252001002000'
+    lexdomain:
+    - '002002001013'
+    coredomain:
+    - '110'
+    sense: '1'
+  lxx:
+    text: ὀπίσω
+    strong: '3694'
+  syntax:
+    role: adv
+- position: 8
+  text: תֵּלֵ֑כִי
+  lemma: הלך
+  transliteration: tēlēḵî
+  ids:
+    ref: JER 15:6!7
+    wordID: o240150060071
+  translation:
+    english: keep going
+    mandarin: 去
+    gloss: you.go
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הלך
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001005000
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: πορεύσῃ
+    strong: '4198'
+  syntax:
+    role: v
+    frame: A0:240150050051;
+  discourse:
+    subject: '240150050051'
+- position: 9
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: JER 15:6!8
+    wordID: o240150060081
+  translation:
+    english: so
+    mandarin: 才
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: אַ֨ט
+  lemma: נָטָה
+  transliteration: ʾaṭ
+  ids:
+    ref: JER 15:6!8
+    wordID: o240150060082
+  translation:
+    english: stretched out
+    mandarin: 举起
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָטָה
+    strong: '5186'
+  semantic:
+    sdbh:
+    - '004755002002000'
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἐκτενῶ
+    strong: '1614'
+  syntax:
+    role: v
+    frame: AA:240150060051; A0:240150060101;
+  discourse:
+    subject: '240150060051'
+- position: 11
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JER 15:6!9
+    wordID: o240150060091
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: יָדִ֤
+  lemma: יָד
+  transliteration: ''
+  ids:
+    ref: JER 15:6!10
+    wordID: o240150060101
+  translation:
+    english: hand
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001050000
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ξεῖρά
+    strong: '5495'
+- position: 13
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:6!10
+    wordID: o240150060102
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 002787001050000
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '240150060051'
+- position: 14
+  text: עָלַ֨יִ
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: JER 15:6!11
+    wordID: o240150060111
+  translation:
+    english: against
+    mandarin: 攻击
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+- position: 15
+  text: ךְ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:6!11
+    wordID: o240150060112
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  discourse:
+    participant: '240150050051'
+- position: 16
+  text: וָֽ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: JER 15:6!12
+    wordID: o240150060121
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 17
+  text: אַשְׁחִיתֵ֔
+  lemma: שָׁחַת
+  transliteration: ''
+  ids:
+    ref: JER 15:6!12
+    wordID: o240150060122
+  translation:
+    english: destroyed
+    mandarin: 毁灭
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: שָׁחַת
+    strong: '7843'
+  semantic:
+    sdbh:
+    - '007307001002000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+    sense: '1'
+  lxx:
+    text: διαφθερῶ
+    strong: '1311'
+  syntax:
+    role: v
+    frame: AA:240150060051; A0:240150060123;
+  discourse:
+    subject: '240150060051'
+- position: 18
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:6!12
+    wordID: o240150060123
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  semantic:
+    sdbh:
+    - '007307001002000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '240150050051'
+- position: 19
+  text: נִלְאֵ֖יתִי
+  lemma: לָאָה
+  transliteration: nilʾēyṯî
+  ids:
+    ref: JER 15:6!13
+    wordID: o240150060131
+  translation:
+    english: tired
+    mandarin: 不耐烦
+    gloss: I.had.wearied.myself
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: לָאָה
+    strong: '3811'
+  semantic:
+    sdbh:
+    - 003490001004000
+    lexdomain:
+    - '002001001062'
+    coredomain:
+    - '001'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:240150060051; A1:240150060141;
+  discourse:
+    subject: '240150060051'
+- position: 20
+  text: הִנָּחֵֽם
+  lemma: נָחַם
+  transliteration: 'hinnāḥēm:'
+  ids:
+    ref: JER 15:6!14
+    wordID: o240150060141
+  translation:
+    english: relenting
+    mandarin: 怜悯
+    gloss: to.relent
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNc
+    stem: niphal
+    type: infinitive construct
+  lexical:
+    stronglemma: נָחַם
+    strong: '5162'
+  semantic:
+    sdbh:
+    - '004733002001000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '2'
+  syntax:
+    role: o
+    frame: A0:240150060051;
+  discourse:
+    subject: '240150060051'

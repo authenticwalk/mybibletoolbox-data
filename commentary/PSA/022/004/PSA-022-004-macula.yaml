@@ -1,0 +1,191 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 22:4
+text: וְאַתָּ֥ה קָד֑וֹשׁ י֝וֹשֵׁ֗ב תְּהִלּ֥וֹת יִשְׂרָאֵֽל׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 22:4!1
+    wordID: o190220040011
+  translation:
+    english: yet
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: אַתָּ֥ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: PSA 22:4!1
+    wordID: o190220040012
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190220030011'
+- position: 3
+  text: קָד֑וֹשׁ
+  lemma: קָדוֹשׁ
+  transliteration: qāḏôš
+  ids:
+    ref: PSA 22:4!2
+    wordID: o190220040021
+  translation:
+    english: holy
+    mandarin: 圣洁
+    gloss: '[are].holy'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: קָדוֹשׁ
+    strong: '6918'
+  semantic:
+    sdbh:
+    - '006370001001000'
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἁγίοις
+    strong: '40'
+  syntax:
+    role: p
+- position: 4
+  text: י֝וֹשֵׁ֗ב
+  lemma: יָשַׁב
+  transliteration: yôšēḇ
+  ids:
+    ref: PSA 22:4!3
+    wordID: o190220040031
+  translation:
+    english: enthroned
+    mandarin: 宝座
+    gloss: sitting
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001005000'
+    lexdomain:
+    - 002003002008
+    - 002001001058
+    coredomain:
+    - '015'
+    sense: '10'
+  lxx:
+    text: κατοικεῖς
+    strong: '2730'
+  syntax:
+    role: v
+    frame: A0:190220030011;
+  discourse:
+    subject: '190220030011'
+- position: 5
+  text: תְּהִלּ֥וֹת
+  lemma: תְּהִלָּה
+  transliteration: təhillôṯ
+  ids:
+    ref: PSA 22:4!4
+    wordID: o190220040041
+  translation:
+    english: praises
+    mandarin: 赞美
+    gloss: the.praises
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: תְּהִלָּה
+    strong: '8416'
+  semantic:
+    sdbh:
+    - '007723001001000'
+    lexdomain:
+    - 002004001009009
+    coredomain:
+    - '041'
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἔπαινος
+    strong: '1868'
+- position: 6
+  text: יִשְׂרָאֵֽל
+  lemma: יִשְׂרָאֵל
+  transliteration: 'yiśrāʾēl:'
+  ids:
+    ref: PSA 22:4!5
+    wordID: o190220040051
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'

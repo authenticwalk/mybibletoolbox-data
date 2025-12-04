@@ -1,0 +1,592 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2SA 12:16
+text: 2SA 12:16 וַיְבַקֵּ֥שׁ דָּוִ֛ד אֶת־הָאֱלֹהִ֖ים בְּעַ֣ד הַנָּ֑עַר וַיָּ֤צָם דָּוִד֙
+  צ֔וֹם וּבָ֥א וְלָ֖ן וְשָׁכַ֥ב אָֽרְצָה׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 12:16!1
+    wordID: o100120160011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יְבַקֵּ֥שׁ
+  lemma: בָּקַשׁ
+  transliteration: yəḇaqqēš
+  ids:
+    ref: 2SA 12:16!1
+    wordID: o100120160012
+  translation:
+    english: pleaded
+    mandarin: 恳求
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: בָּקַשׁ
+    strong: '1245'
+  semantic:
+    sdbh:
+    - '001152001003000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '4'
+  lxx:
+    text: ἐζήτησεν
+    strong: '2212'
+  syntax:
+    role: v
+    frame: A0:100120160021; A1:100120160042;
+- position: 3
+  text: דָּוִ֛ד
+  lemma: דָּוִד
+  transliteration: dāwiḏ
+  ids:
+    ref: 2SA 12:16!2
+    wordID: o100120160021
+  translation:
+    english: David
+    mandarin: 大卫
+    gloss: David
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+  syntax:
+    role: s
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2SA 12:16!3
+    wordID: o100120160031
+  translation:
+    english: with
+    mandarin: 和
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: 2SA 12:16!4
+    wordID: o100120160041
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 6
+  text: אֱלֹהִ֖ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: 2SA 12:16!4
+    wordID: o100120160042
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸν
+    strong: '2316'
+- position: 7
+  text: בְּעַ֣ד
+  lemma: בַּעַד
+  transliteration: bəʿaḏ
+  ids:
+    ref: 2SA 12:16!5
+    wordID: o100120160051
+  translation:
+    english: for
+    mandarin: 为
+    gloss: for
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בַּעַד
+    strong: '1157'
+  semantic:
+    sdbh:
+    - '001072001003000'
+    lexdomain:
+    - '002003'
+  lxx:
+    text: περὶ
+    strong: '4012'
+- position: 8
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 2SA 12:16!6
+    wordID: o100120160061
+  translation:
+    english: the
+    mandarin: 这
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 9
+  text: נָּ֑עַר
+  lemma: נַעַר
+  transliteration: nnāʿar
+  ids:
+    ref: 2SA 12:16!6
+    wordID: o100120160062
+  translation:
+    english: child
+    mandarin: 孩子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נַעַר
+    strong: '5288'
+  semantic:
+    sdbh:
+    - 004849001001000
+    lexdomain:
+    - '001001002003'
+    - '001001002003001'
+    coredomain:
+    - '005'
+    - 082
+    sense: '1'
+  lxx:
+    text: παιδαρίου
+- position: 10
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 12:16!7
+    wordID: o100120160071
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: יָּ֤צָם
+  lemma: צוּם
+  transliteration: yyāṣām
+  ids:
+    ref: 2SA 12:16!7
+    wordID: o100120160072
+  translation:
+    english: he fasted
+    mandarin: 禁食
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: צוּם
+    strong: '6684'
+  semantic:
+    sdbh:
+    - 006148001001000
+    lexdomain:
+    - '002001001025'
+    coredomain:
+    - '064'
+    - 069
+    - '109'
+    sense: '1'
+  lxx:
+    text: ἐνήστευσεν
+  syntax:
+    role: v
+    frame: A0:100120160081; A1:100120160091;
+- position: 12
+  text: דָּוִד֙
+  lemma: דָּוִד
+  transliteration: dāwiḏ
+  ids:
+    ref: 2SA 12:16!8
+    wordID: o100120160081
+  translation:
+    english: David
+    mandarin: 大卫
+    gloss: David
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+  syntax:
+    role: s
+- position: 13
+  text: צ֔וֹם
+  lemma: צוֹם
+  transliteration: ṣôm
+  ids:
+    ref: 2SA 12:16!9
+    wordID: o100120160091
+  translation:
+    english: fast
+    mandarin: 禁食
+    gloss: a.fast
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: צוֹם
+    strong: '6685'
+  semantic:
+    sdbh:
+    - 006149001001000
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '064'
+    - 069
+    - '109'
+    sense: '1'
+  lxx:
+    text: νηστείαν
+    strong: '3521'
+  syntax:
+    role: o
+- position: 14
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: 2SA 12:16!10
+    wordID: o100120160101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: בָ֥א
+  lemma: בּוֹא
+  transliteration: ḇāʾ
+  ids:
+    ref: 2SA 12:16!10
+    wordID: o100120160102
+  translation:
+    english: went
+    mandarin: 进
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσῆλθεν
+    strong: '1525'
+  syntax:
+    role: v
+    frame: A0:100120160081;
+  discourse:
+    subject: '100120160081'
+- position: 16
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 2SA 12:16!11
+    wordID: o100120160111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 17
+  text: לָ֖ן
+  lemma: לין
+  transliteration: lān
+  ids:
+    ref: 2SA 12:16!11
+    wordID: o100120160112
+  translation:
+    english: lay all night
+    mandarin: 终夜
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: לין
+    strong: 3885a
+  semantic:
+    sdbh:
+    - 003583001001000
+    lexdomain:
+    - '002002001016'
+    sense: '1'
+  lxx:
+    text: ηὐλίσθη
+    strong: '835'
+  syntax:
+    role: v
+    frame: A0:100120160081;
+  discourse:
+    subject: '100120160081'
+- position: 18
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 2SA 12:16!12
+    wordID: o100120160121
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 19
+  text: שָׁכַ֥ב
+  lemma: שָׁכַב
+  transliteration: šāḵaḇ
+  ids:
+    ref: 2SA 12:16!12
+    wordID: o100120160122
+  translation:
+    english: lay
+    mandarin: 躺
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁכַב
+    strong: '7901'
+  semantic:
+    sdbh:
+    - '007340001001000'
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:100120160081;
+  discourse:
+    subject: '100120160081'
+- position: 20
+  text: אָֽרְצָ
+  lemma: אֶרֶץ
+  transliteration: ''
+  ids:
+    ref: 2SA 12:16!13
+    wordID: o100120160131
+  translation:
+    english: ground
+    mandarin: 地上
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 21
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: 2SA 12:16!13
+    wordID: o100120160132
+  translation:
+    english: 'on'
+    mandarin: 在
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sd
+    type: directional he
+  lexical:
+    stronglemma: ה
+    strong: 1886c
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+  lxx:
+    text: γῆς
+    strong: '1093'

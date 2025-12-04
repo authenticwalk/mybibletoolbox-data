@@ -1,0 +1,447 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 32:25
+text: מִחוּץ֙ תְּשַׁכֶּל־חֶ֔רֶב וּמֵחֲדָרִ֖ים אֵימָ֑ה גַּם־בָּחוּר֙ גַּם־בְּתוּלָ֔ה
+  יוֹנֵ֖ק עִם־אִ֥ישׁ שֵׂיבָֽה׃
+words:
+- position: 1
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: DEU 32:25!1
+    wordID: o050320250011
+  translation:
+    english: in
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 2
+  text: חוּץ֙
+  lemma: חוּץ
+  transliteration: ḥûṣ
+  ids:
+    ref: DEU 32:25!1
+    wordID: o050320250012
+  translation:
+    english: street
+    mandarin: 外头
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חוּץ
+    strong: '2351'
+  semantic:
+    sdbh:
+    - '002170001001000'
+    lexdomain:
+    - '003002004'
+    sense: '1'
+  lxx:
+    text: ἔχωθεν
+    strong: '1855'
+- position: 3
+  text: תְּשַׁכֶּל
+  lemma: שָׁכֹל
+  transliteration: təšakkel-
+  ids:
+    ref: DEU 32:25!2
+    wordID: o050320250021
+  translation:
+    english: bereave
+    mandarin: 丧亡
+    gloss: it.will.make.childless
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁכֹל
+    strong: '7921'
+  semantic:
+    sense: '3'
+  lxx:
+    text: ἀτεκνώσει
+  syntax:
+    role: v
+    frame: A0:050320250031;
+- position: 4
+  text: חֶ֔רֶב
+  lemma: חֶרֶב
+  transliteration: ḥereḇ
+  ids:
+    ref: DEU 32:25!3
+    wordID: o050320250031
+  translation:
+    english: sword
+    mandarin: 刀剑
+    gloss: a.sword
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶרֶב
+    strong: '2719'
+  semantic:
+    sdbh:
+    - '002505001004000'
+    lexdomain:
+    - '002003002007'
+    coredomain:
+    - '006'
+    sense: '1'
+  lxx:
+    text: μάξαιρα
+    strong: '3162'
+  syntax:
+    role: s
+- position: 5
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DEU 32:25!4
+    wordID: o050320250041
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: DEU 32:25!4
+    wordID: o050320250042
+  translation:
+    english: in
+    mandarin: 在~里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 7
+  text: חֲדָרִ֖ים
+  lemma: חֶדֶר
+  transliteration: ḥăḏāriym
+  ids:
+    ref: DEU 32:25!4
+    wordID: o050320250043
+  translation:
+    english: inside
+    mandarin: 内室
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶדֶר
+    strong: '2315'
+  semantic:
+    sdbh:
+    - '002141001001000'
+    lexdomain:
+    - '001005001'
+    coredomain:
+    - '020'
+    sense: '1'
+- position: 8
+  text: אֵימָ֑ה
+  lemma: אֵימָה
+  transliteration: ʾêmāh
+  ids:
+    ref: DEU 32:25!5
+    wordID: o050320250051
+  translation:
+    english: terror
+    mandarin: 恐怖
+    gloss: terror
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵימָה
+    strong: '0367'
+  semantic:
+    sdbh:
+    - '000346001001000'
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '152'
+    - '196'
+  lxx:
+    text: φόβος
+    strong: '5401'
+  syntax:
+    role: s
+- position: 9
+  text: גַּם
+  lemma: גַּם
+  transliteration: gam-
+  ids:
+    ref: DEU 32:25!6
+    wordID: o050320250061
+  translation:
+    english: both
+    mandarin: 连
+    gloss: both
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 10
+  text: בָּחוּר֙
+  lemma: בָּחוּר
+  transliteration: bāḥûr
+  ids:
+    ref: DEU 32:25!7
+    wordID: o050320250071
+  translation:
+    english: young man
+    mandarin: 少男
+    gloss: young.man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בָּחוּר
+    strong: 0970
+  semantic:
+    sdbh:
+    - 000901001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '005'
+    sense: '1'
+  lxx:
+    text: νεανίσκος
+    strong: '3495'
+- position: 11
+  text: גַּם
+  lemma: גַּם
+  transliteration: gam-
+  ids:
+    ref: DEU 32:25!8
+    wordID: o050320250081
+  translation:
+    english: and
+    mandarin: 和
+    gloss: as.well.as
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: σὺν
+    strong: '4862'
+- position: 12
+  text: בְּתוּלָ֔ה
+  lemma: בְּתוּלָה
+  transliteration: bəṯûlāh
+  ids:
+    ref: DEU 32:25!9
+    wordID: o050320250091
+  translation:
+    english: young woman
+    mandarin: 少女
+    gloss: young.woman
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּתוּלָה
+    strong: '1330'
+  semantic:
+    sdbh:
+    - 001228001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    - '105'
+    sense: '1'
+  lxx:
+    text: παρθένῳ
+- position: 13
+  text: יוֹנֵ֖ק
+  lemma: יָנַק
+  transliteration: yônēq
+  ids:
+    ref: DEU 32:25!10
+    wordID: o050320250101
+  translation:
+    english: infant
+    mandarin: 吃奶的
+    gloss: a.sucking.child
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָנַק
+    strong: '3126'
+  semantic:
+    sdbh:
+    - 002965001004000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 069
+    - '121'
+    sense: '1'
+  lxx:
+    text: θηλάζων
+  syntax:
+    role: s
+- position: 14
+  text: עִם
+  lemma: עִם
+  transliteration: ʿim-
+  ids:
+    ref: DEU 32:25!11
+    wordID: o050320250111
+  translation:
+    english: and
+    mandarin: 和
+    gloss: with
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עִם
+    strong: '5973'
+  lxx:
+    text: μετὰ
+    strong: '3326'
+- position: 15
+  text: אִ֥ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: DEU 32:25!12
+    wordID: o050320250121
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.person
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: καθεστηκότος
+    strong: '2525'
+- position: 16
+  text: שֵׂיבָֽה
+  lemma: שֵׂיבָה
+  transliteration: 'śêḇāh:'
+  ids:
+    ref: DEU 32:25!13
+    wordID: o050320250131
+  translation:
+    english: old gray head
+    mandarin: 白发的
+    gloss: of.gray.hair
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֵׂיבָה
+    strong: '7872'
+  semantic:
+    sense: '1'
+  lxx:
+    text: πρεσβύτου

@@ -1,0 +1,219 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 28:6
+text: בָּר֥וּךְ יְהוָ֑ה כִּי־שָׁ֝מַע ק֣וֹל תַּחֲנוּנָֽי׃
+words:
+- position: 1
+  text: בָּר֥וּךְ
+  lemma: בָּרַךְ
+  transliteration: bārûḵ
+  ids:
+    ref: PSA 28:6!1
+    wordID: o190280060011
+  translation:
+    english: blessed
+    mandarin: 称颂
+    gloss: '[be].blessed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '2'
+  lxx:
+    text: εὐλογητὸς
+    strong: '2128'
+  syntax:
+    role: v
+    frame: A1:190280060021;
+- position: 2
+  text: יְהוָ֑ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 28:6!2
+    wordID: o190280060021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 3
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: PSA 28:6!3
+    wordID: o190280060031
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 4
+  text: שָׁ֝מַע
+  lemma: שָׁמַע
+  transliteration: šāmaʿ
+  ids:
+    ref: PSA 28:6!4
+    wordID: o190280060041
+  translation:
+    english: heard
+    mandarin: 听
+    gloss: he.has.heard
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσήκουσεν
+    strong: '1522'
+  syntax:
+    role: v
+    frame: A0:190280060021; A1:190280060051;
+  discourse:
+    subject: '190280060021'
+- position: 5
+  text: ק֣וֹל
+  lemma: קוֹל
+  transliteration: qôl
+  ids:
+    ref: PSA 28:6!5
+    wordID: o190280060051
+  translation:
+    english: voice
+    mandarin: 声音
+    gloss: the.sound
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קוֹל
+    strong: '6963'
+  semantic:
+    sense: '1'
+  lxx:
+    text: φωνῆς
+    strong: '5456'
+- position: 6
+  text: תַּחֲנוּנָֽ
+  lemma: תַּחֲנוּן
+  transliteration: ''
+  ids:
+    ref: PSA 28:6!6
+    wordID: o190280060061
+  translation:
+    english: pleadings
+    mandarin: 恳求
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: תַּחֲנוּן
+    strong: '8469'
+  semantic:
+    sdbh:
+    - '007770001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    - '041'
+    - '170'
+    sense: '1'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 28:6!6
+    wordID: o190280060062
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '007770001001000'
+    lexdomain:
+    - 002001002019
+    coredomain:
+    - '036'
+    - '041'
+    - '170'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190280010012'

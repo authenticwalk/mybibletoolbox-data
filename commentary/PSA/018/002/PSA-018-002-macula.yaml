@@ -1,0 +1,222 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 18:2
+text: וַיֹּאמַ֡ר אֶרְחָמְךָ֖ יְהוָ֣ה חִזְקִֽי׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 18:2!1
+    wordID: o190180020011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יֹּאמַ֡ר
+  lemma: אָמַר
+  transliteration: yyōʾmar
+  ids:
+    ref: PSA 18:2!1
+    wordID: o190180020012
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:190180010042;
+  discourse:
+    subject: '190180010042'
+- position: 3
+  text: אֶרְחָמְ
+  lemma: רָחַם
+  transliteration: ''
+  ids:
+    ref: PSA 18:2!2
+    wordID: o190180020021
+  translation:
+    english: love
+    mandarin: 爱
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: רָחַם
+    strong: '7355'
+  semantic:
+    sdbh:
+    - 006758001001000
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+    sense: '2'
+  lxx:
+    text: ἀγαπήσω
+    strong: '25'
+  syntax:
+    role: v
+    frame: A0:190180010042; A1:190180020022;
+  discourse:
+    subject: '190180010042'
+- position: 4
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 18:2!2
+    wordID: o190180020022
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 006758001001000
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '190180020031'
+- position: 5
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 18:2!3
+    wordID: o190180020031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 6
+  text: חִזְקִֽ
+  lemma: חֵזֶק
+  transliteration: ''
+  ids:
+    ref: PSA 18:2!4
+    wordID: o190180020041
+  translation:
+    english: strength
+    mandarin: 力量
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֵזֶק
+    strong: '2391'
+  semantic:
+    sdbh:
+    - '002202001001000'
+    lexdomain:
+    - '002001001060'
+    sense: '1'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 18:2!4
+    wordID: o190180020042
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '002202001001000'
+    lexdomain:
+    - '002001001060'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190180010042'

@@ -1,0 +1,581 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2KI 13:6
+text: 2KI 13:6 אַ֠ךְ לֹֽא־סָ֜רוּ מֵחַטֹּ֧אות בֵּית־יָרָבְעָ֛ם אֲשֶׁר־הֶחֱטִ֥יא אֶת־יִשְׂרָאֵ֖ל
+  בָּ֣הּ הָלָ֑ךְ וְגַם֙ הָאֲשֵׁרָ֔ה עָמְדָ֖ה בְּשֹׁמְרֽוֹן׃
+words:
+- position: 1
+  text: אַ֠ךְ
+  lemma: אַךְ
+  transliteration: ʾaḵ
+  ids:
+    ref: 2KI 13:6!1
+    wordID: o120130060011
+  translation:
+    english: nevertheless
+    mandarin: 然而
+    gloss: nevertheless
+  morphology:
+    class: adv
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: אַךְ
+    strong: 0389
+  semantic:
+    sdbh:
+    - '000364001005000'
+    lexdomain:
+    - '004002'
+  lxx:
+    text: πλὴν
+    strong: '4133'
+  syntax:
+    role: adv
+- position: 2
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: 2KI 13:6!2
+    wordID: o120130060021
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 3
+  text: סָ֜רוּ
+  lemma: סוּר
+  transliteration: sārû
+  ids:
+    ref: 2KI 13:6!3
+    wordID: o120130060031
+  translation:
+    english: turn away
+    mandarin: 离开
+    gloss: they.turned.aside
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: סוּר
+    strong: '5493'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἀπέστησαν
+    strong: '868'
+  syntax:
+    role: v
+    frame: A0:120130050101;
+  discourse:
+    subject: '120130050101'
+- position: 4
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: 2KI 13:6!4
+    wordID: o120130060041
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 5
+  text: חַטֹּ֧אות
+  lemma: חַטָּאת
+  transliteration: ḥaṭṭōʾwṯ
+  ids:
+    ref: 2KI 13:6!4
+    wordID: o120130060042
+  translation:
+    english: sins
+    mandarin: 罪
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חַטָּאת
+    strong: '2403'
+  semantic:
+    sdbh:
+    - 002218001001000
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἁμαρτιῶν
+    strong: '266'
+- position: 6
+  text: בֵּית
+  lemma: בַּיִת
+  transliteration: bêṯ-
+  ids:
+    ref: 2KI 13:6!5
+    wordID: o120130060051
+  translation:
+    english: house
+    mandarin: 家
+    gloss: of.the.house
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001004000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '062'
+    sense: '2'
+  lxx:
+    text: οἴκου
+    strong: '3624'
+- position: 7
+  text: יָרָבְעָ֛ם
+  lemma: יָרָבְעָם
+  transliteration: yārāḇʿām
+  ids:
+    ref: 2KI 13:6!6
+    wordID: o120130060061
+  translation:
+    english: Jeroboam
+    mandarin: 耶罗波安
+    gloss: of.Jeroboam
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יָרָבְעָם
+    strong: '3379'
+  semantic:
+    sdbh:
+    - 003088001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιεροβοαμ
+- position: 8
+  text: אֲשֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer-
+  ids:
+    ref: 2KI 13:6!7
+    wordID: o120130060071
+  translation:
+    english: which
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὃς
+    strong: '3739'
+- position: 9
+  text: הֶחֱטִ֥יא
+  lemma: חָטָא
+  transliteration: '**heḥĕṭiyʾ'
+  ids:
+    ref: 2KI 13:6!9
+    wordID: o120130060091
+  translation:
+    english: sin
+    mandarin: 犯罪
+    gloss: he.caused.to.sin
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: חָטָא
+    strong: '2398'
+  semantic:
+    sdbh:
+    - '002211002007000'
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἐχήμαρτεν
+  syntax:
+    role: v
+    frame: AA:120130060051; A0:120130060111; A1:120130060042;
+  discourse:
+    subject: '120130060051'
+- position: 10
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2KI 13:6!10
+    wordID: o120130060101
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 11
+  text: יִשְׂרָאֵ֖ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: 2KI 13:6!11
+    wordID: o120130060111
+  translation:
+    english: Israel
+    mandarin: 以色列人
+    gloss: Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 12
+  text: בָּ֣
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: 2KI 13:6!12
+    wordID: o120130060121
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 13
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2KI 13:6!12
+    wordID: o120130060122
+  translation:
+    english: them
+    mandarin: 其
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐταῖς
+    strong: '846'
+  discourse:
+    participant: '120130060042'
+- position: 14
+  text: הָלָ֑ךְ
+  lemma: הָלַךְ
+  transliteration: hālāḵ
+  ids:
+    ref: 2KI 13:6!13
+    wordID: o120130060131
+  translation:
+    english: walked
+    mandarin: 行
+    gloss: it.walked
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָלַךְ
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001005000
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '2'
+  lxx:
+    text: ἐπορεύθησαν
+    strong: '4198'
+  syntax:
+    role: v
+    frame: A0:120130060111;
+  discourse:
+    subject: '120130060111'
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 2KI 13:6!14
+    wordID: o120130060141
+  translation:
+    english: and
+    mandarin: 并且
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καί
+    strong: '2532'
+- position: 16
+  text: גַם֙
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: 2KI 13:6!14
+    wordID: o120130060142
+  translation:
+    english: also
+    mandarin: 并且
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: γε
+    strong: '1065'
+- position: 17
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: 2KI 13:6!15
+    wordID: o120130060151
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸ
+    strong: '3588'
+- position: 18
+  text: אֲשֵׁרָ֔ה
+  lemma: אֲשֵׁרָה
+  transliteration: ʾăšērāh
+  ids:
+    ref: 2KI 13:6!15
+    wordID: o120130060152
+  translation:
+    english: asherah
+    mandarin: 亚舍拉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אֲשֵׁרָה
+    strong: 0842
+  semantic:
+    sdbh:
+    - 000778001002000
+    lexdomain:
+    - '001004001010'
+    - '001004001006'
+    coredomain:
+    - '027'
+    - '146'
+    - 085
+  lxx:
+    text: ἄλσος
+- position: 19
+  text: עָמְדָ֖ה
+  lemma: עָמַד
+  transliteration: ʿāməḏāh
+  ids:
+    ref: 2KI 13:6!16
+    wordID: o120130060161
+  translation:
+    english: standing
+    mandarin: 立
+    gloss: it.remained
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָמַד
+    strong: '5975'
+  semantic:
+    sdbh:
+    - 005484001026000
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: ἐστάθη
+    strong: '2476'
+  syntax:
+    role: v
+    frame: A0:120130060152;
+- position: 20
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: 2KI 13:6!17
+    wordID: o120130060171
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 21
+  text: שֹׁמְרֽוֹן
+  lemma: שֹׁמְרוֹן
+  transliteration: 'šōmərôn:'
+  ids:
+    ref: 2KI 13:6!17
+    wordID: o120130060172
+  translation:
+    english: Samaria
+    mandarin: 撒玛利亚
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שֹׁמְרוֹן
+    strong: '8111'
+  semantic:
+    sdbh:
+    - 007498001001000
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: σαμαρείᾳ
+    strong: '4540'

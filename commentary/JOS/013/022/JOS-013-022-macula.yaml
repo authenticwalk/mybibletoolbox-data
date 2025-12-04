@@ -1,0 +1,417 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOS 13:22
+text: וְאֶת־בִּלְעָ֥ם בֶּן־בְּע֖וֹר הַקּוֹסֵ֑ם הָרְג֧וּ בְנֵֽי־יִשְׂרָאֵ֛ל בַּחֶ֖רֶב
+  אֶל־חַלְלֵיהֶֽם׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 13:22!1
+    wordID: o060130220011
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JOS 13:22!1
+    wordID: o060130220012
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 3
+  text: בִּלְעָ֥ם
+  lemma: בִּלְעָם
+  transliteration: bilʿām
+  ids:
+    ref: JOS 13:22!2
+    wordID: o060130220021
+  translation:
+    english: Balaam
+    mandarin: 巴兰
+    gloss: Balaam
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: בִּלְעָם
+    strong: '1109'
+  semantic:
+    sdbh:
+    - '001030001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: βαλααμ
+    strong: '903'
+- position: 4
+  text: בֶּן
+  lemma: בֵּן
+  transliteration: ben-
+  ids:
+    ref: JOS 13:22!3
+    wordID: o060130220031
+  translation:
+    english: son
+    mandarin: 儿子
+    gloss: the.son
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+- position: 5
+  text: בְּע֖וֹר
+  lemma: בְּעוֹר
+  transliteration: bəʿôr
+  ids:
+    ref: JOS 13:22!4
+    wordID: o060130220041
+  translation:
+    english: Beor
+    mandarin: 比珥
+    gloss: of.Beor
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: בְּעוֹר
+    strong: '1160'
+  semantic:
+    sdbh:
+    - '001075001002000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: βεωρ
+- position: 6
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: JOS 13:22!5
+    wordID: o060130220051
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 7
+  text: קּוֹסֵ֑ם
+  lemma: קָסַם
+  transliteration: qqôsēm
+  ids:
+    ref: JOS 13:22!5
+    wordID: o060130220052
+  translation:
+    english: practiced divination
+    mandarin: 占卜者
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: קָסַם
+    strong: '7080'
+  semantic:
+    sdbh:
+    - '006517001001000'
+    lexdomain:
+    - 002003003008
+    coredomain:
+    - '104'
+    sense: '1'
+  lxx:
+    text: μάντιν
+  syntax:
+    frame: A0:060130220021;
+  discourse:
+    subject: '060130220021'
+- position: 8
+  text: הָרְג֧וּ
+  lemma: הָרַג
+  transliteration: hārəḡû
+  ids:
+    ref: JOS 13:22!6
+    wordID: o060130220061
+  translation:
+    english: killed
+    mandarin: 杀
+    gloss: they.killed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָרַג
+    strong: '2026'
+  semantic:
+    sdbh:
+    - 001873001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    sense: '1'
+  lxx:
+    text: ἀπέκτειναν
+    strong: '615'
+  syntax:
+    role: v
+    frame: A1:060130220021; A0:060130220071;
+- position: 9
+  text: בְנֵֽי
+  lemma: בֵּן
+  transliteration: ḇənēy-
+  ids:
+    ref: JOS 13:22!7
+    wordID: o060130220071
+  translation:
+    english: sons
+    mandarin: 人
+    gloss: the.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '2'
+- position: 10
+  text: יִשְׂרָאֵ֛ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: JOS 13:22!8
+    wordID: o060130220081
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+- position: 11
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: JOS 13:22!9
+    wordID: o060130220091
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 12
+  text: חֶ֖רֶב
+  lemma: חֶרֶב
+  transliteration: ḥereḇ
+  ids:
+    ref: JOS 13:22!9
+    wordID: o060130220092
+  translation:
+    english: sword
+    mandarin: 刀
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶרֶב
+    strong: '2719'
+  semantic:
+    sdbh:
+    - '002505001002000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    - '188'
+    sense: '1'
+- position: 13
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: JOS 13:22!10
+    wordID: o060130220101
+  translation:
+    english: among
+    mandarin: 在~中
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 14
+  text: חַלְלֵי
+  lemma: חָלָל
+  transliteration: ''
+  ids:
+    ref: JOS 13:22!11
+    wordID: o060130220111
+  translation:
+    english: slain
+    mandarin: 所杀的人
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampc
+    gender: masculine
+    number: plural
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: חָלָל
+    strong: '2491'
+  semantic:
+    sdbh:
+    - '002300001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - 019
+    - '006'
+    - 099
+    sense: '1'
+- position: 15
+  text: הֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 13:22!11
+    wordID: o060130220112
+  translation:
+    english: their
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '002300001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - 019
+    - '006'
+    - 099
+  discourse:
+    participant: '060130220071'

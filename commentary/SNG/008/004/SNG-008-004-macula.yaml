@@ -1,0 +1,462 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: SNG 8:4
+text: הִשְׁבַּ֥עְתִּי אֶתְכֶ֖ם בְּנ֣וֹת יְרוּשָׁלִָ֑ם מַה־תָּעִ֧ירוּ׀וּֽמַה־תְּעֹֽרְר֛וּ
+  אֶת־הָאַהֲבָ֖ה עַ֥ד שֶׁתֶּחְפָּֽץ׃ס
+words:
+- position: 1
+  text: בְּנ֣וֹת
+  lemma: בַּת
+  transliteration: bənôṯ
+  ids:
+    ref: SNG 8:4!3
+    wordID: o220080040031
+  translation:
+    english: daughters
+    mandarin: 女子
+    gloss: O.daughters
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּת
+    strong: '1323'
+  semantic:
+    sdbh:
+    - '001220001002000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    sense: '1'
+  lxx:
+    text: θυγατέρες
+    strong: '2364'
+- position: 2
+  text: יְרוּשָׁלִָ֑ם
+  lemma: יְרוּשָׁלִַ͏ם
+  transliteration: yərûšālāim
+  ids:
+    ref: SNG 8:4!4
+    wordID: o220080040041
+  translation:
+    english: Jerusalem
+    mandarin: 耶路撒冷
+    gloss: of.Jerusalem
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְרוּשָׁלִַ͏ם
+    strong: '3389'
+  semantic:
+    sdbh:
+    - 003099001001000
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: ιερουσαλημ
+    strong: '2414'
+- position: 3
+  text: הִשְׁבַּ֥עְתִּי
+  lemma: שָׁבַע
+  transliteration: hišbaʿətî
+  ids:
+    ref: SNG 8:4!1
+    wordID: o220080040011
+  translation:
+    english: adjure
+    mandarin: 嘱咐
+    gloss: I.adjure
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: שָׁבַע
+    strong: '7650'
+  semantic:
+    sdbh:
+    - 007178001002000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '041'
+    - '118'
+    sense: '2'
+  lxx:
+    text: ὥρκισα
+  syntax:
+    role: v
+    frame: AA:220070020051; A0:220080040022; A1:220080040061;220080040081;
+  discourse:
+    subject: '220070020051'
+- position: 4
+  text: אֶתְ
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: SNG 8:4!2
+    wordID: o220080040021
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: כֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: SNG 8:4!2
+    wordID: o220080040022
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: '220080040031'
+- position: 6
+  text: מַה
+  lemma: מָה
+  transliteration: mah-
+  ids:
+    ref: SNG 8:4!5
+    wordID: o220080040051
+  translation:
+    english: that
+    mandarin: 怎么
+    gloss: why?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: adv
+- position: 7
+  text: תָּעִ֧ירוּ
+  lemma: עוּר
+  transliteration: tāʿiyrû
+  ids:
+    ref: SNG 8:4!6
+    wordID: o220080040061
+  translation:
+    english: arouse
+    mandarin: 惊动
+    gloss: will.you.awaken
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: עוּר
+    strong: '5782'
+  semantic:
+    sdbh:
+    - 005308001005000
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: ἐγείρητε
+  syntax:
+    role: v
+    frame: AA:220080040031; A0:220080040102;
+  discourse:
+    subject: '220080040031'
+- position: 8
+  text: וּֽ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: SNG 8:4!7
+    wordID: o220080040071
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: מַה
+  lemma: מָה
+  transliteration: mah-
+  ids:
+    ref: SNG 8:4!7
+    wordID: o220080040072
+  translation:
+    english: not
+    mandarin: 怎么~呢
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: adv
+- position: 10
+  text: תְּעֹֽרְר֛וּ
+  lemma: עוּר
+  transliteration: təʿōrərû
+  ids:
+    ref: SNG 8:4!8
+    wordID: o220080040081
+  translation:
+    english: awaken
+    mandarin: 挑起
+    gloss: will.you.arouse
+  morphology:
+    class: verb
+    pos: verb
+    morph: Voi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: polel
+    type: yiqtol
+  lexical:
+    stronglemma: עוּר
+    strong: '5782'
+  semantic:
+    sdbh:
+    - 005308001005000
+    lexdomain:
+    - '002002003003'
+    sense: '3'
+  lxx:
+    text: ἐχεγείρητε
+  syntax:
+    role: v
+    frame: A0:220080040031; A1:220080040102;
+  discourse:
+    subject: '220080040031'
+- position: 11
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: SNG 8:4!9
+    wordID: o220080040091
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: SNG 8:4!10
+    wordID: o220080040101
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 13
+  text: אַהֲבָ֖ה
+  lemma: אַהֲבָה
+  transliteration: ʾahăḇāh
+  ids:
+    ref: SNG 8:4!10
+    wordID: o220080040102
+  translation:
+    english: love
+    mandarin: 爱情
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אַהֲבָה
+    strong: '0160'
+  semantic:
+    sdbh:
+    - 000159001001000
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+    sense: '1'
+  lxx:
+    text: ἀγάπην
+    strong: '26'
+- position: 14
+  text: עַ֥ד
+  lemma: עַד
+  transliteration: ʿaḏ
+  ids:
+    ref: SNG 8:4!11
+    wordID: o220080040111
+  translation:
+    english: until
+    mandarin: 等
+    gloss: until
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001003000'
+    lexdomain:
+    - '002002003'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 15
+  text: שֶׁ
+  lemma: שֶׁ
+  transliteration: še
+  ids:
+    ref: SNG 8:4!12
+    wordID: o220080040121
+  translation:
+    english: that
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: שֶׁ
+    strong: 7578a
+- position: 16
+  text: תֶּחְפָּֽץ
+  lemma: חָפֵץ
+  transliteration: 'teḥpāṣ:'
+  ids:
+    ref: SNG 8:4!12
+    wordID: o220080040122
+  translation:
+    english: pleases
+    mandarin: 自发
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָפֵץ
+    strong: '2654'
+  semantic:
+    sdbh:
+    - '002445001003000'
+    lexdomain:
+    - 002001002028
+    coredomain:
+    - '197'
+    sense: '2'
+  lxx:
+    text: θελήσῃ
+    strong: '2309'
+  syntax:
+    role: v
+    frame: A0:220080040102;
+  discourse:
+    subject: '220080040102'

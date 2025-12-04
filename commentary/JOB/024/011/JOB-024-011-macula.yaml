@@ -1,0 +1,256 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 24:11
+text: בֵּין־שׁוּרֹתָ֥ם יַצְהִ֑ירוּ יְקָבִ֥ים דָּ֝רְכ֗וּ וַיִּצְמָֽאוּ׃
+words:
+- position: 1
+  text: בֵּין
+  lemma: בֵּין
+  transliteration: bên-
+  ids:
+    ref: JOB 24:11!1
+    wordID: o180240110011
+  translation:
+    english: between
+    mandarin: 在~内
+    gloss: between
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בֵּין
+    strong: 0996
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 2
+  text: שׁוּרֹתָ֥
+  lemma: שׁוּרָה
+  transliteration: ''
+  ids:
+    ref: JOB 24:11!2
+    wordID: o180240110021
+  translation:
+    english: terraces
+    mandarin: 围墙
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שׁוּרָה
+    strong: 7791a
+  semantic:
+    sdbh:
+    - '007271001001000'
+    lexdomain:
+    - '002002001001'
+    coredomain:
+    - '007'
+    sense: '1'
+  lxx:
+    text: στενοῖς
+- position: 3
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 24:11!2
+    wordID: o180240110022
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '007271001001000'
+    lexdomain:
+    - '002002001001'
+    coredomain:
+    - '007'
+  lxx:
+    text: ἀδίκως
+    strong: '95'
+  discourse:
+    participant: '180240060061'
+- position: 4
+  text: יַצְהִ֑ירוּ
+  lemma: צָהַר
+  transliteration: yaṣhiyrû
+  ids:
+    ref: JOB 24:11!3
+    wordID: o180240110031
+  translation:
+    english: press out oil
+    mandarin: 榨油
+    gloss: they.press.out.oil
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: צָהַר
+    strong: '6671'
+  semantic:
+    sdbh:
+    - '006136001001000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '007'
+    sense: '1'
+  lxx:
+    text: ἐνήδρευσαν
+  syntax:
+    role: v
+    frame: A0:180240090051;
+  discourse:
+    subject: '180240090051'
+- position: 5
+  text: יְקָבִ֥ים
+  lemma: יֶקֶב
+  transliteration: yəqāḇiym
+  ids:
+    ref: JOB 24:11!4
+    wordID: o180240110041
+  translation:
+    english: winepresses
+    mandarin: 酒池
+    gloss: winepresses
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יֶקֶב
+    strong: '3342'
+  semantic:
+    sdbh:
+    - '003053001002000'
+    lexdomain:
+    - '001005001'
+    coredomain:
+    - '027'
+    - '007'
+    sense: '1'
+  syntax:
+    role: o
+- position: 6
+  text: דָּ֝רְכ֗וּ
+  lemma: דָּרַךְ
+  transliteration: dārəḵû
+  ids:
+    ref: JOB 24:11!5
+    wordID: o180240110051
+  translation:
+    english: tread
+    mandarin: 踹
+    gloss: they.tread
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: דָּרַךְ
+    strong: '1869'
+  semantic:
+    sdbh:
+    - 001718001004000
+    lexdomain:
+    - '002001001023'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:180240090051; A1:180240110041;
+  discourse:
+    subject: '180240090051'
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: JOB 24:11!6
+    wordID: o180240110061
+  translation:
+    english: yet
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὐκ
+    strong: '3756'
+- position: 8
+  text: יִּצְמָֽאוּ
+  lemma: צָמֵא
+  transliteration: 'yyiṣmāʾû:'
+  ids:
+    ref: JOB 24:11!6
+    wordID: o180240110062
+  translation:
+    english: suffer thirst
+    mandarin: 口渴
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: צָמֵא
+    strong: '6770'
+  semantic:
+    sdbh:
+    - '006226001001000'
+    lexdomain:
+    - '002004001001003'
+    coredomain:
+    - 019
+    - '101'
+    - '196'
+    sense: '2'
+  lxx:
+    text: ᾔδεισαν
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:180240090051;
+  discourse:
+    subject: '180240090051'

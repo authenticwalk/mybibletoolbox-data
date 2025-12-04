@@ -1,0 +1,274 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 3:2
+text: יְ֭הוָה מָֽה־רַבּ֣וּ צָרָ֑י רַ֝בִּ֗ים קָמִ֥ים עָלָֽי׃
+words:
+- position: 1
+  text: יְ֭הוָה
+  lemma: יהוה
+  transliteration: yhwh
+  ids:
+    ref: PSA 3:2!1
+    wordID: o190030020011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: מָֽה
+  lemma: מָה
+  transliteration: māh-
+  ids:
+    ref: PSA 3:2!2
+    wordID: o190030020021
+  translation:
+    english: how
+    mandarin: 何其
+    gloss: how!
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: adv
+- position: 3
+  text: רַבּ֣וּ
+  lemma: רָבַב
+  transliteration: rabû
+  ids:
+    ref: PSA 3:2!3
+    wordID: o190030020031
+  translation:
+    english: many
+    mandarin: 多
+    gloss: they.are.many
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רָבַב
+    strong: '7231'
+  semantic:
+    sdbh:
+    - '006656001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '1'
+  lxx:
+    text: ἐπληθύνθησαν
+    strong: '4129'
+  syntax:
+    role: v
+    frame: A0:190030020041;
+- position: 4
+  text: צָרָ֑
+  lemma: צַר
+  transliteration: ''
+  ids:
+    ref: PSA 3:2!4
+    wordID: o190030020041
+  translation:
+    english: foes
+    mandarin: 敌人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: צַר
+    strong: 6862a
+  semantic:
+    sdbh:
+    - '006315001004000'
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '196'
+    - '006'
+    - 082
+    sense: '1'
+- position: 5
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 3:2!4
+    wordID: o190030020042
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '006315001004000'
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '196'
+    - '006'
+    - 082
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '190030010022'
+- position: 6
+  text: רַ֝בִּ֗ים
+  lemma: רַב
+  transliteration: rabbiym
+  ids:
+    ref: PSA 3:2!5
+    wordID: o190030020051
+  translation:
+    english: many
+    mandarin: 许多
+    gloss: many.[people]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001002000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '1'
+  lxx:
+    text: πολλοὶ
+    strong: '4183'
+  syntax:
+    role: s
+- position: 7
+  text: קָמִ֥ים
+  lemma: קוּם
+  transliteration: qāmiym
+  ids:
+    ref: PSA 3:2!6
+    wordID: o190030020061
+  translation:
+    english: rising
+    mandarin: 起来
+    gloss: '[are].rising.up'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: קוּם
+    strong: '6965'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπανίστανται
+  syntax:
+    role: v
+    frame: A0:190030020051;
+- position: 8
+  text: עָלָֽ
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: PSA 3:2!7
+    wordID: o190030020071
+  translation:
+    english: against
+    mandarin: 攻击
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπ’
+    strong: '1909'
+- position: 9
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 3:2!7
+    wordID: o190030020072
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμέ
+    strong: '1691'
+  discourse:
+    participant: '190030010022'

@@ -1,0 +1,232 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 5:2
+text: לִשְׁמֹ֥ר מְזִמּ֑וֹת וְ֝דַ֗עַת שְׂפָתֶ֥יךָ יִנְצֹֽרוּ׃
+words:
+- position: 1
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: PRO 5:2!1
+    wordID: o200050020011
+  translation:
+    english: so that
+    mandarin: 好
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: ἵνα
+    strong: '2443'
+- position: 2
+  text: שְׁמֹ֥ר
+  lemma: שָׁמַר
+  transliteration: šəmōr
+  ids:
+    ref: PRO 5:2!1
+    wordID: o200050020012
+  translation:
+    english: maintain
+    mandarin: 谨守
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001003000
+    lexdomain:
+    - '002002003001'
+    sense: '1'
+  lxx:
+    text: φυλάχῃς
+    strong: '5442'
+  syntax:
+    role: v
+    frame: A0:200050010011; A1:200050020021;
+  discourse:
+    subject: '200050010011'
+- position: 3
+  text: מְזִמּ֑וֹת
+  lemma: מְזִמָּה
+  transliteration: məzimmôṯ
+  ids:
+    ref: PRO 5:2!2
+    wordID: o200050020021
+  translation:
+    english: discretion
+    mandarin: 谋略
+    gloss: discretion
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מְזִמָּה
+    strong: '4209'
+  semantic:
+    sdbh:
+    - 003841001002000
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: ἔννοιαν
+    strong: '1771'
+  syntax:
+    role: o
+- position: 4
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 5:2!3
+    wordID: o200050020031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 5
+  text: דַ֗עַת
+  lemma: דַּעַת
+  transliteration: ḏaʿaṯ
+  ids:
+    ref: PRO 5:2!3
+    wordID: o200050020032
+  translation:
+    english: knowledge
+    mandarin: 知识
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דַּעַת
+    strong: '1847'
+  semantic:
+    sdbh:
+    - '001700001004000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '106'
+    - '199'
+    sense: '1'
+  lxx:
+    text: αἴσθησιν
+    strong: '144'
+  syntax:
+    role: o
+- position: 6
+  text: שְׂפָתֶ֥י
+  lemma: שָׂפָה
+  transliteration: ''
+  ids:
+    ref: PRO 5:2!4
+    wordID: o200050020041
+  translation:
+    english: lips
+    mandarin: 嘴唇
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfdc
+    gender: feminine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שָׂפָה
+    strong: '8193'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ξειλέων
+    strong: '5491'
+- position: 7
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 5:2!4
+    wordID: o200050020042
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: ἐμῶν
+    strong: '1699'
+  discourse:
+    participant: '200050010011'
+- position: 8
+  text: יִנְצֹֽרוּ
+  lemma: נָצַר
+  transliteration: 'yinṣōrû:'
+  ids:
+    ref: PRO 5:2!5
+    wordID: o200050020051
+  translation:
+    english: guard
+    mandarin: 恪守住
+    gloss: they.will.observe
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָצַר
+    strong: '5341'
+  semantic:
+    sdbh:
+    - 004893001004000
+    lexdomain:
+    - '002002003001'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:200050020032; A0:200050020041;

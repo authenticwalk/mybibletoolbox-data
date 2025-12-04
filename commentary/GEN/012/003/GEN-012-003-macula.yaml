@@ -1,0 +1,467 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 12:3
+text: וַאֲבָֽרֲכָה֙ מְבָ֣רְכֶ֔יךָ וּמְקַלֶּלְךָ֖ אָאֹ֑ר וְנִבְרְכ֣וּ בְךָ֔ כֹּ֖ל מִשְׁפְּחֹ֥ת
+  הָאֲדָמָֽה׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 12:3!1
+    wordID: o010120030011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אֲבָֽרֲכָה֙
+  lemma: בָּרַךְ
+  transliteration: ʾăḇārăḵāh
+  ids:
+    ref: GEN 12:3!1
+    wordID: o010120030012
+  translation:
+    english: bless
+    mandarin: 赐福
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλογήσω
+    strong: '2127'
+  syntax:
+    role: v
+    frame: A0:010120010021; A1:010120030021;
+  discourse:
+    subject: '010120010021'
+- position: 3
+  text: מְבָ֣רְכֶ֔י
+  lemma: בָּרַךְ
+  transliteration: ''
+  ids:
+    ref: GEN 12:3!2
+    wordID: o010120030021
+  translation:
+    english: bless
+    mandarin: 祝福
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  syntax:
+    frame: A1:010120030022;
+- position: 4
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 12:3!2
+    wordID: o010120030022
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+  lxx:
+    text: σε
+    strong: '4571'
+  discourse:
+    participant: '010120010041'
+- position: 5
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: GEN 12:3!3
+    wordID: o010120030031
+  translation:
+    english: and
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: מְקַלֶּלְ
+  lemma: קָלַל
+  transliteration: ''
+  ids:
+    ref: GEN 12:3!3
+    wordID: o010120030032
+  translation:
+    english: curses
+    mandarin: 咒诅
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: קָלַל
+    strong: '7043'
+  semantic:
+    sdbh:
+    - 006482001006000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+    sense: '1'
+  syntax:
+    frame: A1:010120030033;
+- position: 7
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 12:3!3
+    wordID: o010120030033
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 006482001006000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+  lxx:
+    text: σε
+    strong: '4571'
+  discourse:
+    participant: '010120010041'
+- position: 8
+  text: אָאֹ֑ר
+  lemma: אָרַר
+  transliteration: ʾāʾōr
+  ids:
+    ref: GEN 12:3!4
+    wordID: o010120030041
+  translation:
+    english: curse
+    mandarin: 诅咒
+    gloss: I.will.curse
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָרַר
+    strong: 0779
+  semantic:
+    sdbh:
+    - 000718001001000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+    sense: '1'
+  lxx:
+    text: καταράσομαι
+  syntax:
+    role: v
+    frame: A0:010120010021; A1:010120030032;
+  discourse:
+    subject: '010120010021'
+- position: 9
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 12:3!5
+    wordID: o010120030051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: נִבְרְכ֣וּ
+  lemma: בָּרַךְ
+  transliteration: niḇrəḵû
+  ids:
+    ref: GEN 12:3!5
+    wordID: o010120030052
+  translation:
+    english: blessed
+    mandarin: 得福
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002001000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '2'
+  lxx:
+    text: ἐνευλογηθήσονται
+    strong: '1757'
+  syntax:
+    role: v
+    frame: A1:010120030081;
+- position: 11
+  text: בְ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: GEN 12:3!6
+    wordID: o010120030061
+  translation:
+    english: in
+    mandarin: 因
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 12
+  text: ךָ֔
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 12:3!6
+    wordID: o010120030062
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοὶ
+    strong: '4671'
+  discourse:
+    participant: '010120010041'
+- position: 13
+  text: כֹּ֖ל
+  lemma: כֹּל
+  transliteration: kōl
+  ids:
+    ref: GEN 12:3!7
+    wordID: o010120030071
+  translation:
+    english: all
+    mandarin: 万
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσαι
+    strong: '3956'
+- position: 14
+  text: מִשְׁפְּחֹ֥ת
+  lemma: מִשְׁפָּחָה
+  transliteration: mišpəḥōṯ
+  ids:
+    ref: GEN 12:3!8
+    wordID: o010120030081
+  translation:
+    english: families
+    mandarin: 宗族
+    gloss: the.clans
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִשְׁפָּחָה
+    strong: '4940'
+  semantic:
+    sdbh:
+    - '004527001001000'
+    lexdomain:
+    - '001001002003004'
+    sense: '1'
+- position: 15
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: GEN 12:3!9
+    wordID: o010120030091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τῆς
+    strong: '3588'
+- position: 16
+  text: אֲדָמָֽה
+  lemma: אֲדָמָה
+  transliteration: 'ʾăḏāmāh:'
+  ids:
+    ref: GEN 12:3!9
+    wordID: o010120030092
+  translation:
+    english: earth
+    mandarin: 地上
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֲדָמָה
+    strong: '0127'
+  semantic:
+    sdbh:
+    - 000128001001000
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - 097
+    sense: '1'
+  lxx:
+    text: γῆς
+    strong: '1093'

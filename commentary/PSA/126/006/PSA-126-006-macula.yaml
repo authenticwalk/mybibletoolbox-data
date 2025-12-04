@@ -1,0 +1,459 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 126:6
+text: הָ֘ל֤וֹךְ יֵלֵ֨ךְ׀וּבָכֹה֮ נֹשֵׂ֪א מֶֽשֶׁךְ־הַ֫זָּ֥רַע בֹּֽ֬א־יָב֥וֹאבְרִנָּ֑ה
+  נֹ֝שֵׂ֗א אֲלֻמֹּתָֽיו׃
+words:
+- position: 1
+  text: יֵלֵ֨ךְ
+  lemma: הלך
+  transliteration: yēlēḵə
+  ids:
+    ref: PSA 126:6!2
+    wordID: o191260060021
+  translation:
+    english: goes out
+    mandarin: 出去
+    gloss: he.will.go
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הלך
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001002000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+    sense: '23'
+  lxx:
+    text: ἐπορεύοντο
+    strong: '4198'
+  syntax:
+    role: v
+    frame: A0:191260050012;
+  discourse:
+    subject: '191260050012'
+- position: 2
+  text: הָ֘ל֤וֹךְ
+  lemma: הָלַךְ
+  transliteration: hālôḵ
+  ids:
+    ref: PSA 126:6!1
+    wordID: o191260060011
+  translation:
+    english: to go out
+    mandarin: 走去
+    gloss: going
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqa
+    stem: qal
+    type: infinitive absolute
+  lexical:
+    stronglemma: הָלַךְ
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001002000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+    sense: '23'
+  lxx:
+    text: πορευόμενοι
+    strong: '4198'
+  discourse:
+    subject: '191260050012'
+- position: 3
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 126:6!3
+    wordID: o191260060031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: בָכֹה֮
+  lemma: בָּכָה
+  transliteration: ḇāḵōh
+  ids:
+    ref: PSA 126:6!3
+    wordID: o191260060032
+  translation:
+    english: weeping
+    mandarin: 流泪
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqa
+    stem: qal
+    type: infinitive absolute
+  lexical:
+    stronglemma: בָּכָה
+    strong: '1058'
+  semantic:
+    sdbh:
+    - 000982001001000
+    lexdomain:
+    - '002001002013'
+    coredomain:
+    - 019
+    - '194'
+    - 093
+    - '196'
+  lxx:
+    text: ἔκλαιον
+    strong: '2799'
+  discourse:
+    subject: '191260050012'
+- position: 5
+  text: נֹשֵׂ֪א
+  lemma: נָשָׂא
+  transliteration: nōśēʾ
+  ids:
+    ref: PSA 126:6!4
+    wordID: o191260060041
+  translation:
+    english: carrying
+    mandarin: 带
+    gloss: carrying
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001006000
+    lexdomain:
+    - '002003001010'
+    coredomain:
+    - 019
+    sense: '2'
+  lxx:
+    text: αἴροντες
+    strong: '142'
+  syntax:
+    role: v
+    frame: A0:191260050012; A1:191260060051;
+  discourse:
+    subject: '191260050012'
+- position: 6
+  text: מֶֽשֶׁךְ
+  lemma: מֶשֶׁךְ
+  transliteration: mešeḵ-
+  ids:
+    ref: PSA 126:6!5
+    wordID: o191260060051
+  translation:
+    english: bag
+    mandarin: 种子
+    gloss: (the).bag
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מֶשֶׁךְ
+    strong: '4901'
+  semantic:
+    sdbh:
+    - 004488001001000
+    lexdomain:
+    - '001004001003'
+    coredomain:
+    - '027'
+    - '171'
+    sense: '1'
+- position: 7
+  text: הַ֫
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 126:6!6
+    wordID: o191260060061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰ
+    strong: '3588'
+- position: 8
+  text: זָּ֥רַע
+  lemma: זֶרַע
+  transliteration: zzāraʿ
+  ids:
+    ref: PSA 126:6!6
+    wordID: o191260060062
+  translation:
+    english: seed
+    mandarin: 种子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: זֶרַע
+    strong: '2233'
+  semantic:
+    sdbh:
+    - '002061001001000'
+    lexdomain:
+    - '001003001'
+    coredomain:
+    - '125'
+    sense: '1'
+- position: 9
+  text: בֹּֽ֬א
+  lemma: בּוֹא
+  transliteration: bōʾ-
+  ids:
+    ref: PSA 126:6!7
+    wordID: o191260060071
+  translation:
+    english: to return
+    mandarin: 来
+    gloss: certainly.(come)
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqa
+    stem: qal
+    type: infinitive absolute
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  lxx:
+    text: ἐρξόμενοι
+    strong: '2064'
+  syntax:
+    role: adv
+- position: 10
+  text: יָב֥וֹא
+  lemma: בּוֹא
+  transliteration: yāḇôʾ
+  ids:
+    ref: PSA 126:6!8
+    wordID: o191260060081
+  translation:
+    english: return
+    mandarin: 回来
+    gloss: he.will.come
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἥχουσιν
+    strong: '2240'
+  syntax:
+    role: v
+    frame: A0:191260050012;
+  discourse:
+    subject: '191260050012'
+- position: 11
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 126:6!9
+    wordID: o191260060091
+  translation:
+    english: with
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 12
+  text: רִנָּ֑ה
+  lemma: רִנָּה
+  transliteration: rinnāh
+  ids:
+    ref: PSA 126:6!9
+    wordID: o191260060092
+  translation:
+    english: shouts of joy
+    mandarin: 欢唱
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רִנָּה
+    strong: '7440'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀγαλλιάσει
+    strong: '20'
+- position: 13
+  text: נֹ֝שֵׂ֗א
+  lemma: נָשָׂא
+  transliteration: nōśēʾ
+  ids:
+    ref: PSA 126:6!10
+    wordID: o191260060101
+  translation:
+    english: carrying
+    mandarin: 带
+    gloss: carrying
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001006000
+    lexdomain:
+    - '002003001010'
+    coredomain:
+    - 019
+    sense: '2'
+  lxx:
+    text: αἴροντες
+    strong: '142'
+  syntax:
+    role: v
+    frame: A0:191260050012; A1:191260060111;
+  discourse:
+    subject: '191260050012'
+- position: 14
+  text: אֲלֻמֹּתָֽי
+  lemma: אֲלֻמָה
+  transliteration: ''
+  ids:
+    ref: PSA 126:6!11
+    wordID: o191260060111
+  translation:
+    english: sheaves
+    mandarin: 禾捆
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֲלֻמָה
+    strong: 0485
+  semantic:
+    sdbh:
+    - 000449001001000
+    lexdomain:
+    - '002003001002'
+    coredomain:
+    - '125'
+    - '007'
+    sense: '1'
+  lxx:
+    text: δράγματα
+- position: 15
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 126:6!11
+    wordID: o191260060112
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 000449001001000
+    lexdomain:
+    - '002003001002'
+    coredomain:
+    - '125'
+    - '007'
+  discourse:
+    participant: '191260050012'

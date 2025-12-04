@@ -1,0 +1,273 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: HOS 6:7
+text: וְהֵ֕מָּה כְּאָדָ֖ם עָבְר֣וּ בְרִ֑ית שָׁ֖ם בָּ֥גְדוּ בִֽי׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: HOS 6:7!1
+    wordID: o280060070011
+  translation:
+    english: but
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: הֵ֕מָּה
+  lemma: הֵמָּה
+  transliteration: hēmmâ
+  ids:
+    ref: HOS 6:7!1
+    wordID: o280060070012
+  translation:
+    english: they
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: 280060040041 280060040081
+- position: 3
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: HOS 6:7!2
+    wordID: o280060070021
+  translation:
+    english: like
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 4
+  text: אָדָ֖ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: HOS 6:7!2
+    wordID: o280060070022
+  translation:
+    english: Adam
+    mandarin: 亚当
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אָדָם
+    strong: '0121'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    - '000124002001000'
+    - '000124002002000'
+    - 000129001001000
+    lexdomain:
+    - '001001002003'
+    - '003001007'
+    - '003001010'
+    - '003001010'
+  lxx:
+    text: ἄνθρωπος
+    strong: '444'
+- position: 5
+  text: עָבְר֣וּ
+  lemma: עָבַר
+  transliteration: ʿāḇərû
+  ids:
+    ref: HOS 6:7!3
+    wordID: o280060070031
+  translation:
+    english: transgressed
+    mandarin: 违背
+    gloss: they.have.transgressed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '4'
+  lxx:
+    text: παραβαίνων
+  syntax:
+    role: v
+    frame: A0:280060070012;
+- position: 6
+  text: בְרִ֑ית
+  lemma: בְּרִית
+  transliteration: ḇəriyṯ
+  ids:
+    ref: HOS 6:7!4
+    wordID: o280060070041
+  translation:
+    english: covenant
+    mandarin: 约
+    gloss: '[the].covenant'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּרִית
+    strong: '1285'
+  semantic:
+    sdbh:
+    - 001185001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '046'
+    sense: '1'
+  lxx:
+    text: διαθήκην
+    strong: '1242'
+  syntax:
+    role: adv
+- position: 7
+  text: שָׁ֖ם
+  lemma: שָׁם
+  transliteration: šām
+  ids:
+    ref: HOS 6:7!5
+    wordID: o280060070051
+  translation:
+    english: there
+    mandarin: 在那里
+    gloss: there
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  lxx:
+    text: ἐκεῖ
+    strong: '1563'
+  syntax:
+    role: adv
+- position: 8
+  text: בָּ֥גְדוּ
+  lemma: בָּגַד
+  transliteration: bāḡəḏû
+  ids:
+    ref: HOS 6:7!6
+    wordID: o280060070061
+  translation:
+    english: dealt faithlessly
+    mandarin: 背叛
+    gloss: they.dealt.treacherously
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּגַד
+    strong: 0898
+  semantic:
+    sdbh:
+    - 000834001001000
+    lexdomain:
+    - '002001002027'
+    coredomain:
+    - '061'
+    - 082
+    sense: '1'
+  lxx:
+    text: κατεφρόνησέν
+  syntax:
+    role: v
+    frame: A0:280060040041;280060040081;
+  discourse:
+    subject: 280060040041 280060040081
+- position: 9
+  text: בִֽ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: HOS 6:7!7
+    wordID: o280060070071
+  translation:
+    english: with
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 10
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 6:7!7
+    wordID: o280060070072
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '280060060071'

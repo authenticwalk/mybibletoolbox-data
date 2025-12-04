@@ -1,0 +1,160 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 18:17
+text: ἐὰν δὲ παρακούσῃ αὐτῶν, εἰπὸν τῇ ἐκκλησίᾳ·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 18:17!2
+    wordID: n40018017002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: MAT 18:17!1
+    wordID: n40018017001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
+- position: 3
+  text: παρακούσῃ
+  lemma: παρακούω
+  normalized: παρακούσῃ
+  ids:
+    ref: MAT 18:17!3
+    wordID: n40018017003
+  translation:
+    gloss: he fails to listen
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '3878'
+  semantic:
+    semanticDomain: '036003'
+    ln: '36.27'
+  syntax:
+    role: v
+    frame: A0:n40018015020 A1:n40018017004
+  discourse:
+    subject: n40018015020
+- position: 4
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: MAT 18:17!4
+    wordID: n40018017004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40018016016
+- position: 5
+  text: εἰπὸν
+  lemma: λέγω
+  normalized: εἰπόν
+  ids:
+    ref: MAT 18:17!5
+    wordID: n40018017005
+  translation:
+    gloss: tell [it]
+  morphology:
+    class: verb
+    morph: V-2AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:n40018001007 A2:n40018017007
+  discourse:
+    subject: n40018001007
+- position: 6
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: MAT 18:17!6
+    wordID: n40018017006
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ἐκκλησίᾳ
+  lemma: ἐκκλησία
+  normalized: ἐκκλησίᾳ
+  ids:
+    ref: MAT 18:17!7
+    wordID: n40018017007
+  translation:
+    gloss: church
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '1577'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.32'

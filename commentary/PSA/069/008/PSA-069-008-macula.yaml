@@ -1,0 +1,265 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 69:8
+text: כִּֽי־עָ֭לֶיךָ נָשָׂ֣אתִי חֶרְפָּ֑ה כִּסְּתָ֖ה כְלִמָּ֣ה פָנָֽי׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 69:8!1
+    wordID: o190690080011
+  translation:
+    english: for
+    mandarin: 因
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: עָ֭לֶי
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: PSA 69:8!2
+    wordID: o190690080021
+  translation:
+    english: for ~ sake
+    mandarin: 为~的缘故
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἕνεκα
+    strong: '1752'
+- position: 3
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 69:8!2
+    wordID: o190690080022
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοῦ
+    strong: '4675'
+  discourse:
+    participant: '190690070121'
+- position: 4
+  text: נָשָׂ֣אתִי
+  lemma: נָשָׂא
+  transliteration: nāśāʾṯî
+  ids:
+    ref: PSA 69:8!3
+    wordID: o190690080031
+  translation:
+    english: borne
+    mandarin: 受
+    gloss: I.have.borne
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001018000
+    lexdomain:
+    - '002003003010'
+    sense: '3'
+  lxx:
+    text: ὑπήνεγκα
+    strong: '5297'
+  syntax:
+    role: v
+    frame: A0:190690010042; A1:190690080041;
+  discourse:
+    subject: '190690010042'
+- position: 5
+  text: חֶרְפָּ֑ה
+  lemma: חֶרְפָּה
+  transliteration: ḥerpāh
+  ids:
+    ref: PSA 69:8!4
+    wordID: o190690080041
+  translation:
+    english: reproach
+    mandarin: 辱骂
+    gloss: reproach
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶרְפָּה
+    strong: '2781'
+  semantic:
+    sdbh:
+    - '002557001003000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ὀνειδισμόν
+  syntax:
+    role: o
+- position: 6
+  text: כִּסְּתָ֖ה
+  lemma: כָּסָה
+  transliteration: kissəṯāh
+  ids:
+    ref: PSA 69:8!5
+    wordID: o190690080051
+  translation:
+    english: covered
+    mandarin: 遮盖
+    gloss: it.has.covered
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: כָּסָה
+    strong: '3680'
+  semantic:
+    sdbh:
+    - '003365001010000'
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: ἐκάλυψεν
+    strong: '2572'
+  syntax:
+    role: v
+    frame: A0:190690080061; A1:190690080071;
+- position: 7
+  text: כְלִמָּ֣ה
+  lemma: כְּלִמָּה
+  transliteration: ḵəlimmāh
+  ids:
+    ref: PSA 69:8!6
+    wordID: o190690080061
+  translation:
+    english: shame
+    mandarin: 羞愧
+    gloss: ignominy
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כְּלִמָּה
+    strong: '3639'
+  semantic:
+    sdbh:
+    - '003333001001000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἐντροπὴ
+  syntax:
+    role: s
+- position: 8
+  text: פָנָֽ
+  lemma: פָּנֶה
+  transliteration: ''
+  ids:
+    ref: PSA 69:8!7
+    wordID: o190690080071
+  translation:
+    english: face
+    mandarin: 满面
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '2'
+  lxx:
+    text: πρόσωπόν
+    strong: '4383'
+- position: 9
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 69:8!7
+    wordID: o190690080072
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190690010042'

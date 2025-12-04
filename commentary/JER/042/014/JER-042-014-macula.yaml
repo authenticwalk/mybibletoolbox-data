@@ -1,0 +1,661 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 42:14
+text: לֵאמֹ֗ר לֹ֚א כִּ֣י אֶ֤רֶץ מִצְרַ֨יִם֙ נָב֔וֹא אֲשֶׁ֤ר לֹֽא־נִרְאֶה֙ מִלְחָמָ֔ה
+  וְק֥וֹל שׁוֹפָ֖ר לֹ֣א נִשְׁמָ֑ע וְלַלֶּ֥חֶם לֹֽא־נִרְעָ֖ב וְשָׁ֥ם נֵשֵֽׁב׃
+words:
+- position: 1
+  text: לֵ
+  lemma: לְ
+  transliteration: lē
+  ids:
+    ref: JER 42:14!1
+    wordID: o240420140011
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 2
+  text: אמֹ֗ר
+  lemma: אָמַר
+  transliteration: ʾmōr
+  ids:
+    ref: JER 42:14!1
+    wordID: o240420140012
+  translation:
+    english: saying
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:240420080031;240420080081;240420080132;
+  discourse:
+    subject: 240420080031 240420080081 240420080132
+- position: 3
+  text: לֹ֚א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: JER 42:14!2
+    wordID: o240420140021
+  translation:
+    english: 'no'
+    mandarin: 不
+    gloss: 'no'
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  syntax:
+    role: adv
+- position: 4
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: JER 42:14!3
+    wordID: o240420140031
+  translation:
+    english: instead
+    mandarin: 却
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 5
+  text: נָב֔וֹא
+  lemma: בּוֹא
+  transliteration: nāḇôʾ
+  ids:
+    ref: JER 42:14!6
+    wordID: o240420140061
+  translation:
+    english: go
+    mandarin: 去
+    gloss: we.will.go
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσελευσόμεθα
+  syntax:
+    role: v
+    frame: A0:240420080031;240420080081;240420080132;
+  discourse:
+    subject: 240420080031 240420080081 240420080132
+- position: 6
+  text: אֶ֤רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: JER 42:14!4
+    wordID: o240420140041
+  translation:
+    english: land
+    mandarin: 地
+    gloss: the.land
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆν
+    strong: '1093'
+- position: 7
+  text: מִצְרַ֨יִם֙
+  lemma: מִצְרַיִם
+  transliteration: miṣrayim
+  ids:
+    ref: JER 42:14!5
+    wordID: o240420140051
+  translation:
+    english: Egypt
+    mandarin: 埃及
+    gloss: of.Egypt
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτου
+    strong: '125'
+- position: 8
+  text: אֲשֶׁ֤ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: JER 42:14!7
+    wordID: o240420140071
+  translation:
+    english: where
+    mandarin: 那里
+    gloss: where
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: JER 42:14!8
+    wordID: o240420140081
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 10
+  text: נִרְאֶה֙
+  lemma: רָאָה
+  transliteration: nirʾeh
+  ids:
+    ref: JER 42:14!9
+    wordID: o240420140091
+  translation:
+    english: see
+    mandarin: 看~见
+    gloss: we.will.see
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ἴδωμεν
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:240420080031;240420080081;240420080132; A1:240420140101;
+  discourse:
+    subject: 240420080031 240420080081 240420080132
+- position: 11
+  text: מִלְחָמָ֔ה
+  lemma: מִלְחָמָה
+  transliteration: milḥāmāh
+  ids:
+    ref: JER 42:14!10
+    wordID: o240420140101
+  translation:
+    english: war
+    mandarin: 战争
+    gloss: warfare
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִלְחָמָה
+    strong: '4421'
+  semantic:
+    sdbh:
+    - 004039001001000
+    lexdomain:
+    - '002003002007'
+    coredomain:
+    - '188'
+    sense: '2'
+  lxx:
+    text: πόλεμον
+    strong: '4171'
+  syntax:
+    role: o
+- position: 12
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 42:14!11
+    wordID: o240420140111
+  translation:
+    english: or
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: ק֥וֹל
+  lemma: קוֹל
+  transliteration: qôl
+  ids:
+    ref: JER 42:14!11
+    wordID: o240420140112
+  translation:
+    english: sound
+    mandarin: 声
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קוֹל
+    strong: '6963'
+  semantic:
+    sense: '1'
+  lxx:
+    text: φωνὴν
+    strong: '5456'
+- position: 14
+  text: שׁוֹפָ֖ר
+  lemma: שֹׁופָר
+  transliteration: šôp̄ār
+  ids:
+    ref: JER 42:14!12
+    wordID: o240420140121
+  translation:
+    english: trumpet
+    mandarin: 号角
+    gloss: of.a.trumpet
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֹׁופָר
+    strong: '7782'
+  semantic:
+    sdbh:
+    - '007264001001000'
+    lexdomain:
+    - '001004001013'
+    sense: '1'
+  lxx:
+    text: σάλπιγγος
+    strong: '4536'
+- position: 15
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: JER 42:14!13
+    wordID: o240420140131
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 16
+  text: נִשְׁמָ֑ע
+  lemma: שָׁמַע
+  transliteration: nišmāʿ
+  ids:
+    ref: JER 42:14!14
+    wordID: o240420140141
+  translation:
+    english: hear
+    mandarin: 听~见
+    gloss: we.will.hear
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀκούσωμεν
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:240420080031;240420080081;240420080132; A1:240420140112;
+  discourse:
+    subject: 240420080031 240420080081 240420080132
+- position: 17
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 42:14!15
+    wordID: o240420140151
+  translation:
+    english: or
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 18
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: JER 42:14!15
+    wordID: o240420140152
+  translation:
+    english: for
+    mandarin: 因
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 19
+  text: לֶּ֥חֶם
+  lemma: לֶחֶם
+  transliteration: lleḥem
+  ids:
+    ref: JER 42:14!15
+    wordID: o240420140153
+  translation:
+    english: bread
+    mandarin: 粮食
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֶחֶם
+    strong: '3899'
+  semantic:
+    sdbh:
+    - '003565001001000'
+    lexdomain:
+    - '001004003001'
+    - '001004003'
+    sense: '1'
+  lxx:
+    text: ἄρτοις
+    strong: '740'
+- position: 20
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: JER 42:14!16
+    wordID: o240420140161
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 21
+  text: נִרְעָ֖ב
+  lemma: רָעֵב
+  transliteration: nirʿāḇ
+  ids:
+    ref: JER 42:14!17
+    wordID: o240420140171
+  translation:
+    english: hungry
+    mandarin: 挨饿
+    gloss: we.will.be.hungry
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: רָעֵב
+    strong: '7456'
+  semantic:
+    sdbh:
+    - 006849001001000
+    lexdomain:
+    - '002004001001002'
+    coredomain:
+    - 019
+    - 069
+    - '063'
+    - '196'
+    sense: '1'
+  lxx:
+    text: πεινάσωμεν
+  syntax:
+    role: v
+    frame: A0:240420080031;240420080081;240420080132;
+  discourse:
+    subject: 240420080031 240420080081 240420080132
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 42:14!18
+    wordID: o240420140181
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 23
+  text: שָׁ֥ם
+  lemma: שָׁם
+  transliteration: šām
+  ids:
+    ref: JER 42:14!18
+    wordID: o240420140182
+  translation:
+    english: there
+    mandarin: 那里
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  lxx:
+    text: ἐκεῖ
+    strong: '1563'
+  syntax:
+    role: adv
+- position: 24
+  text: נֵשֵֽׁב
+  lemma: יָשַׁב
+  transliteration: 'nēšēḇ:'
+  ids:
+    ref: JER 42:14!19
+    wordID: o240420140191
+  translation:
+    english: stay
+    mandarin: 住
+    gloss: we.will.dwell
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001011000'
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '1'
+  lxx:
+    text: οἰκήσομεν
+  syntax:
+    role: v
+    frame: A0:240420080031;240420080081;240420080132;
+  discourse:
+    subject: 240420080031 240420080081 240420080132

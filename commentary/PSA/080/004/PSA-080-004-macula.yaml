@@ -1,0 +1,279 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 80:4
+text: אֱלֹהִ֥ים הֲשִׁיבֵ֑נוּ וְהָאֵ֥ר פָּ֝נֶ֗יךָ וְנִוָּשֵֽׁעָה׃
+words:
+- position: 1
+  text: אֱלֹהִ֥ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 80:4!1
+    wordID: o190800040011
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: O.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 2
+  text: הֲשִׁיבֵ֑
+  lemma: שׁוּב
+  transliteration: ''
+  ids:
+    ref: PSA 80:4!2
+    wordID: o190800040021
+  translation:
+    english: restore
+    mandarin: 复兴
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - '007226001066000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '196'
+    sense: '8'
+  lxx:
+    text: ἐπίστρεψον
+    strong: '1994'
+  syntax:
+    role: v
+    frame: AA:190800040011; A0:190800040022;
+  discourse:
+    subject: '190800040011'
+- position: 3
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 80:4!2
+    wordID: o190800040022
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '007226001066000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '196'
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: 190800010052 190800020021
+- position: 4
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 80:4!3
+    wordID: o190800040031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: הָאֵ֥ר
+  lemma: אוֹר
+  transliteration: hāʾēr
+  ids:
+    ref: PSA 80:4!3
+    wordID: o190800040032
+  translation:
+    english: shine
+    mandarin: 发光
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: אוֹר
+    strong: '0215'
+  semantic:
+    sdbh:
+    - '000205001002000'
+    lexdomain:
+    - 002001001049
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: ἐπίφανον
+  syntax:
+    role: v
+    frame: AA:190800040011; A0:190800040041;
+  discourse:
+    subject: '190800040011'
+- position: 6
+  text: פָּ֝נֶ֗י
+  lemma: פָּנֶה
+  transliteration: ''
+  ids:
+    ref: PSA 80:4!4
+    wordID: o190800040041
+  translation:
+    english: face
+    mandarin: 脸
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '2'
+  lxx:
+    text: πρόσωπόν
+    strong: '4383'
+- position: 7
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 80:4!4
+    wordID: o190800040042
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190800040011'
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 80:4!5
+    wordID: o190800040051
+  translation:
+    english: that
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: נִוָּשֵֽׁעָה
+  lemma: יָשַׁע
+  transliteration: 'niwwāšēʿâ:'
+  ids:
+    ref: PSA 80:4!5
+    wordID: o190800040052
+  translation:
+    english: saved
+    mandarin: 得救
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: niphal
+    type: cohortative
+  lexical:
+    stronglemma: יָשַׁע
+    strong: '3467'
+  semantic:
+    sdbh:
+    - '003176001002000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: σωθησόμεθα
+    strong: '4982'
+  syntax:
+    role: v
+    frame: A1:190800010052;190800020021;
+  discourse:
+    subject: 190800010052 190800020021

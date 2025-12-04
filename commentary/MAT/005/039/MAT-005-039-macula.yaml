@@ -1,0 +1,183 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 5:39
+text: ἐγὼ δὲ λέγω ὑμῖν μὴ ἀντιστῆναι τῷ πονηρῷ·
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 5:39!2
+    wordID: n40005039002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: MAT 5:39!1
+    wordID: n40005039001
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n40004017005
+- position: 3
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: MAT 5:39!3
+    wordID: n40005039003
+  translation:
+    gloss: say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40005039001 A2:n40005039004 A1:n40005039006
+- position: 4
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: MAT 5:39!4
+    wordID: n40005039004
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40005001015
+- position: 5
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 5:39!5
+    wordID: n40005039005
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 6
+  text: ἀντιστῆναι
+  lemma: ἀνθίστημι
+  normalized: ἀντιστῆναι
+  ids:
+    ref: MAT 5:39!6
+    wordID: n40005039006
+  translation:
+    gloss: to resist
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '436'
+  semantic:
+    semanticDomain: 039003
+    ln: '39.18'
+  syntax:
+    role: v
+    frame: A0:n40005001015 A1:n40005039008
+  discourse:
+    subject: n40005001015
+- position: 7
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 5:39!7
+    wordID: n40005039007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: πονηρῷ
+  lemma: πονηρός
+  normalized: πονηρῷ
+  ids:
+    ref: MAT 5:39!8
+    wordID: n40005039008
+  translation:
+    gloss: evil [person]
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '4190'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.110'

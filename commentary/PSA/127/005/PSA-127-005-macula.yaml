@@ -1,0 +1,518 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 127:5
+text: אַשְׁרֵ֤י הַגֶּ֗בֶר אֲשֶׁ֤ר מִלֵּ֥א אֶת־אַשְׁפָּת֗וֹ מֵ֫הֶ֥ם לֹֽא־יֵבֹ֑שׁוּ
+  כִּֽי־יְדַבְּר֖וּ אֶת־אוֹיְבִ֣ים בַּשָּֽׁעַר׃
+words:
+- position: 1
+  text: אַשְׁרֵ֤י
+  lemma: אֶשֶׁר
+  transliteration: ʾašrēy
+  ids:
+    ref: PSA 127:5!1
+    wordID: o191270050011
+  translation:
+    english: blessed
+    mandarin: 有福
+    gloss: how.blessed!
+  morphology:
+    class: ij
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶשֶׁר
+    strong: 0835a
+  semantic:
+    sdbh:
+    - 000779001001000
+    lexdomain:
+    - 002004001009009
+    - '002001002024'
+    coredomain:
+    - 093
+    - '170'
+    - '196'
+  lxx:
+    text: μακάριος
+    strong: '3107'
+  syntax:
+    role: p
+- position: 2
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 127:5!2
+    wordID: o191270050021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 3
+  text: גֶּ֗בֶר
+  lemma: גֶּבֶר
+  transliteration: geḇer
+  ids:
+    ref: PSA 127:5!2
+    wordID: o191270050022
+  translation:
+    english: man
+    mandarin: 人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גֶּבֶר
+    strong: '1397'
+  semantic:
+    sdbh:
+    - 001287001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '1'
+  lxx:
+    text: ἄνθρωπος
+    strong: '444'
+- position: 4
+  text: אֲשֶׁ֤ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: PSA 127:5!3
+    wordID: o191270050031
+  translation:
+    english: who
+    gloss: who
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὃς
+    strong: '3739'
+- position: 5
+  text: מִלֵּ֥א
+  lemma: מָלֵא
+  transliteration: millēʾ
+  ids:
+    ref: PSA 127:5!4
+    wordID: o191270050041
+  translation:
+    english: full
+    mandarin: 装满
+    gloss: he.has.filled
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: מָלֵא
+    strong: '4390'
+  semantic:
+    sdbh:
+    - '004012001003000'
+    lexdomain:
+    - '002002001003'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: πληρώσει
+    strong: '4137'
+  syntax:
+    role: v
+    frame: A0:191270050022; A1:191270050061;
+  discourse:
+    subject: '191270050022'
+- position: 6
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: PSA 127:5!5
+    wordID: o191270050051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 7
+  text: אַשְׁפָּת֗
+  lemma: אַשְׁפָּה
+  transliteration: ''
+  ids:
+    ref: PSA 127:5!6
+    wordID: o191270050061
+  translation:
+    english: quiver
+    mandarin: 箭袋
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אַשְׁפָּה
+    strong: 0827
+  semantic:
+    sdbh:
+    - '000764001001000'
+    lexdomain:
+    - '001004001003'
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '171'
+    sense: '1'
+- position: 8
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 127:5!6
+    wordID: o191270050062
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000764001001000'
+    lexdomain:
+    - '001004001003'
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '171'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '191270050022'
+- position: 9
+  text: מֵ֫
+  lemma: מִן
+  transliteration: ''
+  ids:
+    ref: PSA 127:5!7
+    wordID: o191270050071
+  translation:
+    english: of
+    mandarin: 自
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 10
+  text: הֶ֥ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 127:5!7
+    wordID: o191270050072
+  translation:
+    english: them
+    mandarin: 它们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  discourse:
+    participant: '191270040051'
+- position: 11
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: PSA 127:5!8
+    wordID: o191270050081
+  translation:
+    english: not
+    mandarin: 不至于
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 12
+  text: יֵבֹ֑שׁוּ
+  lemma: בּוֹשׁ
+  transliteration: yēḇōšû
+  ids:
+    ref: PSA 127:5!9
+    wordID: o191270050091
+  translation:
+    english: put to shame
+    mandarin: 羞愧
+    gloss: they.will.be.ashamed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בּוֹשׁ
+    strong: 0954
+  semantic:
+    sdbh:
+    - 000886001001000
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: καταισξυνθήσονται
+  syntax:
+    role: v
+    frame: A0:191270050022;
+  discourse:
+    subject: '191270050022'
+- position: 13
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 127:5!10
+    wordID: o191270050101
+  translation:
+    english: when
+    mandarin: 时
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅταν
+    strong: '3752'
+- position: 14
+  text: יְדַבְּר֖וּ
+  lemma: דָבַר
+  transliteration: yəḏabbərû
+  ids:
+    ref: PSA 127:5!11
+    wordID: o191270050111
+  translation:
+    english: speak
+    mandarin: 说话
+    gloss: they.will.speak
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λαλῶσι
+  syntax:
+    role: v
+    frame: A0:191270050022;
+  discourse:
+    subject: '191270050022'
+- position: 15
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: PSA 127:5!12
+    wordID: o191270050121
+  translation:
+    english: with
+    mandarin: 和
+    gloss: with
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֵת
+    strong: 0854
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 16
+  text: אוֹיְבִ֣ים
+  lemma: אָיַב
+  transliteration: ʾôyəḇiym
+  ids:
+    ref: PSA 127:5!13
+    wordID: o191270050131
+  translation:
+    english: enemies
+    mandarin: 仇敌
+    gloss: enemies
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָיַב
+    strong: '0341'
+  semantic:
+    sdbh:
+    - 000318001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+- position: 17
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: PSA 127:5!14
+    wordID: o191270050141
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 18
+  text: שָּֽׁעַר
+  lemma: שַׁעַר
+  transliteration: 'ššāʿar:'
+  ids:
+    ref: PSA 127:5!14
+    wordID: o191270050142
+  translation:
+    english: gate
+    mandarin: 城门口
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שַׁעַר
+    strong: '8179'
+  semantic:
+    sdbh:
+    - '007551001001000'
+    lexdomain:
+    - '001005001'
+    sense: '1'
+  lxx:
+    text: πύλῃ
+    strong: '4439'

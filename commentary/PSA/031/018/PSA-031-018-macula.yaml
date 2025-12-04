@@ -1,0 +1,351 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 31:18
+text: יְֽהוָ֗ה אַל־אֵ֭בוֹשָׁה כִּ֣י קְרָאתִ֑יךָ יֵבֹ֥שׁוּ רְ֝שָׁעִ֗ים יִדְּמ֥וּ לִשְׁאֽוֹל׃
+words:
+- position: 1
+  text: יְֽהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 31:18!1
+    wordID: o190310180011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 31:18!2
+    wordID: o190310180021
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 3
+  text: אֵ֭בוֹשָׁה
+  lemma: בּוֹשׁ
+  transliteration: ʾēḇôšâ
+  ids:
+    ref: PSA 31:18!3
+    wordID: o190310180031
+  translation:
+    english: put to shame
+    mandarin: 羞愧
+    gloss: let.me.be.ashamed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: בּוֹשׁ
+    strong: 0954
+  semantic:
+    sdbh:
+    - 000886001001000
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: καταισξυνθείην
+  syntax:
+    role: v
+    frame: A0:190310010032;
+  discourse:
+    subject: '190310010032'
+- position: 4
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: PSA 31:18!4
+    wordID: o190310180041
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 5
+  text: קְרָאתִ֑י
+  lemma: קָרָא
+  transliteration: ''
+  ids:
+    ref: PSA 31:18!5
+    wordID: o190310180051
+  translation:
+    english: call on
+    mandarin: 呼求
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐπεκαλεσάμην
+    strong: '1941'
+  syntax:
+    role: v
+    frame: A0:190310010032; A1:190310180052;
+  discourse:
+    subject: '190310010032'
+- position: 6
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 31:18!5
+    wordID: o190310180052
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '190310180011'
+- position: 7
+  text: יֵבֹ֥שׁוּ
+  lemma: בּוֹשׁ
+  transliteration: yēḇōšû
+  ids:
+    ref: PSA 31:18!6
+    wordID: o190310180061
+  translation:
+    english: put to shame
+    mandarin: 羞愧
+    gloss: may.they.be.ashamed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בּוֹשׁ
+    strong: 0954
+  semantic:
+    sdbh:
+    - 000886001001000
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: αἰσξυνθείησαν
+    strong: '153'
+  syntax:
+    role: v
+    frame: A0:190310180071;
+- position: 8
+  text: רְ֝שָׁעִ֗ים
+  lemma: רָשָׁע
+  transliteration: rəšāʿiym
+  ids:
+    ref: PSA 31:18!7
+    wordID: o190310180071
+  translation:
+    english: wicked
+    mandarin: 恶人
+    gloss: wicked.[people]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָשָׁע
+    strong: '7563'
+  semantic:
+    sdbh:
+    - 006947001001000
+    lexdomain:
+    - '002001002007'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἀσεβεῖς
+    strong: '765'
+  syntax:
+    role: s
+- position: 9
+  text: יִדְּמ֥וּ
+  lemma: דָּמַם
+  transliteration: yiddəmû
+  ids:
+    ref: PSA 31:18!8
+    wordID: o190310180081
+  translation:
+    english: go dumbfounded
+    mandarin: 缄默无声
+    gloss: may.they.be.silent
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: דָּמַם
+    strong: '1826'
+  semantic:
+    sdbh:
+    - 001680001002000
+    lexdomain:
+    - 002004001009004
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: καὶ
+    strong: '2532'
+  syntax:
+    role: v
+    frame: A0:190310180071;
+  discourse:
+    subject: '190310180071'
+- position: 10
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: PSA 31:18!9
+    wordID: o190310180091
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: καταξθείησαν
+    strong: '2609'
+- position: 11
+  text: שְׁאֽוֹל
+  lemma: שְׁאוֹל
+  transliteration: 'šəʾôl:'
+  ids:
+    ref: PSA 31:18!9
+    wordID: o190310180092
+  translation:
+    english: sheol
+    mandarin: 阴间
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שְׁאוֹל
+    strong: '7585'
+  semantic:
+    sdbh:
+    - '007125001001000'
+    lexdomain:
+    - '001005002003'
+    coredomain:
+    - '185'
+    - 099
+    sense: '1'
+  lxx:
+    text: ᾅδου
+    strong: '86'

@@ -1,0 +1,227 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 94:6
+text: אַ֭לְמָנָה וְגֵ֣ר יַהֲרֹ֑גוּ וִֽיתוֹמִ֣ים יְרַצֵּֽחוּ׃
+words:
+- position: 1
+  text: אַ֭לְמָנָה
+  lemma: אַלְמָנָה
+  transliteration: ʾalmānâ
+  ids:
+    ref: PSA 94:6!1
+    wordID: o190940060011
+  translation:
+    english: widow
+    mandarin: 寡妇
+    gloss: '[the].widow'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אַלְמָנָה
+    strong: 0490
+  semantic:
+    sdbh:
+    - '000455001001000'
+    lexdomain:
+    - '001001002003001'
+    coredomain:
+    - 099
+    - '105'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ξήραν
+    strong: '5503'
+- position: 2
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 94:6!2
+    wordID: o190940060021
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 3
+  text: גֵ֣ר
+  lemma: גֵּר
+  transliteration: ḡēr
+  ids:
+    ref: PSA 94:6!2
+    wordID: o190940060022
+  translation:
+    english: stranger
+    mandarin: 寄居者
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גֵּר
+    strong: '1616'
+  semantic:
+    sdbh:
+    - 001481001001000
+    lexdomain:
+    - '001001002003001'
+    coredomain:
+    - '032'
+    - 082
+    sense: '1'
+  lxx:
+    text: προσήλυτον
+    strong: '4339'
+- position: 4
+  text: יַהֲרֹ֑גוּ
+  lemma: הָרַג
+  transliteration: yahărōḡû
+  ids:
+    ref: PSA 94:6!3
+    wordID: o190940060031
+  translation:
+    english: kill
+    mandarin: 杀死
+    gloss: they.kill
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָרַג
+    strong: '2026'
+  semantic:
+    sdbh:
+    - 001873001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    sense: '1'
+  lxx:
+    text: ἀπέκτειναν
+    strong: '615'
+  syntax:
+    role: v
+    frame: A0:190940040061; A1:190940060011;190940060022;
+  discourse:
+    subject: '190940040061'
+- position: 5
+  text: וִֽ
+  lemma: וְ
+  transliteration: wi
+  ids:
+    ref: PSA 94:6!4
+    wordID: o190940060041
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: יתוֹמִ֣ים
+  lemma: יָתוֹם
+  transliteration: yṯômiym
+  ids:
+    ref: PSA 94:6!4
+    wordID: o190940060042
+  translation:
+    english: fatherless
+    mandarin: 孤儿
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יָתוֹם
+    strong: '3490'
+  semantic:
+    sdbh:
+    - 003198001001000
+    lexdomain:
+    - '001001002003001'
+    coredomain:
+    - 099
+    - '121'
+    sense: '1'
+  lxx:
+    text: ὀρφανοὺς
+    strong: '3737'
+  syntax:
+    role: o
+- position: 7
+  text: יְרַצֵּֽחוּ
+  lemma: רָצַח
+  transliteration: 'yəraṣṣēḥû:'
+  ids:
+    ref: PSA 94:6!5
+    wordID: o190940060051
+  translation:
+    english: murder
+    mandarin: 杀害
+    gloss: they.murder
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: רָצַח
+    strong: '7523'
+  semantic:
+    sdbh:
+    - 006911001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    sense: '2'
+  lxx:
+    text: ἐφόνευσαν
+  syntax:
+    role: v
+    frame: A0:190940040061; A1:190940060042;
+  discourse:
+    subject: '190940040061'

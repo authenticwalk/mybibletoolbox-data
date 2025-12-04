@@ -1,0 +1,430 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 23:21
+text: לֹא־שָׁלַ֥חְתִּי אֶת־הַנְּבִאִ֖ים וְהֵ֣ם רָ֑צוּ לֹא־דִבַּ֥רְתִּי אֲלֵיהֶ֖ם וְהֵ֥ם
+  נִבָּֽאוּ׃
+words:
+- position: 1
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: JER 23:21!1
+    wordID: o240230210011
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: שָׁלַ֥חְתִּי
+  lemma: שָׁלַח
+  transliteration: šālaḥətî
+  ids:
+    ref: JER 23:21!2
+    wordID: o240230210021
+  translation:
+    english: send
+    mandarin: 差遣
+    gloss: I.sent
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁלַח
+    strong: '7971'
+  semantic:
+    sdbh:
+    - 007386001001000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '015'
+    sense: '1'
+  lxx:
+    text: ἀπέστελλον
+    strong: '649'
+  syntax:
+    role: v
+    frame: A0:240230200041; A1:240230210042;
+  discourse:
+    subject: '240230200041'
+- position: 3
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JER 23:21!3
+    wordID: o240230210031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: JER 23:21!4
+    wordID: o240230210041
+  translation:
+    english: these
+    mandarin: 这些
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοὺς
+    strong: '3588'
+- position: 5
+  text: נְּבִאִ֖ים
+  lemma: נָבִיא
+  transliteration: nnəḇiʾiym
+  ids:
+    ref: JER 23:21!4
+    wordID: o240230210042
+  translation:
+    english: prophets
+    mandarin: 先知
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נָבִיא
+    strong: '5030'
+  semantic:
+    sdbh:
+    - '004611001001000'
+    lexdomain:
+    - '001001002003010'
+    coredomain:
+    - '041'
+    - '134'
+    sense: '1'
+  lxx:
+    text: προφήτας
+    strong: '4396'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 23:21!5
+    wordID: o240230210051
+  translation:
+    english: yet
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: הֵ֣ם
+  lemma: הֵם
+  transliteration: hēm
+  ids:
+    ref: JER 23:21!5
+    wordID: o240230210052
+  translation:
+    english: they
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵם
+    strong: '1992'
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '240230210042'
+- position: 8
+  text: רָ֑צוּ
+  lemma: רוּץ
+  transliteration: rāṣû
+  ids:
+    ref: JER 23:21!6
+    wordID: o240230210061
+  translation:
+    english: ran
+    mandarin: 奔跑
+    gloss: they.ran
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רוּץ
+    strong: '7323'
+  semantic:
+    sdbh:
+    - '006731001001000'
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - '167'
+    sense: '1'
+  lxx:
+    text: ἔτρεξον
+    strong: '5143'
+  syntax:
+    role: v
+    frame: A0:240230210052;
+- position: 9
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: JER 23:21!7
+    wordID: o240230210071
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 10
+  text: דִבַּ֥רְתִּי
+  lemma: דָבַר
+  transliteration: ḏibbarətî
+  ids:
+    ref: JER 23:21!8
+    wordID: o240230210081
+  translation:
+    english: speak
+    mandarin: 说话
+    gloss: I.spoke
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐλάλησα
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A0:240230200041;
+  discourse:
+    subject: '240230200041'
+- position: 11
+  text: אֲלֵי
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: JER 23:21!9
+    wordID: o240230210091
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 12
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 23:21!9
+    wordID: o240230210092
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτούς
+    strong: '848'
+  discourse:
+    participant: '240230210042'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 23:21!10
+    wordID: o240230210101
+  translation:
+    english: yet
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: הֵ֥ם
+  lemma: הֵם
+  transliteration: hēm
+  ids:
+    ref: JER 23:21!10
+    wordID: o240230210102
+  translation:
+    english: they
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵם
+    strong: '1992'
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '240230210042'
+- position: 15
+  text: נִבָּֽאוּ
+  lemma: נָבָא
+  transliteration: 'nibbāʾû:'
+  ids:
+    ref: JER 23:21!11
+    wordID: o240230210111
+  translation:
+    english: prophesied
+    mandarin: 说预言
+    gloss: they.prophesied
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: נָבָא
+    strong: '5012'
+  semantic:
+    sdbh:
+    - 004595001001000
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    - '134'
+    sense: '1'
+  lxx:
+    text: ἐπροφήτευον
+    strong: '4395'
+  syntax:
+    role: v
+    frame: A0:240230210102;

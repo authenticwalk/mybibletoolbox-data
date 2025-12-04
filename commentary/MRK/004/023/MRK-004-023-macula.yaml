@@ -1,0 +1,146 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 4:23
+text: εἴ τις ἔχει ὦτα ἀκούειν, ἀκουέτω.
+words:
+- position: 1
+  text: εἴ
+  lemma: εἰ
+  normalized: εἴ
+  ids:
+    ref: MRK 4:23!1
+    wordID: n41004023001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.65'
+- position: 2
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: MRK 4:23!2
+    wordID: n41004023002
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+  syntax:
+    role: s
+- position: 3
+  text: ἔχει
+  lemma: ἔχω
+  normalized: ἔχει
+  ids:
+    ref: MRK 4:23!3
+    wordID: n41004023003
+  translation:
+    gloss: has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.59'
+  syntax:
+    role: v
+    frame: A0:n41004023002 A1:n41004023004
+- position: 4
+  text: ὦτα
+  lemma: οὖς
+  normalized: ὦτα
+  ids:
+    ref: MRK 4:23!4
+    wordID: n41004023004
+  translation:
+    gloss: ears
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3775'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.24'
+  syntax:
+    role: o
+- position: 5
+  text: ἀκούειν
+  lemma: ἀκούω
+  normalized: ἀκούειν
+  ids:
+    ref: MRK 4:23!5
+    wordID: n41004023005
+  translation:
+    gloss: to hear
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '032001'
+    ln: '32.1'
+  syntax:
+    role: v
+    frame: A0:n41004023002
+  discourse:
+    subject: n41004023002
+- position: 6
+  text: ἀκουέτω
+  lemma: ἀκούω
+  normalized: ἀκουέτω
+  ids:
+    ref: MRK 4:23!6
+    wordID: n41004023006
+  translation:
+    gloss: let him hear
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '031007'
+    ln: '31.56'
+  syntax:
+    role: v
+    frame: A0:n41004023002
+  discourse:
+    subject: n41004023002

@@ -1,0 +1,344 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 12:8
+text: אַתָּֽה־יְהוָ֥ה תִּשְׁמְרֵ֑ם תִּצְּרֶ֓נּוּ׀מִן־הַדּ֖וֹר ז֣וּ לְעוֹלָֽם׃
+words:
+- position: 1
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 12:8!2
+    wordID: o190120080021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אַתָּֽה
+  lemma: אַתָּה
+  transliteration: ʾattāh-
+  ids:
+    ref: PSA 12:8!1
+    wordID: o190120080011
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σύ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190120080021'
+- position: 3
+  text: תִּשְׁמְרֵ֑
+  lemma: שָׁמַר
+  transliteration: ''
+  ids:
+    ref: PSA 12:8!3
+    wordID: o190120080031
+  translation:
+    english: protect
+    mandarin: 保护
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: φυλάχεις
+  syntax:
+    role: v
+    frame: A0:190120080011; A1:190120080032;
+- position: 4
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 12:8!3
+    wordID: o190120080032
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: 190120060021 190120060041
+- position: 5
+  text: תִּצְּרֶ֓
+  lemma: נָצַר
+  transliteration: ''
+  ids:
+    ref: PSA 12:8!4
+    wordID: o190120080041
+  translation:
+    english: protect
+    mandarin: 保佑
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָצַר
+    strong: '5341'
+  semantic:
+    sdbh:
+    - 004893001008000
+    lexdomain:
+    - 002003003018
+    sense: '2'
+  syntax:
+    role: v
+    frame: A0:190120080021; A1:190120080042;
+  discourse:
+    subject: '190120080021'
+- position: 6
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 12:8!4
+    wordID: o190120080042
+  translation:
+    english: us
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  semantic:
+    sdbh:
+    - 004893001008000
+    lexdomain:
+    - 002003003018
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: 190120010052 190120060021 190120060041
+- position: 7
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: PSA 12:8!5
+    wordID: o190120080051
+  translation:
+    english: from
+    mandarin: 脱离
+    gloss: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 8
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 12:8!6
+    wordID: o190120080061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τῆς
+    strong: '3588'
+- position: 9
+  text: דּ֖וֹר
+  lemma: דּוֹר
+  transliteration: dôr
+  ids:
+    ref: PSA 12:8!6
+    wordID: o190120080062
+  translation:
+    english: generation
+    mandarin: 世代
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דּוֹר
+    strong: '1755'
+  semantic:
+    sdbh:
+    - '001613002001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '005'
+    sense: '1'
+  lxx:
+    text: γενεᾶς
+    strong: '1074'
+- position: 10
+  text: ז֣וּ
+  lemma: זוּ
+  transliteration: zû
+  ids:
+    ref: PSA 12:8!7
+    wordID: o190120080071
+  translation:
+    english: this
+    mandarin: 这
+    gloss: this
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: זוּ
+    strong: '2098'
+  lxx:
+    text: ταύτης
+    strong: '5026'
+- position: 11
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 12:8!8
+    wordID: o190120080081
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 12
+  text: עוֹלָֽם
+  lemma: עוֹלָם
+  transliteration: 'ʿôlām:'
+  ids:
+    ref: PSA 12:8!8
+    wordID: o190120080082
+  translation:
+    english: forever
+    mandarin: 永远
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: αἰῶνα
+    strong: '165'

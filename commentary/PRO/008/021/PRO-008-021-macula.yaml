@@ -1,0 +1,275 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 8:21
+text: לְהַנְחִ֖יל אֹהֲבַ֥י׀יֵ֑שׁ וְאֹצְרֹ֖תֵיהֶ֣ם אֲמַלֵּֽא׃פ
+words:
+- position: 1
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PRO 8:21!1
+    wordID: o200080210011
+  translation:
+    english: to
+    mandarin: 要
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: ἵνα
+    strong: '2443'
+- position: 2
+  text: הַנְחִ֖יל
+  lemma: נָחַל
+  transliteration: hanḥiyl
+  ids:
+    ref: PRO 8:21!1
+    wordID: o200080210012
+  translation:
+    english: endow
+    mandarin: 承受
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: נָחַל
+    strong: '5157'
+  semantic:
+    sdbh:
+    - 004728001003000
+    lexdomain:
+    - '002003002020'
+    sense: '1'
+  lxx:
+    text: μερίσω
+  syntax:
+    role: v
+    frame: AA:200080120021; A0:200080210021; A1:200080210031;
+  discourse:
+    subject: '200080120021'
+- position: 3
+  text: אֹהֲבַ֥
+  lemma: אָהֵב
+  transliteration: ''
+  ids:
+    ref: PRO 8:21!2
+    wordID: o200080210021
+  translation:
+    english: love
+    mandarin: 爱
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָהֵב
+    strong: '0157'
+  semantic:
+    sdbh:
+    - '000156001001000'
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+    sense: '1'
+  lxx:
+    text: ἀγαπῶσιν
+    strong: '25'
+  syntax:
+    frame: A1:200080210022;
+- position: 4
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 8:21!2
+    wordID: o200080210022
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '000156001001000'
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+  lxx:
+    text: ἐμὲ
+    strong: '1691'
+  discourse:
+    participant: '200080120021'
+- position: 5
+  text: יֵ֑שׁ
+  lemma: יֵשׁ
+  transliteration: yēš
+  ids:
+    ref: PRO 8:21!3
+    wordID: o200080210031
+  translation:
+    english: wealth
+    mandarin: 财产
+    gloss: substance
+  morphology:
+    class: noun
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: יֵשׁ
+    strong: '3426'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ὕπαρχιν
+    strong: '5223'
+  syntax:
+    role: o2
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 8:21!4
+    wordID: o200080210041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: אֹצְרֹ֖תֵי
+  lemma: אוֹצָר
+  transliteration: ''
+  ids:
+    ref: PRO 8:21!4
+    wordID: o200080210042
+  translation:
+    english: treasuries
+    mandarin: 府库
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אוֹצָר
+    strong: '0214'
+  semantic:
+    sdbh:
+    - '000204001002000'
+    lexdomain:
+    - '001005001'
+    coredomain:
+    - '020'
+    - '171'
+    - '192'
+    sense: '1'
+  lxx:
+    text: θησαυροὺς
+    strong: '2344'
+- position: 8
+  text: הֶ֣ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 8:21!4
+    wordID: o200080210043
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '000204001002000'
+    lexdomain:
+    - '001005001'
+    coredomain:
+    - '020'
+    - '171'
+    - '192'
+  discourse:
+    participant: '200080210021'
+- position: 9
+  text: אֲמַלֵּֽא
+  lemma: מָלֵא
+  transliteration: 'ʾămallēʾ:'
+  ids:
+    ref: PRO 8:21!5
+    wordID: o200080210051
+  translation:
+    english: filling
+    mandarin: 充满
+    gloss: I.fill
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: מָלֵא
+    strong: '4390'
+  semantic:
+    sdbh:
+    - '004012001003000'
+    lexdomain:
+    - '002002001003'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: ἐμπλήσω
+  syntax:
+    role: v
+    frame: A0:200080120021; A1:200080210042;
+  discourse:
+    subject: '200080120021'

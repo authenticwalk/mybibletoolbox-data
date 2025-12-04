@@ -1,0 +1,125 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: REV 2:10
+text: μὴ φοβοῦ ἃ μέλλεις πάσχειν.
+words:
+- position: 1
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: REV 2:10!1
+    wordID: n66002010001
+  translation:
+    gloss: Not
+  morphology:
+    class: adj
+    morph: PRT-N
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: φοβοῦ
+  lemma: φοβέω
+  normalized: φοβοῦ
+  ids:
+    ref: REV 2:10!2
+    wordID: n66002010002
+  translation:
+    gloss: fear
+  morphology:
+    class: verb
+    morph: V-PNM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: middlepassive
+    mood: imperative
+  lexical:
+    strong: '5399'
+  semantic:
+    semanticDomain: '025022'
+    ln: '25.252'
+  syntax:
+    role: v
+    frame: A0:n66002008007 A1:n66002010004
+  discourse:
+    subject: n66002008007
+- position: 3
+  text: ἃ
+  lemma: ὅς
+  normalized: ἅ
+  ids:
+    ref: REV 2:10!3
+    wordID: n66002010003
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: R-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+- position: 4
+  text: πάσχειν
+  lemma: πάσχω
+  normalized: πάσχειν
+  ids:
+    ref: REV 2:10!5
+    wordID: n66002010005
+  translation:
+    gloss: to suffer
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3958'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.66'
+  syntax:
+    role: v
+    frame: A0:n66002008007 A1:n66002010003
+    discontinuous: 'true'
+  discourse:
+    subject: n66002008007
+- position: 5
+  text: μέλλεις
+  lemma: μέλλω
+  normalized: μέλλεις
+  ids:
+    ref: REV 2:10!4
+    wordID: n66002010004
+  translation:
+    gloss: you are about
+  morphology:
+    class: verb
+    morph: V-PAI-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3195'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.62'
+  syntax:
+    role: v
+    frame: A0:n66002008007 A1:n66002010005
+  discourse:
+    subject: n66002008007

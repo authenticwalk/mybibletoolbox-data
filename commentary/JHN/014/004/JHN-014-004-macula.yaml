@@ -1,0 +1,160 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 14:4
+text: καὶ ὅπου ἐγὼ ὑπάγω οἴδατε τὴν ὁδόν.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 14:4!1
+    wordID: n43014004001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
+- position: 2
+  text: ὅπου
+  lemma: ὅπου
+  normalized: ὅπου
+  ids:
+    ref: JHN 14:4!2
+    wordID: n43014004002
+  translation:
+    gloss: to the place
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '3699'
+  semantic:
+    semanticDomain: 083002
+    ln: '83.5'
+  syntax:
+    role: adv
+- position: 3
+  text: ἐγὼ
+  lemma: ἐγώ
+  normalized: ἐγώ
+  ids:
+    ref: JHN 14:4!3
+    wordID: n43014004003
+  translation:
+    gloss: I
+  morphology:
+    class: pron
+    morph: P-1NS
+    number: singular
+    case: nominative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: s
+  discourse:
+    referent: n43013038002
+- position: 4
+  text: ὑπάγω
+  lemma: ὑπάγω
+  normalized: ὑπάγω
+  ids:
+    ref: JHN 14:4!4
+    wordID: n43014004004
+  translation:
+    gloss: am going
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.101'
+  syntax:
+    role: v
+    frame: A0:n43014004003
+- position: 5
+  text: οἴδατε
+  lemma: οἶδα
+  normalized: οἴδατε
+  ids:
+    ref: JHN 14:4!5
+    wordID: n43014004005
+  translation:
+    gloss: you know
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n43013023006;n43013037003 A1:n43014004007
+  discourse:
+    subject: n43013023006 n43013037003
+- position: 6
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: JHN 14:4!6
+    wordID: n43014004006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ὁδόν
+  lemma: ὁδός
+  normalized: ὁδόν
+  ids:
+    ref: JHN 14:4!7
+    wordID: n43014004007
+  translation:
+    gloss: way
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3598'
+  semantic:
+    semanticDomain: '041001'
+    ln: '41.16'

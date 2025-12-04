@@ -1,0 +1,385 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LEV 22:10
+text: וְכָל־זָ֖ר לֹא־יֹ֣אכַל קֹ֑דֶשׁ תּוֹשַׁ֥ב כֹּהֵ֛ן וְשָׂכִ֖יר לֹא־יֹ֥אכַל קֹֽדֶשׁ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 22:10!1
+    wordID: o030220100011
+  translation:
+    english: but
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: LEV 22:10!1
+    wordID: o030220100012
+  translation:
+    english: one
+    mandarin: 都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶς
+    strong: '3956'
+- position: 3
+  text: זָ֖ר
+  lemma: זָר
+  transliteration: zār
+  ids:
+    ref: LEV 22:10!2
+    wordID: o030220100021
+  translation:
+    english: outside
+    mandarin: 外人
+    gloss: stranger
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: זָר
+    strong: 2114b
+  semantic:
+    sdbh:
+    - '002041001001000'
+    lexdomain:
+    - '001001002003001'
+    sense: '1'
+  lxx:
+    text: ἀλλογενὴς
+    strong: '241'
+- position: 4
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: LEV 22:10!3
+    wordID: o030220100031
+  translation:
+    english: 'no'
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 5
+  text: יֹ֣אכַל
+  lemma: אָכַל
+  transliteration: yōʾḵal
+  ids:
+    ref: LEV 22:10!4
+    wordID: o030220100041
+  translation:
+    english: eat
+    mandarin: 吃
+    gloss: he.will.eat
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγεται
+    strong: '5315'
+  syntax:
+    role: v
+    frame: A0:030220100021; A1:030220100051;
+- position: 6
+  text: קֹ֑דֶשׁ
+  lemma: קֹדֶשׁ
+  transliteration: qōḏeš
+  ids:
+    ref: LEV 22:10!5
+    wordID: o030220100051
+  translation:
+    english: sacred donations
+    mandarin: 圣物
+    gloss: a.holy.thing
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קֹדֶשׁ
+    strong: '6944'
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '4'
+  lxx:
+    text: ἅγια
+    strong: '39'
+  syntax:
+    role: o
+- position: 7
+  text: תּוֹשַׁ֥ב
+  lemma: תּוֹשָׁב
+  transliteration: tôšaḇ
+  ids:
+    ref: LEV 22:10!6
+    wordID: o030220100061
+  translation:
+    english: person
+    mandarin: 寄居~的
+    gloss: a.resident.alien
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: תּוֹשָׁב
+    strong: '8453'
+  semantic:
+    sense: '1'
+  lxx:
+    text: πάροικος
+    strong: '3941'
+- position: 8
+  text: כֹּהֵ֛ן
+  lemma: כֹּהֵן
+  transliteration: kōhēn
+  ids:
+    ref: LEV 22:10!7
+    wordID: o030220100071
+  translation:
+    english: priest
+    mandarin: 祭司
+    gloss: of.a.priest
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּהֵן
+    strong: '3548'
+  semantic:
+    sdbh:
+    - '003253001001000'
+    lexdomain:
+    - 001001002003008
+    coredomain:
+    - '132'
+    sense: '1'
+  lxx:
+    text: ἱερέως
+    strong: '2409'
+- position: 9
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 22:10!8
+    wordID: o030220100081
+  translation:
+    english: or
+    mandarin: 或
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ἢ
+    strong: '2228'
+- position: 10
+  text: שָׂכִ֖יר
+  lemma: שָׂכִיר
+  transliteration: śāḵiyr
+  ids:
+    ref: LEV 22:10!8
+    wordID: o030220100082
+  translation:
+    english: hired worker
+    mandarin: 雇工
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׂכִיר
+    strong: '7916'
+  semantic:
+    sdbh:
+    - '007037001002000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '200'
+    - '140'
+    sense: '1'
+  lxx:
+    text: μισθωτὸς
+    strong: '3411'
+- position: 11
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: LEV 22:10!9
+    wordID: o030220100091
+  translation:
+    english: nor
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 12
+  text: יֹ֥אכַל
+  lemma: אָכַל
+  transliteration: yōʾḵal
+  ids:
+    ref: LEV 22:10!10
+    wordID: o030220100101
+  translation:
+    english: eat
+    mandarin: 吃
+    gloss: he.will.eat
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγεται
+    strong: '5315'
+  syntax:
+    role: v
+    frame: A0:030220100061;030220100082; A1:030220100111;
+- position: 13
+  text: קֹֽדֶשׁ
+  lemma: קֹדֶשׁ
+  transliteration: 'qōḏeš:'
+  ids:
+    ref: LEV 22:10!11
+    wordID: o030220100111
+  translation:
+    english: sacred donations
+    mandarin: 圣物
+    gloss: a.holy.thing
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קֹדֶשׁ
+    strong: '6944'
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '4'
+  lxx:
+    text: ἅγια
+    strong: '39'
+  syntax:
+    role: o

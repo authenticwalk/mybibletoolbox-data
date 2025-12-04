@@ -1,0 +1,619 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 79:9
+text: עָזְרֵ֤נוּ׀אֱלֹ֘הֵ֤י יִשְׁעֵ֗נוּ עַל־דְּבַ֥ר כְּבֽוֹד־שְׁמֶ֑ךָ וְהַצִּילֵ֥נוּ
+  וְכַפֵּ֥ר עַל־חַ֝טֹּאתֵ֗ינוּ לְמַ֣עַן שְׁמֶֽךָ׃
+words:
+- position: 1
+  text: אֱלֹ֘הֵ֤י
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhēy
+  ids:
+    ref: PSA 79:9!2
+    wordID: o190790090021
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: O.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 2
+  text: יִשְׁעֵ֗
+  lemma: יֵשַׁע
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!3
+    wordID: o190790090031
+  translation:
+    english: salvation
+    mandarin: 拯救
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יֵשַׁע
+    strong: '3468'
+  semantic:
+    sdbh:
+    - '003177001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: σωτὴρ
+    strong: '4990'
+- position: 3
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!3
+    wordID: o190790090032
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '003177001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 190790010022 190790070041
+- position: 4
+  text: עָזְרֵ֤
+  lemma: עָזַר
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!1
+    wordID: o190790090011
+  translation:
+    english: help
+    mandarin: 帮助
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: עָזַר
+    strong: '5826'
+  semantic:
+    sdbh:
+    - '005350001002000'
+    lexdomain:
+    - '002003002015'
+    sense: '1'
+  lxx:
+    text: βοήθησον
+    strong: '997'
+  syntax:
+    role: v
+    frame: A0:190790090021; A1:190790090012;
+  discourse:
+    subject: '190790090021'
+- position: 5
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!1
+    wordID: o190790090012
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '005350001002000'
+    lexdomain:
+    - '002003002015'
+  lxx:
+    text: ἡμῖν
+    strong: '2254'
+  syntax:
+    role: o
+  discourse:
+    participant: 190790010022 190790070041
+- position: 6
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PSA 79:9!4
+    wordID: o190790090041
+  translation:
+    english: for
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἕνεκα
+    strong: '1752'
+- position: 7
+  text: דְּבַ֥ר
+  lemma: דָּבָר
+  transliteration: dəḇar
+  ids:
+    ref: PSA 79:9!5
+    wordID: o190790090051
+  translation:
+    english: account of
+    mandarin: 因
+    gloss: the.matter
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '28'
+- position: 8
+  text: כְּבֽוֹד
+  lemma: כָּבוֹד
+  transliteration: kəḇôḏ-
+  ids:
+    ref: PSA 79:9!6
+    wordID: o190790090061
+  translation:
+    english: glory
+    mandarin: 荣耀
+    gloss: of.the.glory
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כָּבוֹד
+    strong: '3519'
+  semantic:
+    sdbh:
+    - '003225001001000'
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: δόχης
+    strong: '1391'
+- position: 9
+  text: שְׁמֶ֑
+  lemma: שֵׁם
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!7
+    wordID: o190790090071
+  translation:
+    english: name
+    mandarin: 名
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001003000'
+    lexdomain:
+    - '002004002007'
+    sense: '1'
+- position: 10
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!7
+    wordID: o190790090072
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '007437001003000'
+    lexdomain:
+    - '002004002007'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190790090021'
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 79:9!8
+    wordID: o190790090081
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 12
+  text: הַצִּילֵ֥
+  lemma: נָצַל
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!8
+    wordID: o190790090082
+  translation:
+    english: deliver
+    mandarin: 搭救
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: נָצַל
+    strong: '5337'
+  semantic:
+    sdbh:
+    - 004891001006000
+    lexdomain:
+    - 002003003018
+    sense: '1'
+  lxx:
+    text: ῥῦσαι
+    strong: '4506'
+  syntax:
+    role: v
+    frame: AA:190790090021; A0:190790090083;
+  discourse:
+    subject: '190790090021'
+- position: 13
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!8
+    wordID: o190790090083
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 004891001006000
+    lexdomain:
+    - 002003003018
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: 190790010022 190790070041
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 79:9!9
+    wordID: o190790090091
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: כַפֵּ֥ר
+  lemma: כִּפֶּר
+  transliteration: ḵappēr
+  ids:
+    ref: PSA 79:9!9
+    wordID: o190790090092
+  translation:
+    english: forgive
+    mandarin: 赦免
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: imperative
+  lexical:
+    stronglemma: כִּפֶּר
+    strong: '3722'
+  semantic:
+    sdbh:
+    - '003407001006000'
+    lexdomain:
+    - '002003003014'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '2'
+  lxx:
+    text: ἱλάσθητι
+  syntax:
+    role: v
+    frame: A0:190790090021;
+  discourse:
+    subject: '190790090021'
+- position: 16
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PSA 79:9!10
+    wordID: o190790090101
+  translation:
+    english: for
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ταῖς
+    strong: '3588'
+- position: 17
+  text: חַ֝טֹּאתֵ֗י
+  lemma: חַטָּאת
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!11
+    wordID: o190790090111
+  translation:
+    english: sins
+    mandarin: 罪
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חַטָּאת
+    strong: '2403'
+  semantic:
+    sdbh:
+    - 002218001001000
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἁμαρτίαις
+    strong: '266'
+- position: 18
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!11
+    wordID: o190790090112
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 002218001001000
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 190790010022 190790070041
+- position: 19
+  text: לְמַ֣עַן
+  lemma: לְמַעַן
+  transliteration: ləmaʿan
+  ids:
+    ref: PSA 79:9!12
+    wordID: o190790090121
+  translation:
+    english: for ~ sake
+    mandarin: 为~的缘故
+    gloss: for.the.sake.of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְמַעַן
+    strong: '4616'
+  lxx:
+    text: ἕνεκα
+    strong: '1752'
+- position: 20
+  text: שְׁמֶֽ
+  lemma: שֵׁם
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!13
+    wordID: o190790090131
+  translation:
+    english: name’s
+    mandarin: 名
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001003000'
+    lexdomain:
+    - '002004002007'
+    sense: '1'
+- position: 21
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 79:9!13
+    wordID: o190790090132
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '007437001003000'
+    lexdomain:
+    - '002004002007'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '190790090021'

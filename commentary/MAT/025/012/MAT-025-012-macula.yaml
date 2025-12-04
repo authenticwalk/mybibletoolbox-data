@@ -1,0 +1,241 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:12
+text: ὁ δὲ ἀποκριθεὶς εἶπεν Ἀμὴν λέγω ὑμῖν, οὐκ οἶδα ὑμᾶς.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 25:12!2
+    wordID: n40025012002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 25:12!1
+    wordID: n40025012001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40025010007
+- position: 3
+  text: ἀποκριθεὶς
+  lemma: ἀποκρίνομαι
+  normalized: ἀποκριθείς
+  ids:
+    ref: MAT 25:12!3
+    wordID: n40025012003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A1:n40025010007
+  discourse:
+    subject: n40025010007
+- position: 4
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 25:12!4
+    wordID: n40025012004
+  translation:
+    gloss: he said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025012001
+- position: 5
+  text: Ἀμὴν
+  lemma: ἀμήν
+  normalized: Ἀμήν
+  ids:
+    ref: MAT 25:12!5
+    wordID: n40025012005
+  translation:
+    gloss: Truly
+  morphology:
+    class: ptcl
+    morph: HEB
+  lexical:
+    strong: '281'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.6'
+- position: 6
+  text: λέγω
+  lemma: λέγω
+  normalized: λέγω
+  ids:
+    ref: MAT 25:12!6
+    wordID: n40025012006
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40025010007 A2:n40025012007
+  discourse:
+    subject: n40025010007
+- position: 7
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: MAT 25:12!7
+    wordID: n40025012007
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40025011007
+- position: 8
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: MAT 25:12!8
+    wordID: n40025012008
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 9
+  text: οἶδα
+  lemma: οἶδα
+  normalized: οἶδα
+  ids:
+    ref: MAT 25:12!9
+    wordID: n40025012009
+  translation:
+    gloss: I do know
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n40025010007 A1:n40025012010
+  discourse:
+    subject: n40025010007
+- position: 10
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: MAT 25:12!10
+    wordID: n40025012010
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n40025011007

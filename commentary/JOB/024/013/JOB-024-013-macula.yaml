@@ -1,0 +1,410 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOB 24:13
+text: הֵ֤מָּה׀הָיוּ֮ בְּֽמֹרְדֵ֫י־א֥וֹר לֹֽא־הִכִּ֥ירוּ דְרָכָ֑יו וְלֹ֥א יָ֝שְׁב֗וּ
+  בִּנְתִיבֹתָֽיו׃
+words:
+- position: 1
+  text: הֵ֤מָּה
+  lemma: הֵמָּה
+  transliteration: hēmmāh
+  ids:
+    ref: JOB 24:13!1
+    wordID: o180240130011
+  translation:
+    english: those
+    mandarin: 他们
+    gloss: they
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  syntax:
+    role: s
+  discourse:
+    participant: '180240060061'
+- position: 2
+  text: הָיוּ֮
+  lemma: הָיָה
+  transliteration: hāyû
+  ids:
+    ref: JOB 24:13!2
+    wordID: o180240130021
+  translation:
+    english: there are
+    mandarin: 是
+    gloss: they.are
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  syntax:
+    role: v
+    frame: A0:180240130011;
+- position: 3
+  text: בְּֽ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: JOB 24:13!3
+    wordID: o180240130031
+  translation:
+    english: among
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 4
+  text: מֹרְדֵ֫י
+  lemma: מָרַד
+  transliteration: mōrəḏēy-
+  ids:
+    ref: JOB 24:13!3
+    wordID: o180240130032
+  translation:
+    english: rebel
+    mandarin: 背叛
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: מָרַד
+    strong: '4775'
+  semantic:
+    sdbh:
+    - '004370001001000'
+    lexdomain:
+    - '002001002031'
+    coredomain:
+    - '197'
+    - '015'
+    sense: '1'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+  syntax:
+    frame: A1:180240130041;
+- position: 5
+  text: א֥וֹר
+  lemma: אוֹר
+  transliteration: ʾôr
+  ids:
+    ref: JOB 24:13!4
+    wordID: o180240130041
+  translation:
+    english: light
+    mandarin: 光明
+    gloss: (of).[the].light
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אוֹר
+    strong: '0216'
+  semantic:
+    sdbh:
+    - '000207001001000'
+    lexdomain:
+    - 002001001049
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: γῆς
+    strong: '1093'
+- position: 6
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: JOB 24:13!5
+    wordID: o180240130051
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 7
+  text: הִכִּ֥ירוּ
+  lemma: נָכַר
+  transliteration: hikkiyrû
+  ids:
+    ref: JOB 24:13!6
+    wordID: o180240130061
+  translation:
+    english: recognize
+    mandarin: 认识
+    gloss: they.pay.regard.to
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָכַר
+    strong: '5234'
+  semantic:
+    sdbh:
+    - 004803001001000
+    lexdomain:
+    - '002004002007'
+    sense: '1'
+  lxx:
+    text: ἐπέγνωσαν
+    strong: '1921'
+  syntax:
+    role: v
+    frame: AA:180240060061; A0:180240130071;
+  discourse:
+    subject: '180240060061'
+- position: 8
+  text: דְרָכָ֑י
+  lemma: דֶּרֶךְ
+  transliteration: ''
+  ids:
+    ref: JOB 24:13!7
+    wordID: o180240130071
+  translation:
+    english: ways
+    mandarin: 道
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דֶּרֶךְ
+    strong: '1870'
+  semantic:
+    sdbh:
+    - 001719001001000
+    lexdomain:
+    - '001005002002004'
+    coredomain:
+    - 087
+    sense: '1'
+  lxx:
+    text: ὁδὸν
+    strong: '3598'
+- position: 9
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 24:13!7
+    wordID: o180240130072
+  translation:
+    english: its
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 001719001001000
+    lexdomain:
+    - '001005002002004'
+    coredomain:
+    - 087
+  lxx:
+    text: δὲ
+    strong: '1161'
+  discourse:
+    participant: '180240130041'
+- position: 10
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOB 24:13!8
+    wordID: o180240130081
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 11
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: JOB 24:13!8
+    wordID: o180240130082
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐδὲ
+    strong: '3761'
+  syntax:
+    role: adv
+- position: 12
+  text: יָ֝שְׁב֗וּ
+  lemma: יָשַׁב
+  transliteration: yāšəḇû
+  ids:
+    ref: JOB 24:13!9
+    wordID: o180240130091
+  translation:
+    english: stay
+    mandarin: 留
+    gloss: they.dwell
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001006000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '4'
+  syntax:
+    role: v
+    frame: A0:180240060061;
+  discourse:
+    subject: '180240060061'
+- position: 13
+  text: בִּ
+  lemma: בְּ
+  transliteration: bi
+  ids:
+    ref: JOB 24:13!10
+    wordID: o180240130101
+  translation:
+    english: in
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 14
+  text: נְתִיבֹתָֽי
+  lemma: נְתִיבָה
+  transliteration: ''
+  ids:
+    ref: JOB 24:13!10
+    wordID: o180240130102
+  translation:
+    english: paths
+    mandarin: 路
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נְתִיבָה
+    strong: '5410'
+  semantic:
+    sense: '1'
+- position: 15
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOB 24:13!10
+    wordID: o180240130103
+  translation:
+    english: its
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  discourse:
+    participant: '180240130041'

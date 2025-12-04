@@ -1,0 +1,651 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JDG 21:18
+text: וַאֲנַ֗חְנוּ לֹ֥א נוּכַ֛ל לָתֵת־לָהֶ֥ם נָשִׁ֖ים מִבְּנוֹתֵ֑ינוּ כִּֽי־נִשְׁבְּע֤וּ
+  בְנֵֽי־יִשְׂרָאֵל֙ לֵאמֹ֔ר אָר֕וּר נֹתֵ֥ן אִשָּׁ֖ה לְבִנְיָמִֽן׃ס
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: JDG 21:18!1
+    wordID: o070210180011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: אֲנַ֗חְנוּ
+  lemma: אֲנַחְנוּ
+  transliteration: ʾănaḥənû
+  ids:
+    ref: JDG 21:18!1
+    wordID: o070210180012
+  translation:
+    english: we
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cp
+    gender: common
+    number: plural
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנַחְנוּ
+    strong: 0587
+  lxx:
+    text: ἡμεῖς
+    strong: '2249'
+  syntax:
+    role: s
+  discourse:
+    participant: 070210160021 070210160032
+- position: 3
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: JDG 21:18!2
+    wordID: o070210180021
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 4
+  text: נוּכַ֛ל
+  lemma: יָכֹל
+  transliteration: nûḵal
+  ids:
+    ref: JDG 21:18!3
+    wordID: o070210180031
+  translation:
+    english: we can
+    mandarin: 能
+    gloss: we.are.able
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: יָכֹל
+    strong: '3201'
+  semantic:
+    sdbh:
+    - 002929001001000
+    lexdomain:
+    - '002001001001'
+    coredomain:
+    - '001'
+    sense: '1'
+  lxx:
+    text: δυνησόμεθα
+    strong: '1410'
+  syntax:
+    role: v
+    frame: A0:070210180012;
+- position: 5
+  text: לָ
+  lemma: לְ
+  transliteration: lā
+  ids:
+    ref: JDG 21:18!4
+    wordID: o070210180041
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: תֵת
+  lemma: נָתַן
+  transliteration: ṯēṯ-
+  ids:
+    ref: JDG 21:18!4
+    wordID: o070210180042
+  translation:
+    english: give
+    mandarin: 给
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: δοῦναι
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:070210160021;070210160032; A1:070210180061;
+  discourse:
+    subject: 070210160021 070210160032
+- position: 7
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: JDG 21:18!5
+    wordID: o070210180051
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 8
+  text: הֶ֥ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JDG 21:18!5
+    wordID: o070210180052
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: '070210170031'
+- position: 9
+  text: נָשִׁ֖ים
+  lemma: אִשָּׁה
+  transliteration: nāšiym
+  ids:
+    ref: JDG 21:18!6
+    wordID: o070210180061
+  translation:
+    english: wives
+    mandarin: 妻子
+    gloss: wives
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִשָּׁה
+    strong: 0802
+  semantic:
+    sdbh:
+    - 000738001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '1'
+  lxx:
+    text: γυναῖκας
+    strong: '1135'
+  syntax:
+    role: o
+- position: 10
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: JDG 21:18!7
+    wordID: o070210180071
+  translation:
+    english: of
+    mandarin: 从~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 11
+  text: בְּנוֹתֵ֑י
+  lemma: בַּת
+  transliteration: ''
+  ids:
+    ref: JDG 21:18!7
+    wordID: o070210180072
+  translation:
+    english: daughters
+    mandarin: 女儿
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּת
+    strong: '1323'
+  semantic:
+    sdbh:
+    - '001220001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: θυγατέρων
+    strong: '2364'
+- position: 12
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JDG 21:18!7
+    wordID: o070210180073
+  translation:
+    english: our
+    mandarin: 自己
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '001220001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 070210160021 070210160032
+- position: 13
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: JDG 21:18!8
+    wordID: o070210180081
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 14
+  text: נִשְׁבְּע֤וּ
+  lemma: שָׁבַע
+  transliteration: nišbəʿû
+  ids:
+    ref: JDG 21:18!9
+    wordID: o070210180091
+  translation:
+    english: sworn
+    mandarin: 起誓
+    gloss: they.had.sworn
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: שָׁבַע
+    strong: '7650'
+  semantic:
+    sdbh:
+    - 007178001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '041'
+    - '118'
+    sense: '1'
+  lxx:
+    text: ὠμόσαμεν
+  syntax:
+    role: v
+    frame: A0:070210180101;
+- position: 15
+  text: בְנֵֽי
+  lemma: בֵּן
+  transliteration: ḇənēy-
+  ids:
+    ref: JDG 21:18!10
+    wordID: o070210180101
+  translation:
+    english: sons
+    mandarin: 人
+    gloss: the.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '2'
+  lxx:
+    text: υἱοῖς
+    strong: '5207'
+- position: 16
+  text: יִשְׂרָאֵל֙
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: JDG 21:18!11
+    wordID: o070210180111
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 17
+  text: לֵ
+  lemma: לְ
+  transliteration: lē
+  ids:
+    ref: JDG 21:18!12
+    wordID: o070210180121
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 18
+  text: אמֹ֔ר
+  lemma: אָמַר
+  transliteration: ʾmōr
+  ids:
+    ref: JDG 21:18!12
+    wordID: o070210180122
+  translation:
+    english: saying
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγοντες
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:070210180101;
+  discourse:
+    subject: 070210180101
+- position: 19
+  text: אָר֕וּר
+  lemma: אָרַר
+  transliteration: ʾārûr
+  ids:
+    ref: JDG 21:18!13
+    wordID: o070210180131
+  translation:
+    english: cursed
+    mandarin: 诅咒
+    gloss: '[be].cursed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: אָרַר
+    strong: 0779
+  semantic:
+    sdbh:
+    - 000718001001000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἐπικατάρατος
+    strong: '1944'
+  syntax:
+    role: v
+    frame: A1:070210180141;
+- position: 20
+  text: נֹתֵ֥ן
+  lemma: נָתַן
+  transliteration: nōṯēn
+  ids:
+    ref: JDG 21:18!14
+    wordID: o070210180141
+  translation:
+    english: gives
+    mandarin: 给
+    gloss: '[one.who].gives'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: διδοὺς
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A1:070210180151;
+- position: 21
+  text: אִשָּׁ֖ה
+  lemma: אִשָּׁה
+  transliteration: ʾiššāh
+  ids:
+    ref: JDG 21:18!15
+    wordID: o070210180151
+  translation:
+    english: wife
+    mandarin: 妻子
+    gloss: a.wife
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִשָּׁה
+    strong: 0802
+  semantic:
+    sdbh:
+    - 000738001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '1'
+  lxx:
+    text: γυναῖκα
+    strong: '1135'
+  syntax:
+    role: o
+- position: 22
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: JDG 21:18!16
+    wordID: o070210180161
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 23
+  text: בִנְיָמִֽן
+  lemma: בִּנְיָמִן
+  transliteration: 'ḇinyāmin:'
+  ids:
+    ref: JDG 21:18!16
+    wordID: o070210180162
+  translation:
+    english: Benjamin
+    mandarin: 便雅悯人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: בִּנְיָמִן
+    strong: '1144'
+  semantic:
+    sdbh:
+    - '001063001001000'
+    lexdomain:
+    - '003001007'
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: βενιαμιν
+    strong: '958'

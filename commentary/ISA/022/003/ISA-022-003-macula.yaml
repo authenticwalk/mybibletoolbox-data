@@ -1,0 +1,472 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 22:3
+text: כָּל־קְצִינַ֥יִךְ נָֽדְדוּ־יַ֖חַד מִקֶּ֣שֶׁת אֻסָּ֑רוּ כָּל־נִמְצָאַ֨יִךְ֙ אֻסְּר֣וּ
+  יַחְדָּ֔ו מֵרָח֖וֹק בָּרָֽחוּ׃
+words:
+- position: 1
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: ISA 22:3!1
+    wordID: o230220030011
+  translation:
+    english: all
+    mandarin: 所有
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 2
+  text: קְצִינַ֥יִ
+  lemma: קָצִין
+  transliteration: ''
+  ids:
+    ref: ISA 22:3!2
+    wordID: o230220030021
+  translation:
+    english: rulers
+    mandarin: 官长
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קָצִין
+    strong: '7101'
+  semantic:
+    sdbh:
+    - '006541001001000'
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    sense: '1'
+- position: 3
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 22:3!2
+    wordID: o230220030022
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  semantic:
+    sdbh:
+    - '006541001001000'
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '230220020031'
+- position: 4
+  text: נָֽדְדוּ
+  lemma: נָדַד
+  transliteration: nāḏəḏû-
+  ids:
+    ref: ISA 22:3!3
+    wordID: o230220030031
+  translation:
+    english: fled
+    mandarin: 逃跑
+    gloss: they.have.fled
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָדַד
+    strong: '5074'
+  semantic:
+    sdbh:
+    - '004652001001000'
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - '043'
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: πεφεύγασιν
+  syntax:
+    role: v
+    frame: A0:230220030021;
+- position: 5
+  text: יַ֖חַד
+  lemma: יַחַד
+  transliteration: yaḥaḏ
+  ids:
+    ref: ISA 22:3!4
+    wordID: o230220030041
+  translation:
+    english: together
+    mandarin: 一同
+    gloss: together
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: יַחַד
+    strong: '3162'
+  semantic:
+    sdbh:
+    - 002891001001000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+  syntax:
+    role: adv
+- position: 6
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: ISA 22:3!5
+    wordID: o230220030051
+  translation:
+    english: without
+    mandarin: 没有
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 7
+  text: קֶּ֣שֶׁת
+  lemma: קֶשֶׁת
+  transliteration: qqešeṯ
+  ids:
+    ref: ISA 22:3!5
+    wordID: o230220030052
+  translation:
+    english: bow
+    mandarin: 弓箭
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קֶשֶׁת
+    strong: '7198'
+  semantic:
+    sdbh:
+    - '006631001001000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    sense: '1'
+  lxx:
+    text: σκληρῶς
+- position: 8
+  text: אֻסָּ֑רוּ
+  lemma: אָסַר
+  transliteration: ʾussārû
+  ids:
+    ref: ISA 22:3!6
+    wordID: o230220030061
+  translation:
+    english: captured
+    mandarin: 捆绑
+    gloss: they.have.been.captured
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: pual
+    type: qatal
+  lexical:
+    stronglemma: אָסַר
+    strong: '0631'
+  semantic:
+    sdbh:
+    - 000578001007000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '070'
+    - '196'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:230220030021;
+  discourse:
+    subject: '230220030021'
+- position: 9
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: ISA 22:3!7
+    wordID: o230220030071
+  translation:
+    english: all
+    mandarin: 所有
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+- position: 10
+  text: נִמְצָאַ֨יִ
+  lemma: מָצָא
+  transliteration: ''
+  ids:
+    ref: ISA 22:3!8
+    wordID: o230220030081
+  translation:
+    english: found
+    mandarin: 找到
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001001000
+    lexdomain:
+    - '002002001015'
+    sense: '1'
+- position: 11
+  text: ךְ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 22:3!8
+    wordID: o230220030082
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  semantic:
+    sdbh:
+    - 004280001001000
+    lexdomain:
+    - '002002001015'
+  lxx:
+    text: σοὶ
+    strong: '4671'
+  discourse:
+    participant: '230220020031'
+- position: 12
+  text: אֻסְּר֣וּ
+  lemma: אָסַר
+  transliteration: ʾussərû
+  ids:
+    ref: ISA 22:3!9
+    wordID: o230220030091
+  translation:
+    english: captured
+    mandarin: 捆绑
+    gloss: they.were.captured
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: pual
+    type: qatal
+  lexical:
+    stronglemma: אָסַר
+    strong: '0631'
+  semantic:
+    sdbh:
+    - 000578001007000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '070'
+    - '196'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:230220030081;
+- position: 13
+  text: יַחְדָּ֔ו
+  lemma: יָחְדָּו
+  transliteration: yaḥdāw
+  ids:
+    ref: ISA 22:3!10
+    wordID: o230220030101
+  translation:
+    english: together
+    mandarin: 一同
+    gloss: together
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: יָחְדָּו
+    strong: 3162a
+  semantic:
+    sdbh:
+    - 002892001001000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+  syntax:
+    role: adv
+- position: 14
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: ISA 22:3!11
+    wordID: o230220030111
+  translation:
+    english: at
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 15
+  text: רָח֖וֹק
+  lemma: רָחֹוק
+  transliteration: rāḥôq
+  ids:
+    ref: ISA 22:3!11
+    wordID: o230220030112
+  translation:
+    english: far away
+    mandarin: 远方
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָחֹוק
+    strong: '7350'
+  semantic:
+    sense: '1'
+  lxx:
+    text: πόρρω
+    strong: '4206'
+- position: 16
+  text: בָּרָֽחוּ
+  lemma: בָּרַח
+  transliteration: 'bārāḥû:'
+  ids:
+    ref: ISA 22:3!12
+    wordID: o230220030121
+  translation:
+    english: fled
+    mandarin: 逃
+    gloss: they.had.fled
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּרַח
+    strong: '1272'
+  semantic:
+    sdbh:
+    - '001173001001000'
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '166'
+    - '167'
+    - '152'
+    sense: '1'
+  lxx:
+    text: πεφεύγασιν
+  syntax:
+    role: v
+    frame: A0:230220030081;
+  discourse:
+    subject: '230220030081'

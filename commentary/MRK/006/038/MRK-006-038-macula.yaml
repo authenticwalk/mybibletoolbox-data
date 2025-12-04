@@ -1,0 +1,225 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 6:38
+text: ὁ δὲ λέγει αὐτοῖς Πόσους ἔχετε ἄρτους; ὑπάγετε ἴδετε.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 6:38!2
+    wordID: n41006038002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MRK 6:38!1
+    wordID: n41006038001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n41006030007
+- position: 3
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: MRK 6:38!3
+    wordID: n41006038003
+  translation:
+    gloss: He says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41006038001 A2:n41006038004
+- position: 4
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MRK 6:38!4
+    wordID: n41006038004
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n41006035009
+- position: 5
+  text: Πόσους
+  lemma: πόσος
+  normalized: Πόσους
+  ids:
+    ref: MRK 6:38!5
+    wordID: n41006038005
+  translation:
+    gloss: How many
+  morphology:
+    class: pron
+    morph: Q-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '4214'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.5'
+- position: 6
+  text: ἄρτους
+  lemma: ἄρτος
+  normalized: ἄρτους
+  ids:
+    ref: MRK 6:38!7
+    wordID: n41006038007
+  translation:
+    gloss: loaves
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
+  syntax:
+    discontinuous: 'true'
+- position: 7
+  text: ἔχετε
+  lemma: ἔχω
+  normalized: ἔχετε
+  ids:
+    ref: MRK 6:38!6
+    wordID: n41006038006
+  translation:
+    gloss: have you
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n41006035009 A1:n41006038007
+  discourse:
+    subject: n41006035009
+- position: 8
+  text: ὑπάγετε
+  lemma: ὑπάγω
+  normalized: ὑπάγετε
+  ids:
+    ref: MRK 6:38!8
+    wordID: n41006038008
+  translation:
+    gloss: Go
+  morphology:
+    class: verb
+    morph: V-PAM-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5217'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.35'
+  syntax:
+    role: v
+    frame: A0:n41006035009
+  discourse:
+    subject: n41006035009
+- position: 9
+  text: ἴδετε
+  lemma: ὁράω
+  normalized: ἴδετε
+  ids:
+    ref: MRK 6:38!9
+    wordID: n41006038009
+  translation:
+    gloss: see
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '027001'
+    ln: '27.5'
+  syntax:
+    role: v
+    frame: A0:n41006035009
+  discourse:
+    subject: n41006035009

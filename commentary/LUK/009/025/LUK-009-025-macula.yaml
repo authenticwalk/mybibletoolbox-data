@@ -1,0 +1,301 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 9:25
+text: τί γὰρ ὠφελεῖται ἄνθρωπος κερδήσας τὸν κόσμον ὅλον ἑαυτὸν δὲ ἀπολέσας ἢ ζημιωθείς;
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: LUK 9:25!2
+    wordID: n42009025002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: LUK 9:25!1
+    wordID: n42009025001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 3
+  text: ὠφελεῖται
+  lemma: ὠφελέω
+  normalized: ὠφελεῖται
+  ids:
+    ref: LUK 9:25!3
+    wordID: n42009025003
+  translation:
+    gloss: is profited
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '5623'
+  semantic:
+    semanticDomain: '035001'
+    ln: '35.2'
+  syntax:
+    role: v
+    frame: A1:n42009025001 A1:n42009025004
+- position: 4
+  text: ἄνθρωπος
+  lemma: ἄνθρωπος
+  normalized: ἄνθρωπος
+  ids:
+    ref: LUK 9:25!4
+    wordID: n42009025004
+  translation:
+    gloss: a man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+  syntax:
+    role: s
+- position: 5
+  text: κερδήσας
+  lemma: κερδαίνω
+  normalized: κερδήσας
+  ids:
+    ref: LUK 9:25!5
+    wordID: n42009025005
+  translation:
+    gloss: having gained
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2770'
+  semantic:
+    semanticDomain: '057016'
+    ln: '57.189'
+  syntax:
+    role: v
+    frame: A0:n42009025004 A1:n42009025007
+  discourse:
+    subject: n42009025004
+- position: 6
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: LUK 9:25!6
+    wordID: n42009025006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: κόσμον
+  lemma: κόσμος
+  normalized: κόσμον
+  ids:
+    ref: LUK 9:25!7
+    wordID: n42009025007
+  translation:
+    gloss: world
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2889'
+  semantic:
+    semanticDomain: '001006'
+    ln: '1.39'
+- position: 8
+  text: ὅλον
+  lemma: ὅλος
+  normalized: ὅλον
+  ids:
+    ref: LUK 9:25!8
+    wordID: n42009025008
+  translation:
+    gloss: whole
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3650'
+  semantic:
+    semanticDomain: '063001'
+    ln: '63.1'
+- position: 9
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 9:25!10
+    wordID: n42009025010
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 10
+  text: ἑαυτὸν
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτόν
+  ids:
+    ref: LUK 9:25!9
+    wordID: n42009025009
+  translation:
+    gloss: himself
+  morphology:
+    class: pron
+    morph: F-3ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: o
+  discourse:
+    referent: n42009025004
+- position: 11
+  text: ἀπολέσας
+  lemma: ἀπόλλυμι
+  normalized: ἀπολέσας
+  ids:
+    ref: LUK 9:25!11
+    wordID: n42009025011
+  translation:
+    gloss: having destroyed
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '622'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.68'
+  syntax:
+    frame: A0:n42009025004 A1:n42009025009
+  discourse:
+    subject: n42009025004
+- position: 12
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: LUK 9:25!12
+    wordID: n42009025012
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 13
+  text: ζημιωθείς
+  lemma: ζημιόω
+  normalized: ζημιωθείς
+  ids:
+    ref: LUK 9:25!13
+    wordID: n42009025013
+  translation:
+    gloss: having suffered the loss of
+  morphology:
+    class: verb
+    morph: V-APP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '2210'
+  semantic:
+    semanticDomain: '057007'
+    ln: '57.69'
+  syntax:
+    frame: A1:n42009025004 A1:n42009025009
+  discourse:
+    subject: n42009025004

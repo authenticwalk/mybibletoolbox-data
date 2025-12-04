@@ -1,0 +1,283 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 32:28
+text: כִּי־ג֛וֹי אֹבַ֥ד עֵצ֖וֹת הֵ֑מָּה וְאֵ֥ין בָּהֶ֖ם תְּבוּנָֽה׃
+words:
+- position: 1
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: DEU 32:28!1
+    wordID: o050320280011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: ג֛וֹי
+  lemma: גּוֹי
+  transliteration: ḡôy
+  ids:
+    ref: DEU 32:28!2
+    wordID: o050320280021
+  translation:
+    english: nation
+    mandarin: 民族
+    gloss: '[are].a.nation'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹי
+    strong: '1471'
+  semantic:
+    sdbh:
+    - '001347001001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἔθνος
+    strong: '1484'
+- position: 3
+  text: אֹבַ֥ד
+  lemma: אָבַד
+  transliteration: ʾōḇaḏ
+  ids:
+    ref: DEU 32:28!3
+    wordID: o050320280031
+  translation:
+    english: void
+    mandarin: 缺乏
+    gloss: perishing
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָבַד
+    strong: '0006'
+  semantic:
+    sdbh:
+    - '000005001005000'
+    lexdomain:
+    - '002002002006'
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    - '052'
+    - '140'
+    - '196'
+    sense: '6'
+  lxx:
+    text: ἀπολωλεκὸς
+    strong: '622'
+  syntax:
+    frame: A0:050320280021;
+  discourse:
+    subject: 050320280021
+- position: 4
+  text: עֵצ֖וֹת
+  lemma: עֵצָה
+  transliteration: ʿēṣôṯ
+  ids:
+    ref: DEU 32:28!4
+    wordID: o050320280041
+  translation:
+    english: sense
+    mandarin: 见识
+    gloss: of.counsel(s)
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֵצָה
+    strong: '6098'
+  semantic:
+    sense: '1'
+  lxx:
+    text: βουλήν
+    strong: '1012'
+- position: 5
+  text: הֵ֑מָּה
+  lemma: הֵמָּה
+  transliteration: hēmmâ
+  ids:
+    ref: DEU 32:28!5
+    wordID: o050320280051
+  translation:
+    english: they
+    mandarin: 他们
+    gloss: they
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  lxx:
+    text: ἐστιν
+    strong: '2076'
+  syntax:
+    role: s
+  discourse:
+    participant: 050320190051 050320190062
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 32:28!6
+    wordID: o050320280061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: DEU 32:28!6
+    wordID: o050320280062
+  translation:
+    english: there is no
+    mandarin: 没有
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 8
+  text: בָּ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: DEU 32:28!7
+    wordID: o050320280071
+  translation:
+    english: in
+    mandarin: 中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 32:28!7
+    wordID: o050320280072
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: 050320190051 050320190062
+- position: 10
+  text: תְּבוּנָֽה
+  lemma: תְּבוּנָה
+  transliteration: 'təḇûnāh:'
+  ids:
+    ref: DEU 32:28!8
+    wordID: o050320280081
+  translation:
+    english: understanding
+    mandarin: 聪明
+    gloss: understanding
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּבוּנָה
+    strong: '8394'
+  semantic:
+    sdbh:
+    - '007700001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '106'
+    - '199'
+    sense: '1'
+  lxx:
+    text: ἐπιστήμη
+  syntax:
+    role: s

@@ -1,0 +1,236 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 8:25
+text: בְּטֶ֣רֶם הָרִ֣ים הָטְבָּ֑עוּ לִפְנֵ֖י גְבָע֣וֹת חוֹלָֽלְתִּי׃
+words:
+- position: 1
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PRO 8:25!1
+    wordID: o200080250011
+  translation:
+    english: at
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: πρὸ
+    strong: '4253'
+- position: 2
+  text: טֶ֣רֶם
+  lemma: טֶרֶם
+  transliteration: ṭerem
+  ids:
+    ref: PRO 8:25!1
+    wordID: o200080250012
+  translation:
+    english: before
+    mandarin: 没有
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: טֶרֶם
+    strong: '2962'
+  semantic:
+    sdbh:
+    - '002726001001000'
+    lexdomain:
+    - '002002002010'
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 3
+  text: הָרִ֣ים
+  lemma: הַר
+  transliteration: hāriym
+  ids:
+    ref: PRO 8:25!2
+    wordID: o200080250021
+  translation:
+    english: mountains
+    mandarin: 大山
+    gloss: mountains
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הַר
+    strong: '2022'
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ὄρη
+    strong: '3735'
+  syntax:
+    role: s
+- position: 4
+  text: הָטְבָּ֑עוּ
+  lemma: טָבַע
+  transliteration: hoṭbāʿû
+  ids:
+    ref: PRO 8:25!3
+    wordID: o200080250031
+  translation:
+    english: shaped
+    mandarin: 奠定
+    gloss: they.were.planted
+  morphology:
+    class: verb
+    pos: verb
+    morph: VHp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: hophal
+    type: qatal
+  lexical:
+    stronglemma: טָבַע
+    strong: '2883'
+  semantic:
+    sdbh:
+    - '002654001002000'
+    lexdomain:
+    - '002001001037'
+    coredomain:
+    - '110'
+    sense: '2'
+  lxx:
+    text: ἑδρασθῆναι
+  syntax:
+    role: v
+    frame: A1:200080250021;
+- position: 5
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: PRO 8:25!4
+    wordID: o200080250041
+  translation:
+    english: in
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: πρὸ
+    strong: '4253'
+- position: 6
+  text: פְנֵ֖י
+  lemma: פָּנֶה
+  transliteration: p̄ənēy
+  ids:
+    ref: PRO 8:25!4
+    wordID: o200080250042
+  translation:
+    english: before
+    mandarin: 之前
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '19'
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 7
+  text: גְבָע֣וֹת
+  lemma: גִּבְעָה
+  transliteration: ḡəḇāʿôṯ
+  ids:
+    ref: PRO 8:25!5
+    wordID: o200080250051
+  translation:
+    english: hills
+    mandarin: 小山
+    gloss: '[the].hills'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גִּבְעָה
+    strong: '1389'
+  semantic:
+    sdbh:
+    - 001279001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: βουνῶν
+    strong: '1015'
+- position: 8
+  text: חוֹלָֽלְתִּי
+  lemma: חיל
+  transliteration: 'ḥôlālətî:'
+  ids:
+    ref: PRO 8:25!6
+    wordID: o200080250061
+  translation:
+    english: brought forth
+    mandarin: 出生
+    gloss: I.was.brought.forth
+  morphology:
+    class: verb
+    pos: verb
+    morph: VOp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: polal
+    type: qatal
+  lexical:
+    stronglemma: חיל
+    strong: 2342a
+  semantic:
+    sdbh:
+    - 002239001006000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '030'
+    sense: '6'
+  syntax:
+    role: v
+    frame: A1:200080120021;
+  discourse:
+    subject: '200080120021'

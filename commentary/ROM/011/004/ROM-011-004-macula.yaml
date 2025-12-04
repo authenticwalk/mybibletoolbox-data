@@ -1,0 +1,138 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 11:4
+text: ἀλλὰ τί λέγει αὐτῷ ὁ χρηματισμός;
+words:
+- position: 1
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: ROM 11:4!1
+    wordID: n45011004001
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
+- position: 2
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: ROM 11:4!2
+    wordID: n45011004002
+  translation:
+    gloss: what [was]
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 3
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: ROM 11:4!3
+    wordID: n45011004003
+  translation:
+    gloss: spoken
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A1:n45011004002 A2:n45011004004 A0:n45011004006
+- position: 4
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: ROM 11:4!4
+    wordID: n45011004004
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n45011002014
+- position: 5
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: ROM 11:4!5
+    wordID: n45011004005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: χρηματισμός
+  lemma: χρηματισμός
+  normalized: χρηματισμός
+  ids:
+    ref: ROM 11:4!6
+    wordID: n45011004006
+  translation:
+    gloss: divine answer
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5538'
+  semantic:
+    semanticDomain: 028003
+    ln: '28.40'

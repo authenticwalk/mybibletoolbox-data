@@ -1,0 +1,261 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EST 4:9
+text: וַיָּב֖וֹא הֲתָ֑ךְ וַיַּגֵּ֣ד לְאֶסְתֵּ֔ר אֵ֖ת דִּבְרֵ֥י מָרְדֳּכָֽי׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EST 4:9!1
+    wordID: o170040090011
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: יָּב֖וֹא
+  lemma: בּוֹא
+  transliteration: yyāḇôʾ
+  ids:
+    ref: EST 4:9!1
+    wordID: o170040090012
+  translation:
+    english: went
+    mandarin: 回来
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσελθὼν
+    strong: '1525'
+  syntax:
+    role: v
+    frame: A0:170040090021;
+- position: 3
+  text: הֲתָ֑ךְ
+  lemma: הֲתָךְ
+  transliteration: hăṯāḵ
+  ids:
+    ref: EST 4:9!2
+    wordID: o170040090021
+  translation:
+    english: Hathach
+    mandarin: 哈他革
+    gloss: Hathach
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: הֲתָךְ
+    strong: '2047'
+  semantic:
+    sdbh:
+    - 001894001001000
+    lexdomain:
+    - '003001007'
+  syntax:
+    role: s
+- position: 4
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EST 4:9!3
+    wordID: o170040090031
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 5
+  text: יַּגֵּ֣ד
+  lemma: נָגַד
+  transliteration: yyaggēḏ
+  ids:
+    ref: EST 4:9!3
+    wordID: o170040090032
+  translation:
+    english: told
+    mandarin: 告诉
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָגַד
+    strong: '5046'
+  semantic:
+    sdbh:
+    - '004626001001000'
+    lexdomain:
+    - 002004001009008
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐλάλησεν
+    strong: '2980'
+  syntax:
+    role: v
+    frame: AA:170040090021; A0:170040090061;
+  discourse:
+    subject: '170040090021'
+- position: 6
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: EST 4:9!4
+    wordID: o170040090041
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: אֶסְתֵּ֔ר
+  lemma: אֶסְתֵּר
+  transliteration: ʾestēr
+  ids:
+    ref: EST 4:9!4
+    wordID: o170040090042
+  translation:
+    english: Esther
+    mandarin: 以斯帖
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אֶסְתֵּר
+    strong: '0635'
+  semantic:
+    sdbh:
+    - 000582001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: αὐτῇ
+    strong: '846'
+- position: 8
+  text: אֵ֖ת
+  lemma: אֵת
+  transliteration: ʾēṯ
+  ids:
+    ref: EST 4:9!5
+    wordID: o170040090051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: דִּבְרֵ֥י
+  lemma: דָּבָר
+  transliteration: diḇrēy
+  ids:
+    ref: EST 4:9!6
+    wordID: o170040090061
+  translation:
+    english: what ~ hadsaid
+    mandarin: 话
+    gloss: the.words
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λόγους
+    strong: '3056'
+- position: 10
+  text: מָרְדֳּכָֽי
+  lemma: מׇרְדֳּכַי
+  transliteration: 'mordŏḵāy:'
+  ids:
+    ref: EST 4:9!7
+    wordID: o170040090071
+  translation:
+    english: Mordecai
+    mandarin: 末底改
+    gloss: of.Mordecai
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מׇרְדֳּכַי
+    strong: '4782'
+  semantic:
+    sdbh:
+    - '004377001002000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: τούτους
+    strong: '5128'

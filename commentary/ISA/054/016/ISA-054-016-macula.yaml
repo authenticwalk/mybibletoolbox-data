@@ -1,0 +1,586 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 54:16
+text: הִנֵּ֤ה אָֽנֹכִי֙ בָּרָ֣אתִי חָרָ֔שׁ נֹפֵ֨חַ֙ בְּאֵ֣שׁ פֶּחָ֔ם וּמוֹצִ֥יא כְלִ֖י
+  לְמַעֲשֵׂ֑הוּ וְאָנֹכִ֛י בָּרָ֥אתִי מַשְׁחִ֖ית לְחַבֵּֽל׃
+words:
+- position: 1
+  text: הִנֵּ֤ה
+  lemma: הִנֵּה
+  transliteration: '**hinnēh'
+  ids:
+    ref: ISA 54:16!2
+    wordID: o230540160021
+  translation:
+    english: look
+    mandarin: 看
+    gloss: here!
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: הִנֵּה
+    strong: '2009'
+  lxx:
+    text: ἰδοὺ
+    strong: '2400'
+- position: 2
+  text: אָֽנֹכִי֙
+  lemma: אָנֹכִי
+  transliteration: ʾānōḵî
+  ids:
+    ref: ISA 54:16!3
+    wordID: o230540160031
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '230540130041'
+- position: 3
+  text: בָּרָ֣אתִי
+  lemma: בָּרָא
+  transliteration: bārāʾṯî
+  ids:
+    ref: ISA 54:16!4
+    wordID: o230540160041
+  translation:
+    english: created
+    mandarin: 创造
+    gloss: I.created
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּרָא
+    strong: '1254'
+  semantic:
+    sdbh:
+    - '001156001002000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+    sense: '1'
+  lxx:
+    text: κτίζω
+  syntax:
+    role: v
+    frame: A0:230540160031; A1:230540160051;
+- position: 4
+  text: חָרָ֔שׁ
+  lemma: חָרָשׁ
+  transliteration: ḥārāš
+  ids:
+    ref: ISA 54:16!5
+    wordID: o230540160051
+  translation:
+    english: smith
+    mandarin: 铁匠
+    gloss: a.craftsman
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חָרָשׁ
+    strong: '2796'
+  semantic:
+    sdbh:
+    - 002569001001000
+    lexdomain:
+    - 001001002003009
+    coredomain:
+    - '200'
+    - '027'
+    sense: '3'
+- position: 5
+  text: נֹפֵ֨חַ֙
+  lemma: נָפַח
+  transliteration: nōp̄ēḥa
+  ids:
+    ref: ISA 54:16!6
+    wordID: o230540160061
+  translation:
+    english: blows
+    mandarin: 吹
+    gloss: '[who].blows'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָפַח
+    strong: '5301'
+  semantic:
+    sdbh:
+    - 004860001001000
+    lexdomain:
+    - '002002001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: φυσῶν
+  syntax:
+    role: v
+    frame: A0:230540160051; A1:230540160081;
+  discourse:
+    subject: '230540160051'
+- position: 6
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: ISA 54:16!7
+    wordID: o230540160071
+  translation:
+    english: 'on'
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 7
+  text: אֵ֣שׁ
+  lemma: אֵשׁ
+  transliteration: ʾēš
+  ids:
+    ref: ISA 54:16!7
+    wordID: o230540160072
+  translation:
+    english: fire
+    mandarin: 火
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵשׁ
+    strong: 0784
+  semantic:
+    sdbh:
+    - '000724001001000'
+    lexdomain:
+    - '001006006'
+    coredomain:
+    - '067'
+    sense: '1'
+- position: 8
+  text: פֶּחָ֔ם
+  lemma: פֶּחָם
+  transliteration: peḥām
+  ids:
+    ref: ISA 54:16!8
+    wordID: o230540160081
+  translation:
+    english: coals
+    mandarin: 炭
+    gloss: of.charcoal
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פֶּחָם
+    strong: '6352'
+  semantic:
+    sdbh:
+    - 005833001001000
+    lexdomain:
+    - '001006016'
+    coredomain:
+    - '067'
+    sense: '1'
+  lxx:
+    text: ἄνθρακας
+    strong: '440'
+  syntax:
+    role: o
+- position: 9
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ISA 54:16!9
+    wordID: o230540160091
+  translation:
+    english: and
+    mandarin: 才~
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: מוֹצִ֥יא
+  lemma: יָצָא
+  transliteration: môṣiyʾ
+  ids:
+    ref: ISA 54:16!9
+    wordID: o230540160092
+  translation:
+    english: produces
+    mandarin: 打造
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: יָצָא
+    strong: '3318'
+  semantic:
+    sdbh:
+    - '003035001021000'
+    lexdomain:
+    - '002002002005'
+    sense: '6'
+  lxx:
+    text: ἐκφέρων
+  syntax:
+    role: v
+    frame: AA:230540160051; A0:230540160101;
+  discourse:
+    subject: '230540160051'
+- position: 11
+  text: כְלִ֖י
+  lemma: כְּלִי
+  transliteration: ḵəliy
+  ids:
+    ref: ISA 54:16!10
+    wordID: o230540160101
+  translation:
+    english: weapon
+    mandarin: 武器
+    gloss: a.weapon
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כְּלִי
+    strong: '3627'
+  semantic:
+    sdbh:
+    - '003322001001000'
+    lexdomain:
+    - '001004001'
+    coredomain:
+    - '027'
+    sense: '2'
+  lxx:
+    text: σκεῦος
+    strong: '4632'
+  syntax:
+    role: o
+- position: 12
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: ISA 54:16!11
+    wordID: o230540160111
+  translation:
+    english: for
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 13
+  text: מַעֲשֵׂ֑
+  lemma: מַעֲשֶׂה
+  transliteration: ''
+  ids:
+    ref: ISA 54:16!11
+    wordID: o230540160112
+  translation:
+    english: work
+    mandarin: 作工
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲשֶׂה
+    strong: '4639'
+  semantic:
+    sdbh:
+    - '004247001003000'
+    lexdomain:
+    - '002003002024'
+    sense: '1'
+  lxx:
+    text: ἔργον
+    strong: '2041'
+- position: 14
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 54:16!11
+    wordID: o230540160113
+  translation:
+    english: its
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - '004247001003000'
+    lexdomain:
+    - '002003002024'
+  discourse:
+    participant: '230540160051'
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 54:16!12
+    wordID: o230540160121
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+- position: 16
+  text: אָנֹכִ֛י
+  lemma: אָנֹכִי
+  transliteration: ʾānōḵiy
+  ids:
+    ref: ISA 54:16!12
+    wordID: o230540160122
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: ^δὲ
+    strong: '1161'
+  syntax:
+    role: s
+  discourse:
+    participant: '230540130041'
+- position: 17
+  text: בָּרָ֥אתִי
+  lemma: בָּרָא
+  transliteration: bārāʾṯî
+  ids:
+    ref: ISA 54:16!13
+    wordID: o230540160131
+  translation:
+    english: created
+    mandarin: 创造
+    gloss: I.created
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּרָא
+    strong: '1254'
+  semantic:
+    sdbh:
+    - '001156001002000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+    sense: '1'
+  lxx:
+    text: ἔκτ
+  syntax:
+    role: v
+    frame: A0:230540160122; A1:230540160141;
+- position: 18
+  text: מַשְׁחִ֖ית
+  lemma: מַשְׁחִית
+  transliteration: mašḥiyṯ
+  ids:
+    ref: ISA 54:16!14
+    wordID: o230540160141
+  translation:
+    english: destroyer
+    mandarin: 行毁灭的
+    gloss: a.destroyer
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: מַשְׁחִית
+    strong: '4889'
+  semantic:
+    sdbh:
+    - '004475001003000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '006'
+    - '052'
+    sense: '2'
+  lxx:
+    text: ἀπώλειαν
+    strong: '684'
+  syntax:
+    role: o
+- position: 19
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: ISA 54:16!15
+    wordID: o230540160151
+  translation:
+    english: to
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 20
+  text: חַבֵּֽל
+  lemma: חָבַל
+  transliteration: 'ḥabbēl:'
+  ids:
+    ref: ISA 54:16!15
+    wordID: o230540160152
+  translation:
+    english: destroy
+    mandarin: 残害
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpc
+    stem: piel
+    type: infinitive construct
+  lexical:
+    stronglemma: חָבַל
+    strong: 2254a
+  semantic:
+    sdbh:
+    - 002082002001000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+    sense: '1'
+  lxx:
+    text: φθεῖραι
+  syntax:
+    role: v
+    frame: A0:230540160141;
+  discourse:
+    subject: '230540160141'

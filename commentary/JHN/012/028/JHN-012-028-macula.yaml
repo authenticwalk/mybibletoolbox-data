@@ -1,0 +1,120 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 12:28
+text: Πάτερ, δόξασόν σου τὸ ὄνομα.
+words:
+- position: 1
+  text: Πάτερ
+  lemma: πατήρ
+  normalized: Πάτερ
+  ids:
+    ref: JHN 12:28!1
+    wordID: n43012028001
+  translation:
+    gloss: Father
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+  syntax:
+    role: aux
+- position: 2
+  text: δόξασόν
+  lemma: δοξάζω
+  normalized: δόξασον
+  ids:
+    ref: JHN 12:28!2
+    wordID: n43012028002
+  translation:
+    gloss: glorify
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '1392'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.24'
+  syntax:
+    role: v
+    frame: A0:n43012028001 A1:n43012028005
+  discourse:
+    subject: n43012028001
+- position: 3
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: JHN 12:28!3
+    wordID: n43012028003
+  translation:
+    gloss: of You
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n43012028001
+- position: 4
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: JHN 12:28!4
+    wordID: n43012028004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: ὄνομα
+  lemma: ὄνομα
+  normalized: ὄνομα
+  ids:
+    ref: JHN 12:28!5
+    wordID: n43012028005
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'

@@ -1,0 +1,231 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 28:6
+text: οἱ δὲ προσεδόκων αὐτὸν μέλλειν πίμπρασθαι ἢ καταπίπτειν ἄφνω νεκρόν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ACT 28:6!2
+    wordID: n44028006002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: ACT 28:6!1
+    wordID: n44028006001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n44028004005
+- position: 3
+  text: προσεδόκων
+  lemma: προσδοκάω
+  normalized: προσεδόκων
+  ids:
+    ref: ACT 28:6!3
+    wordID: n44028006003
+  translation:
+    gloss: they were expecting
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4328'
+  semantic:
+    semanticDomain: '030003'
+    ln: '30.55'
+  syntax:
+    role: v
+    frame: A0:n44028006001 A1:n44028006005;n44028006008
+- position: 4
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: ACT 28:6!4
+    wordID: n44028006004
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n44028003004
+- position: 5
+  text: μέλλειν
+  lemma: μέλλω
+  normalized: μέλλειν
+  ids:
+    ref: ACT 28:6!5
+    wordID: n44028006005
+  translation:
+    gloss: to be about
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3195'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.62'
+  syntax:
+    role: v
+    frame: A0:n44028006004 A1:n44028006006
+- position: 6
+  text: πίμπρασθαι
+  lemma: πίμπρημι
+  normalized: πίμπρασθαι
+  ids:
+    ref: ACT 28:6!6
+    wordID: n44028006006
+  translation:
+    gloss: to become inflamed
+  morphology:
+    class: verb
+    morph: V-PPN
+    tense: present
+    voice: passive
+    mood: infinitive
+  lexical:
+    strong: '4092'
+  semantic:
+    semanticDomain: 023009
+    ln: 23.159 23.163
+  syntax:
+    role: v
+    frame: A1:n44028003004
+  discourse:
+    subject: n44028003004
+- position: 7
+  text: ἢ
+  lemma: ἤ
+  normalized: ἤ
+  ids:
+    ref: ACT 28:6!7
+    wordID: n44028006007
+  translation:
+    gloss: or
+  morphology:
+    class: conj
+    morph: PRT
+  lexical:
+    strong: '2228'
+  semantic:
+    semanticDomain: 089024
+    ln: '89.139'
+- position: 8
+  text: καταπίπτειν
+  lemma: καταπίπτω
+  normalized: καταπίπτειν
+  ids:
+    ref: ACT 28:6!8
+    wordID: n44028006008
+  translation:
+    gloss: to fall down
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2667'
+  semantic:
+    semanticDomain: '015012'
+    ln: '15.119'
+  syntax:
+    role: v
+    frame: A0:n44028003004
+  discourse:
+    subject: n44028003004
+- position: 9
+  text: ἄφνω
+  lemma: ἄφνω
+  normalized: ἄφνω
+  ids:
+    ref: ACT 28:6!9
+    wordID: n44028006009
+  translation:
+    gloss: suddenly
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '869'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.113'
+  syntax:
+    role: adv
+- position: 10
+  text: νεκρόν
+  lemma: νεκρός
+  normalized: νεκρόν
+  ids:
+    ref: ACT 28:6!10
+    wordID: n44028006010
+  translation:
+    gloss: dead
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3498'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.121'
+  syntax:
+    role: adv

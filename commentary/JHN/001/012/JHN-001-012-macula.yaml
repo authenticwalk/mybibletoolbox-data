@@ -1,0 +1,684 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 1:12
+text: JHN 1:13 ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα Θεοῦ γενέσθαι, τοῖς
+  πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ, οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ
+  ἐκ θελήματος ἀνδρὸς ἀλλ’ ἐκ Θεοῦ ἐγεννήθησαν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: JHN 1:12!2
+    wordID: n43001012002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὅσοι
+  lemma: ὅσος
+  normalized: ὅσοι
+  ids:
+    ref: JHN 1:12!1
+    wordID: n43001012001
+  translation:
+    gloss: As many as
+  morphology:
+    class: pron
+    morph: K-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3745'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.7'
+  syntax:
+    role: s
+- position: 3
+  text: ἔλαβον
+  lemma: λαμβάνω
+  normalized: ἔλαβον
+  ids:
+    ref: JHN 1:12!3
+    wordID: n43001012003
+  translation:
+    gloss: received
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '031007'
+    ln: '31.50'
+  syntax:
+    role: v
+    frame: A0:n43001012001 A1:n43001012004
+- position: 4
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: JHN 1:12!4
+    wordID: n43001012004
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n43001009003
+- position: 5
+  text: ἔδωκεν
+  lemma: δίδωμι
+  normalized: ἔδωκεν
+  ids:
+    ref: JHN 1:12!5
+    wordID: n43001012005
+  translation:
+    gloss: He gave
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.142'
+  syntax:
+    role: v
+    frame: A0:n43001009003 A1:n43001012007 A2:n43001012006
+  discourse:
+    subject: n43001009003
+- position: 6
+  text: ἐξουσίαν
+  lemma: ἐξουσία
+  normalized: ἐξουσίαν
+  ids:
+    ref: JHN 1:12!7
+    wordID: n43001012007
+  translation:
+    gloss: authority
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1849'
+  semantic:
+    semanticDomain: '030007'
+    ln: '30.122'
+  syntax:
+    role: o
+- position: 7
+  text: τέκνα
+  lemma: τέκνον
+  normalized: τέκνα
+  ids:
+    ref: JHN 1:12!8
+    wordID: n43001012008
+  translation:
+    gloss: children
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '5043'
+  semantic:
+    semanticDomain: 058004
+    ln: '58.26'
+- position: 8
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: JHN 1:12!9
+    wordID: n43001012009
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 9
+  text: γενέσθαι
+  lemma: γίνομαι
+  normalized: γενέσθαι
+  ids:
+    ref: JHN 1:12!10
+    wordID: n43001012010
+  translation:
+    gloss: to be
+  morphology:
+    class: verb
+    morph: V-2ADN
+    tense: aorist
+    voice: middle
+    mood: infinitive
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.48'
+  syntax:
+    role: vc
+    frame: A0:n43001012003
+    discontinuous: 'true'
+  discourse:
+    subject: n43001012003
+- position: 10
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 1:12!6
+    wordID: n43001012006
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n43001012003
+- position: 11
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: JHN 1:12!11
+    wordID: n43001012011
+  translation:
+    gloss: to those
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: πιστεύουσιν
+  lemma: πιστεύω
+  normalized: πιστεύουσιν
+  ids:
+    ref: JHN 1:12!12
+    wordID: n43001012012
+  translation:
+    gloss: believing
+  morphology:
+    class: verb
+    morph: V-PAP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: '031010'
+    ln: '31.102'
+  syntax:
+    role: v
+    frame: A0:n43001012003
+  discourse:
+    subject: n43001012003
+- position: 13
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: JHN 1:12!13
+    wordID: n43001012013
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.23'
+- position: 14
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: JHN 1:12!14
+    wordID: n43001012014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: ὄνομα
+  lemma: ὄνομα
+  normalized: ὄνομα
+  ids:
+    ref: JHN 1:12!15
+    wordID: n43001012015
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.19'
+- position: 16
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: JHN 1:12!16
+    wordID: n43001012016
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n43001009003
+- position: 17
+  text: οἳ
+  lemma: ὅς
+  normalized: οἵ
+  ids:
+    ref: JHN 1:13!1
+    wordID: n43001013001
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: s
+  discourse:
+    referent: n43001012003
+- position: 18
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: JHN 1:13!2
+    wordID: n43001013002
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+- position: 19
+  text: ἐξ
+  lemma: ἐκ
+  normalized: ἐξ
+  ids:
+    ref: JHN 1:13!3
+    wordID: n43001013003
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090002
+    ln: '90.12'
+- position: 20
+  text: αἱμάτων
+  lemma: αἷμα
+  normalized: αἱμάτων
+  ids:
+    ref: JHN 1:13!4
+    wordID: n43001013004
+  translation:
+    gloss: blood
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '129'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.64'
+- position: 21
+  text: οὐδὲ
+  lemma: οὐδέ
+  normalized: οὐδέ
+  ids:
+    ref: JHN 1:13!5
+    wordID: n43001013005
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
+- position: 22
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: JHN 1:13!6
+    wordID: n43001013006
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.16'
+- position: 23
+  text: θελήματος
+  lemma: θέλημα
+  normalized: θελήματος
+  ids:
+    ref: JHN 1:13!7
+    wordID: n43001013007
+  translation:
+    gloss: will
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2307'
+  semantic:
+    semanticDomain: '025002'
+    ln: '25.29'
+- position: 24
+  text: σαρκὸς
+  lemma: σάρξ
+  normalized: σαρκός
+  ids:
+    ref: JHN 1:13!8
+    wordID: n43001013008
+  translation:
+    gloss: of flesh
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4561'
+  semantic:
+    semanticDomain: '025002'
+    ln: '25.29'
+- position: 25
+  text: οὐδὲ
+  lemma: οὐδέ
+  normalized: οὐδέ
+  ids:
+    ref: JHN 1:13!9
+    wordID: n43001013009
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
+- position: 26
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: JHN 1:13!10
+    wordID: n43001013010
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 090003
+    ln: '90.16'
+- position: 27
+  text: θελήματος
+  lemma: θέλημα
+  normalized: θελήματος
+  ids:
+    ref: JHN 1:13!11
+    wordID: n43001013011
+  translation:
+    gloss: will
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2307'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.2'
+- position: 28
+  text: ἀνδρὸς
+  lemma: ἀνήρ
+  normalized: ἀνδρός
+  ids:
+    ref: JHN 1:13!12
+    wordID: n43001013012
+  translation:
+    gloss: of man
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '435'
+  semantic:
+    semanticDomain: '010004'
+    ln: '10.53'
+- position: 29
+  text: ἀλλ’
+  lemma: ἀλλά
+  normalized: ἀλλ’
+  ids:
+    ref: JHN 1:13!13
+    wordID: n43001013013
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
+- position: 30
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: JHN 1:13!14
+    wordID: n43001013014
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+  semantic:
+    semanticDomain: 089003
+    ln: '89.3'
+- position: 31
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: JHN 1:13!15
+    wordID: n43001013015
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 32
+  text: ἐγεννήθησαν
+  lemma: γεννάω
+  normalized: ἐγεννήθησαν
+  ids:
+    ref: JHN 1:13!16
+    wordID: n43001013016
+  translation:
+    gloss: were born
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1080'
+  semantic:
+    semanticDomain: '023003'
+    ln: '23.52'
+  syntax:
+    role: v
+    frame: A1:n43001013001

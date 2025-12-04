@@ -1,0 +1,536 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 1SA 1:16
+text: 1SA 1:16 אַל־תִּתֵּן֙ אֶת־אֲמָ֣תְךָ֔ לִפְנֵ֖י בַּת־בְּלִיָּ֑עַל כִּֽי־מֵרֹ֥ב
+  שִׂיחִ֛י וְכַעְסִ֖י דִּבַּ֥רְתִּי עַד־הֵֽנָּה׃
+words:
+- position: 1
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: 1SA 1:16!1
+    wordID: o090010160011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: תִּתֵּן֙
+  lemma: נָתַן
+  transliteration: tittēn
+  ids:
+    ref: 1SA 1:16!2
+    wordID: o090010160021
+  translation:
+    english: regard
+    mandarin: 看
+    gloss: give
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '42'
+  lxx:
+    text: δῷς
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:090010150051; A1:090010160041;
+  discourse:
+    subject: 090010150051
+- position: 3
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 1SA 1:16!3
+    wordID: o090010160031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: אֲמָ֣תְ
+  lemma: אָמָה
+  transliteration: ''
+  ids:
+    ref: 1SA 1:16!4
+    wordID: o090010160041
+  translation:
+    english: servant
+    mandarin: 使女
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָמָה
+    strong: 0519
+  semantic:
+    sdbh:
+    - 000483001001000
+    lexdomain:
+    - '001001002003001'
+    sense: '1'
+- position: 5
+  text: ךָ֔
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 1SA 1:16!4
+    wordID: o090010160042
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000483001001000
+    lexdomain:
+    - '001001002003001'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: 090010150051
+- position: 6
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: 1SA 1:16!5
+    wordID: o090010160051
+  translation:
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 7
+  text: פְנֵ֖י
+  lemma: פָּנֶה
+  transliteration: p̄ənēy
+  ids:
+    ref: 1SA 1:16!5
+    wordID: o090010160052
+  translation:
+    mandarin: 为
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '35'
+- position: 8
+  text: בַּת
+  lemma: בַּת
+  transliteration: baṯ-
+  ids:
+    ref: 1SA 1:16!6
+    wordID: o090010160061
+  translation:
+    english: woman
+    mandarin: 女子
+    gloss: a.daughter
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּת
+    strong: '1323'
+  semantic:
+    sdbh:
+    - '001220001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: θυγατέρα
+    strong: '2364'
+- position: 9
+  text: בְּלִיָּ֑עַל
+  lemma: בְּלִיַּעַל
+  transliteration: bəliyyāʿal
+  ids:
+    ref: 1SA 1:16!7
+    wordID: o090010160071
+  translation:
+    english: worthless
+    mandarin: 不正经
+    gloss: of.worthlessness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּלִיַּעַל
+    strong: '1100'
+  semantic:
+    sdbh:
+    - '001022001001000'
+    lexdomain:
+    - '002001002007'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: λοιμήν
+- position: 10
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: 1SA 1:16!8
+    wordID: o090010160081
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 11
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: 1SA 1:16!9
+    wordID: o090010160091
+  translation:
+    english: out of
+    mandarin: 因为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐκ
+    strong: '1537'
+- position: 12
+  text: רֹ֥ב
+  lemma: רֹב
+  transliteration: rōḇ
+  ids:
+    ref: 1SA 1:16!9
+    wordID: o090010160092
+  translation:
+    english: great
+    mandarin: 多
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רֹב
+    strong: '7230'
+  semantic:
+    sense: '3'
+  lxx:
+    text: πλήθους
+    strong: '4128'
+- position: 13
+  text: שִׂיחִ֛
+  lemma: שִׂיחַ
+  transliteration: ''
+  ids:
+    ref: 1SA 1:16!10
+    wordID: o090010160101
+  translation:
+    english: anguish
+    mandarin: 愁苦
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שִׂיחַ
+    strong: '7879'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀδολεσξίας
+- position: 14
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 1SA 1:16!10
+    wordID: o090010160102
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: 090010160041
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 1SA 1:16!11
+    wordID: o090010160111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 16
+  text: כַעְסִ֖
+  lemma: כַּעַס
+  transliteration: ''
+  ids:
+    ref: 1SA 1:16!11
+    wordID: o090010160112
+  translation:
+    english: provocation
+    mandarin: 激动
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כַּעַס
+    strong: '3708'
+  semantic:
+    sdbh:
+    - 003391001001000
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    - 093
+    sense: '2'
+- position: 17
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 1SA 1:16!11
+    wordID: o090010160113
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 003391001001000
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    - 093
+  discourse:
+    participant: 090010160041
+- position: 18
+  text: דִּבַּ֥רְתִּי
+  lemma: דָבַר
+  transliteration: dibbarətî
+  ids:
+    ref: 1SA 1:16!12
+    wordID: o090010160121
+  translation:
+    english: praying
+    mandarin: 祷告
+    gloss: I.have.spoken
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐκτέτακα
+    strong: '1614'
+  syntax:
+    role: v
+    frame: A0:090010160041;
+  discourse:
+    subject: 090010160041
+- position: 19
+  text: עַד
+  lemma: עַד
+  transliteration: ʿaḏ-
+  ids:
+    ref: 1SA 1:16!13
+    wordID: o090010160131
+  translation:
+    english: until
+    mandarin: 到
+    gloss: until
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001002000'
+    lexdomain:
+    - '002002002010'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 20
+  text: הֵֽנָּה
+  lemma: הֵנָּה
+  transliteration: 'hēnnâ:'
+  ids:
+    ref: 1SA 1:16!14
+    wordID: o090010160141
+  translation:
+    english: this
+    mandarin: 如今
+    gloss: now
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: הֵנָּה
+    strong: '2008'
+  lxx:
+    text: νῦν
+    strong: '3568'

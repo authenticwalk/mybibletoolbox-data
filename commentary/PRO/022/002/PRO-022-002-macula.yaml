@@ -1,0 +1,231 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 22:2
+text: עָשִׁ֣יר וָרָ֣שׁ נִפְגָּ֑שׁוּ עֹשֵׂ֖ה כֻלָּ֣ם יְהוָֽה׃
+words:
+- position: 1
+  text: עָשִׁ֣יר
+  lemma: עָשִׁיר
+  transliteration: ʿāšiyr
+  ids:
+    ref: PRO 22:2!1
+    wordID: o200220020011
+  translation:
+    english: rich
+    mandarin: 有钱人
+    gloss: '[the].rich'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָשִׁיר
+    strong: '6223'
+  semantic:
+    sense: '1'
+  lxx:
+    text: πλούσιος
+    strong: '4145'
+- position: 2
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: PRO 22:2!2
+    wordID: o200220020021
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 3
+  text: רָ֣שׁ
+  lemma: רוּשׁ
+  transliteration: rāš
+  ids:
+    ref: PRO 22:2!2
+    wordID: o200220020022
+  translation:
+    english: poor
+    mandarin: 穷人
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רוּשׁ
+    strong: '7326'
+  semantic:
+    sdbh:
+    - '006732001002000'
+    lexdomain:
+    - '002001001040'
+    coredomain:
+    - '192'
+    - '170'
+    sense: '1'
+  lxx:
+    text: πτωξὸς
+    strong: '4434'
+- position: 4
+  text: נִפְגָּ֑שׁוּ
+  lemma: פָּגַשׁ
+  transliteration: nip̄gāšû
+  ids:
+    ref: PRO 22:2!3
+    wordID: o200220020031
+  translation:
+    english: have ~ incommon
+    mandarin: 相遇
+    gloss: they.meet.one.another
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: פָּגַשׁ
+    strong: '6298'
+  semantic:
+    sdbh:
+    - 005779001003000
+    lexdomain:
+    - '002002001016'
+    - '002003002003'
+    coredomain:
+    - '142'
+    sense: '2'
+  syntax:
+    role: v
+    frame: A0:200220020011;200220020022;
+- position: 5
+  text: עֹשֵׂ֖ה
+  lemma: עָשָׂה
+  transliteration: ʿōśēh
+  ids:
+    ref: PRO 22:2!4
+    wordID: o200220020041
+  translation:
+    english: maker
+    mandarin: 造
+    gloss: '[is.the].maker'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001001000
+    lexdomain:
+    - '002002002005'
+    sense: '10'
+  syntax:
+    frame: A1:200220020052; A0:200220020061;
+  discourse:
+    subject: '200220020061'
+- position: 6
+  text: כֻלָּ֣
+  lemma: כֹּל
+  transliteration: ''
+  ids:
+    ref: PRO 22:2!5
+    wordID: o200220020051
+  translation:
+    english: all
+    mandarin: 都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: ἀμφοτέρους
+    strong: '297'
+- position: 7
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 22:2!5
+    wordID: o200220020052
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: δὲ
+    strong: '1161'
+  discourse:
+    participant: 200220020011 200220020022
+- position: 8
+  text: יְהוָֽה
+  lemma: יהוה
+  transliteration: 'yəhwāh:'
+  ids:
+    ref: PRO 22:2!6
+    wordID: o200220020061
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: s

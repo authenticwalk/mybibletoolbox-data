@@ -1,0 +1,200 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 8:36
+text: ἐὰν οὖν ὁ Υἱὸς ὑμᾶς ἐλευθερώσῃ, ὄντως ἐλεύθεροι ἔσεσθε.
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: JHN 8:36!2
+    wordID: n43008036002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἐὰν
+  lemma: ἐάν
+  normalized: ἐάν
+  ids:
+    ref: JHN 8:36!1
+    wordID: n43008036001
+  translation:
+    gloss: If
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1437'
+  semantic:
+    semanticDomain: 089010
+    ln: '89.67'
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 8:36!3
+    wordID: n43008036003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Υἱὸς
+  lemma: υἱός
+  normalized: Υἱός
+  ids:
+    ref: JHN 8:36!4
+    wordID: n43008036004
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.15'
+- position: 5
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: JHN 8:36!5
+    wordID: n43008036005
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: o
+  discourse:
+    referent: n43008031009
+- position: 6
+  text: ἐλευθερώσῃ
+  lemma: ἐλευθερόω
+  normalized: ἐλευθερώσῃ
+  ids:
+    ref: JHN 8:36!6
+    wordID: n43008036006
+  translation:
+    gloss: shall set free
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '1659'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.135'
+  syntax:
+    role: v
+    frame: A0:n43008036004 A1:n43008036005
+- position: 7
+  text: ὄντως
+  lemma: ὄντως
+  normalized: ὄντως
+  ids:
+    ref: JHN 8:36!7
+    wordID: n43008036007
+  translation:
+    gloss: indeed
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3689'
+  semantic:
+    semanticDomain: '070'
+    ln: '70.2'
+  syntax:
+    role: adv
+- position: 8
+  text: ἐλεύθεροι
+  lemma: ἐλεύθερος
+  normalized: ἐλεύθεροι
+  ids:
+    ref: JHN 8:36!8
+    wordID: n43008036008
+  translation:
+    gloss: free
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '1658'
+  semantic:
+    semanticDomain: '037010'
+    ln: '37.134'
+  syntax:
+    role: p
+- position: 9
+  text: ἔσεσθε
+  lemma: εἰμί
+  normalized: ἔσεσθε
+  ids:
+    ref: JHN 8:36!9
+    wordID: n43008036009
+  translation:
+    gloss: you will be
+  morphology:
+    class: verb
+    morph: V-FDI-2P
+    number: plural
+    person: second
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
+  discourse:
+    subject: n43008031009

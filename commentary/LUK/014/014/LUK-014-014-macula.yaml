@@ -1,0 +1,350 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 14:14
+text: καὶ μακάριος ἔσῃ, ὅτι οὐκ ἔχουσιν ἀνταποδοῦναί σοι· ἀνταποδοθήσεται γάρ σοι
+  ἐν τῇ ἀναστάσει τῶν δικαίων.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 14:14!1
+    wordID: n42014014001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: μακάριος
+  lemma: μακάριος
+  normalized: μακάριος
+  ids:
+    ref: LUK 14:14!2
+    wordID: n42014014002
+  translation:
+    gloss: blessed
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3107'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.119'
+  syntax:
+    role: p
+- position: 3
+  text: ἔσῃ
+  lemma: εἰμί
+  normalized: ἔσῃ
+  ids:
+    ref: LUK 14:14!3
+    wordID: n42014014003
+  translation:
+    gloss: you will be
+  morphology:
+    class: verb
+    morph: V-FDI-2S
+    number: singular
+    person: second
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
+  discourse:
+    subject: n42014012005
+- position: 4
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: LUK 14:14!4
+    wordID: n42014014004
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 5
+  text: οὐκ
+  lemma: οὐ
+  normalized: οὐκ
+  ids:
+    ref: LUK 14:14!5
+    wordID: n42014014005
+  translation:
+    gloss: nothing
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 6
+  text: ἔχουσιν
+  lemma: ἔχω
+  normalized: ἔχουσιν
+  ids:
+    ref: LUK 14:14!6
+    wordID: n42014014006
+  translation:
+    gloss: they have
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.12'
+  syntax:
+    role: v
+    frame: A0:n42014013006;n42014013007;n42014013008;n42014013009 A1:n42014014007
+  discourse:
+    subject: n42014013006 n42014013007 n42014013008 n42014013009
+- position: 7
+  text: ἀνταποδοῦναί
+  lemma: ἀνταποδίδωμι
+  normalized: ἀνταποδοῦναι
+  ids:
+    ref: LUK 14:14!7
+    wordID: n42014014007
+  translation:
+    gloss: to repay
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '467'
+  semantic:
+    semanticDomain: 038002 057012
+    ln: 38.19 57.154
+  syntax:
+    role: v
+    frame: A0:n42014013006;n42014013007;n42014013008;n42014013009 A1:n00000000000
+      A2:n42014014008
+  discourse:
+    subject: n42014013006 n42014013007 n42014013008 n42014013009
+- position: 8
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: LUK 14:14!8
+    wordID: n42014014008
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n42014012005
+- position: 9
+  text: γάρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: LUK 14:14!10
+    wordID: n42014014010
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 10
+  text: ἀνταποδοθήσεται
+  lemma: ἀνταποδίδωμι
+  normalized: ἀνταποδοθήσεται
+  ids:
+    ref: LUK 14:14!9
+    wordID: n42014014009
+  translation:
+    gloss: It will be recompensed
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '467'
+  semantic:
+    semanticDomain: 038002 057012
+    ln: 38.19 57.154
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n42014014011
+- position: 11
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: LUK 14:14!11
+    wordID: n42014014011
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n42014012005
+- position: 12
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: LUK 14:14!12
+    wordID: n42014014012
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.33'
+- position: 13
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: LUK 14:14!13
+    wordID: n42014014013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: ἀναστάσει
+  lemma: ἀνάστασις
+  normalized: ἀναστάσει
+  ids:
+    ref: LUK 14:14!14
+    wordID: n42014014014
+  translation:
+    gloss: resurrection
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '386'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.93'
+- position: 15
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: LUK 14:14!15
+    wordID: n42014014015
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: δικαίων
+  lemma: δίκαιος
+  normalized: δικαίων
+  ids:
+    ref: LUK 14:14!16
+    wordID: n42014014016
+  translation:
+    gloss: righteous
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '1342'
+  semantic:
+    semanticDomain: 088002
+    ln: '88.12'

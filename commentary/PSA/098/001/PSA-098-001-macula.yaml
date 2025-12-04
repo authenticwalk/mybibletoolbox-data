@@ -1,0 +1,538 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 98:1
+text: מִזְמ֡וֹרשִׁ֤ירוּ לַֽיהוָ֨ה׀שִׁ֣יר חָ֭דָשׁ כִּֽי־נִפְלָא֣וֹת עָשָׂ֑ה הוֹשִֽׁיעָה־לּ֥וֹ
+  יְ֝מִינ֗וֹ וּזְר֥וֹעַ קָדְשֽׁוֹ׃
+words:
+- position: 1
+  text: מִזְמ֡וֹר
+  lemma: מִזְמוֹר
+  transliteration: mizmôr
+  ids:
+    ref: PSA 98:1!1
+    wordID: o190980010011
+  translation:
+    english: psalm
+    mandarin: 诗
+    gloss: a.psalm
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִזְמוֹר
+    strong: '4210'
+  semantic:
+    sdbh:
+    - 003842001001000
+    lexdomain:
+    - 002004001009006
+    coredomain:
+    - '111'
+    sense: '1'
+  lxx:
+    text: ψαλμὸς
+    strong: '5568'
+  syntax:
+    role: p
+- position: 2
+  text: שִׁ֤ירוּ
+  lemma: שִׁיר
+  transliteration: šiyrû
+  ids:
+    ref: PSA 98:1!2
+    wordID: o190980010021
+  translation:
+    english: sing
+    mandarin: 唱
+    gloss: sing
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: שִׁיר
+    strong: '7891'
+  semantic:
+    sdbh:
+    - '007331001001000'
+    lexdomain:
+    - 002004001009006
+    coredomain:
+    - '041'
+    - '111'
+    sense: '1'
+  lxx:
+    text: ἄισατε
+    strong: '103'
+  syntax:
+    role: v
+    frame: A0:190980030042;190980030081; A1:190980010041;
+  discourse:
+    subject: 190980030042 190980030081
+- position: 3
+  text: לַֽ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: PSA 98:1!3
+    wordID: o190980010031
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 4
+  text: יהוָ֨ה
+  lemma: יהוה
+  transliteration: yhwāh
+  ids:
+    ref: PSA 98:1!3
+    wordID: o190980010032
+  translation:
+    english: LORD
+    mandarin: 耶和华
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίῳ
+    strong: '2962'
+- position: 5
+  text: שִׁ֣יר
+  lemma: שִׁיר
+  transliteration: šiyr
+  ids:
+    ref: PSA 98:1!4
+    wordID: o190980010041
+  translation:
+    english: song
+    mandarin: 歌
+    gloss: a.song
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שִׁיר
+    strong: '7892'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ᾆσμα
+- position: 6
+  text: חָ֭דָשׁ
+  lemma: חָדָשׁ
+  transliteration: ḥāḏāš
+  ids:
+    ref: PSA 98:1!5
+    wordID: o190980010051
+  translation:
+    english: new
+    mandarin: 新
+    gloss: new
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: חָדָשׁ
+    strong: '2319'
+  semantic:
+    sdbh:
+    - '002144001002000'
+    lexdomain:
+    - '002001001070'
+    sense: '1'
+  lxx:
+    text: καινόν
+    strong: '2537'
+- position: 7
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 98:1!6
+    wordID: o190980010061
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 8
+  text: נִפְלָא֣וֹת
+  lemma: פָּלָא
+  transliteration: nip̄lāʾôṯ
+  ids:
+    ref: PSA 98:1!7
+    wordID: o190980010071
+  translation:
+    english: marvelous
+    mandarin: 奇妙的事
+    gloss: wonders
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: פָּלָא
+    strong: '6381'
+  semantic:
+    sdbh:
+    - 005861001001000
+    lexdomain:
+    - '002001003006'
+    coredomain:
+    - '159'
+    sense: '1'
+  lxx:
+    text: θαυμαστὰ
+    strong: '2298'
+  syntax:
+    role: o
+- position: 9
+  text: עָשָׂ֑ה
+  lemma: עָשָׂה
+  transliteration: ʿāśāh
+  ids:
+    ref: PSA 98:1!8
+    wordID: o190980010081
+  translation:
+    english: done
+    mandarin: 行
+    gloss: he.has.done
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ἐποίησεν
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:190980010032; A1:190980010071;
+  discourse:
+    subject: '190980010032'
+- position: 10
+  text: הוֹשִֽׁיעָה
+  lemma: יָשַׁע
+  transliteration: hôšiyʿâ-
+  ids:
+    ref: PSA 98:1!9
+    wordID: o190980010091
+  translation:
+    english: worked salvation
+    mandarin: 施行救恩
+    gloss: it.has.given.victory
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: יָשַׁע
+    strong: '3467'
+  semantic:
+    sdbh:
+    - '003176001001000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '2'
+  lxx:
+    text: ἔσωσεν
+    strong: '4982'
+  syntax:
+    role: v
+    frame: A0:190980010111;190980010122;
+- position: 11
+  text: לּ֥
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 98:1!10
+    wordID: o190980010101
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 12
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 98:1!10
+    wordID: o190980010102
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτῷ
+    strong: '846'
+  discourse:
+    participant: '190980010032'
+- position: 13
+  text: יְ֝מִינ֗
+  lemma: יָמִין
+  transliteration: ''
+  ids:
+    ref: PSA 98:1!11
+    wordID: o190980010111
+  translation:
+    english: right hand
+    mandarin: 右手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָמִין
+    strong: '3225'
+  semantic:
+    sdbh:
+    - 002949001001000
+    lexdomain:
+    - '002002001013'
+    sense: '2'
+  lxx:
+    text: δεχιὰ
+    strong: '1188'
+- position: 14
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 98:1!11
+    wordID: o190980010112
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 002949001001000
+    lexdomain:
+    - '002002001013'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190980010032'
+- position: 15
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 98:1!12
+    wordID: o190980010121
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: זְר֥וֹעַ
+  lemma: זְרוֹעַ
+  transliteration: zərôᵃʿ
+  ids:
+    ref: PSA 98:1!12
+    wordID: o190980010122
+  translation:
+    english: arm
+    mandarin: 臂
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: זְרוֹעַ
+    strong: '2220'
+  semantic:
+    sdbh:
+    - '002047001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: βραξίων
+    strong: '1023'
+- position: 17
+  text: קָדְשֽׁ
+  lemma: קֹדֶשׁ
+  transliteration: ''
+  ids:
+    ref: PSA 98:1!13
+    wordID: o190980010131
+  translation:
+    english: holy
+    mandarin: 圣
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קֹדֶשׁ
+    strong: '6944'
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἅγιος
+    strong: '40'
+- position: 18
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 98:1!13
+    wordID: o190980010132
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190980010032'

@@ -1,0 +1,453 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 12:4
+text: Λέγω δὲ ὑμῖν τοῖς φίλοις μου, μὴ φοβηθῆτε ἀπὸ τῶν ἀποκτεννόντων τὸ σῶμα καὶ
+  μετὰ ταῦτα μὴ ἐχόντων περισσότερόν τι ποιῆσαι.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 12:4!2
+    wordID: n42012004002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Λέγω
+  lemma: λέγω
+  normalized: Λέγω
+  ids:
+    ref: LUK 12:4!1
+    wordID: n42012004001
+  translation:
+    gloss: I say
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42011039004 A2:n42012004003
+  discourse:
+    subject: n42011039004
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: LUK 12:4!3
+    wordID: n42012004003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n42012001015
+- position: 4
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: LUK 12:4!4
+    wordID: n42012004004
+  translation:
+    gloss: those
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: φίλοις
+  lemma: φίλος
+  normalized: φίλοις
+  ids:
+    ref: LUK 12:4!5
+    wordID: n42012004005
+  translation:
+    gloss: friends
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '5384'
+  semantic:
+    semanticDomain: '034001'
+    ln: '34.11'
+- position: 6
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: LUK 12:4!6
+    wordID: n42012004006
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n42011039004
+- position: 7
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: LUK 12:4!7
+    wordID: n42012004007
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 8
+  text: φοβηθῆτε
+  lemma: φοβέω
+  normalized: φοβηθῆτε
+  ids:
+    ref: LUK 12:4!8
+    wordID: n42012004008
+  translation:
+    gloss: you should fear
+  morphology:
+    class: verb
+    morph: V-AOM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: passive
+    mood: imperative
+  lexical:
+    strong: '5399'
+  semantic:
+    semanticDomain: '025022'
+    ln: '25.252'
+  syntax:
+    role: v
+    frame: A1:n42012004005
+  discourse:
+    subject: n42012004005
+- position: 9
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: LUK 12:4!9
+    wordID: n42012004009
+  translation:
+    gloss: because
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.25'
+- position: 10
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: LUK 12:4!10
+    wordID: n42012004010
+  translation:
+    gloss: of those
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: ἀποκτεννόντων
+  lemma: ἀποκτείνω
+  normalized: ἀποκτεννόντων
+  ids:
+    ref: LUK 12:4!11
+    wordID: n42012004011
+  translation:
+    gloss: killing
+  morphology:
+    class: verb
+    morph: V-PAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '615'
+  semantic:
+    semanticDomain: '020004'
+    ln: '20.61'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42012004013
+- position: 12
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: LUK 12:4!12
+    wordID: n42012004012
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: σῶμα
+  lemma: σῶμα
+  normalized: σῶμα
+  ids:
+    ref: LUK 12:4!13
+    wordID: n42012004013
+  translation:
+    gloss: body
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4983'
+  semantic:
+    semanticDomain: 008001
+    ln: '8.1'
+- position: 14
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 12:4!14
+    wordID: n42012004014
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 15
+  text: μετὰ
+  lemma: μετά
+  normalized: μετά
+  ids:
+    ref: LUK 12:4!15
+    wordID: n42012004015
+  translation:
+    gloss: after
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.48'
+- position: 16
+  text: ταῦτα
+  lemma: οὗτος
+  normalized: ταῦτα
+  ids:
+    ref: LUK 12:4!16
+    wordID: n42012004016
+  translation:
+    gloss: these things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  discourse:
+    referent: n42012004011
+- position: 17
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: LUK 12:4!17
+    wordID: n42012004017
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 18
+  text: ἐχόντων
+  lemma: ἔχω
+  normalized: ἐχόντων
+  ids:
+    ref: LUK 12:4!18
+    wordID: n42012004018
+  translation:
+    gloss: being able
+  morphology:
+    class: verb
+    morph: V-PAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '074'
+    ln: '74.12'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n42012004021
+- position: 19
+  text: περισσότερόν
+  lemma: περισσός
+  normalized: περισσότερον
+  ids:
+    ref: LUK 12:4!19
+    wordID: n42012004019
+  translation:
+    gloss: more abundantly
+  morphology:
+    class: adj
+    morph: A-ASN-C
+    gender: neuter
+    number: singular
+    case: accusative
+    degree: comparative
+  lexical:
+    strong: '4053'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.31'
+- position: 20
+  text: τι
+  lemma: τὶς
+  normalized: τι
+  ids:
+    ref: LUK 12:4!20
+    wordID: n42012004020
+  translation:
+    gloss: anything
+  morphology:
+    class: pron
+    morph: X-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+- position: 21
+  text: ποιῆσαι
+  lemma: ποιέω
+  normalized: ποιῆσαι
+  ids:
+    ref: LUK 12:4!21
+    wordID: n42012004021
+  translation:
+    gloss: to do
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n42012004018 A1:n42012004020
+  discourse:
+    subject: n42012004018

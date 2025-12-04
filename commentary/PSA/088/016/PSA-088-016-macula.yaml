@@ -1,0 +1,305 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 88:16
+text: עָ֘נִ֤י אֲנִ֣י וְגֹוֵ֣עַ מִנֹּ֑עַר נָשָׂ֖אתִי אֵמֶ֣יךָ אָפֽוּנָה׃
+words:
+- position: 1
+  text: עָ֘נִ֤י
+  lemma: עָנִי
+  transliteration: ʿāniy
+  ids:
+    ref: PSA 88:16!1
+    wordID: o190880160011
+  translation:
+    english: afflicted
+    mandarin: 受苦
+    gloss: '[have.been].afflicted'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָנִי
+    strong: '6041'
+  semantic:
+    sdbh:
+    - '005546001001000'
+    lexdomain:
+    - '001001002003001'
+    - '002003003021'
+    - '002001001040'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πτωξός
+  syntax:
+    role: p
+- position: 2
+  text: אֲנִ֣י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: PSA 88:16!2
+    wordID: o190880160021
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: εἰμι
+    strong: '1510'
+  syntax:
+    role: s
+  discourse:
+    participant: 190880010032 190880010102
+- position: 3
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 88:16!3
+    wordID: o190880160031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: גֹוֵ֣עַ
+  lemma: גָּוַע
+  transliteration: ḡōwēᵃʿ
+  ids:
+    ref: PSA 88:16!3
+    wordID: o190880160032
+  translation:
+    english: close to death
+    mandarin: 死亡
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: גָּוַע
+    strong: '1478'
+  semantic:
+    sdbh:
+    - '001354001001000'
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 019
+    - 099
+    sense: '2'
+  syntax:
+    role: v
+    frame: A0:190880010032;190880010102;
+  discourse:
+    subject: 190880010032 190880010102
+- position: 5
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: PSA 88:16!4
+    wordID: o190880160041
+  translation:
+    english: from
+    mandarin: 自
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 6
+  text: נֹּ֑עַר
+  lemma: נֹעַר
+  transliteration: nnōʿar
+  ids:
+    ref: PSA 88:16!4
+    wordID: o190880160042
+  translation:
+    english: youth
+    mandarin: 幼
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נֹעַר
+    strong: '5290'
+  semantic:
+    sdbh:
+    - 004850001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '005'
+    sense: '1'
+- position: 7
+  text: נָשָׂ֖אתִי
+  lemma: נָשָׂא
+  transliteration: nāśāʾṯî
+  ids:
+    ref: PSA 88:16!5
+    wordID: o190880160051
+  translation:
+    english: suffer
+    mandarin: 受
+    gloss: I.have.borne
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001018000
+    lexdomain:
+    - '002003003010'
+    sense: '3'
+  syntax:
+    role: v
+    frame: A0:190880010032;190880010102; A1:190880160061;
+  discourse:
+    subject: 190880010032 190880010102
+- position: 8
+  text: אֵמֶ֣י
+  lemma: אֵימָה
+  transliteration: ''
+  ids:
+    ref: PSA 88:16!6
+    wordID: o190880160061
+  translation:
+    english: terrors
+    mandarin: 责罚
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵימָה
+    strong: '0367'
+  semantic:
+    sdbh:
+    - '000346001001000'
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '152'
+    - '196'
+    sense: '1'
+- position: 9
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 88:16!6
+    wordID: o190880160062
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '000346001001000'
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '152'
+    - '196'
+  lxx:
+    text: ἐταπεινώθην
+  discourse:
+    participant: '190880150021'
+- position: 10
+  text: אָפֽוּנָה
+  lemma: פּוּן
+  transliteration: 'ʾāp̄ûnâ:'
+  ids:
+    ref: PSA 88:16!7
+    wordID: o190880160071
+  translation:
+    english: desperate
+    mandarin: 痛苦不堪
+    gloss: I.am.perplexed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: פּוּן
+    strong: '6323'
+  semantic:
+    sdbh:
+    - 005808001001000
+    lexdomain:
+    - '002001002001'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:190880010032;190880010102;
+  discourse:
+    subject: 190880010032 190880010102

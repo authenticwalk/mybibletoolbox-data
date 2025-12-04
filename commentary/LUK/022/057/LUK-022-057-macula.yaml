@@ -1,0 +1,197 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 22:57
+text: ὁ δὲ ἠρνήσατο λέγων Οὐκ οἶδα αὐτόν, γύναι.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: LUK 22:57!2
+    wordID: n42022057002
+  translation:
+    gloss: But
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: LUK 22:57!1
+    wordID: n42022057001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n42022055012
+- position: 3
+  text: ἠρνήσατο
+  lemma: ἀρνέομαι
+  normalized: ἠρνήσατο
+  ids:
+    ref: LUK 22:57!3
+    wordID: n42022057003
+  translation:
+    gloss: he denied [it]
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '720'
+  semantic:
+    semanticDomain: '033022'
+    ln: '33.277'
+  syntax:
+    role: v
+    frame: A0:n42022057001
+- position: 4
+  text: λέγων
+  lemma: λέγω
+  normalized: λέγων
+  ids:
+    ref: LUK 22:57!4
+    wordID: n42022057004
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42022055012
+  discourse:
+    subject: n42022055012
+- position: 5
+  text: Οὐκ
+  lemma: οὐ
+  normalized: Οὐκ
+  ids:
+    ref: LUK 22:57!5
+    wordID: n42022057005
+  translation:
+    gloss: Not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 6
+  text: οἶδα
+  lemma: οἶδα
+  normalized: οἶδα
+  ids:
+    ref: LUK 22:57!6
+    wordID: n42022057006
+  translation:
+    gloss: I do know
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1492'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n42022055012 A1:n42022057007
+  discourse:
+    subject: n42022055012
+- position: 7
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 22:57!7
+    wordID: n42022057007
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42022052003
+- position: 8
+  text: γύναι
+  lemma: γυνή
+  normalized: γύναι
+  ids:
+    ref: LUK 22:57!8
+    wordID: n42022057008
+  translation:
+    gloss: woman
+  morphology:
+    class: noun
+    morph: N-VSF
+    gender: feminine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '1135'
+  semantic:
+    semanticDomain: 009003
+    ln: '9.34'
+  syntax:
+    role: aux

@@ -1,0 +1,485 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 55:13
+text: כִּ֤י לֹֽא־אוֹיֵ֥ב יְחָֽרְפֵ֗נִי וְאֶ֫שָּׂ֥א לֹֽא־מְ֭שַׂנְאִי עָלַ֣י הִגְדִּ֑יל
+  וְאֶסָּתֵ֥ר מִמֶּֽנּוּ׃
+words:
+- position: 1
+  text: כִּ֤י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: PSA 55:13!1
+    wordID: o190550130011
+  translation:
+    english: for
+    mandarin: 原来
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: PSA 55:13!2
+    wordID: o190550130021
+  translation:
+    english: not
+    mandarin: 不是
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: εἰ
+    strong: '1487'
+  syntax:
+    role: adv
+- position: 3
+  text: אוֹיֵ֥ב
+  lemma: אָיַב
+  transliteration: ʾôyēḇ
+  ids:
+    ref: PSA 55:13!3
+    wordID: o190550130031
+  translation:
+    english: enemy
+    mandarin: 仇敌
+    gloss: an.enemy
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָיַב
+    strong: '0341'
+  semantic:
+    sdbh:
+    - 000318001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+  lxx:
+    text: ἐξθρὸς
+    strong: '2190'
+  syntax:
+    role: s
+- position: 4
+  text: יְחָֽרְפֵ֗
+  lemma: חָרַף
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!4
+    wordID: o190550130041
+  translation:
+    english: taunts
+    mandarin: 辱骂
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: חָרַף
+    strong: '2778'
+  semantic:
+    sdbh:
+    - '002554001001000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ὠνείδισέν
+  syntax:
+    role: v
+    frame: A0:190550130031; A1:190550130042;
+- position: 5
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!4
+    wordID: o190550130042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '002554001001000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190550010042'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 55:13!5
+    wordID: o190550130051
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ὑπήνεγκα
+    strong: '5297'
+- position: 7
+  text: אֶ֫שָּׂ֥א
+  lemma: נָשָׂא
+  transliteration: ʾeśśāʾ
+  ids:
+    ref: PSA 55:13!5
+    wordID: o190550130052
+  translation:
+    english: bear
+    mandarin: 忍受
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001018000
+    lexdomain:
+    - '002003003010'
+    sense: '3'
+  lxx:
+    text: ἄν
+    strong: '302'
+  syntax:
+    role: v
+    frame: A0:190550010042;
+  discourse:
+    subject: '190550010042'
+- position: 8
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: PSA 55:13!6
+    wordID: o190550130061
+  translation:
+    english: not
+    mandarin: 不是
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  syntax:
+    role: adv
+- position: 9
+  text: מְ֭שַׂנְאִ
+  lemma: שָׂנֵא
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!7
+    wordID: o190550130071
+  translation:
+    english: foe
+    mandarin: 恨
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: שָׂנֵא
+    strong: '8130'
+  semantic:
+    sdbh:
+    - 007059001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+  lxx:
+    text: μισῶν
+    strong: '3404'
+  syntax:
+    frame: A1:190550130072;
+- position: 10
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!7
+    wordID: o190550130072
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 007059001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '190550010042'
+- position: 11
+  text: עָלַ֣
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!8
+    wordID: o190550130081
+  translation:
+    english: against
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπ’
+    strong: '1909'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!8
+    wordID: o190550130082
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμὲ
+    strong: '1691'
+  discourse:
+    participant: '190550010042'
+- position: 13
+  text: הִגְדִּ֑יל
+  lemma: גָּדַל
+  transliteration: hiḡdiyl
+  ids:
+    ref: PSA 55:13!9
+    wordID: o190550130091
+  translation:
+    english: rises up
+    mandarin: 狂妄自大
+    gloss: he.magnified.himself
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: גָּדַל
+    strong: '1431'
+  semantic:
+    sdbh:
+    - 001312001008000
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '170'
+    sense: '4'
+  lxx:
+    text: ἐμεγαλορρημόνησεν
+  syntax:
+    role: v
+    frame: A0:190550130071;
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 55:13!10
+    wordID: o190550130101
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ἐκρύβην
+- position: 15
+  text: אֶסָּתֵ֥ר
+  lemma: סָתַר
+  transliteration: ʾessāṯēr
+  ids:
+    ref: PSA 55:13!10
+    wordID: o190550130102
+  translation:
+    english: hide
+    mandarin: 躲避
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: סָתַר
+    strong: '5641'
+  semantic:
+    sdbh:
+    - 005181001002000
+    lexdomain:
+    - 002002001009
+    sense: '1'
+  lxx:
+    text: ἂν
+    strong: '302'
+  syntax:
+    role: v
+    frame: A0:190550010042;
+  discourse:
+    subject: '190550010042'
+- position: 16
+  text: מִמֶּֽ
+  lemma: מִן
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!11
+    wordID: o190550130111
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπ’
+    strong: '575'
+- position: 17
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 55:13!11
+    wordID: o190550130112
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: 190550130031 190550130071

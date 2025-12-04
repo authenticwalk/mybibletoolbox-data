@@ -1,0 +1,494 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: MAL 2:8
+text: וְאַתֶּם֙ סַרְתֶּ֣ם מִן־הַדֶּ֔רֶךְ הִכְשַׁלְתֶּ֥ם רַבִּ֖ים בַּתּוֹרָ֑ה שִֽׁחַתֶּם֙
+  בְּרִ֣ית הַלֵּוִ֔י אָמַ֖ר יְהוָ֥ה צְבָאֽוֹת׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: MAL 2:8!1
+    wordID: o390020080011
+  translation:
+    english: but
+    mandarin: 他
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: אַתֶּם֙
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: MAL 2:8!1
+    wordID: o390020080012
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ὑμεῖς
+    strong: '5210'
+  syntax:
+    role: s
+  discourse:
+    participant: '390020010052'
+- position: 3
+  text: סַרְתֶּ֣ם
+  lemma: סוּר
+  transliteration: sartem
+  ids:
+    ref: MAL 2:8!2
+    wordID: o390020080021
+  translation:
+    english: turned
+    mandarin: 偏离
+    gloss: you.have.turned.aside
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: סוּר
+    strong: '5493'
+  semantic:
+    sense: '3'
+  lxx:
+    text: ἐχεκλίνατε
+  syntax:
+    role: v
+    frame: A0:390020080012;
+- position: 4
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: MAL 2:8!3
+    wordID: o390020080031
+  translation:
+    english: from
+    gloss: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐκ
+    strong: '1537'
+- position: 5
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: MAL 2:8!4
+    wordID: o390020080041
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τῆς
+    strong: '3588'
+- position: 6
+  text: דֶּ֔רֶךְ
+  lemma: דֶּרֶךְ
+  transliteration: dereḵ
+  ids:
+    ref: MAL 2:8!4
+    wordID: o390020080042
+  translation:
+    english: way
+    mandarin: 正道
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דֶּרֶךְ
+    strong: '1870'
+  semantic:
+    sdbh:
+    - 001719001005000
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: ὁδοῦ
+    strong: '3598'
+- position: 7
+  text: הִכְשַׁלְתֶּ֥ם
+  lemma: כָּשַׁל
+  transliteration: hiḵšaltem
+  ids:
+    ref: MAL 2:8!5
+    wordID: o390020080051
+  translation:
+    english: stumble
+    mandarin: 跌倒
+    gloss: you.have.caused.to.stumble
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: כָּשַׁל
+    strong: '3782'
+  semantic:
+    sdbh:
+    - 003459001003000
+    lexdomain:
+    - '002003003012'
+    coredomain:
+    - '173'
+    sense: '1'
+  syntax:
+    role: v
+    frame: AA:390020010052; A0:390020080061;
+  discourse:
+    subject: '390020010052'
+- position: 8
+  text: רַבִּ֖ים
+  lemma: רַב
+  transliteration: rabbiym
+  ids:
+    ref: MAL 2:8!6
+    wordID: o390020080061
+  translation:
+    english: many
+    mandarin: 许多
+    gloss: many.[people]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001002000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '1'
+  lxx:
+    text: ἠσθενήσατε
+  syntax:
+    role: o
+- position: 9
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: MAL 2:8!7
+    wordID: o390020080071
+  translation:
+    english: by
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 10
+  text: תּוֹרָ֑ה
+  lemma: תּוֹרָה
+  transliteration: tôrāh
+  ids:
+    ref: MAL 2:8!7
+    wordID: o390020080072
+  translation:
+    english: instruction
+    mandarin: 律法
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תּוֹרָה
+    strong: '8451'
+  semantic:
+    sdbh:
+    - '007755001001000'
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    - '015'
+    sense: '1'
+  lxx:
+    text: νόμῳ
+    strong: '3551'
+- position: 11
+  text: שִֽׁחַתֶּם֙
+  lemma: שָׁחַת
+  transliteration: šiḥattem
+  ids:
+    ref: MAL 2:8!8
+    wordID: o390020080081
+  translation:
+    english: corrupted
+    mandarin: 破坏
+    gloss: you.have.corrupted
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: שָׁחַת
+    strong: '7843'
+  semantic:
+    sdbh:
+    - '007307001003000'
+    lexdomain:
+    - 002003003009
+    coredomain:
+    - '168'
+    sense: '2'
+  lxx:
+    text: διεφθείρατε
+    strong: '1311'
+  syntax:
+    role: v
+    frame: A0:390020010052; A1:390020080091;
+  discourse:
+    subject: '390020010052'
+- position: 12
+  text: בְּרִ֣ית
+  lemma: בְּרִית
+  transliteration: bəriyṯ
+  ids:
+    ref: MAL 2:8!9
+    wordID: o390020080091
+  translation:
+    english: covenant
+    mandarin: 约
+    gloss: the.covenant
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בְּרִית
+    strong: '1285'
+  semantic:
+    sdbh:
+    - 001185001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '046'
+    sense: '1'
+  lxx:
+    text: διαθήκην
+    strong: '1242'
+- position: 13
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: MAL 2:8!10
+    wordID: o390020080101
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 14
+  text: לֵּוִ֔י
+  lemma: לֵוִי
+  transliteration: llēwiy
+  ids:
+    ref: MAL 2:8!10
+    wordID: o390020080102
+  translation:
+    english: Levi
+    mandarin: 利未
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: לֵוִי
+    strong: '3878'
+  semantic:
+    sdbh:
+    - '003546001002000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: λευι
+    strong: '3017'
+- position: 15
+  text: אָמַ֖ר
+  lemma: אָמַר
+  transliteration: ʾāmar
+  ids:
+    ref: MAL 2:8!11
+    wordID: o390020080111
+  translation:
+    english: says
+    mandarin: 说
+    gloss: he.says
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγει
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:390020080121;
+- position: 16
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: MAL 2:8!12
+    wordID: o390020080121
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 17
+  text: צְבָאֽוֹת
+  lemma: צָבָא
+  transliteration: 'ṣəḇāʾôṯ:'
+  ids:
+    ref: MAL 2:8!13
+    wordID: o390020080131
+  translation:
+    english: hosts
+    mandarin: 万军
+    gloss: of.hosts
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: צָבָא
+    strong: '6635'
+  semantic:
+    sdbh:
+    - '006101001007000'
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: παντοκράτωρ
+    strong: '3841'

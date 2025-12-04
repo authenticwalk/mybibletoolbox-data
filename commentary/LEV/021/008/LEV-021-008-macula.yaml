@@ -1,0 +1,578 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LEV 21:8
+text: וְקִדַּשְׁתּ֔וֹ כִּֽי־אֶת־לֶ֥חֶם אֱלֹהֶ֖יךָ ה֣וּא מַקְרִ֑יב קָדֹשׁ֙ יִֽהְיֶה־לָּ֔ךְ
+  כִּ֣י קָד֔וֹשׁ אֲנִ֥י יְהוָ֖ה מְקַדִּשְׁכֶֽם׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 21:8!1
+    wordID: o030210080011
+  translation:
+    english: and
+    mandarin: 因此
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: קִדַּשְׁתּ֔
+  lemma: קָדַשׁ
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!1
+    wordID: o030210080012
+  translation:
+    english: consecrate
+    mandarin: 分别为圣
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpq2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: weqatal
+  lexical:
+    stronglemma: קָדַשׁ
+    strong: '6942'
+  semantic:
+    sdbh:
+    - 006392001005000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἁγιάσει
+    strong: '37'
+  syntax:
+    role: v
+    frame: A0:030200020122; A1:030210080013;
+  discourse:
+    subject: '030200020122'
+- position: 3
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!1
+    wordID: o030210080013
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 006392001005000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+  lxx:
+    text: αὐτόν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '030210010072'
+- position: 4
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: LEV 21:8!2
+    wordID: o030210080021
+  translation:
+    english: since
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+- position: 5
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: LEV 21:8!3
+    wordID: o030210080031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 6
+  text: לֶ֥חֶם
+  lemma: לֶחֶם
+  transliteration: leḥem
+  ids:
+    ref: LEV 21:8!4
+    wordID: o030210080041
+  translation:
+    english: food
+    mandarin: 食物
+    gloss: the.food
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: לֶחֶם
+    strong: '3899'
+  semantic:
+    sdbh:
+    - '003565001001000'
+    lexdomain:
+    - '001004003001'
+    - '001004003'
+    sense: '1'
+- position: 7
+  text: אֱלֹהֶ֖י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!5
+    wordID: o030210080051
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 8
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!5
+    wordID: o030210080052
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '030200020122'
+- position: 9
+  text: ה֣וּא
+  lemma: הוּא
+  transliteration: hûʾ
+  ids:
+    ref: LEV 21:8!6
+    wordID: o030210080061
+  translation:
+    english: he
+    mandarin: 他
+    gloss: he
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: οὗτος
+    strong: '3778'
+  syntax:
+    role: s
+  discourse:
+    participant: '030210010072'
+- position: 10
+  text: מַקְרִ֑יב
+  lemma: קָרַב
+  transliteration: maqriyḇ
+  ids:
+    ref: LEV 21:8!7
+    wordID: o030210080071
+  translation:
+    english: offers
+    mandarin: 献
+    gloss: '[is].presenting'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: קָרַב
+    strong: '7126'
+  semantic:
+    sdbh:
+    - 006558001002000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    sense: '1'
+  lxx:
+    text: προσφέρει
+    strong: '4374'
+  syntax:
+    role: v
+    frame: A0:030210080041; AA:030210080061;
+- position: 11
+  text: קָדֹשׁ֙
+  lemma: קָדוֹשׁ
+  transliteration: qāḏōš
+  ids:
+    ref: LEV 21:8!8
+    wordID: o030210080081
+  translation:
+    english: holy
+    mandarin: 圣
+    gloss: holy
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: קָדוֹשׁ
+    strong: '6918'
+  semantic:
+    sdbh:
+    - '006370001002000'
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἅγιος
+    strong: '40'
+  syntax:
+    role: o
+- position: 12
+  text: יִֽהְיֶה
+  lemma: הָיָה
+  transliteration: yihəyeh-
+  ids:
+    ref: LEV 21:8!9
+    wordID: o030210080091
+  translation:
+    english: be
+    mandarin: 是
+    gloss: he.will.be
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἔσται
+    strong: '2071'
+  syntax:
+    role: v
+    frame: A0:030210010072;
+  discourse:
+    subject: '030210010072'
+- position: 13
+  text: לָּ֔
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!10
+    wordID: o030210080101
+  translation:
+    english: to
+    mandarin: 对于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 14
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!10
+    wordID: o030210080102
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  discourse:
+    participant: '030200020122'
+- position: 15
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: LEV 21:8!11
+    wordID: o030210080111
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 16
+  text: קָד֔וֹשׁ
+  lemma: קָדוֹשׁ
+  transliteration: qāḏôš
+  ids:
+    ref: LEV 21:8!12
+    wordID: o030210080121
+  translation:
+    english: holy
+    mandarin: 圣洁
+    gloss: '[am].holy'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: קָדוֹשׁ
+    strong: '6918'
+  semantic:
+    sdbh:
+    - '006370001001000'
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἅγιος
+    strong: '40'
+  syntax:
+    role: p
+- position: 17
+  text: אֲנִ֥י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: LEV 21:8!13
+    wordID: o030210080131
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  discourse:
+    participant: 030210080051
+- position: 18
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: LEV 21:8!14
+    wordID: o030210080141
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: '[am].Yahweh'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 19
+  text: מְקַדִּשְׁ
+  lemma: קָדַשׁ
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!15
+    wordID: o030210080151
+  translation:
+    english: sanctify
+    mandarin: 分别为圣
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: קָדַשׁ
+    strong: '6942'
+  semantic:
+    sdbh:
+    - 006392001002000
+    lexdomain:
+    - '002001001030'
+    sense: '1'
+  lxx:
+    text: ἁγιάζων
+    strong: '37'
+  syntax:
+    frame: A0:030210080141; A1:030210080152;
+  discourse:
+    subject: 030210080141
+- position: 20
+  text: כֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 21:8!15
+    wordID: o030210080152
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - 006392001002000
+    lexdomain:
+    - '002001001030'
+  discourse:
+    participant: '030200020122'

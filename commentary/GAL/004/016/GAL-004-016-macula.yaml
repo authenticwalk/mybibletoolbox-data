@@ -1,0 +1,143 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 4:16
+text: ὥστε ἐχθρὸς ὑμῶν γέγονα ἀληθεύων ὑμῖν;
+words:
+- position: 1
+  text: ὥστε
+  lemma: ὥστε
+  normalized: ὥστε
+  ids:
+    ref: GAL 4:16!1
+    wordID: n48004016001
+  translation:
+    gloss: So
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '5620'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.52'
+- position: 2
+  text: ἐχθρὸς
+  lemma: ἐχθρός
+  normalized: ἐχθρός
+  ids:
+    ref: GAL 4:16!2
+    wordID: n48004016002
+  translation:
+    gloss: enemy
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '2190'
+  semantic:
+    semanticDomain: 039001
+    ln: '39.11'
+- position: 3
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: GAL 4:16!3
+    wordID: n48004016003
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  discourse:
+    referent: n48004012008
+- position: 4
+  text: γέγονα
+  lemma: γίνομαι
+  normalized: γέγονα
+  ids:
+    ref: GAL 4:16!4
+    wordID: n48004016004
+  translation:
+    gloss: have I become
+  morphology:
+    class: verb
+    morph: V-2RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.48'
+  syntax:
+    role: vc
+  discourse:
+    subject: n48001001001
+- position: 5
+  text: ἀληθεύων
+  lemma: ἀληθεύω
+  normalized: ἀληθεύων
+  ids:
+    ref: GAL 4:16!5
+    wordID: n48004016005
+  translation:
+    gloss: speaking truth
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '226'
+  semantic:
+    semanticDomain: 033018
+    ln: '33.251'
+  syntax:
+    role: v
+    frame: A0:n48001001001 A1:n00000000000 A2:n48004016006
+  discourse:
+    subject: n48001001001
+- position: 6
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: GAL 4:16!6
+    wordID: n48004016006
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n48004012008

@@ -1,0 +1,539 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 5:7
+text: וַֽיְחִי־שֵׁ֗ת אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־אֱנ֔וֹשׁ שֶׁ֣בַע שָׁנִ֔ים וּשְׁמֹנֶ֥ה
+  מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃
+words:
+- position: 1
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 5:7!1
+    wordID: o010050070011
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יְחִי
+  lemma: חָיָה
+  transliteration: yəḥî-
+  ids:
+    ref: GEN 5:7!1
+    wordID: o010050070012
+  translation:
+    english: lived
+    mandarin: 活
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: חָיָה
+    strong: '2421'
+  semantic:
+    sdbh:
+    - '002232001001000'
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: ἔζησεν
+    strong: '2198'
+  syntax:
+    role: v
+    frame: A0:010050070021;
+- position: 3
+  text: שֵׁ֗ת
+  lemma: שֵׁת
+  transliteration: šēṯ
+  ids:
+    ref: GEN 5:7!2
+    wordID: o010050070021
+  translation:
+    english: Seth
+    mandarin: 塞特
+    gloss: Seth
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שֵׁת
+    strong: '8352'
+  semantic:
+    sdbh:
+    - '007666002001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σηθ
+  syntax:
+    role: s
+- position: 4
+  text: אַֽחֲרֵי֙
+  lemma: אַחַר
+  transliteration: ʾaḥărê
+  ids:
+    ref: GEN 5:7!3
+    wordID: o010050070031
+  translation:
+    english: after
+    mandarin: 之后
+    gloss: after
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אַחַר
+    strong: '0310'
+  semantic:
+    sdbh:
+    - 000295002003000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+  lxx:
+    text: μετὰ
+    strong: '3326'
+- position: 5
+  text: הוֹלִיד֣
+  lemma: יָלַד
+  transliteration: ''
+  ids:
+    ref: GEN 5:7!4
+    wordID: o010050070041
+  translation:
+    english: fathered
+    mandarin: 生
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001002000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    sense: '1'
+  syntax:
+    role: v
+    frame: AA:010050070042; A0:010050070061;
+- position: 6
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 5:7!4
+    wordID: o010050070042
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 002931001002000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+  syntax:
+    role: s
+  discourse:
+    participant: '010050070021'
+- position: 7
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 5:7!5
+    wordID: o010050070051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 8
+  text: אֱנ֔וֹשׁ
+  lemma: אֱנוֹשׁ
+  transliteration: ʾĕnôš
+  ids:
+    ref: GEN 5:7!6
+    wordID: o010050070061
+  translation:
+    english: Enosh
+    mandarin: 以挪士
+    gloss: Enosh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אֱנוֹשׁ
+    strong: 0583
+  semantic:
+    sdbh:
+    - '000532002001000'
+    lexdomain:
+    - '003001007'
+- position: 9
+  text: שֶׁ֣בַע
+  lemma: שֶׁבַע
+  transliteration: šeḇaʿ
+  ids:
+    ref: GEN 5:7!7
+    wordID: o010050070071
+  translation:
+    english: seven
+    mandarin: 七
+    gloss: seven
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שֶׁבַע
+    strong: '7651'
+  semantic:
+    sdbh:
+    - 007180001001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+- position: 10
+  text: שָׁנִ֔ים
+  lemma: שָׁנָה
+  transliteration: šāniym
+  ids:
+    ref: GEN 5:7!8
+    wordID: o010050070081
+  translation:
+    english: years
+    mandarin: 年
+    gloss: years
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנָה
+    strong: '8141'
+  semantic:
+    sense: '1'
+- position: 11
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: GEN 5:7!9
+    wordID: o010050070091
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: שְׁמֹנֶ֥ה
+  lemma: שְׁמֹנֶה
+  transliteration: šəmōneh
+  ids:
+    ref: GEN 5:7!9
+    wordID: o010050070092
+  translation:
+    english: eight
+    mandarin: 八
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שְׁמֹנֶה
+    strong: '8083'
+  semantic:
+    sdbh:
+    - '007474001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+  lxx:
+    text: ἑπτακόσια
+- position: 13
+  text: מֵא֖וֹת
+  lemma: מֵאָה
+  transliteration: mēʾôṯ
+  ids:
+    ref: GEN 5:7!10
+    wordID: o010050070101
+  translation:
+    english: hundred
+    mandarin: 百
+    gloss: hundred(s)
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: מֵאָה
+    strong: '3967'
+  semantic:
+    sdbh:
+    - '003633001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ἑπτὰ
+    strong: '2033'
+- position: 14
+  text: שָׁנָ֑ה
+  lemma: שָׁנָה
+  transliteration: šānāh
+  ids:
+    ref: GEN 5:7!11
+    wordID: o010050070111
+  translation:
+    english: years
+    mandarin: 年
+    gloss: year[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנָה
+    strong: '8141'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔτη
+    strong: '2094'
+- position: 15
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 5:7!12
+    wordID: o010050070121
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: יּ֥וֹלֶד
+  lemma: יָלַד
+  transliteration: yyôleḏ
+  ids:
+    ref: GEN 5:7!12
+    wordID: o010050070122
+  translation:
+    english: had
+    mandarin: 生
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001002000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    sense: '1'
+  lxx:
+    text: ἐγέννησεν
+    strong: '1080'
+  syntax:
+    role: v
+    frame: AA:010050070021; A0:010050070131;010050070142;
+  discourse:
+    subject: '010050070021'
+- position: 17
+  text: בָּנִ֖ים
+  lemma: בֵּן
+  transliteration: bāniym
+  ids:
+    ref: GEN 5:7!13
+    wordID: o010050070131
+  translation:
+    english: sons
+    mandarin: 儿子们
+    gloss: sons
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: υἱοὺς
+    strong: '5207'
+- position: 18
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: GEN 5:7!14
+    wordID: o010050070141
+  translation:
+    english: and
+    mandarin: 及
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 19
+  text: בָנֽוֹת
+  lemma: בַּת
+  transliteration: 'ḇānôṯ:'
+  ids:
+    ref: GEN 5:7!14
+    wordID: o010050070142
+  translation:
+    english: daughters
+    mandarin: 女儿们
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בַּת
+    strong: '1323'
+  semantic:
+    sdbh:
+    - '001220001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: θυγατέρας
+    strong: '2364'

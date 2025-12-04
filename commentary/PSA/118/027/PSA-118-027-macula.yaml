@@ -1,0 +1,407 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 118:27
+text: אֵ֤ל׀יְהוָה֮ וַיָּ֪אֶר לָ֥נוּ אִסְרוּ־חַ֥ג בַּעֲבֹתִ֑ים עַד־קַ֝רְנ֗וֹת הַמִּזְבֵּֽחַ׃
+words:
+- position: 1
+  text: אֵ֤ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: PSA 118:27!1
+    wordID: o191180270011
+  translation:
+    english: God
+    mandarin: 神
+    gloss: '[is].God'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  syntax:
+    role: p
+- position: 2
+  text: יְהוָה֮
+  lemma: יהוה
+  transliteration: yhwh
+  ids:
+    ref: PSA 118:27!2
+    wordID: o191180270021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 3
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 118:27!3
+    wordID: o191180270031
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: יָּ֪אֶר
+  lemma: אוֹר
+  transliteration: yyāʾer
+  ids:
+    ref: PSA 118:27!3
+    wordID: o191180270032
+  translation:
+    english: given ~ light
+    mandarin: 光照
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: אוֹר
+    strong: '0215'
+  semantic:
+    sdbh:
+    - '000205001002000'
+    lexdomain:
+    - 002001001049
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: ἐπέφανεν
+  syntax:
+    role: v
+    frame: A0:191180270021;
+  discourse:
+    subject: '191180270021'
+- position: 5
+  text: לָ֥
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 118:27!4
+    wordID: o191180270041
+  translation:
+    english: upon
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 118:27!4
+    wordID: o191180270042
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμῖν
+    strong: '2254'
+  discourse:
+    participant: 191180020031 191180030031 191180040031
+- position: 7
+  text: אִסְרוּ
+  lemma: אָסַר
+  transliteration: ʾisrû-
+  ids:
+    ref: PSA 118:27!5
+    wordID: o191180270051
+  translation:
+    english: bind
+    mandarin: 拴住
+    gloss: bind
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: אָסַר
+    strong: '0631'
+  semantic:
+    sdbh:
+    - 000578001001000
+    lexdomain:
+    - '002003001002'
+    coredomain:
+    - '040'
+    sense: '5'
+  lxx:
+    text: συστήσασθε
+  syntax:
+    role: v
+    frame: A0:191180020031;191180030031;191180040031; A1:191180270061;
+  discourse:
+    subject: 191180020031 191180030031 191180040031
+- position: 8
+  text: חַ֥ג
+  lemma: חַג
+  transliteration: ḥaḡ
+  ids:
+    ref: PSA 118:27!6
+    wordID: o191180270061
+  translation:
+    english: festal procession
+    mandarin: 祭牲
+    gloss: a.festival.sacrifice
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חַג
+    strong: '2282'
+  semantic:
+    sdbh:
+    - '002111001002000'
+    lexdomain:
+    - '001001002001'
+    coredomain:
+    - '010'
+    - '066'
+    - '149'
+    sense: '2'
+  lxx:
+    text: ἑορτὴν
+    strong: '1859'
+  syntax:
+    role: o
+- position: 9
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: PSA 118:27!7
+    wordID: o191180270071
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 10
+  text: עֲבֹתִ֑ים
+  lemma: עֲבֹות
+  transliteration: ʿăḇōṯiym
+  ids:
+    ref: PSA 118:27!7
+    wordID: o191180270072
+  translation:
+    english: cords
+    mandarin: 绳索
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֲבֹות
+    strong: '5688'
+  semantic:
+    sdbh:
+    - '005222001001000'
+    lexdomain:
+    - '001004001004'
+    sense: '1'
+  lxx:
+    text: πυκάζουσιν
+- position: 11
+  text: עַד
+  lemma: עַד
+  transliteration: ʿaḏ-
+  ids:
+    ref: PSA 118:27!8
+    wordID: o191180270081
+  translation:
+    english: to
+    mandarin: 到
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001001000'
+    lexdomain:
+    - '002002001'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 12
+  text: קַ֝רְנ֗וֹת
+  lemma: קֶרֶן
+  transliteration: qarnôṯ
+  ids:
+    ref: PSA 118:27!9
+    wordID: o191180270091
+  translation:
+    english: horns
+    mandarin: 角
+    gloss: the.horns
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קֶרֶן
+    strong: '7161'
+  semantic:
+    sdbh:
+    - 006592001004000
+    lexdomain:
+    - 001004001008
+    coredomain:
+    - '027'
+    - '150'
+    - '149'
+    sense: '1'
+  lxx:
+    text: κεράτων
+    strong: '2768'
+- position: 13
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: PSA 118:27!10
+    wordID: o191180270101
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 14
+  text: מִּזְבֵּֽחַ
+  lemma: מִזְבֵּחַ
+  transliteration: 'mmizbēᵃḥ:'
+  ids:
+    ref: PSA 118:27!10
+    wordID: o191180270102
+  translation:
+    english: altar
+    mandarin: 祭坛
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִזְבֵּחַ
+    strong: '4196'
+  semantic:
+    sdbh:
+    - 003827001001000
+    lexdomain:
+    - '001004001006'
+    coredomain:
+    - '149'
+    sense: '1'
+  lxx:
+    text: θυσιαστηρίου
+    strong: '2379'

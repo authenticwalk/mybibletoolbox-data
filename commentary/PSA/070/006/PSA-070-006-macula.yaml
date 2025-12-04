@@ -1,0 +1,544 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 70:6
+text: וַאֲנִ֤י׀עָנִ֣י וְאֶבְיוֹן֮ אֱלֹהִ֪ים חֽוּשָׁ֫ה־לִּ֥י עֶזְרִ֣י וּמְפַלְטִ֣י
+  אַ֑תָּה יְ֝הוָ֗ה אַל־תְּאַחַֽר׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 70:6!1
+    wordID: o190700060011
+  translation:
+    english: yet
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: אֲנִ֤י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: PSA 70:6!1
+    wordID: o190700060012
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '190700010022'
+- position: 3
+  text: עָנִ֣י
+  lemma: עָנִי
+  transliteration: ʿāniy
+  ids:
+    ref: PSA 70:6!2
+    wordID: o190700060021
+  translation:
+    english: poor
+    mandarin: 困苦
+    gloss: '[am].poor'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָנִי
+    strong: '6041'
+  semantic:
+    sdbh:
+    - '005546001001000'
+    lexdomain:
+    - '001001002003001'
+    - '002003003021'
+    - '002001001040'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πτωξὸς
+    strong: '4434'
+- position: 4
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 70:6!3
+    wordID: o190700060031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: אֶבְיוֹן֮
+  lemma: אֶבְיוֹן
+  transliteration: ʾeḇyôn
+  ids:
+    ref: PSA 70:6!3
+    wordID: o190700060032
+  translation:
+    english: needy
+    mandarin: 贫穷
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: אֶבְיוֹן
+    strong: '0034'
+  semantic:
+    sdbh:
+    - '000032001001000'
+    lexdomain:
+    - '002001001040'
+    coredomain:
+    - '192'
+  lxx:
+    text: πένης
+    strong: '3993'
+- position: 6
+  text: אֱלֹהִ֪ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 70:6!4
+    wordID: o190700060041
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: O.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 7
+  text: חֽוּשָׁ֫
+  lemma: חוּשׁ
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!5
+    wordID: o190700060051
+  translation:
+    english: hasten
+    mandarin: 快~来
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: חוּשׁ
+    strong: '2363'
+  semantic:
+    sdbh:
+    - 002180001002000
+    lexdomain:
+    - '002003003022'
+    coredomain:
+    - '180'
+    sense: '1'
+  syntax:
+    frame: A0:190700060041;
+  discourse:
+    subject: '190700060041'
+- position: 8
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!5
+    wordID: o190700060052
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sh
+    type: paragogic he
+  lexical:
+    stronglemma: ה
+    strong: 1886j
+  semantic:
+    sdbh:
+    - 002180001002000
+    lexdomain:
+    - '002003003022'
+    coredomain:
+    - '180'
+  lxx:
+    text: βοήθησόν
+    strong: '997'
+- position: 9
+  text: לִּ֥
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!6
+    wordID: o190700060061
+  translation:
+    english: to
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 10
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!6
+    wordID: o190700060062
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: '190700010022'
+- position: 11
+  text: עֶזְרִ֣
+  lemma: עֵזֶר
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!7
+    wordID: o190700060071
+  translation:
+    english: help
+    mandarin: 帮助
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֵזֶר
+    strong: '5828'
+  semantic:
+    sdbh:
+    - '005351001001000'
+    lexdomain:
+    - '002003002015'
+    sense: '1'
+  lxx:
+    text: βοηθός
+    strong: '998'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!7
+    wordID: o190700060072
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '005351001001000'
+    lexdomain:
+    - '002003002015'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190700010022'
+- position: 13
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 70:6!8
+    wordID: o190700060081
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: מְפַלְטִ֣
+  lemma: פָּלַט
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!8
+    wordID: o190700060082
+  translation:
+    english: deliverer
+    mandarin: 拯救者
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: פָּלַט
+    strong: '6403'
+  semantic:
+    sdbh:
+    - 005879001002000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    sense: '1'
+  lxx:
+    text: ῥύστης
+  syntax:
+    frame: A0:190700060041;
+  discourse:
+    subject: '190700060041'
+- position: 15
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 70:6!8
+    wordID: o190700060083
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 005879001002000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190700010022'
+- position: 16
+  text: אַ֑תָּה
+  lemma: אַתָּה
+  transliteration: ʾatâ
+  ids:
+    ref: PSA 70:6!9
+    wordID: o190700060091
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σύ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190700060041'
+- position: 17
+  text: יְ֝הוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 70:6!10
+    wordID: o190700060101
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 18
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 70:6!11
+    wordID: o190700060111
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 19
+  text: תְּאַחַֽר
+  lemma: אָחַר
+  transliteration: 'təʾaḥar:'
+  ids:
+    ref: PSA 70:6!12
+    wordID: o190700060121
+  translation:
+    english: delay
+    mandarin: 耽延
+    gloss: delay
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: jussive
+  lexical:
+    stronglemma: אָחַר
+    strong: 0309
+  semantic:
+    sdbh:
+    - 000293001002000
+    lexdomain:
+    - '002003003007'
+    coredomain:
+    - '168'
+    sense: '1'
+  lxx:
+    text: ξρονίσῃς
+    strong: '5549'
+  syntax:
+    role: v
+    frame: A0:190700060101;
+  discourse:
+    subject: '190700060101'

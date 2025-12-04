@@ -1,0 +1,368 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: MIC 6:3
+text: עַמִּ֛י מֶה־עָשִׂ֥יתִי לְךָ֖ וּמָ֣ה הֶלְאֵתִ֑יךָ עֲנֵ֥ה בִּֽי׃
+words:
+- position: 1
+  text: עַמִּ֛
+  lemma: עַם
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!1
+    wordID: o330060030011
+  translation:
+    english: people
+    mandarin: 子民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαός
+    strong: '2992'
+- position: 2
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!1
+    wordID: o330060030012
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '330060020112'
+- position: 3
+  text: מֶה
+  lemma: מָה
+  transliteration: meh-
+  ids:
+    ref: MIC 6:3!2
+    wordID: o330060030021
+  translation:
+    english: what
+    mandarin: 什么
+    gloss: what?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: o
+- position: 4
+  text: עָשִׂ֥יתִי
+  lemma: עָשָׂה
+  transliteration: ʿāśiyṯî
+  ids:
+    ref: MIC 6:3!3
+    wordID: o330060030031
+  translation:
+    english: done
+    mandarin: 做
+    gloss: have.I.done
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ἐποίησά
+  syntax:
+    role: v
+    frame: A0:330060020112; A1:330060030021;
+  discourse:
+    subject: '330060020112'
+- position: 5
+  text: לְ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!4
+    wordID: o330060030041
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!4
+    wordID: o330060030042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '330060030011'
+- position: 7
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: MIC 6:3!5
+    wordID: o330060030051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ἢ
+    strong: '2228'
+- position: 8
+  text: מָ֣ה
+  lemma: מָה
+  transliteration: māh
+  ids:
+    ref: MIC 6:3!5
+    wordID: o330060030052
+  translation:
+    english: how
+    mandarin: 什么
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: adv
+- position: 9
+  text: הֶלְאֵתִ֑י
+  lemma: לָאָה
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!6
+    wordID: o330060030061
+  translation:
+    english: wearied
+    mandarin: 厌烦
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: לָאָה
+    strong: '3811'
+  semantic:
+    sdbh:
+    - 003490001006000
+    lexdomain:
+    - '002001002013'
+    coredomain:
+    - 093
+    sense: '1'
+  lxx:
+    text: ἐλύπησά
+  syntax:
+    role: v
+    frame: AA:330060020112; A0:330060030062;
+  discourse:
+    subject: '330060020112'
+- position: 10
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!6
+    wordID: o330060030062
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 003490001006000
+    lexdomain:
+    - '002001002013'
+    coredomain:
+    - 093
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '330060030011'
+- position: 11
+  text: עֲנֵ֥ה
+  lemma: עָנָה
+  transliteration: ʿănēh
+  ids:
+    ref: MIC 6:3!7
+    wordID: o330060030071
+  translation:
+    english: answer
+    mandarin: 回答
+    gloss: testify
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001002000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    - 095
+    sense: '1'
+  lxx:
+    text: ἀποκρίθητί
+    strong: '611'
+  syntax:
+    role: v
+    frame: A0:330060030011;
+  discourse:
+    subject: '330060030011'
+- position: 12
+  text: בִּֽ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!8
+    wordID: o330060030081
+  translation:
+    english: against
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 13
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: MIC 6:3!8
+    wordID: o330060030082
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: '330060020112'

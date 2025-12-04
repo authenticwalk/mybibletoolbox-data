@@ -1,0 +1,517 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 19:4
+text: אַתֶּ֣ם רְאִיתֶ֔ם אֲשֶׁ֥ר עָשִׂ֖יתִי לְמִצְרָ֑יִם וָאֶשָּׂ֤א אֶתְכֶם֙ עַל־כַּנְפֵ֣י
+  נְשָׁרִ֔ים וָאָבִ֥א אֶתְכֶ֖ם אֵלָֽי׃
+words:
+- position: 1
+  text: אַתֶּ֣ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: EXO 19:4!1
+    wordID: o020190040011
+  translation:
+    english: you
+    mandarin: 你们
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: 020190030162
+- position: 2
+  text: רְאִיתֶ֔ם
+  lemma: רָאָה
+  transliteration: rəʾîṯem
+  ids:
+    ref: EXO 19:4!2
+    wordID: o020190040021
+  translation:
+    english: seen
+    mandarin: 看见
+    gloss: you.have.seen
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ἑωράκατε
+    strong: '3708'
+  syntax:
+    role: v
+    frame: A0:020190040011; A1:020190040041;020190040062;020190040112;
+- position: 3
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: EXO 19:4!3
+    wordID: o020190040031
+  translation:
+    english: what
+    mandarin: 所~的
+    gloss: '[that].which'
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὅσα
+    strong: '3745'
+- position: 4
+  text: עָשִׂ֖יתִי
+  lemma: עָשָׂה
+  transliteration: ʿāśiyṯî
+  ids:
+    ref: EXO 19:4!4
+    wordID: o020190040041
+  translation:
+    english: did
+    mandarin: 行
+    gloss: I.did
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: πεποίηκα
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:020190030071;
+  discourse:
+    subject: 020190030071
+- position: 5
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: EXO 19:4!5
+    wordID: o020190040051
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῖς
+    strong: '3588'
+- position: 6
+  text: מִצְרָ֑יִם
+  lemma: מִצְרַיִם
+  transliteration: miṣrāyim
+  ids:
+    ref: EXO 19:4!5
+    wordID: o020190040052
+  translation:
+    english: Egyptians
+    mandarin: 埃及人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγυπτίοις
+    strong: '124'
+- position: 7
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: EXO 19:4!6
+    wordID: o020190040061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: אֶשָּׂ֤א
+  lemma: נָשָׂא
+  transliteration: ʾeśśāʾ
+  ids:
+    ref: EXO 19:4!6
+    wordID: o020190040062
+  translation:
+    english: bore
+    mandarin: 背
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001007000
+    lexdomain:
+    - '002003001010'
+    coredomain:
+    - 019
+    sense: '2'
+  lxx:
+    text: ἀνέλαβον
+    strong: '353'
+  syntax:
+    role: v
+    frame: A0:020190030071; A1:020190040072;
+  discourse:
+    subject: 020190030071
+- position: 9
+  text: אֶתְ
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: EXO 19:4!7
+    wordID: o020190040071
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 10
+  text: כֶם֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 19:4!7
+    wordID: o020190040072
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: 020190030162
+- position: 11
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: EXO 19:4!8
+    wordID: o020190040081
+  translation:
+    english: 'on'
+    mandarin: 在~上
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 12
+  text: כַּנְפֵ֣י
+  lemma: כָּנָף
+  transliteration: kanp̄ēy
+  ids:
+    ref: EXO 19:4!9
+    wordID: o020190040091
+  translation:
+    english: wings
+    mandarin: 翅膀
+    gloss: wings
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfdc
+    gender: feminine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כָּנָף
+    strong: '3671'
+  semantic:
+    sdbh:
+    - 003359001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: πτερύγων
+    strong: '4420'
+- position: 13
+  text: נְשָׁרִ֔ים
+  lemma: נֶשֶׁר
+  transliteration: nəšāriym
+  ids:
+    ref: EXO 19:4!10
+    wordID: o020190040101
+  translation:
+    english: eagles’
+    mandarin: 鹰
+    gloss: of.eagles
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נֶשֶׁר
+    strong: '5404'
+  semantic:
+    sdbh:
+    - 004948001001000
+    lexdomain:
+    - '001001002001005'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: ἀετῶν
+    strong: '105'
+- position: 14
+  text: וָ
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: EXO 19:4!11
+    wordID: o020190040111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: אָבִ֥א
+  lemma: בּוֹא
+  transliteration: ʾāḇiʾ
+  ids:
+    ref: EXO 19:4!11
+    wordID: o020190040112
+  translation:
+    english: brought
+    mandarin: 带来
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '2'
+  lxx:
+    text: προσηγαγόμην
+  syntax:
+    role: v
+    frame: AA:020190030071; A0:020190040122;
+  discourse:
+    subject: 020190030071
+- position: 16
+  text: אֶתְ
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: EXO 19:4!12
+    wordID: o020190040121
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 17
+  text: כֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 19:4!12
+    wordID: o020190040122
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: 020190030162
+- position: 18
+  text: אֵלָֽ
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: EXO 19:4!13
+    wordID: o020190040131
+  translation:
+    english: to
+    mandarin: 归
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 19
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 19:4!13
+    wordID: o020190040132
+  translation:
+    english: myself
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμαυτόν
+    strong: '1683'
+  discourse:
+    participant: 020190030071

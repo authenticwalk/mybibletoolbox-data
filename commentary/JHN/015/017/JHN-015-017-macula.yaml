@@ -1,0 +1,149 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 15:17
+text: ταῦτα ἐντέλλομαι ὑμῖν, ἵνα ἀγαπᾶτε ἀλλήλους.
+words:
+- position: 1
+  text: ταῦτα
+  lemma: οὗτος
+  normalized: ταῦτα
+  ids:
+    ref: JHN 15:17!1
+    wordID: n43015017001
+  translation:
+    gloss: These things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+- position: 2
+  text: ἐντέλλομαι
+  lemma: ἐντέλλομαι
+  normalized: ἐντέλλομαι
+  ids:
+    ref: JHN 15:17!2
+    wordID: n43015017002
+  translation:
+    gloss: I command
+  morphology:
+    class: verb
+    morph: V-PNI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1781'
+  semantic:
+    semanticDomain: '033032'
+    ln: '33.329'
+  syntax:
+    role: v
+    frame: A0:n43014023002 A1:n43015017001 A2:n43015017003
+  discourse:
+    subject: n43014023002
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: JHN 15:17!3
+    wordID: n43015017003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n43013023006 n43013037003 n43014005003 n43014008003 n43014022003
+- position: 4
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: JHN 15:17!4
+    wordID: n43015017004
+  translation:
+    gloss: that
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.22'
+- position: 5
+  text: ἀγαπᾶτε
+  lemma: ἀγαπάω
+  normalized: ἀγαπᾶτε
+  ids:
+    ref: JHN 15:17!5
+    wordID: n43015017005
+  translation:
+    gloss: you love
+  morphology:
+    class: verb
+    morph: V-PAS-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n43013023006;n43013037003;n43014005003;n43014008003;n43014022003 A1:n43015017006
+  discourse:
+    subject: n43013023006 n43013037003 n43014005003 n43014008003 n43014022003
+- position: 6
+  text: ἀλλήλους
+  lemma: ἀλλήλων
+  normalized: ἀλλήλους
+  ids:
+    ref: JHN 15:17!6
+    wordID: n43015017006
+  translation:
+    gloss: one another
+  morphology:
+    class: pron
+    morph: C-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '240'
+  semantic:
+    semanticDomain: 092005
+    ln: '92.26'
+  syntax:
+    role: o
+  discourse:
+    referent: n43013023006 n43013037003 n43014005003 n43014008003 n43014022003

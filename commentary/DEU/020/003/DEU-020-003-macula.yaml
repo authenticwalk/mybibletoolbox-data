@@ -1,0 +1,828 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 20:3
+text: וְאָמַ֤ר אֲלֵהֶם֙ שְׁמַ֣ע יִשְׂרָאֵ֔ל אַתֶּ֨ם קְרֵבִ֥ים הַיּ֛וֹם לַמִּלְחָמָ֖ה
+  עַל־אֹיְבֵיכֶ֑ם אַל־יֵרַ֣ךְ לְבַבְכֶ֗ם אַל־תִּֽירְא֧וּ וְאַֽל־תַּחְפְּז֛וּ וְאַל־תַּֽעַרְצ֖וּ
+  מִפְּנֵיהֶֽם׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 20:3!1
+    wordID: o050200030011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אָמַ֤ר
+  lemma: אָמַר
+  transliteration: ʾāmar
+  ids:
+    ref: DEU 20:3!1
+    wordID: o050200030012
+  translation:
+    english: say
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐρεῖ
+    strong: '2046'
+  syntax:
+    role: v
+    frame: A0:050200020062;
+  discourse:
+    subject: '050200020062'
+- position: 3
+  text: אֲלֵ
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!2
+    wordID: o050200030021
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 4
+  text: הֶם֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!2
+    wordID: o050200030022
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτούς
+    strong: '848'
+  discourse:
+    participant: 050200020092
+- position: 5
+  text: שְׁמַ֣ע
+  lemma: שָׁמַע
+  transliteration: šəmaʿ
+  ids:
+    ref: DEU 20:3!3
+    wordID: o050200030031
+  translation:
+    english: hear
+    mandarin: 听
+    gloss: hear
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '3'
+  lxx:
+    text: ἄκουε
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:050200030041;
+  discourse:
+    subject: '050200030041'
+- position: 6
+  text: יִשְׂרָאֵ֔ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: DEU 20:3!4
+    wordID: o050200030041
+  translation:
+    english: Israel
+    mandarin: 以色列人
+    gloss: O.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 7
+  text: אַתֶּ֨ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: DEU 20:3!5
+    wordID: o050200030051
+  translation:
+    english: you
+    mandarin: 你们
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ὑμεῖς
+    strong: '5210'
+  syntax:
+    role: s
+  discourse:
+    participant: '050200030041'
+- position: 8
+  text: קְרֵבִ֥ים
+  lemma: קָרֵב
+  transliteration: qərēḇiym
+  ids:
+    ref: DEU 20:3!6
+    wordID: o050200030061
+  translation:
+    english: drawing near
+    mandarin: 将近
+    gloss: '[are].approaching'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: קָרֵב
+    strong: '7131'
+  semantic:
+    sense: '2'
+  lxx:
+    text: προσπορεύεσθε
+  syntax:
+    role: p
+- position: 9
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 20:3!7
+    wordID: o050200030071
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 10
+  text: יּ֛וֹם
+  lemma: יוֹם
+  transliteration: yyôm
+  ids:
+    ref: DEU 20:3!7
+    wordID: o050200030072
+  translation:
+    english: day
+    mandarin: 今日
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: σήμερον
+    strong: '4594'
+- position: 11
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: DEU 20:3!8
+    wordID: o050200030081
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 12
+  text: מִּלְחָמָ֖ה
+  lemma: מִלְחָמָה
+  transliteration: mmilḥāmāh
+  ids:
+    ref: DEU 20:3!8
+    wordID: o050200030082
+  translation:
+    english: battle
+    mandarin: 作战
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִלְחָמָה
+    strong: '4421'
+  semantic:
+    sdbh:
+    - 004039001001000
+    lexdomain:
+    - '002003002007'
+    coredomain:
+    - '188'
+    sense: '1'
+  lxx:
+    text: πόλεμον
+    strong: '4171'
+- position: 13
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: DEU 20:3!9
+    wordID: o050200030091
+  translation:
+    english: against
+    mandarin: 和
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 14
+  text: אֹיְבֵי
+  lemma: אָיַב
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!10
+    wordID: o050200030101
+  translation:
+    english: enemies
+    mandarin: 仇敌
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָיַב
+    strong: '0341'
+  semantic:
+    sdbh:
+    - 000318001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+  lxx:
+    text: ἐξθροὺς
+    strong: '2190'
+- position: 15
+  text: כֶ֑ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!10
+    wordID: o050200030102
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - 000318001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '050200030041'
+- position: 16
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: DEU 20:3!11
+    wordID: o050200030111
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 17
+  text: יֵרַ֣ךְ
+  lemma: רָכַךְ
+  transliteration: yēraḵ
+  ids:
+    ref: DEU 20:3!12
+    wordID: o050200030121
+  translation:
+    english: lose
+    mandarin: 怯弱
+    gloss: let.it.be.timid
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: רָכַךְ
+    strong: '7401'
+  semantic:
+    sdbh:
+    - 006805001002000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    sense: '1'
+  lxx:
+    text: ἐκλυέσθω
+  syntax:
+    role: v
+    frame: A0:050200030131;
+- position: 18
+  text: לְבַבְ
+  lemma: לֵבָב
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!13
+    wordID: o050200030131
+  translation:
+    english: heart
+    mandarin: 心
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: לֵבָב
+    strong: '3824'
+  semantic:
+    sdbh:
+    - '003500001002000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '4'
+  lxx:
+    text: καρδία
+    strong: '2588'
+- position: 19
+  text: כֶ֗ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!13
+    wordID: o050200030132
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - '003500001002000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '050200030041'
+- position: 20
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: DEU 20:3!14
+    wordID: o050200030141
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 21
+  text: תִּֽירְא֧וּ
+  lemma: יָרֵא
+  transliteration: tiyrəʾû
+  ids:
+    ref: DEU 20:3!15
+    wordID: o050200030151
+  translation:
+    english: afraid
+    mandarin: 惧怕
+    gloss: be.afraid
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: יָרֵא
+    strong: '3372'
+  semantic:
+    sdbh:
+    - 003081001001000
+    lexdomain:
+    - '002001002001'
+    sense: '1'
+  lxx:
+    text: φοβεῖσθε
+    strong: '5399'
+  syntax:
+    role: v
+    frame: A0:050200030041;
+  discourse:
+    subject: '050200030041'
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 20:3!16
+    wordID: o050200030161
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 23
+  text: אַֽל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: DEU 20:3!16
+    wordID: o050200030162
+  translation:
+    english: not
+    mandarin: 不要
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μηδὲ
+    strong: '3366'
+  syntax:
+    role: adv
+- position: 24
+  text: תַּחְפְּז֛וּ
+  lemma: חָפַז
+  transliteration: taḥpəzû
+  ids:
+    ref: DEU 20:3!17
+    wordID: o050200030171
+  translation:
+    english: panic
+    mandarin: 惊慌
+    gloss: make.haste
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: חָפַז
+    strong: '2648'
+  semantic:
+    sdbh:
+    - 002439001001000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '196'
+    sense: '1'
+  lxx:
+    text: θραύεσθε
+  syntax:
+    role: v
+    frame: A0:050200030041;
+  discourse:
+    subject: '050200030041'
+- position: 25
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 20:3!18
+    wordID: o050200030181
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 26
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: DEU 20:3!18
+    wordID: o050200030182
+  translation:
+    english: not
+    mandarin: 不要
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μηδὲ
+    strong: '3366'
+  syntax:
+    role: adv
+- position: 27
+  text: תַּֽעַרְצ֖וּ
+  lemma: עָרַץ
+  transliteration: taʿarṣû
+  ids:
+    ref: DEU 20:3!19
+    wordID: o050200030191
+  translation:
+    english: terrified
+    mandarin: 惊恐
+    gloss: be.terrified
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: עָרַץ
+    strong: '6206'
+  semantic:
+    sdbh:
+    - 005690001001000
+    lexdomain:
+    - '002001002001'
+    sense: '1'
+  lxx:
+    text: ἐκκλίνητε
+  syntax:
+    role: v
+    frame: A0:050200030041;
+  discourse:
+    subject: '050200030041'
+- position: 28
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: DEU 20:3!20
+    wordID: o050200030201
+  translation:
+    english: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 29
+  text: פְּנֵי
+  lemma: פָּנֶה
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!20
+    wordID: o050200030202
+  translation:
+    english: before
+    mandarin: 因
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '3'
+  lxx:
+    text: προσώπου
+    strong: '4383'
+- position: 30
+  text: הֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 20:3!20
+    wordID: o050200030203
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  discourse:
+    participant: '050200030101'

@@ -1,0 +1,233 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EZK 27:2
+text: וְאַתָּ֣ה בֶן־אָדָ֔ם שָׂ֥א עַל־צֹ֖ר קִינָֽה׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EZK 27:2!1
+    wordID: o260270020011
+  translation:
+    english: now
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: בֶן
+  lemma: בֵּן
+  transliteration: ḇen-
+  ids:
+    ref: EZK 27:2!2
+    wordID: o260270020021
+  translation:
+    english: son
+    mandarin: 子
+    gloss: O.son
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001004000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 038
+    sense: '1'
+  lxx:
+    text: υἱὲ
+    strong: '5207'
+- position: 3
+  text: אָדָ֔ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: EZK 27:2!3
+    wordID: o260270020031
+  translation:
+    english: man
+    mandarin: 人
+    gloss: of.humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἀνθρώπου
+    strong: '444'
+- position: 4
+  text: אַתָּ֣ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: EZK 27:2!1
+    wordID: o260270020012
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  syntax:
+    role: s
+  discourse:
+    participant: '260270020021'
+- position: 5
+  text: שָׂ֥א
+  lemma: נָשָׂא
+  transliteration: śāʾ
+  ids:
+    ref: EZK 27:2!4
+    wordID: o260270020041
+  translation:
+    english: raise
+    mandarin: 致
+    gloss: take.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001045000
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '5'
+  lxx:
+    text: λαβὲ
+    strong: '2983'
+  syntax:
+    role: v
+    frame: A0:260270020012; A1:260270020071;
+- position: 6
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: EZK 27:2!5
+    wordID: o260270020051
+  translation:
+    english: over
+    mandarin: 为
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 7
+  text: צֹ֖ר
+  lemma: צֹר
+  transliteration: ṣōr
+  ids:
+    ref: EZK 27:2!6
+    wordID: o260270020061
+  translation:
+    english: Tyre
+    mandarin: 推罗
+    gloss: Tyre
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: צֹר
+    strong: '6865'
+  semantic:
+    sdbh:
+    - '006316002001000'
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: σορ
+- position: 8
+  text: קִינָֽה
+  lemma: קִינָה
+  transliteration: 'qînāh:'
+  ids:
+    ref: EZK 27:2!7
+    wordID: o260270020071
+  translation:
+    english: lament
+    mandarin: 哀歌
+    gloss: a.lamentation
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קִינָה
+    strong: '7015'
+  semantic:
+    sdbh:
+    - '006454001001000'
+    lexdomain:
+    - 002004001009006
+    coredomain:
+    - '111'
+    - '041'
+    - '109'
+    - 093
+    sense: '1'
+  lxx:
+    text: θρῆνον
+  syntax:
+    role: o

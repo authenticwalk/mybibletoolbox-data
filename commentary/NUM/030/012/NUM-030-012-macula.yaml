@@ -1,0 +1,703 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 30:12
+text: וְשָׁמַ֤ע אִישָׁהּ֙ וְהֶחֱרִ֣שׁ לָ֔הּ לֹ֥א הֵנִ֖יא אֹתָ֑הּ וְקָ֨מוּ֙ כָּל־נְדָרֶ֔יהָ
+  וְכָל־אִסָּ֛ר אֲשֶׁר־אָסְרָ֥ה עַל־נַפְשָׁ֖הּ יָקֽוּם׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 30:12!1
+    wordID: o040300120011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: שָׁמַ֤ע
+  lemma: שָׁמַע
+  transliteration: šāmaʿ
+  ids:
+    ref: NUM 30:12!1
+    wordID: o040300120012
+  translation:
+    english: heard
+    mandarin: 听见
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀκούσῃ
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:040300120021;
+- position: 3
+  text: אִישָׁ
+  lemma: אִישׁ
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!2
+    wordID: o040300120021
+  translation:
+    english: husband
+    mandarin: 丈夫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '3'
+  lxx:
+    text: ἀνὴρ
+    strong: '435'
+- position: 4
+  text: הּ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!2
+    wordID: o040300120022
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: ὁ
+    strong: '3588'
+  discourse:
+    participant: '040300040012'
+- position: 5
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 30:12!3
+    wordID: o040300120031
+  translation:
+    english: but
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: הֶחֱרִ֣שׁ
+  lemma: חָרֵשׁ
+  transliteration: heḥĕriš
+  ids:
+    ref: NUM 30:12!3
+    wordID: o040300120032
+  translation:
+    english: said nothing
+    mandarin: 默不作声
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: weqatal
+  lexical:
+    stronglemma: חָרֵשׁ
+    strong: 2790a
+  semantic:
+    sdbh:
+    - '002565002002000'
+    lexdomain:
+    - 002004001009004
+    - '002003003011'
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: παρασιωπήσῃ
+  syntax:
+    role: v
+    frame: A0:040300120021;
+  discourse:
+    subject: '040300120021'
+- position: 7
+  text: לָ֔
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!4
+    wordID: o040300120041
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 8
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!4
+    wordID: o040300120042
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐτῇ
+    strong: '846'
+  discourse:
+    participant: '040300040012'
+- position: 9
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: NUM 30:12!5
+    wordID: o040300120051
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 10
+  text: הֵנִ֖יא
+  lemma: נוּא
+  transliteration: hēniyʾ
+  ids:
+    ref: NUM 30:12!6
+    wordID: o040300120061
+  translation:
+    english: forbid
+    mandarin: 反对
+    gloss: he.forbade
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נוּא
+    strong: '5106'
+  semantic:
+    sdbh:
+    - 004682001001000
+    lexdomain:
+    - '002001002031'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: ἀνανεύσῃ
+  syntax:
+    role: v
+    frame: AA:040300120021; A0:040300120072;
+  discourse:
+    subject: '040300120021'
+- position: 11
+  text: אֹתָ֑
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!7
+    wordID: o040300120071
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!7
+    wordID: o040300120072
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐτῇ
+    strong: '846'
+  discourse:
+    participant: '040300040012'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 30:12!8
+    wordID: o040300120081
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: קָ֨מוּ֙
+  lemma: קוּם
+  transliteration: qāmû
+  ids:
+    ref: NUM 30:12!8
+    wordID: o040300120082
+  translation:
+    english: stand
+    mandarin: 有效
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: קוּם
+    strong: '6965'
+  semantic:
+    sense: '4'
+  lxx:
+    text: στήσονται
+    strong: '2476'
+  syntax:
+    role: v
+    frame: A0:040300120101;
+- position: 15
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: NUM 30:12!9
+    wordID: o040300120091
+  translation:
+    english: all
+    mandarin: 都
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσαι
+    strong: '3956'
+- position: 16
+  text: נְדָרֶ֔י
+  lemma: נֶדֶר
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!10
+    wordID: o040300120101
+  translation:
+    english: vows
+    mandarin: 愿
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶדֶר
+    strong: '5088'
+  semantic:
+    sdbh:
+    - '004664001001000'
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '118'
+    - '041'
+    sense: '1'
+- position: 17
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!10
+    wordID: o040300120102
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '004664001001000'
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '118'
+    - '041'
+  lxx:
+    text: αἱ
+    strong: '3588'
+  discourse:
+    participant: '040300040012'
+- position: 18
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 30:12!11
+    wordID: o040300120111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 19
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: NUM 30:12!11
+    wordID: o040300120112
+  translation:
+    english: every
+    mandarin: 一切
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 20
+  text: אִסָּ֛ר
+  lemma: אִסָּר
+  transliteration: ʾissār
+  ids:
+    ref: NUM 30:12!12
+    wordID: o040300120121
+  translation:
+    english: pledge
+    mandarin: 誓
+    gloss: obligation
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִסָּר
+    strong: '0632'
+  semantic:
+    sdbh:
+    - 000580001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '118'
+    sense: '1'
+- position: 21
+  text: אֲשֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer-
+  ids:
+    ref: NUM 30:12!13
+    wordID: o040300120131
+  translation:
+    english: which
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: οὓς
+    strong: '3739'
+- position: 22
+  text: אָסְרָ֥ה
+  lemma: אָסַר
+  transliteration: ʾāsərāh
+  ids:
+    ref: NUM 30:12!14
+    wordID: o040300120141
+  translation:
+    english: bound
+    mandarin: 约束
+    gloss: she.has.bound
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָסַר
+    strong: '0631'
+  semantic:
+    sdbh:
+    - 000578001009000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '118'
+    - '041'
+    sense: '2'
+  lxx:
+    text: ὡρίσατο
+  syntax:
+    role: v
+    frame: A0:040300040012; A1:040300120121;
+  discourse:
+    subject: '040300040012'
+- position: 23
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: NUM 30:12!15
+    wordID: o040300120151
+  translation:
+    english: by
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: κατὰ
+    strong: '2596'
+- position: 24
+  text: נַפְשָׁ֖
+  lemma: נֶפֶשׁ
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!16
+    wordID: o040300120161
+  translation:
+    english: self of
+    mandarin: 自己
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶפֶשׁ
+    strong: '5315'
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+    sense: '1'
+  lxx:
+    text: ψυξῆς
+    strong: '5590'
+- position: 25
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 30:12!16
+    wordID: o040300120162
+  translation:
+    english: her
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+  lxx:
+    text: τῆς
+    strong: '3588'
+  discourse:
+    participant: '040300040012'
+- position: 26
+  text: יָקֽוּם
+  lemma: קוּם
+  transliteration: 'yāqûm:'
+  ids:
+    ref: NUM 30:12!17
+    wordID: o040300120171
+  translation:
+    english: stand
+    mandarin: 有效
+    gloss: it.will.stand
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קוּם
+    strong: '6965'
+  semantic:
+    sense: '4'
+  lxx:
+    text: στήσονται
+    strong: '2476'
+  syntax:
+    role: v
+    frame: A0:040300120121;

@@ -1,0 +1,918 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 1KI 8:54
+text: 1KI 8:54 וַיְהִ֣י׀כְּכַלּ֣וֹת שְׁלֹמֹ֗ה לְהִתְפַּלֵּל֙ אֶל־יְהוָ֔ה אֵ֛ת כָּל־הַתְּפִלָּ֥ה
+  וְהַתְּחִנָּ֖ה הַזֹּ֑את קָ֞ם מִלִּפְנֵ֨י מִזְבַּ֤ח יְהוָה֙ מִכְּרֹ֣עַ עַל־בִּרְכָּ֔יו
+  וְכַפָּ֖יו פְּרֻשׂ֥וֹת הַשָּׁמָֽיִם׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 1KI 8:54!1
+    wordID: o110080540011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יְהִ֣י
+  lemma: הָיָה
+  transliteration: yəhiy
+  ids:
+    ref: 1KI 8:54!1
+    wordID: o110080540012
+  translation:
+    english: happened
+    mandarin: 他是
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγένετο
+    strong: '1096'
+  syntax:
+    role: v
+- position: 3
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: 1KI 8:54!2
+    wordID: o110080540021
+  translation:
+    english: when
+    mandarin: 以后
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 4
+  text: כַלּ֣וֹת
+  lemma: כָּלָה
+  transliteration: ḵallôṯ
+  ids:
+    ref: 1KI 8:54!2
+    wordID: o110080540022
+  translation:
+    english: finished
+    mandarin: 完毕
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpc
+    stem: piel
+    type: infinitive construct
+  lexical:
+    stronglemma: כָּלָה
+    strong: '3615'
+  semantic:
+    sdbh:
+    - '003311001002000'
+    lexdomain:
+    - '002001003003'
+    coredomain:
+    - '168'
+    sense: '1'
+  lxx:
+    text: συνετέλεσεν
+    strong: '4931'
+  syntax:
+    role: v
+    frame: A0:110080540031;
+- position: 5
+  text: שְׁלֹמֹ֗ה
+  lemma: שְׁלֹמֹה
+  transliteration: šəlōmōh
+  ids:
+    ref: 1KI 8:54!3
+    wordID: o110080540031
+  translation:
+    english: Solomon
+    mandarin: 所罗门
+    gloss: Solomon
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שְׁלֹמֹה
+    strong: '8010'
+  semantic:
+    sdbh:
+    - '007414001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαλωμων
+    strong: '4672'
+  syntax:
+    role: s
+- position: 6
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 1KI 8:54!4
+    wordID: o110080540041
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: הִתְפַּלֵּל֙
+  lemma: פָּלַל
+  transliteration: hiṯpallēl
+  ids:
+    ref: 1KI 8:54!4
+    wordID: o110080540042
+  translation:
+    english: praying
+    mandarin: 祈祷
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vtc
+    stem: hithpael
+    type: infinitive construct
+  lexical:
+    stronglemma: פָּלַל
+    strong: '6419'
+  semantic:
+    sdbh:
+    - 005895002001000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '041'
+    - '131'
+    sense: '1'
+  lxx:
+    text: προσευξόμενος
+    strong: '4336'
+  syntax:
+    role: v
+    frame: A0:110080540031; A1:110080540092;110080540103;
+  discourse:
+    subject: '110080540031'
+- position: 8
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: 1KI 8:54!5
+    wordID: o110080540051
+  translation:
+    english: to
+    mandarin: 在~面前
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 9
+  text: יְהוָ֔ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: 1KI 8:54!6
+    wordID: o110080540061
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριον
+    strong: '2962'
+- position: 10
+  text: אֵ֛ת
+  lemma: אֵת
+  transliteration: ʾēṯ
+  ids:
+    ref: 1KI 8:54!7
+    wordID: o110080540071
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 11
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: 1KI 8:54!8
+    wordID: o110080540081
+  translation:
+    english: all
+    mandarin: 一切
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: ὅλην
+    strong: '3650'
+- position: 12
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 1KI 8:54!9
+    wordID: o110080540091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 13
+  text: תְּפִלָּ֥ה
+  lemma: תְּפִלָּה
+  transliteration: təp̄illāh
+  ids:
+    ref: 1KI 8:54!9
+    wordID: o110080540092
+  translation:
+    english: prayer
+    mandarin: 祷告
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּפִלָּה
+    strong: '8605'
+  semantic:
+    sdbh:
+    - 007898001001000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '041'
+    - '131'
+    sense: '1'
+  lxx:
+    text: προσευξὴν
+    strong: '4335'
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 1KI 8:54!10
+    wordID: o110080540101
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 1KI 8:54!10
+    wordID: o110080540102
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 16
+  text: תְּחִנָּ֖ה
+  lemma: תְּחִנָּה
+  transliteration: təḥinnāh
+  ids:
+    ref: 1KI 8:54!10
+    wordID: o110080540103
+  translation:
+    english: plea
+    mandarin: 恳求
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּחִנָּה
+    strong: '8467'
+  semantic:
+    sdbh:
+    - 007769001002000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '036'
+    - '041'
+    - '131'
+    - '170'
+    sense: '1'
+  lxx:
+    text: δέησιν
+    strong: '1162'
+- position: 17
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 1KI 8:54!11
+    wordID: o110080540111
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 18
+  text: זֹּ֑את
+  lemma: זֹאת
+  transliteration: zzōʾṯ
+  ids:
+    ref: 1KI 8:54!11
+    wordID: o110080540112
+  translation:
+    english: this
+    mandarin: 这
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxfs
+    gender: feminine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֹאת
+    strong: '2063'
+  lxx:
+    text: ταύτην
+    strong: '5026'
+  discourse:
+    participant: '110080290182'
+- position: 19
+  text: קָ֞ם
+  lemma: קוּם
+  transliteration: qām
+  ids:
+    ref: 1KI 8:54!12
+    wordID: o110080540121
+  translation:
+    english: arose
+    mandarin: 起来
+    gloss: he.stood.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: קוּם
+    strong: '6965'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀνέστη
+    strong: '450'
+  syntax:
+    role: v
+    frame: A0:110080540031;
+  discourse:
+    subject: '110080540031'
+- position: 20
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: 1KI 8:54!13
+    wordID: o110080540131
+  translation:
+    english: from
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 21
+  text: לִּ
+  lemma: לְ
+  transliteration: lli
+  ids:
+    ref: 1KI 8:54!13
+    wordID: o110080540132
+  translation:
+    english: before
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 22
+  text: פְנֵ֨י
+  lemma: פָּנֶה
+  transliteration: p̄ənēy
+  ids:
+    ref: 1KI 8:54!13
+    wordID: o110080540133
+  translation:
+    mandarin: 前
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '1'
+  lxx:
+    text: προσώπου
+    strong: '4383'
+- position: 23
+  text: מִזְבַּ֤ח
+  lemma: מִזְבֵּחַ
+  transliteration: mizbaḥ
+  ids:
+    ref: 1KI 8:54!14
+    wordID: o110080540141
+  translation:
+    english: altar
+    mandarin: 祭坛
+    gloss: the.altar
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִזְבֵּחַ
+    strong: '4196'
+  semantic:
+    sdbh:
+    - 003827001001000
+    lexdomain:
+    - '001004001006'
+    coredomain:
+    - '149'
+    sense: '1'
+  lxx:
+    text: θυσιαστηρίου
+    strong: '2379'
+- position: 24
+  text: יְהוָה֙
+  lemma: יהוה
+  transliteration: yhwh
+  ids:
+    ref: 1KI 8:54!15
+    wordID: o110080540151
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 25
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: 1KI 8:54!16
+    wordID: o110080540161
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 26
+  text: כְּרֹ֣עַ
+  lemma: כָּרַע
+  transliteration: kərōᵃʿ
+  ids:
+    ref: 1KI 8:54!16
+    wordID: o110080540162
+  translation:
+    english: kneeling down
+    mandarin: 跪
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: כָּרַע
+    strong: '3766'
+  semantic:
+    sdbh:
+    - '003443001003000'
+    lexdomain:
+    - 002001001009
+    coredomain:
+    - '170'
+    sense: '3'
+  lxx:
+    text: ὀκλακὼς
+  syntax:
+    role: v
+    frame: A0:110080540031;
+  discourse:
+    subject: '110080540031'
+- position: 27
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: 1KI 8:54!17
+    wordID: o110080540171
+  translation:
+    english: 'on'
+    mandarin: 在上
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 28
+  text: בִּרְכָּ֔י
+  lemma: בֶּרֶךְ
+  transliteration: ''
+  ids:
+    ref: 1KI 8:54!18
+    wordID: o110080540181
+  translation:
+    english: knees
+    mandarin: 屈膝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfdc
+    gender: feminine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֶּרֶךְ
+    strong: '1290'
+  semantic:
+    sdbh:
+    - 001189001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: γόνατα
+    strong: '1119'
+- position: 29
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 1KI 8:54!18
+    wordID: o110080540182
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 001189001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '110080540031'
+- position: 30
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 1KI 8:54!19
+    wordID: o110080540191
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 31
+  text: כַפָּ֖י
+  lemma: כַּף
+  transliteration: ''
+  ids:
+    ref: 1KI 8:54!19
+    wordID: o110080540192
+  translation:
+    english: hands
+    mandarin: 双手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfdc
+    gender: feminine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כַּף
+    strong: '3709'
+  semantic:
+    sdbh:
+    - 003394001013000
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - '041'
+    sense: '1'
+- position: 32
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 1KI 8:54!19
+    wordID: o110080540193
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 003394001013000
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - '041'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '110080540031'
+- position: 33
+  text: פְּרֻשׂ֥וֹת
+  lemma: פָּרַשׂ
+  transliteration: pəruśôṯ
+  ids:
+    ref: 1KI 8:54!20
+    wordID: o110080540201
+  translation:
+    english: outstretched
+    mandarin: 伸开
+    gloss: '[were].spread.out'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: פָּרַשׂ
+    strong: '6566'
+  semantic:
+    sdbh:
+    - '006036001002000'
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+    sense: '2'
+  lxx:
+    text: διαπεπετασμέναι
+  syntax:
+    role: v
+    frame: A1:110080540192;
+- position: 34
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 1KI 8:54!21
+    wordID: o110080540211
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 35
+  text: שָּׁמָֽיִם
+  lemma: שָׁמַיִם
+  transliteration: 'ššāmāyim:'
+  ids:
+    ref: 1KI 8:54!21
+    wordID: o110080540212
+  translation:
+    english: heaven
+    mandarin: 天
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁמַיִם
+    strong: '8064'
+  semantic:
+    sdbh:
+    - 007459001001000
+    lexdomain:
+    - '001005002001'
+    coredomain:
+    - '185'
+    sense: '1'
+  lxx:
+    text: οὐρανόν
+    strong: '3772'

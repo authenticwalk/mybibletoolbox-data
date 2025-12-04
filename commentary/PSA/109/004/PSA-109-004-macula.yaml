@@ -1,0 +1,234 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 109:4
+text: תַּֽחַת־אַהֲבָתִ֥י יִשְׂטְנ֗וּנִי וַאֲנִ֥י תְפִלָּֽה׃
+words:
+- position: 1
+  text: תַּֽחַת
+  lemma: תַּחַת
+  transliteration: taḥaṯ-
+  ids:
+    ref: PSA 109:4!1
+    wordID: o191090040011
+  translation:
+    english: in return for
+    mandarin: 回报
+    gloss: in.place.of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: תַּחַת
+    strong: '8478'
+  lxx:
+    text: ἀντὶ
+    strong: '473'
+- position: 2
+  text: אַהֲבָתִ֥
+  lemma: אַהֲבָה
+  transliteration: ''
+  ids:
+    ref: PSA 109:4!2
+    wordID: o191090040021
+  translation:
+    english: love
+    mandarin: 爱
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אַהֲבָה
+    strong: '0160'
+  semantic:
+    sdbh:
+    - 000159001001000
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+    sense: '1'
+  lxx:
+    text: ἀγαπᾶν
+    strong: '25'
+- position: 3
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 109:4!2
+    wordID: o191090040022
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 000159001001000
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '191090010022'
+- position: 4
+  text: יִשְׂטְנ֗וּ
+  lemma: שָׂטַן
+  transliteration: ''
+  ids:
+    ref: PSA 109:4!3
+    wordID: o191090040031
+  translation:
+    english: accuse
+    mandarin: 用咒骂回答
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׂטַן
+    strong: '7853'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐνδιέβαλλόν
+  syntax:
+    role: v
+    frame: A0:191090020031;191090020051; A1:191090040032;
+  discourse:
+    subject: 191090020031 191090020051
+- position: 5
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 109:4!3
+    wordID: o191090040032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '191090010022'
+- position: 6
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 109:4!4
+    wordID: o191090040041
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 7
+  text: אֲנִ֥י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: PSA 109:4!4
+    wordID: o191090040042
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '191090010022'
+- position: 8
+  text: תְפִלָּֽה
+  lemma: תְּפִלָּה
+  transliteration: 'ṯəp̄illāh:'
+  ids:
+    ref: PSA 109:4!5
+    wordID: o191090040051
+  translation:
+    english: prayer
+    mandarin: 祷告
+    gloss: '[am].prayer'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּפִלָּה
+    strong: '8605'
+  semantic:
+    sdbh:
+    - 007898001001000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '041'
+    - '131'
+    sense: '1'
+  lxx:
+    text: προσευξόμην
+  syntax:
+    role: o

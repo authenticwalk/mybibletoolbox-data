@@ -1,0 +1,353 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 24:1
+text: וְאַבְרָהָ֣ם זָקֵ֔ן בָּ֖א בַּיָּמִ֑ים וַֽיהוָ֛ה בֵּרַ֥ךְ אֶת־אַבְרָהָ֖ם בַּכֹּֽל׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 24:1!1
+    wordID: o010240010011
+  translation:
+    english: now
+    mandarin: 后来
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אַבְרָהָ֣ם
+  lemma: אַבְרָהָם
+  transliteration: ʾaḇrāhām
+  ids:
+    ref: GEN 24:1!1
+    wordID: o010240010012
+  translation:
+    english: Abraham
+    mandarin: 亚伯拉罕
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַבְרָהָם
+    strong: 0085
+  semantic:
+    sdbh:
+    - 000084001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: αβρααμ
+    strong: '11'
+  syntax:
+    role: s
+- position: 3
+  text: זָקֵ֔ן
+  lemma: זָקֵן
+  transliteration: zāqēn
+  ids:
+    ref: GEN 24:1!2
+    wordID: o010240010021
+  translation:
+    english: old
+    mandarin: 老迈
+    gloss: he.was.old
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: זָקֵן
+    strong: '2204'
+  semantic:
+    sdbh:
+    - '002032001001000'
+    lexdomain:
+    - 002001001038
+    coredomain:
+    - '005'
+    sense: '1'
+  lxx:
+    text: πρεσβύτερος
+    strong: '4245'
+  syntax:
+    role: v
+    frame: A0:010240010012;
+- position: 4
+  text: בָּ֖א
+  lemma: בּוֹא
+  transliteration: bāʾ
+  ids:
+    ref: GEN 24:1!3
+    wordID: o010240010031
+  translation:
+    english: advanced
+    mandarin: 流逝
+    gloss: he.had.come
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '8'
+  lxx:
+    text: προβεβηκὼς
+    strong: '4260'
+  syntax:
+    role: v
+    frame: A0:010240010012;
+  discourse:
+    subject: '010240010012'
+- position: 5
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: GEN 24:1!4
+    wordID: o010240010041
+  translation:
+    english: in
+    mandarin: 随
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 6
+  text: יָּמִ֑ים
+  lemma: יוֹם
+  transliteration: yyāmiym
+  ids:
+    ref: GEN 24:1!4
+    wordID: o010240010042
+  translation:
+    english: years
+    mandarin: 年纪
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001016000
+    lexdomain:
+    - 002001001038
+    coredomain:
+    - '005'
+    sense: '14'
+  lxx:
+    text: ἡμερῶν
+    strong: '2250'
+- position: 7
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 24:1!5
+    wordID: o010240010051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: יהוָ֛ה
+  lemma: יהוה
+  transliteration: yhwāh
+  ids:
+    ref: GEN 24:1!5
+    wordID: o010240010052
+  translation:
+    english: LORD
+    mandarin: 耶和华
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 9
+  text: בֵּרַ֥ךְ
+  lemma: בָּרַךְ
+  transliteration: bēraḵ
+  ids:
+    ref: GEN 24:1!6
+    wordID: o010240010061
+  translation:
+    english: blessed
+    mandarin: 赐福
+    gloss: he.had.blessed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: εὐλόγησεν
+    strong: '2127'
+  syntax:
+    role: v
+    frame: A0:010240010052; A1:010240010081;
+- position: 10
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 24:1!7
+    wordID: o010240010071
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 11
+  text: אַבְרָהָ֖ם
+  lemma: אַבְרָהָם
+  transliteration: ʾaḇrāhām
+  ids:
+    ref: GEN 24:1!8
+    wordID: o010240010081
+  translation:
+    english: Abraham
+    mandarin: 亚伯拉罕
+    gloss: Abraham
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַבְרָהָם
+    strong: 0085
+  semantic:
+    sdbh:
+    - 000084001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: αβρααμ
+    strong: '11'
+- position: 12
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: GEN 24:1!9
+    wordID: o010240010091
+  translation:
+    english: in
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: κατὰ
+    strong: '2596'
+- position: 13
+  text: כֹּֽל
+  lemma: כֹּל
+  transliteration: 'kōl:'
+  ids:
+    ref: GEN 24:1!9
+    wordID: o010240010092
+  translation:
+    english: everything
+    mandarin: 一切
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντα
+    strong: '3956'

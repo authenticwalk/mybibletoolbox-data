@@ -1,0 +1,666 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 50:7
+text: וַיַּ֥עַל יוֹסֵ֖ף לִקְבֹּ֣ר אֶת־אָבִ֑יו וַיַּֽעֲל֨וּ אִתּ֜וֹ כָּל־עַבְדֵ֤י פַרְעֹה֙
+  זִקְנֵ֣י בֵית֔וֹ וְכֹ֖ל זִקְנֵ֥י אֶֽרֶץ־מִצְרָֽיִם׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 50:7!1
+    wordID: o010500070011
+  translation:
+    english: so
+    mandarin: 于是
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יַּ֥עַל
+  lemma: עָלָה
+  transliteration: yyaʿal
+  ids:
+    ref: GEN 50:7!1
+    wordID: o010500070012
+  translation:
+    english: went up
+    mandarin: 上去
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001005000'
+    lexdomain:
+    - '002002001011'
+    sense: '1'
+  lxx:
+    text: ἀνέβη
+    strong: '305'
+  syntax:
+    role: v
+    frame: A0:010500070021;
+- position: 3
+  text: יוֹסֵ֖ף
+  lemma: יוֹסֵף
+  transliteration: yôsēp̄
+  ids:
+    ref: GEN 50:7!2
+    wordID: o010500070021
+  translation:
+    english: Joseph
+    mandarin: 约瑟
+    gloss: Joseph
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יוֹסֵף
+    strong: '3130'
+  semantic:
+    sdbh:
+    - 002862001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιωσηφ
+    strong: '2501'
+  syntax:
+    role: s
+- position: 4
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: GEN 50:7!3
+    wordID: o010500070031
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 5
+  text: קְבֹּ֣ר
+  lemma: קָבַר
+  transliteration: qəbōr
+  ids:
+    ref: GEN 50:7!3
+    wordID: o010500070032
+  translation:
+    english: bury
+    mandarin: 埋葬
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: קָבַר
+    strong: '6912'
+  semantic:
+    sdbh:
+    - '006363001001000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '021'
+    - 099
+    sense: '1'
+  lxx:
+    text: θάψαι
+    strong: '2290'
+  syntax:
+    role: v
+    frame: A0:010500070021; A1:010500070051;
+  discourse:
+    subject: '010500070021'
+- position: 6
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 50:7!4
+    wordID: o010500070041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 7
+  text: אָבִ֑י
+  lemma: אָב
+  transliteration: ''
+  ids:
+    ref: GEN 50:7!5
+    wordID: o010500070051
+  translation:
+    english: father
+    mandarin: 父亲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָב
+    strong: '0001'
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: πατέρα
+    strong: '3962'
+- position: 8
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 50:7!5
+    wordID: o010500070052
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000003001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '010500070021'
+- position: 9
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 50:7!6
+    wordID: o010500070061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: יַּֽעֲל֨וּ
+  lemma: עָלָה
+  transliteration: yyaʿălû
+  ids:
+    ref: GEN 50:7!6
+    wordID: o010500070062
+  translation:
+    english: went up
+    mandarin: 上去
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001005000'
+    lexdomain:
+    - '002002001011'
+    sense: '1'
+  lxx:
+    text: συνανέβησαν
+  syntax:
+    role: v
+    frame: A0:010500070091;010500070111;010500070141;010500080021;010500080042;010500080052;
+- position: 11
+  text: אִתּ֜
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: GEN 50:7!7
+    wordID: o010500070071
+  translation:
+    english: with
+    mandarin: 与~一同
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֵת
+    strong: 0854
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 50:7!7
+    wordID: o010500070072
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '010500070021'
+- position: 13
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: GEN 50:7!8
+    wordID: o010500070081
+  translation:
+    english: all
+    mandarin: 所有
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 14
+  text: עַבְדֵ֤י
+  lemma: עֶבֶד
+  transliteration: ʿaḇḏēy
+  ids:
+    ref: GEN 50:7!9
+    wordID: o010500070091
+  translation:
+    english: servants
+    mandarin: 臣仆
+    gloss: the.servants
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֶבֶד
+    strong: '5650'
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+    sense: '1'
+  lxx:
+    text: παῖδες
+    strong: '1249'
+- position: 15
+  text: פַרְעֹה֙
+  lemma: פַּרְעֹה
+  transliteration: p̄arʿōh
+  ids:
+    ref: GEN 50:7!10
+    wordID: o010500070101
+  translation:
+    english: Pharaoh
+    mandarin: 法老
+    gloss: of.Pharaoh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: פַּרְעֹה
+    strong: '6547'
+  semantic:
+    sdbh:
+    - '006021001001000'
+    lexdomain:
+    - '001001002003005'
+    - '003001017'
+    coredomain:
+    - '015'
+  lxx:
+    text: φαραω
+    strong: '5328'
+- position: 16
+  text: זִקְנֵ֣י
+  lemma: זָקֵן
+  transliteration: ziqnēy
+  ids:
+    ref: GEN 50:7!11
+    wordID: o010500070111
+  translation:
+    english: elders
+    mandarin: 长老
+    gloss: the.elders
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampc
+    gender: masculine
+    number: plural
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: זָקֵן
+    strong: '2205'
+  semantic:
+    sdbh:
+    - '002033001004000'
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    sense: '1'
+- position: 17
+  text: בֵית֔
+  lemma: בַּיִת
+  transliteration: ''
+  ids:
+    ref: GEN 50:7!12
+    wordID: o010500070121
+  translation:
+    english: household
+    mandarin: 家
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001001000
+    lexdomain:
+    - '001005001001'
+    coredomain:
+    - '020'
+    sense: '2'
+  lxx:
+    text: οἴκου
+    strong: '3624'
+- position: 18
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 50:7!12
+    wordID: o010500070122
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 000931001001000
+    lexdomain:
+    - '001005001001'
+    coredomain:
+    - '020'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '010500070101'
+- position: 19
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 50:7!13
+    wordID: o010500070131
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 20
+  text: כֹ֖ל
+  lemma: כֹּל
+  transliteration: ḵōl
+  ids:
+    ref: GEN 50:7!13
+    wordID: o010500070132
+  translation:
+    english: all
+    mandarin: 所有
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 21
+  text: זִקְנֵ֥י
+  lemma: זָקֵן
+  transliteration: ziqnēy
+  ids:
+    ref: GEN 50:7!14
+    wordID: o010500070141
+  translation:
+    english: elders
+    mandarin: 长老
+    gloss: the.elders
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampc
+    gender: masculine
+    number: plural
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: זָקֵן
+    strong: '2205'
+  semantic:
+    sdbh:
+    - '002033001004000'
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    sense: '1'
+  lxx:
+    text: πρεσβύτεροι
+    strong: '4245'
+- position: 22
+  text: אֶֽרֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ-
+  ids:
+    ref: GEN 50:7!15
+    wordID: o010500070151
+  translation:
+    english: land
+    mandarin: 地
+    gloss: of.the.land
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆς
+    strong: '1093'
+- position: 23
+  text: מִצְרָֽיִם
+  lemma: מִצְרַיִם
+  transliteration: 'miṣrāyim:'
+  ids:
+    ref: GEN 50:7!16
+    wordID: o010500070161
+  translation:
+    english: Egypt
+    mandarin: 埃及
+    gloss: of.Egypt
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτου
+    strong: '125'

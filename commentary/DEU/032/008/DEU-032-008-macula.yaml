@@ -1,0 +1,479 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 32:8
+text: בְּהַנְחֵ֤ל עֶלְיוֹן֙ גּוֹיִ֔ם בְּהַפְרִיד֖וֹ בְּנֵ֣י אָדָ֑ם יַצֵּב֙ גְּבֻלֹ֣ת
+  עַמִּ֔ים לְמִסְפַּ֖ר בְּנֵ֥י יִשְׂרָאֵֽל׃
+words:
+- position: 1
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: DEU 32:8!1
+    wordID: o050320080011
+  translation:
+    english: when
+    mandarin: 当~的时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ὅτε
+    strong: '3753'
+- position: 2
+  text: הַנְחֵ֤ל
+  lemma: נָחַל
+  transliteration: hanḥēl
+  ids:
+    ref: DEU 32:8!1
+    wordID: o050320080012
+  translation:
+    english: gave ~ inheritance
+    mandarin: 地业赐给
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: נָחַל
+    strong: '5157'
+  semantic:
+    sdbh:
+    - 004728001002000
+    lexdomain:
+    - '002003002020'
+    sense: '10'
+  lxx:
+    text: διεμέριζεν
+    strong: '1266'
+  syntax:
+    role: v
+    frame: AA:050320080021; A0:050320080031;
+- position: 3
+  text: עֶלְיוֹן֙
+  lemma: עֶלְיוֹן
+  transliteration: ʿelyôn
+  ids:
+    ref: DEU 32:8!2
+    wordID: o050320080021
+  translation:
+    english: the most high
+    mandarin: 至高者
+    gloss: the.Most.High
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עֶלְיוֹן
+    strong: 5945a
+  semantic:
+    sdbh:
+    - 005458001003000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: ὕψιστος
+    strong: '5310'
+  syntax:
+    role: s
+- position: 4
+  text: גּוֹיִ֔ם
+  lemma: גּוֹי
+  transliteration: gôyim
+  ids:
+    ref: DEU 32:8!3
+    wordID: o050320080031
+  translation:
+    english: nations
+    mandarin: 列国
+    gloss: nations
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹי
+    strong: '1471'
+  semantic:
+    sdbh:
+    - '001347001001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἔθνη
+    strong: '1484'
+  syntax:
+    role: o
+- position: 5
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: DEU 32:8!4
+    wordID: o050320080041
+  translation:
+    english: when
+    mandarin: 时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 6
+  text: הַפְרִיד֖
+  lemma: פָּרַד
+  transliteration: ''
+  ids:
+    ref: DEU 32:8!4
+    wordID: o050320080042
+  translation:
+    english: divided
+    mandarin: 分开
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: פָּרַד
+    strong: '6504'
+  semantic:
+    sdbh:
+    - 005981001004000
+    lexdomain:
+    - '002003002002'
+    sense: '1'
+  syntax:
+    role: v
+    frame: AA:050320080043; A0:050320080051;
+- position: 7
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 32:8!4
+    wordID: o050320080043
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 005981001004000
+    lexdomain:
+    - '002003002002'
+  syntax:
+    role: s
+  discourse:
+    participant: 050320080021
+- position: 8
+  text: בְּנֵ֣י
+  lemma: בֵּן
+  transliteration: bənēy
+  ids:
+    ref: DEU 32:8!5
+    wordID: o050320080051
+  translation:
+    english: sons
+    mandarin: 子
+    gloss: '[the].children'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001004000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 038
+    sense: '8'
+  lxx:
+    text: υἱοὺς
+    strong: '5207'
+- position: 9
+  text: אָדָ֑ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: DEU 32:8!6
+    wordID: o050320080061
+  translation:
+    english: humankind
+    mandarin: 人
+    gloss: of.humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: αδαμ
+    strong: '76'
+- position: 10
+  text: יַצֵּב֙
+  lemma: נָצַב
+  transliteration: yaṣṣēḇ
+  ids:
+    ref: DEU 32:8!7
+    wordID: o050320080071
+  translation:
+    english: fixed
+    mandarin: 划定
+    gloss: he.fixed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָצַב
+    strong: '5324'
+  semantic:
+    sdbh:
+    - 004882001006000
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '3'
+  lxx:
+    text: ἔστησεν
+    strong: '2476'
+  syntax:
+    role: v
+    frame: AA:050320080021; A0:050320080081;
+  discourse:
+    subject: 050320080021
+- position: 11
+  text: גְּבֻלֹ֣ת
+  lemma: גְּבוּלָה
+  transliteration: gəḇulōṯ
+  ids:
+    ref: DEU 32:8!8
+    wordID: o050320080081
+  translation:
+    english: boundaries
+    mandarin: 疆界
+    gloss: borders
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: גְּבוּלָה
+    strong: '1367'
+  semantic:
+    sdbh:
+    - 001258001001000
+    lexdomain:
+    - 002003001008
+    sense: '1'
+  lxx:
+    text: ὅρια
+    strong: '3725'
+- position: 12
+  text: עַמִּ֔ים
+  lemma: עַם
+  transliteration: ʿammiym
+  ids:
+    ref: DEU 32:8!9
+    wordID: o050320080091
+  translation:
+    english: peoples
+    mandarin: 万民
+    gloss: of.peoples
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐθνῶν
+    strong: '1484'
+- position: 13
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: DEU 32:8!10
+    wordID: o050320080101
+  translation:
+    english: according to
+    mandarin: 按照
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: κατὰ
+    strong: '2596'
+- position: 14
+  text: מִסְפַּ֖ר
+  lemma: מִסְפָּר
+  transliteration: mispar
+  ids:
+    ref: DEU 32:8!10
+    wordID: o050320080102
+  translation:
+    english: number
+    mandarin: 数目
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִסְפָּר
+    strong: '4557'
+  semantic:
+    sdbh:
+    - '004173001005000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+    sense: '1'
+  lxx:
+    text: ἀριθμὸν
+    strong: '706'
+- position: 15
+  text: בְּנֵ֥י
+  lemma: בֵּן
+  transliteration: bənēy
+  ids:
+    ref: DEU 32:8!11
+    wordID: o050320080111
+  translation:
+    english: sons
+    mandarin: 人
+    gloss: of.the.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '2'
+  lxx:
+    text: ἀγγέλων
+    strong: '32'
+- position: 16
+  text: יִשְׂרָאֵֽל
+  lemma: יִשְׂרָאֵל
+  transliteration: 'yiśrāʾēl:'
+  ids:
+    ref: DEU 32:8!12
+    wordID: o050320080121
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: θεοῦ
+    strong: '2316'

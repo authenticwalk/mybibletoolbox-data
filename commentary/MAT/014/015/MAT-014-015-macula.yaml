@@ -1,0 +1,647 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 14:15
+text: ὀψίας δὲ γενομένης προσῆλθον αὐτῷ οἱ μαθηταὶ λέγοντες Ἔρημός ἐστιν ὁ τόπος καὶ
+  ἡ ὥρα ἤδη παρῆλθεν· ἀπόλυσον οὖν τοὺς ὄχλους, ἵνα ἀπελθόντες εἰς τὰς κώμας ἀγοράσωσιν
+  ἑαυτοῖς βρώματα.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 14:15!2
+    wordID: n40014015002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὀψίας
+  lemma: ὄψιος
+  normalized: ὀψίας
+  ids:
+    ref: MAT 14:15!1
+    wordID: n40014015001
+  translation:
+    gloss: Evening
+  morphology:
+    class: adj
+    morph: A-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '3798'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.197'
+  syntax:
+    role: s
+- position: 3
+  text: γενομένης
+  lemma: γίνομαι
+  normalized: γενομένης
+  ids:
+    ref: MAT 14:15!3
+    wordID: n40014015003
+  translation:
+    gloss: having come
+  morphology:
+    class: verb
+    morph: V-2ADP-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n40014015001
+- position: 4
+  text: προσῆλθον
+  lemma: προσέρχομαι
+  normalized: προσῆλθον
+  ids:
+    ref: MAT 14:15!4
+    wordID: n40014015004
+  translation:
+    gloss: came
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4334'
+  semantic:
+    semanticDomain: '015005'
+    ln: '15.77'
+  syntax:
+    role: v
+    frame: A0:n40014015007
+- position: 5
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: MAT 14:15!5
+    wordID: n40014015005
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40014013004
+- position: 6
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: MAT 14:15!6
+    wordID: n40014015006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: μαθηταὶ
+  lemma: μαθητής
+  normalized: μαθηταί
+  ids:
+    ref: MAT 14:15!7
+    wordID: n40014015007
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
+- position: 8
+  text: λέγοντες
+  lemma: λέγω
+  normalized: λέγοντες
+  ids:
+    ref: MAT 14:15!8
+    wordID: n40014015008
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40014015007
+  discourse:
+    subject: n40014015007
+- position: 9
+  text: Ἔρημός
+  lemma: ἔρημος
+  normalized: Ἔρημος
+  ids:
+    ref: MAT 14:15!9
+    wordID: n40014015009
+  translation:
+    gloss: Desolate
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '2048'
+  semantic:
+    semanticDomain: '001013'
+    ln: '1.86'
+  syntax:
+    role: p
+- position: 10
+  text: ἐστιν
+  lemma: εἰμί
+  normalized: ἐστιν
+  ids:
+    ref: MAT 14:15!10
+    wordID: n40014015010
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
+- position: 11
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 14:15!11
+    wordID: n40014015011
+  translation:
+    gloss: this
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: τόπος
+  lemma: τόπος
+  normalized: τόπος
+  ids:
+    ref: MAT 14:15!12
+    wordID: n40014015012
+  translation:
+    gloss: place
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5117'
+  semantic:
+    semanticDomain: 080001
+    ln: '80.1'
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 14:15!13
+    wordID: n40014015013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 14
+  text: ἡ
+  lemma: ὁ
+  normalized: ἡ
+  ids:
+    ref: MAT 14:15!14
+    wordID: n40014015014
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 15
+  text: ὥρα
+  lemma: ὥρα
+  normalized: ὥρα
+  ids:
+    ref: MAT 14:15!15
+    wordID: n40014015015
+  translation:
+    gloss: time
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5610'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.199'
+- position: 16
+  text: ἤδη
+  lemma: ἤδη
+  normalized: ἤδη
+  ids:
+    ref: MAT 14:15!16
+    wordID: n40014015016
+  translation:
+    gloss: already
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2235'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.20'
+  syntax:
+    role: adv
+- position: 17
+  text: παρῆλθεν
+  lemma: παρέρχομαι
+  normalized: παρῆλθεν
+  ids:
+    ref: MAT 14:15!17
+    wordID: n40014015017
+  translation:
+    gloss: is gone by
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3928'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.85'
+  syntax:
+    role: v
+    frame: A0:n40014015015
+- position: 18
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: MAT 14:15!19
+    wordID: n40014015019
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  syntax:
+    discontinuous: 'true'
+- position: 19
+  text: ἀπόλυσον
+  lemma: ἀπολύω
+  normalized: ἀπόλυσον
+  ids:
+    ref: MAT 14:15!18
+    wordID: n40014015018
+  translation:
+    gloss: Dismiss
+  morphology:
+    class: verb
+    morph: V-AAM-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '630'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.43'
+  syntax:
+    role: v
+    frame: A0:n40014013004 A1:n40014015021
+  discourse:
+    subject: n40014013004
+- position: 20
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: MAT 14:15!20
+    wordID: n40014015020
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 21
+  text: ὄχλους
+  lemma: ὄχλος
+  normalized: ὄχλους
+  ids:
+    ref: MAT 14:15!21
+    wordID: n40014015021
+  translation:
+    gloss: crowds
+  morphology:
+    class: noun
+    morph: N-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3793'
+  semantic:
+    semanticDomain: '011001'
+    ln: '11.1'
+- position: 22
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: MAT 14:15!22
+    wordID: n40014015022
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 23
+  text: ἀπελθόντες
+  lemma: ἀπέρχομαι
+  normalized: ἀπελθόντες
+  ids:
+    ref: MAT 14:15!23
+    wordID: n40014015023
+  translation:
+    gloss: having gone
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n40014015021
+  discourse:
+    subject: n40014015021
+- position: 24
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: MAT 14:15!24
+    wordID: n40014015024
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
+- position: 25
+  text: τὰς
+  lemma: ὁ
+  normalized: τάς
+  ids:
+    ref: MAT 14:15!25
+    wordID: n40014015025
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 26
+  text: κώμας
+  lemma: κώμη
+  normalized: κώμας
+  ids:
+    ref: MAT 14:15!26
+    wordID: n40014015026
+  translation:
+    gloss: villages
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2968'
+  semantic:
+    semanticDomain: '001014'
+    ln: '1.92'
+- position: 27
+  text: ἀγοράσωσιν
+  lemma: ἀγοράζω
+  normalized: ἀγοράσωσιν
+  ids:
+    ref: MAT 14:15!27
+    wordID: n40014015027
+  translation:
+    gloss: they might buy
+  morphology:
+    class: verb
+    morph: V-AAS-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '59'
+  semantic:
+    semanticDomain: '057015'
+    ln: '57.188'
+  syntax:
+    role: v
+    frame: A0:n40014015021 A2:n40014015027 A1:n40014015029
+  discourse:
+    subject: n40014015021
+- position: 28
+  text: ἑαυτοῖς
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτοῖς
+  ids:
+    ref: MAT 14:15!28
+    wordID: n40014015028
+  translation:
+    gloss: for themselves
+  morphology:
+    class: pron
+    morph: F-3DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  syntax:
+    role: io
+  discourse:
+    referent: n40014015021
+- position: 29
+  text: βρώματα
+  lemma: βρῶμα
+  normalized: βρώματα
+  ids:
+    ref: MAT 14:15!29
+    wordID: n40014015029
+  translation:
+    gloss: food
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1033'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.1'
+  syntax:
+    role: o

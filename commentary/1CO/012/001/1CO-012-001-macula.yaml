@@ -1,0 +1,195 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 1CO 12:1
+text: 1CO 12:1 Περὶ δὲ τῶν πνευματικῶν, ἀδελφοί, οὐ θέλω ὑμᾶς ἀγνοεῖν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: 1CO 12:1!2
+    wordID: n46012001002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 1CO 12:1!5
+    wordID: n46012001005
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: Περὶ
+  lemma: περί
+  normalized: Περί
+  ids:
+    ref: 1CO 12:1!1
+    wordID: n46012001001
+  translation:
+    gloss: Concerning
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4012'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.6'
+- position: 4
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: 1CO 12:1!3
+    wordID: n46012001003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: πνευματικῶν
+  lemma: πνευματικός
+  normalized: πνευματικῶν
+  ids:
+    ref: 1CO 12:1!4
+    wordID: n46012001004
+  translation:
+    gloss: spiritual [gifts]
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '4152'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.21'
+- position: 6
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: 1CO 12:1!6
+    wordID: n46012001006
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 7
+  text: θέλω
+  lemma: θέλω
+  normalized: θέλω
+  ids:
+    ref: 1CO 12:1!7
+    wordID: n46012001007
+  translation:
+    gloss: I do want
+  morphology:
+    class: verb
+    morph: V-PAI-1S
+    number: singular
+    person: first
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '025001'
+    ln: '25.1'
+  syntax:
+    role: v
+    frame: A0:n46003022002 A1:n46012001009
+  discourse:
+    subject: n46003022002
+- position: 8
+  text: ὑμᾶς
+  lemma: σύ
+  normalized: ὑμᾶς
+  ids:
+    ref: 1CO 12:1!8
+    wordID: n46012001008
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2AP
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n46012001005
+- position: 9
+  text: ἀγνοεῖν
+  lemma: ἀγνοέω
+  normalized: ἀγνοεῖν
+  ids:
+    ref: 1CO 12:1!9
+    wordID: n46012001009
+  translation:
+    gloss: to be ignorant
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '50'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.13'
+  syntax:
+    role: v
+    frame: A0:n46012001008

@@ -1,0 +1,468 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ROM 1:22
+text: ROM 1:23 φάσκοντες εἶναι σοφοὶ ἐμωράνθησαν, καὶ ἤλλαξαν τὴν δόξαν τοῦ ἀφθάρτου
+  Θεοῦ ἐν ὁμοιώματι εἰκόνος φθαρτοῦ ἀνθρώπου καὶ πετεινῶν καὶ τετραπόδων καὶ ἑρπετῶν.
+words:
+- position: 1
+  text: φάσκοντες
+  lemma: φάσκω
+  normalized: φάσκοντες
+  ids:
+    ref: ROM 1:22!1
+    wordID: n45001022001
+  translation:
+    gloss: Professing
+  morphology:
+    class: verb
+    morph: V-PAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '5335'
+  semantic:
+    semanticDomain: '033016'
+    ln: '33.218'
+  syntax:
+    role: v
+    frame: A0:n45001018012 A1:n45001022003
+  discourse:
+    subject: n45001018012
+- position: 2
+  text: εἶναι
+  lemma: εἰμί
+  normalized: εἶναι
+  ids:
+    ref: ROM 1:22!2
+    wordID: n45001022002
+  translation:
+    gloss: to be
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.1'
+  syntax:
+    role: vc
+  discourse:
+    subject: n45001018012
+- position: 3
+  text: σοφοὶ
+  lemma: σοφός
+  normalized: σοφοί
+  ids:
+    ref: ROM 1:22!3
+    wordID: n45001022003
+  translation:
+    gloss: wise
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '4680'
+  semantic:
+    semanticDomain: '032004'
+    ln: '32.33'
+  syntax:
+    role: p
+- position: 4
+  text: ἐμωράνθησαν
+  lemma: μωραίνω
+  normalized: ἐμωράνθησαν
+  ids:
+    ref: ROM 1:22!4
+    wordID: n45001022004
+  translation:
+    gloss: they became fools
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '3471'
+  semantic:
+    semanticDomain: '032005'
+    ln: '32.56'
+  syntax:
+    role: v
+    frame: A1:n45001018012
+  discourse:
+    subject: n45001018012
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 1:23!1
+    wordID: n45001023001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 6
+  text: ἤλλαξαν
+  lemma: ἀλλάσσω
+  normalized: ἤλλαξαν
+  ids:
+    ref: ROM 1:23!2
+    wordID: n45001023002
+  translation:
+    gloss: they changed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '236'
+  semantic:
+    semanticDomain: '057010'
+    ln: '57.142'
+  syntax:
+    role: v
+    frame: A0:n45001018012 A1:n45001023004
+  discourse:
+    subject: n45001018012
+- position: 7
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: ROM 1:23!3
+    wordID: n45001023003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: δόξαν
+  lemma: δόξα
+  normalized: δόξαν
+  ids:
+    ref: ROM 1:23!4
+    wordID: n45001023004
+  translation:
+    gloss: glory
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1391'
+  semantic:
+    semanticDomain: 079005 087003
+    ln: 79.18 87.23
+- position: 9
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: ROM 1:23!5
+    wordID: n45001023005
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: ἀφθάρτου
+  lemma: ἄφθαρτος
+  normalized: ἀφθάρτου
+  ids:
+    ref: ROM 1:23!6
+    wordID: n45001023006
+  translation:
+    gloss: immortal
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '862'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.128'
+- position: 11
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: ROM 1:23!7
+    wordID: n45001023007
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 12
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: ROM 1:23!8
+    wordID: n45001023008
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.48'
+- position: 13
+  text: ὁμοιώματι
+  lemma: ὁμοίωμα
+  normalized: ὁμοιώματι
+  ids:
+    ref: ROM 1:23!9
+    wordID: n45001023009
+  translation:
+    gloss: a likeness
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3667'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.3'
+- position: 14
+  text: εἰκόνος
+  lemma: εἰκών
+  normalized: εἰκόνος
+  ids:
+    ref: ROM 1:23!10
+    wordID: n45001023010
+  translation:
+    gloss: of an image
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '1504'
+  semantic:
+    semanticDomain: '006013'
+    ln: '6.96'
+- position: 15
+  text: φθαρτοῦ
+  lemma: φθαρτός
+  normalized: φθαρτοῦ
+  ids:
+    ref: ROM 1:23!11
+    wordID: n45001023011
+  translation:
+    gloss: of mortal
+  morphology:
+    class: adj
+    morph: A-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+  lexical:
+    strong: '5349'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.125'
+- position: 16
+  text: ἀνθρώπου
+  lemma: ἄνθρωπος
+  normalized: ἀνθρώπου
+  ids:
+    ref: ROM 1:23!12
+    wordID: n45001023012
+  translation:
+    gloss: man
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+- position: 17
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 1:23!13
+    wordID: n45001023013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 18
+  text: πετεινῶν
+  lemma: πετεινός
+  normalized: πετεινῶν
+  ids:
+    ref: ROM 1:23!14
+    wordID: n45001023014
+  translation:
+    gloss: birds
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '4071'
+  semantic:
+    semanticDomain: '004002'
+    ln: '4.38'
+- position: 19
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 1:23!15
+    wordID: n45001023015
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 20
+  text: τετραπόδων
+  lemma: τετράπους
+  normalized: τετραπόδων
+  ids:
+    ref: ROM 1:23!16
+    wordID: n45001023016
+  translation:
+    gloss: quadrupeds
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '5074'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.4'
+- position: 21
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: ROM 1:23!17
+    wordID: n45001023017
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 22
+  text: ἑρπετῶν
+  lemma: ἑρπετόν
+  normalized: ἑρπετῶν
+  ids:
+    ref: ROM 1:23!18
+    wordID: n45001023018
+  translation:
+    gloss: creeping things
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '2062'
+  semantic:
+    semanticDomain: '004004'
+    ln: '4.51'

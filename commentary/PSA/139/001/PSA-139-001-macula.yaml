@@ -1,0 +1,285 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 139:1
+text: לַ֭מְנַצֵּחַ לְדָוִ֣ד מִזְמ֑וֹריְהוָ֥ה חֲ֝קַרְתַּ֗נִי וַתֵּדָֽע׃
+words:
+- position: 1
+  text: לַ֭
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: PSA 139:1!1
+    wordID: o191390010011
+  translation:
+    english: for
+    mandarin: 交给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 2
+  text: מְנַצֵּחַ
+  lemma: נָצַח
+  transliteration: mənaṣṣēᵃḥ
+  ids:
+    ref: PSA 139:1!1
+    wordID: o191390010012
+  translation:
+    english: choir director
+    mandarin: 伶长
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: נָצַח
+    strong: '5329'
+  semantic:
+    sdbh:
+    - 004887001001000
+    lexdomain:
+    - 002003002008
+    sense: '1'
+- position: 3
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 139:1!2
+    wordID: o191390010021
+  translation:
+    english: of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 4
+  text: דָוִ֣ד
+  lemma: דָּוִד
+  transliteration: ḏāwiḏ
+  ids:
+    ref: PSA 139:1!2
+    wordID: o191390010022
+  translation:
+    english: David
+    mandarin: 大卫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ψαλμὸς
+    strong: '5568'
+- position: 5
+  text: מִזְמ֑וֹר
+  lemma: מִזְמוֹר
+  transliteration: mizmôr
+  ids:
+    ref: PSA 139:1!3
+    wordID: o191390010031
+  translation:
+    english: psalm
+    mandarin: 诗
+    gloss: a.psalm
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִזְמוֹר
+    strong: '4210'
+  semantic:
+    sdbh:
+    - 003842001001000
+    lexdomain:
+    - 002004001009006
+    coredomain:
+    - '111'
+    sense: '1'
+  syntax:
+    role: s
+- position: 6
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 139:1!4
+    wordID: o191390010041
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 7
+  text: חֲ֝קַרְתַּ֗
+  lemma: חָקַר
+  transliteration: ''
+  ids:
+    ref: PSA 139:1!5
+    wordID: o191390010051
+  translation:
+    english: searched
+    mandarin: 鉴察
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: חָקַר
+    strong: '2713'
+  semantic:
+    sdbh:
+    - 002499001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '2'
+  lxx:
+    text: ἐδοκίμασάς
+  syntax:
+    role: v
+    frame: A0:191390010041; A1:191390010052;
+  discourse:
+    subject: '191390010041'
+- position: 8
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 139:1!5
+    wordID: o191390010052
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 002499001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '191390010022'
+- position: 9
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 139:1!6
+    wordID: o191390010061
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: תֵּדָֽע
+  lemma: יָדַע
+  transliteration: 'tēḏāʿ:'
+  ids:
+    ref: PSA 139:1!6
+    wordID: o191390010062
+  translation:
+    english: known
+    mandarin: 认识
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: ἔγνως
+    strong: '1097'
+  syntax:
+    role: v
+    frame: A0:191390010041; A1:191390010022;
+  discourse:
+    subject: '191390010041'

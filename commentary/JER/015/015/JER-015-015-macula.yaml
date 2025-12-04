@@ -1,0 +1,820 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 15:15
+text: אַתָּ֧ה יָדַ֣עְתָּ יְהוָ֗ה זָכְרֵ֤נִי וּפָקְדֵ֨נִי֙ וְהִנָּ֤קֶם לִי֙ מֵרֹ֣דְפַ֔י
+  אַל־לְאֶ֥רֶךְ אַפְּךָ֖ תִּקָּחֵ֑נִי דַּ֕ע שְׂאֵתִ֥י עָלֶ֖יךָ חֶרְפָּֽה׃
+words:
+- position: 1
+  text: אַתָּ֧ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: JER 15:15!1
+    wordID: o240150150011
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  syntax:
+    role: s
+  discourse:
+    participant: '240150150031'
+- position: 2
+  text: יָדַ֣עְתָּ
+  lemma: יָדַע
+  transliteration: yāḏaʿətā
+  ids:
+    ref: JER 15:15!2
+    wordID: o240150150021
+  translation:
+    english: know
+    mandarin: 知道
+    gloss: you.know
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:240150150011;
+- position: 3
+  text: יְהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JER 15:15!3
+    wordID: o240150150031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 4
+  text: זָכְרֵ֤
+  lemma: זָכַר
+  transliteration: ''
+  ids:
+    ref: JER 15:15!4
+    wordID: o240150150041
+  translation:
+    english: remember
+    mandarin: 记念
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: זָכַר
+    strong: '2142'
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+    sense: '1'
+  lxx:
+    text: μνήσθητί
+    strong: '3415'
+  syntax:
+    role: v
+    frame: A0:240150150031; A1:240150150042;
+  discourse:
+    subject: '240150150031'
+- position: 5
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!4
+    wordID: o240150150042
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+  lxx:
+    text: μου
+    strong: '3450'
+  syntax:
+    role: o
+  discourse:
+    participant: '240140010061'
+- position: 6
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: JER 15:15!5
+    wordID: o240150150051
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: פָקְדֵ֨
+  lemma: פָּקַד
+  transliteration: ''
+  ids:
+    ref: JER 15:15!5
+    wordID: o240150150052
+  translation:
+    english: visit
+    mandarin: 眷顾
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: פָּקַד
+    strong: '6485'
+  semantic:
+    sdbh:
+    - 005963001006000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '4'
+  lxx:
+    text: ἐπίσκεψαί
+    strong: '1980'
+  syntax:
+    role: v
+    frame: A0:240150150031; A1:240150150053;
+  discourse:
+    subject: '240150150031'
+- position: 8
+  text: נִי֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!5
+    wordID: o240150150053
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 005963001006000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '240140010061'
+- position: 9
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 15:15!6
+    wordID: o240150150061
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: הִנָּ֤קֶם
+  lemma: נָקַם
+  transliteration: hinnāqem
+  ids:
+    ref: JER 15:15!6
+    wordID: o240150150062
+  translation:
+    english: avenge
+    mandarin: 报复
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: niphal
+    type: imperative
+  lexical:
+    stronglemma: נָקַם
+    strong: '5358'
+  semantic:
+    sdbh:
+    - 004908001001000
+    lexdomain:
+    - '002003002006'
+    - '002001002023'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἀθῴωσόν
+  syntax:
+    role: v
+    frame: A0:240150150031;
+  discourse:
+    subject: '240150150031'
+- position: 11
+  text: לִ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: JER 15:15!7
+    wordID: o240150150071
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 12
+  text: י֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!7
+    wordID: o240150150072
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '240140010061'
+- position: 13
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: JER 15:15!8
+    wordID: o240150150081
+  translation:
+    english: 'on'
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 14
+  text: רֹ֣דְפַ֔
+  lemma: רָדַף
+  transliteration: ''
+  ids:
+    ref: JER 15:15!8
+    wordID: o240150150082
+  translation:
+    english: persecutors
+    mandarin: 逼迫
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רָדַף
+    strong: '7291'
+  semantic:
+    sdbh:
+    - '006705001010000'
+    lexdomain:
+    - '002003003021'
+    coredomain:
+    - '044'
+    - '196'
+    sense: '1'
+  syntax:
+    frame: A1:240150150083;
+- position: 15
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!8
+    wordID: o240150150083
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '006705001010000'
+    lexdomain:
+    - '002003003021'
+    coredomain:
+    - '044'
+    - '196'
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '240140010061'
+- position: 16
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: JER 15:15!9
+    wordID: o240150150091
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 17
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: JER 15:15!10
+    wordID: o240150150101
+  translation:
+    english: in
+    mandarin: 因
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 18
+  text: אֶ֥רֶךְ
+  lemma: אָרֵךְ
+  transliteration: ʾereḵ
+  ids:
+    ref: JER 15:15!10
+    wordID: o240150150102
+  translation:
+    english: length of
+    mandarin: 忍
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: אָרֵךְ
+    strong: '0750'
+  semantic:
+    sdbh:
+    - 000688001002000
+    lexdomain:
+    - '002001002020'
+    coredomain:
+    - '176'
+    sense: '1'
+- position: 19
+  text: אַפְּ
+  lemma: אַף
+  transliteration: ''
+  ids:
+    ref: JER 15:15!11
+    wordID: o240150150111
+  translation:
+    english: anger of
+    mandarin: 怒
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אַף
+    strong: 0639
+  semantic:
+    sdbh:
+    - 000584001008000
+    lexdomain:
+    - '002001002020'
+    coredomain:
+    - '176'
+    sense: '1'
+- position: 20
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!11
+    wordID: o240150150112
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000584001008000
+    lexdomain:
+    - '002001002020'
+    coredomain:
+    - '176'
+  discourse:
+    participant: '240150150031'
+- position: 21
+  text: תִּקָּחֵ֑
+  lemma: לָקַח
+  transliteration: ''
+  ids:
+    ref: JER 15:15!12
+    wordID: o240150150121
+  translation:
+    english: take ~ away
+    mandarin: 取去
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: לָקַח
+    strong: '3947'
+  semantic:
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:240150150031; A1:240150150122;
+  discourse:
+    subject: '240150150031'
+- position: 22
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!12
+    wordID: o240150150122
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  syntax:
+    role: o
+  discourse:
+    participant: '240140010061'
+- position: 23
+  text: דַּ֕ע
+  lemma: יָדַע
+  transliteration: daʿ
+  ids:
+    ref: JER 15:15!13
+    wordID: o240150150131
+  translation:
+    english: know
+    mandarin: 知道
+    gloss: know
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: γνῶθι
+    strong: '1097'
+  syntax:
+    role: v
+    frame: A0:240150150031; A1:240150150141;
+  discourse:
+    subject: '240150150031'
+- position: 24
+  text: שְׂאֵתִ֥
+  lemma: נָשָׂא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!14
+    wordID: o240150150141
+  translation:
+    english: suffer
+    mandarin: 受
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001018000
+    lexdomain:
+    - '002003003010'
+    sense: '3'
+  lxx:
+    text: ὡς
+    strong: '5613'
+  syntax:
+    role: v
+    frame: A0:240150150142; A1:240150150161;
+- position: 25
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!14
+    wordID: o240150150142
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 004924001018000
+    lexdomain:
+    - '002003003010'
+  lxx:
+    text: ἔλαβον
+    strong: '2983'
+  syntax:
+    role: s
+  discourse:
+    participant: '240140010061'
+- position: 26
+  text: עָלֶ֖י
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: JER 15:15!15
+    wordID: o240150150151
+  translation:
+    english: for ~ sake
+    mandarin: 为~的缘故
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: περὶ
+    strong: '4012'
+- position: 27
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 15:15!15
+    wordID: o240150150152
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοῦ
+    strong: '4675'
+  discourse:
+    participant: '240150150031'
+- position: 28
+  text: חֶרְפָּֽה
+  lemma: חֶרְפָּה
+  transliteration: 'ḥerpāh:'
+  ids:
+    ref: JER 15:15!16
+    wordID: o240150150161
+  translation:
+    english: reproach
+    mandarin: 侮辱
+    gloss: reproach
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶרְפָּה
+    strong: '2781'
+  semantic:
+    sdbh:
+    - '002557001003000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ὀνειδισμὸν
+    strong: '3680'
+  syntax:
+    role: o

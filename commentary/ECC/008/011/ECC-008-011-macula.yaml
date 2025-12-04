@@ -1,0 +1,545 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ECC 8:11
+text: אֲשֶׁר֙ אֵין־נַעֲשָׂ֣ה פִתְגָ֔ם מַעֲשֵׂ֥ה הָרָעָ֖ה מְהֵרָ֑ה עַל־כֵּ֡ן מָלֵ֞א
+  לֵ֧ב בְּֽנֵי־הָאָדָ֛ם בָּהֶ֖ם לַעֲשׂ֥וֹת רָֽע׃
+words:
+- position: 1
+  text: אֲשֶׁר֙
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: ECC 8:11!1
+    wordID: o210080110011
+  translation:
+    english: because
+    mandarin: 因为~所以
+    gloss: that
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: אֵין
+  lemma: אַיִן
+  transliteration: ʾên-
+  ids:
+    ref: ECC 8:11!2
+    wordID: o210080110021
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 3
+  text: נַעֲשָׂ֣ה
+  lemma: עָשָׂה
+  transliteration: naʿăśāh
+  ids:
+    ref: ECC 8:11!3
+    wordID: o210080110031
+  translation:
+    english: carried out
+    mandarin: 执行
+    gloss: it.is.done
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '3'
+  lxx:
+    text: γινομένη
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A1:210080110041;
+- position: 4
+  text: פִתְגָ֔ם
+  lemma: פִּתְגָּם
+  transliteration: p̄iṯḡām
+  ids:
+    ref: ECC 8:11!4
+    wordID: o210080110041
+  translation:
+    english: sentence
+    mandarin: 判决
+    gloss: the.sentence
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פִּתְגָּם
+    strong: '6599'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀντίρρησις
+- position: 5
+  text: מַעֲשֵׂ֥ה
+  lemma: מַעֲשֶׂה
+  transliteration: maʿăśēh
+  ids:
+    ref: ECC 8:11!5
+    wordID: o210080110051
+  translation:
+    english: deed
+    mandarin: 行
+    gloss: the.deed
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲשֶׂה
+    strong: '4639'
+  semantic:
+    sdbh:
+    - '004247001002000'
+    lexdomain:
+    - '002002002001'
+    sense: '1'
+- position: 6
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: ECC 8:11!6
+    wordID: o210080110061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: το
+    strong: '3588'
+- position: 7
+  text: רָעָ֖ה
+  lemma: רָעָה
+  transliteration: rāʿāh
+  ids:
+    ref: ECC 8:11!6
+    wordID: o210080110062
+  translation:
+    english: evil
+    mandarin: 罪
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רָעָה
+    strong: 7451b
+  semantic:
+    sdbh:
+    - 006859001001000
+    lexdomain:
+    - '002001003020'
+    sense: '1'
+  lxx:
+    text: πονηρον
+    strong: '4190'
+- position: 8
+  text: מְהֵרָ֑ה
+  lemma: מְהֵרָה
+  transliteration: məhērāh
+  ids:
+    ref: ECC 8:11!7
+    wordID: o210080110071
+  translation:
+    english: quickly
+    mandarin: 立刻
+    gloss: quickly
+  morphology:
+    class: adv
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מְהֵרָה
+    strong: '4120'
+  semantic:
+    sdbh:
+    - '003762001002000'
+    lexdomain:
+    - '002002003003'
+    coredomain:
+    - '180'
+  lxx:
+    text: ταξύ
+    strong: '5035'
+  syntax:
+    role: adv
+- position: 9
+  text: עַל
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: ECC 8:11!8
+    wordID: o210080110081
+  translation:
+    english: for this
+    mandarin: 所以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: δια
+    strong: '1223'
+- position: 10
+  text: כֵּ֡ן
+  lemma: כֵּן
+  transliteration: ''
+  ids:
+    ref: ECC 8:11!9
+    wordID: o210080110091
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+- position: 11
+  text: מָלֵ֞א
+  lemma: מָלֵא
+  transliteration: mālēʾ
+  ids:
+    ref: ECC 8:11!10
+    wordID: o210080110101
+  translation:
+    english: fully set
+    mandarin: 充满
+    gloss: it.is.full
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָלֵא
+    strong: '4390'
+  semantic:
+    sdbh:
+    - 004012001029000
+    lexdomain:
+    - '002004002014'
+    sense: '1'
+  lxx:
+    text: ἐπληροφορήθη
+  syntax:
+    role: v
+    frame: A0:210080110111;
+- position: 12
+  text: לֵ֧ב
+  lemma: לֵב
+  transliteration: lēḇ
+  ids:
+    ref: ECC 8:11!11
+    wordID: o210080110111
+  translation:
+    english: heart
+    mandarin: 心
+    gloss: the.heart
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: לֵב
+    strong: '3820'
+  semantic:
+    sdbh:
+    - 003495001002000
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: καρδία
+    strong: '2588'
+- position: 13
+  text: בְּֽנֵי
+  lemma: בֵּן
+  transliteration: bənê-
+  ids:
+    ref: ECC 8:11!12
+    wordID: o210080110121
+  translation:
+    english: sons
+    mandarin: 子
+    gloss: of.the.children
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001004000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 038
+    sense: '8'
+  lxx:
+    text: υἱῶν
+    strong: '5207'
+- position: 14
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: ECC 8:11!13
+    wordID: o210080110131
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 15
+  text: אָדָ֛ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: ECC 8:11!13
+    wordID: o210080110132
+  translation:
+    english: men
+    mandarin: 人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἀνθρώπου
+    strong: '444'
+- position: 16
+  text: בָּ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: ECC 8:11!14
+    wordID: o210080110141
+  translation:
+    english: within
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 17
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ECC 8:11!14
+    wordID: o210080110142
+  translation:
+    english: them
+    mandarin: 它们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: '210080110121'
+- position: 18
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: ECC 8:11!15
+    wordID: o210080110151
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 19
+  text: עֲשׂ֥וֹת
+  lemma: עָשָׂה
+  transliteration: ʿăśôṯ
+  ids:
+    ref: ECC 8:11!15
+    wordID: o210080110152
+  translation:
+    english: do
+    mandarin: 作
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ποιῆσαι
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:210080110121; A1:210080110161;
+  discourse:
+    subject: '210080110121'
+- position: 20
+  text: רָֽע
+  lemma: רַע
+  transliteration: 'rāʿ:'
+  ids:
+    ref: ECC 8:11!16
+    wordID: o210080110161
+  translation:
+    english: evil
+    mandarin: 坏事
+    gloss: evil
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַע
+    strong: '7451'
+  semantic:
+    sdbh:
+    - 006847001006000
+    lexdomain:
+    - '002001003020'
+    sense: '1'
+  lxx:
+    text: πονηρόν
+    strong: '4190'
+  syntax:
+    role: o

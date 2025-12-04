@@ -1,0 +1,94 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 21:28
+text: Τί δὲ ὑμῖν δοκεῖ;
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 21:28!2
+    wordID: n40021028002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: MAT 21:28!1
+    wordID: n40021028001
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: s
+- position: 3
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: MAT 21:28!3
+    wordID: n40021028003
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: adv
+  discourse:
+    referent: n40021023011 n40021023014
+- position: 4
+  text: δοκεῖ
+  lemma: δοκέω
+  normalized: δοκεῖ
+  ids:
+    ref: MAT 21:28!4
+    wordID: n40021028004
+  translation:
+    gloss: think
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1380'
+  semantic:
+    semanticDomain: '031005'
+    ln: '31.30'
+  syntax:
+    role: v
+    frame: A0:n40021028001 AA2:n40021028003

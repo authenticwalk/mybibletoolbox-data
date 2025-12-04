@@ -1,0 +1,335 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 139:13
+text: כִּֽי־אַ֭תָּה קָנִ֣יתָ כִלְיֹתָ֑י תְּ֝סֻכֵּ֗נִי בְּבֶ֣טֶן אִמִּֽי׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 139:13!1
+    wordID: o191390130011
+  translation:
+    english: for
+    mandarin: 因
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: אַ֭תָּה
+  lemma: אַתָּה
+  transliteration: ʾattâ
+  ids:
+    ref: PSA 139:13!2
+    wordID: o191390130021
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '191390040061'
+- position: 3
+  text: קָנִ֣יתָ
+  lemma: קָנָה
+  transliteration: qāniyṯā
+  ids:
+    ref: PSA 139:13!3
+    wordID: o191390130031
+  translation:
+    english: created
+    mandarin: 造
+    gloss: you.created
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: קָנָה
+    strong: 7069a
+  semantic:
+    sdbh:
+    - '006506002001000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - 028
+    - '055'
+    sense: '4'
+  lxx:
+    text: ἐκτήσω
+  syntax:
+    role: v
+    frame: A0:191390130021; A1:191390130041;
+- position: 4
+  text: כִלְיֹתָ֑
+  lemma: כִּלְיָה
+  transliteration: ''
+  ids:
+    ref: PSA 139:13!4
+    wordID: o191390130041
+  translation:
+    english: inward parts
+    mandarin: 肺腑
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כִּלְיָה
+    strong: '3629'
+  semantic:
+    sdbh:
+    - '003324001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '2'
+- position: 5
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 139:13!4
+    wordID: o191390130042
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '003324001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '191390010022'
+- position: 6
+  text: תְּ֝סֻכֵּ֗
+  lemma: סָכַךְ
+  transliteration: ''
+  ids:
+    ref: PSA 139:13!5
+    wordID: o191390130051
+  translation:
+    english: knit ~ together
+    mandarin: 编织
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: סָכַךְ
+    strong: 5526a
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀντελάβου
+    strong: '482'
+  syntax:
+    role: v
+    frame: A0:191390040061; A1:191390130052;
+  discourse:
+    subject: '191390040061'
+- position: 7
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 139:13!5
+    wordID: o191390130052
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  lxx:
+    text: μου
+    strong: '3450'
+  syntax:
+    role: o
+  discourse:
+    participant: '191390010022'
+- position: 8
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 139:13!6
+    wordID: o191390130061
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐκ
+    strong: '1537'
+- position: 9
+  text: בֶ֣טֶן
+  lemma: בֶּטֶן
+  transliteration: ḇeṭen
+  ids:
+    ref: PSA 139:13!6
+    wordID: o191390130062
+  translation:
+    english: womb
+    mandarin: 腹
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֶּטֶן
+    strong: 0990
+  semantic:
+    sdbh:
+    - 000920001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: γαστρὸς
+    strong: '1064'
+- position: 10
+  text: אִמִּֽ
+  lemma: אֵם
+  transliteration: ''
+  ids:
+    ref: PSA 139:13!7
+    wordID: o191390130071
+  translation:
+    english: mother’s
+    mandarin: 母
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵם
+    strong: '0517'
+  semantic:
+    sdbh:
+    - 000481001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: μητρός
+    strong: '3384'
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 139:13!7
+    wordID: o191390130072
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 000481001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '191390010022'

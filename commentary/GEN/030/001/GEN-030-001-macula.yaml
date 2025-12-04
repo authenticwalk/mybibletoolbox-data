@@ -1,0 +1,759 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 30:1
+text: וַתֵּ֣רֶא רָחֵ֗ל כִּ֣י לֹ֤א יָֽלְדָה֙ לְיַעֲקֹ֔ב וַתְּקַנֵּ֥א רָחֵ֖ל בַּאֲחֹתָ֑הּ
+  וַתֹּ֤אמֶר אֶֽל־יַעֲקֹב֙ הָֽבָה־לִּ֣י בָנִ֔ים וְאִם־אַ֖יִן מֵתָ֥ה אָנֹֽכִי׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:1!1
+    wordID: o010300010011
+  translation:
+    english: when
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: תֵּ֣רֶא
+  lemma: רָאָה
+  transliteration: tēreʾ
+  ids:
+    ref: GEN 30:1!1
+    wordID: o010300010012
+  translation:
+    english: saw
+    mandarin: 见
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ἰδοῦσα
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:010300010021; A1:010300010051;
+- position: 3
+  text: רָחֵ֗ל
+  lemma: רָחֵל
+  transliteration: rāḥēl
+  ids:
+    ref: GEN 30:1!2
+    wordID: o010300010021
+  translation:
+    english: Rachel
+    mandarin: 拉结
+    gloss: Rachel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: רָחֵל
+    strong: '7354'
+  semantic:
+    sdbh:
+    - '006757002001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ραξηλ
+    strong: '4478'
+  syntax:
+    role: s
+- position: 4
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: GEN 30:1!3
+    wordID: o010300010031
+  translation:
+    english: that
+    gloss: (dm).that
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 5
+  text: לֹ֤א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: GEN 30:1!4
+    wordID: o010300010041
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 6
+  text: יָֽלְדָה֙
+  lemma: יָלַד
+  transliteration: yāləḏāh
+  ids:
+    ref: GEN 30:1!5
+    wordID: o010300010051
+  translation:
+    english: bore ~ children
+    mandarin: 生孩子
+    gloss: she.had.borne.children
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001001000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    - '030'
+    sense: '1'
+  lxx:
+    text: τέτοκεν
+  syntax:
+    role: v
+    frame: A0:010300010021;
+  discourse:
+    subject: '010300010021'
+- position: 7
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: GEN 30:1!6
+    wordID: o010300010061
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 8
+  text: יַעֲקֹ֔ב
+  lemma: יַעֲקֹב
+  transliteration: yaʿăqōḇ
+  ids:
+    ref: GEN 30:1!6
+    wordID: o010300010062
+  translation:
+    english: Jacob
+    mandarin: 雅各
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יַעֲקֹב
+    strong: '3290'
+  semantic:
+    sdbh:
+    - 003009001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιακωβ
+    strong: '2384'
+- position: 9
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:1!7
+    wordID: o010300010071
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: תְּקַנֵּ֥א
+  lemma: קָנָא
+  transliteration: təqannēʾ
+  ids:
+    ref: GEN 30:1!7
+    wordID: o010300010072
+  translation:
+    english: envied
+    mandarin: 嫉妒
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: קָנָא
+    strong: '7065'
+  semantic:
+    sdbh:
+    - '006503001002000'
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    sense: '1'
+  lxx:
+    text: ἐζήλωσεν
+  syntax:
+    role: v
+    frame: A0:010300010081;
+- position: 11
+  text: רָחֵ֖ל
+  lemma: רָחֵל
+  transliteration: rāḥēl
+  ids:
+    ref: GEN 30:1!8
+    wordID: o010300010081
+  translation:
+    english: Rachel
+    mandarin: 拉结
+    gloss: Rachel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: רָחֵל
+    strong: '7354'
+  semantic:
+    sdbh:
+    - '006757002001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ραξηλ
+    strong: '4478'
+  syntax:
+    role: s
+- position: 12
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: GEN 30:1!9
+    wordID: o010300010091
+  translation:
+    english: of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 13
+  text: אֲחֹתָ֑
+  lemma: אָחוֹת
+  transliteration: ''
+  ids:
+    ref: GEN 30:1!9
+    wordID: o010300010092
+  translation:
+    english: sister
+    mandarin: 姐姐
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָחוֹת
+    strong: 0269
+  semantic:
+    sdbh:
+    - '000253001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '1'
+  lxx:
+    text: ἀδελφὴν
+    strong: '79'
+- position: 14
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 30:1!9
+    wordID: o010300010093
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '000253001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+  lxx:
+    text: αὐτῆς
+    strong: '846'
+  discourse:
+    participant: 010300010081
+- position: 15
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 30:1!10
+    wordID: o010300010101
+  translation:
+    english: so
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: תֹּ֤אמֶר
+  lemma: אָמַר
+  transliteration: tōʾmer
+  ids:
+    ref: GEN 30:1!10
+    wordID: o010300010102
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:010300010081;
+  discourse:
+    subject: 010300010081
+- position: 17
+  text: אֶֽל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: GEN 30:1!11
+    wordID: o010300010111
+  translation:
+    english: to
+    mandarin: 对
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 18
+  text: יַעֲקֹב֙
+  lemma: יַעֲקֹב
+  transliteration: yaʿăqōḇ
+  ids:
+    ref: GEN 30:1!12
+    wordID: o010300010121
+  translation:
+    english: Jacob
+    mandarin: 雅各
+    gloss: Jacob
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יַעֲקֹב
+    strong: '3290'
+  semantic:
+    sdbh:
+    - 003009001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιακωβ
+    strong: '2384'
+- position: 19
+  text: הָֽבָ
+  lemma: יָהַב
+  transliteration: ''
+  ids:
+    ref: GEN 30:1!13
+    wordID: o010300010131
+  translation:
+    english: give
+    mandarin: 给
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: יָהַב
+    strong: '3051'
+  semantic:
+    sdbh:
+    - 002811001002000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '030'
+    - '129'
+    sense: '1'
+  syntax:
+    frame: A0:010300010121; A1:010300010151;
+  discourse:
+    subject: '010300010121'
+- position: 20
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: GEN 30:1!13
+    wordID: o010300010132
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sh
+    type: paragogic he
+  lexical:
+    stronglemma: ה
+    strong: 1886j
+  semantic:
+    sdbh:
+    - 002811001002000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '030'
+    - '129'
+  lxx:
+    text: δός
+    strong: '1325'
+- position: 21
+  text: לִּ֣
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: GEN 30:1!14
+    wordID: o010300010141
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 22
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 30:1!14
+    wordID: o010300010142
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: 010300010081
+- position: 23
+  text: בָנִ֔ים
+  lemma: בֵּן
+  transliteration: ḇāniym
+  ids:
+    ref: GEN 30:1!15
+    wordID: o010300010151
+  translation:
+    english: children
+    mandarin: 孩子
+    gloss: children
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '5'
+  lxx:
+    text: τέκνα
+    strong: '5043'
+  syntax:
+    role: o
+- position: 24
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 30:1!16
+    wordID: o010300010161
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 25
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: GEN 30:1!16
+    wordID: o010300010162
+  translation:
+    english: if
+    mandarin: 否则
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+  lxx:
+    text: εἰ
+    strong: '1487'
+- position: 26
+  text: אַ֖יִן
+  lemma: אַיִן
+  transliteration: ʾayin
+  ids:
+    ref: GEN 30:1!17
+    wordID: o010300010171
+  translation:
+    english: not
+    mandarin: 否则
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: μή
+    strong: '3361'
+  syntax:
+    role: p
+- position: 27
+  text: מֵתָ֥ה
+  lemma: מוּת
+  transliteration: mēṯāh
+  ids:
+    ref: GEN 30:1!18
+    wordID: o010300010181
+  translation:
+    english: die
+    mandarin: 死
+    gloss: '[am].about.to.die'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001001000
+    lexdomain:
+    - 002001001019
+    sense: '1'
+  lxx:
+    text: τελευτήσω
+  syntax:
+    role: v
+    frame: A0:010300010191;
+- position: 28
+  text: אָנֹֽכִי
+  lemma: אָנֹכִי
+  transliteration: 'ʾānōḵî:'
+  ids:
+    ref: GEN 30:1!19
+    wordID: o010300010191
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: ἐγώ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: 010300010081

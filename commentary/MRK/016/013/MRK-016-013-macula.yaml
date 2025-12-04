@@ -1,0 +1,197 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 16:13
+text: κἀκεῖνοι ἀπελθόντες ἀπήγγειλαν τοῖς λοιποῖς· οὐδὲ ἐκείνοις ἐπίστευσαν.
+words:
+- position: 1
+  text: κἀκεῖνοι
+  lemma: κἀκεῖνος
+  normalized: κἀκεῖνοι
+  ids:
+    ref: MRK 16:13!1
+    wordID: n41016013001
+  translation:
+    gloss: And they
+  morphology:
+    class: pron
+    morph: D-NPM-K
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '2548'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: s
+  discourse:
+    referent: n41016012004
+- position: 2
+  text: ἀπελθόντες
+  lemma: ἀπέρχομαι
+  normalized: ἀπελθόντες
+  ids:
+    ref: MRK 16:13!2
+    wordID: n41016013002
+  translation:
+    gloss: having gone
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '565'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.37'
+  syntax:
+    role: v
+    frame: A0:n41016012004
+  discourse:
+    subject: n41016012004
+- position: 3
+  text: ἀπήγγειλαν
+  lemma: ἀπαγγέλλω
+  normalized: ἀπήγγειλαν
+  ids:
+    ref: MRK 16:13!3
+    wordID: n41016013003
+  translation:
+    gloss: told [it]
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '518'
+  semantic:
+    semanticDomain: '033015'
+    ln: '33.198'
+  syntax:
+    role: v
+    frame: A0:n41016013001 A1:n00000000000 A2:n41016013005
+- position: 4
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: MRK 16:13!4
+    wordID: n41016013004
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: λοιποῖς
+  lemma: λοιπός
+  normalized: λοιποῖς
+  ids:
+    ref: MRK 16:13!5
+    wordID: n41016013005
+  translation:
+    gloss: rest
+  morphology:
+    class: adj
+    morph: A-DPM
+    gender: masculine
+    number: plural
+    case: dative
+  lexical:
+    strong: '3062'
+  semantic:
+    semanticDomain: '063005'
+    ln: '63.21'
+  discourse:
+    referent: n41016007005
+- position: 6
+  text: οὐδὲ
+  lemma: οὐδέ
+  normalized: οὐδέ
+  ids:
+    ref: MRK 16:13!6
+    wordID: n41016013006
+  translation:
+    gloss: neither
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3761'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
+  syntax:
+    role: adv
+- position: 7
+  text: ἐκείνοις
+  lemma: ἐκεῖνος
+  normalized: ἐκείνοις
+  ids:
+    ref: MRK 16:13!7
+    wordID: n41016013007
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: D-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: o
+  discourse:
+    referent: n41016012004
+- position: 8
+  text: ἐπίστευσαν
+  lemma: πιστεύω
+  normalized: ἐπίστευσαν
+  ids:
+    ref: MRK 16:13!8
+    wordID: n41016013008
+  translation:
+    gloss: did they believe
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4100'
+  semantic:
+    semanticDomain: '031006'
+    ln: '31.35'
+  syntax:
+    role: v
+    frame: A0:n41016013005 A1:n41016013007
+  discourse:
+    subject: n41016013005

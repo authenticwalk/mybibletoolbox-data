@@ -1,0 +1,335 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 7:4
+text: יְהוָ֣ה אֱ֭לֹהַי אִם־עָשִׂ֣יתִי זֹ֑את אִֽם־יֶשׁ־עָ֥וֶל בְּכַפָּֽי׃
+words:
+- position: 1
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 7:4!1
+    wordID: o190070040011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אֱ֭לֹהַ
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 7:4!2
+    wordID: o190070040021
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+- position: 3
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 7:4!2
+    wordID: o190070040022
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190070010022'
+- position: 4
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: PSA 7:4!3
+    wordID: o190070040031
+  translation:
+    english: if
+    mandarin: 若
+    gloss: if
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+  lxx:
+    text: εἰ
+    strong: '1487'
+- position: 5
+  text: עָשִׂ֣יתִי
+  lemma: עָשָׂה
+  transliteration: ʿāśiyṯî
+  ids:
+    ref: PSA 7:4!4
+    wordID: o190070040041
+  translation:
+    english: done
+    mandarin: 行
+    gloss: I.have.done
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ἐποίησα
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:190070010022; A1:190070040051;
+  discourse:
+    subject: '190070010022'
+- position: 6
+  text: זֹ֑את
+  lemma: זֹאת
+  transliteration: zōʾṯ
+  ids:
+    ref: PSA 7:4!5
+    wordID: o190070040051
+  translation:
+    english: this
+    mandarin: 这
+    gloss: this
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxfs
+    gender: feminine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֹאת
+    strong: '2063'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+  syntax:
+    role: o
+- position: 7
+  text: אִֽם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: PSA 7:4!6
+    wordID: o190070040061
+  translation:
+    english: if
+    mandarin: 若
+    gloss: if
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+  lxx:
+    text: εἰ
+    strong: '1487'
+- position: 8
+  text: יֶשׁ
+  lemma: יֵשׁ
+  transliteration: yeš-
+  ids:
+    ref: PSA 7:4!7
+    wordID: o190070040071
+  translation:
+    english: there is
+    mandarin: 有
+    gloss: there.[is]
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: יֵשׁ
+    strong: '3426'
+  lxx:
+    text: ἔστιν
+    strong: '2076'
+  syntax:
+    role: p
+- position: 9
+  text: עָ֥וֶל
+  lemma: עָוֶל
+  transliteration: ʿāwel
+  ids:
+    ref: PSA 7:4!8
+    wordID: o190070040081
+  translation:
+    english: wrong
+    mandarin: 罪孽
+    gloss: unrighteousness
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָוֶל
+    strong: '5766'
+  semantic:
+    sdbh:
+    - 005294001001000
+    lexdomain:
+    - '002001003020'
+    sense: '1'
+  lxx:
+    text: ἀδικία
+    strong: '93'
+  syntax:
+    role: s
+- position: 10
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 7:4!9
+    wordID: o190070040091
+  translation:
+    english: in
+    mandarin: 中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 11
+  text: כַפָּֽ
+  lemma: כַּף
+  transliteration: ''
+  ids:
+    ref: PSA 7:4!9
+    wordID: o190070040092
+  translation:
+    english: hands
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfdc
+    gender: feminine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כַּף
+    strong: '3709'
+  semantic:
+    sdbh:
+    - 003394001002000
+    lexdomain:
+    - '002002002001'
+    sense: '1'
+  lxx:
+    text: ξερσίν
+    strong: '5495'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 7:4!9
+    wordID: o190070040093
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 003394001002000
+    lexdomain:
+    - '002002002001'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190070010022'

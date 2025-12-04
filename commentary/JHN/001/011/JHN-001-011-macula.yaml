@@ -1,0 +1,222 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 1:11
+text: εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον.
+words:
+- position: 1
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: JHN 1:11!1
+    wordID: n43001011001
+  translation:
+    gloss: To
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.16'
+- position: 2
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: JHN 1:11!2
+    wordID: n43001011002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: ἴδια
+  lemma: ἴδιος
+  normalized: ἴδια
+  ids:
+    ref: JHN 1:11!3
+    wordID: n43001011003
+  translation:
+    gloss: own
+  morphology:
+    class: adj
+    morph: A-APN
+    gender: neuter
+    number: plural
+    case: accusative
+  lexical:
+    strong: '2398'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.4'
+  discourse:
+    referent: n43001009003
+- position: 4
+  text: ἦλθεν
+  lemma: ἔρχομαι
+  normalized: ἦλθεν
+  ids:
+    ref: JHN 1:11!4
+    wordID: n43001011004
+  translation:
+    gloss: He came
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n43001009003
+  discourse:
+    subject: n43001009003
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 1:11!5
+    wordID: n43001011005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091002
+    ln: '91.12'
+- position: 6
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: JHN 1:11!6
+    wordID: n43001011006
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ἴδιοι
+  lemma: ἴδιος
+  normalized: ἴδιοι
+  ids:
+    ref: JHN 1:11!7
+    wordID: n43001011007
+  translation:
+    gloss: own
+  morphology:
+    class: adj
+    morph: A-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '2398'
+  semantic:
+    semanticDomain: '010001'
+    ln: '10.12'
+  discourse:
+    referent: n43001009003
+- position: 8
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: JHN 1:11!8
+    wordID: n43001011008
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n43001009003
+- position: 9
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: JHN 1:11!9
+    wordID: n43001011009
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 10
+  text: παρέλαβον
+  lemma: παραλαμβάνω
+  normalized: παρέλαβον
+  ids:
+    ref: JHN 1:11!10
+    wordID: n43001011010
+  translation:
+    gloss: received
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3880'
+  semantic:
+    semanticDomain: '034007'
+    ln: '34.53'
+  syntax:
+    role: v
+    frame: A0:n43001011007 A1:n43001011008

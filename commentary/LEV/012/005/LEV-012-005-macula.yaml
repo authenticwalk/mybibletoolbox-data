@@ -1,0 +1,578 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LEV 12:5
+text: וְאִם־נְקֵבָ֣ה תֵלֵ֔ד וְטָמְאָ֥ה שְׁבֻעַ֖יִם כְּנִדָּתָ֑הּ וְשִׁשִּׁ֥ים יוֹם֙
+  וְשֵׁ֣שֶׁת יָמִ֔ים תֵּשֵׁ֖ב עַל־דְּמֵ֥י טָהֳרָֽה׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 12:5!1
+    wordID: o030120050011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: LEV 12:5!1
+    wordID: o030120050012
+  translation:
+    english: if
+    mandarin: 若
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 3
+  text: נְקֵבָ֣ה
+  lemma: נְקֵבָה
+  transliteration: nəqēḇāh
+  ids:
+    ref: LEV 12:5!2
+    wordID: o030120050021
+  translation:
+    english: female child
+    mandarin: 女孩
+    gloss: a.female
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נְקֵבָה
+    strong: '5347'
+  semantic:
+    sdbh:
+    - 004898001001000
+    lexdomain:
+    - '002001001047'
+    sense: '1'
+  lxx:
+    text: θῆλυ
+    strong: '2338'
+  syntax:
+    role: o
+- position: 4
+  text: תֵלֵ֔ד
+  lemma: יָלַד
+  transliteration: ṯēlēḏ
+  ids:
+    ref: LEV 12:5!3
+    wordID: o030120050031
+  translation:
+    english: gives birth to
+    mandarin: 生
+    gloss: she.will.bear
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001001000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    - '030'
+    sense: '1'
+  lxx:
+    text: τέκῃ
+    strong: '5088'
+  syntax:
+    role: v
+    frame: A0:030120020061; A1:030120050021;
+  discourse:
+    subject: '030120020061'
+- position: 5
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 12:5!4
+    wordID: o030120050041
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: טָמְאָ֥ה
+  lemma: טָמֵא
+  transliteration: ṭāmʾāh
+  ids:
+    ref: LEV 12:5!4
+    wordID: o030120050042
+  translation:
+    english: unclean
+    mandarin: 不洁净
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: טָמֵא
+    strong: '2930'
+  semantic:
+    sdbh:
+    - 002697001001000
+    lexdomain:
+    - '002001001063'
+    coredomain:
+    - '147'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:030120020061;
+  discourse:
+    subject: '030120020061'
+- position: 7
+  text: שְׁבֻעַ֖יִם
+  lemma: שָׁבוּעַ
+  transliteration: šəḇuʿayim
+  ids:
+    ref: LEV 12:5!5
+    wordID: o030120050051
+  translation:
+    english: weeks
+    mandarin: 七天
+    gloss: two.weeks
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmda
+    gender: masculine
+    number: dual
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁבוּעַ
+    strong: '7620'
+  semantic:
+    sdbh:
+    - '007153001001000'
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: ἑπτὰ
+    strong: '2033'
+  syntax:
+    role: adv
+- position: 8
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: LEV 12:5!6
+    wordID: o030120050061
+  translation:
+    english: as
+    mandarin: 跟~一样
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: κατὰ
+    strong: '2596'
+- position: 9
+  text: נִדָּתָ֑
+  lemma: נִדָּה
+  transliteration: ''
+  ids:
+    ref: LEV 12:5!6
+    wordID: o030120050062
+  translation:
+    english: menstruation
+    mandarin: 不洁净
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נִדָּה
+    strong: '5079'
+  semantic:
+    sdbh:
+    - '004655001001000'
+    lexdomain:
+    - '002001001063'
+    coredomain:
+    - '147'
+    - '030'
+    sense: '2'
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 10
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 12:5!6
+    wordID: o030120050063
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '004655001001000'
+    lexdomain:
+    - '002001001063'
+    coredomain:
+    - '147'
+    - '030'
+  lxx:
+    text: ἄφεδρον
+  discourse:
+    participant: '030120020061'
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 12:5!7
+    wordID: o030120050071
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: שִׁשִּׁ֥ים
+  lemma: שֵׁשׁ
+  transliteration: šiššiym
+  ids:
+    ref: LEV 12:5!7
+    wordID: o030120050072
+  translation:
+    english: sixty
+    mandarin: 六十
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שֵׁשׁ
+    strong: '8346'
+  semantic:
+    sdbh:
+    - '007655001002000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+  lxx:
+    text: ἑχήκοντα
+    strong: '1835'
+- position: 13
+  text: יוֹם֙
+  lemma: יוֹם
+  transliteration: yôm
+  ids:
+    ref: LEV 12:5!8
+    wordID: o030120050081
+  translation:
+    english: days
+    mandarin: 天
+    gloss: day[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+  lxx:
+    text: ἡμέρας
+    strong: '2250'
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 12:5!9
+    wordID: o030120050091
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: שֵׁ֣שֶׁת
+  lemma: שֵׁשׁ
+  transliteration: šēšeṯ
+  ids:
+    ref: LEV 12:5!9
+    wordID: o030120050092
+  translation:
+    english: six of
+    mandarin: 六
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: cardinal number
+  lexical:
+    stronglemma: שֵׁשׁ
+    strong: '8337'
+  semantic:
+    sdbh:
+    - '007655001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+  lxx:
+    text: ἓχ
+    strong: '1803'
+- position: 16
+  text: יָמִ֔ים
+  lemma: יוֹם
+  transliteration: yāmiym
+  ids:
+    ref: LEV 12:5!10
+    wordID: o030120050101
+  translation:
+    english: days
+    mandarin: 天
+    gloss: days
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001002000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '1'
+- position: 17
+  text: תֵּשֵׁ֖ב
+  lemma: יָשַׁב
+  transliteration: tēšēḇ
+  ids:
+    ref: LEV 12:5!11
+    wordID: o030120050111
+  translation:
+    english: continue
+    mandarin: 家居
+    gloss: she.will.remain
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001017000'
+    lexdomain:
+    - '002002003001'
+    coredomain:
+    - '180'
+    - '120'
+    sense: '4'
+  lxx:
+    text: καθεσθήσεται
+  syntax:
+    role: v
+    frame: A0:030120020061;
+  discourse:
+    subject: '030120020061'
+- position: 18
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: LEV 12:5!12
+    wordID: o030120050121
+  translation:
+    english: in
+    mandarin: 到
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 19
+  text: דְּמֵ֥י
+  lemma: דָּם
+  transliteration: dəmēy
+  ids:
+    ref: LEV 12:5!13
+    wordID: o030120050131
+  translation:
+    english: blood
+    mandarin: 产血
+    gloss: '[the].blood(s)'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּם
+    strong: '1818'
+  semantic:
+    sdbh:
+    - '001673001001000'
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: αἵματι
+    strong: '129'
+- position: 20
+  text: טָהֳרָֽה
+  lemma: טׇהֳרָה
+  transliteration: 'ṭohŏrāh:'
+  ids:
+    ref: LEV 12:5!14
+    wordID: o030120050141
+  translation:
+    english: purification
+    mandarin: 洁净
+    gloss: of.purification
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: טׇהֳרָה
+    strong: '2893'
+  semantic:
+    sdbh:
+    - '002663001001000'
+    lexdomain:
+    - '002001001012'
+    coredomain:
+    - '147'
+    sense: '1'

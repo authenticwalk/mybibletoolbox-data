@@ -1,0 +1,438 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 51:10
+text: הוֹצִ֥יא יְהוָ֖ה אֶת־צִדְקֹתֵ֑ינוּ בֹּ֚אוּ וּנְסַפְּרָ֣ה בְצִיּ֔וֹן אֶֽת־מַעֲשֵׂ֖ה
+  יְהוָ֥ה אֱלֹהֵֽינוּ׃
+words:
+- position: 1
+  text: הוֹצִ֥יא
+  lemma: יָצָא
+  transliteration: hôṣiyʾ
+  ids:
+    ref: JER 51:10!1
+    wordID: o240510100011
+  translation:
+    english: brought about
+    mandarin: 彰显
+    gloss: he.has.brought.forth
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: יָצָא
+    strong: '3318'
+  semantic:
+    sdbh:
+    - '003035001027000'
+    lexdomain:
+    - '002002003003'
+    sense: '6'
+  lxx:
+    text: ἐχήνεγκεν
+    strong: '1627'
+  syntax:
+    role: v
+    frame: AA:240510100021; A0:240510100041;
+- position: 2
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JER 51:10!2
+    wordID: o240510100021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 3
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JER 51:10!3
+    wordID: o240510100031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: צִדְקֹתֵ֑י
+  lemma: צְדָקָה
+  transliteration: ''
+  ids:
+    ref: JER 51:10!4
+    wordID: o240510100041
+  translation:
+    english: vindication
+    mandarin: 义
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: צְדָקָה
+    strong: '6666'
+  semantic:
+    sdbh:
+    - '006130001003000'
+    lexdomain:
+    - '002'
+    coredomain:
+    - 095
+    sense: '1'
+- position: 5
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 51:10!4
+    wordID: o240510100042
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '006130001003000'
+    lexdomain:
+    - '002'
+    coredomain:
+    - 095
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: 240500010111 240510050041 240510050052
+- position: 6
+  text: בֹּ֚אוּ
+  lemma: בּוֹא
+  transliteration: bōʾû
+  ids:
+    ref: JER 51:10!5
+    wordID: o240510100051
+  translation:
+    english: come
+    mandarin: 来
+    gloss: come
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: δεῦτε
+    strong: '1205'
+  syntax:
+    role: v
+    frame: A0:240510050041;240510050052;
+  discourse:
+    subject: 240510050041 240510050052
+- position: 7
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: JER 51:10!6
+    wordID: o240510100061
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: נְסַפְּרָ֣ה
+  lemma: סָפַר
+  transliteration: nəsappərāh
+  ids:
+    ref: JER 51:10!6
+    wordID: o240510100062
+  translation:
+    english: tell
+    mandarin: 宣扬
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vph1cp
+    gender: common
+    number: plural
+    person: first
+    stem: piel
+    type: cohortative
+  lexical:
+    stronglemma: סָפַר
+    strong: '5608'
+  semantic:
+    sdbh:
+    - 005148001007000
+    lexdomain:
+    - 002004001009008
+    sense: '1'
+  lxx:
+    text: ἀναγγείλωμεν
+    strong: '312'
+  syntax:
+    role: v
+    frame: A0:240500010111;240510050041;240510050052; A1:240510100091;
+  discourse:
+    subject: 240500010111 240510050041 240510050052
+- position: 9
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: JER 51:10!7
+    wordID: o240510100071
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 10
+  text: צִיּ֔וֹן
+  lemma: צִיּוֹן
+  transliteration: ṣiyyôn
+  ids:
+    ref: JER 51:10!7
+    wordID: o240510100072
+  translation:
+    english: Zion
+    mandarin: 锡安
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: צִיּוֹן
+    strong: '6726'
+  semantic:
+    sdbh:
+    - 006189001001000
+    lexdomain:
+    - 003001008
+    - '003001010'
+  lxx:
+    text: σιων
+    strong: '4622'
+- position: 11
+  text: אֶֽת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JER 51:10!8
+    wordID: o240510100081
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: מַעֲשֵׂ֖ה
+  lemma: מַעֲשֶׂה
+  transliteration: maʿăśēh
+  ids:
+    ref: JER 51:10!9
+    wordID: o240510100091
+  translation:
+    english: work
+    mandarin: 作为
+    gloss: the.work
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲשֶׂה
+    strong: '4639'
+  semantic:
+    sdbh:
+    - '004247001001000'
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: ἔργα
+    strong: '2041'
+- position: 13
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JER 51:10!10
+    wordID: o240510100101
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 14
+  text: אֱלֹהֵֽי
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: JER 51:10!11
+    wordID: o240510100111
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 15
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 51:10!11
+    wordID: o240510100112
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 240500010111 240510050041 240510050052

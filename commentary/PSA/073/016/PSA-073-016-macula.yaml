@@ -1,0 +1,304 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 73:16
+text: וָֽ֭אֲחַשְּׁבָה לָדַ֣עַת זֹ֑את עָמָ֖ל ה֣וּא בְעֵינָֽי׃
+words:
+- position: 1
+  text: וָֽ֭
+  lemma: וְ
+  transliteration: wā
+  ids:
+    ref: PSA 73:16!1
+    wordID: o190730160011
+  translation:
+    english: when
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: אֲחַשְּׁבָ
+  lemma: חָשַׁב
+  transliteration: ''
+  ids:
+    ref: PSA 73:16!1
+    wordID: o190730160012
+  translation:
+    english: thought
+    mandarin: 思索
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: חָשַׁב
+    strong: '2803'
+  semantic:
+    sdbh:
+    - '002577001007000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '3'
+  lxx:
+    text: καὶ
+    strong: '2532'
+  syntax:
+    frame: A0:190730010022;
+  discourse:
+    subject: '190730010022'
+- position: 3
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: PSA 73:16!1
+    wordID: o190730160013
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sh
+    type: paragogic he
+  lexical:
+    stronglemma: ה
+    strong: 1886j
+  semantic:
+    sdbh:
+    - '002577001007000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+  lxx:
+    text: ὑπέλαβον
+    strong: '5274'
+- position: 4
+  text: לָ
+  lemma: לְ
+  transliteration: lā
+  ids:
+    ref: PSA 73:16!2
+    wordID: o190730160021
+  translation:
+    english: to
+    mandarin: 要
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 5
+  text: דַ֣עַת
+  lemma: יָדַע
+  transliteration: ḏaʿaṯ
+  ids:
+    ref: PSA 73:16!2
+    wordID: o190730160022
+  translation:
+    english: understand
+    mandarin: 明白
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001013000
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '2'
+  lxx:
+    text: γνῶναι
+    strong: '1097'
+  syntax:
+    role: v
+    frame: A0:190730010022; A1:190730160031;
+  discourse:
+    subject: '190730010022'
+- position: 6
+  text: זֹ֑את
+  lemma: זֹאת
+  transliteration: zōʾṯ
+  ids:
+    ref: PSA 73:16!3
+    wordID: o190730160031
+  translation:
+    english: this
+    mandarin: 这
+    gloss: this
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxfs
+    gender: feminine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֹאת
+    strong: '2063'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+  syntax:
+    role: o
+- position: 7
+  text: עָמָ֖ל
+  lemma: עָמָל
+  transliteration: ʿāmāl
+  ids:
+    ref: PSA 73:16!4
+    wordID: o190730160041
+  translation:
+    english: wearisome task
+    mandarin: 为难
+    gloss: '[was].trouble'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָמָל
+    strong: '5999'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κόπος
+    strong: '2873'
+  syntax:
+    role: p
+- position: 8
+  text: ה֣וּא
+  lemma: הוּא
+  transliteration: '**hûʾ'
+  ids:
+    ref: PSA 73:16!6
+    wordID: o190730160061
+  translation:
+    english: it
+    mandarin: 它
+    gloss: it
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: ἐστὶν
+    strong: '2076'
+  syntax:
+    role: s
+  discourse:
+    participant: '190730160031'
+- position: 9
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 73:16!7
+    wordID: o190730160071
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 10
+  text: עֵינָֽ
+  lemma: עַיִן
+  transliteration: ''
+  ids:
+    ref: PSA 73:16!7
+    wordID: o190730160072
+  translation:
+    english: eyes
+    mandarin: 眼
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbdc
+    gender: both
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 73:16!7
+    wordID: o190730160073
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190730010022'

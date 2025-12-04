@@ -1,0 +1,407 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:11
+text: ὁ δὲ ἀποκριθεὶς εἶπεν ὅτι Ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας τῶν
+  οὐρανῶν, ἐκείνοις δὲ οὐ δέδοται.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 13:11!2
+    wordID: n40013011002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 13:11!1
+    wordID: n40013011001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40013001007
+- position: 3
+  text: ἀποκριθεὶς
+  lemma: ἀποκρίνομαι
+  normalized: ἀποκριθείς
+  ids:
+    ref: MAT 13:11!3
+    wordID: n40013011003
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.184'
+  syntax:
+    role: v
+    frame: A1:n40013011001
+- position: 4
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 13:11!4
+    wordID: n40013011004
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40013011001
+- position: 5
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: MAT 13:11!5
+    wordID: n40013011005
+  translation:
+    gloss: Because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 6
+  text: Ὑμῖν
+  lemma: σύ
+  normalized: Ὑμῖν
+  ids:
+    ref: MAT 13:11!6
+    wordID: n40013011006
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013010004
+- position: 7
+  text: δέδοται
+  lemma: δίδωμι
+  normalized: δέδοται
+  ids:
+    ref: MAT 13:11!7
+    wordID: n40013011007
+  translation:
+    gloss: it has been granted
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.142'
+  syntax:
+    role: v
+    frame: A2:n40013011006 A1:n40013011008
+- position: 8
+  text: γνῶναι
+  lemma: γινώσκω
+  normalized: γνῶναι
+  ids:
+    ref: MAT 13:11!8
+    wordID: n40013011008
+  translation:
+    gloss: to know
+  morphology:
+    class: verb
+    morph: V-2AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: '032002'
+    ln: '32.16'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40013011010
+- position: 9
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: MAT 13:11!9
+    wordID: n40013011009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: μυστήρια
+  lemma: μυστήριον
+  normalized: μυστήρια
+  ids:
+    ref: MAT 13:11!10
+    wordID: n40013011010
+  translation:
+    gloss: mysteries
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3466'
+  semantic:
+    semanticDomain: 028005
+    ln: '28.77'
+- position: 11
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: MAT 13:11!11
+    wordID: n40013011011
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 12
+  text: βασιλείας
+  lemma: βασιλεία
+  normalized: βασιλείας
+  ids:
+    ref: MAT 13:11!12
+    wordID: n40013011012
+  translation:
+    gloss: kingdom
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.64'
+- position: 13
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: MAT 13:11!13
+    wordID: n40013011013
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: οὐρανῶν
+  lemma: οὐρανός
+  normalized: οὐρανῶν
+  ids:
+    ref: MAT 13:11!14
+    wordID: n40013011014
+  translation:
+    gloss: heavens
+  morphology:
+    class: noun
+    morph: N-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3772'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.16'
+- position: 15
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 13:11!16
+    wordID: n40013011016
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 16
+  text: ἐκείνοις
+  lemma: ἐκεῖνος
+  normalized: ἐκείνοις
+  ids:
+    ref: MAT 13:11!15
+    wordID: n40013011015
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: D-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  syntax:
+    role: io
+  discourse:
+    referent: n40013002016
+- position: 17
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: MAT 13:11!17
+    wordID: n40013011017
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 18
+  text: δέδοται
+  lemma: δίδωμι
+  normalized: δέδοται
+  ids:
+    ref: MAT 13:11!18
+    wordID: n40013011018
+  translation:
+    gloss: it has been granted
+  morphology:
+    class: verb
+    morph: V-RPI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.142'
+  syntax:
+    role: v
+    frame: A1:n40013011008 A2:n40013011015
+  discourse:
+    subject: n40013011008

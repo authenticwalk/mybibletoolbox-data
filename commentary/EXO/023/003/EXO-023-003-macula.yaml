@@ -1,0 +1,195 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 23:3
+text: וְדָ֕ל לֹ֥א תֶהְדַּ֖ר בְּרִיבֽוֹ׃ס
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EXO 23:3!1
+    wordID: o020230030011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: דָ֕ל
+  lemma: דַּל
+  transliteration: ḏāl
+  ids:
+    ref: EXO 23:3!1
+    wordID: o020230030012
+  translation:
+    english: poor
+    mandarin: 穷人
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: דַּל
+    strong: '1800'
+  semantic:
+    sdbh:
+    - '001655002001000'
+    lexdomain:
+    - '002001001040'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πένητα
+    strong: '3993'
+  syntax:
+    role: o
+- position: 3
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: EXO 23:3!2
+    wordID: o020230030021
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 4
+  text: תֶהְדַּ֖ר
+  lemma: הָדַר
+  transliteration: ṯehdar
+  ids:
+    ref: EXO 23:3!3
+    wordID: o020230030031
+  translation:
+    english: partial
+    mandarin: 偏袒
+    gloss: you.must.honor
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָדַר
+    strong: '1921'
+  semantic:
+    sdbh:
+    - '001771001001000'
+    lexdomain:
+    - '002004002011'
+    coredomain:
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἐλεήσεις
+  syntax:
+    role: v
+    frame: A0:020200220081; A1:020230030012;
+  discourse:
+    subject: 020200220081
+- position: 5
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: EXO 23:3!4
+    wordID: o020230030041
+  translation:
+    english: in
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 6
+  text: רִיבֽ
+  lemma: רִיב
+  transliteration: ''
+  ids:
+    ref: EXO 23:3!4
+    wordID: o020230030042
+  translation:
+    english: lawsuit
+    mandarin: 诉讼
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רִיב
+    strong: '7379'
+  semantic:
+    sdbh:
+    - 006781001001000
+    lexdomain:
+    - '002003002007'
+    sense: '3'
+- position: 7
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 23:3!4
+    wordID: o020230030043
+  translation:
+    english: his
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 006781001001000
+    lexdomain:
+    - '002003002007'
+  discourse:
+    participant: '020230030012'

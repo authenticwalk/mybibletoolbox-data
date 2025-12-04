@@ -1,0 +1,946 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2SA 23:21
+text: 2SA 23:21 וְהוּא־הִכָּה֩ אֶת־אִ֨ישׁ מִצְרִ֜י אִ֣ישׁ מַרְאֶ֗ה וּבְיַ֤ד הַמִּצְרִי֙
+  חֲנִ֔ית וַיֵּ֥רֶד אֵלָ֖יו בַּשָּׁ֑בֶט וַיִּגְזֹ֤ל אֶֽת־הַחֲנִית֙ מִיַּ֣ד הַמִּצְרִ֔י
+  וַיַּהַרְגֵ֖הוּ בַּחֲנִיתֽוֹ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 2SA 23:21!1
+    wordID: o100230210011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: הוּא
+  lemma: הוּא
+  transliteration: hûʾ-
+  ids:
+    ref: 2SA 23:21!1
+    wordID: o100230210012
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: αὐτὸς
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '100230200012'
+- position: 3
+  text: הִכָּה֩
+  lemma: נָכָה
+  transliteration: hikkāh
+  ids:
+    ref: 2SA 23:21!2
+    wordID: o100230210021
+  translation:
+    english: killed
+    mandarin: 击杀
+    gloss: he.struck.down
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָכָה
+    strong: '5221'
+  semantic:
+    sense: '2'
+  lxx:
+    text: ἐπάταχεν
+    strong: '3960'
+  syntax:
+    role: v
+    frame: AA:100230210012; A0:100230210041;
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2SA 23:21!3
+    wordID: o100230210031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: אִ֨ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: 2SA 23:21!4
+    wordID: o100230210041
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνδρα
+    strong: '435'
+- position: 6
+  text: מִצְרִ֜י
+  lemma: מִצְרִי
+  transliteration: miṣriy
+  ids:
+    ref: 2SA 23:21!5
+    wordID: o100230210051
+  translation:
+    english: Egyptian
+    mandarin: 埃及
+    gloss: Egyptian
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ngmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: gentilic
+  lexical:
+    stronglemma: מִצְרִי
+    strong: '4713'
+  semantic:
+    sdbh:
+    - '004313001001000'
+    lexdomain:
+    - '003001006'
+- position: 7
+  text: אִ֣ישׁ
+  lemma: אִישׁ
+  transliteration: '**ʾiyš'
+  ids:
+    ref: 2SA 23:21!7
+    wordID: o100230210071
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνδρα
+    strong: '435'
+- position: 8
+  text: מַרְאֶ֗ה
+  lemma: מַרְאֶה
+  transliteration: marʾeh
+  ids:
+    ref: 2SA 23:21!8
+    wordID: o100230210081
+  translation:
+    english: impressive
+    mandarin: 体格
+    gloss: of.appearance
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַרְאֶה
+    strong: '4758'
+  semantic:
+    sdbh:
+    - '004355001006000'
+    lexdomain:
+    - '002001001034'
+    sense: '5'
+  lxx:
+    text: ὁρατόν
+- position: 9
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: 2SA 23:21!9
+    wordID: o100230210091
+  translation:
+    english: though
+    mandarin: 虽
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 10
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: 2SA 23:21!9
+    wordID: o100230210092
+  translation:
+    english: in
+    mandarin: 里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 11
+  text: יַ֤ד
+  lemma: יָד
+  transliteration: yaḏ
+  ids:
+    ref: 2SA 23:21!9
+    wordID: o100230210093
+  translation:
+    english: hand
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ξειρὶ
+    strong: '5495'
+- position: 12
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 2SA 23:21!10
+    wordID: o100230210101
+  translation:
+    english: the
+    mandarin: 这
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 13
+  text: מִּצְרִי֙
+  lemma: מִצְרִי
+  transliteration: mmiṣrî
+  ids:
+    ref: 2SA 23:21!10
+    wordID: o100230210102
+  translation:
+    english: Egyptian
+    mandarin: 埃及人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ngmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: gentilic
+  lexical:
+    stronglemma: מִצְרִי
+    strong: '4713'
+  semantic:
+    sdbh:
+    - '004313001001000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: αἰγυπτίου
+    strong: '124'
+- position: 14
+  text: חֲנִ֔ית
+  lemma: חֲנִית
+  transliteration: ḥăniyṯ
+  ids:
+    ref: 2SA 23:21!11
+    wordID: o100230210111
+  translation:
+    english: spear
+    mandarin: 矛
+    gloss: a.spear
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֲנִית
+    strong: '2595'
+  semantic:
+    sdbh:
+    - 002391001001000
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    sense: '1'
+  lxx:
+    text: δόρυ
+  syntax:
+    role: s
+- position: 15
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 23:21!12
+    wordID: o100230210121
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: יֵּ֥רֶד
+  lemma: יָרַד
+  transliteration: yyēreḏ
+  ids:
+    ref: 2SA 23:21!12
+    wordID: o100230210122
+  translation:
+    english: went down
+    mandarin: 下去
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָרַד
+    strong: '3381'
+  semantic:
+    sdbh:
+    - 003090001002000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - '077'
+    sense: '1'
+  lxx:
+    text: κατέβη
+    strong: '2597'
+  syntax:
+    role: v
+    frame: A0:100230200012;
+  discourse:
+    subject: '100230200012'
+- position: 17
+  text: אֵלָ֖י
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: 2SA 23:21!13
+    wordID: o100230210131
+  translation:
+    english: against
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 18
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2SA 23:21!13
+    wordID: o100230210132
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτὸν
+    strong: '846'
+  discourse:
+    participant: '100230210102'
+- position: 19
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: 2SA 23:21!14
+    wordID: o100230210141
+  translation:
+    english: with
+    mandarin: 拿着
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 20
+  text: שָּׁ֑בֶט
+  lemma: שֵׁבֶט
+  transliteration: ššāḇeṭ
+  ids:
+    ref: 2SA 23:21!14
+    wordID: o100230210142
+  translation:
+    english: club
+    mandarin: 棍子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֵׁבֶט
+    strong: '7626'
+  semantic:
+    sdbh:
+    - '007160001002000'
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    - '006'
+    - '188'
+    sense: '2'
+  lxx:
+    text: ῥάβδῳ
+    strong: '4464'
+- position: 21
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 23:21!15
+    wordID: o100230210151
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 22
+  text: יִּגְזֹ֤ל
+  lemma: גָּזַל
+  transliteration: yyiḡzōl
+  ids:
+    ref: 2SA 23:21!15
+    wordID: o100230210152
+  translation:
+    english: snatched
+    mandarin: 夺过
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: גָּזַל
+    strong: '1497'
+  semantic:
+    sdbh:
+    - '001372001001000'
+    lexdomain:
+    - '002003002020'
+    coredomain:
+    - '128'
+    - '017'
+    - 095
+    sense: '1'
+  lxx:
+    text: ἥρπασεν
+    strong: '726'
+  syntax:
+    role: v
+    frame: A0:100230200012; A1:100230210172;
+  discourse:
+    subject: '100230200012'
+- position: 23
+  text: אֶֽת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2SA 23:21!16
+    wordID: o100230210161
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 24
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 2SA 23:21!17
+    wordID: o100230210171
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸ
+    strong: '3588'
+- position: 25
+  text: חֲנִית֙
+  lemma: חֲנִית
+  transliteration: ḥănîṯ
+  ids:
+    ref: 2SA 23:21!17
+    wordID: o100230210172
+  translation:
+    english: spear
+    mandarin: 矛
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֲנִית
+    strong: '2595'
+  semantic:
+    sdbh:
+    - 002391001001000
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    sense: '1'
+  lxx:
+    text: δόρυ
+- position: 26
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: 2SA 23:21!18
+    wordID: o100230210181
+  translation:
+    english: from
+    mandarin: 从~里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐκ
+    strong: '1537'
+- position: 27
+  text: יַּ֣ד
+  lemma: יָד
+  transliteration: yyaḏ
+  ids:
+    ref: 2SA 23:21!18
+    wordID: o100230210182
+  translation:
+    english: hand
+    mandarin: 手
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יָד
+    strong: '3027'
+  semantic:
+    sdbh:
+    - 002787001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ξειρὸς
+    strong: '5495'
+- position: 28
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 2SA 23:21!19
+    wordID: o100230210191
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 29
+  text: מִּצְרִ֔י
+  lemma: מִצְרִי
+  transliteration: mmiṣriy
+  ids:
+    ref: 2SA 23:21!19
+    wordID: o100230210192
+  translation:
+    english: Egyptian’s
+    mandarin: 埃及人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ngmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: gentilic
+  lexical:
+    stronglemma: מִצְרִי
+    strong: '4713'
+  semantic:
+    sdbh:
+    - '004313001001000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: αἰγυπτίου
+    strong: '124'
+- position: 30
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 23:21!20
+    wordID: o100230210201
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 31
+  text: יַּהַרְגֵ֖
+  lemma: הָרַג
+  transliteration: ''
+  ids:
+    ref: 2SA 23:21!20
+    wordID: o100230210202
+  translation:
+    english: killed
+    mandarin: 杀死
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָרַג
+    strong: '2026'
+  semantic:
+    sdbh:
+    - 001873001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    sense: '1'
+  lxx:
+    text: ἀπέκτεινεν
+    strong: '615'
+  syntax:
+    role: v
+    frame: A0:100230200012; A1:100230210203;
+  discourse:
+    subject: '100230200012'
+- position: 32
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2SA 23:21!20
+    wordID: o100230210203
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - 001873001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+  lxx:
+    text: αὐτὸν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '100230210192'
+- position: 33
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: 2SA 23:21!21
+    wordID: o100230210211
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 34
+  text: חֲנִיתֽ
+  lemma: חֲנִית
+  transliteration: ''
+  ids:
+    ref: 2SA 23:21!21
+    wordID: o100230210212
+  translation:
+    english: spear
+    mandarin: 矛
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֲנִית
+    strong: '2595'
+  semantic:
+    sdbh:
+    - 002391001001000
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+    sense: '1'
+- position: 35
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2SA 23:21!21
+    wordID: o100230210213
+  translation:
+    english: his own
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 002391001001000
+    lexdomain:
+    - '001004001020'
+    coredomain:
+    - '027'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '100230210192'

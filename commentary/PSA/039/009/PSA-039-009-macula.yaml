@@ -1,0 +1,340 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 39:9
+text: מִכָּל־פְּשָׁעַ֥י הַצִּילֵ֑נִי חֶרְפַּ֥ת נָ֝בָ֗ל אַל־תְּשִׂימֵֽנִי׃
+words:
+- position: 1
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: PSA 39:9!1
+    wordID: o190390090011
+  translation:
+    english: from
+    mandarin: 脱离
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 2
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: PSA 39:9!1
+    wordID: o190390090012
+  translation:
+    english: all
+    mandarin: 一切
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πασῶν
+    strong: '3956'
+- position: 3
+  text: פְּשָׁעַ֥
+  lemma: פֶּשַׁע
+  transliteration: ''
+  ids:
+    ref: PSA 39:9!2
+    wordID: o190390090021
+  translation:
+    english: transgressions
+    mandarin: 过犯
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פֶּשַׁע
+    strong: '6588'
+  semantic:
+    sdbh:
+    - '006053001001000'
+    lexdomain:
+    - '002001003020'
+    sense: '1'
+- position: 4
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 39:9!2
+    wordID: o190390090022
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '006053001001000'
+    lexdomain:
+    - '002001003020'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190390010052'
+- position: 5
+  text: הַצִּילֵ֑
+  lemma: נָצַל
+  transliteration: ''
+  ids:
+    ref: PSA 39:9!3
+    wordID: o190390090031
+  translation:
+    english: deliver
+    mandarin: 救
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: imperative
+  lexical:
+    stronglemma: נָצַל
+    strong: '5337'
+  semantic:
+    sdbh:
+    - 004891001006000
+    lexdomain:
+    - 002003003018
+    sense: '1'
+  lxx:
+    text: ῥῦσαί
+    strong: '4506'
+  syntax:
+    role: v
+    frame: AA:190390080041; A0:190390090032;
+  discourse:
+    subject: '190390080041'
+- position: 6
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 39:9!3
+    wordID: o190390090032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 004891001006000
+    lexdomain:
+    - 002003003018
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190390010052'
+- position: 7
+  text: חֶרְפַּ֥ת
+  lemma: חֶרְפָּה
+  transliteration: ḥerpaṯ
+  ids:
+    ref: PSA 39:9!4
+    wordID: o190390090041
+  translation:
+    english: scorn
+    mandarin: 羞辱
+    gloss: a.reproach
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֶרְפָּה
+    strong: '2781'
+  semantic:
+    sdbh:
+    - '002557001004000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ὄνειδος
+    strong: '3681'
+- position: 8
+  text: נָ֝בָ֗ל
+  lemma: נָבָל
+  transliteration: nāḇāl
+  ids:
+    ref: PSA 39:9!5
+    wordID: o190390090051
+  translation:
+    english: fool
+    mandarin: 愚顽人
+    gloss: of.[the].foolish
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: נָבָל
+    strong: '5036'
+  semantic:
+    sdbh:
+    - '004617001001000'
+    lexdomain:
+    - '002001002010'
+    - '002001002012'
+    coredomain:
+    - '199'
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἄφρονι
+    strong: '878'
+- position: 9
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 39:9!6
+    wordID: o190390090061
+  translation:
+    english: not
+    mandarin: 不
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  syntax:
+    role: adv
+- position: 10
+  text: תְּשִׂימֵֽ
+  lemma: שׂים
+  transliteration: ''
+  ids:
+    ref: PSA 39:9!7
+    wordID: o190390090071
+  translation:
+    english: make
+    mandarin: 使~受
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: שׂים
+    strong: '7760'
+  semantic:
+    sdbh:
+    - 007028001006000
+    lexdomain:
+    - '002001001020'
+    coredomain:
+    - '160'
+    sense: '2'
+  lxx:
+    text: ἔδωκάς
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:190390080041; A1:190390090072;
+  discourse:
+    subject: '190390080041'
+- position: 11
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 39:9!7
+    wordID: o190390090072
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 007028001006000
+    lexdomain:
+    - '002001001020'
+    coredomain:
+    - '160'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190390010052'

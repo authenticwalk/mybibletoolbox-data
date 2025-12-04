@@ -1,0 +1,475 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JON 2:5
+text: וַאֲנִ֣י אָמַ֔רְתִּי נִגְרַ֖שְׁתִּי מִנֶּ֣גֶד עֵינֶ֑יךָ אַ֚ךְ אוֹסִ֣יף לְהַבִּ֔יט
+  אֶל־הֵיכַ֖ל קָדְשֶֽׁךָ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: JON 2:5!1
+    wordID: o320020050011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אֲנִ֣י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: JON 2:5!1
+    wordID: o320020050012
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '320020020021'
+- position: 3
+  text: אָמַ֔רְתִּי
+  lemma: אָמַר
+  transliteration: ʾāmarətî
+  ids:
+    ref: JON 2:5!2
+    wordID: o320020050021
+  translation:
+    english: said
+    mandarin: 说
+    gloss: I.said
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπα
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:320020050012;
+- position: 4
+  text: נִגְרַ֖שְׁתִּי
+  lemma: גָּרַשׁ
+  transliteration: niḡrašətî
+  ids:
+    ref: JON 2:5!3
+    wordID: o320020050031
+  translation:
+    english: banished
+    mandarin: 驱逐
+    gloss: I.have.been.driven.away
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: גָּרַשׁ
+    strong: '1644'
+  semantic:
+    sdbh:
+    - 001508001003000
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '1'
+  lxx:
+    text: ἀπῶσμαι
+    strong: '683'
+  syntax:
+    role: v
+    frame: A1:320020020021;
+  discourse:
+    subject: '320020020021'
+- position: 5
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: JON 2:5!4
+    wordID: o320020050041
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 6
+  text: נֶּ֣גֶד
+  lemma: נֶגֶד
+  transliteration: nneḡeḏ
+  ids:
+    ref: JON 2:5!4
+    wordID: o320020050042
+  translation:
+    english: before
+    mandarin: 前
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: נֶגֶד
+    strong: '5048'
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 7
+  text: עֵינֶ֑י
+  lemma: עַיִן
+  transliteration: ''
+  ids:
+    ref: JON 2:5!5
+    wordID: o320020050051
+  translation:
+    english: sight
+    mandarin: 眼
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbdc
+    gender: both
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀφθαλμῶν
+    strong: '3788'
+- position: 8
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JON 2:5!5
+    wordID: o320020050052
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '320020030061'
+- position: 9
+  text: אַ֚ךְ
+  lemma: אַךְ
+  transliteration: ʾaḵ
+  ids:
+    ref: JON 2:5!6
+    wordID: o320020050061
+  translation:
+    english: yet
+    mandarin: 但
+    gloss: nevertheless
+  morphology:
+    class: adv
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: אַךְ
+    strong: 0389
+  semantic:
+    sdbh:
+    - '000325001001000'
+    - '000364001005000'
+    lexdomain:
+    - '003002002'
+    - '004002'
+  lxx:
+    text: ἆρα
+    strong: '687'
+  syntax:
+    role: adv
+- position: 10
+  text: אוֹסִ֣יף
+  lemma: יָסַף
+  transliteration: ʾôsiyp̄
+  ids:
+    ref: JON 2:5!7
+    wordID: o320020050071
+  translation:
+    english: again
+    mandarin: 仍
+    gloss: I.will.repeat
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: יָסַף
+    strong: '3254'
+  semantic:
+    sdbh:
+    - 002975001002000
+    lexdomain:
+    - 002001003009
+    sense: '1'
+  lxx:
+    text: προσθήσω
+    strong: '4369'
+  syntax:
+    role: v
+    frame: A0:320020020021;
+  discourse:
+    subject: '320020020021'
+- position: 11
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: JON 2:5!8
+    wordID: o320020050081
+  translation:
+    english: to
+    mandarin: 又
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 12
+  text: הַבִּ֔יט
+  lemma: נָבַט
+  transliteration: habbiyṭ
+  ids:
+    ref: JON 2:5!8
+    wordID: o320020050082
+  translation:
+    english: look
+    mandarin: 仰望
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: נָבַט
+    strong: '5027'
+  semantic:
+    sdbh:
+    - 004608001001000
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ἐπιβλέψαι
+    strong: '1914'
+  syntax:
+    role: v
+    frame: A0:320020020021;
+  discourse:
+    subject: '320020020021'
+- position: 13
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: JON 2:5!9
+    wordID: o320020050091
+  translation:
+    english: toward
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 14
+  text: הֵיכַ֖ל
+  lemma: הֵיכָל
+  transliteration: hêḵal
+  ids:
+    ref: JON 2:5!10
+    wordID: o320020050101
+  translation:
+    english: temple
+    mandarin: 殿
+    gloss: the.temple
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: הֵיכָל
+    strong: '1964'
+  semantic:
+    sdbh:
+    - 001809001001000
+    lexdomain:
+    - '001005001001'
+    coredomain:
+    - '020'
+    sense: '1'
+  lxx:
+    text: ναὸν
+    strong: '3485'
+- position: 15
+  text: קָדְשֶֽׁ
+  lemma: קֹדֶשׁ
+  transliteration: ''
+  ids:
+    ref: JON 2:5!11
+    wordID: o320020050111
+  translation:
+    english: holy
+    mandarin: 圣
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: קֹדֶשׁ
+    strong: '6944'
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἅγιόν
+    strong: '39'
+- position: 16
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JON 2:5!11
+    wordID: o320020050112
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 006395001002000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '320020030061'

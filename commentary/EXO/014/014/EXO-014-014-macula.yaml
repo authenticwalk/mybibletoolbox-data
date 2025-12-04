@@ -1,0 +1,221 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 14:14
+text: יְהוָ֖ה יִלָּחֵ֣ם לָכֶ֑ם וְאַתֶּ֖ם תַּחֲרִישֽׁוּן׃פ
+words:
+- position: 1
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: EXO 14:14!1
+    wordID: o020140140011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 2
+  text: יִלָּחֵ֣ם
+  lemma: לָחַם
+  transliteration: yillāḥēm
+  ids:
+    ref: EXO 14:14!2
+    wordID: o020140140021
+  translation:
+    english: fight
+    mandarin: 争战
+    gloss: he.will.fight
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: לָחַם
+    strong: '3898'
+  semantic:
+    sdbh:
+    - '003563002002000'
+    lexdomain:
+    - '002003002007'
+    sense: '1'
+  lxx:
+    text: πολεμήσει
+  syntax:
+    role: v
+    frame: A0:020140140011;
+- position: 3
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: EXO 14:14!3
+    wordID: o020140140031
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: περὶ
+    strong: '4012'
+- position: 4
+  text: כֶ֑ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 14:14!3
+    wordID: o020140140032
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '020140130042'
+- position: 5
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EXO 14:14!4
+    wordID: o020140140041
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: אַתֶּ֖ם
+  lemma: אַתֶּם
+  transliteration: ʾattem
+  ids:
+    ref: EXO 14:14!4
+    wordID: o020140140042
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתֶּם
+    strong: 0859a
+  lxx:
+    text: ὑμεῖς
+    strong: '5210'
+  syntax:
+    role: s
+  discourse:
+    participant: '020140130042'
+- position: 7
+  text: תַּחֲרִישֽׁוּ
+  lemma: חָרֵשׁ
+  transliteration: ''
+  ids:
+    ref: EXO 14:14!5
+    wordID: o020140140051
+  translation:
+    english: keep still
+    mandarin: 安静
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: חָרֵשׁ
+    strong: 2790a
+  semantic:
+    sdbh:
+    - '002565002002000'
+    lexdomain:
+    - 002004001009004
+    - '002003003011'
+    coredomain:
+    - '041'
+    sense: '1'
+  syntax:
+    frame: A0:020140140042;
+- position: 8
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: EXO 14:14!5
+    wordID: o020140140052
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - '002565002002000'
+    lexdomain:
+    - 002004001009004
+    - '002003003011'
+    coredomain:
+    - '041'
+  lxx:
+    text: σιγήσετε

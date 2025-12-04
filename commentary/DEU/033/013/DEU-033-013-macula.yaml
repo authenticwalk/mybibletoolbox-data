@@ -1,0 +1,521 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 33:13
+text: וּלְיוֹסֵ֣ף אָמַ֔ר מְבֹרֶ֥כֶת יְהֹוָ֖ה אַרְצ֑וֹ מִמֶּ֤גֶד שָׁמַ֨יִם֙ מִטָּ֔ל
+  וּמִתְּה֖וֹם רֹבֶ֥צֶת תָּֽחַת׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DEU 33:13!1
+    wordID: o050330130011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: DEU 33:13!1
+    wordID: o050330130012
+  translation:
+    english: of
+    mandarin: 关于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 3
+  text: יוֹסֵ֣ף
+  lemma: יוֹסֵף
+  transliteration: yôsēp̄
+  ids:
+    ref: DEU 33:13!1
+    wordID: o050330130013
+  translation:
+    english: Joseph
+    mandarin: 约瑟
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יוֹסֵף
+    strong: '3130'
+  semantic:
+    sdbh:
+    - 002862001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιωσηφ
+    strong: '2501'
+- position: 4
+  text: אָמַ֔ר
+  lemma: אָמַר
+  transliteration: ʾāmar
+  ids:
+    ref: DEU 33:13!2
+    wordID: o050330130021
+  translation:
+    english: said
+    mandarin: 说
+    gloss: he.said
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:050330040041;
+  discourse:
+    subject: '050330040041'
+- position: 5
+  text: מְבֹרֶ֥כֶת
+  lemma: בָּרַךְ
+  transliteration: məḇōreḵeṯ
+  ids:
+    ref: DEU 33:13!3
+    wordID: o050330130031
+  translation:
+    english: blessed
+    mandarin: 赐福
+    gloss: '[be].blessed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPsfsc
+    gender: feminine
+    number: singular
+    state: construct
+    stem: pual
+    type: participle passive
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '2'
+  lxx:
+    text: εὐλογίας
+    strong: '2129'
+  syntax:
+    frame: A1:050330130051;
+  discourse:
+    subject: '050330130051'
+- position: 6
+  text: יְהֹוָ֖ה
+  lemma: יהוה
+  transliteration: yəhōwāh
+  ids:
+    ref: DEU 33:13!4
+    wordID: o050330130041
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'
+- position: 7
+  text: אַרְצ֑
+  lemma: אֶרֶץ
+  transliteration: ''
+  ids:
+    ref: DEU 33:13!5
+    wordID: o050330130051
+  translation:
+    english: land
+    mandarin: 地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆ
+    strong: '1093'
+- position: 8
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 33:13!5
+    wordID: o050330130052
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '050330130013'
+- position: 9
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: DEU 33:13!6
+    wordID: o050330130061
+  translation:
+    english: with
+    mandarin: 得
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 10
+  text: מֶּ֤גֶד
+  lemma: מֶגֶד
+  transliteration: mmeḡeḏ
+  ids:
+    ref: DEU 33:13!6
+    wordID: o050330130062
+  translation:
+    english: choice things
+    mandarin: 佳果
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מֶגֶד
+    strong: '4022'
+  semantic:
+    sdbh:
+    - 003682001001000
+    lexdomain:
+    - 002001001028
+    coredomain:
+    - '137'
+    sense: '1'
+  lxx:
+    text: ὡρῶν
+    strong: '5610'
+- position: 11
+  text: שָׁמַ֨יִם֙
+  lemma: שָׁמַיִם
+  transliteration: šāmayim
+  ids:
+    ref: DEU 33:13!7
+    wordID: o050330130071
+  translation:
+    english: heaven
+    mandarin: 天上
+    gloss: of.heaven
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁמַיִם
+    strong: '8064'
+  semantic:
+    sdbh:
+    - 007459001001000
+    lexdomain:
+    - '001005002001'
+    coredomain:
+    - '185'
+    sense: '1'
+  lxx:
+    text: οὐρανοῦ
+    strong: '3772'
+- position: 12
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: DEU 33:13!8
+    wordID: o050330130081
+  translation:
+    english: with
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: טָּ֔ל
+  lemma: טַל
+  transliteration: ṭṭāl
+  ids:
+    ref: DEU 33:13!8
+    wordID: o050330130082
+  translation:
+    english: dew
+    mandarin: 甘露
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: טַל
+    strong: '2919'
+  semantic:
+    sdbh:
+    - 002689001001000
+    lexdomain:
+    - '001006011'
+    coredomain:
+    - '101'
+    sense: '1'
+  lxx:
+    text: δρόσου
+- position: 14
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DEU 33:13!9
+    wordID: o050330130091
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: DEU 33:13!9
+    wordID: o050330130092
+  translation:
+    english: with
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 16
+  text: תְּה֖וֹם
+  lemma: תְּהוֹם
+  transliteration: təhôm
+  ids:
+    ref: DEU 33:13!9
+    wordID: o050330130093
+  translation:
+    english: deep
+    mandarin: 泉水
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּהוֹם
+    strong: '8415'
+  semantic:
+    sdbh:
+    - '007722001001000'
+    lexdomain:
+    - '001005002003'
+    - '001005002002005'
+    coredomain:
+    - '185'
+    - '115'
+    - '101'
+    sense: '1'
+  lxx:
+    text: ἀβύσσων
+    strong: '12'
+- position: 17
+  text: רֹבֶ֥צֶת
+  lemma: רָבַץ
+  transliteration: rōḇeṣeṯ
+  ids:
+    ref: DEU 33:13!10
+    wordID: o050330130101
+  translation:
+    english: lie
+    mandarin: 伏
+    gloss: '[which].lies'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רָבַץ
+    strong: '7257'
+  semantic:
+    sdbh:
+    - '006674001004000'
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '2'
+  lxx:
+    text: πηγῶν
+  syntax:
+    role: v
+    frame: A0:050330130093;
+  discourse:
+    subject: 050330130093
+- position: 18
+  text: תָּֽחַת
+  lemma: תַּחַת
+  transliteration: 'tāḥaṯ:'
+  ids:
+    ref: DEU 33:13!11
+    wordID: o050330130111
+  translation:
+    english: beneath
+    mandarin: 地下
+    gloss: beneath
+  morphology:
+    class: adv
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תַּחַת
+    strong: '8478'
+  lxx:
+    text: κάτωθεν
+  syntax:
+    role: adv

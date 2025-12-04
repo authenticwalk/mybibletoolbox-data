@@ -1,0 +1,472 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 99:8
+text: יְהוָ֣ה אֱלֹהֵינוּ֮ אַתָּ֪ה עֲנִ֫יתָ֥ם אֵ֣ל נֹ֭שֵׂא הָיִ֣יתָ לָהֶ֑ם וְ֝נֹקֵ֗ם
+  עַל־עֲלִילוֹתָֽם׃
+words:
+- position: 1
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 99:8!1
+    wordID: o190990080011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אֱלֹהֵי
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!2
+    wordID: o190990080021
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 3
+  text: נוּ֮
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!2
+    wordID: o190990080022
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 190990020022 190990020082
+- position: 4
+  text: אַתָּ֪ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: PSA 99:8!3
+    wordID: o190990080031
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '190990080011'
+- position: 5
+  text: עֲנִ֫יתָ֥
+  lemma: עָנָה
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!4
+    wordID: o190990080041
+  translation:
+    english: answered
+    mandarin: 应允
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐπήκουες
+  syntax:
+    role: v
+    frame: A0:190990080031; A1:190990080042;
+- position: 6
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!4
+    wordID: o190990080042
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: '190990060052'
+- position: 7
+  text: אֵ֣ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: PSA 99:8!5
+    wordID: o190990080051
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: a.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 8
+  text: נֹ֭שֵׂא
+  lemma: נָשָׂא
+  transliteration: nōśēʾ
+  ids:
+    ref: PSA 99:8!6
+    wordID: o190990080061
+  translation:
+    english: forgiving
+    mandarin: 赦免
+    gloss: forgiving
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001012000
+    lexdomain:
+    - '002003003014'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '6'
+  lxx:
+    text: εὐίλατος
+  syntax:
+    frame: A0:190990080051;
+  discourse:
+    subject: '190990080051'
+- position: 9
+  text: הָיִ֣יתָ
+  lemma: הָיָה
+  transliteration: hāyiyṯā
+  ids:
+    ref: PSA 99:8!7
+    wordID: o190990080071
+  translation:
+    english: were
+    mandarin: 是
+    gloss: you.were
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγίνου
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:190990080011;
+  discourse:
+    subject: '190990080011'
+- position: 10
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!8
+    wordID: o190990080081
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 11
+  text: הֶ֑ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!8
+    wordID: o190990080082
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: '190990060052'
+- position: 12
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 99:8!9
+    wordID: o190990080091
+  translation:
+    english: though
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: נֹקֵ֗ם
+  lemma: נָקַם
+  transliteration: nōqēm
+  ids:
+    ref: PSA 99:8!9
+    wordID: o190990080092
+  translation:
+    english: avenger
+    mandarin: 报应
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָקַם
+    strong: '5358'
+  semantic:
+    sdbh:
+    - 004908001001000
+    lexdomain:
+    - '002003002006'
+    - '002001002023'
+    coredomain:
+    - '140'
+    sense: '1'
+  lxx:
+    text: ἐκδικῶν
+  syntax:
+    role: v
+    frame: A0:190990080011;
+  discourse:
+    subject: '190990080011'
+- position: 14
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PSA 99:8!10
+    wordID: o190990080101
+  translation:
+    english: of
+    mandarin: 按
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 15
+  text: עֲלִילוֹתָֽ
+  lemma: עֲלִילָה
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!11
+    wordID: o190990080111
+  translation:
+    english: wrongdoings
+    mandarin: 所行的
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֲלִילָה
+    strong: '5949'
+  semantic:
+    sdbh:
+    - '005461001002000'
+    lexdomain:
+    - '002002002001'
+    sense: '1'
+- position: 16
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 99:8!11
+    wordID: o190990080112
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '005461001002000'
+    lexdomain:
+    - '002002002001'
+  discourse:
+    participant: '190990060052'

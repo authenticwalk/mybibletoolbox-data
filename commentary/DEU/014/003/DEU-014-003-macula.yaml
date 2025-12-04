@@ -1,0 +1,127 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 14:3
+text: לֹ֥א תֹאכַ֖ל כָּל־תּוֹעֵבָֽה׃
+words:
+- position: 1
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: DEU 14:3!1
+    wordID: o050140030011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: תֹאכַ֖ל
+  lemma: אָכַל
+  transliteration: ṯōʾḵal
+  ids:
+    ref: DEU 14:3!2
+    wordID: o050140030021
+  translation:
+    english: eat
+    mandarin: 吃
+    gloss: you.will.eat
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγεσθε
+    strong: '2068'
+  syntax:
+    role: v
+    frame: A0:050130120021; A1:050140030041;
+  discourse:
+    subject: '050130120021'
+- position: 3
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: DEU 14:3!3
+    wordID: o050140030031
+  translation:
+    english: any
+    mandarin: 凡
+    gloss: any
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶν
+    strong: '3956'
+- position: 4
+  text: תּוֹעֵבָֽה
+  lemma: תּוֹעֵבַה
+  transliteration: 'tôʿēḇāh:'
+  ids:
+    ref: DEU 14:3!4
+    wordID: o050140030041
+  translation:
+    english: detestable thing
+    mandarin: 可厌恶之物
+    gloss: disgusting.thing
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תּוֹעֵבַה
+    strong: '8441'
+  semantic:
+    sdbh:
+    - 007748001002000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: βδέλυγμα
+    strong: '946'

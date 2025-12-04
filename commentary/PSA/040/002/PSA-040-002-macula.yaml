@@ -1,0 +1,315 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 40:2
+text: קַוֺּ֣ה קִוִּ֣יתִי יְהוָ֑ה וַיֵּ֥ט אֵ֝לַ֗י וַיִּשְׁמַ֥ע שַׁוְעָתִֽי׃
+words:
+- position: 1
+  text: קַוֺּ֣ה
+  lemma: קָוָה
+  transliteration: qawwōh
+  ids:
+    ref: PSA 40:2!1
+    wordID: o190400020011
+  translation:
+    english: to wait for
+    mandarin: 等候
+    gloss: patiently.(wait)
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpa
+    stem: piel
+    type: infinitive absolute
+  lexical:
+    stronglemma: קָוָה
+    strong: '6960'
+  semantic:
+    sdbh:
+    - '006407001001000'
+    lexdomain:
+    - '002004002001001'
+    - '002001002003'
+    sense: '1'
+  lxx:
+    text: ὑπομένων
+  syntax:
+    role: adv
+- position: 2
+  text: קִוִּ֣יתִי
+  lemma: קָוָה
+  transliteration: qiwwiyṯî
+  ids:
+    ref: PSA 40:2!2
+    wordID: o190400020021
+  translation:
+    english: I waited for
+    mandarin: 我等候
+    gloss: I.waited.for
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: קָוָה
+    strong: '6960'
+  semantic:
+    sdbh:
+    - '006407001001000'
+    lexdomain:
+    - '002004002001001'
+    - '002001002003'
+    sense: '1'
+  lxx:
+    text: ὑπέμεινα
+  syntax:
+    role: v
+    frame: A0:190400010022; A1:190400020031;
+  discourse:
+    subject: '190400010022'
+- position: 3
+  text: יְהוָ֑ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 40:2!3
+    wordID: o190400020031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  syntax:
+    role: o
+- position: 4
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 40:2!4
+    wordID: o190400020041
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: יֵּ֥ט
+  lemma: נָטָה
+  transliteration: yyēṭ
+  ids:
+    ref: PSA 40:2!4
+    wordID: o190400020042
+  translation:
+    english: inclined
+    mandarin: 他~转
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָטָה
+    strong: '5186'
+  semantic:
+    sdbh:
+    - '004755001005000'
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+    sense: '2'
+  lxx:
+    text: προσέσξεν
+  syntax:
+    role: v
+    frame: A0:190400020031;
+  discourse:
+    subject: '190400020031'
+- position: 6
+  text: אֵ֝לַ֗
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: PSA 40:2!5
+    wordID: o190400020051
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 40:2!5
+    wordID: o190400020052
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: '190400010022'
+- position: 8
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 40:2!6
+    wordID: o190400020061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: יִּשְׁמַ֥ע
+  lemma: שָׁמַע
+  transliteration: yyišmaʿ
+  ids:
+    ref: PSA 40:2!6
+    wordID: o190400020062
+  translation:
+    english: heard
+    mandarin: 垂听
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσήκουσεν
+    strong: '1522'
+  syntax:
+    role: v
+    frame: A0:190400020031; A1:190400020071;
+  discourse:
+    subject: '190400020031'
+- position: 10
+  text: שַׁוְעָתִֽ
+  lemma: שַׁוְעָה
+  transliteration: ''
+  ids:
+    ref: PSA 40:2!7
+    wordID: o190400020071
+  translation:
+    english: cry
+    mandarin: 呼求
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שַׁוְעָה
+    strong: '7775'
+  semantic:
+    sdbh:
+    - 007258001001000
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    - '196'
+    sense: '1'
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 40:2!7
+    wordID: o190400020072
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 007258001001000
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    - '196'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190400010022'

@@ -1,0 +1,555 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: HOS 7:7
+text: כֻּלָּ֤ם יֵחַ֨מּוּ֙ כַּתַּנּ֔וּר וְאָכְל֖וּ אֶת־שֹֽׁפְטֵיהֶ֑ם כָּל־מַלְכֵיהֶ֣ם
+  נָפָ֔לוּ אֵין־קֹרֵ֥א בָהֶ֖ם אֵלָֽי׃
+words:
+- position: 1
+  text: כֻּלָּ֤
+  lemma: כֹּל
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!1
+    wordID: o280070070011
+  translation:
+    english: all
+    mandarin: 全都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 2
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!1
+    wordID: o280070070012
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  discourse:
+    participant: 280070010051 280070010071
+- position: 3
+  text: יֵחַ֨מּוּ֙
+  lemma: חָמַם
+  transliteration: yēḥammû
+  ids:
+    ref: HOS 7:7!2
+    wordID: o280070070021
+  translation:
+    english: hot
+    mandarin: 热
+    gloss: they.are.hot
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָמַם
+    strong: '2552'
+  semantic:
+    sdbh:
+    - '002355001005000'
+    lexdomain:
+    - '002001002002'
+    coredomain:
+    - '176'
+    sense: '2'
+  lxx:
+    text: ἐθερμάνθησαν
+  syntax:
+    role: v
+    frame: A0:280070070012;
+- position: 4
+  text: כַּ
+  lemma: כְּ
+  transliteration: ka
+  ids:
+    ref: HOS 7:7!3
+    wordID: o280070070031
+  translation:
+    english: as
+    mandarin: 如
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 5
+  text: תַּנּ֔וּר
+  lemma: תַּנּוּר
+  transliteration: tannûr
+  ids:
+    ref: HOS 7:7!3
+    wordID: o280070070032
+  translation:
+    english: oven
+    mandarin: 火炉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תַּנּוּר
+    strong: '8574'
+  semantic:
+    sdbh:
+    - 007866001001000
+    lexdomain:
+    - '001004001007'
+    coredomain:
+    - '181'
+    sense: '1'
+  lxx:
+    text: κλίβανος
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: HOS 7:7!4
+    wordID: o280070070041
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: אָכְל֖וּ
+  lemma: אָכַל
+  transliteration: ʾāḵəlû
+  ids:
+    ref: HOS 7:7!4
+    wordID: o280070070042
+  translation:
+    english: devour
+    mandarin: 吞灭
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001003000'
+    lexdomain:
+    - '002002002006'
+    - 002001001019
+    coredomain:
+    - '052'
+    - 099
+    - '006'
+    sense: '2'
+  lxx:
+    text: κατέφαγον
+    strong: '2719'
+  syntax:
+    role: v
+    frame: A0:280070010051;280070010071; A1:280070070061;
+  discourse:
+    subject: 280070010051 280070010071
+- position: 8
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: HOS 7:7!5
+    wordID: o280070070051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: שֹֽׁפְטֵי
+  lemma: שָׁפַט
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!6
+    wordID: o280070070061
+  translation:
+    english: rulers
+    mandarin: 官长
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׁפַט
+    strong: '8199'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κριτὰς
+    strong: '2923'
+- position: 10
+  text: הֶ֑ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!6
+    wordID: o280070070062
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  discourse:
+    participant: 280070010051 280070010071
+- position: 11
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: HOS 7:7!7
+    wordID: o280070070071
+  translation:
+    english: all
+    mandarin: 都
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 12
+  text: מַלְכֵי
+  lemma: מֶלֶךְ
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!8
+    wordID: o280070070081
+  translation:
+    english: kings
+    mandarin: 君王
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מֶלֶךְ
+    strong: '4428'
+  semantic:
+    sdbh:
+    - 004048001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - '170'
+    - 095
+    sense: '1'
+  lxx:
+    text: βασιλεῖς
+    strong: '935'
+- position: 13
+  text: הֶ֣ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!8
+    wordID: o280070070082
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 004048001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - '170'
+    - 095
+  discourse:
+    participant: 280070010051 280070010071
+- position: 14
+  text: נָפָ֔לוּ
+  lemma: נָפַל
+  transliteration: nāp̄ālû
+  ids:
+    ref: HOS 7:7!9
+    wordID: o280070070091
+  translation:
+    english: fallen
+    mandarin: 仆倒
+    gloss: they.have.fallen
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: נָפַל
+    strong: '5307'
+  semantic:
+    sdbh:
+    - 004866001046000
+    lexdomain:
+    - '002003003021'
+    sense: '1'
+  lxx:
+    text: ἔπεσαν
+    strong: '4098'
+  syntax:
+    role: v
+    frame: A0:280070070081;
+- position: 15
+  text: אֵין
+  lemma: אַיִן
+  transliteration: ʾên-
+  ids:
+    ref: HOS 7:7!10
+    wordID: o280070070101
+  translation:
+    english: none
+    mandarin: 没有
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 16
+  text: קֹרֵ֥א
+  lemma: קָרָא
+  transliteration: qōrēʾ
+  ids:
+    ref: HOS 7:7!11
+    wordID: o280070070111
+  translation:
+    english: calls
+    mandarin: 求告
+    gloss: '[one.who].calls'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐπικαλούμενος
+    strong: '1941'
+  syntax:
+    role: v
+- position: 17
+  text: בָ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!12
+    wordID: o280070070121
+  translation:
+    english: of
+    mandarin: 中间
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 18
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!12
+    wordID: o280070070122
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: 280070010051 280070010071
+- position: 19
+  text: אֵלָֽ
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!13
+    wordID: o280070070131
+  translation:
+    english: 'on'
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρός
+    strong: '4314'
+- position: 20
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HOS 7:7!13
+    wordID: o280070070132
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '280060060071'

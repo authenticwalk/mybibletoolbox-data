@@ -1,0 +1,268 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 3:13
+text: אַשְׁרֵ֣י אָ֭דָם מָצָ֣א חָכְמָ֑ה וְ֝אָדָ֗ם יָפִ֥יק תְּבוּנָֽה׃
+words:
+- position: 1
+  text: אַשְׁרֵ֣י
+  lemma: אֶשֶׁר
+  transliteration: ʾašrēy
+  ids:
+    ref: PRO 3:13!1
+    wordID: o200030130011
+  translation:
+    english: happy
+    mandarin: 有福
+    gloss: how.blessed!
+  morphology:
+    class: ij
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶשֶׁר
+    strong: 0835a
+  semantic:
+    sdbh:
+    - 000779001001000
+    lexdomain:
+    - 002004001009009
+    - '002001002024'
+    coredomain:
+    - 093
+    - '170'
+    - '196'
+  lxx:
+    text: μακάριος
+    strong: '3107'
+  syntax:
+    role: p
+- position: 2
+  text: אָ֭דָם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: PRO 3:13!2
+    wordID: o200030130021
+  translation:
+    english: man
+    mandarin: 人
+    gloss: '[is].a.person'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἄνθρωπος
+    strong: '444'
+- position: 3
+  text: מָצָ֣א
+  lemma: מָצָא
+  transliteration: māṣāʾ
+  ids:
+    ref: PRO 3:13!3
+    wordID: o200030130031
+  translation:
+    english: finds
+    mandarin: 得
+    gloss: '[who].he.finds'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001008000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: εὗρεν
+    strong: '2147'
+  syntax:
+    role: v
+    frame: A0:200030130021; A1:200030130041;
+  discourse:
+    subject: '200030130021'
+- position: 4
+  text: חָכְמָ֑ה
+  lemma: חׇכְמָה
+  transliteration: ḥoḵmāh
+  ids:
+    ref: PRO 3:13!4
+    wordID: o200030130041
+  translation:
+    english: wisdom
+    mandarin: 智慧
+    gloss: wisdom
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חׇכְמָה
+    strong: '2451'
+  semantic:
+    sdbh:
+    - '002265001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: σοφίαν
+    strong: '4678'
+  syntax:
+    role: o
+- position: 5
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 3:13!5
+    wordID: o200030130051
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: אָדָ֗ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: PRO 3:13!5
+    wordID: o200030130052
+  translation:
+    english: man
+    mandarin: 人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: θνητὸς
+- position: 7
+  text: יָפִ֥יק
+  lemma: פּוּק
+  transliteration: yāp̄iyq
+  ids:
+    ref: PRO 3:13!6
+    wordID: o200030130061
+  translation:
+    english: gains
+    mandarin: 得
+    gloss: '[who].he.obtains'
+  morphology:
+    class: verb
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פּוּק
+    strong: '6329'
+  semantic:
+    sdbh:
+    - 005813002002000
+    lexdomain:
+    - '002003003010'
+    coredomain:
+    - '173'
+    sense: '1'
+  lxx:
+    text: εἶδεν
+    strong: '1492'
+  syntax:
+    role: v
+    frame: AA:200030130052; A0:200030130071;
+  discourse:
+    subject: '200030130052'
+- position: 8
+  text: תְּבוּנָֽה
+  lemma: תְּבוּנָה
+  transliteration: 'təḇûnāh:'
+  ids:
+    ref: PRO 3:13!7
+    wordID: o200030130071
+  translation:
+    english: understanding
+    mandarin: 聪明
+    gloss: understanding
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּבוּנָה
+    strong: '8394'
+  semantic:
+    sdbh:
+    - '007700001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '106'
+    - '199'
+    sense: '1'
+  lxx:
+    text: φρόνησιν
+  syntax:
+    role: o

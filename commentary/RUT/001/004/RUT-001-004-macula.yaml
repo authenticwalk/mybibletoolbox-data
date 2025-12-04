@@ -1,0 +1,562 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: RUT 1:4
+text: וַיִּשְׂא֣וּ לָהֶ֗ם נָשִׁים֙ מֹֽאֲבִיּ֔וֹת שֵׁ֤ם הָֽאַחַת֙ עָרְפָּ֔ה וְשֵׁ֥ם
+  הַשֵּׁנִ֖ית ר֑וּת וַיֵּ֥שְׁבוּ שָׁ֖ם כְּעֶ֥שֶׂר שָׁנִֽים׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: RUT 1:4!1
+    wordID: o080010040011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יִּשְׂא֣וּ
+  lemma: נָשָׂא
+  transliteration: yyiśʾû
+  ids:
+    ref: RUT 1:4!1
+    wordID: o080010040012
+  translation:
+    english: took
+    mandarin: 娶
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001008000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+    - '105'
+    sense: '4'
+  lxx:
+    text: ἐλάβοσαν
+  syntax:
+    role: v
+    frame: A0:080010030081; A1:080010040031;
+  discourse:
+    subject: 080010030081
+- position: 3
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: RUT 1:4!2
+    wordID: o080010040021
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 4
+  text: הֶ֗ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: RUT 1:4!2
+    wordID: o080010040022
+  translation:
+    english: these
+    mandarin: 各自
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: ἑαυτοῖς
+    strong: '1438'
+  discourse:
+    participant: 080010030081
+- position: 5
+  text: נָשִׁים֙
+  lemma: אִשָּׁה
+  transliteration: nāšîm
+  ids:
+    ref: RUT 1:4!3
+    wordID: o080010040031
+  translation:
+    english: wives
+    mandarin: 女子
+    gloss: wives
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִשָּׁה
+    strong: 0802
+  semantic:
+    sdbh:
+    - 000738001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '2'
+  lxx:
+    text: γυναῖκας
+    strong: '1135'
+- position: 6
+  text: מֹֽאֲבִיּ֔וֹת
+  lemma: מוֹאָבִי
+  transliteration: mōʾăḇiyyôṯ
+  ids:
+    ref: RUT 1:4!4
+    wordID: o080010040041
+  translation:
+    english: Moabite
+    mandarin: 摩押
+    gloss: Moabite
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ngfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: gentilic
+  lexical:
+    stronglemma: מוֹאָבִי
+    strong: '4125'
+  semantic:
+    sdbh:
+    - '003766001001000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: μωαβίτιδας
+- position: 7
+  text: שֵׁ֤ם
+  lemma: שֵׁם
+  transliteration: šēm
+  ids:
+    ref: RUT 1:4!5
+    wordID: o080010040051
+  translation:
+    english: name
+    mandarin: 名叫
+    gloss: the.name
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001001000'
+    lexdomain:
+    - '002004002010'
+    sense: '1'
+  lxx:
+    text: ὄνομα
+    strong: '3686'
+- position: 8
+  text: הָֽ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: RUT 1:4!6
+    wordID: o080010040061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τῇ
+    strong: '3588'
+- position: 9
+  text: אַחַת֙
+  lemma: אֶחָד
+  transliteration: ʾaḥaṯ
+  ids:
+    ref: RUT 1:4!6
+    wordID: o080010040062
+  translation:
+    english: one
+    mandarin: 一
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶחָד
+    strong: 0259
+  semantic:
+    sdbh:
+    - '000244001004000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: μιᾷ
+    strong: '3391'
+- position: 10
+  text: עָרְפָּ֔ה
+  lemma: עׇרְפָּה
+  transliteration: ʿorpāh
+  ids:
+    ref: RUT 1:4!7
+    wordID: o080010040071
+  translation:
+    english: Orpah
+    mandarin: 俄珥巴
+    gloss: '[was].Orpah'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: עׇרְפָּה
+    strong: '6204'
+  semantic:
+    sdbh:
+    - 005688001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ορφα
+  syntax:
+    role: p
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: RUT 1:4!8
+    wordID: o080010040081
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: שֵׁ֥ם
+  lemma: שֵׁם
+  transliteration: šēm
+  ids:
+    ref: RUT 1:4!8
+    wordID: o080010040082
+  translation:
+    english: name
+    mandarin: 名叫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֵׁם
+    strong: '8034'
+  semantic:
+    sdbh:
+    - '007437001001000'
+    lexdomain:
+    - '002004002010'
+    sense: '1'
+  lxx:
+    text: ὄνομα
+    strong: '3686'
+- position: 13
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: RUT 1:4!9
+    wordID: o080010040091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τῇ
+    strong: '3588'
+- position: 14
+  text: שֵּׁנִ֖ית
+  lemma: שֵׁנִי
+  transliteration: ššēniyṯ
+  ids:
+    ref: RUT 1:4!9
+    wordID: o080010040092
+  translation:
+    english: other
+    mandarin: 另一
+  morphology:
+    class: num
+    pos: adjective
+    morph: Aofsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: ordinal number
+  lexical:
+    stronglemma: שֵׁנִי
+    strong: '8145'
+  semantic:
+    sdbh:
+    - '007527001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: δευτέρᾳ
+    strong: '1208'
+- position: 15
+  text: ר֑וּת
+  lemma: רוּת
+  transliteration: rûṯ
+  ids:
+    ref: RUT 1:4!10
+    wordID: o080010040101
+  translation:
+    english: Ruth
+    mandarin: 路得
+    gloss: '[was].Ruth'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: רוּת
+    strong: '7327'
+  semantic:
+    sdbh:
+    - '006733001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ρουθ
+  syntax:
+    role: p
+- position: 16
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: RUT 1:4!11
+    wordID: o080010040111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 17
+  text: יֵּ֥שְׁבוּ
+  lemma: יָשַׁב
+  transliteration: yyēšəḇû
+  ids:
+    ref: RUT 1:4!11
+    wordID: o080010040112
+  translation:
+    english: lived
+    mandarin: 住
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001011000'
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '1'
+  lxx:
+    text: κατῴκησαν
+    strong: '2730'
+  syntax:
+    role: v
+    frame: A0:080010030081;
+  discourse:
+    subject: 080010030081
+- position: 18
+  text: שָׁ֖ם
+  lemma: שָׁם
+  transliteration: šām
+  ids:
+    ref: RUT 1:4!12
+    wordID: o080010040121
+  translation:
+    english: there
+    mandarin: 那里
+    gloss: there
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  lxx:
+    text: ἐκεῖ
+    strong: '1563'
+  syntax:
+    role: adv
+- position: 19
+  text: כְּ
+  lemma: כְּ
+  transliteration: kə
+  ids:
+    ref: RUT 1:4!13
+    wordID: o080010040131
+  translation:
+    english: about
+    mandarin: 约
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 20
+  text: עֶ֥שֶׂר
+  lemma: עֶשֶׂר
+  transliteration: ʿeśer
+  ids:
+    ref: RUT 1:4!13
+    wordID: o080010040132
+  translation:
+    english: ten
+    mandarin: 十
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: עֶשֶׂר
+    strong: '6235'
+  lxx:
+    text: δέκα
+    strong: '1176'
+- position: 21
+  text: שָׁנִֽים
+  lemma: שָׁנָה
+  transliteration: 'šāniym:'
+  ids:
+    ref: RUT 1:4!14
+    wordID: o080010040141
+  translation:
+    english: years
+    mandarin: 年
+    gloss: years
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנָה
+    strong: '8141'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔτη
+    strong: '2094'

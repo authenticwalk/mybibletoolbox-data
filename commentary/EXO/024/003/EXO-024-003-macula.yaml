@@ -1,0 +1,847 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 24:3
+text: וַיָּבֹ֣א מֹשֶׁ֗ה וַיְסַפֵּ֤ר לָעָם֙ אֵ֚ת כָּל־דִּבְרֵ֣י יְהוָ֔ה וְאֵ֖ת כָּל־הַמִּשְׁפָּטִ֑ים
+  וַיַּ֨עַן כָּל־הָעָ֜ם ק֤וֹל אֶחָד֙ וַיֹּ֣אמְר֔וּ כָּל־הַדְּבָרִ֛ים אֲשֶׁר־דִּבֶּ֥ר
+  יְהוָ֖ה נַעֲשֶֽׂה׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 24:3!1
+    wordID: o020240030011
+  translation:
+    english: when
+    mandarin: 于是
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: יָּבֹ֣א
+  lemma: בּוֹא
+  transliteration: yyāḇōʾ
+  ids:
+    ref: EXO 24:3!1
+    wordID: o020240030012
+  translation:
+    english: came
+    mandarin: 下
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσῆλθεν
+    strong: '1525'
+  syntax:
+    role: v
+    frame: A0:020240030021;
+- position: 3
+  text: מֹשֶׁ֗ה
+  lemma: מֹשֶׁה
+  transliteration: mōšeh
+  ids:
+    ref: EXO 24:3!2
+    wordID: o020240030021
+  translation:
+    english: Moses
+    mandarin: 摩西
+    gloss: Moses
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מֹשֶׁה
+    strong: '4872'
+  semantic:
+    sdbh:
+    - '004460001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: μωυσῆς
+    strong: '3475'
+  syntax:
+    role: s
+- position: 4
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 24:3!3
+    wordID: o020240030031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: יְסַפֵּ֤ר
+  lemma: סָפַר
+  transliteration: yəsappēr
+  ids:
+    ref: EXO 24:3!3
+    wordID: o020240030032
+  translation:
+    english: told
+    mandarin: 陈述
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: סָפַר
+    strong: '5608'
+  semantic:
+    sdbh:
+    - 005148001007000
+    lexdomain:
+    - 002004001009008
+    sense: '1'
+  lxx:
+    text: διηγήσατο
+    strong: '1334'
+  syntax:
+    role: v
+    frame: A0:020240030021; A1:020240030071;020240030112;
+  discourse:
+    subject: '020240030021'
+- position: 6
+  text: לָ
+  lemma: לְ
+  transliteration: lā
+  ids:
+    ref: EXO 24:3!4
+    wordID: o020240030041
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 7
+  text: עָם֙
+  lemma: עַם
+  transliteration: ʿām
+  ids:
+    ref: EXO 24:3!4
+    wordID: o020240030042
+  translation:
+    english: people
+    mandarin: 人民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαῷ
+    strong: '2992'
+- position: 8
+  text: אֵ֚ת
+  lemma: אֵת
+  transliteration: ʾēṯ
+  ids:
+    ref: EXO 24:3!5
+    wordID: o020240030051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: EXO 24:3!6
+    wordID: o020240030061
+  translation:
+    english: all
+    mandarin: 一切
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντα
+    strong: '3956'
+- position: 10
+  text: דִּבְרֵ֣י
+  lemma: דָּבָר
+  transliteration: diḇrēy
+  ids:
+    ref: EXO 24:3!7
+    wordID: o020240030071
+  translation:
+    english: words
+    mandarin: 命令
+    gloss: the.words
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ῥήματα
+    strong: '4487'
+- position: 11
+  text: יְהוָ֔ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: EXO 24:3!8
+    wordID: o020240030081
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: θεοῦ
+    strong: '2316'
+- position: 12
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EXO 24:3!9
+    wordID: o020240030091
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: אֵ֖ת
+  lemma: אֵת
+  transliteration: ʾēṯ
+  ids:
+    ref: EXO 24:3!9
+    wordID: o020240030092
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 14
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: EXO 24:3!10
+    wordID: o020240030101
+  translation:
+    english: all
+    mandarin: 一切
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+- position: 15
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: EXO 24:3!11
+    wordID: o020240030111
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰ
+    strong: '3588'
+- position: 16
+  text: מִּשְׁפָּטִ֑ים
+  lemma: מִשְׁפָּט
+  transliteration: mmišpāṭiym
+  ids:
+    ref: EXO 24:3!11
+    wordID: o020240030112
+  translation:
+    english: ordinances
+    mandarin: 典章
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִשְׁפָּט
+    strong: '4941'
+  semantic:
+    sdbh:
+    - 004528001005000
+    lexdomain:
+    - '002003003015'
+    coredomain:
+    - 098
+    - '015'
+    sense: '1'
+  lxx:
+    text: δικαιώματα
+    strong: '1345'
+- position: 17
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 24:3!12
+    wordID: o020240030121
+  translation:
+    english: then
+    mandarin: 便
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 18
+  text: יַּ֨עַן
+  lemma: עָנָה
+  transliteration: yyaʿan
+  ids:
+    ref: EXO 24:3!12
+    wordID: o020240030122
+  translation:
+    english: answered
+    mandarin: 回答
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἀπεκρίθη
+    strong: '611'
+  syntax:
+    role: v
+    frame: A0:020240030142;
+- position: 19
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: EXO 24:3!13
+    wordID: o020240030131
+  translation:
+    english: all
+    mandarin: 众
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶς
+    strong: '3956'
+- position: 20
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: EXO 24:3!14
+    wordID: o020240030141
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 21
+  text: עָ֜ם
+  lemma: עַם
+  transliteration: ʿām
+  ids:
+    ref: EXO 24:3!14
+    wordID: o020240030142
+  translation:
+    english: people
+    mandarin: 人民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαὸς
+    strong: '2992'
+- position: 22
+  text: ק֤וֹל
+  lemma: קוֹל
+  transliteration: qôl
+  ids:
+    ref: EXO 24:3!15
+    wordID: o020240030151
+  translation:
+    english: voice
+    mandarin: 声
+    gloss: a.voice
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קוֹל
+    strong: '6963'
+  semantic:
+    sense: '1'
+  lxx:
+    text: φωνῇ
+    strong: '5456'
+- position: 23
+  text: אֶחָד֙
+  lemma: אֶחָד
+  transliteration: ʾeḥāḏ
+  ids:
+    ref: EXO 24:3!16
+    wordID: o020240030161
+  translation:
+    english: one
+    mandarin: 同
+    gloss: one
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶחָד
+    strong: 0259
+  semantic:
+    sdbh:
+    - '000244001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: μιᾷ
+    strong: '3391'
+- position: 24
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 24:3!17
+    wordID: o020240030171
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 25
+  text: יֹּ֣אמְר֔וּ
+  lemma: אָמַר
+  transliteration: yyōʾmərû
+  ids:
+    ref: EXO 24:3!17
+    wordID: o020240030172
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγοντες
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:020240030142;
+  discourse:
+    subject: '020240030142'
+- position: 26
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: EXO 24:3!18
+    wordID: o020240030181
+  translation:
+    english: all
+    mandarin: 一切
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντας
+    strong: '3956'
+- position: 27
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: EXO 24:3!19
+    wordID: o020240030191
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοὺς
+    strong: '3588'
+- position: 28
+  text: דְּבָרִ֛ים
+  lemma: דָּבָר
+  transliteration: dəḇāriym
+  ids:
+    ref: EXO 24:3!19
+    wordID: o020240030192
+  translation:
+    english: words
+    mandarin: 话
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דָּבָר
+    strong: '1697'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λόγους
+    strong: '3056'
+- position: 29
+  text: אֲשֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer-
+  ids:
+    ref: EXO 24:3!20
+    wordID: o020240030201
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: οὓς
+    strong: '3739'
+- position: 30
+  text: דִּבֶּ֥ר
+  lemma: דָבַר
+  transliteration: dibber
+  ids:
+    ref: EXO 24:3!21
+    wordID: o020240030211
+  translation:
+    english: spoken
+    mandarin: 吩咐
+    gloss: he.has.spoken
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐλάλησεν
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A0:020240030221; A1:020240030192;
+- position: 31
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: EXO 24:3!22
+    wordID: o020240030221
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 32
+  text: נַעֲשֶֽׂה
+  lemma: עָשָׂה
+  transliteration: 'naʿăśeh:'
+  ids:
+    ref: EXO 24:3!23
+    wordID: o020240030231
+  translation:
+    english: do
+    mandarin: 遵行
+    gloss: we.will.do
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ποιήσομεν
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:020240030142; A1:020240030192;
+  discourse:
+    subject: '020240030142'

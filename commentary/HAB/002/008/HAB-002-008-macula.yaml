@@ -1,0 +1,626 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: HAB 2:8
+text: כִּֽיאַתָּ֤ה שַׁלּ֨וֹתָ֙ גּוֹיִ֣ם רַבִּ֔ים יְשָׁלּ֖וּךָ כָּל־יֶ֣תֶר עַמִּ֑ים
+  מִדְּמֵ֤י אָדָם֙ וַחֲמַס־אֶ֔רֶץ קִרְיָ֖ה וְכָל־יֹ֥שְׁבֵי בָֽהּ׃פ
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: HAB 2:8!1
+    wordID: o350020080011
+  translation:
+    english: because
+    mandarin: 因
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: διότι
+    strong: '1360'
+- position: 2
+  text: אַתָּ֤ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: HAB 2:8!2
+    wordID: o350020080021
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '350020050051'
+- position: 3
+  text: שַׁלּ֨וֹתָ֙
+  lemma: שָׁלַל
+  transliteration: šallôṯā
+  ids:
+    ref: HAB 2:8!3
+    wordID: o350020080031
+  translation:
+    english: plundered
+    mandarin: 抢夺
+    gloss: you.have.plundered
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁלַל
+    strong: '7997'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐσκύλευσας
+  syntax:
+    role: v
+    frame: A0:350020080021; A1:350020080041;
+- position: 4
+  text: גּוֹיִ֣ם
+  lemma: גּוֹי
+  transliteration: gôyim
+  ids:
+    ref: HAB 2:8!4
+    wordID: o350020080041
+  translation:
+    english: nations
+    mandarin: 国家
+    gloss: nations
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹי
+    strong: '1471'
+  semantic:
+    sdbh:
+    - '001347001001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἔθνη
+    strong: '1484'
+- position: 5
+  text: רַבִּ֔ים
+  lemma: רַב
+  transliteration: rabbiym
+  ids:
+    ref: HAB 2:8!5
+    wordID: o350020080051
+  translation:
+    english: many
+    mandarin: 许多
+    gloss: many
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001002000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '1'
+  lxx:
+    text: πολλά
+    strong: '4183'
+- position: 6
+  text: יְשָׁלּ֖וּ
+  lemma: שָׁלַל
+  transliteration: ''
+  ids:
+    ref: HAB 2:8!6
+    wordID: o350020080061
+  translation:
+    english: plunder
+    mandarin: 抢夺
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁלַל
+    strong: '7997'
+  semantic:
+    sense: '1'
+  lxx:
+    text: σκυλεύσουσίν
+  syntax:
+    role: v
+    frame: A1:350020080062; A0:350020080081;
+- position: 7
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HAB 2:8!6
+    wordID: o350020080062
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '350020050051'
+- position: 8
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: HAB 2:8!7
+    wordID: o350020080071
+  translation:
+    english: all
+    mandarin: 都
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 9
+  text: יֶ֣תֶר
+  lemma: יֶתֶר
+  transliteration: yeṯer
+  ids:
+    ref: HAB 2:8!8
+    wordID: o350020080081
+  translation:
+    english: survive
+    mandarin: 剩下的
+    gloss: '[the].rest'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יֶתֶר
+    strong: '3499'
+  semantic:
+    sdbh:
+    - '003204001001000'
+    lexdomain:
+    - '002002002005'
+    sense: '2'
+  lxx:
+    text: ὑπολελειμμένοι
+- position: 10
+  text: עַמִּ֑ים
+  lemma: עַם
+  transliteration: ʿammiym
+  ids:
+    ref: HAB 2:8!9
+    wordID: o350020080091
+  translation:
+    english: peoples
+    mandarin: 人
+    gloss: of.[the].peoples
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοὶ
+    strong: '2992'
+- position: 11
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: HAB 2:8!10
+    wordID: o350020080101
+  translation:
+    english: because of
+    mandarin: 因为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: δῑ
+    strong: '1223'
+- position: 12
+  text: דְּמֵ֤י
+  lemma: דָּם
+  transliteration: dəmēy
+  ids:
+    ref: HAB 2:8!10
+    wordID: o350020080102
+  translation:
+    english: bloodshed
+    mandarin: 血
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: דָּם
+    strong: '1818'
+  semantic:
+    sdbh:
+    - '001673001004000'
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '145'
+    - '006'
+    - 082
+    sense: '1'
+  lxx:
+    text: αἵματα
+    strong: '129'
+- position: 13
+  text: אָדָם֙
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: HAB 2:8!11
+    wordID: o350020080111
+  translation:
+    english: human
+    mandarin: 人
+    gloss: of.humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἀνθρώπων
+    strong: '444'
+- position: 14
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: HAB 2:8!12
+    wordID: o350020080121
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: חֲמַס
+  lemma: חָמָס
+  transliteration: ḥămas-
+  ids:
+    ref: HAB 2:8!12
+    wordID: o350020080122
+  translation:
+    english: violence
+    mandarin: 暴力
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חָמָס
+    strong: '2555'
+  semantic:
+    sdbh:
+    - 002358001001000
+    lexdomain:
+    - 002001002009
+    - '002001003020'
+    - '002003003021'
+    coredomain:
+    - '006'
+    - '017'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἀσεβείας
+    strong: '763'
+- position: 16
+  text: אֶ֔רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: HAB 2:8!13
+    wordID: o350020080131
+  translation:
+    english: lands
+    mandarin: 全地
+    gloss: of.[the].land
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆς
+    strong: '1093'
+- position: 17
+  text: קִרְיָ֖ה
+  lemma: קִרְיָה
+  transliteration: qiryāh
+  ids:
+    ref: HAB 2:8!14
+    wordID: o350020080141
+  translation:
+    english: cities
+    mandarin: 城
+    gloss: of.[the].town
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: קִרְיָה
+    strong: '7151'
+  semantic:
+    sdbh:
+    - 006581001001000
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+  lxx:
+    text: πόλεως
+    strong: '4172'
+- position: 18
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: HAB 2:8!15
+    wordID: o350020080151
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 19
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: HAB 2:8!15
+    wordID: o350020080152
+  translation:
+    english: all
+    mandarin: 一切
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντων
+    strong: '3956'
+- position: 20
+  text: יֹ֥שְׁבֵי
+  lemma: יָשַׁב
+  transliteration: yōšəḇê
+  ids:
+    ref: HAB 2:8!16
+    wordID: o350020080161
+  translation:
+    english: live
+    mandarin: 居民
+    gloss: '[those.who].dwell'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001011000'
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '3'
+  lxx:
+    text: κατοικούντων
+    strong: '2730'
+  syntax:
+    role: v
+- position: 21
+  text: בָֽ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: HAB 2:8!17
+    wordID: o350020080171
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 22
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: HAB 2:8!17
+    wordID: o350020080172
+  translation:
+    english: them
+    mandarin: 其
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  lxx:
+    text: αὐτήν
+    strong: '848'
+  discourse:
+    participant: 350020080131 350020080141

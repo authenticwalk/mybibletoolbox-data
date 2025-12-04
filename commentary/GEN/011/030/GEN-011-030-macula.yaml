@@ -1,0 +1,215 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 11:30
+text: וַתְּהִ֥י שָׂרַ֖י עֲקָרָ֑ה אֵ֥ין לָ֖הּ וָלָֽד׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 11:30!1
+    wordID: o010110300011
+  translation:
+    english: now
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: תְּהִ֥י
+  lemma: הָיָה
+  transliteration: təhiy
+  ids:
+    ref: GEN 11:30!1
+    wordID: o010110300012
+  translation:
+    english: was
+    mandarin: 是
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἦν
+    strong: '2258'
+  syntax:
+    role: v
+    frame: A0:010110300021;
+- position: 3
+  text: שָׂרַ֖י
+  lemma: שָׂרַי
+  transliteration: śāray
+  ids:
+    ref: GEN 11:30!2
+    wordID: o010110300021
+  translation:
+    english: Sarai
+    mandarin: 撒莱
+    gloss: Sarai
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שָׂרַי
+    strong: '8297'
+  semantic:
+    sdbh:
+    - '007100001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαρα
+  syntax:
+    role: s
+- position: 4
+  text: עֲקָרָ֑ה
+  lemma: עָקָר
+  transliteration: ʿăqārāh
+  ids:
+    ref: GEN 11:30!3
+    wordID: o010110300031
+  translation:
+    english: barren
+    mandarin: 不能生育
+    gloss: barren
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aafsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָקָר
+    strong: '6135'
+  semantic:
+    sdbh:
+    - '005634001001000'
+    lexdomain:
+    - '002001001062'
+    coredomain:
+    - '001'
+    - 019
+    - '030'
+    sense: '1'
+  lxx:
+    text: στεῖρα
+    strong: '4723'
+  syntax:
+    role: o
+- position: 5
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: GEN 11:30!4
+    wordID: o010110300041
+  translation:
+    english: 'no'
+    mandarin: 没有
+    gloss: there.[belonged].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 6
+  text: לָ֖
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: GEN 11:30!5
+    wordID: o010110300051
+  translation:
+    english: had
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: הּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 11:30!5
+    wordID: o010110300052
+  translation:
+    english: she
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  discourse:
+    participant: '010110300021'
+- position: 8
+  text: וָלָֽד
+  lemma: וָלָד
+  transliteration: 'wālāḏ:'
+  ids:
+    ref: GEN 11:30!6
+    wordID: o010110300061
+  translation:
+    english: child
+    mandarin: 孩子
+    gloss: a.child
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: וָלָד
+    strong: '2056'
+  semantic:
+    sdbh:
+    - 001903001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '121'
+    sense: '1'
+  syntax:
+    role: s

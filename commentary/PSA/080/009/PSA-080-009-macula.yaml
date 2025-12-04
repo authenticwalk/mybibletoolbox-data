@@ -1,0 +1,292 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 80:9
+text: גֶּ֭פֶן מִמִּצְרַ֣יִם תַּסִּ֑יעַ תְּגָרֵ֥שׁ גּ֝וֹיִ֗ם וַתִּטָּעֶֽהָ׃
+words:
+- position: 1
+  text: גֶּ֭פֶן
+  lemma: גֶּפֶן
+  transliteration: gep̄en
+  ids:
+    ref: PSA 80:9!1
+    wordID: o190800090011
+  translation:
+    english: vine
+    mandarin: 葡萄树
+    gloss: a.vine
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גֶּפֶן
+    strong: '1612'
+  semantic:
+    sdbh:
+    - '001477001002000'
+    lexdomain:
+    - '001003001'
+    coredomain:
+    - '125'
+    - '007'
+    sense: '1'
+  lxx:
+    text: ἄμπελον
+    strong: '288'
+  syntax:
+    role: o
+- position: 2
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: PSA 80:9!2
+    wordID: o190800090021
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 3
+  text: מִּצְרַ֣יִם
+  lemma: מִצְרַיִם
+  transliteration: mmiṣrayim
+  ids:
+    ref: PSA 80:9!2
+    wordID: o190800090022
+  translation:
+    english: Egypt
+    mandarin: 埃及
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτου
+    strong: '125'
+- position: 4
+  text: תַּסִּ֑יעַ
+  lemma: נָסַע
+  transliteration: tassiyᵃʿ
+  ids:
+    ref: PSA 80:9!3
+    wordID: o190800090031
+  translation:
+    english: brought ~ out
+    mandarin: 带出
+    gloss: you.uprooted
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נָסַע
+    strong: '5265'
+  semantic:
+    sdbh:
+    - 004828001001000
+    lexdomain:
+    - 002003001008
+    sense: '6'
+  lxx:
+    text: μετῆρας
+  syntax:
+    role: v
+    frame: AA:190800080011; A0:190800090011;
+  discourse:
+    subject: '190800080011'
+- position: 5
+  text: תְּגָרֵ֥שׁ
+  lemma: גָּרַשׁ
+  transliteration: təḡārēš
+  ids:
+    ref: PSA 80:9!4
+    wordID: o190800090041
+  translation:
+    english: drove out
+    mandarin: 赶出
+    gloss: you.drove.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: גָּרַשׁ
+    strong: '1644'
+  semantic:
+    sdbh:
+    - 001508001003000
+    lexdomain:
+    - '002002001005'
+    coredomain:
+    - '166'
+    - 081
+    sense: '1'
+  lxx:
+    text: ἐχέβαλες
+  syntax:
+    role: v
+    frame: A0:190800080011; A1:190800090051;
+  discourse:
+    subject: '190800080011'
+- position: 6
+  text: גּ֝וֹיִ֗ם
+  lemma: גּוֹי
+  transliteration: gôyim
+  ids:
+    ref: PSA 80:9!5
+    wordID: o190800090051
+  translation:
+    english: nations
+    mandarin: 异族
+    gloss: nations
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹי
+    strong: '1471'
+  semantic:
+    sdbh:
+    - '001347001001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἔθνη
+    strong: '1484'
+  syntax:
+    role: o
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 80:9!6
+    wordID: o190800090061
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: תִּטָּעֶֽ
+  lemma: נָטַע
+  transliteration: ''
+  ids:
+    ref: PSA 80:9!6
+    wordID: o190800090062
+  translation:
+    english: planted
+    mandarin: 栽上
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָטַע
+    strong: '5193'
+  semantic:
+    sdbh:
+    - '004764001001000'
+    lexdomain:
+    - '002002001014'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: κατεφύτευσας
+  syntax:
+    role: v
+    frame: A0:190800080011; A1:190800090063;
+  discourse:
+    subject: '190800080011'
+- position: 9
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 80:9!6
+    wordID: o190800090063
+  translation:
+    english: it
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '004764001001000'
+    lexdomain:
+    - '002002001014'
+    coredomain:
+    - '125'
+  lxx:
+    text: αὐτήν
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: '190800090011'

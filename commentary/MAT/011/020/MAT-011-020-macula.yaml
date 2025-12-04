@@ -1,0 +1,334 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 11:20
+text: Τότε ἤρξατο ὀνειδίζειν τὰς πόλεις ἐν αἷς ἐγένοντο αἱ πλεῖσται δυνάμεις αὐτοῦ,
+  ὅτι οὐ μετενόησαν·
+words:
+- position: 1
+  text: Τότε
+  lemma: τότε
+  normalized: Τότε
+  ids:
+    ref: MAT 11:20!1
+    wordID: n40011020001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
+- position: 2
+  text: ἤρξατο
+  lemma: ἄρχω
+  normalized: ἤρξατο
+  ids:
+    ref: MAT 11:20!2
+    wordID: n40011020002
+  translation:
+    gloss: He began
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '756'
+  semantic:
+    semanticDomain: 068001
+    ln: '68.1'
+  syntax:
+    role: v
+    frame: A0:n40011007006 A1:n40011020003
+  discourse:
+    subject: n40011007006
+- position: 3
+  text: ὀνειδίζειν
+  lemma: ὀνειδίζω
+  normalized: ὀνειδίζειν
+  ids:
+    ref: MAT 11:20!3
+    wordID: n40011020003
+  translation:
+    gloss: to denounce
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3679'
+  semantic:
+    semanticDomain: '033046'
+    ln: '33.422'
+  syntax:
+    role: v
+    frame: A0:n40011007006 A1:n40011020005
+  discourse:
+    subject: n40011007006
+- position: 4
+  text: τὰς
+  lemma: ὁ
+  normalized: τάς
+  ids:
+    ref: MAT 11:20!4
+    wordID: n40011020004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: πόλεις
+  lemma: πόλις
+  normalized: πόλεις
+  ids:
+    ref: MAT 11:20!5
+    wordID: n40011020005
+  translation:
+    gloss: cities
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '4172'
+  semantic:
+    semanticDomain: '001014'
+    ln: '1.88'
+- position: 6
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: MAT 11:20!6
+    wordID: n40011020006
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 083003
+    ln: '83.13'
+- position: 7
+  text: αἷς
+  lemma: ὅς
+  normalized: αἷς
+  ids:
+    ref: MAT 11:20!7
+    wordID: n40011020007
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  discourse:
+    referent: n40011020005
+- position: 8
+  text: ἐγένοντο
+  lemma: γίνομαι
+  normalized: ἐγένοντο
+  ids:
+    ref: MAT 11:20!8
+    wordID: n40011020008
+  translation:
+    gloss: had taken place
+  morphology:
+    class: verb
+    morph: V-2ADI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.107'
+  syntax:
+    role: v
+    frame: A0:n40011020011
+- position: 9
+  text: αἱ
+  lemma: ὁ
+  normalized: αἱ
+  ids:
+    ref: MAT 11:20!9
+    wordID: n40011020009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: πλεῖσται
+  lemma: πολύς
+  normalized: πλεῖσται
+  ids:
+    ref: MAT 11:20!10
+    wordID: n40011020010
+  translation:
+    gloss: most
+  morphology:
+    class: adj
+    morph: A-NPF-S
+    gender: feminine
+    number: plural
+    case: nominative
+    degree: superlative
+  lexical:
+    strong: '4118'
+  semantic:
+    semanticDomain: 059001
+    ln: '59.1'
+- position: 11
+  text: δυνάμεις
+  lemma: δύναμις
+  normalized: δυνάμεις
+  ids:
+    ref: MAT 11:20!11
+    wordID: n40011020011
+  translation:
+    gloss: miracles
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '1411'
+  semantic:
+    semanticDomain: '076'
+    ln: '76.7'
+- position: 12
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 11:20!12
+    wordID: n40011020012
+  translation:
+    gloss: of Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40011007006
+- position: 13
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: MAT 11:20!13
+    wordID: n40011020013
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 14
+  text: οὐ
+  lemma: οὐ
+  normalized: οὐ
+  ids:
+    ref: MAT 11:20!14
+    wordID: n40011020014
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3756'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 15
+  text: μετενόησαν
+  lemma: μετανοέω
+  normalized: μετενόησαν
+  ids:
+    ref: MAT 11:20!15
+    wordID: n40011020015
+  translation:
+    gloss: they repented
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3340'
+  semantic:
+    semanticDomain: '041005'
+    ln: '41.52'
+  syntax:
+    role: v
+    frame: A0:n40011020005
+  discourse:
+    subject: n40011020005

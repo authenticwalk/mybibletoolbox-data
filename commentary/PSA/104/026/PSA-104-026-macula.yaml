@@ -1,0 +1,316 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 104:26
+text: שָׁ֭ם אֳנִיּ֣וֹת יְהַלֵּכ֑וּן לִ֝וְיָתָ֗ן זֶֽה־יָצַ֥רְתָּ לְשַֽׂחֶק־בּֽוֹ׃
+words:
+- position: 1
+  text: שָׁ֭ם
+  lemma: שָׁם
+  transliteration: šām
+  ids:
+    ref: PSA 104:26!1
+    wordID: o191040260011
+  translation:
+    english: there
+    mandarin: 那里
+    gloss: there
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  lxx:
+    text: ἐκεῖ
+    strong: '1563'
+  syntax:
+    role: adv
+- position: 2
+  text: אֳנִיּ֣וֹת
+  lemma: אֳנִיָּה
+  transliteration: ʾŏniyyôṯ
+  ids:
+    ref: PSA 104:26!2
+    wordID: o191040260021
+  translation:
+    english: ships
+    mandarin: 船只
+    gloss: ships
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֳנִיָּה
+    strong: 0591
+  semantic:
+    sdbh:
+    - '000541001001000'
+    lexdomain:
+    - '001004001015'
+    coredomain:
+    - '116'
+    sense: '1'
+  lxx:
+    text: πλοῖα
+    strong: '4143'
+  syntax:
+    role: s
+- position: 3
+  text: יְהַלֵּכ֑וּ
+  lemma: הָלַךְ
+  transliteration: ''
+  ids:
+    ref: PSA 104:26!3
+    wordID: o191040260031
+  translation:
+    english: go
+    mandarin: 航行
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: הָלַךְ
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001001000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    sense: '1'
+  syntax:
+    frame: A0:191040260021;
+- position: 4
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: PSA 104:26!3
+    wordID: o191040260032
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - 001824001001000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+  lxx:
+    text: διαπορεύονται
+    strong: '1279'
+- position: 5
+  text: לִ֝וְיָתָ֗ן
+  lemma: לִוְיָתָן
+  transliteration: liwyāṯān
+  ids:
+    ref: PSA 104:26!4
+    wordID: o191040260041
+  translation:
+    english: leviathan
+    mandarin: 海兽
+    gloss: Leviathan
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לִוְיָתָן
+    strong: '3882'
+  semantic:
+    sdbh:
+    - 003549001001000
+    lexdomain:
+    - '001001002001004'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: δράκων
+    strong: '1404'
+- position: 6
+  text: זֶֽה
+  lemma: זֶה
+  transliteration: zeh-
+  ids:
+    ref: PSA 104:26!5
+    wordID: o191040260051
+  translation:
+    english: which
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+  lxx:
+    text: οὗτος
+    strong: '3778'
+  syntax:
+    role: o
+  discourse:
+    participant: '191040260041'
+- position: 7
+  text: יָצַ֥רְתָּ
+  lemma: יָצַר
+  transliteration: yāṣarətā
+  ids:
+    ref: PSA 104:26!6
+    wordID: o191040260061
+  translation:
+    english: formed
+    mandarin: 造
+    gloss: you.formed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָצַר
+    strong: '3335'
+  semantic:
+    sdbh:
+    - 003048001001000
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - '027'
+    sense: '1'
+  lxx:
+    text: ἔπλασας
+  syntax:
+    role: v
+    frame: A0:191040240041; A1:191040260051;
+  discourse:
+    subject: '191040240041'
+- position: 8
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 104:26!7
+    wordID: o191040260071
+  translation:
+    english: to
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 9
+  text: שַֽׂחֶק
+  lemma: שָׂחַק
+  transliteration: śaḥeq-
+  ids:
+    ref: PSA 104:26!7
+    wordID: o191040260072
+  translation:
+    english: play
+    mandarin: 嬉戏
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpc
+    stem: piel
+    type: infinitive construct
+  lexical:
+    stronglemma: שָׂחַק
+    strong: '7832'
+  semantic:
+    sdbh:
+    - 007009001002000
+    lexdomain:
+    - '002001002022'
+    coredomain:
+    - 093
+    sense: '2'
+  lxx:
+    text: ἐμπαίζειν
+    strong: '1702'
+  syntax:
+    role: v
+    frame: A0:191040260041;
+  discourse:
+    subject: '191040260041'
+- position: 10
+  text: בּֽ
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: PSA 104:26!8
+    wordID: o191040260081
+  translation:
+    english: in
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 11
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 104:26!8
+    wordID: o191040260082
+  translation:
+    english: it
+    mandarin: 其中
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτῷ
+    strong: '846'
+  discourse:
+    participant: '191040250022'

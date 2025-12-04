@@ -1,0 +1,541 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 60:2
+text: כִּֽי־הִנֵּ֤ה הַחֹ֨שֶׁךְ֙ יְכַסֶּה־אֶ֔רֶץ וַעֲרָפֶ֖ל לְאֻמִּ֑ים וְעָלַ֨יִךְ֙
+  יִזְרַ֣ח יְהוָ֔ה וּכְבוֹד֖וֹ עָלַ֥יִךְ יֵרָאֶֽה׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: ISA 60:2!1
+    wordID: o230600020011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+- position: 2
+  text: הִנֵּ֤ה
+  lemma: הִנֵּה
+  transliteration: hinnēh
+  ids:
+    ref: ISA 60:2!2
+    wordID: o230600020021
+  translation:
+    english: look
+    mandarin: 看
+    gloss: there!
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: הִנֵּה
+    strong: '2009'
+  lxx:
+    text: ἰδοὺ
+    strong: '2400'
+- position: 3
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ISA 60:2!3
+    wordID: o230600020031
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 4
+  text: חֹ֨שֶׁךְ֙
+  lemma: חֹשֶׁךְ
+  transliteration: ḥōšeḵə
+  ids:
+    ref: ISA 60:2!3
+    wordID: o230600020032
+  translation:
+    english: darkness
+    mandarin: 黑暗
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֹשֶׁךְ
+    strong: '2822'
+  semantic:
+    sdbh:
+    - 002598001001000
+    lexdomain:
+    - 002001001018
+    coredomain:
+    - '100'
+    sense: '1'
+  lxx:
+    text: σκότος
+    strong: '4655'
+- position: 5
+  text: יְכַסֶּה
+  lemma: כָּסָה
+  transliteration: yəḵasseh-
+  ids:
+    ref: ISA 60:2!4
+    wordID: o230600020041
+  translation:
+    english: cover
+    mandarin: 遮盖
+    gloss: it.will.cover
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: כָּסָה
+    strong: '3680'
+  semantic:
+    sdbh:
+    - 003365001009000
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: καλύψει
+    strong: '2572'
+  syntax:
+    role: v
+    frame: A0:230600020032; A1:230600020051;
+- position: 6
+  text: אֶ֔רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾereṣ
+  ids:
+    ref: ISA 60:2!5
+    wordID: o230600020051
+  translation:
+    english: earth
+    mandarin: 大地
+    gloss: '[the].earth'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆν
+    strong: '1093'
+  syntax:
+    role: o
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: ISA 60:2!6
+    wordID: o230600020061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 8
+  text: עֲרָפֶ֖ל
+  lemma: עֲרָפֶל
+  transliteration: ʿărāp̄el
+  ids:
+    ref: ISA 60:2!6
+    wordID: o230600020062
+  translation:
+    english: thick darkness
+    mandarin: 幽暗
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֲרָפֶל
+    strong: '6205'
+  semantic:
+    sense: '1'
+  syntax:
+    role: s
+- position: 9
+  text: לְאֻמִּ֑ים
+  lemma: לְאֹם
+  transliteration: ləʾummiym
+  ids:
+    ref: ISA 60:2!7
+    wordID: o230600020071
+  translation:
+    english: peoples
+    mandarin: 万民
+    gloss: peoples
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לְאֹם
+    strong: '3816'
+  semantic:
+    sdbh:
+    - 003493001001000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἔθνη
+    strong: '1484'
+  syntax:
+    role: o
+- position: 10
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 60:2!8
+    wordID: o230600020081
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 11
+  text: עָלַ֨יִ
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: ISA 60:2!8
+    wordID: o230600020082
+  translation:
+    english: upon
+    mandarin: 在~上面
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 12
+  text: ךְ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 60:2!8
+    wordID: o230600020083
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  lxx:
+    text: σὲ
+    strong: '4571'
+  discourse:
+    participant: '230590200022'
+- position: 13
+  text: יִזְרַ֣ח
+  lemma: זָרַח
+  transliteration: yizraḥ
+  ids:
+    ref: ISA 60:2!9
+    wordID: o230600020091
+  translation:
+    english: rise
+    mandarin: 升起
+    gloss: he.will.dawn
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: זָרַח
+    strong: '2224'
+  semantic:
+    sdbh:
+    - '002051001001000'
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - '100'
+    sense: '1'
+  lxx:
+    text: φανήσεται
+    strong: '5316'
+  syntax:
+    role: v
+    frame: A0:230600020101;
+- position: 14
+  text: יְהוָ֔ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: ISA 60:2!10
+    wordID: o230600020101
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 15
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ISA 60:2!11
+    wordID: o230600020111
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: כְבוֹד֖
+  lemma: כָּבוֹד
+  transliteration: ''
+  ids:
+    ref: ISA 60:2!11
+    wordID: o230600020112
+  translation:
+    english: glory
+    mandarin: 荣耀
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כָּבוֹד
+    strong: '3519'
+  semantic:
+    sdbh:
+    - '003225001005000'
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: δόχα
+    strong: '1391'
+- position: 17
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 60:2!11
+    wordID: o230600020113
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '003225001005000'
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '230600020101'
+- position: 18
+  text: עָלַ֥יִ
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: ISA 60:2!12
+    wordID: o230600020121
+  translation:
+    english: over
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 19
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 60:2!12
+    wordID: o230600020122
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  lxx:
+    text: σὲ
+    strong: '4571'
+  discourse:
+    participant: '230590200022'
+- position: 20
+  text: יֵרָאֶֽה
+  lemma: רָאָה
+  transliteration: 'yērāʾeh:'
+  ids:
+    ref: ISA 60:2!13
+    wordID: o230600020131
+  translation:
+    english: appear
+    mandarin: 显现
+    gloss: it.will.appear
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001002000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ὀφθήσεται
+    strong: '3700'
+  syntax:
+    role: v
+    frame: A1:230600020112;

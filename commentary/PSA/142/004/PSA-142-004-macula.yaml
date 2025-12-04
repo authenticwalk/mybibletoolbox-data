@@ -1,0 +1,538 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 142:4
+text: בְּהִתְעַטֵּ֬ף עָלַ֨י׀רוּחִ֗י וְאַתָּה֮ יָדַ֪עְתָּ נְֽתִיבָ֫תִ֥י בְּאֹֽרַח־ז֥וּ
+  אֲהַלֵּ֑ךְ טָמְנ֖וּ פַ֣ח לִֽי׃
+words:
+- position: 1
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 142:4!1
+    wordID: o191420040011
+  translation:
+    english: when
+    mandarin: 时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 2
+  text: הִתְעַטֵּ֬ף
+  lemma: עָטַף
+  transliteration: hiṯʿaṭṭēp̄
+  ids:
+    ref: PSA 142:4!1
+    wordID: o191420040012
+  translation:
+    english: faints
+    mandarin: 发昏
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vtc
+    stem: hithpael
+    type: infinitive construct
+  lexical:
+    stronglemma: עָטַף
+    strong: 5848a
+  semantic:
+    sdbh:
+    - 005368003003000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '196'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:191420040031;
+- position: 3
+  text: עָלַ֨
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!2
+    wordID: o191420040021
+  translation:
+    english: within
+    mandarin: 在~里面
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 4
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!2
+    wordID: o191420040022
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμοῦ
+    strong: '1700'
+  discourse:
+    participant: '191420010022'
+- position: 5
+  text: רוּחִ֗
+  lemma: רוּחַ
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!3
+    wordID: o191420040031
+  translation:
+    english: spirit
+    mandarin: 灵
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רוּחַ
+    strong: '7307'
+  semantic:
+    sdbh:
+    - 006718001002000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: πνεῦμά
+    strong: '4151'
+- position: 6
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!3
+    wordID: o191420040032
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 006718001002000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '106'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '191420010022'
+- position: 7
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 142:4!4
+    wordID: o191420040041
+  translation:
+    english: then
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: אַתָּה֮
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: PSA 142:4!4
+    wordID: o191420040042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  syntax:
+    role: s
+  discourse:
+    participant: '191420020071'
+- position: 9
+  text: יָדַ֪עְתָּ
+  lemma: יָדַע
+  transliteration: yāḏaʿətā
+  ids:
+    ref: PSA 142:4!5
+    wordID: o191420040051
+  translation:
+    english: know
+    mandarin: 知道
+    gloss: you.know
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001010000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἔγνως
+    strong: '1097'
+  syntax:
+    role: v
+    frame: A0:191420040042; A1:191420040061;
+- position: 10
+  text: נְֽתִיבָ֫תִ֥
+  lemma: נְתִיבָה
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!6
+    wordID: o191420040061
+  translation:
+    english: way
+    mandarin: 道路
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נְתִיבָה
+    strong: '5410'
+  semantic:
+    sense: '1'
+  lxx:
+    text: τρίβους
+    strong: '5147'
+- position: 11
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!6
+    wordID: o191420040062
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '191420010022'
+- position: 12
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 142:4!7
+    wordID: o191420040071
+  translation:
+    english: in
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 13
+  text: אֹֽרַח
+  lemma: אֹרַח
+  transliteration: ʾōraḥ-
+  ids:
+    ref: PSA 142:4!7
+    wordID: o191420040072
+  translation:
+    english: path
+    mandarin: 路
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֹרַח
+    strong: '0734'
+  semantic:
+    sdbh:
+    - '000676001003000'
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: ὁδῷ
+    strong: '3598'
+- position: 14
+  text: ז֥וּ
+  lemma: זוּ
+  transliteration: zû
+  ids:
+    ref: PSA 142:4!8
+    wordID: o191420040081
+  translation:
+    english: where
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: זוּ
+    strong: '2098'
+  lxx:
+    text: ταύτῃ
+    strong: '5026'
+- position: 15
+  text: אֲהַלֵּ֑ךְ
+  lemma: הָלַךְ
+  transliteration: ʾăhallēḵ
+  ids:
+    ref: PSA 142:4!9
+    wordID: o191420040091
+  translation:
+    english: walk
+    mandarin: 行
+    gloss: I.walk
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: הָלַךְ
+    strong: '1980'
+  semantic:
+    sdbh:
+    - 001824001003000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - 092
+    sense: '2'
+  lxx:
+    text: ἐπορευόμην
+    strong: '4198'
+  syntax:
+    role: v
+    frame: A0:191420010022;
+  discourse:
+    subject: '191420010022'
+- position: 16
+  text: טָמְנ֖וּ
+  lemma: טָמַן
+  transliteration: ṭāmənû
+  ids:
+    ref: PSA 142:4!10
+    wordID: o191420040101
+  translation:
+    english: hidden
+    mandarin: 暗设
+    gloss: people.have.hidden
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: טָמַן
+    strong: '2934'
+  semantic:
+    sdbh:
+    - '002701001002000'
+    lexdomain:
+    - 002002001009
+    coredomain:
+    - 078
+    sense: '1'
+  lxx:
+    text: ἔκρυψαν
+    strong: '2928'
+  syntax:
+    role: v
+    frame: A0:191420070082; A1:191420040111;
+  discourse:
+    subject: '191420070082'
+- position: 17
+  text: פַ֣ח
+  lemma: פַּח
+  transliteration: p̄aḥ
+  ids:
+    ref: PSA 142:4!11
+    wordID: o191420040111
+  translation:
+    english: trap
+    mandarin: 网罗
+    gloss: a.snare
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פַּח
+    strong: '6341'
+  semantic:
+    sdbh:
+    - 005824001001000
+    lexdomain:
+    - 001004001018
+    coredomain:
+    - '040'
+    - 084
+    - '010'
+    sense: '1'
+  lxx:
+    text: παγίδα
+    strong: '3803'
+  syntax:
+    role: o
+- position: 18
+  text: לִֽ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!12
+    wordID: o191420040121
+  translation:
+    english: for
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 19
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 142:4!12
+    wordID: o191420040122
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: '191420010022'

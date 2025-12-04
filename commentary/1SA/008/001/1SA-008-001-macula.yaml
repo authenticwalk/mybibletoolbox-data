@@ -1,0 +1,384 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 1SA 8:1
+text: 1SA 8:1 וַיְהִ֕י כַּאֲשֶׁ֥ר זָקֵ֖ן שְׁמוּאֵ֑ל וַיָּ֧שֶׂם אֶת־בָּנָ֛יו שֹׁפְטִ֖ים
+  לְיִשְׂרָאֵֽל׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 1SA 8:1!1
+    wordID: o090080010011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יְהִ֕י
+  lemma: הָיָה
+  transliteration: yəhiy
+  ids:
+    ref: 1SA 8:1!1
+    wordID: o090080010012
+  translation:
+    english: came about
+    mandarin: 他是
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγένετο
+    strong: '1096'
+  syntax:
+    role: v
+- position: 3
+  text: כַּ
+  lemma: כְּ
+  transliteration: ka
+  ids:
+    ref: 1SA 8:1!2
+    wordID: o090080010021
+  translation:
+    english: as
+    mandarin: 但
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 4
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: 1SA 8:1!2
+    wordID: o090080010022
+  translation:
+    english: when
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+- position: 5
+  text: זָקֵ֖ן
+  lemma: זָקֵן
+  transliteration: zāqēn
+  ids:
+    ref: 1SA 8:1!3
+    wordID: o090080010031
+  translation:
+    english: grew old
+    mandarin: 年老
+    gloss: he.was.old
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: זָקֵן
+    strong: '2204'
+  semantic:
+    sdbh:
+    - '002032001001000'
+    lexdomain:
+    - 002001001038
+    coredomain:
+    - '005'
+    sense: '1'
+  lxx:
+    text: ἐγήρασεν
+  syntax:
+    role: v
+    frame: A0:090080010041;
+- position: 6
+  text: שְׁמוּאֵ֑ל
+  lemma: שְׁמוּאֵל
+  transliteration: šəmûʾēl
+  ids:
+    ref: 1SA 8:1!4
+    wordID: o090080010041
+  translation:
+    english: Samuel
+    mandarin: 撒母耳
+    gloss: Samuel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שְׁמוּאֵל
+    strong: '8050'
+  semantic:
+    sdbh:
+    - 007449001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαμουηλ
+    strong: '4545'
+  syntax:
+    role: s
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 1SA 8:1!5
+    wordID: o090080010051
+  translation:
+    english: then
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: יָּ֧שֶׂם
+  lemma: שׂים
+  transliteration: yyāśem
+  ids:
+    ref: 1SA 8:1!5
+    wordID: o090080010052
+  translation:
+    english: appointed
+    mandarin: 立
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: שׂים
+    strong: '7760'
+  semantic:
+    sdbh:
+    - 007028001020000
+    lexdomain:
+    - 002002002008
+    coredomain:
+    - '145'
+    sense: '5'
+  lxx:
+    text: κατέστησεν
+    strong: '2525'
+  syntax:
+    role: v
+    frame: A0:090080010041; A1:090080010071;
+  discourse:
+    subject: 090080010041
+- position: 9
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 1SA 8:1!6
+    wordID: o090080010061
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 10
+  text: בָּנָ֛י
+  lemma: בֵּן
+  transliteration: ''
+  ids:
+    ref: 1SA 8:1!7
+    wordID: o090080010071
+  translation:
+    english: sons
+    mandarin: 儿子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '1'
+  lxx:
+    text: υἱοὺς
+    strong: '5207'
+- position: 11
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 1SA 8:1!7
+    wordID: o090080010072
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: 090080010041
+- position: 12
+  text: שֹׁפְטִ֖ים
+  lemma: שָׁפַט
+  transliteration: šōp̄əṭiym
+  ids:
+    ref: 1SA 8:1!8
+    wordID: o090080010081
+  translation:
+    english: judges
+    mandarin: 作~士师
+    gloss: judges
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׁפַט
+    strong: '8199'
+  semantic:
+    sense: '1'
+  lxx:
+    text: δικαστὰς
+  syntax:
+    role: v
+    frame: A0:090080010071;
+  discourse:
+    subject: 090080010071
+- position: 13
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 1SA 8:1!9
+    wordID: o090080010091
+  translation:
+    english: over
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 14
+  text: יִשְׂרָאֵֽל
+  lemma: יִשְׂרָאֵל
+  transliteration: 'yiśrāʾēl:'
+  ids:
+    ref: 1SA 8:1!9
+    wordID: o090080010092
+  translation:
+    english: Israel
+    mandarin: 以色列
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'

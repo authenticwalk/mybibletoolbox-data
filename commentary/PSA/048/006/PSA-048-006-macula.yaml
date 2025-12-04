@@ -1,0 +1,211 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 48:6
+text: הֵ֣מָּה רָ֭אוּ כֵּ֣ן תָּמָ֑הוּ נִבְהֲל֥וּ נֶחְפָּֽזוּ׃
+words:
+- position: 1
+  text: הֵ֣מָּה
+  lemma: הֵמָּה
+  transliteration: hēmmâ
+  ids:
+    ref: PSA 48:6!1
+    wordID: o190480060011
+  translation:
+    english: they
+    mandarin: 他们
+    gloss: they
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '190480050032'
+- position: 2
+  text: רָ֭אוּ
+  lemma: רָאָה
+  transliteration: rāʾû
+  ids:
+    ref: PSA 48:6!2
+    wordID: o190480060021
+  translation:
+    english: saw
+    mandarin: 看见
+    gloss: they.saw
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: ἰδόντες
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:190480060011; A1:190480030071;
+- position: 3
+  text: כֵּ֣ן
+  lemma: כֵּן
+  transliteration: kēn
+  ids:
+    ref: PSA 48:6!3
+    wordID: o190480060031
+  translation:
+    english: so
+    mandarin: 就
+    gloss: thus
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: כֵּן
+    strong: '3651'
+  lxx:
+    text: οὕτως
+    strong: '3779'
+  syntax:
+    role: adv
+- position: 4
+  text: תָּמָ֑הוּ
+  lemma: תָּמַהּ
+  transliteration: tāmāhû
+  ids:
+    ref: PSA 48:6!4
+    wordID: o190480060041
+  translation:
+    english: astounded
+    mandarin: 惊惶失措
+    gloss: they.were.astonished
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: תָּמַהּ
+    strong: '8539'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐθαύμασαν
+    strong: '2296'
+  syntax:
+    role: v
+    frame: A0:190480050032;
+  discourse:
+    subject: '190480050032'
+- position: 5
+  text: נִבְהֲל֥וּ
+  lemma: בָּהַל
+  transliteration: niḇhălû
+  ids:
+    ref: PSA 48:6!5
+    wordID: o190480060051
+  translation:
+    english: in terror
+    mandarin: 慌慌张张
+    gloss: they.were.terrified
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: בָּהַל
+    strong: 0926
+  semantic:
+    sdbh:
+    - 000861002001000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἐταράξθησαν
+    strong: '5015'
+  syntax:
+    role: v
+    frame: A0:190480050032;
+  discourse:
+    subject: '190480050032'
+- position: 6
+  text: נֶחְפָּֽזוּ
+  lemma: חָפַז
+  transliteration: 'neḥpāzû:'
+  ids:
+    ref: PSA 48:6!6
+    wordID: o190480060061
+  translation:
+    english: fled
+    mandarin: 逃跑
+    gloss: they.hurried.away
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: חָפַז
+    strong: '2648'
+  semantic:
+    sdbh:
+    - 002439001002000
+    lexdomain:
+    - '002001002001'
+    - '002002001006'
+    coredomain:
+    - '043'
+    - '196'
+    - '110'
+    - '167'
+    sense: '1'
+  lxx:
+    text: ἐσαλεύθησαν
+  syntax:
+    role: v
+    frame: A0:190480050032;
+  discourse:
+    subject: '190480050032'

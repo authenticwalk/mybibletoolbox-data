@@ -1,0 +1,523 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 26:26
+text: Ἐσθιόντων δὲ αὐτῶν λαβὼν ὁ Ἰησοῦς ἄρτον καὶ εὐλογήσας ἔκλασεν καὶ δοὺς τοῖς
+  μαθηταῖς εἶπεν Λάβετε φάγετε· τοῦτό ἐστιν τὸ σῶμά μου.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 26:26!2
+    wordID: n40026026002
+  translation:
+    gloss: now
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Ἐσθιόντων
+  lemma: ἐσθίω
+  normalized: Ἐσθιόντων
+  ids:
+    ref: MAT 26:26!1
+    wordID: n40026026001
+  translation:
+    gloss: '[As] they were eating'
+  morphology:
+    class: verb
+    morph: V-PAP-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2068'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n40026026003
+- position: 3
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: MAT 26:26!3
+    wordID: n40026026003
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026019009 n40026020008
+- position: 4
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 26:26!5
+    wordID: n40026026005
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: MAT 26:26!6
+    wordID: n40026026006
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    discontinuous: 'true'
+- position: 6
+  text: λαβὼν
+  lemma: λαμβάνω
+  normalized: λαβών
+  ids:
+    ref: MAT 26:26!4
+    wordID: n40026026004
+  translation:
+    gloss: having taken
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.1'
+  syntax:
+    role: v
+    frame: A0:n40026026006 A1:n40026026007
+  discourse:
+    subject: n40026026006
+- position: 7
+  text: ἄρτον
+  lemma: ἄρτος
+  normalized: ἄρτον
+  ids:
+    ref: MAT 26:26!7
+    wordID: n40026026007
+  translation:
+    gloss: bread
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '740'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.8'
+  syntax:
+    role: o
+- position: 8
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 26:26!8
+    wordID: n40026026008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 9
+  text: εὐλογήσας
+  lemma: εὐλογέω
+  normalized: εὐλογήσας
+  ids:
+    ref: MAT 26:26!9
+    wordID: n40026026009
+  translation:
+    gloss: having blessed
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2127'
+  semantic:
+    semanticDomain: '033037'
+    ln: '33.356'
+  syntax:
+    role: v
+    frame: A0:n40026026006
+  discourse:
+    subject: n40026026006
+- position: 10
+  text: ἔκλασεν
+  lemma: κλάω
+  normalized: ἔκλασεν
+  ids:
+    ref: MAT 26:26!10
+    wordID: n40026026010
+  translation:
+    gloss: broke [it]
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2806'
+  semantic:
+    semanticDomain: 019004
+    ln: '19.34'
+  syntax:
+    role: v
+    frame: A0:n40026026006 A1:n40026026007
+- position: 11
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 26:26!11
+    wordID: n40026026011
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 12
+  text: δοὺς
+  lemma: δίδωμι
+  normalized: δούς
+  ids:
+    ref: MAT 26:26!12
+    wordID: n40026026012
+  translation:
+    gloss: having given
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A0:n40026026006 A1:n40026026007 A2:n40026026014
+  discourse:
+    subject: n40026026006
+- position: 13
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: MAT 26:26!13
+    wordID: n40026026013
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: μαθηταῖς
+  lemma: μαθητής
+  normalized: μαθηταῖς
+  ids:
+    ref: MAT 26:26!14
+    wordID: n40026026014
+  translation:
+    gloss: disciples
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3101'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.38'
+- position: 15
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 26:26!15
+    wordID: n40026026015
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40026026006
+  discourse:
+    subject: n40026026006
+- position: 16
+  text: Λάβετε
+  lemma: λαμβάνω
+  normalized: Λάβετε
+  ids:
+    ref: MAT 26:26!16
+    wordID: n40026026016
+  translation:
+    gloss: Take
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.1'
+  syntax:
+    role: v
+    frame: A0:n40026026014 A1:n40026026007
+  discourse:
+    subject: n40026026014
+- position: 17
+  text: φάγετε
+  lemma: ἐσθίω
+  normalized: φάγετε
+  ids:
+    ref: MAT 26:26!17
+    wordID: n40026026017
+  translation:
+    gloss: eat
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5315'
+  semantic:
+    semanticDomain: '023001'
+    ln: '23.1'
+  syntax:
+    role: v
+    frame: A0:n40026026014 A1:n40026026007
+  discourse:
+    subject: n40026026014
+- position: 18
+  text: τοῦτό
+  lemma: οὗτος
+  normalized: τοῦτο
+  ids:
+    ref: MAT 26:26!18
+    wordID: n40026026018
+  translation:
+    gloss: this
+  morphology:
+    class: pron
+    morph: D-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: s
+  discourse:
+    referent: n40026026007
+- position: 19
+  text: ἐστιν
+  lemma: εἰμί
+  normalized: ἐστιν
+  ids:
+    ref: MAT 26:26!19
+    wordID: n40026026019
+  translation:
+    gloss: is
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  semantic:
+    semanticDomain: '013001'
+    ln: '13.4'
+  syntax:
+    role: vc
+- position: 20
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: MAT 26:26!20
+    wordID: n40026026020
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 21
+  text: σῶμά
+  lemma: σῶμα
+  normalized: σῶμα
+  ids:
+    ref: MAT 26:26!21
+    wordID: n40026026021
+  translation:
+    gloss: body
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4983'
+  semantic:
+    semanticDomain: 008001
+    ln: '8.1'
+- position: 22
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: MAT 26:26!22
+    wordID: n40026026022
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n40026026006

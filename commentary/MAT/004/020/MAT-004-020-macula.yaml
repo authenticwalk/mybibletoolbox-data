@@ -1,0 +1,189 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 4:20
+text: οἱ δὲ εὐθέως ἀφέντες τὰ δίκτυα ἠκολούθησαν αὐτῷ.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 4:20!2
+    wordID: n40004020002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: MAT 4:20!1
+    wordID: n40004020001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n40004018010
+- position: 3
+  text: εὐθέως
+  lemma: εὐθέως
+  normalized: εὐθέως
+  ids:
+    ref: MAT 4:20!3
+    wordID: n40004020003
+  translation:
+    gloss: immediately
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '2112'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.53'
+  syntax:
+    role: adv
+- position: 4
+  text: ἀφέντες
+  lemma: ἀφίημι
+  normalized: ἀφέντες
+  ids:
+    ref: MAT 4:20!4
+    wordID: n40004020004
+  translation:
+    gloss: having left
+  morphology:
+    class: verb
+    morph: V-2AAP-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '863'
+  semantic:
+    semanticDomain: 085002
+    ln: '85.45'
+  syntax:
+    role: v
+    frame: A0:n40004018010 A1:n40004020006
+  discourse:
+    subject: n40004018010
+- position: 5
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: MAT 4:20!5
+    wordID: n40004020005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: δίκτυα
+  lemma: δίκτυον
+  normalized: δίκτυα
+  ids:
+    ref: MAT 4:20!6
+    wordID: n40004020006
+  translation:
+    gloss: nets
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '1350'
+  semantic:
+    semanticDomain: '006003'
+    ln: '6.11'
+- position: 7
+  text: ἠκολούθησαν
+  lemma: ἀκολουθέω
+  normalized: ἠκολούθησαν
+  ids:
+    ref: MAT 4:20!7
+    wordID: n40004020007
+  translation:
+    gloss: they followed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '190'
+  semantic:
+    semanticDomain: '036004'
+    ln: '36.31'
+  syntax:
+    role: v
+    frame: A0:n40004020001 A1:n40004020008
+- position: 8
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: MAT 4:20!8
+    wordID: n40004020008
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n40004017005

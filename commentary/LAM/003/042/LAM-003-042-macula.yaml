@@ -1,0 +1,203 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LAM 3:42
+text: נַ֤חְנוּ פָשַׁ֨עְנוּ֙ וּמָרִ֔ינוּ אַתָּ֖ה לֹ֥א סָלָֽחְתָּ׃ס
+words:
+- position: 1
+  text: נַ֤חְנוּ
+  lemma: נַחְנוּ
+  transliteration: naḥənû
+  ids:
+    ref: LAM 3:42!1
+    wordID: o250030420011
+  translation:
+    english: we
+    mandarin: 我们
+    gloss: we
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cp
+    gender: common
+    number: plural
+    person: first
+    type: personal
+  lexical:
+    stronglemma: נַחְנוּ
+    strong: '5168'
+  syntax:
+    role: s
+  discourse:
+    participant: 250030010022 250030140041
+- position: 2
+  text: פָשַׁ֨עְנוּ֙
+  lemma: פָּשַׁע
+  transliteration: p̄āšaʿənû
+  ids:
+    ref: LAM 3:42!2
+    wordID: o250030420021
+  translation:
+    english: transgressed
+    mandarin: 犯罪
+    gloss: we.have.transgressed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: פָּשַׁע
+    strong: '6586'
+  semantic:
+    sdbh:
+    - '006051001001000'
+    lexdomain:
+    - '002001003020'
+    sense: '1'
+  lxx:
+    text: ἡμαρτήσαμεν
+  syntax:
+    role: v
+    frame: A0:250030420011;
+- position: 3
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: LAM 3:42!3
+    wordID: o250030420031
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 4
+  text: מָרִ֔ינוּ
+  lemma: מָרָה
+  transliteration: māriynû
+  ids:
+    ref: LAM 3:42!3
+    wordID: o250030420032
+  translation:
+    english: rebelled
+    mandarin: 悖逆
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָרָה
+    strong: '4784'
+  semantic:
+    sdbh:
+    - 004379001001000
+    lexdomain:
+    - '002001002031'
+    coredomain:
+    - '197'
+    - '015'
+    sense: '1'
+  lxx:
+    text: ἠσεβήσαμεν
+  syntax:
+    role: v
+    frame: A0:250030010022;250030140041;
+  discourse:
+    subject: 250030010022 250030140041
+- position: 5
+  text: אַתָּ֖ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: LAM 3:42!4
+    wordID: o250030420041
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: καὶ
+    strong: '2532'
+  syntax:
+    role: s
+  discourse:
+    participant: '250030410061'
+- position: 6
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: LAM 3:42!5
+    wordID: o250030420051
+  translation:
+    english: not
+    mandarin: 没有
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐξ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 7
+  text: סָלָֽחְתָּ
+  lemma: סָלַח
+  transliteration: 'sālāḥətā:'
+  ids:
+    ref: LAM 3:42!6
+    wordID: o250030420061
+  translation:
+    english: forgiven
+    mandarin: 赦免
+    gloss: you.have.forgiven
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: סָלַח
+    strong: '5545'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἱλάσθης
+  syntax:
+    role: v
+    frame: A0:250030420041;

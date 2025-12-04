@@ -1,0 +1,374 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 24:24
+text: אֹ֤מֵ֨ר׀לְרָשָׁע֮ צַדִּ֪יק אָ֥תָּה יִקְּבֻ֥הוּ עַמִּ֑ים יִזְעָמ֥וּהוּ לְאֻמִּֽים׃
+words:
+- position: 1
+  text: אֹ֤מֵ֨ר
+  lemma: אָמַר
+  transliteration: ʾōmēr
+  ids:
+    ref: PRO 24:24!1
+    wordID: o200240240011
+  translation:
+    english: says
+    mandarin: 说
+    gloss: '[one.who].says'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:200240240031;
+- position: 2
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PRO 24:24!2
+    wordID: o200240240021
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 3
+  text: רָשָׁע֮
+  lemma: רָשָׁע
+  transliteration: rāšāʿ
+  ids:
+    ref: PRO 24:24!2
+    wordID: o200240240022
+  translation:
+    english: guilty
+    mandarin: 恶人
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רָשָׁע
+    strong: '7563'
+  semantic:
+    sdbh:
+    - 006947001001000
+    lexdomain:
+    - '002001002007'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἀσεβῆ
+    strong: '765'
+- position: 4
+  text: צַדִּ֪יק
+  lemma: צַדִּיק
+  transliteration: ṣaddiyq
+  ids:
+    ref: PRO 24:24!3
+    wordID: o200240240031
+  translation:
+    english: innocent
+    mandarin: 义人
+    gloss: '[are].righteous'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: צַדִּיק
+    strong: '6662'
+  semantic:
+    sdbh:
+    - '006127001001000'
+    lexdomain:
+    - '002003003014'
+    - '002001002016'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: δίκαιός
+    strong: '1342'
+  syntax:
+    role: p
+- position: 5
+  text: אָ֥תָּה
+  lemma: אַתָּה
+  transliteration: ʾātâ
+  ids:
+    ref: PRO 24:24!4
+    wordID: o200240240041
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: ἐστιν
+    strong: '2076'
+  syntax:
+    role: s
+  discourse:
+    participant: '200240240022'
+- position: 6
+  text: יִקְּבֻ֥
+  lemma: קבב
+  transliteration: ''
+  ids:
+    ref: PRO 24:24!5
+    wordID: o200240240051
+  translation:
+    english: curse
+    mandarin: 诅咒
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קבב
+    strong: '6895'
+  semantic:
+    sdbh:
+    - 006349001001000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A1:200240240052; A0:200240240061;
+- position: 7
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 24:24!5
+    wordID: o200240240052
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - 006349001001000
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+  lxx:
+    text: ἐπικατάρατος
+    strong: '1944'
+  syntax:
+    role: o
+  discourse:
+    participant: '200240240011'
+- position: 8
+  text: עַמִּ֑ים
+  lemma: עַם
+  transliteration: ʿammiym
+  ids:
+    ref: PRO 24:24!6
+    wordID: o200240240061
+  translation:
+    english: peoples
+    mandarin: 万民
+    gloss: peoples
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοῖς
+    strong: '2992'
+  syntax:
+    role: s
+- position: 9
+  text: יִזְעָמ֥וּ
+  lemma: זָעַם
+  transliteration: ''
+  ids:
+    ref: PRO 24:24!7
+    wordID: o200240240071
+  translation:
+    english: denounce
+    mandarin: 恼恨
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: זָעַם
+    strong: '2194'
+  semantic:
+    sdbh:
+    - '002022001002000'
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+    sense: '1'
+  lxx:
+    text: καὶ
+    strong: '2532'
+  syntax:
+    role: v
+    frame: A1:200240240072; A0:200240240081;
+- position: 10
+  text: הוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 24:24!7
+    wordID: o200240240072
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1930a
+  semantic:
+    sdbh:
+    - '002022001002000'
+    lexdomain:
+    - 002003002009
+    coredomain:
+    - '041'
+    - 018
+    - '017'
+    - '140'
+  lxx:
+    text: μισητὸς
+  syntax:
+    role: o
+  discourse:
+    participant: '200240240011'
+- position: 11
+  text: לְאֻמִּֽים
+  lemma: לְאֹם
+  transliteration: 'ləʾummiym:'
+  ids:
+    ref: PRO 24:24!8
+    wordID: o200240240081
+  translation:
+    english: nations
+    mandarin: 万族
+    gloss: nations
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לְאֹם
+    strong: '3816'
+  semantic:
+    sdbh:
+    - 003493001001000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '2'
+  lxx:
+    text: ἔθνη
+    strong: '1484'
+  syntax:
+    role: s

@@ -1,0 +1,796 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOS 7:11
+text: חָטָא֙ יִשְׂרָאֵ֔ל וְגַם֙ עָבְר֣וּ אֶת־בְּרִיתִ֔י אֲשֶׁ֥ר צִוִּ֖יתִי אוֹתָ֑ם
+  וְגַ֤ם לָֽקְחוּ֙ מִן־הַחֵ֔רֶם וְגַ֤ם גָּֽנְבוּ֙ וְגַ֣ם כִּֽחֲשׁ֔וּ וְגַ֖ם שָׂ֥מוּ
+  בִכְלֵיהֶֽם׃
+words:
+- position: 1
+  text: חָטָא֙
+  lemma: חָטָא
+  transliteration: ḥāṭāʾ
+  ids:
+    ref: JOS 7:11!1
+    wordID: o060070110011
+  translation:
+    english: sinned
+    mandarin: 犯~罪
+    gloss: it.has.sinned
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: חָטָא
+    strong: '2398'
+  semantic:
+    sdbh:
+    - '002211002006000'
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἡμάρτηκεν
+  syntax:
+    role: v
+    frame: A0:060070110021;
+- position: 2
+  text: יִשְׂרָאֵ֔ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: JOS 7:11!2
+    wordID: o060070110021
+  translation:
+    english: Israel
+    mandarin: 以色列人
+    gloss: Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  syntax:
+    role: s
+- position: 3
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 7:11!3
+    wordID: o060070110031
+  translation:
+    english: and
+    mandarin: 甚至
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: גַם֙
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: JOS 7:11!3
+    wordID: o060070110032
+  translation:
+    english: also
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 5
+  text: עָבְר֣וּ
+  lemma: עָבַר
+  transliteration: ʿāḇərû
+  ids:
+    ref: JOS 7:11!4
+    wordID: o060070110041
+  translation:
+    english: transgressed
+    mandarin: 违背
+    gloss: they.have.transgressed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '4'
+  lxx:
+    text: παρέβη
+    strong: '3845'
+  syntax:
+    role: v
+    frame: A0:060070110021;
+  discourse:
+    subject: '060070110021'
+- position: 6
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JOS 7:11!5
+    wordID: o060070110051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 7
+  text: בְּרִיתִ֔
+  lemma: בְּרִית
+  transliteration: ''
+  ids:
+    ref: JOS 7:11!6
+    wordID: o060070110061
+  translation:
+    english: covenant
+    mandarin: 约
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בְּרִית
+    strong: '1285'
+  semantic:
+    sdbh:
+    - 001185001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '046'
+    sense: '1'
+  lxx:
+    text: τὴν
+    strong: '3588'
+- position: 8
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 7:11!6
+    wordID: o060070110062
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 001185001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '046'
+  lxx:
+    text: διαθήκην
+    strong: '1242'
+  discourse:
+    participant: '060070100021'
+- position: 9
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: JOS 7:11!7
+    wordID: o060070110071
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἣν
+    strong: '3739'
+- position: 10
+  text: צִוִּ֖יתִי
+  lemma: צָוָה
+  transliteration: ṣiwwiyṯî
+  ids:
+    ref: JOS 7:11!8
+    wordID: o060070110081
+  translation:
+    english: commanded
+    mandarin: 吩咐
+    gloss: I.commanded
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: διεθέμην
+    strong: '1303'
+  syntax:
+    role: v
+    frame: A0:060070100021; A2:060070110092; A1:060070110061;
+  discourse:
+    subject: '060070100021'
+- position: 11
+  text: אוֹתָ֑
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: JOS 7:11!9
+    wordID: o060070110091
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 12
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 7:11!9
+    wordID: o060070110092
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτούς
+    strong: '848'
+  discourse:
+    participant: '060070110021'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 7:11!10
+    wordID: o060070110101
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 14
+  text: גַ֤ם
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: JOS 7:11!10
+    wordID: o060070110102
+  translation:
+    english: even
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 15
+  text: לָֽקְחוּ֙
+  lemma: לָקַח
+  transliteration: lāqəḥû
+  ids:
+    ref: JOS 7:11!11
+    wordID: o060070110111
+  translation:
+    english: taken
+    mandarin: 取
+    gloss: they.have.taken
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: לָקַח
+    strong: '3947'
+  semantic:
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:060070110021;
+  discourse:
+    subject: '060070110021'
+- position: 16
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: JOS 7:11!12
+    wordID: o060070110121
+  translation:
+    english: some of
+    mandarin: 从
+    gloss: some.of
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 17
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: JOS 7:11!13
+    wordID: o060070110131
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 18
+  text: חֵ֔רֶם
+  lemma: חֵרֶם
+  transliteration: ḥērem
+  ids:
+    ref: JOS 7:11!13
+    wordID: o060070110132
+  translation:
+    english: devoted things
+    mandarin: 当灭之物
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֵרֶם
+    strong: '2764'
+  semantic:
+    sdbh:
+    - '002544002001000'
+    lexdomain:
+    - '002003002002'
+    coredomain:
+    - 079
+    - '055'
+    sense: '1'
+- position: 19
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 7:11!14
+    wordID: o060070110141
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 20
+  text: גַ֤ם
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: JOS 7:11!14
+    wordID: o060070110142
+  translation:
+    english: also
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 21
+  text: גָּֽנְבוּ֙
+  lemma: גָּנַב
+  transliteration: gānəḇû
+  ids:
+    ref: JOS 7:11!15
+    wordID: o060070110151
+  translation:
+    english: stolen
+    mandarin: 偷窃
+    gloss: they.have.stolen
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: גָּנַב
+    strong: '1589'
+  semantic:
+    sdbh:
+    - '001456001001000'
+    lexdomain:
+    - '002003002020'
+    coredomain:
+    - '128'
+    - '017'
+    - '153'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:060070110021;
+  discourse:
+    subject: '060070110021'
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 7:11!16
+    wordID: o060070110161
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 23
+  text: גַ֣ם
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: JOS 7:11!16
+    wordID: o060070110162
+  translation:
+    english: also
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: ^^^
+- position: 24
+  text: כִּֽחֲשׁ֔וּ
+  lemma: כָּחַשׁ
+  transliteration: kiḥăšû
+  ids:
+    ref: JOS 7:11!17
+    wordID: o060070110171
+  translation:
+    english: acted deceitfully
+    mandarin: 行诡诈
+    gloss: they.have.deceived
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: כָּחַשׁ
+    strong: '3584'
+  semantic:
+    sdbh:
+    - 003283001002000
+    lexdomain:
+    - '002001003007'
+    coredomain:
+    - '184'
+    sense: '1'
+  lxx:
+    text: ^^^
+  syntax:
+    role: v
+    frame: A0:060070110021;
+  discourse:
+    subject: '060070110021'
+- position: 25
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JOS 7:11!18
+    wordID: o060070110181
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 26
+  text: גַ֖ם
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: JOS 7:11!18
+    wordID: o060070110182
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 27
+  text: שָׂ֥מוּ
+  lemma: שׂים
+  transliteration: śāmû
+  ids:
+    ref: JOS 7:11!19
+    wordID: o060070110191
+  translation:
+    english: put
+    mandarin: 放
+    gloss: they.have.put.[them]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שׂים
+    strong: '7760'
+  semantic:
+    sdbh:
+    - 007028001002000
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:060070110021; A1:060070110132;
+  discourse:
+    subject: '060070110021'
+- position: 28
+  text: בִ
+  lemma: בְּ
+  transliteration: ḇi
+  ids:
+    ref: JOS 7:11!20
+    wordID: o060070110201
+  translation:
+    english: among
+    mandarin: 在~里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 29
+  text: כְלֵי
+  lemma: כְּלִי
+  transliteration: ''
+  ids:
+    ref: JOS 7:11!20
+    wordID: o060070110202
+  translation:
+    english: belongings
+    mandarin: 物件
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כְּלִי
+    strong: '3627'
+  semantic:
+    sdbh:
+    - '003322001001000'
+    lexdomain:
+    - '001004001'
+    coredomain:
+    - '027'
+    sense: '3'
+- position: 30
+  text: הֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JOS 7:11!20
+    wordID: o060070110203
+  translation:
+    english: their own
+    mandarin: 自己
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '003322001001000'
+    lexdomain:
+    - '001004001'
+    coredomain:
+    - '027'
+  lxx:
+    text: ἐνέβαλον
+  discourse:
+    participant: '060070110021'

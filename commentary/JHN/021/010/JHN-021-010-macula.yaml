@@ -1,0 +1,255 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 21:10
+text: λέγει αὐτοῖς ὁ Ἰησοῦς Ἐνέγκατε ἀπὸ τῶν ὀψαρίων ὧν ἐπιάσατε νῦν.
+words:
+- position: 1
+  text: λέγει
+  lemma: λέγω
+  normalized: λέγει
+  ids:
+    ref: JHN 21:10!1
+    wordID: n43021010001
+  translation:
+    gloss: Says
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A2:n43021010002 A0:n43021010004
+- position: 2
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: JHN 21:10!2
+    wordID: n43021010002
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43021007015 n43021008004
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: JHN 21:10!3
+    wordID: n43021010003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: JHN 21:10!4
+    wordID: n43021010004
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 5
+  text: Ἐνέγκατε
+  lemma: φέρω
+  normalized: Ἐνέγκατε
+  ids:
+    ref: JHN 21:10!5
+    wordID: n43021010005
+  translation:
+    gloss: Bring
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '5342'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.166'
+  syntax:
+    role: v
+    frame: A0:n43021008004;n43021007015
+  discourse:
+    subject: n43021008004 n43021007015
+- position: 6
+  text: ἀπὸ
+  lemma: ἀπό
+  normalized: ἀπό
+  ids:
+    ref: JHN 21:10!6
+    wordID: n43021010006
+  translation:
+    gloss: '[some] of'
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+  semantic:
+    semanticDomain: '063004'
+    ln: '63.20'
+- position: 7
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: JHN 21:10!7
+    wordID: n43021010007
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ὀψαρίων
+  lemma: ὀψάριον
+  normalized: ὀψαρίων
+  ids:
+    ref: JHN 21:10!8
+    wordID: n43021010008
+  translation:
+    gloss: fish
+  morphology:
+    class: noun
+    morph: N-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: common
+  lexical:
+    strong: '3795'
+  semantic:
+    semanticDomain: '005001'
+    ln: '5.16'
+- position: 9
+  text: ὧν
+  lemma: ὅς
+  normalized: ὧν
+  ids:
+    ref: JHN 21:10!9
+    wordID: n43021010009
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n43021010008
+- position: 10
+  text: ἐπιάσατε
+  lemma: πιάζω
+  normalized: ἐπιάσατε
+  ids:
+    ref: JHN 21:10!10
+    wordID: n43021010010
+  translation:
+    gloss: you have caught
+  morphology:
+    class: verb
+    morph: V-AAI-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '4084'
+  semantic:
+    semanticDomain: 018001
+    ln: '18.3'
+  syntax:
+    role: v
+    frame: A0:n43021008004;n43021007015 A1:n43021010009
+  discourse:
+    subject: n43021008004 n43021007015
+- position: 11
+  text: νῦν
+  lemma: νῦν
+  normalized: νῦν
+  ids:
+    ref: JHN 21:10!11
+    wordID: n43021010011
+  translation:
+    gloss: now
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3568'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.39'
+  syntax:
+    role: adv

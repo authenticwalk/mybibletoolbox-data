@@ -1,0 +1,651 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 6:26
+text: בַּת־עַמִּ֤י חִגְרִי־שָׂק֙ וְהִתְפַּלְּשִׁ֣י בָאֵ֔פֶר אֵ֤בֶל יָחִיד֙ עֲשִׂ֣י
+  לָ֔ךְ מִסְפַּ֖ד תַּמְרוּרִ֑ים כִּ֣י פִתְאֹ֔ם יָבֹ֥א הַשֹּׁדֵ֖ד עָלֵֽינוּ׃
+words:
+- position: 1
+  text: בַּת
+  lemma: בַּת
+  transliteration: baṯ-
+  ids:
+    ref: JER 6:26!1
+    wordID: o240060260011
+  translation:
+    english: daughter
+    mandarin: 人民
+    gloss: O.daughter
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּת
+    strong: '1323'
+  semantic:
+    sdbh:
+    - '001220001003000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    sense: '1'
+  lxx:
+    text: θύγατερ
+    strong: '2364'
+- position: 2
+  text: עַמִּ֤
+  lemma: עַם
+  transliteration: ''
+  ids:
+    ref: JER 6:26!2
+    wordID: o240060260021
+  translation:
+    english: people
+    mandarin: 百姓
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοῦ
+    strong: '2992'
+- position: 3
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 6:26!2
+    wordID: o240060260022
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '240010010021'
+- position: 4
+  text: חִגְרִי
+  lemma: חָגַר
+  transliteration: ḥiḡrî-
+  ids:
+    ref: JER 6:26!3
+    wordID: o240060260031
+  translation:
+    english: put on
+    mandarin: 披上
+    gloss: gird.yourself
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: חָגַר
+    strong: '2296'
+  semantic:
+    sdbh:
+    - '002125001002000'
+    lexdomain:
+    - '002003001007'
+    coredomain:
+    - '033'
+    sense: '1'
+  lxx:
+    text: περίζωσαι
+  syntax:
+    role: v
+    frame: A0:240060260011; A1:240060260041;
+  discourse:
+    subject: '240060260011'
+- position: 5
+  text: שָׂק֙
+  lemma: שַׂק
+  transliteration: śāq
+  ids:
+    ref: JER 6:26!4
+    wordID: o240060260041
+  translation:
+    english: sackcloth
+    mandarin: 麻布
+    gloss: sackcloth
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שַׂק
+    strong: '8242'
+  semantic:
+    sdbh:
+    - 007082001002000
+    lexdomain:
+    - '001006003'
+    sense: '1'
+  lxx:
+    text: σάκκον
+    strong: '4526'
+  syntax:
+    role: o
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 6:26!5
+    wordID: o240060260051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 7
+  text: הִתְפַּלְּשִׁ֣י
+  lemma: פָּלַשׁ
+  transliteration: hiṯpalləšiy
+  ids:
+    ref: JER 6:26!5
+    wordID: o240060260052
+  translation:
+    english: roll
+    mandarin: 打滚
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vtv2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: hithpael
+    type: imperative
+  lexical:
+    stronglemma: פָּלַשׁ
+    strong: '6428'
+  semantic:
+    sdbh:
+    - 005904001001000
+    lexdomain:
+    - 002002001019
+    coredomain:
+    - '110'
+    - 019
+    sense: '1'
+  lxx:
+    text: κατάπασαι
+  syntax:
+    role: v
+    frame: A0:240060260011;
+  discourse:
+    subject: '240060260011'
+- position: 8
+  text: בָ
+  lemma: בְּ
+  transliteration: ḇā
+  ids:
+    ref: JER 6:26!6
+    wordID: o240060260061
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: אֵ֔פֶר
+  lemma: אֵפֶר
+  transliteration: ʾēp̄er
+  ids:
+    ref: JER 6:26!6
+    wordID: o240060260062
+  translation:
+    english: ashes
+    mandarin: 灰
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵפֶר
+    strong: '0665'
+  semantic:
+    sdbh:
+    - '000612001001000'
+    lexdomain:
+    - '001006005'
+    coredomain:
+    - '067'
+    sense: '1'
+  lxx:
+    text: σποδῷ
+    strong: '4700'
+- position: 10
+  text: אֵ֤בֶל
+  lemma: אֵבֶל
+  transliteration: ʾēḇel
+  ids:
+    ref: JER 6:26!7
+    wordID: o240060260071
+  translation:
+    english: mourning
+    mandarin: 哀悼
+    gloss: '[the].mourning'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵבֶל
+    strong: '0060'
+  semantic:
+    sdbh:
+    - '000057001001000'
+    lexdomain:
+    - '002001002013'
+    coredomain:
+    - 093
+    - '109'
+    - '196'
+    sense: '1'
+  lxx:
+    text: πένθος
+    strong: '3997'
+- position: 11
+  text: יָחִיד֙
+  lemma: יָחִיד
+  transliteration: yāḥîḏ
+  ids:
+    ref: JER 6:26!8
+    wordID: o240060260081
+  translation:
+    english: only son
+    mandarin: 独生子
+    gloss: of.an.only.[child]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: יָחִיד
+    strong: '3173'
+  semantic:
+    sdbh:
+    - 002904001001000
+    lexdomain:
+    - '002003002010'
+    coredomain:
+    - '142'
+    sense: '1'
+  lxx:
+    text: ἀγαπητοῦ
+    strong: '27'
+- position: 12
+  text: מִסְפַּ֖ד
+  lemma: מִסְפֵּד
+  transliteration: mispaḏ
+  ids:
+    ref: JER 6:26!11
+    wordID: o240060260111
+  translation:
+    english: lamentation
+    mandarin: 哭号
+    gloss: wailing
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִסְפֵּד
+    strong: '4553'
+  semantic:
+    sdbh:
+    - 004169001001000
+    lexdomain:
+    - '002001002013'
+    coredomain:
+    - '109'
+    - 093
+    - '196'
+    sense: '1'
+  lxx:
+    text: κοπετὸν
+    strong: '2870'
+- position: 13
+  text: תַּמְרוּרִ֑ים
+  lemma: תַּמְרוּרִים
+  transliteration: tamrûriym
+  ids:
+    ref: JER 6:26!12
+    wordID: o240060260121
+  translation:
+    english: bitter
+    mandarin: 痛痛
+    gloss: of.bitterness(es)
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תַּמְרוּרִים
+    strong: '8563'
+  semantic:
+    sense: '1'
+  lxx:
+    text: οἰκτρόν
+- position: 14
+  text: עֲשִׂ֣י
+  lemma: עָשָׂה
+  transliteration: ʿăśiy
+  ids:
+    ref: JER 6:26!9
+    wordID: o240060260091
+  translation:
+    english: make
+    mandarin: 举行
+    gloss: observe
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '2'
+  lxx:
+    text: ποίησαι
+  syntax:
+    role: v
+    frame: A0:240060260011; A1:240060260071;
+  discourse:
+    subject: '240060260011'
+- position: 15
+  text: לָ֔
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: JER 6:26!10
+    wordID: o240060260101
+  translation:
+    english: for
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 16
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 6:26!10
+    wordID: o240060260102
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  lxx:
+    text: σεαυτῇ
+    strong: '4572'
+  discourse:
+    participant: '240060260011'
+- position: 17
+  text: כִּ֣י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: JER 6:26!13
+    wordID: o240060260131
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 18
+  text: פִתְאֹ֔ם
+  lemma: פִּתְאֹם
+  transliteration: p̄iṯʾōm
+  ids:
+    ref: JER 6:26!14
+    wordID: o240060260141
+  translation:
+    english: suddenly
+    mandarin: 突然
+    gloss: suddenly
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: פִּתְאֹם
+    strong: '6597'
+  lxx:
+    text: ἐχαίφνης
+    strong: '1810'
+  syntax:
+    role: adv
+- position: 19
+  text: יָבֹ֥א
+  lemma: בּוֹא
+  transliteration: yāḇōʾ
+  ids:
+    ref: JER 6:26!15
+    wordID: o240060260151
+  translation:
+    english: come
+    mandarin: 临到
+    gloss: it.will.come
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἥχει
+    strong: '2240'
+  syntax:
+    role: v
+    frame: A0:240060260162;
+- position: 20
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: JER 6:26!16
+    wordID: o240060260161
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 21
+  text: שֹּׁדֵ֖ד
+  lemma: שָׁדַד
+  transliteration: ššōḏēḏ
+  ids:
+    ref: JER 6:26!16
+    wordID: o240060260162
+  translation:
+    english: destroyer
+    mandarin: 毁灭者
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׁדַד
+    strong: '7703'
+  semantic:
+    sdbh:
+    - '007210001001000'
+    lexdomain:
+    - '002001001023'
+    - 002001001019
+    - '002003002020'
+    - '002003003021'
+    coredomain:
+    - '006'
+    - '196'
+    sense: '2'
+  lxx:
+    text: ταλαιπωρία
+    strong: '5004'
+- position: 22
+  text: עָלֵֽי
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: JER 6:26!17
+    wordID: o240060260171
+  translation:
+    english: upon
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐφ’
+    strong: '1909'
+- position: 23
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 6:26!17
+    wordID: o240060260172
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: 240010010021 240060260011

@@ -1,0 +1,839 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 8:14
+text: עַל־מָה֙ אֲנַ֣חְנוּ יֹֽשְׁבִ֔ים הֵֽאָסְפ֗וּ וְנָב֛וֹא אֶל־עָרֵ֥י הַמִּבְצָ֖ר
+  וְנִדְּמָה־שָּׁ֑ם כִּי֩ יְהוָ֨ה אֱלֹהֵ֤ינוּ הֲדִמָּ֨נוּ֙ וַיַּשְׁקֵ֣נוּ מֵי־רֹ֔אשׁ
+  כִּ֥י חָטָ֖אנוּ לַיהוָֽה׃
+words:
+- position: 1
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: JER 8:14!1
+    wordID: o240080140011
+  translation:
+    english: for
+    gloss: concerning
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 2
+  text: מָה֙
+  lemma: מָה
+  transliteration: māh
+  ids:
+    ref: JER 8:14!2
+    wordID: o240080140021
+  translation:
+    english: what?
+    mandarin: 为何
+    gloss: what?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+- position: 3
+  text: אֲנַ֣חְנוּ
+  lemma: אֲנַחְנוּ
+  transliteration: ʾănaḥənû
+  ids:
+    ref: JER 8:14!3
+    wordID: o240080140031
+  translation:
+    english: we
+    mandarin: 我们
+    gloss: '[are].we'
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cp
+    gender: common
+    number: plural
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנַחְנוּ
+    strong: 0587
+  lxx:
+    text: ἡμεῖς
+    strong: '2249'
+  syntax:
+    role: s
+  discourse:
+    participant: '240080110041'
+- position: 4
+  text: יֹֽשְׁבִ֔ים
+  lemma: יָשַׁב
+  transliteration: yōšəḇiym
+  ids:
+    ref: JER 8:14!4
+    wordID: o240080140041
+  translation:
+    english: sitting
+    mandarin: 坐
+    gloss: sitting
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָשַׁב
+    strong: '3427'
+  semantic:
+    sdbh:
+    - '003136001001000'
+    lexdomain:
+    - '002002001016'
+    - 002001001058
+    coredomain:
+    - '166'
+    - 019
+    sense: '2'
+  lxx:
+    text: καθήμεθα
+  syntax:
+    role: v
+    frame: A0:240080140031;
+- position: 5
+  text: הֵֽאָסְפ֗וּ
+  lemma: אָסַף
+  transliteration: hēʾāsəp̄û
+  ids:
+    ref: JER 8:14!5
+    wordID: o240080140051
+  translation:
+    english: gather together
+    mandarin: 聚集
+    gloss: gather.yourselves
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: niphal
+    type: imperative
+  lexical:
+    stronglemma: אָסַף
+    strong: '0622'
+  semantic:
+    sdbh:
+    - 000569001001000
+    lexdomain:
+    - '002003002014'
+    sense: '1'
+  lxx:
+    text: συνάξθητε
+    strong: '4863'
+  syntax:
+    role: v
+    frame: A1:240080110041;
+  discourse:
+    subject: '240080110041'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 8:14!6
+    wordID: o240080140061
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: נָב֛וֹא
+  lemma: בּוֹא
+  transliteration: nāḇôʾ
+  ids:
+    ref: JER 8:14!6
+    wordID: o240080140062
+  translation:
+    english: go
+    mandarin: 进入
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσέλθωμεν
+    strong: '1525'
+  syntax:
+    role: v
+    frame: A0:240080110041;
+  discourse:
+    subject: '240080110041'
+- position: 8
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: JER 8:14!7
+    wordID: o240080140071
+  translation:
+    english: into
+    mandarin: 到~里
+    gloss: into
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 9
+  text: עָרֵ֥י
+  lemma: עִיר
+  transliteration: ʿārēy
+  ids:
+    ref: JER 8:14!8
+    wordID: o240080140081
+  translation:
+    english: cities
+    mandarin: 城
+    gloss: the.cities
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עִיר
+    strong: '5892'
+  semantic:
+    sdbh:
+    - '005411001001000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+  lxx:
+    text: πόλεις
+    strong: '4172'
+- position: 10
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: JER 8:14!9
+    wordID: o240080140091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰς
+    strong: '3588'
+- position: 11
+  text: מִּבְצָ֖ר
+  lemma: מִבְצָר
+  transliteration: mmiḇṣār
+  ids:
+    ref: JER 8:14!9
+    wordID: o240080140092
+  translation:
+    english: fortified
+    mandarin: 坚固
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִבְצָר
+    strong: '4013'
+  semantic:
+    sdbh:
+    - '003674001002000'
+    lexdomain:
+    - '001005001003'
+    coredomain:
+    - '182'
+    - '172'
+    sense: '1'
+  lxx:
+    text: ὀξυρὰς
+- position: 12
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: JER 8:14!10
+    wordID: o240080140101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: נִדְּמָה
+  lemma: דָּמַם
+  transliteration: niddəmâ-
+  ids:
+    ref: JER 8:14!10
+    wordID: o240080140102
+  translation:
+    english: perish
+    mandarin: 死
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: דָּמַם
+    strong: 1826b
+  semantic:
+    sdbh:
+    - 001680001003000
+    lexdomain:
+    - '002002002006'
+    coredomain:
+    - '052'
+    sense: '1'
+  lxx:
+    text: ἀπορριφῶμεν
+    strong: '641'
+  syntax:
+    role: v
+    frame: A0:240080110041;
+  discourse:
+    subject: '240080110041'
+- position: 14
+  text: שָּׁ֑ם
+  lemma: שָׁם
+  transliteration: ššām
+  ids:
+    ref: JER 8:14!11
+    wordID: o240080140111
+  translation:
+    english: there
+    mandarin: 那里
+    gloss: there
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  syntax:
+    role: adv
+- position: 15
+  text: כִּי֩
+  lemma: כִּי
+  transliteration: kî
+  ids:
+    ref: JER 8:14!12
+    wordID: o240080140121
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 16
+  text: יְהוָ֨ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: JER 8:14!13
+    wordID: o240080140131
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+- position: 17
+  text: אֱלֹהֵ֤י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: JER 8:14!14
+    wordID: o240080140141
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 18
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 8:14!14
+    wordID: o240080140142
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  discourse:
+    participant: '240080110041'
+- position: 19
+  text: הֲדִמָּ֨
+  lemma: דָּמַם
+  transliteration: ''
+  ids:
+    ref: JER 8:14!15
+    wordID: o240080140151
+  translation:
+    english: doomed
+    mandarin: 灭亡
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: דָּמַם
+    strong: 1826b
+  semantic:
+    sdbh:
+    - 001680001003000
+    lexdomain:
+    - '002002002006'
+    coredomain:
+    - '052'
+    sense: '1'
+  lxx:
+    text: ἀπέρριψεν
+  syntax:
+    role: v
+    frame: AA:240080140131; A0:240080140152;
+- position: 20
+  text: נוּ֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 8:14!15
+    wordID: o240080140152
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 001680001003000
+    lexdomain:
+    - '002002002006'
+    coredomain:
+    - '052'
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: '240080110041'
+- position: 21
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: JER 8:14!16
+    wordID: o240080140161
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 22
+  text: יַּשְׁקֵ֣
+  lemma: שָׁקָה
+  transliteration: ''
+  ids:
+    ref: JER 8:14!16
+    wordID: o240080140162
+  translation:
+    english: given ~ todrink
+    mandarin: 给~喝
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: שָׁקָה
+    strong: '8248'
+  semantic:
+    sdbh:
+    - '007606001003000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '101'
+    - 069
+    sense: '1'
+  lxx:
+    text: ἐπότισεν
+    strong: '4222'
+  syntax:
+    role: v
+    frame: AA:240080140131; A0:240080140163; A1:240080140171;
+  discourse:
+    subject: '240080140131'
+- position: 23
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 8:14!16
+    wordID: o240080140163
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - '007606001003000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - '101'
+    - 069
+  lxx:
+    text: ἡμᾶς
+    strong: '2248'
+  syntax:
+    role: o
+  discourse:
+    participant: '240080110041'
+- position: 24
+  text: מֵי
+  lemma: מַיִם
+  transliteration: mê-
+  ids:
+    ref: JER 8:14!17
+    wordID: o240080140171
+  translation:
+    english: water
+    mandarin: 水
+    gloss: water
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  lxx:
+    text: ὕδωρ
+    strong: '5204'
+- position: 25
+  text: רֹ֔אשׁ
+  lemma: רֹאשׁ
+  transliteration: rōʾš
+  ids:
+    ref: JER 8:14!18
+    wordID: o240080140181
+  translation:
+    english: poisoned
+    mandarin: 毒
+    gloss: of.poison
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רֹאשׁ
+    strong: '7219'
+  semantic:
+    sdbh:
+    - 006648002002000
+    lexdomain:
+    - '001006007'
+    - '002003003021'
+    sense: '1'
+  lxx:
+    text: ξολῆς
+    strong: '5521'
+- position: 26
+  text: כִּ֥י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: JER 8:14!19
+    wordID: o240080140191
+  translation:
+    english: because
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 27
+  text: חָטָ֖אנוּ
+  lemma: חָטָא
+  transliteration: ḥāṭāʾnû
+  ids:
+    ref: JER 8:14!20
+    wordID: o240080140201
+  translation:
+    english: sinned
+    mandarin: 得罪
+    gloss: we.have.sinned
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: חָטָא
+    strong: '2398'
+  semantic:
+    sdbh:
+    - '002211002006000'
+    lexdomain:
+    - '002003003017'
+    coredomain:
+    - '145'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἡμάρτομεν
+    strong: '264'
+  syntax:
+    role: v
+    frame: A0:240080110041;
+  discourse:
+    subject: '240080110041'
+- position: 28
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: JER 8:14!21
+    wordID: o240080140211
+  translation:
+    english: against
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: ἐναντίον
+    strong: '1726'
+- position: 29
+  text: יהוָֽה
+  lemma: יהוה
+  transliteration: 'yhwāh:'
+  ids:
+    ref: JER 8:14!21
+    wordID: o240080140212
+  translation:
+    english: Lord
+    mandarin: 耶和华
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'

@@ -1,0 +1,832 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: PHP 2:9
+text: "PHP 2:10 \n         PHP 2:11 διὸ καὶ ὁ Θεὸς αὐτὸν ὑπερύψωσεν, καὶ ἐχαρίσατο\
+  \ αὐτῷ τὸ ὄνομα τὸ ὑπὲρ πᾶν ὄνομα, ἵνα ἐν τῷ ὀνόματι Ἰησοῦ πᾶν γόνυ κάμψῃ ἐπουρανίων\
+  \ καὶ ἐπιγείων καὶ καταχθονίων, καὶ πᾶσα γλῶσσα ἐξομολογήσηται ὅτι ΚΥΡΙΟΣ ΙΗΣΟΥΣ\
+  \ ΧΡΙΣΤΟΣ εἰς δόξαν Θεοῦ Πατρός."
+words:
+- position: 1
+  text: διὸ
+  lemma: διό
+  normalized: διό
+  ids:
+    ref: PHP 2:9!1
+    wordID: n50002009001
+  translation:
+    gloss: Therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1352'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.47'
+- position: 2
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:9!2
+    wordID: n50002009002
+  translation:
+    gloss: also
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.93'
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: PHP 2:9!3
+    wordID: n50002009003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Θεὸς
+  lemma: θεός
+  normalized: Θεός
+  ids:
+    ref: PHP 2:9!4
+    wordID: n50002009004
+  translation:
+    gloss: God
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 5
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: PHP 2:9!5
+    wordID: n50002009005
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n50002005008
+- position: 6
+  text: ὑπερύψωσεν
+  lemma: ὑπερυψόω
+  normalized: ὑπερύψωσεν
+  ids:
+    ref: PHP 2:9!6
+    wordID: n50002009006
+  translation:
+    gloss: highly exalted
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5251'
+  semantic:
+    semanticDomain: 087002
+    ln: '87.16'
+  syntax:
+    role: v
+    frame: A0:n50002009004 A1:n50002009005
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:9!7
+    wordID: n50002009007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 8
+  text: ἐχαρίσατο
+  lemma: χαρίζομαι
+  normalized: ἐχαρίσατο
+  ids:
+    ref: PHP 2:9!8
+    wordID: n50002009008
+  translation:
+    gloss: granted
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '5483'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.102'
+  syntax:
+    role: v
+    frame: A0:n50002009004 A2:n50002009009 A1:n50002009011
+  discourse:
+    subject: n50002009004
+- position: 9
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: PHP 2:9!9
+    wordID: n50002009009
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n50002005008
+- position: 10
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: PHP 2:9!10
+    wordID: n50002009010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: ὄνομα
+  lemma: ὄνομα
+  normalized: ὄνομα
+  ids:
+    ref: PHP 2:9!11
+    wordID: n50002009011
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
+- position: 12
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: PHP 2:9!12
+    wordID: n50002009012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: ὑπὲρ
+  lemma: ὑπέρ
+  normalized: ὑπέρ
+  ids:
+    ref: PHP 2:9!13
+    wordID: n50002009013
+  translation:
+    gloss: above
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5228'
+  semantic:
+    semanticDomain: 087003
+    ln: '87.30'
+- position: 14
+  text: πᾶν
+  lemma: πᾶς
+  normalized: πᾶν
+  ids:
+    ref: PHP 2:9!14
+    wordID: n50002009014
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 15
+  text: ὄνομα
+  lemma: ὄνομα
+  normalized: ὄνομα
+  ids:
+    ref: PHP 2:9!15
+    wordID: n50002009015
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
+- position: 16
+  text: ἵνα
+  lemma: ἵνα
+  normalized: ἵνα
+  ids:
+    ref: PHP 2:10!1
+    wordID: n50002010001
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2443'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.59'
+- position: 17
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: PHP 2:10!2
+    wordID: n50002010002
+  translation:
+    gloss: at
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089004
+    ln: '89.5'
+- position: 18
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: PHP 2:10!3
+    wordID: n50002010003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 19
+  text: ὀνόματι
+  lemma: ὄνομα
+  normalized: ὀνόματι
+  ids:
+    ref: PHP 2:10!4
+    wordID: n50002010004
+  translation:
+    gloss: name
+  morphology:
+    class: noun
+    morph: N-DSN
+    gender: neuter
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '3686'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.126'
+- position: 20
+  text: Ἰησοῦ
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦ
+  ids:
+    ref: PHP 2:10!5
+    wordID: n50002010005
+  translation:
+    gloss: of Jesus
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 21
+  text: κάμψῃ
+  lemma: κάμπτω
+  normalized: κάμψῃ
+  ids:
+    ref: PHP 2:10!8
+    wordID: n50002010008
+  translation:
+    gloss: should bow
+  morphology:
+    class: verb
+    morph: V-AAS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '2578'
+  semantic:
+    semanticDomain: '053007'
+    ln: '53.61'
+  syntax:
+    role: v
+    frame: A0:n50002010007
+    discontinuous: 'true'
+- position: 22
+  text: πᾶν
+  lemma: πᾶς
+  normalized: πᾶν
+  ids:
+    ref: PHP 2:10!6
+    wordID: n50002010006
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 23
+  text: γόνυ
+  lemma: γόνυ
+  normalized: γόνυ
+  ids:
+    ref: PHP 2:10!7
+    wordID: n50002010007
+  translation:
+    gloss: knee
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1119'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.16'
+- position: 24
+  text: ἐπουρανίων
+  lemma: ἐπουράνιος
+  normalized: ἐπουρανίων
+  ids:
+    ref: PHP 2:10!9
+    wordID: n50002010009
+  translation:
+    gloss: in the heavens
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '2032'
+  semantic:
+    semanticDomain: '001002'
+    ln: '1.12'
+- position: 25
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:10!10
+    wordID: n50002010010
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 26
+  text: ἐπιγείων
+  lemma: ἐπίγειος
+  normalized: ἐπιγείων
+  ids:
+    ref: PHP 2:10!11
+    wordID: n50002010011
+  translation:
+    gloss: on earth
+  morphology:
+    class: adj
+    morph: A-GPN
+    gender: neuter
+    number: plural
+    case: genitive
+  lexical:
+    strong: '1919'
+  semantic:
+    semanticDomain: '001006'
+    ln: '1.41'
+- position: 27
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:10!12
+    wordID: n50002010012
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 28
+  text: καταχθονίων
+  lemma: καταχθόνιος
+  normalized: καταχθονίων
+  ids:
+    ref: PHP 2:10!13
+    wordID: n50002010013
+  translation:
+    gloss: under the earth
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '2709'
+  semantic:
+    semanticDomain: '001003'
+    ln: '1.17'
+- position: 29
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: PHP 2:11!1
+    wordID: n50002011001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 30
+  text: πᾶσα
+  lemma: πᾶς
+  normalized: πᾶσα
+  ids:
+    ref: PHP 2:11!2
+    wordID: n50002011002
+  translation:
+    gloss: every
+  morphology:
+    class: adj
+    morph: A-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 31
+  text: γλῶσσα
+  lemma: γλῶσσα
+  normalized: γλῶσσα
+  ids:
+    ref: PHP 2:11!3
+    wordID: n50002011003
+  translation:
+    gloss: tongue
+  morphology:
+    class: noun
+    morph: N-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1100'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.18'
+- position: 32
+  text: ἐξομολογήσηται
+  lemma: ἐξομολογέω
+  normalized: ἐξομολογήσηται
+  ids:
+    ref: PHP 2:11!4
+    wordID: n50002011004
+  translation:
+    gloss: should confess
+  morphology:
+    class: verb
+    morph: V-AMS-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: subjunctive
+  lexical:
+    strong: '1843'
+  semantic:
+    semanticDomain: '033022'
+    ln: '33.275'
+  syntax:
+    role: v
+    frame: A0:n50002011003 A1:n50002011006
+- position: 33
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: PHP 2:11!5
+    wordID: n50002011005
+  translation:
+    gloss: that
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 090006
+    ln: '90.21'
+- position: 34
+  text: ΚΥΡΙΟΣ
+  lemma: κύριος
+  normalized: ΚΥΡΙΟΣ
+  ids:
+    ref: PHP 2:11!6
+    wordID: n50002011006
+  translation:
+    gloss: '[is] Lord'
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+  syntax:
+    role: p
+- position: 35
+  text: ΙΗΣΟΥΣ
+  lemma: Ἰησοῦς
+  normalized: ΙΗΣΟΥΣ
+  ids:
+    ref: PHP 2:11!7
+    wordID: n50002011007
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+- position: 36
+  text: ΧΡΙΣΤΟΣ
+  lemma: Χριστός
+  normalized: ΧΡΙΣΤΟΣ
+  ids:
+    ref: PHP 2:11!8
+    wordID: n50002011008
+  translation:
+    gloss: Christ
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '5547'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.387'
+  syntax:
+    junction: apposition
+- position: 37
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: PHP 2:11!9
+    wordID: n50002011009
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 089009
+    ln: '89.57'
+- position: 38
+  text: δόξαν
+  lemma: δόξα
+  normalized: δόξαν
+  ids:
+    ref: PHP 2:11!10
+    wordID: n50002011010
+  translation:
+    gloss: '[the] glory'
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1391'
+  semantic:
+    semanticDomain: 087002
+    ln: '87.4'
+- position: 39
+  text: Θεοῦ
+  lemma: θεός
+  normalized: Θεοῦ
+  ids:
+    ref: PHP 2:11!11
+    wordID: n50002011011
+  translation:
+    gloss: of God
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2316'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.1'
+- position: 40
+  text: Πατρός
+  lemma: πατήρ
+  normalized: Πατρός
+  ids:
+    ref: PHP 2:11!12
+    wordID: n50002011012
+  translation:
+    gloss: '[the] Father'
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.12'
+  syntax:
+    junction: apposition

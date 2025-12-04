@@ -1,0 +1,441 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 14:6
+text: וּפְרָאִים֙ עָמְד֣וּ עַל־שְׁפָיִ֔ם שָׁאֲפ֥וּ ר֖וּחַ כַּתַּנִּ֑ים כָּל֥וּ עֵינֵיהֶ֖ם
+  כִּי־אֵ֥ין עֵֽשֶׂב׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: JER 14:6!1
+    wordID: o240140060011
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: ὄνοι
+- position: 2
+  text: פְרָאִים֙
+  lemma: פֶּרֶא
+  transliteration: p̄ərāʾîm
+  ids:
+    ref: JER 14:6!1
+    wordID: o240140060012
+  translation:
+    english: wild donkeys
+    mandarin: 野驴
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פֶּרֶא
+    strong: '6501'
+  semantic:
+    sdbh:
+    - 005978001001000
+    lexdomain:
+    - '001001002001001'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: ἄγριοι
+  syntax:
+    role: s
+- position: 3
+  text: עָמְד֣וּ
+  lemma: עָמַד
+  transliteration: ʿāməḏû
+  ids:
+    ref: JER 14:6!2
+    wordID: o240140060021
+  translation:
+    english: stand
+    mandarin: 站
+    gloss: they.have.stood
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָמַד
+    strong: '5975'
+  semantic:
+    sdbh:
+    - 005484001001000
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ἔστησαν
+    strong: '2476'
+  syntax:
+    role: v
+    frame: A0:240140060012;
+- position: 4
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: JER 14:6!3
+    wordID: o240140060031
+  translation:
+    english: 'on'
+    mandarin: 在~上
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 5
+  text: שְׁפָיִ֔ם
+  lemma: שְׁפִי
+  transliteration: šəp̄āyim
+  ids:
+    ref: JER 14:6!4
+    wordID: o240140060041
+  translation:
+    english: barren heights
+    mandarin: 光秃的高地
+    gloss: '[the].bare.heights'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שְׁפִי
+    strong: '8205'
+  semantic:
+    sense: '1'
+  lxx:
+    text: νάπας
+- position: 6
+  text: שָׁאֲפ֥וּ
+  lemma: שָׁאַף
+  transliteration: šāʾăp̄û
+  ids:
+    ref: JER 14:6!5
+    wordID: o240140060051
+  translation:
+    english: pant
+    mandarin: 喘
+    gloss: they.have.panted.for
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שָׁאַף
+    strong: '7602'
+  semantic:
+    sdbh:
+    - 007138001002000
+    lexdomain:
+    - '002002001002'
+    coredomain:
+    - 019
+    - '154'
+    - '010'
+    - '198'
+    sense: '2'
+  lxx:
+    text: εἵλκυσαν
+    strong: '1670'
+  syntax:
+    role: v
+    frame: A0:240140060012; A1:240140060061;
+  discourse:
+    subject: '240140060012'
+- position: 7
+  text: ר֖וּחַ
+  lemma: רוּחַ
+  transliteration: rûᵃḥ
+  ids:
+    ref: JER 14:6!6
+    wordID: o240140060061
+  translation:
+    english: air
+    mandarin: 气
+    gloss: breath
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רוּחַ
+    strong: '7307'
+  semantic:
+    sdbh:
+    - 006718001003000
+    lexdomain:
+    - '001006001'
+    coredomain:
+    - '198'
+    sense: '7'
+  lxx:
+    text: ἄνεμον
+    strong: '417'
+  syntax:
+    role: o
+- position: 8
+  text: כַּ
+  lemma: כְּ
+  transliteration: ka
+  ids:
+    ref: JER 14:6!7
+    wordID: o240140060071
+  translation:
+    english: like
+    mandarin: 好像
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+- position: 9
+  text: תַּנִּ֑ים
+  lemma: תַּן
+  transliteration: tanniym
+  ids:
+    ref: JER 14:6!7
+    wordID: o240140060072
+  translation:
+    english: jackals
+    mandarin: 野狗
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תַּן
+    strong: '8565'
+  semantic:
+    sdbh:
+    - 007859001001000
+    lexdomain:
+    - '001001002001001'
+    coredomain:
+    - '010'
+    sense: '1'
+- position: 10
+  text: כָּל֥וּ
+  lemma: כָּלָה
+  transliteration: kālû
+  ids:
+    ref: JER 14:6!8
+    wordID: o240140060081
+  translation:
+    english: fail
+    mandarin: 失明
+    gloss: they.have.failed
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: כָּלָה
+    strong: '3615'
+  semantic:
+    sdbh:
+    - '003311001015000'
+    lexdomain:
+    - '002001001065'
+    sense: '3'
+  lxx:
+    text: ἐχέλιπον
+    strong: '1587'
+  syntax:
+    role: v
+    frame: A0:240140060091;
+- position: 11
+  text: עֵינֵי
+  lemma: עַיִן
+  transliteration: ''
+  ids:
+    ref: JER 14:6!9
+    wordID: o240140060091
+  translation:
+    english: eyes
+    mandarin: 眼目
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbdc
+    gender: both
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀφθαλμοὶ
+    strong: '3788'
+- position: 12
+  text: הֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 14:6!9
+    wordID: o240140060092
+  translation:
+    english: their
+    mandarin: 它们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  discourse:
+    participant: '240140060012'
+- position: 13
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: JER 14:6!10
+    wordID: o240140060101
+  translation:
+    english: because
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 14
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: JER 14:6!11
+    wordID: o240140060111
+  translation:
+    english: there is no
+    mandarin: 没有
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: p
+- position: 15
+  text: עֵֽשֶׂב
+  lemma: עֵשֶׂב
+  transliteration: 'ʿēśeḇ:'
+  ids:
+    ref: JER 14:6!12
+    wordID: o240140060121
+  translation:
+    english: vegetation
+    mandarin: 草
+    gloss: vegetation
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֵשֶׂב
+    strong: '6212'
+  semantic:
+    sdbh:
+    - 005697001001000
+    lexdomain:
+    - '001004003002'
+    sense: '2'
+  lxx:
+    text: ξόρτος
+    strong: '5528'
+  syntax:
+    role: s

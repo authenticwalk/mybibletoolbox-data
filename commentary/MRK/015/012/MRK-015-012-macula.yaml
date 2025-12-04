@@ -1,0 +1,369 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 15:12
+text: ὁ δὲ Πειλᾶτος πάλιν ἀποκριθεὶς ἔλεγεν αὐτοῖς Τί οὖν ποιήσω ὃν λέγετε τὸν Βασιλέα
+  τῶν Ἰουδαίων;
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 15:12!2
+    wordID: n41015012002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MRK 15:12!1
+    wordID: n41015012001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: Πειλᾶτος
+  lemma: Πιλᾶτος
+  normalized: Πειλᾶτος
+  ids:
+    ref: MRK 15:12!3
+    wordID: n41015012003
+  translation:
+    gloss: Pilate
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '4091'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.297'
+- position: 4
+  text: πάλιν
+  lemma: πάλιν
+  normalized: πάλιν
+  ids:
+    ref: MRK 15:12!4
+    wordID: n41015012004
+  translation:
+    gloss: again
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3825'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.55'
+  syntax:
+    role: adv
+- position: 5
+  text: ἀποκριθεὶς
+  lemma: ἀποκρίνομαι
+  normalized: ἀποκριθείς
+  ids:
+    ref: MRK 15:12!5
+    wordID: n41015012005
+  translation:
+    gloss: answering
+  morphology:
+    class: verb
+    morph: V-AOP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '611'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.28'
+  syntax:
+    role: v
+    frame: A1:n41015012003
+  discourse:
+    subject: n41015012003
+- position: 6
+  text: ἔλεγεν
+  lemma: λέγω
+  normalized: ἔλεγεν
+  ids:
+    ref: MRK 15:12!6
+    wordID: n41015012006
+  translation:
+    gloss: was saying
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n41015012003 A2:n41015012007
+- position: 7
+  text: αὐτοῖς
+  lemma: αὐτός
+  normalized: αὐτοῖς
+  ids:
+    ref: MRK 15:12!7
+    wordID: n41015012007
+  translation:
+    gloss: to them
+  morphology:
+    class: pron
+    morph: P-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n41015011006
+- position: 8
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: MRK 15:12!9
+    wordID: n41015012009
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 9
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: MRK 15:12!8
+    wordID: n41015012008
+  translation:
+    gloss: What
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 10
+  text: ποιήσω
+  lemma: ποιέω
+  normalized: ποιήσω
+  ids:
+    ref: MRK 15:12!10
+    wordID: n41015012010
+  translation:
+    gloss: I should do
+  morphology:
+    class: verb
+    morph: V-AAS-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: subjunctive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n41015012003 A1:n41015012008
+  discourse:
+    subject: n41015012003
+- position: 11
+  text: ὃν
+  lemma: ὅς
+  normalized: ὅν
+  ids:
+    ref: MRK 15:12!11
+    wordID: n41015012011
+  translation:
+    gloss: to Him
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+  discourse:
+    referent: n41015005003
+- position: 12
+  text: λέγετε
+  lemma: λέγω
+  normalized: λέγετε
+  ids:
+    ref: MRK 15:12!12
+    wordID: n41015012012
+  translation:
+    gloss: you call
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: 033009
+    ln: '33.131'
+  syntax:
+    role: v
+    frame: A0:n41015011006 A1:n41015012011
+  discourse:
+    subject: n41015011006
+- position: 13
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: MRK 15:12!13
+    wordID: n41015012013
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 14
+  text: Βασιλέα
+  lemma: βασιλεύς
+  normalized: Βασιλέα
+  ids:
+    ref: MRK 15:12!14
+    wordID: n41015012014
+  translation:
+    gloss: King
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '935'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.67'
+- position: 15
+  text: τῶν
+  lemma: ὁ
+  normalized: τῶν
+  ids:
+    ref: MRK 15:12!15
+    wordID: n41015012015
+  translation:
+    gloss: of the
+  morphology:
+    class: det
+    morph: T-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: Ἰουδαίων
+  lemma: Ἰουδαῖος
+  normalized: Ἰουδαίων
+  ids:
+    ref: MRK 15:12!16
+    wordID: n41015012016
+  translation:
+    gloss: Jews
+  morphology:
+    class: adj
+    morph: A-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+  lexical:
+    strong: '2453'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.172'

@@ -1,0 +1,242 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 7:19
+text: πᾶν δένδρον μὴ ποιοῦν καρπὸν καλὸν ἐκκόπτεται καὶ εἰς πῦρ βάλλεται.
+words:
+- position: 1
+  text: πᾶν
+  lemma: πᾶς
+  normalized: πᾶν
+  ids:
+    ref: MAT 7:19!1
+    wordID: n40007019001
+  translation:
+    gloss: Every
+  morphology:
+    class: adj
+    morph: A-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 2
+  text: δένδρον
+  lemma: δένδρον
+  normalized: δένδρον
+  ids:
+    ref: MAT 7:19!2
+    wordID: n40007019002
+  translation:
+    gloss: tree
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '1186'
+  semantic:
+    semanticDomain: '003002'
+    ln: '3.2'
+- position: 3
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 7:19!3
+    wordID: n40007019003
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 4
+  text: ποιοῦν
+  lemma: ποιέω
+  normalized: ποιοῦν
+  ids:
+    ref: MAT 7:19!4
+    wordID: n40007019004
+  translation:
+    gloss: producing
+  morphology:
+    class: verb
+    morph: V-PAP-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '023012'
+    ln: '23.199'
+  syntax:
+    role: v
+    frame: A0:n40007019002 A1:n40007019005
+  discourse:
+    subject: n40007019002
+- position: 5
+  text: καρπὸν
+  lemma: καρπός
+  normalized: καρπόν
+  ids:
+    ref: MAT 7:19!5
+    wordID: n40007019005
+  translation:
+    gloss: fruit
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2590'
+  semantic:
+    semanticDomain: 003004 023012
+    ln: 23.199 3.33
+- position: 6
+  text: καλὸν
+  lemma: καλός
+  normalized: καλόν
+  ids:
+    ref: MAT 7:19!6
+    wordID: n40007019006
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '2570'
+  semantic:
+    semanticDomain: '065003'
+    ln: '65.22'
+- position: 7
+  text: ἐκκόπτεται
+  lemma: ἐκκόπτω
+  normalized: ἐκκόπτεται
+  ids:
+    ref: MAT 7:19!7
+    wordID: n40007019007
+  translation:
+    gloss: is cut down
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1581'
+  semantic:
+    semanticDomain: 019002
+    ln: '19.18'
+  syntax:
+    role: v
+    frame: A1:n40007019002
+- position: 8
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 7:19!8
+    wordID: n40007019008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 9
+  text: εἰς
+  lemma: εἰς
+  normalized: εἰς
+  ids:
+    ref: MAT 7:19!9
+    wordID: n40007019009
+  translation:
+    gloss: into
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1519'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.22'
+- position: 10
+  text: πῦρ
+  lemma: πῦρ
+  normalized: πῦρ
+  ids:
+    ref: MAT 7:19!10
+    wordID: n40007019010
+  translation:
+    gloss: fire
+  morphology:
+    class: noun
+    morph: N-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4442'
+  semantic:
+    semanticDomain: '002003'
+    ln: '2.5'
+- position: 11
+  text: βάλλεται
+  lemma: βάλλω
+  normalized: βάλλεται
+  ids:
+    ref: MAT 7:19!11
+    wordID: n40007019011
+  translation:
+    gloss: is thrown
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '906'
+  semantic:
+    semanticDomain: '015026'
+    ln: '15.215'
+  syntax:
+    role: v
+    frame: A1:n40007019002
+  discourse:
+    subject: n40007019002

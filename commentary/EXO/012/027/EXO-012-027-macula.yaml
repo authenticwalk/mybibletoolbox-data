@@ -1,0 +1,863 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: EXO 12:27
+text: וַאֲמַרְתֶּ֡ם זֶֽבַח־פֶּ֨סַח ה֜וּא לַֽיהוָ֗ה אֲשֶׁ֣ר פָּ֠סַח עַל־בָּתֵּ֤י בְנֵֽי־יִשְׂרָאֵל֙
+  בְּמִצְרַ֔יִם בְּנָגְפּ֥וֹ אֶת־מִצְרַ֖יִם וְאֶת־בָּתֵּ֣ינוּ הִצִּ֑יל וַיִּקֹּ֥ד
+  הָעָ֖ם וַיִּֽשְׁתַּחֲוּֽוּ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 12:27!1
+    wordID: o020120270011
+  translation:
+    english: then
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אֲמַרְתֶּ֡ם
+  lemma: אָמַר
+  transliteration: ʾămartem
+  ids:
+    ref: EXO 12:27!1
+    wordID: o020120270012
+  translation:
+    english: say
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐρεῖτε
+    strong: '2046'
+  syntax:
+    role: v
+    frame: A0:020120210041;020120210051;
+  discourse:
+    subject: 020120210041 020120210051
+- position: 3
+  text: זֶֽבַח
+  lemma: זֶבַח
+  transliteration: zeḇaḥ-
+  ids:
+    ref: EXO 12:27!2
+    wordID: o020120270021
+  translation:
+    english: sacrifice
+    mandarin: 祭
+    gloss: '[is].a.sacrifice'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: זֶבַח
+    strong: '2077'
+  semantic:
+    sdbh:
+    - 001922001001000
+    lexdomain:
+    - '002003002022'
+    coredomain:
+    - 099
+    - '149'
+    sense: '1'
+  lxx:
+    text: θυσία
+    strong: '2378'
+- position: 4
+  text: פֶּ֨סַח
+  lemma: פֶּסַח
+  transliteration: pesaḥ
+  ids:
+    ref: EXO 12:27!3
+    wordID: o020120270031
+  translation:
+    english: passover
+    mandarin: 逾越节
+    gloss: of.passover
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פֶּסַח
+    strong: '6453'
+  semantic:
+    sdbh:
+    - 005930001002000
+    lexdomain:
+    - '001001002001'
+    coredomain:
+    - '149'
+    - '066'
+    sense: '1'
+- position: 5
+  text: ה֜וּא
+  lemma: הוּא
+  transliteration: hûʾ
+  ids:
+    ref: EXO 12:27!4
+    wordID: o020120270041
+  translation:
+    english: it
+    mandarin: 这
+    gloss: it
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+  syntax:
+    role: s
+  discourse:
+    participant: '020120260072'
+- position: 6
+  text: לַֽ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: EXO 12:27!5
+    wordID: o020120270051
+  translation:
+    english: to
+    mandarin: 献给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: יהוָ֗ה
+  lemma: יהוה
+  transliteration: yhwāh
+  ids:
+    ref: EXO 12:27!5
+    wordID: o020120270052
+  translation:
+    english: LORD
+    mandarin: 耶和华
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίῳ
+    strong: '2962'
+- position: 8
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: EXO 12:27!6
+    wordID: o020120270061
+  translation:
+    english: who
+    mandarin: 他
+    gloss: who
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 9
+  text: פָּ֠סַח
+  lemma: פָּסַח
+  transliteration: pāsaḥ
+  ids:
+    ref: EXO 12:27!7
+    wordID: o020120270071
+  translation:
+    english: passed
+    mandarin: 越过
+    gloss: he.passed.over
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: פָּסַח
+    strong: '6452'
+  semantic:
+    sdbh:
+    - 005928001002000
+    lexdomain:
+    - '002003003011'
+    sense: '1'
+  lxx:
+    text: ἐσκέπασεν
+  syntax:
+    role: v
+    frame: A0:020120270052;
+  discourse:
+    subject: '020120270052'
+- position: 10
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: EXO 12:27!8
+    wordID: o020120270081
+  translation:
+    english: over
+    mandarin: 从~上
+    gloss: over
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: τοὺς
+    strong: '3588'
+- position: 11
+  text: בָּתֵּ֤י
+  lemma: בַּיִת
+  transliteration: bottēy
+  ids:
+    ref: EXO 12:27!9
+    wordID: o020120270091
+  translation:
+    english: houses
+    mandarin: 房屋
+    gloss: the.houses
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001004000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '062'
+    sense: '3'
+  lxx:
+    text: οἴκους
+    strong: '3624'
+- position: 12
+  text: בְנֵֽי
+  lemma: בֵּן
+  transliteration: ḇənēy-
+  ids:
+    ref: EXO 12:27!10
+    wordID: o020120270101
+  translation:
+    english: sons
+    mandarin: 人
+    gloss: of.the.people
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '2'
+  lxx:
+    text: υἱῶν
+    strong: '5207'
+- position: 13
+  text: יִשְׂרָאֵל֙
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: EXO 12:27!11
+    wordID: o020120270111
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 14
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: EXO 12:27!12
+    wordID: o020120270121
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 15
+  text: מִצְרַ֔יִם
+  lemma: מִצְרַיִם
+  transliteration: miṣrayim
+  ids:
+    ref: EXO 12:27!12
+    wordID: o020120270122
+  translation:
+    english: Egypt
+    mandarin: 埃及
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: αἰγύπτῳ
+    strong: '125'
+- position: 16
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: EXO 12:27!13
+    wordID: o020120270131
+  translation:
+    english: when
+    mandarin: 当~的时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 17
+  text: נָגְפּ֥
+  lemma: נָגַף
+  transliteration: ''
+  ids:
+    ref: EXO 12:27!13
+    wordID: o020120270132
+  translation:
+    english: struck
+    mandarin: 击杀
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: נָגַף
+    strong: '5062'
+  semantic:
+    sdbh:
+    - 004639001002000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '006'
+    - '196'
+    sense: '2'
+  lxx:
+    text: ἐπάταχεν
+    strong: '3960'
+  syntax:
+    role: v
+    frame: A0:020120270133; A1:020120270151;
+- position: 18
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 12:27!13
+    wordID: o020120270133
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 004639001002000
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '006'
+    - '196'
+  syntax:
+    role: s
+  discourse:
+    participant: '020120270052'
+- position: 19
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: EXO 12:27!14
+    wordID: o020120270141
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 20
+  text: מִצְרַ֖יִם
+  lemma: מִצְרַיִם
+  transliteration: miṣrayim
+  ids:
+    ref: EXO 12:27!15
+    wordID: o020120270151
+  translation:
+    english: Egyptians
+    mandarin: 埃及人
+    gloss: Egypt
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מִצְרַיִם
+    strong: '4714'
+  semantic:
+    sdbh:
+    - '004314001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+- position: 21
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: EXO 12:27!16
+    wordID: o020120270161
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 22
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: EXO 12:27!16
+    wordID: o020120270162
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 23
+  text: בָּתֵּ֣י
+  lemma: בַּיִת
+  transliteration: ''
+  ids:
+    ref: EXO 12:27!17
+    wordID: o020120270171
+  translation:
+    english: homes
+    mandarin: 家
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001004000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '062'
+    sense: '2'
+  lxx:
+    text: οἴκους
+    strong: '3624'
+- position: 24
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: EXO 12:27!17
+    wordID: o020120270172
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000931001004000
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '062'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: '020120270101'
+- position: 25
+  text: הִצִּ֑יל
+  lemma: נָצַל
+  transliteration: hiṣṣiyl
+  ids:
+    ref: EXO 12:27!18
+    wordID: o020120270181
+  translation:
+    english: spared
+    mandarin: 救
+    gloss: he.delivered
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָצַל
+    strong: '5337'
+  semantic:
+    sdbh:
+    - 004891001006000
+    lexdomain:
+    - 002003003018
+    sense: '1'
+  lxx:
+    text: ἐρρύσατο
+    strong: '4506'
+  syntax:
+    role: v
+    frame: AA:020120270052; A0:020120270171;
+  discourse:
+    subject: '020120270052'
+- position: 26
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 12:27!19
+    wordID: o020120270191
+  translation:
+    english: and
+    mandarin: 于是
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 27
+  text: יִּקֹּ֥ד
+  lemma: קָדַד
+  transliteration: yyiqqōḏ
+  ids:
+    ref: EXO 12:27!19
+    wordID: o020120270192
+  translation:
+    english: bowed down
+    mandarin: 低头
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: קָדַד
+    strong: '6915'
+  semantic:
+    sdbh:
+    - '006367001001000'
+    lexdomain:
+    - 002001001009
+    coredomain:
+    - 019
+    - '170'
+    sense: '1'
+  lxx:
+    text: κύψας
+    strong: '2955'
+  syntax:
+    role: v
+    frame: A0:020120270202;
+- position: 28
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: EXO 12:27!20
+    wordID: o020120270201
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 29
+  text: עָ֖ם
+  lemma: עַם
+  transliteration: ʿām
+  ids:
+    ref: EXO 12:27!20
+    wordID: o020120270202
+  translation:
+    english: people
+    mandarin: 人民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαὸς
+    strong: '2992'
+- position: 30
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: EXO 12:27!21
+    wordID: o020120270211
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 31
+  text: יִּֽשְׁתַּחֲוּֽוּ
+  lemma: חוה
+  transliteration: 'yyišətaḥăwwû:'
+  ids:
+    ref: EXO 12:27!21
+    wordID: o020120270212
+  translation:
+    english: worshiped
+    mandarin: 敬拜
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vtw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: hithpael
+    type: wayyiqtol
+  lexical:
+    stronglemma: חוה
+    strong: 7812a
+  semantic:
+    sdbh:
+    - '002154002001000'
+    lexdomain:
+    - 002001001009
+    coredomain:
+    - 019
+    - '170'
+    - '015'
+    sense: '1'
+  lxx:
+    text: προσεκύνησεν
+    strong: '4352'
+  syntax:
+    role: v
+    frame: A0:020120270202;
+  discourse:
+    subject: '020120270202'

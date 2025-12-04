@@ -1,0 +1,963 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 2SA 8:2
+text: 2SA 8:2 וַיַּ֣ךְ אֶת־מוֹאָ֗ב וַֽיְמַדְּדֵ֤ם בַּחֶ֨בֶל֙ הַשְׁכֵּ֣ב אוֹתָ֣ם אַ֔רְצָה
+  וַיְמַדֵּ֤ד שְׁנֵֽי־חֲבָלִים֙ לְהָמִ֔ית וּמְלֹ֥א הַחֶ֖בֶל לְהַחֲי֑וֹת וַתְּהִ֤י
+  מוֹאָב֙ לְדָוִ֔ד לַעֲבָדִ֖ים נֹשְׂאֵ֥י מִנְחָֽה׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 8:2!1
+    wordID: o100080020011
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יַּ֣ךְ
+  lemma: נָכָה
+  transliteration: yyaḵ
+  ids:
+    ref: 2SA 8:2!1
+    wordID: o100080020012
+  translation:
+    english: defeated
+    mandarin: 打败
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: נָכָה
+    strong: '5221'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπάταχεν
+    strong: '3960'
+  syntax:
+    role: v
+    frame: AA:100080010101; A0:100080020031;
+  discourse:
+    subject: '100080010101'
+- position: 3
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 2SA 8:2!2
+    wordID: o100080020021
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 4
+  text: מוֹאָ֗ב
+  lemma: מוֹאָב
+  transliteration: môʾāḇ
+  ids:
+    ref: 2SA 8:2!3
+    wordID: o100080020031
+  translation:
+    english: Moabites
+    mandarin: 摩押人
+    gloss: Moab
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מוֹאָב
+    strong: '4124'
+  semantic:
+    sdbh:
+    - '003765001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: μωαβ
+- position: 5
+  text: וַֽ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 8:2!4
+    wordID: o100080020041
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: יְמַדְּדֵ֤
+  lemma: מָדַד
+  transliteration: ''
+  ids:
+    ref: 2SA 8:2!4
+    wordID: o100080020042
+  translation:
+    english: measured ~ off
+    mandarin: 量
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: מָדַד
+    strong: '4058'
+  semantic:
+    sdbh:
+    - '003714001002000'
+    lexdomain:
+    - '002003002002'
+    coredomain:
+    - 038
+    sense: '1'
+  lxx:
+    text: διεμέτρησεν
+  syntax:
+    role: v
+    frame: A0:100080010101; A1:100080020043;
+  discourse:
+    subject: '100080010101'
+- position: 7
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2SA 8:2!4
+    wordID: o100080020043
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '003714001002000'
+    lexdomain:
+    - '002003002002'
+    coredomain:
+    - 038
+  lxx:
+    text: αὐτοὺς
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: '100080020031'
+- position: 8
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: 2SA 8:2!5
+    wordID: o100080020051
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: חֶ֨בֶל֙
+  lemma: חֶבֶל
+  transliteration: ḥeḇel
+  ids:
+    ref: 2SA 8:2!5
+    wordID: o100080020052
+  translation:
+    english: cord
+    mandarin: 绳子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶבֶל
+    strong: '2256'
+  semantic:
+    sdbh:
+    - 002087001001000
+    lexdomain:
+    - '001004001004'
+    coredomain:
+    - '027'
+    sense: '4'
+  lxx:
+    text: σξοινίοις
+- position: 10
+  text: הַשְׁכֵּ֣ב
+  lemma: שָׁכַב
+  transliteration: haškēḇ
+  ids:
+    ref: 2SA 8:2!6
+    wordID: o100080020061
+  translation:
+    english: lie down
+    mandarin: 躺
+    gloss: he.made.lie.down
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vha
+    stem: hiphil
+    type: infinitive absolute
+  lexical:
+    stronglemma: שָׁכַב
+    strong: '7901'
+  semantic:
+    sdbh:
+    - '007340001002000'
+    lexdomain:
+    - 002001001058
+    sense: '2'
+  lxx:
+    text: κοιμίσας
+  syntax:
+    role: v
+    frame: AA:100080010101; A0:100080020072;
+  discourse:
+    subject: '100080010101'
+- position: 11
+  text: אוֹתָ֣
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: 2SA 8:2!7
+    wordID: o100080020071
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 12
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: 2SA 8:2!7
+    wordID: o100080020072
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοὺς
+    strong: '848'
+  discourse:
+    participant: '100080020031'
+- position: 13
+  text: אַ֔רְצָ
+  lemma: אֶרֶץ
+  transliteration: ''
+  ids:
+    ref: 2SA 8:2!8
+    wordID: o100080020081
+  translation:
+    english: ground
+    mandarin: 地上
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+  lxx:
+    text: γῆν
+    strong: '1093'
+- position: 14
+  text: ה
+  lemma: ה
+  transliteration: ''
+  ids:
+    ref: 2SA 8:2!8
+    wordID: o100080020082
+  translation:
+    english: 'on'
+    mandarin: 在
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sd
+    type: directional he
+  lexical:
+    stronglemma: ה
+    strong: 1886c
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 15
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 8:2!9
+    wordID: o100080020091
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: יְמַדֵּ֤ד
+  lemma: מָדַד
+  transliteration: yəmaddēḏ
+  ids:
+    ref: 2SA 8:2!9
+    wordID: o100080020092
+  translation:
+    english: measured
+    mandarin: 量
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: מָדַד
+    strong: '4058'
+  semantic:
+    sdbh:
+    - '003714001002000'
+    lexdomain:
+    - '002003002002'
+    coredomain:
+    - 038
+    sense: '1'
+  lxx:
+    text: ἐγένετο
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:100080010101; A1:100080020111;
+  discourse:
+    subject: '100080010101'
+- position: 17
+  text: שְׁנֵֽי
+  lemma: שְׁנַיִם
+  transliteration: šənēy-
+  ids:
+    ref: 2SA 8:2!10
+    wordID: o100080020101
+  translation:
+    english: two
+    mandarin: 二
+    gloss: two
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmdc
+    gender: masculine
+    number: dual
+    state: construct
+    type: cardinal number
+  lexical:
+    stronglemma: שְׁנַיִם
+    strong: '8147'
+  semantic:
+    sdbh:
+    - 007529001001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: δύο
+    strong: '1417'
+- position: 18
+  text: חֲבָלִים֙
+  lemma: חֶבֶל
+  transliteration: ḥăḇālîm
+  ids:
+    ref: 2SA 8:2!11
+    wordID: o100080020111
+  translation:
+    english: lengths
+    mandarin: 绳
+    gloss: measuring-lines
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶבֶל
+    strong: '2256'
+  semantic:
+    sdbh:
+    - 002087001001000
+    lexdomain:
+    - '001004001004'
+    coredomain:
+    - '027'
+    sense: '4'
+  lxx:
+    text: σξοινίσματα
+- position: 19
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 2SA 8:2!12
+    wordID: o100080020121
+  translation:
+    english: to
+    mandarin: 要
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 20
+  text: הָמִ֔ית
+  lemma: מוּת
+  transliteration: hāmiyṯ
+  ids:
+    ref: 2SA 8:2!12
+    wordID: o100080020122
+  translation:
+    english: put to death
+    mandarin: 杀死
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001002000
+    lexdomain:
+    - 002001001019
+    sense: '3'
+  lxx:
+    text: θανατῶσαι
+    strong: '2289'
+  syntax:
+    role: v
+    frame: A0:100080010101;
+  discourse:
+    subject: '100080010101'
+- position: 21
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: 2SA 8:2!13
+    wordID: o100080020131
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 22
+  text: מְלֹ֥א
+  lemma: מְלֹא
+  transliteration: məlōʾ
+  ids:
+    ref: 2SA 8:2!13
+    wordID: o100080020132
+  translation:
+    english: full
+    mandarin: 满
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מְלֹא
+    strong: '4393'
+  semantic:
+    sdbh:
+    - '004013001003000'
+    lexdomain:
+    - '002001001033'
+    coredomain:
+    - 038
+    sense: '2'
+- position: 23
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: 2SA 8:2!14
+    wordID: o100080020141
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 24
+  text: חֶ֖בֶל
+  lemma: חֶבֶל
+  transliteration: ḥeḇel
+  ids:
+    ref: 2SA 8:2!14
+    wordID: o100080020142
+  translation:
+    english: length
+    mandarin: 绳
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶבֶל
+    strong: '2256'
+  semantic:
+    sdbh:
+    - 002087001001000
+    lexdomain:
+    - '001004001004'
+    coredomain:
+    - '027'
+    sense: '4'
+  lxx:
+    text: σξοινίσματα
+- position: 25
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 2SA 8:2!15
+    wordID: o100080020151
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 26
+  text: הַחֲי֑וֹת
+  lemma: חָיָה
+  transliteration: haḥăyôṯ
+  ids:
+    ref: 2SA 8:2!15
+    wordID: o100080020152
+  translation:
+    english: live
+    mandarin: 存活
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: חָיָה
+    strong: '2421'
+  semantic:
+    sdbh:
+    - '002232001003000'
+    lexdomain:
+    - '002001001003'
+    sense: '2'
+  lxx:
+    text: ἐζώγρησεν
+  syntax:
+    role: v
+    frame: A0:100080010101;
+  discourse:
+    subject: '100080010101'
+- position: 27
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: 2SA 8:2!16
+    wordID: o100080020161
+  translation:
+    english: so
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 28
+  text: תְּהִ֤י
+  lemma: הָיָה
+  transliteration: təhiy
+  ids:
+    ref: 2SA 8:2!16
+    wordID: o100080020162
+  translation:
+    english: became
+    mandarin: 成为
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγένετο
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:100080020171;
+- position: 29
+  text: מוֹאָב֙
+  lemma: מוֹאָב
+  transliteration: môʾāḇ
+  ids:
+    ref: 2SA 8:2!17
+    wordID: o100080020171
+  translation:
+    english: Moabites
+    mandarin: 摩押人
+    gloss: Moab
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: מוֹאָב
+    strong: '4124'
+  semantic:
+    sdbh:
+    - '003765001002000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+  lxx:
+    text: μωαβ
+  syntax:
+    role: s
+- position: 30
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: 2SA 8:2!18
+    wordID: o100080020181
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 31
+  text: דָוִ֔ד
+  lemma: דָּוִד
+  transliteration: ḏāwiḏ
+  ids:
+    ref: 2SA 8:2!18
+    wordID: o100080020182
+  translation:
+    english: David
+    mandarin: 大卫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+- position: 32
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: 2SA 8:2!19
+    wordID: o100080020191
+  translation:
+    english: as
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 33
+  text: עֲבָדִ֖ים
+  lemma: עֶבֶד
+  transliteration: ʿăḇāḏiym
+  ids:
+    ref: 2SA 8:2!19
+    wordID: o100080020192
+  translation:
+    english: servants
+    mandarin: 归顺
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עֶבֶד
+    strong: '5650'
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+    sense: '1'
+  lxx:
+    text: δούλους
+    strong: '1401'
+- position: 34
+  text: נֹשְׂאֵ֥י
+  lemma: נָשָׂא
+  transliteration: nōśʾēy
+  ids:
+    ref: 2SA 8:2!20
+    wordID: o100080020201
+  translation:
+    english: brought
+    mandarin: 带
+    gloss: '[who.were].bringing'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001024000
+    lexdomain:
+    - 002003002019
+    sense: '8'
+  lxx:
+    text: φέροντας
+  syntax:
+    frame: A0:100080020192; A1:100080020211;
+  discourse:
+    subject: '100080020192'
+- position: 35
+  text: מִנְחָֽה
+  lemma: מִנְחָה
+  transliteration: 'minḥāh:'
+  ids:
+    ref: 2SA 8:2!21
+    wordID: o100080020211
+  translation:
+    english: tribute
+    mandarin: 礼物
+    gloss: (of).tribute
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִנְחָה
+    strong: '4503'
+  semantic:
+    sdbh:
+    - 004118001001000
+    lexdomain:
+    - '001'
+    coredomain:
+    - '128'
+    - '170'
+    sense: '3'
+  lxx:
+    text: χένια

@@ -1,0 +1,583 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 2:28
+text: אֹ֣כֶל בַּכֶּ֤סֶף תַּשְׁבִּרֵ֨נִי֙ וְאָכַ֔לְתִּי וּמַ֛יִם בַּכֶּ֥סֶף תִּתֶּן־לִ֖י
+  וְשָׁתִ֑יתִי רַ֖ק אֶעְבְּרָ֥ה בְרַגְלָֽי׃
+words:
+- position: 1
+  text: אֹ֣כֶל
+  lemma: אֹכֶל
+  transliteration: ʾōḵel
+  ids:
+    ref: DEU 2:28!1
+    wordID: o050020280011
+  translation:
+    english: food
+    mandarin: 食物
+    gloss: food
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֹכֶל
+    strong: '0400'
+  semantic:
+    sdbh:
+    - '000374001001000'
+    lexdomain:
+    - '001004003'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: βρώματα
+    strong: '1033'
+  syntax:
+    role: o2
+- position: 2
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: DEU 2:28!2
+    wordID: o050020280021
+  translation:
+    english: for
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 3
+  text: כֶּ֤סֶף
+  lemma: כֶּסֶף
+  transliteration: kesep̄
+  ids:
+    ref: DEU 2:28!2
+    wordID: o050020280022
+  translation:
+    english: money
+    mandarin: 银子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֶּסֶף
+    strong: '3701'
+  semantic:
+    sdbh:
+    - 003385001001000
+    lexdomain:
+    - 001006008
+    sense: '1'
+  lxx:
+    text: ἀργυρίου
+    strong: '694'
+- position: 4
+  text: תַּשְׁבִּרֵ֨
+  lemma: שָׁבַר
+  transliteration: ''
+  ids:
+    ref: DEU 2:28!3
+    wordID: o050020280031
+  translation:
+    english: sell
+    mandarin: 卖
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁבַר
+    strong: '7666'
+  semantic:
+    sdbh:
+    - 007185002002000
+    lexdomain:
+    - 002003002019
+    coredomain:
+    - 069
+    sense: '2'
+  lxx:
+    text: ἀποδώσῃ
+    strong: '591'
+  syntax:
+    role: v
+    frame: AA:050020260061; A1:050020280011; A0:050020280032;
+  discourse:
+    subject: '050020260061'
+- position: 5
+  text: נִי֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 2:28!3
+    wordID: o050020280032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 007185002002000
+    lexdomain:
+    - 002003002019
+    coredomain:
+    - 069
+  lxx:
+    text: μοι
+    strong: '3427'
+  syntax:
+    role: o
+  discourse:
+    participant: 050010050061 050010030121
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 2:28!4
+    wordID: o050020280041
+  translation:
+    english: so
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: אָכַ֔לְתִּי
+  lemma: אָכַל
+  transliteration: ʾāḵalətî
+  ids:
+    ref: DEU 2:28!4
+    wordID: o050020280042
+  translation:
+    english: eat
+    mandarin: 吃
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγομαι
+    strong: '2068'
+  syntax:
+    role: v
+    frame: A0:050010050061;050010030121; A1:050020280011;
+  discourse:
+    subject: 050010050061 050010030121
+- position: 8
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DEU 2:28!5
+    wordID: o050020280051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: מַ֛יִם
+  lemma: מַיִם
+  transliteration: mayim
+  ids:
+    ref: DEU 2:28!5
+    wordID: o050020280052
+  translation:
+    english: water
+    mandarin: 水
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  lxx:
+    text: ὕδωρ
+    strong: '5204'
+  syntax:
+    role: o
+- position: 10
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: DEU 2:28!6
+    wordID: o050020280061
+  translation:
+    english: for
+    mandarin: 按着
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 11
+  text: כֶּ֥סֶף
+  lemma: כֶּסֶף
+  transliteration: kesep̄
+  ids:
+    ref: DEU 2:28!6
+    wordID: o050020280062
+  translation:
+    english: money
+    mandarin: 银子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֶּסֶף
+    strong: '3701'
+  semantic:
+    sdbh:
+    - 003385001001000
+    lexdomain:
+    - 001006008
+    sense: '1'
+  lxx:
+    text: ἀργυρίου
+    strong: '694'
+- position: 12
+  text: תִּתֶּן
+  lemma: נָתַן
+  transliteration: titten-
+  ids:
+    ref: DEU 2:28!7
+    wordID: o050020280071
+  translation:
+    english: give
+    mandarin: 卖
+    gloss: you.will.give
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀποδώσῃ
+    strong: '591'
+  syntax:
+    role: v
+    frame: A0:050020260061; A1:050020280052;
+  discourse:
+    subject: '050020260061'
+- position: 13
+  text: לִ֖
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: DEU 2:28!8
+    wordID: o050020280081
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 14
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 2:28!8
+    wordID: o050020280082
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μοι
+    strong: '3427'
+  discourse:
+    participant: 050010050061 050010030121
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 2:28!9
+    wordID: o050020280091
+  translation:
+    english: so
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: שָׁתִ֑יתִי
+  lemma: שָׁתָה
+  transliteration: šāṯiyṯî
+  ids:
+    ref: DEU 2:28!9
+    wordID: o050020280092
+  translation:
+    english: drink
+    mandarin: 喝
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: שָׁתָה
+    strong: '8354'
+  semantic:
+    sense: '1'
+  lxx:
+    text: πίομαι
+  syntax:
+    role: v
+    frame: A0:050010050061;050010030121; A1:050020280052;
+  discourse:
+    subject: 050010050061 050010030121
+- position: 17
+  text: רַ֖ק
+  lemma: רַק
+  transliteration: raq
+  ids:
+    ref: DEU 2:28!10
+    wordID: o050020280101
+  translation:
+    english: only
+    mandarin: 只要
+    gloss: only
+  morphology:
+    class: adv
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: רַק
+    strong: '7535'
+  lxx:
+    text: πλὴν
+    strong: '4133'
+  syntax:
+    role: adv
+- position: 18
+  text: אֶעְבְּרָ֥ה
+  lemma: עָבַר
+  transliteration: ʾeʿbərāh
+  ids:
+    ref: DEU 2:28!11
+    wordID: o050020280111
+  translation:
+    english: pass through
+    mandarin: 过去
+    gloss: let.me.pass.through
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '6'
+  lxx:
+    text: παρελεύσομαι
+  syntax:
+    role: v
+    frame: A0:050010050061;050010030121;
+  discourse:
+    subject: 050010050061 050010030121
+- position: 19
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: DEU 2:28!12
+    wordID: o050020280121
+  translation:
+    english: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 20
+  text: רַגְלָֽ
+  lemma: רֶגֶל
+  transliteration: ''
+  ids:
+    ref: DEU 2:28!12
+    wordID: o050020280122
+  translation:
+    english: foot
+    mandarin: 步行
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfdc
+    gender: feminine
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רֶגֶל
+    strong: '7272'
+  semantic:
+    sdbh:
+    - 006686001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ποσίν
+    strong: '4228'
+- position: 21
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 2:28!12
+    wordID: o050020280123
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 006686001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  discourse:
+    participant: 050010050061 050010030121

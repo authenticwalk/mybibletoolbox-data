@@ -1,0 +1,282 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 22:18
+text: γνοὺς δὲ ὁ Ἰησοῦς τὴν πονηρίαν αὐτῶν εἶπεν Τί με πειράζετε, ὑποκριταί;
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 22:18!2
+    wordID: n40022018002
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+- position: 2
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 22:18!3
+    wordID: n40022018003
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: Ἰησοῦς
+  lemma: Ἰησοῦς
+  normalized: Ἰησοῦς
+  ids:
+    ref: MAT 22:18!4
+    wordID: n40022018004
+  translation:
+    gloss: Jesus
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '2424'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.169a
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: γνοὺς
+  lemma: γινώσκω
+  normalized: γνούς
+  ids:
+    ref: MAT 22:18!1
+    wordID: n40022018001
+  translation:
+    gloss: Having known
+  morphology:
+    class: verb
+    morph: V-2AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '1097'
+  semantic:
+    semanticDomain: 028001
+    ln: '28.1'
+  syntax:
+    role: v
+    frame: A0:n40022018004 A1:n40022018006
+  discourse:
+    subject: n40022018004
+- position: 5
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: MAT 22:18!5
+    wordID: n40022018005
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: πονηρίαν
+  lemma: πονηρία
+  normalized: πονηρίαν
+  ids:
+    ref: MAT 22:18!6
+    wordID: n40022018006
+  translation:
+    gloss: malice
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4189'
+  semantic:
+    semanticDomain: 088015
+    ln: '88.108'
+- position: 7
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: MAT 22:18!7
+    wordID: n40022018007
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40022015004 n40022016005 n40022016009
+- position: 8
+  text: εἶπεν
+  lemma: λέγω
+  normalized: εἶπεν
+  ids:
+    ref: MAT 22:18!8
+    wordID: n40022018008
+  translation:
+    gloss: He said
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n40022018004
+- position: 9
+  text: Τί
+  lemma: τίς
+  normalized: Τί
+  ids:
+    ref: MAT 22:18!9
+    wordID: n40022018009
+  translation:
+    gloss: Why
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.15'
+  syntax:
+    role: adv
+- position: 10
+  text: με
+  lemma: ἐγώ
+  normalized: με
+  ids:
+    ref: MAT 22:18!10
+    wordID: n40022018010
+  translation:
+    gloss: Me
+  morphology:
+    class: pron
+    morph: P-1AS
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  syntax:
+    role: o
+  discourse:
+    referent: n40022018004
+- position: 11
+  text: πειράζετε
+  lemma: πειράζω
+  normalized: πειράζετε
+  ids:
+    ref: MAT 22:18!11
+    wordID: n40022018011
+  translation:
+    gloss: do you test
+  morphology:
+    class: verb
+    morph: V-PAI-2P
+    number: plural
+    person: second
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3985'
+  semantic:
+    semanticDomain: '027003'
+    ln: '27.31'
+  syntax:
+    role: v
+    frame: A0:n40022018012 A1:n40022018010
+  discourse:
+    subject: n40022018012
+- position: 12
+  text: ὑποκριταί
+  lemma: ὑποκριτής
+  normalized: ὑποκριταί
+  ids:
+    ref: MAT 22:18!12
+    wordID: n40022018012
+  translation:
+    gloss: hypocrites
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '5273'
+  semantic:
+    semanticDomain: 088029
+    ln: '88.228'
+  syntax:
+    role: aux

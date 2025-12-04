@@ -1,0 +1,461 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 35:7
+text: כָּל־הֶעָרִ֗ים אֲשֶׁ֤ר תִּתְּנוּ֙ לַלְוִיִּ֔ם אַרְבָּעִ֥ים וּשְׁמֹנֶ֖ה עִ֑יר
+  אֶתְהֶ֖ן וְאֶת־מִגְרְשֵׁיהֶֽן׃
+words:
+- position: 1
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: NUM 35:7!1
+    wordID: o040350070011
+  translation:
+    english: all
+    mandarin: 共
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάσας
+    strong: '3956'
+- position: 2
+  text: הֶ
+  lemma: הַ
+  transliteration: he
+  ids:
+    ref: NUM 35:7!2
+    wordID: o040350070021
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰς
+    strong: '3588'
+- position: 3
+  text: עָרִ֗ים
+  lemma: עִיר
+  transliteration: ʿāriym
+  ids:
+    ref: NUM 35:7!2
+    wordID: o040350070022
+  translation:
+    english: cities
+    mandarin: 城
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עִיר
+    strong: '5892'
+  semantic:
+    sdbh:
+    - '005411001001000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+  lxx:
+    text: πόλεις
+    strong: '4172'
+- position: 4
+  text: אֲשֶׁ֤ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: NUM 35:7!3
+    wordID: o040350070031
+  translation:
+    english: that
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+- position: 5
+  text: תִּתְּנוּ֙
+  lemma: נָתַן
+  transliteration: tittənû
+  ids:
+    ref: NUM 35:7!4
+    wordID: o040350070041
+  translation:
+    english: give
+    mandarin: 给
+    gloss: you.will.give
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: δώσετε
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:040350020031; A1:040350070022;
+  discourse:
+    subject: '040350020031'
+- position: 6
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: NUM 35:7!5
+    wordID: o040350070051
+  translation:
+    english: to
+    mandarin: 要
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῖς
+    strong: '3588'
+- position: 7
+  text: לְוִיִּ֔ם
+  lemma: לֵוִי
+  transliteration: ləwiyyim
+  ids:
+    ref: NUM 35:7!5
+    wordID: o040350070052
+  translation:
+    english: Levites
+    mandarin: 利未人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ngmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: gentilic
+  lexical:
+    stronglemma: לֵוִי
+    strong: '3881'
+  semantic:
+    sdbh:
+    - '003546001002000'
+    lexdomain:
+    - '003001006'
+  lxx:
+    text: λευίταις
+    strong: '3019'
+- position: 8
+  text: אַרְבָּעִ֥ים
+  lemma: אַרְבַּע
+  transliteration: ʾarbāʿiym
+  ids:
+    ref: NUM 35:7!6
+    wordID: o040350070061
+  translation:
+    english: forty
+    mandarin: 四十
+    gloss: '[will.be].forty'
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אַרְבַּע
+    strong: '0705'
+  semantic:
+    sdbh:
+    - 000649001002000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: τεσσαράκοντα
+    strong: '1540'
+- position: 9
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: NUM 35:7!7
+    wordID: o040350070071
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: שְׁמֹנֶ֖ה
+  lemma: שְׁמֹנֶה
+  transliteration: šəmōneh
+  ids:
+    ref: NUM 35:7!7
+    wordID: o040350070072
+  translation:
+    english: eight
+    mandarin: 八
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: שְׁמֹנֶה
+    strong: '8083'
+  semantic:
+    sdbh:
+    - '007474001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+  lxx:
+    text: ὀκτὼ
+    strong: '3638'
+- position: 11
+  text: עִ֑יר
+  lemma: עִיר
+  transliteration: ʿiyr
+  ids:
+    ref: NUM 35:7!8
+    wordID: o040350070081
+  translation:
+    english: cities
+    mandarin: 城
+    gloss: citi[es]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עִיר
+    strong: '5892'
+  semantic:
+    sdbh:
+    - '005411001001000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+  lxx:
+    text: πόλεις
+    strong: '4172'
+- position: 12
+  text: אֶתְ
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: NUM 35:7!9
+    wordID: o040350070091
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 13
+  text: הֶ֖ן
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 35:7!9
+    wordID: o040350070092
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fp
+    gender: feminine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: '2004'
+  lxx:
+    text: ταύτας
+    strong: '5025'
+  discourse:
+    participant: 040350070081
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 35:7!10
+    wordID: o040350070101
+  translation:
+    english: also
+    mandarin: 及
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 15
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: NUM 35:7!10
+    wordID: o040350070102
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 16
+  text: מִגְרְשֵׁי
+  lemma: מִגְרָשׁ
+  transliteration: ''
+  ids:
+    ref: NUM 35:7!11
+    wordID: o040350070111
+  translation:
+    english: pasturelands
+    mandarin: 牧地
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִגְרָשׁ
+    strong: '4054'
+  semantic:
+    sdbh:
+    - '003710001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    - '115'
+    - '182'
+    - '128'
+    sense: '1'
+- position: 17
+  text: הֶֽן
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 35:7!11
+    wordID: o040350070112
+  translation:
+    english: their
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fp
+    gender: feminine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: '2004'
+  semantic:
+    sdbh:
+    - '003710001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    - '115'
+    - '182'
+    - '128'
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  discourse:
+    participant: 040350070081

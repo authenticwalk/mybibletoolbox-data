@@ -1,0 +1,251 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 135:10
+text: שֶֽׁ֭הִכָּה גּוֹיִ֣ם רַבִּ֑ים וְ֝הָרַ֗ג מְלָכִ֥ים עֲצוּמִֽים׃
+words:
+- position: 1
+  text: שֶֽׁ֭
+  lemma: שֶׁ
+  transliteration: še
+  ids:
+    ref: PSA 135:10!1
+    wordID: o191350100011
+  translation:
+    english: he
+    mandarin: 他
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: שֶׁ
+    strong: 7578a
+  lxx:
+    text: ὃς
+    strong: '3739'
+- position: 2
+  text: הִכָּה
+  lemma: נָכָה
+  transliteration: hikkâ
+  ids:
+    ref: PSA 135:10!1
+    wordID: o191350100012
+  translation:
+    english: struck down
+    mandarin: 击杀
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נָכָה
+    strong: '5221'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐπάταχεν
+    strong: '3960'
+  syntax:
+    role: v
+    frame: AA:191350060041; A0:191350100021;
+  discourse:
+    subject: '191350060041'
+- position: 3
+  text: גּוֹיִ֣ם
+  lemma: גּוֹי
+  transliteration: gôyim
+  ids:
+    ref: PSA 135:10!2
+    wordID: o191350100021
+  translation:
+    english: nations
+    mandarin: 国家
+    gloss: nations
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גּוֹי
+    strong: '1471'
+  semantic:
+    sdbh:
+    - '001347001001000'
+    lexdomain:
+    - '001001002003004'
+    coredomain:
+    - '074'
+    - '114'
+    sense: '1'
+  lxx:
+    text: ἔθνη
+    strong: '1484'
+- position: 4
+  text: רַבִּ֑ים
+  lemma: רַב
+  transliteration: rabbiym
+  ids:
+    ref: PSA 135:10!3
+    wordID: o191350100031
+  translation:
+    english: many
+    mandarin: 许多
+    gloss: many
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001002000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '1'
+  lxx:
+    text: πολλὰ
+    strong: '4183'
+- position: 5
+  text: וְ֝
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 135:10!4
+    wordID: o191350100041
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: הָרַ֗ג
+  lemma: הָרַג
+  transliteration: hāraḡ
+  ids:
+    ref: PSA 135:10!4
+    wordID: o191350100042
+  translation:
+    english: killed
+    mandarin: 杀戮
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָרַג
+    strong: '2026'
+  semantic:
+    sdbh:
+    - 001873001001000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    sense: '1'
+  lxx:
+    text: ἀπέκτεινεν
+    strong: '615'
+  syntax:
+    role: v
+    frame: A0:191350060041; A1:191350100051;
+  discourse:
+    subject: '191350060041'
+- position: 7
+  text: מְלָכִ֥ים
+  lemma: מֶלֶךְ
+  transliteration: məlāḵiym
+  ids:
+    ref: PSA 135:10!5
+    wordID: o191350100051
+  translation:
+    english: kings
+    mandarin: 王
+    gloss: kings
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מֶלֶךְ
+    strong: '4428'
+  semantic:
+    sdbh:
+    - 004048001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - '170'
+    - 095
+    sense: '1'
+  lxx:
+    text: βασιλεῖς
+    strong: '935'
+- position: 8
+  text: עֲצוּמִֽים
+  lemma: עָצוּם
+  transliteration: 'ʿăṣûmiym:'
+  ids:
+    ref: PSA 135:10!6
+    wordID: o191350100061
+  translation:
+    english: mighty
+    mandarin: 强悍
+    gloss: mighty
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָצוּם
+    strong: '6099'
+  semantic:
+    sdbh:
+    - 005599001003000
+    lexdomain:
+    - '002001001060'
+    coredomain:
+    - '172'
+    sense: '1'
+  lxx:
+    text: κραταιούς

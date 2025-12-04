@@ -1,0 +1,496 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 109:16
+text: יַ֗עַן אֲשֶׁ֤ר׀לֹ֥א זָכַר֮ עֲשׂ֪וֹת חָ֥סֶד וַיִּרְדֹּ֡ף אִישׁ־עָנִ֣י וְ֭אֶבְיוֹן
+  וְנִכְאֵ֨ה לֵבָ֬ב לְמוֹתֵֽת׃
+words:
+- position: 1
+  text: יַ֗עַן
+  lemma: יַעַן
+  transliteration: yaʿan
+  ids:
+    ref: PSA 109:16!1
+    wordID: o191090160011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: because
+  morphology:
+    class: adv
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: יַעַן
+    strong: '3282'
+  lxx:
+    text: ἀνθ’
+    strong: '473'
+- position: 2
+  text: אֲשֶׁ֤ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: PSA 109:16!2
+    wordID: o191090160021
+  translation:
+    english: that
+    gloss: that
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὧν
+    strong: '3739'
+- position: 3
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PSA 109:16!3
+    wordID: o191090160031
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 4
+  text: זָכַר֮
+  lemma: זָכַר
+  transliteration: zāḵar
+  ids:
+    ref: PSA 109:16!4
+    wordID: o191090160041
+  translation:
+    english: remember
+    mandarin: 想
+    gloss: he.remembered
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: זָכַר
+    strong: '2142'
+  semantic:
+    sdbh:
+    - 001979001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '143'
+    sense: '1'
+  lxx:
+    text: ἐμνήσθη
+    strong: '3415'
+  syntax:
+    role: v
+    frame: A0:191090020031;191090020051; A1:191090160051;
+  discourse:
+    subject: 191090020031 191090020051
+- position: 5
+  text: עֲשׂ֪וֹת
+  lemma: עָשָׂה
+  transliteration: ʿăśôṯ
+  ids:
+    ref: PSA 109:16!5
+    wordID: o191090160051
+  translation:
+    english: show
+    mandarin: 施
+    gloss: to.do
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '7'
+  lxx:
+    text: ποιῆσαι
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:191090020031;191090020051; A1:191090160061;
+  discourse:
+    subject: 191090020031 191090020051
+- position: 6
+  text: חָ֥סֶד
+  lemma: חֶסֶד
+  transliteration: ḥāseḏ
+  ids:
+    ref: PSA 109:16!6
+    wordID: o191090160061
+  translation:
+    english: kindness
+    mandarin: 慈爱
+    gloss: loyalty
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶסֶד
+    strong: '2617'
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: ἔλεος
+    strong: '1656'
+  syntax:
+    role: o
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 109:16!7
+    wordID: o191090160071
+  translation:
+    english: but
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: יִּרְדֹּ֡ף
+  lemma: רָדַף
+  transliteration: yyirdōp̄
+  ids:
+    ref: PSA 109:16!7
+    wordID: o191090160072
+  translation:
+    english: pursued
+    mandarin: 逼迫
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: רָדַף
+    strong: '7291'
+  semantic:
+    sdbh:
+    - '006705001010000'
+    lexdomain:
+    - '002003003021'
+    coredomain:
+    - '044'
+    - '196'
+    sense: '1'
+  lxx:
+    text: κατεδίωχεν
+    strong: '2614'
+  syntax:
+    role: v
+    frame: A0:191090020031;191090020051; A1:191090160081;
+  discourse:
+    subject: 191090020031 191090020051
+- position: 9
+  text: אִישׁ
+  lemma: אִישׁ
+  transliteration: ʾîš-
+  ids:
+    ref: PSA 109:16!8
+    wordID: o191090160081
+  translation:
+    english: anyone
+    mandarin: 人
+    gloss: anyone
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνθρωπον
+    strong: '444'
+- position: 10
+  text: עָנִ֣י
+  lemma: עָנִי
+  transliteration: ʿāniy
+  ids:
+    ref: PSA 109:16!9
+    wordID: o191090160091
+  translation:
+    english: poor
+    mandarin: 困苦
+    gloss: poor
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: עָנִי
+    strong: '6041'
+  semantic:
+    sdbh:
+    - '005546001001000'
+    lexdomain:
+    - '001001002003001'
+    - '002003003021'
+    - '002001001040'
+    coredomain:
+    - '192'
+    sense: '1'
+  lxx:
+    text: πένητα
+    strong: '3993'
+- position: 11
+  text: וְ֭
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 109:16!10
+    wordID: o191090160101
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: אֶבְיוֹן
+  lemma: אֶבְיוֹן
+  transliteration: ʾeḇyôn
+  ids:
+    ref: PSA 109:16!10
+    wordID: o191090160102
+  translation:
+    english: needy
+    mandarin: 贫穷
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: אֶבְיוֹן
+    strong: '0034'
+  semantic:
+    sdbh:
+    - '000032001001000'
+    lexdomain:
+    - '002001001040'
+    coredomain:
+    - '192'
+  lxx:
+    text: πτωξὸν
+    strong: '4434'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 109:16!11
+    wordID: o191090160111
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: נִכְאֵ֨ה
+  lemma: כָּאָה
+  transliteration: niḵʾēh
+  ids:
+    ref: PSA 109:16!11
+    wordID: o191090160112
+  translation:
+    english: despondent
+    mandarin: 哀痛
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: כָּאָה
+    strong: '3512'
+  semantic:
+    sdbh:
+    - 003218001001000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    sense: '1'
+  lxx:
+    text: κατανενυγμένον
+  syntax:
+    frame: A1:191090160081;
+  discourse:
+    subject: '191090160081'
+- position: 15
+  text: לֵבָ֬ב
+  lemma: לֵבָב
+  transliteration: lēḇāḇ
+  ids:
+    ref: PSA 109:16!12
+    wordID: o191090160121
+  translation:
+    english: heart
+    mandarin: 心
+    gloss: of.heart
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֵבָב
+    strong: '3824'
+  semantic:
+    sdbh:
+    - '003500001002000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: καρδίᾳ
+    strong: '2588'
+- position: 16
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 109:16!13
+    wordID: o191090160131
+  translation:
+    english: to
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 17
+  text: מוֹתֵֽת
+  lemma: מוּת
+  transliteration: 'môṯēṯ:'
+  ids:
+    ref: PSA 109:16!13
+    wordID: o191090160132
+  translation:
+    english: put ~ todeath
+    mandarin: 濒临死地
+  morphology:
+    class: verb
+    pos: verb
+    morph: Voc
+    stem: polel
+    type: infinitive construct
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001002000
+    lexdomain:
+    - 002001001019
+    sense: '3'
+  lxx:
+    text: θανατῶσαι
+    strong: '2289'
+  syntax:
+    role: v
+    frame: A0:191090020031;191090020051; A1:191090160081;
+  discourse:
+    subject: 191090020031 191090020051

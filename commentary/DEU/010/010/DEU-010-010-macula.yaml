@@ -1,0 +1,785 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 10:10
+text: וְאָנֹכִ֞י עָמַ֣דְתִּי בָהָ֗ר כַּיָּמִים֙ הָרִ֣אשֹׁנִ֔ים אַרְבָּעִ֣ים י֔וֹם
+  וְאַרְבָּעִ֖ים לָ֑יְלָה וַיִּשְׁמַ֨ע יְהוָ֜ה אֵלַ֗י גַּ֚ם בַּפַּ֣עַם הַהִ֔וא לֹא־אָבָ֥ה
+  יְהוָ֖ה הַשְׁחִיתֶֽךָ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 10:10!1
+    wordID: o050100100011
+  translation:
+    english: now
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 2
+  text: אָנֹכִ֞י
+  lemma: אָנֹכִי
+  transliteration: ʾānōḵiy
+  ids:
+    ref: DEU 10:10!1
+    wordID: o050100100012
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: κἀγὼ
+    strong: '2504'
+  syntax:
+    role: s
+  discourse:
+    participant: '050050010021'
+- position: 3
+  text: עָמַ֣דְתִּי
+  lemma: עָמַד
+  transliteration: ʿāmaḏətî
+  ids:
+    ref: DEU 10:10!2
+    wordID: o050100100021
+  translation:
+    english: stayed
+    mandarin: 停留
+    gloss: I.remained
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָמַד
+    strong: '5975'
+  semantic:
+    sdbh:
+    - 005484001026000
+    lexdomain:
+    - '002002001016'
+    coredomain:
+    - '166'
+    sense: '7'
+  lxx:
+    text: εἱστήκειν
+    strong: '2476'
+  syntax:
+    role: v
+    frame: A0:050100100012;
+- position: 4
+  text: בָ
+  lemma: בְּ
+  transliteration: ḇā
+  ids:
+    ref: DEU 10:10!3
+    wordID: o050100100031
+  translation:
+    english: 'on'
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 5
+  text: הָ֗ר
+  lemma: הַר
+  transliteration: hār
+  ids:
+    ref: DEU 10:10!3
+    wordID: o050100100032
+  translation:
+    english: mountain
+    mandarin: 山
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הַר
+    strong: '2022'
+  semantic:
+    sdbh:
+    - 001868001001000
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ὄρει
+    strong: '3735'
+- position: 6
+  text: כַּ
+  lemma: כְּ
+  transliteration: ka
+  ids:
+    ref: DEU 10:10!4
+    wordID: o050100100041
+  translation:
+    english: as
+    mandarin: 像
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+- position: 7
+  text: יָּמִים֙
+  lemma: יוֹם
+  transliteration: yyāmîm
+  ids:
+    ref: DEU 10:10!4
+    wordID: o050100100042
+  translation:
+    english: time
+    mandarin: 日子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001003000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    sense: '2'
+- position: 8
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: DEU 10:10!5
+    wordID: o050100100051
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 9
+  text: רִ֣אשֹׁנִ֔ים
+  lemma: רִאשׁוֹן
+  transliteration: riʾšōniym
+  ids:
+    ref: DEU 10:10!5
+    wordID: o050100100052
+  translation:
+    english: first
+    mandarin: 先前
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רִאשׁוֹן
+    strong: '7223'
+  semantic:
+    sdbh:
+    - '006651001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    sense: '1'
+  discourse:
+    participant: 050090090151
+- position: 10
+  text: אַרְבָּעִ֣ים
+  lemma: אַרְבַּע
+  transliteration: ʾarbāʿiym
+  ids:
+    ref: DEU 10:10!6
+    wordID: o050100100061
+  translation:
+    english: forty
+    mandarin: 四十
+    gloss: forty
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אַרְבַּע
+    strong: '0705'
+  semantic:
+    sdbh:
+    - 000649001002000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: τεσσαράκοντα
+    strong: '1540'
+- position: 11
+  text: י֔וֹם
+  lemma: יוֹם
+  transliteration: yôm
+  ids:
+    ref: DEU 10:10!7
+    wordID: o050100100071
+  translation:
+    english: days
+    mandarin: 白天
+    gloss: day[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    - '100'
+    sense: '1'
+  lxx:
+    text: ἡμέρας
+    strong: '2250'
+- position: 12
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: DEU 10:10!8
+    wordID: o050100100081
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: אַרְבָּעִ֖ים
+  lemma: אַרְבַּע
+  transliteration: ʾarbāʿiym
+  ids:
+    ref: DEU 10:10!8
+    wordID: o050100100082
+  translation:
+    english: forty
+    mandarin: 四十
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אַרְבַּע
+    strong: '0705'
+  semantic:
+    sdbh:
+    - 000649001002000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: τεσσαράκοντα
+    strong: '1540'
+- position: 14
+  text: לָ֑יְלָה
+  lemma: לַיְלָה
+  transliteration: lāyəlâ
+  ids:
+    ref: DEU 10:10!9
+    wordID: o050100100091
+  translation:
+    english: nights
+    mandarin: 黑夜
+    gloss: night[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לַיְלָה
+    strong: '3915'
+  semantic:
+    sdbh:
+    - 003580001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    - '100'
+    sense: '1'
+  lxx:
+    text: νύκτας
+    strong: '3571'
+- position: 15
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: DEU 10:10!10
+    wordID: o050100100101
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 16
+  text: יִּשְׁמַ֨ע
+  lemma: שָׁמַע
+  transliteration: yyišmaʿ
+  ids:
+    ref: DEU 10:10!10
+    wordID: o050100100102
+  translation:
+    english: listened
+    mandarin: 垂听
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰσήκουσεν
+    strong: '1522'
+  syntax:
+    role: v
+    frame: A0:050100100111;
+- position: 17
+  text: יְהוָ֜ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 10:10!11
+    wordID: o050100100111
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 18
+  text: אֵלַ֗
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: DEU 10:10!12
+    wordID: o050100100121
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 19
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 10:10!12
+    wordID: o050100100122
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμοῦ
+    strong: '1700'
+  discourse:
+    participant: '050050010021'
+- position: 20
+  text: גַּ֚ם
+  lemma: גַּם
+  transliteration: gam
+  ids:
+    ref: DEU 10:10!13
+    wordID: o050100100131
+  translation:
+    english: also
+    mandarin: 也
+    gloss: also
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 21
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: DEU 10:10!14
+    wordID: o050100100141
+  translation:
+    english: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 22
+  text: פַּ֣עַם
+  lemma: פַּעַם
+  transliteration: paʿam
+  ids:
+    ref: DEU 10:10!14
+    wordID: o050100100142
+  translation:
+    english: time
+    mandarin: 次
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פַּעַם
+    strong: '6471'
+  semantic:
+    sdbh:
+    - 005948001007000
+    lexdomain:
+    - '003002001'
+    sense: '1'
+  lxx:
+    text: καιρῷ
+    strong: '2540'
+- position: 23
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 10:10!15
+    wordID: o050100100151
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 24
+  text: הִ֔וא
+  lemma: הִיא
+  transliteration: hiwʾ
+  ids:
+    ref: DEU 10:10!15
+    wordID: o050100100152
+  translation:
+    english: that
+    mandarin: 那
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הִיא
+    strong: 1931a
+  lxx:
+    text: τούτῳ
+    strong: '5129'
+- position: 25
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 10:10!16
+    wordID: o050100100161
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 26
+  text: אָבָ֥ה
+  lemma: אָבָה
+  transliteration: ʾāḇāh
+  ids:
+    ref: DEU 10:10!17
+    wordID: o050100100171
+  translation:
+    english: willing
+    mandarin: 答应
+    gloss: he.was.willing
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָבָה
+    strong: '0014'
+  semantic:
+    sdbh:
+    - '000012001001000'
+    lexdomain:
+    - 002001002028
+    coredomain:
+    - '197'
+    sense: '1'
+  lxx:
+    text: ἠθέλησεν
+    strong: '2309'
+  syntax:
+    role: v
+    frame: A0:050100100181; A1:050100100191;
+- position: 27
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 10:10!18
+    wordID: o050100100181
+  translation:
+    english: Lord
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 28
+  text: הַשְׁחִיתֶֽ
+  lemma: שָׁחַת
+  transliteration: ''
+  ids:
+    ref: DEU 10:10!19
+    wordID: o050100100191
+  translation:
+    english: destroy
+    mandarin: 消灭
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: שָׁחַת
+    strong: '7843'
+  semantic:
+    sdbh:
+    - '007307001002000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+    sense: '1'
+  lxx:
+    text: ἐχολεθρεῦσαι
+    strong: '1842'
+  syntax:
+    role: v
+    frame: AA:050100100181; A0:050100100192;
+  discourse:
+    subject: 050100100181
+- position: 29
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 10:10!19
+    wordID: o050100100192
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '007307001002000'
+    lexdomain:
+    - '002001001023'
+    coredomain:
+    - '052'
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  syntax:
+    role: o
+  discourse:
+    participant: 050090010021

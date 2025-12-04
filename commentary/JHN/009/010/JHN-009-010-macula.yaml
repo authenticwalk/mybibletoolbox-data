@@ -1,0 +1,204 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 9:10
+text: ἔλεγον οὖν αὐτῷ Πῶς οὖν ἠνεῴχθησάν σου οἱ ὀφθαλμοί;
+words:
+- position: 1
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: JHN 9:10!2
+    wordID: n43009010002
+  translation:
+    gloss: therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἔλεγον
+  lemma: λέγω
+  normalized: ἔλεγον
+  ids:
+    ref: JHN 9:10!1
+    wordID: n43009010001
+  translation:
+    gloss: They were saying
+  morphology:
+    class: verb
+    morph: V-IAI-3P
+    number: plural
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n43009008003;n43009008006 A2:n43009010003
+  discourse:
+    subject: n43009008003 n43009008006
+- position: 3
+  text: αὐτῷ
+  lemma: αὐτός
+  normalized: αὐτῷ
+  ids:
+    ref: JHN 9:10!3
+    wordID: n43009010003
+  translation:
+    gloss: to him
+  morphology:
+    class: pron
+    morph: P-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: io
+  discourse:
+    referent: n43009001004
+- position: 4
+  text: οὖν
+  lemma: οὖν
+  normalized: οὖν
+  ids:
+    ref: JHN 9:10!5
+    wordID: n43009010005
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3767'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.50'
+  syntax:
+    discontinuous: 'true'
+- position: 5
+  text: Πῶς
+  lemma: πῶς
+  normalized: Πῶς
+  ids:
+    ref: JHN 9:10!4
+    wordID: n43009010004
+  translation:
+    gloss: How
+  morphology:
+    class: adv
+    morph: ADV-I
+  lexical:
+    strong: '4459'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.16'
+  syntax:
+    role: adv
+- position: 6
+  text: ἠνεῴχθησάν
+  lemma: ἀνοίγω
+  normalized: ἠνεῴχθησαν
+  ids:
+    ref: JHN 9:10!6
+    wordID: n43009010006
+  translation:
+    gloss: were opened
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '455'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.43'
+  syntax:
+    role: v
+    frame: A1:n43009010009
+- position: 7
+  text: σου
+  lemma: σύ
+  normalized: σου
+  ids:
+    ref: JHN 9:10!7
+    wordID: n43009010007
+  translation:
+    gloss: of you
+  morphology:
+    class: pron
+    morph: P-2GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  discourse:
+    referent: n43009001004
+- position: 8
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: JHN 9:10!8
+    wordID: n43009010008
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 9
+  text: ὀφθαλμοί
+  lemma: ὀφθαλμός
+  normalized: ὀφθαλμοί
+  ids:
+    ref: JHN 9:10!9
+    wordID: n43009010009
+  translation:
+    gloss: eyes
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3788'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.23'

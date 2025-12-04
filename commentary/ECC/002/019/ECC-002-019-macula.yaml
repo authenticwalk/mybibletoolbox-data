@@ -1,0 +1,681 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ECC 2:19
+text: וּמִ֣י יוֹדֵ֗עַ הֶֽחָכָ֤ם יִהְיֶה֙ א֣וֹ סָכָ֔ל וְיִשְׁלַט֙ בְּכָל־עֲמָלִ֔י שֶֽׁעָמַ֥לְתִּי
+  וְשֶׁחָכַ֖מְתִּי תַּ֣חַת הַשָּׁ֑מֶשׁ גַּם־זֶ֖ה הָֽבֶל׃
+words:
+- position: 1
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: ECC 2:19!1
+    wordID: o210020190011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: και
+    strong: '2532'
+- position: 2
+  text: מִ֣י
+  lemma: מִי
+  transliteration: miy
+  ids:
+    ref: ECC 2:19!1
+    wordID: o210020190012
+  translation:
+    english: who
+    mandarin: 谁
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מִי
+    strong: '4310'
+  semantic:
+    sdbh:
+    - 003938001001000
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τίς
+    strong: '5101'
+  syntax:
+    role: s
+- position: 3
+  text: יוֹדֵ֗עַ
+  lemma: יָדַע
+  transliteration: yôḏēᵃʿ
+  ids:
+    ref: ECC 2:19!2
+    wordID: o210020190021
+  translation:
+    english: knows
+    mandarin: 知道
+    gloss: '[is].knowing'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: οἶδεν
+    strong: '1492'
+  syntax:
+    role: v
+    frame: A0:210020190012; A1:210020190041;
+- position: 4
+  text: הֶֽ
+  lemma: הֲ
+  transliteration: he
+  ids:
+    ref: ECC 2:19!3
+    wordID: o210020190031
+  translation:
+    english: whether
+  morphology:
+    class: ptcl
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: הֲ
+    strong: 1886b
+  semantic:
+    sdbh:
+    - '001736001001000'
+    lexdomain:
+    - '004001'
+  lxx:
+    text: εἰ
+    strong: '1487'
+- position: 5
+  text: יִהְיֶה֙
+  lemma: הָיָה
+  transliteration: yihyeh
+  ids:
+    ref: ECC 2:19!4
+    wordID: o210020190041
+  translation:
+    english: be
+    mandarin: 是
+    gloss: will.he.be
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἔσται
+    strong: '2071'
+  syntax:
+    role: v
+    frame: A0:210020180113;
+  discourse:
+    subject: '210020180113'
+- position: 6
+  text: חָכָ֤ם
+  lemma: חָכָם
+  transliteration: ḥāḵām
+  ids:
+    ref: ECC 2:19!3
+    wordID: o210020190032
+  translation:
+    english: wise
+    mandarin: 智慧
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: חָכָם
+    strong: '2450'
+  semantic:
+    sdbh:
+    - '002264001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: σοφος
+- position: 7
+  text: א֣וֹ
+  lemma: אוֹ
+  transliteration: ʾô
+  ids:
+    ref: ECC 2:19!5
+    wordID: o210020190051
+  translation:
+    english: or
+    mandarin: 或是
+    gloss: or?
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אוֹ
+    strong: '0176'
+  semantic:
+    sdbh:
+    - '000173001001000'
+    lexdomain:
+    - '002003'
+  lxx:
+    text: ἠ
+    strong: '2228'
+- position: 8
+  text: סָכָ֔ל
+  lemma: סָכָל
+  transliteration: sāḵāl
+  ids:
+    ref: ECC 2:19!6
+    wordID: o210020190061
+  translation:
+    english: fool
+    mandarin: 愚
+    gloss: a.fool
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: סָכָל
+    strong: '5530'
+  semantic:
+    sdbh:
+    - '005071001001000'
+    lexdomain:
+    - '002001002010'
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: ἄφρων
+    strong: '878'
+- position: 9
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ECC 2:19!7
+    wordID: o210020190071
+  translation:
+    english: yet
+    mandarin: 却
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: και
+    strong: '2532'
+- position: 10
+  text: יִשְׁלַט֙
+  lemma: שָׁלַט
+  transliteration: yišlaṭ
+  ids:
+    ref: ECC 2:19!7
+    wordID: o210020190072
+  translation:
+    english: have control
+    mandarin: 掌管
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁלַט
+    strong: '7980'
+  semantic:
+    sdbh:
+    - 007393001001000
+    lexdomain:
+    - 002003002008
+    coredomain:
+    - '040'
+    sense: '1'
+  lxx:
+    text: ἐχουσιάζεται
+  syntax:
+    role: v
+    frame: A0:210020180113;
+  discourse:
+    subject: '210020180113'
+- position: 11
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: ECC 2:19!8
+    wordID: o210020190081
+  translation:
+    english: over
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 12
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: ECC 2:19!8
+    wordID: o210020190082
+  translation:
+    english: all
+    mandarin: 一切
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: παντι
+    strong: '3956'
+- position: 13
+  text: עֲמָלִ֔
+  lemma: עָמָל
+  transliteration: ''
+  ids:
+    ref: ECC 2:19!9
+    wordID: o210020190091
+  translation:
+    english: work
+    mandarin: 辛劳
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עָמָל
+    strong: '5999'
+  semantic:
+    sense: '2'
+  lxx:
+    text: μόξθω
+    strong: '3449'
+- position: 14
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ECC 2:19!9
+    wordID: o210020190092
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '210010120021'
+- position: 15
+  text: שֶֽׁ
+  lemma: שֶׁ
+  transliteration: še
+  ids:
+    ref: ECC 2:19!10
+    wordID: o210020190101
+  translation:
+    english: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: שֶׁ
+    strong: 7578a
+  lxx:
+    text: ὧ
+    strong: '3739'
+- position: 16
+  text: עָמַ֥לְתִּי
+  lemma: עָמַל
+  transliteration: ʿāmalətî
+  ids:
+    ref: ECC 2:19!10
+    wordID: o210020190102
+  translation:
+    english: toiled
+    mandarin: 辛劳
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָמַל
+    strong: '5998'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐμόξθησα
+  syntax:
+    role: v
+    frame: A0:210010120021; A1:210020190091;
+  discourse:
+    subject: '210010120021'
+- position: 17
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ECC 2:19!11
+    wordID: o210020190111
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: και
+    strong: '2532'
+- position: 18
+  text: שֶׁ
+  lemma: שֶׁ
+  transliteration: še
+  ids:
+    ref: ECC 2:19!11
+    wordID: o210020190112
+  translation:
+    english: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: שֶׁ
+    strong: 7578a
+  lxx:
+    text: ὧ
+    strong: '3739'
+- position: 19
+  text: חָכַ֖מְתִּי
+  lemma: חָכַם
+  transliteration: ḥāḵamətî
+  ids:
+    ref: ECC 2:19!11
+    wordID: o210020190113
+  translation:
+    english: used ~ wisdom
+    mandarin: 智慧
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: חָכַם
+    strong: '2449'
+  semantic:
+    sdbh:
+    - '002263001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '2'
+  lxx:
+    text: ἐσοφισάμην
+  syntax:
+    role: v
+    frame: A0:210010120021;
+  discourse:
+    subject: '210010120021'
+- position: 20
+  text: תַּ֣חַת
+  lemma: תַּחַת
+  transliteration: taḥaṯ
+  ids:
+    ref: ECC 2:19!12
+    wordID: o210020190121
+  translation:
+    english: under
+    mandarin: 在~之下
+    gloss: under
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: תַּחַת
+    strong: '8478'
+  lxx:
+    text: ὑπο
+    strong: '5259'
+- position: 21
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ECC 2:19!13
+    wordID: o210020190131
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τον
+    strong: '3588'
+- position: 22
+  text: שָּׁ֑מֶשׁ
+  lemma: שֶׁמֶשׁ
+  transliteration: ššāmeš
+  ids:
+    ref: ECC 2:19!13
+    wordID: o210020190132
+  translation:
+    english: sun
+    mandarin: 日光
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שֶׁמֶשׁ
+    strong: '8121'
+  semantic:
+    sdbh:
+    - 007511001008000
+    lexdomain:
+    - '002002001013'
+    coredomain:
+    - '166'
+    sense: '1'
+  lxx:
+    text: ἥλιον
+    strong: '2246'
+- position: 23
+  text: גַּם
+  lemma: גַּם
+  transliteration: gam-
+  ids:
+    ref: ECC 2:19!14
+    wordID: o210020190141
+  translation:
+    english: too
+    mandarin: 也
+    gloss: also
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: γε
+    strong: '1065'
+- position: 24
+  text: זֶ֖ה
+  lemma: זֶה
+  transliteration: zeh
+  ids:
+    ref: ECC 2:19!15
+    wordID: o210020190151
+  translation:
+    english: this
+    mandarin: 这
+    gloss: this
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+  discourse:
+    participant: '210020190072'
+- position: 25
+  text: הָֽבֶל
+  lemma: הֶבֶל
+  transliteration: 'hāḇel:'
+  ids:
+    ref: ECC 2:19!16
+    wordID: o210020190161
+  translation:
+    english: vanity
+    mandarin: 虚空
+    gloss: '[is].futility'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הֶבֶל
+    strong: '1892'
+  semantic:
+    sdbh:
+    - '001743001003000'
+    lexdomain:
+    - '002003003012'
+    coredomain:
+    - '173'
+    sense: '1'
+  lxx:
+    text: ματαιότης
+    strong: '3153'
+  syntax:
+    role: p

@@ -1,0 +1,533 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 51:10
+text: הֲל֤וֹא אַתְּ־הִיא֙ הַמַּחֲרֶ֣בֶת יָ֔ם מֵ֖י תְּה֣וֹם רַבָּ֑ה הַשָּׂ֨מָה֙ מַֽעֲמַקֵּי־יָ֔ם
+  דֶּ֖רֶךְ לַעֲבֹ֥ר גְּאוּלִֽים׃
+words:
+- position: 1
+  text: הֲ
+  lemma: הֲ
+  transliteration: hă
+  ids:
+    ref: ISA 51:10!1
+    wordID: o230510100011
+  translation:
+    english: '?'
+    mandarin: 吗
+  morphology:
+    class: ptcl
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: הֲ
+    strong: 1886b
+  semantic:
+    sdbh:
+    - '001736001001000'
+    lexdomain:
+    - '004001'
+- position: 2
+  text: ל֤וֹא
+  lemma: לֹא
+  transliteration: lôʾ
+  ids:
+    ref: ISA 51:10!1
+    wordID: o230510100012
+  translation:
+    english: not
+    mandarin: 不是
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  syntax:
+    role: adv
+- position: 3
+  text: אַתְּ
+  lemma: אַתְּ
+  transliteration: ʾattə-
+  ids:
+    ref: ISA 51:10!2
+    wordID: o230510100021
+  translation:
+    english: you
+    mandarin: 你
+    gloss: '[are].you'
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתְּ
+    strong: 0859b
+  syntax:
+    role: s
+  discourse:
+    participant: '230510090051'
+- position: 4
+  text: הִיא֙
+  lemma: הִיא
+  transliteration: hîʾ
+  ids:
+    ref: ISA 51:10!3
+    wordID: o230510100031
+  translation:
+    english: it
+    mandarin: 那
+    gloss: she
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הִיא
+    strong: 1931a
+  discourse:
+    participant: '230510090051'
+- position: 5
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ISA 51:10!4
+    wordID: o230510100041
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ἡ
+    strong: '3588'
+- position: 6
+  text: מַּחֲרֶ֣בֶת
+  lemma: חָרֵב
+  transliteration: mmaḥăreḇeṯ
+  ids:
+    ref: ISA 51:10!4
+    wordID: o230510100042
+  translation:
+    english: dried up
+    mandarin: 干涸
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: חָרֵב
+    strong: '2717'
+  semantic:
+    sdbh:
+    - '002504001002000'
+    lexdomain:
+    - '002001001022'
+    coredomain:
+    - '101'
+    sense: '1'
+  lxx:
+    text: ἐρημοῦσα
+  syntax:
+    role: v
+    frame: AA:230510090051; A0:230510100051;
+  discourse:
+    subject: '230510090051'
+- position: 7
+  text: יָ֔ם
+  lemma: יָם
+  transliteration: yām
+  ids:
+    ref: ISA 51:10!5
+    wordID: o230510100051
+  translation:
+    english: sea
+    mandarin: 海
+    gloss: '[the].sea'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יָם
+    strong: '3220'
+  semantic:
+    sdbh:
+    - 002945001001000
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: θάλασσαν
+    strong: '2281'
+- position: 8
+  text: מֵ֖י
+  lemma: מַיִם
+  transliteration: mēy
+  ids:
+    ref: ISA 51:10!6
+    wordID: o230510100061
+  translation:
+    english: waters
+    mandarin: 水
+    gloss: the.water
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  lxx:
+    text: ὕδωρ
+    strong: '5204'
+- position: 9
+  text: תְּה֣וֹם
+  lemma: תְּהוֹם
+  transliteration: təhôm
+  ids:
+    ref: ISA 51:10!7
+    wordID: o230510100071
+  translation:
+    english: deep
+    mandarin: 深渊
+    gloss: of.the.deep
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּהוֹם
+    strong: '8415'
+  semantic:
+    sdbh:
+    - '007722001001000'
+    lexdomain:
+    - '001005002003'
+    - '001005002002005'
+    coredomain:
+    - '185'
+    - '115'
+    - '101'
+    sense: '1'
+  lxx:
+    text: ἀβύσσου
+    strong: '12'
+- position: 10
+  text: רַבָּ֑ה
+  lemma: רַב
+  transliteration: rabbāh
+  ids:
+    ref: ISA 51:10!8
+    wordID: o230510100081
+  translation:
+    english: great
+    mandarin: 大
+    gloss: great
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aafsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: רַב
+    strong: '7227'
+  semantic:
+    sdbh:
+    - '006654001001000'
+    lexdomain:
+    - '002001001034'
+    sense: '2'
+  lxx:
+    text: πλῆθος
+    strong: '4128'
+- position: 11
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: ISA 51:10!9
+    wordID: o230510100091
+  translation:
+    english: the
+    mandarin: 使
+  morphology:
+    class: art
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ἡ
+    strong: '3588'
+- position: 12
+  text: שָּׂ֨מָה֙
+  lemma: שׂים
+  transliteration: śśāmāh
+  ids:
+    ref: ISA 51:10!9
+    wordID: o230510100092
+  translation:
+    english: made
+    mandarin: 使~变为
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: שׂים
+    strong: '7760'
+  semantic:
+    sdbh:
+    - 007028001006000
+    lexdomain:
+    - '002001001020'
+    coredomain:
+    - '160'
+    sense: '2'
+  lxx:
+    text: θεῖσα
+    strong: '5087'
+  syntax:
+    role: v
+    frame: A0:230510090051; A1:230510100101;
+  discourse:
+    subject: '230510090051'
+- position: 13
+  text: מַֽעֲמַקֵּי
+  lemma: מַעֲמַקִּים
+  transliteration: maʿămaqqê-
+  ids:
+    ref: ISA 51:10!10
+    wordID: o230510100101
+  translation:
+    english: depths
+    mandarin: 深处
+    gloss: '[the].depths'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲמַקִּים
+    strong: '4615'
+  semantic:
+    sdbh:
+    - '004226001001000'
+    lexdomain:
+    - '001005002002002'
+    coredomain:
+    - '115'
+    - '077'
+    sense: '1'
+  lxx:
+    text: βάθη
+    strong: '899'
+- position: 14
+  text: יָ֔ם
+  lemma: יָם
+  transliteration: yām
+  ids:
+    ref: ISA 51:10!11
+    wordID: o230510100111
+  translation:
+    english: sea
+    mandarin: 海
+    gloss: of.[the].sea
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יָם
+    strong: '3220'
+  semantic:
+    sdbh:
+    - 002945001001000
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: θαλάσσης
+    strong: '2281'
+- position: 15
+  text: דֶּ֖רֶךְ
+  lemma: דֶּרֶךְ
+  transliteration: dereḵ
+  ids:
+    ref: ISA 51:10!12
+    wordID: o230510100121
+  translation:
+    english: way
+    mandarin: 路
+    gloss: a.way
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דֶּרֶךְ
+    strong: '1870'
+  semantic:
+    sdbh:
+    - 001719001001000
+    lexdomain:
+    - '001005002002004'
+    coredomain:
+    - 087
+    sense: '1'
+  lxx:
+    text: ὁδὸν
+    strong: '3598'
+  syntax:
+    role: o2
+- position: 16
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: ISA 51:10!13
+    wordID: o230510100131
+  translation:
+    english: to
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 17
+  text: עֲבֹ֥ר
+  lemma: עָבַר
+  transliteration: ʿăḇōr
+  ids:
+    ref: ISA 51:10!13
+    wordID: o230510100132
+  translation:
+    english: cross over
+    mandarin: 经过
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: עָבַר
+    strong: '5674'
+  semantic:
+    sense: '1'
+  lxx:
+    text: διαβάσεως
+  syntax:
+    role: v
+    frame: A0:230510100141;
+- position: 18
+  text: גְּאוּלִֽים
+  lemma: גָּאַל
+  transliteration: 'gəʾûliym:'
+  ids:
+    ref: ISA 51:10!14
+    wordID: o230510100141
+  translation:
+    english: redeemed
+    mandarin: 救赎
+    gloss: '[those].redeemed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: גָּאַל
+    strong: '1350'
+  semantic:
+    sdbh:
+    - '001245001004000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '196'
+    sense: '1'
+  lxx:
+    text: ῥυομένοις
+    strong: '4506'
+  syntax:
+    role: s

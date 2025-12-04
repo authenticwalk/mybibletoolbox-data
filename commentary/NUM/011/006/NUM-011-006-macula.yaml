@@ -1,0 +1,358 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 11:6
+text: וְעַתָּ֛ה נַפְשֵׁ֥נוּ יְבֵשָׁ֖ה אֵ֣ין כֹּ֑ל בִּלְתִּ֖י אֶל־הַמָּ֥ן עֵינֵֽינוּ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 11:6!1
+    wordID: o040110060011
+  translation:
+    english: but
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: עַתָּ֛ה
+  lemma: עַתָּה
+  transliteration: ʿattāh
+  ids:
+    ref: NUM 11:6!1
+    wordID: o040110060012
+  translation:
+    english: now
+    mandarin: 现在
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: עַתָּה
+    strong: '6258'
+  semantic:
+    sdbh:
+    - '005741001001000'
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+  lxx:
+    text: νυνὶ
+    strong: '3570'
+- position: 3
+  text: נַפְשֵׁ֥
+  lemma: נֶפֶשׁ
+  transliteration: ''
+  ids:
+    ref: NUM 11:6!2
+    wordID: o040110060021
+  translation:
+    english: appetite
+    mandarin: 力气
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶפֶשׁ
+    strong: '5315'
+  semantic:
+    sdbh:
+    - 004873001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ψυξὴ
+    strong: '5590'
+- position: 4
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 11:6!2
+    wordID: o040110060022
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 004873001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 040110040091
+- position: 5
+  text: יְבֵשָׁ֖ה
+  lemma: יָבֵשׁ
+  transliteration: yəḇēšāh
+  ids:
+    ref: NUM 11:6!3
+    wordID: o040110060031
+  translation:
+    english: dried up
+    mandarin: 枯干
+    gloss: '[is].dry'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aafsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: יָבֵשׁ
+    strong: '3002'
+  semantic:
+    sdbh:
+    - '002763001001000'
+    lexdomain:
+    - '002001001022'
+    sense: '1'
+  lxx:
+    text: κατάχηρος
+  syntax:
+    role: p
+- position: 6
+  text: אֵ֣ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: NUM 11:6!4
+    wordID: o040110060041
+  translation:
+    english: never
+    mandarin: 没有
+    gloss: there.[is].not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  syntax:
+    role: p
+- position: 7
+  text: כֹּ֑ל
+  lemma: כֹּל
+  transliteration: kōl
+  ids:
+    ref: NUM 11:6!5
+    wordID: o040110060051
+  translation:
+    english: anything
+    mandarin: 什么
+    gloss: anything
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: οὐδὲν
+    strong: '3762'
+  syntax:
+    role: s
+- position: 8
+  text: בִּלְתִּ֖י
+  lemma: בֵּלֶת
+  transliteration: biltiy
+  ids:
+    ref: NUM 11:6!6
+    wordID: o040110060061
+  translation:
+    english: but
+    mandarin: 除了~以外
+    gloss: except
+  morphology:
+    class: prep
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: בֵּלֶת
+    strong: '1115'
+  semantic:
+    sdbh:
+    - '001035001002000'
+    lexdomain:
+    - '004007'
+  lxx:
+    text: πλὴν
+    strong: '4133'
+- position: 9
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: NUM 11:6!7
+    wordID: o040110060071
+  translation:
+    english: for
+    gloss: '[are].to'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 10
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: NUM 11:6!8
+    wordID: o040110060081
+  translation:
+    english: this
+    mandarin: 这
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸ
+    strong: '3588'
+- position: 11
+  text: מָּ֥ן
+  lemma: מָן
+  transliteration: mmān
+  ids:
+    ref: NUM 11:6!8
+    wordID: o040110060082
+  translation:
+    english: manna
+    mandarin: 吗哪
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מָן
+    strong: '4478'
+  semantic:
+    sdbh:
+    - 004099001001000
+    lexdomain:
+    - '001004003'
+    sense: '1'
+  lxx:
+    text: μαννα
+- position: 12
+  text: עֵינֵֽי
+  lemma: עַיִן
+  transliteration: ''
+  ids:
+    ref: NUM 11:6!9
+    wordID: o040110060091
+  translation:
+    english: look
+    mandarin: 眼前
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbdc
+    gender: both
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀφθαλμοὶ
+    strong: '3788'
+- position: 13
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 11:6!9
+    wordID: o040110060092
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 040110040091

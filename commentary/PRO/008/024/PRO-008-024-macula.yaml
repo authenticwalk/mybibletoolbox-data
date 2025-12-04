@@ -1,0 +1,256 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 8:24
+text: בְּאֵין־תְּהֹמ֥וֹת חוֹלָ֑לְתִּי בְּאֵ֥ין מַ֝עְיָנ֗וֹת נִכְבַּדֵּי־מָֽיִם׃
+words:
+- position: 1
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PRO 8:24!1
+    wordID: o200080240011
+  translation:
+    english: when
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 2
+  text: אֵין
+  lemma: אַיִן
+  transliteration: ʾên-
+  ids:
+    ref: PRO 8:24!1
+    wordID: o200080240012
+  translation:
+    english: there were no
+    mandarin: 没有
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  syntax:
+    role: p
+- position: 3
+  text: תְּהֹמ֥וֹת
+  lemma: תְּהוֹם
+  transliteration: təhōmôṯ
+  ids:
+    ref: PRO 8:24!2
+    wordID: o200080240021
+  translation:
+    english: depths
+    mandarin: 深渊
+    gloss: the.deeps
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּהוֹם
+    strong: '8415'
+  semantic:
+    sdbh:
+    - '007722001001000'
+    lexdomain:
+    - '001005002003'
+    - '001005002002005'
+    coredomain:
+    - '185'
+    - '115'
+    - '101'
+    sense: '1'
+  syntax:
+    role: s
+- position: 4
+  text: חוֹלָ֑לְתִּי
+  lemma: חיל
+  transliteration: ḥôlālətî
+  ids:
+    ref: PRO 8:24!3
+    wordID: o200080240031
+  translation:
+    english: brought forth
+    mandarin: 出生
+    gloss: I.was.brought.forth
+  morphology:
+    class: verb
+    pos: verb
+    morph: VOp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: polal
+    type: qatal
+  lexical:
+    stronglemma: חיל
+    strong: 2342a
+  semantic:
+    sdbh:
+    - 002239001006000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '030'
+    sense: '6'
+  lxx:
+    text: ποιῆσαι
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A1:200080120021;
+  discourse:
+    subject: '200080120021'
+- position: 5
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PRO 8:24!4
+    wordID: o200080240041
+  translation:
+    english: when
+    mandarin: 以先
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 6
+  text: אֵ֥ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: PRO 8:24!4
+    wordID: o200080240042
+  translation:
+    english: there were no
+    mandarin: 没有
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  syntax:
+    role: p
+- position: 7
+  text: מַ֝עְיָנ֗וֹת
+  lemma: מַעְיָן
+  transliteration: maʿyānôṯ
+  ids:
+    ref: PRO 8:24!5
+    wordID: o200080240051
+  translation:
+    english: springs
+    mandarin: 泉源
+    gloss: springs
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַעְיָן
+    strong: '4599'
+  semantic:
+    sdbh:
+    - '004211001001000'
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '101'
+    sense: '1'
+  lxx:
+    text: πηγὰς
+    strong: '4077'
+- position: 8
+  text: נִכְבַּדֵּי
+  lemma: כָּבֵד
+  transliteration: niḵbaddê-
+  ids:
+    ref: PRO 8:24!6
+    wordID: o200080240061
+  translation:
+    english: abounding with
+    mandarin: 浩瀚
+    gloss: abounding
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: niphal
+    type: participle active
+  lexical:
+    stronglemma: כָּבֵד
+    strong: '3513'
+  semantic:
+    sdbh:
+    - '003220001012000'
+    lexdomain:
+    - '002001001042'
+    coredomain:
+    - '138'
+    sense: '12'
+  syntax:
+    frame: A1:200080240051;
+  discourse:
+    subject: '200080240051'
+- position: 9
+  text: מָֽיִם
+  lemma: מַיִם
+  transliteration: 'māyim:'
+  ids:
+    ref: PRO 8:24!7
+    wordID: o200080240071
+  translation:
+    english: water
+    mandarin: 水
+    gloss: of.water
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מַיִם
+    strong: '4325'
+  semantic:
+    sdbh:
+    - 003953001001000
+    lexdomain:
+    - '001006007'
+    - '001005002002005'
+    coredomain:
+    - '101'
+    - '189'
+    sense: '1'
+  lxx:
+    text: ὑδάτων
+    strong: '5204'

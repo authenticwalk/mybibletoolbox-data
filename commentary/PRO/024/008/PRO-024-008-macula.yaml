@@ -1,0 +1,231 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 24:8
+text: מְחַשֵּׁ֥ב לְהָרֵ֑עַ ל֝֗וֹ בַּֽעַל־מְזִמּ֥וֹת יִקְרָֽאוּ׃
+words:
+- position: 1
+  text: מְחַשֵּׁ֥ב
+  lemma: חָשַׁב
+  transliteration: məḥaššēḇ
+  ids:
+    ref: PRO 24:8!1
+    wordID: o200240080011
+  translation:
+    english: plans
+    mandarin: 图谋
+    gloss: '[one.who].plans'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: חָשַׁב
+    strong: '2803'
+  semantic:
+    sdbh:
+    - '002577001002000'
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: λογίζονται
+  syntax:
+    role: v
+- position: 2
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PRO 24:8!2
+    wordID: o200240080021
+  translation:
+    english: to
+    mandarin: 去
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 3
+  text: הָרֵ֑עַ
+  lemma: רָעַע
+  transliteration: hārēᵃʿ
+  ids:
+    ref: PRO 24:8!2
+    wordID: o200240080022
+  translation:
+    english: do evil
+    mandarin: 作恶
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: רָעַע
+    strong: '7489'
+  semantic:
+    sdbh:
+    - 006879001002000
+    lexdomain:
+    - '002001003020'
+    coredomain:
+    - '017'
+    sense: '2'
+  lxx:
+    text: συνεδρίοις
+  syntax:
+    role: v
+    frame: A0:200240080011;
+  discourse:
+    subject: '200240080011'
+- position: 4
+  text: ל֝֗
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PRO 24:8!3
+    wordID: o200240080031
+  translation:
+    english: for
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 5
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 24:8!3
+    wordID: o200240080032
+  translation:
+    english: himself
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  discourse:
+    participant: '200240080011'
+- position: 6
+  text: בַּֽעַל
+  lemma: בַּעַל
+  transliteration: baʿal-
+  ids:
+    ref: PRO 24:8!4
+    wordID: o200240080041
+  translation:
+    english: master
+    mandarin: 者
+    gloss: master
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בַּעַל
+    strong: '1167'
+  semantic:
+    sdbh:
+    - 001082001006000
+    lexdomain:
+    - '002003003010'
+    sense: '3'
+- position: 7
+  text: מְזִמּ֥וֹת
+  lemma: מְזִמָּה
+  transliteration: məzimmôṯ
+  ids:
+    ref: PRO 24:8!5
+    wordID: o200240080051
+  translation:
+    english: mischief
+    mandarin: 阴谋
+    gloss: of.plots
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מְזִמָּה
+    strong: '4209'
+  semantic:
+    sdbh:
+    - 003841001001000
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '124'
+    sense: '3'
+  lxx:
+    text: ἀπαιδεύτοις
+- position: 8
+  text: יִקְרָֽאוּ
+  lemma: קָרָא
+  transliteration: 'yiqrāʾû:'
+  ids:
+    ref: PRO 24:8!6
+    wordID: o200240080061
+  translation:
+    english: called
+    mandarin: 称为
+    gloss: people.will.call
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - 006556001008000
+    lexdomain:
+    - '002004002010'
+    coredomain:
+    - '113'
+    sense: '1'
+  lxx:
+    text: συναντᾷ
+  syntax:
+    role: v
+    frame: A0:; A1:200240080041;

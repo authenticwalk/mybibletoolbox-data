@@ -1,0 +1,795 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LEV 11:4
+text: אַ֤ךְ אֶת־זֶה֙ לֹ֣א תֹֽאכְל֔וּ מִֽמַּעֲלֵי֙ הַגֵּרָ֔ה וּמִמַּפְרִיסֵ֖י הַפַּרְסָ֑ה
+  אֶֽת־הַ֠גָּמָל כִּֽי־מַעֲלֵ֨ה גֵרָ֜ה ה֗וּא וּפַרְסָה֙ אֵינֶ֣נּוּ מַפְרִ֔יס טָמֵ֥א
+  ה֖וּא לָכֶֽם׃
+words:
+- position: 1
+  text: אַ֤ךְ
+  lemma: אַךְ
+  transliteration: ʾaḵ
+  ids:
+    ref: LEV 11:4!1
+    wordID: o030110040011
+  translation:
+    english: but
+    mandarin: 但
+    gloss: nevertheless
+  morphology:
+    class: adv
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: אַךְ
+    strong: 0389
+  semantic:
+    sdbh:
+    - '000364001001000'
+    lexdomain:
+    - '004007'
+  lxx:
+    text: πλὴν
+    strong: '4133'
+- position: 2
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: LEV 11:4!2
+    wordID: o030110040021
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 3
+  text: זֶה֙
+  lemma: זֶה
+  transliteration: zeh
+  ids:
+    ref: LEV 11:4!3
+    wordID: o030110040031
+  translation:
+    english: these
+    mandarin: 这
+    gloss: this
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+- position: 4
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: LEV 11:4!4
+    wordID: o030110040041
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 5
+  text: תֹֽאכְל֔וּ
+  lemma: אָכַל
+  transliteration: ṯōʾḵəlû
+  ids:
+    ref: LEV 11:4!5
+    wordID: o030110040051
+  translation:
+    english: eat
+    mandarin: 吃
+    gloss: you.must.eat
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγεσθε
+    strong: '2068'
+  syntax:
+    role: v
+    frame: A0:030110020031; A1:030110040031;
+  discourse:
+    subject: '030110020031'
+- position: 6
+  text: מִֽ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: LEV 11:4!6
+    wordID: o030110040061
+  translation:
+    english: among
+    mandarin: 之中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 7
+  text: מַּעֲלֵי֙
+  lemma: עָלָה
+  transliteration: mmaʿălê
+  ids:
+    ref: LEV 11:4!6
+    wordID: o030110040062
+  translation:
+    english: chew
+    mandarin: 反
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001022000'
+    lexdomain:
+    - '002001001024'
+    sense: '11'
+  lxx:
+    text: ἀναγόντων
+    strong: '321'
+  syntax:
+    frame: A1:030110040072;
+- position: 8
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: LEV 11:4!7
+    wordID: o030110040071
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 9
+  text: גֵּרָ֔ה
+  lemma: גֵּרָה
+  transliteration: gērāh
+  ids:
+    ref: LEV 11:4!7
+    wordID: o030110040072
+  translation:
+    english: cud
+    mandarin: 雏
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גֵּרָה
+    strong: '1625'
+  semantic:
+    sdbh:
+    - 001490001001000
+    lexdomain:
+    - '001002'
+    coredomain:
+    - 019
+    - 069
+    - '010'
+    sense: '1'
+  lxx:
+    text: μηρυκισμὸν
+- position: 10
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: LEV 11:4!8
+    wordID: o030110040081
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: LEV 11:4!8
+    wordID: o030110040082
+  translation:
+    english: from
+    mandarin: 一些
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 12
+  text: מַּפְרִיסֵ֖י
+  lemma: פָּרַס
+  transliteration: mmap̄rîsēy
+  ids:
+    ref: LEV 11:4!8
+    wordID: o030110040083
+  translation:
+    english: divided
+    mandarin: 分
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: פָּרַס
+    strong: '6536'
+  semantic:
+    sdbh:
+    - '006015001001000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+    sense: '1'
+  syntax:
+    frame: A1:030110040092;
+- position: 13
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: LEV 11:4!9
+    wordID: o030110040091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὰς
+    strong: '3588'
+- position: 14
+  text: פַּרְסָ֑ה
+  lemma: פַּרְסָה
+  transliteration: parsāh
+  ids:
+    ref: LEV 11:4!9
+    wordID: o030110040092
+  translation:
+    english: hoof
+    mandarin: 蹄
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פַּרְסָה
+    strong: '6541'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ὁπλὰς
+- position: 15
+  text: אֶֽת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: LEV 11:4!10
+    wordID: o030110040101
+  translation:
+    mandarin: 即
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 16
+  text: הַ֠
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: LEV 11:4!11
+    wordID: o030110040111
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 17
+  text: גָּמָל
+  lemma: גָּמָל
+  transliteration: gāmāl
+  ids:
+    ref: LEV 11:4!11
+    wordID: o030110040112
+  translation:
+    english: camel
+    mandarin: 骆驼
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גָּמָל
+    strong: '1581'
+  semantic:
+    sdbh:
+    - 001449001001000
+    lexdomain:
+    - '001001002001002'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: κάμηλον
+    strong: '2574'
+- position: 18
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: LEV 11:4!12
+    wordID: o030110040121
+  translation:
+    english: though
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 19
+  text: מַעֲלֵ֨ה
+  lemma: עָלָה
+  transliteration: maʿălēh
+  ids:
+    ref: LEV 11:4!13
+    wordID: o030110040131
+  translation:
+    english: chews
+    mandarin: 反
+    gloss: '[is].bringing.up'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: עָלָה
+    strong: '5927'
+  semantic:
+    sdbh:
+    - '005441001022000'
+    lexdomain:
+    - '002001001024'
+    sense: '11'
+  lxx:
+    text: ἀνάγει
+    strong: '321'
+  syntax:
+    frame: AA:030110040151; A0:030110040141;
+- position: 20
+  text: גֵרָ֜ה
+  lemma: גֵּרָה
+  transliteration: ḡērāh
+  ids:
+    ref: LEV 11:4!14
+    wordID: o030110040141
+  translation:
+    english: cud
+    mandarin: 雏
+    gloss: (of).cud
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גֵּרָה
+    strong: '1625'
+  semantic:
+    sdbh:
+    - 001490001001000
+    lexdomain:
+    - '001002'
+    coredomain:
+    - 019
+    - 069
+    - '010'
+    sense: '1'
+  lxx:
+    text: μηρυκισμὸν
+- position: 21
+  text: ה֗וּא
+  lemma: הוּא
+  transliteration: hûʾ
+  ids:
+    ref: LEV 11:4!15
+    wordID: o030110040151
+  translation:
+    english: it
+    mandarin: 它
+    gloss: it
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+  syntax:
+    role: s
+  discourse:
+    participant: '030110040112'
+- position: 22
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: LEV 11:4!16
+    wordID: o030110040161
+  translation:
+    english: but
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 23
+  text: פַרְסָה֙
+  lemma: פַּרְסָה
+  transliteration: p̄arsāh
+  ids:
+    ref: LEV 11:4!16
+    wordID: o030110040162
+  translation:
+    english: hoof
+    mandarin: 脚蹄
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פַּרְסָה
+    strong: '6541'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ὁπλὴν
+  syntax:
+    role: o
+- position: 24
+  text: אֵינֶ֣
+  lemma: אַיִן
+  transliteration: ''
+  ids:
+    ref: LEV 11:4!17
+    wordID: o030110040171
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 25
+  text: נּוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 11:4!17
+    wordID: o030110040172
+  translation:
+    english: it
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105b
+  syntax:
+    role: s
+  discourse:
+    participant: '030110040112'
+- position: 26
+  text: מַפְרִ֔יס
+  lemma: פָּרַס
+  transliteration: map̄riys
+  ids:
+    ref: LEV 11:4!18
+    wordID: o030110040181
+  translation:
+    english: divided
+    mandarin: 分瓣
+    gloss: '[is].dividing.in.two'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: פָּרַס
+    strong: '6536'
+  semantic:
+    sdbh:
+    - '006015001001000'
+    lexdomain:
+    - '003001006'
+    - '003001010'
+    sense: '1'
+  lxx:
+    text: διξηλεῖ
+  syntax:
+    role: v
+    frame: A0:030110040162; AA:030110040172;
+- position: 27
+  text: טָמֵ֥א
+  lemma: טָמֵא
+  transliteration: ṭāmēʾ
+  ids:
+    ref: LEV 11:4!19
+    wordID: o030110040191
+  translation:
+    english: unclean
+    mandarin: 不洁净
+    gloss: '[is].unclean'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: טָמֵא
+    strong: '2931'
+  semantic:
+    sdbh:
+    - 002698001001000
+    lexdomain:
+    - '002001001063'
+    coredomain:
+    - '147'
+    sense: '1'
+  lxx:
+    text: ἀκάθαρτον
+    strong: '169'
+  syntax:
+    role: p
+- position: 28
+  text: ה֖וּא
+  lemma: הוּא
+  transliteration: hûʾ
+  ids:
+    ref: LEV 11:4!20
+    wordID: o030110040201
+  translation:
+    english: it
+    mandarin: 它
+    gloss: it
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: τοῦτο
+    strong: '5124'
+  syntax:
+    role: s
+  discourse:
+    participant: '030110040112'
+- position: 29
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: LEV 11:4!21
+    wordID: o030110040211
+  translation:
+    english: for
+    mandarin: 对于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 30
+  text: כֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: LEV 11:4!21
+    wordID: o030110040212
+  translation:
+    english: you
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  lxx:
+    text: ὑμῖν
+    strong: '5213'
+  discourse:
+    participant: '030110020031'

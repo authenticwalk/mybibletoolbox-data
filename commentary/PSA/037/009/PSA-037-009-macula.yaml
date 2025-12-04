@@ -1,0 +1,298 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 37:9
+text: כִּֽי־מְ֭רֵעִים יִכָּרֵת֑וּן וְקֹוֵ֥י יְ֝הוָ֗ה הֵ֣מָּה יִֽירְשׁוּ־אָֽרֶץ׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 37:9!1
+    wordID: o190370090011
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: מְ֭רֵעִים
+  lemma: רָעַע
+  transliteration: mərēʿîm
+  ids:
+    ref: PSA 37:9!2
+    wordID: o190370090021
+  translation:
+    english: evildoers
+    mandarin: 作恶
+    gloss: evil-doers
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: hiphil
+    type: participle active
+  lexical:
+    stronglemma: רָעַע
+    strong: '7489'
+  semantic:
+    sdbh:
+    - 006879001002000
+    lexdomain:
+    - '002001003020'
+    coredomain:
+    - '017'
+    sense: '1'
+  lxx:
+    text: πονηρευόμενοι
+  syntax:
+    role: s
+- position: 3
+  text: יִכָּרֵת֑וּ
+  lemma: כָּרַת
+  transliteration: ''
+  ids:
+    ref: PSA 37:9!3
+    wordID: o190370090031
+  translation:
+    english: cut off
+    mandarin: 剪除
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: כָּרַת
+    strong: '3772'
+  semantic:
+    sdbh:
+    - 003449001004000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+    sense: '1'
+  syntax:
+    frame: A1:190370090021;
+- position: 4
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: PSA 37:9!3
+    wordID: o190370090032
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - 003449001004000
+    lexdomain:
+    - 002001001019
+    coredomain:
+    - 099
+    - '006'
+  lxx:
+    text: ἐχολεθρευθήσονται
+- position: 5
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 37:9!4
+    wordID: o190370090041
+  translation:
+    english: but
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 6
+  text: קֹוֵ֥י
+  lemma: קָוָה
+  transliteration: qōwēy
+  ids:
+    ref: PSA 37:9!4
+    wordID: o190370090042
+  translation:
+    english: wait for
+    mandarin: 等候
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: קָוָה
+    strong: '6960'
+  semantic:
+    sdbh:
+    - '006407001001000'
+    lexdomain:
+    - '002004002001001'
+    - '002001002003'
+    sense: '1'
+  syntax:
+    frame: A1:190370090051;
+- position: 7
+  text: יְ֝הוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 37:9!5
+    wordID: o190370090051
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: (of).Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+- position: 8
+  text: הֵ֣מָּה
+  lemma: הֵמָּה
+  transliteration: hēmmâ
+  ids:
+    ref: PSA 37:9!6
+    wordID: o190370090061
+  translation:
+    english: they
+    mandarin: 他们
+    gloss: they
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הֵמָּה
+    strong: '1992'
+  lxx:
+    text: αὐτοὶ
+    strong: '846'
+  syntax:
+    role: s
+  discourse:
+    participant: '190370090042'
+- position: 9
+  text: יִֽירְשׁוּ
+  lemma: יָרַשׁ
+  transliteration: yiyrəšû-
+  ids:
+    ref: PSA 37:9!7
+    wordID: o190370090071
+  translation:
+    english: inherit
+    mandarin: 承受
+    gloss: they.will.possess
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: יָרַשׁ
+    strong: '3423'
+  semantic:
+    sdbh:
+    - '003132001003000'
+    lexdomain:
+    - '002003002020'
+    coredomain:
+    - '128'
+    sense: '3'
+  lxx:
+    text: κληρονομήσουσιν
+    strong: '2816'
+  syntax:
+    role: v
+    frame: A0:190370090061; A1:190370090081;
+- position: 10
+  text: אָֽרֶץ
+  lemma: אֶרֶץ
+  transliteration: 'ʾāreṣ:'
+  ids:
+    ref: PSA 37:9!8
+    wordID: o190370090081
+  translation:
+    english: land
+    mandarin: 地土
+    gloss: '[the].land'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '1'
+  lxx:
+    text: γῆν
+    strong: '1093'
+  syntax:
+    role: o

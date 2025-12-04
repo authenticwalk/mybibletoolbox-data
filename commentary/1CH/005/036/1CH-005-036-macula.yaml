@@ -1,0 +1,411 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: 1CH 5:36
+text: 1CH 5:36 וְיוֹחָנָ֖ן הוֹלִ֣יד אֶת־עֲזַרְיָ֑ה ה֚וּא אֲשֶׁ֣ר כִּהֵ֔ן בַּבַּ֕יִת
+  אֲשֶׁר־בָּנָ֥ה שְׁלֹמֹ֖ה בִּירוּשָׁלִָֽם׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: 1CH 5:36!1
+    wordID: o130050360011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יוֹחָנָ֖ן
+  lemma: יוֹחָנָן
+  transliteration: yôḥānān
+  ids:
+    ref: 1CH 5:36!1
+    wordID: o130050360012
+  translation:
+    english: Johanan
+    mandarin: 约哈难
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יוֹחָנָן
+    strong: '3110'
+  semantic:
+    sdbh:
+    - 002825001003000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ιωανας
+  syntax:
+    role: s
+- position: 3
+  text: הוֹלִ֣יד
+  lemma: יָלַד
+  transliteration: hôliyḏ
+  ids:
+    ref: 1CH 5:36!2
+    wordID: o130050360021
+  translation:
+    english: fathered
+    mandarin: 生
+    gloss: he.fathered
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: יָלַד
+    strong: '3205'
+  semantic:
+    sdbh:
+    - 002931001002000
+    lexdomain:
+    - '002002002003'
+    coredomain:
+    - '121'
+    sense: '1'
+  lxx:
+    text: ἐγέννησεν
+    strong: '1080'
+  syntax:
+    role: v
+    frame: AA:130050360012; A0:130050360041;
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: 1CH 5:36!3
+    wordID: o130050360031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: עֲזַרְיָ֑ה
+  lemma: עֲזַרְיָה
+  transliteration: ʿăzaryāh
+  ids:
+    ref: 1CH 5:36!4
+    wordID: o130050360041
+  translation:
+    english: Azariah
+    mandarin: 亚撒利雅
+    gloss: Azariah
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: עֲזַרְיָה
+    strong: '5838'
+  semantic:
+    sdbh:
+    - 005358001006000
+    lexdomain:
+    - '003001007'
+- position: 6
+  text: ה֚וּא
+  lemma: הוּא
+  transliteration: hûʾ
+  ids:
+    ref: 1CH 5:36!5
+    wordID: o130050360051
+  translation:
+    english: he
+    mandarin: 他
+    gloss: he
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: personal
+  lexical:
+    stronglemma: הוּא
+    strong: '1931'
+  lxx:
+    text: οὗτος
+    strong: '3778'
+  syntax:
+    role: s
+  discourse:
+    participant: '130050360041'
+- position: 7
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: 1CH 5:36!6
+    wordID: o130050360061
+  translation:
+    english: who
+    gloss: '[was.the.one].who'
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+- position: 8
+  text: כִּהֵ֔ן
+  lemma: כָּהַן
+  transliteration: kihēn
+  ids:
+    ref: 1CH 5:36!7
+    wordID: o130050360071
+  translation:
+    english: served as priest
+    mandarin: 作祭司
+    gloss: he.served.as.a.priest
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: כָּהַן
+    strong: '3547'
+  semantic:
+    sdbh:
+    - '003251001001000'
+    lexdomain:
+    - 002002002008
+    coredomain:
+    - '132'
+    sense: '1'
+  lxx:
+    text: ἱεράτευσεν
+  syntax:
+    role: v
+    frame: A0:130050360041;
+  discourse:
+    subject: '130050360041'
+- position: 9
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: 1CH 5:36!8
+    wordID: o130050360081
+  translation:
+    english: in
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 10
+  text: בַּ֕יִת
+  lemma: בַּיִת
+  transliteration: bayiṯ
+  ids:
+    ref: 1CH 5:36!8
+    wordID: o130050360082
+  translation:
+    english: temple
+    mandarin: 圣殿
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בַּיִת
+    strong: '1004'
+  semantic:
+    sdbh:
+    - 000931001001000
+    lexdomain:
+    - '001005001001'
+    coredomain:
+    - '020'
+    sense: '1'
+  lxx:
+    text: οἴκῳ
+    strong: '3624'
+- position: 11
+  text: אֲשֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer-
+  ids:
+    ref: 1CH 5:36!9
+    wordID: o130050360091
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ᾧ
+    strong: '3739'
+- position: 12
+  text: בָּנָ֥ה
+  lemma: בָּנָה
+  transliteration: bānāh
+  ids:
+    ref: 1CH 5:36!10
+    wordID: o130050360101
+  translation:
+    english: built
+    mandarin: 建造
+    gloss: he.had.built
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: בָּנָה
+    strong: '1129'
+  semantic:
+    sdbh:
+    - '001053001001000'
+    lexdomain:
+    - '002002002005'
+    coredomain:
+    - '045'
+    sense: '1'
+  lxx:
+    text: ᾠκοδόμησεν
+    strong: '3618'
+  syntax:
+    role: v
+    frame: A0:130050360111; A1:130050360083;
+- position: 13
+  text: שְׁלֹמֹ֖ה
+  lemma: שְׁלֹמֹה
+  transliteration: šəlōmōh
+  ids:
+    ref: 1CH 5:36!11
+    wordID: o130050360111
+  translation:
+    english: Solomon
+    mandarin: 所罗门
+    gloss: Solomon
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שְׁלֹמֹה
+    strong: '8010'
+  semantic:
+    sdbh:
+    - '007414001001000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαλωμων
+    strong: '4672'
+  syntax:
+    role: s
+- position: 14
+  text: בִּ
+  lemma: בְּ
+  transliteration: bi
+  ids:
+    ref: 1CH 5:36!12
+    wordID: o130050360121
+  translation:
+    english: in
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 15
+  text: ירוּשָׁלִָֽם
+  lemma: יְרוּשָׁלִַ͏ם
+  transliteration: 'yrûšālāim:'
+  ids:
+    ref: 1CH 5:36!12
+    wordID: o130050360122
+  translation:
+    english: Jerusalem
+    mandarin: 耶路撒冷
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְרוּשָׁלִַ͏ם
+    strong: '3389'
+  semantic:
+    sdbh:
+    - 003099001001000
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: ιερουσαλημ
+    strong: '2414'

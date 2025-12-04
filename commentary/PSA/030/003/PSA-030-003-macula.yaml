@@ -1,0 +1,269 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 30:3
+text: יְהוָ֥ה אֱלֹהָ֑י שִׁוַּ֥עְתִּי אֵ֝לֶ֗יךָ וַתִּרְפָּאֵֽנִי׃
+words:
+- position: 1
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 30:3!1
+    wordID: o190300030011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: O.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριε
+    strong: '2962'
+- position: 2
+  text: אֱלֹהָ֑
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: PSA 30:3!2
+    wordID: o190300030021
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+- position: 3
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 30:3!2
+    wordID: o190300030022
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190300010052'
+- position: 4
+  text: שִׁוַּ֥עְתִּי
+  lemma: שָׁוַע
+  transliteration: šiwwaʿətî
+  ids:
+    ref: PSA 30:3!3
+    wordID: o190300030031
+  translation:
+    english: cried ~ forhelp
+    mandarin: 呼求
+    gloss: I.cried.for.help
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: שָׁוַע
+    strong: '7768'
+  semantic:
+    sdbh:
+    - '007253001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ἐκέκραχα
+    strong: '2896'
+  syntax:
+    role: v
+    frame: A0:190300010052;
+  discourse:
+    subject: '190300010052'
+- position: 5
+  text: אֵ֝לֶ֗י
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: PSA 30:3!4
+    wordID: o190300030041
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 6
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 30:3!4
+    wordID: o190300030042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σέ
+    strong: '4571'
+  discourse:
+    participant: '190300030011'
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 30:3!5
+    wordID: o190300030051
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: תִּרְפָּאֵֽ
+  lemma: רָפָא
+  transliteration: ''
+  ids:
+    ref: PSA 30:3!5
+    wordID: o190300030052
+  translation:
+    english: healed
+    mandarin: 医治
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: רָפָא
+    strong: '7495'
+  semantic:
+    sdbh:
+    - 006884001001000
+    lexdomain:
+    - '002001001060'
+    coredomain:
+    - '076'
+    sense: '1'
+  lxx:
+    text: ἰάσω
+  syntax:
+    role: v
+    frame: A0:190300030011; A1:190300030053;
+  discourse:
+    subject: '190300030011'
+- position: 9
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 30:3!5
+    wordID: o190300030053
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 006884001001000
+    lexdomain:
+    - '002001001060'
+    coredomain:
+    - '076'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '190300010052'

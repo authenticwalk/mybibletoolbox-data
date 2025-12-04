@@ -1,0 +1,241 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: LEV 6:16
+text: וְכָל־מִנְחַ֥ת כֹּהֵ֛ן כָּלִ֥יל תִּהְיֶ֖ה לֹ֥א תֵאָכֵֽל׃פ
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: LEV 6:16!1
+    wordID: o030060160011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: LEV 6:16!1
+    wordID: o030060160012
+  translation:
+    english: every
+    mandarin: 所有
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσα
+    strong: '3956'
+- position: 3
+  text: מִנְחַ֥ת
+  lemma: מִנְחָה
+  transliteration: minḥaṯ
+  ids:
+    ref: LEV 6:16!2
+    wordID: o030060160021
+  translation:
+    english: grain offering
+    mandarin: 素祭
+    gloss: grain.offering
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מִנְחָה
+    strong: '4503'
+  semantic:
+    sdbh:
+    - 004118001003000
+    lexdomain:
+    - '002003002022'
+    coredomain:
+    - '149'
+    sense: '1'
+  lxx:
+    text: θυσία
+    strong: '2378'
+- position: 4
+  text: כֹּהֵ֛ן
+  lemma: כֹּהֵן
+  transliteration: kōhēn
+  ids:
+    ref: LEV 6:16!3
+    wordID: o030060160031
+  translation:
+    english: priest
+    mandarin: 祭司
+    gloss: of.a.priest
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֹּהֵן
+    strong: '3548'
+  semantic:
+    sdbh:
+    - '003253001001000'
+    lexdomain:
+    - 001001002003008
+    coredomain:
+    - '132'
+    sense: '1'
+  lxx:
+    text: ἱερέως
+    strong: '2409'
+- position: 5
+  text: כָּלִ֥יל
+  lemma: כָּלִיל
+  transliteration: kāliyl
+  ids:
+    ref: LEV 6:16!4
+    wordID: o030060160041
+  translation:
+    english: whole
+    mandarin: 完全
+    gloss: a.whole.offering
+  morphology:
+    class: noun
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: כָּלִיל
+    strong: '3632'
+  semantic:
+    sdbh:
+    - '003327001002000'
+    lexdomain:
+    - '002003002022'
+    coredomain:
+    - '149'
+    sense: '1'
+  lxx:
+    text: ὁλόκαυτος
+  syntax:
+    role: o
+- position: 6
+  text: תִּהְיֶ֖ה
+  lemma: הָיָה
+  transliteration: tihyeh
+  ids:
+    ref: LEV 6:16!5
+    wordID: o030060160051
+  translation:
+    english: be
+    mandarin: 作
+    gloss: it.will.be
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἔσται
+    strong: '2071'
+  syntax:
+    role: v
+    frame: A0:030060160021;
+- position: 7
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: LEV 6:16!6
+    wordID: o030060160061
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 8
+  text: תֵאָכֵֽל
+  lemma: אָכַל
+  transliteration: 'ṯēʾāḵēl:'
+  ids:
+    ref: LEV 6:16!7
+    wordID: o030060160071
+  translation:
+    english: eaten
+    mandarin: 吃
+    gloss: it.will.be.eaten
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: βρωθήσεται
+    strong: '977'
+  syntax:
+    role: v
+    frame: A1:030060160021;
+  discourse:
+    subject: '030060160021'

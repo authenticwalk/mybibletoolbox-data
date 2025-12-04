@@ -1,0 +1,101 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 13:9
+text: ὁ ἔχων ὦτα ἀκουέτω.
+words:
+- position: 1
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: MAT 13:9!1
+    wordID: n40013009001
+  translation:
+    gloss: The [one]
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 2
+  text: ἔχων
+  lemma: ἔχω
+  normalized: ἔχων
+  ids:
+    ref: MAT 13:9!2
+    wordID: n40013009002
+  translation:
+    gloss: having
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '024002'
+    ln: '24.59'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n40013009003
+- position: 3
+  text: ὦτα
+  lemma: οὖς
+  normalized: ὦτα
+  ids:
+    ref: MAT 13:9!3
+    wordID: n40013009003
+  translation:
+    gloss: ears
+  morphology:
+    class: noun
+    morph: N-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '3775'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.24'
+  syntax:
+    role: o
+- position: 4
+  text: ἀκουέτω
+  lemma: ἀκούω
+  normalized: ἀκουέτω
+  ids:
+    ref: MAT 13:9!4
+    wordID: n40013009004
+  translation:
+    gloss: let him hear
+  morphology:
+    class: verb
+    morph: V-PAM-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '191'
+  semantic:
+    semanticDomain: '031007'
+    ln: '31.56'
+  syntax:
+    role: v
+    frame: A0:n40013009002

@@ -1,0 +1,420 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 43:4
+text: אִם־יֶשְׁךָ֛ מְשַׁלֵּ֥חַ אֶת־אָחִ֖ינוּ אִתָּ֑נוּ נֵרְדָ֕ה וְנִשְׁבְּרָ֥ה לְךָ֖
+  אֹֽכֶל׃
+words:
+- position: 1
+  text: אִם
+  lemma: אִם
+  transliteration: ʾim-
+  ids:
+    ref: GEN 43:4!1
+    wordID: o010430040011
+  translation:
+    english: if
+    mandarin: 如果
+    gloss: if
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: אִם
+    strong: 0518
+- position: 2
+  text: יֶשְׁ
+  lemma: יֵשׁ
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!2
+    wordID: o010430040021
+  translation:
+    english: will of
+    mandarin: ~要
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: יֵשׁ
+    strong: '3426'
+  syntax:
+    role: adv
+- position: 3
+  text: ךָ֛
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!2
+    wordID: o010430040022
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  syntax:
+    role: s
+  discourse:
+    participant: '010430020121'
+- position: 4
+  text: מְשַׁלֵּ֥חַ
+  lemma: שָׁלַח
+  transliteration: məšallēᵃḥ
+  ids:
+    ref: GEN 43:4!3
+    wordID: o010430040031
+  translation:
+    english: send
+    mandarin: 让~去
+    gloss: '[are].sending'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vprmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: piel
+    type: participle active
+  lexical:
+    stronglemma: שָׁלַח
+    strong: '7971'
+  semantic:
+    sdbh:
+    - 007386001001000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '015'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:010430040022; A1:010430040051;
+- position: 5
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 43:4!4
+    wordID: o010430040041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 6
+  text: אָחִ֖י
+  lemma: אָח
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!5
+    wordID: o010430040051
+  translation:
+    english: brother
+    mandarin: 弟弟
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָח
+    strong: '0251'
+  semantic:
+    sdbh:
+    - 000238001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    sense: '1'
+  lxx:
+    text: ἀδελφὸν
+    strong: '80'
+- position: 7
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!5
+    wordID: o010430040052
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000238001001000
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 010430030031 010420080041
+- position: 8
+  text: אִתָּ֑
+  lemma: אֵת
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!6
+    wordID: o010430040061
+  translation:
+    english: with
+    mandarin: 和~一道
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֵת
+    strong: 0854
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!6
+    wordID: o010430040062
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμῶν
+    strong: '2257'
+  discourse:
+    participant: 010430030031 010420080041
+- position: 10
+  text: נֵרְדָ֕ה
+  lemma: יָרַד
+  transliteration: nērəḏāh
+  ids:
+    ref: GEN 43:4!7
+    wordID: o010430040071
+  translation:
+    english: go down
+    mandarin: 下去
+    gloss: we.will.go.down
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: יָרַד
+    strong: '3381'
+  semantic:
+    sdbh:
+    - 003090001002000
+    lexdomain:
+    - '002002001011'
+    coredomain:
+    - '110'
+    - '077'
+    sense: '1'
+  lxx:
+    text: καταβησόμεθα
+  syntax:
+    role: v
+    frame: A0:010430030031;010420080041;
+  discourse:
+    subject: 010430030031 010420080041
+- position: 11
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 43:4!8
+    wordID: o010430040081
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 12
+  text: נִשְׁבְּרָ֥ה
+  lemma: שָׁבַר
+  transliteration: nišbərāh
+  ids:
+    ref: GEN 43:4!8
+    wordID: o010430040082
+  translation:
+    english: buy
+    mandarin: 买
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: שָׁבַר
+    strong: '7666'
+  semantic:
+    sdbh:
+    - 007185002001000
+    lexdomain:
+    - '002003002020'
+    coredomain:
+    - '128'
+    - 069
+    sense: '1'
+  lxx:
+    text: ἀγοράσωμέν
+    strong: '59'
+  syntax:
+    role: v
+    frame: A0:010430030031;010420080041; A1:010430040101;
+  discourse:
+    subject: 010430030031 010420080041
+- position: 13
+  text: לְ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!9
+    wordID: o010430040091
+  translation:
+    english: for
+    mandarin: 替
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 14
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 43:4!9
+    wordID: o010430040092
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '010430020121'
+- position: 15
+  text: אֹֽכֶל
+  lemma: אֹכֶל
+  transliteration: 'ʾōḵel:'
+  ids:
+    ref: GEN 43:4!10
+    wordID: o010430040101
+  translation:
+    english: food
+    mandarin: 粮食
+    gloss: food
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֹכֶל
+    strong: '0400'
+  semantic:
+    sdbh:
+    - '000374001001000'
+    lexdomain:
+    - '001004003'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: βρώματα
+    strong: '1033'
+  syntax:
+    role: o

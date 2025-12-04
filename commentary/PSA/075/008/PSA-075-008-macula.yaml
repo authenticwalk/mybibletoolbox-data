@@ -1,0 +1,236 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 75:8
+text: כִּֽי־אֱלֹהִ֥ים שֹׁפֵ֑ט זֶ֥ה יַ֝שְׁפִּ֗יל וְזֶ֣ה יָרִֽים׃
+words:
+- position: 1
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: PSA 75:8!1
+    wordID: o190750080011
+  translation:
+    english: but
+    mandarin: 乃
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 2
+  text: אֱלֹהִ֥ים
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhiym
+  ids:
+    ref: PSA 75:8!2
+    wordID: o190750080021
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001003000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  syntax:
+    role: s
+- position: 3
+  text: שֹׁפֵ֑ט
+  lemma: שָׁפַט
+  transliteration: šōp̄ēṭ
+  ids:
+    ref: PSA 75:8!3
+    wordID: o190750080031
+  translation:
+    english: judge
+    mandarin: 审判
+    gloss: '[is.the.one.who].judges'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שָׁפַט
+    strong: '8199'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κριτής
+    strong: '2923'
+  syntax:
+    role: p
+    frame: A0:190750080021;
+  discourse:
+    subject: '190750080021'
+- position: 4
+  text: זֶ֥ה
+  lemma: זֶה
+  transliteration: zeh
+  ids:
+    ref: PSA 75:8!4
+    wordID: o190750080041
+  translation:
+    english: one
+    mandarin: 这
+    gloss: this.one
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+  lxx:
+    text: τοῦτον
+    strong: '5126'
+  syntax:
+    role: o
+- position: 5
+  text: יַ֝שְׁפִּ֗יל
+  lemma: שָׁפֵל
+  transliteration: yašpiyl
+  ids:
+    ref: PSA 75:8!5
+    wordID: o190750080051
+  translation:
+    english: putting down
+    mandarin: 降卑
+    gloss: he.brings.low
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁפֵל
+    strong: '8213'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ταπεινοῖ
+  syntax:
+    role: v
+    frame: AA:190750080021; A0:190750080041;
+  discourse:
+    subject: '190750080021'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 75:8!6
+    wordID: o190750080061
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 7
+  text: זֶ֣ה
+  lemma: זֶה
+  transliteration: zeh
+  ids:
+    ref: PSA 75:8!6
+    wordID: o190750080062
+  translation:
+    english: another
+    mandarin: 那
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxms
+    gender: masculine
+    number: singular
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: זֶה
+    strong: '2088'
+  lxx:
+    text: τοῦτον
+    strong: '5126'
+  syntax:
+    role: o
+- position: 8
+  text: יָרִֽים
+  lemma: רוּם
+  transliteration: 'yāriym:'
+  ids:
+    ref: PSA 75:8!7
+    wordID: o190750080071
+  translation:
+    english: exalts
+    mandarin: 升高
+    gloss: he.lifts.up
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: רוּם
+    strong: '7311'
+  semantic:
+    sdbh:
+    - '006722001011000'
+    lexdomain:
+    - '002001002012'
+    sense: '1'
+  lxx:
+    text: ὑψοῖ
+  syntax:
+    role: v
+    frame: AA:190750080021; A0:190750080062;
+  discourse:
+    subject: '190750080021'

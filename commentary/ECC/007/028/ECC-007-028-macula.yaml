@@ -1,0 +1,572 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ECC 7:28
+text: אֲשֶׁ֛ר עוֹד־בִּקְשָׁ֥ה נַפְשִׁ֖י וְלֹ֣א מָצָ֑אתִי אָדָ֞ם אֶחָ֤ד מֵאֶ֨לֶף֙ מָצָ֔אתִי
+  וְאִשָּׁ֥ה בְכָל־אֵ֖לֶּה לֹ֥א מָצָֽאתִי׃
+words:
+- position: 1
+  text: אֲשֶׁ֛ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: ECC 7:28!1
+    wordID: o210070280011
+  translation:
+    english: which
+    mandarin: 而
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὁν
+    strong: '3739'
+- position: 2
+  text: עוֹד
+  lemma: עוֹד
+  transliteration: ʿôḏ-
+  ids:
+    ref: ECC 7:28!2
+    wordID: o210070280021
+  translation:
+    english: repeatedly
+    mandarin: 仍
+    gloss: again
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: עוֹד
+    strong: '5750'
+  lxx:
+    text: ἔτι
+    strong: '2089'
+  syntax:
+    role: adv
+- position: 3
+  text: בִּקְשָׁ֥ה
+  lemma: בָּקַשׁ
+  transliteration: biqšāh
+  ids:
+    ref: ECC 7:28!3
+    wordID: o210070280031
+  translation:
+    english: sought
+    mandarin: 寻找
+    gloss: it.has.sought
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: בָּקַשׁ
+    strong: '1245'
+  semantic:
+    sdbh:
+    - 001152001008000
+    lexdomain:
+    - '002004002001001'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: ἐζήτησεν
+    strong: '2212'
+  syntax:
+    role: v
+    frame: A0:210070280041;
+- position: 4
+  text: נַפְשִׁ֖
+  lemma: נֶפֶשׁ
+  transliteration: ''
+  ids:
+    ref: ECC 7:28!4
+    wordID: o210070280041
+  translation:
+    english: soul
+    mandarin: 心
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶפֶשׁ
+    strong: '5315'
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+    sense: '1'
+  lxx:
+    text: ψυξή
+    strong: '5590'
+- position: 5
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ECC 7:28!4
+    wordID: o210070280042
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '210070270051'
+- position: 6
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ECC 7:28!5
+    wordID: o210070280051
+  translation:
+    english: but
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: και
+    strong: '2532'
+- position: 7
+  text: לֹ֣א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: ECC 7:28!5
+    wordID: o210070280052
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐξ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 8
+  text: מָצָ֑אתִי
+  lemma: מָצָא
+  transliteration: māṣāʾṯî
+  ids:
+    ref: ECC 7:28!6
+    wordID: o210070280061
+  translation:
+    english: found
+    mandarin: 找~到
+    gloss: I.have.found
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001001000
+    lexdomain:
+    - '002002001015'
+    sense: '1'
+  lxx:
+    text: εὗρον
+    strong: '2147'
+  syntax:
+    role: v
+    frame: A0:210070270051;
+  discourse:
+    subject: '210070270051'
+- position: 9
+  text: אָדָ֞ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: ECC 7:28!7
+    wordID: o210070280071
+  translation:
+    english: man
+    mandarin: 男子
+    gloss: a.man
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἄνθρωπον
+    strong: '444'
+- position: 10
+  text: אֶחָ֤ד
+  lemma: אֶחָד
+  transliteration: ʾeḥāḏ
+  ids:
+    ref: ECC 7:28!8
+    wordID: o210070280081
+  translation:
+    english: one
+    mandarin: 一
+    gloss: one
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶחָד
+    strong: 0259
+  semantic:
+    sdbh:
+    - '000244001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ἕνα
+    strong: '1520'
+- position: 11
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: ECC 7:28!9
+    wordID: o210070280091
+  translation:
+    english: among
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπο
+    strong: '575'
+- position: 12
+  text: אֶ֨לֶף֙
+  lemma: אֶלֶף
+  transliteration: ʾelep̄
+  ids:
+    ref: ECC 7:28!9
+    wordID: o210070280092
+  translation:
+    english: a thousand
+    mandarin: 一千
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אֶלֶף
+    strong: '0505'
+  semantic:
+    sdbh:
+    - 000469002001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: ξιλίων
+    strong: '5507'
+- position: 13
+  text: מָצָ֔אתִי
+  lemma: מָצָא
+  transliteration: māṣāʾṯî
+  ids:
+    ref: ECC 7:28!10
+    wordID: o210070280101
+  translation:
+    english: found
+    mandarin: 找到
+    gloss: I.have.found
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001001000
+    lexdomain:
+    - '002002001015'
+    sense: '1'
+  lxx:
+    text: εὗρον
+    strong: '2147'
+  syntax:
+    role: v
+    frame: A0:210070270051; A1:210070280071;
+  discourse:
+    subject: '210070270051'
+- position: 14
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ECC 7:28!11
+    wordID: o210070280111
+  translation:
+    english: but
+    mandarin: 但
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: και
+    strong: '2532'
+- position: 15
+  text: אִשָּׁ֥ה
+  lemma: אִשָּׁה
+  transliteration: ʾiššāh
+  ids:
+    ref: ECC 7:28!11
+    wordID: o210070280112
+  translation:
+    english: woman
+    mandarin: 女子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִשָּׁה
+    strong: 0802
+  semantic:
+    sdbh:
+    - 000738001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '2'
+  lxx:
+    text: γυναῖκα
+    strong: '1135'
+  syntax:
+    role: o
+- position: 16
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: ECC 7:28!12
+    wordID: o210070280121
+  translation:
+    english: among
+    mandarin: 在~中
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 17
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: ECC 7:28!12
+    wordID: o210070280122
+  translation:
+    english: all
+    mandarin: 一切
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσι
+    strong: '3956'
+- position: 18
+  text: אֵ֖לֶּה
+  lemma: אֵלֶּה
+  transliteration: ʾēlleh
+  ids:
+    ref: ECC 7:28!13
+    wordID: o210070280131
+  translation:
+    english: these
+    mandarin: 这
+    gloss: these
+  morphology:
+    class: adj
+    pos: pronoun
+    morph: Pdxcp
+    gender: common
+    number: plural
+    person: 'unknown: x'
+    type: demonstrative
+  lexical:
+    stronglemma: אֵלֶּה
+    strong: 0428
+  semantic:
+    sdbh:
+    - 000394001001000
+    lexdomain:
+    - '004003'
+  lxx:
+    text: τούτοις
+    strong: '5125'
+- position: 19
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: ECC 7:28!14
+    wordID: o210070280141
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐξ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 20
+  text: מָצָֽאתִי
+  lemma: מָצָא
+  transliteration: 'māṣāʾṯî:'
+  ids:
+    ref: ECC 7:28!15
+    wordID: o210070280151
+  translation:
+    english: found
+    mandarin: 找~到
+    gloss: I.have.found
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָצָא
+    strong: '4672'
+  semantic:
+    sdbh:
+    - 004280001001000
+    lexdomain:
+    - '002002001015'
+    sense: '1'
+  lxx:
+    text: εὗρον
+    strong: '2147'
+  syntax:
+    role: v
+    frame: A0:210070270051; A1:210070280112;
+  discourse:
+    subject: '210070270051'

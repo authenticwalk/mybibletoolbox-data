@@ -1,0 +1,255 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 5:2
+text: יְהוָ֣ה אֱלֹהֵ֗ינוּ כָּרַ֥ת עִמָּ֛נוּ בְּרִ֖ית בְּחֹרֵֽב׃
+words:
+- position: 1
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 5:2!1
+    wordID: o050050020011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 2
+  text: אֱלֹהֵ֗י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: DEU 5:2!2
+    wordID: o050050020021
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 3
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 5:2!2
+    wordID: o050050020022
+  translation:
+    english: our
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  discourse:
+    participant: 050050010021 050050010091
+- position: 4
+  text: כָּרַ֥ת
+  lemma: כָּרַת
+  transliteration: kāraṯ
+  ids:
+    ref: DEU 5:2!3
+    wordID: o050050020031
+  translation:
+    english: made
+    mandarin: 立
+    gloss: he.made
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: כָּרַת
+    strong: '3772'
+  semantic:
+    sdbh:
+    - 003449001003000
+    lexdomain:
+    - '002003002003'
+    coredomain:
+    - '142'
+    - '046'
+    sense: '2'
+  lxx:
+    text: διέθετο
+    strong: '1303'
+  syntax:
+    role: v
+    frame: A0:050050020011; A1:050050020051;
+- position: 5
+  text: עִמָּ֛
+  lemma: עִם
+  transliteration: ''
+  ids:
+    ref: DEU 5:2!4
+    wordID: o050050020041
+  translation:
+    english: with
+    mandarin: 和
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עִם
+    strong: '5973'
+  lxx:
+    text: πρὸς
+    strong: '4314'
+- position: 6
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 5:2!4
+    wordID: o050050020042
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ὑμᾶς
+    strong: '5209'
+  discourse:
+    participant: 050050010021 050050010091
+- position: 7
+  text: בְּרִ֖ית
+  lemma: בְּרִית
+  transliteration: bəriyṯ
+  ids:
+    ref: DEU 5:2!5
+    wordID: o050050020051
+  translation:
+    english: covenant
+    mandarin: 约
+    gloss: a.covenant
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: בְּרִית
+    strong: '1285'
+  semantic:
+    sdbh:
+    - 001185001001000
+    lexdomain:
+    - 002004001009013
+    coredomain:
+    - '046'
+    sense: '1'
+  lxx:
+    text: διαθήκην
+    strong: '1242'
+  syntax:
+    role: o
+- position: 8
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: DEU 5:2!6
+    wordID: o050050020061
+  translation:
+    english: at
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: חֹרֵֽב
+  lemma: חֹרֵב
+  transliteration: 'ḥōrēḇ:'
+  ids:
+    ref: DEU 5:2!6
+    wordID: o050050020062
+  translation:
+    english: Horeb
+    mandarin: 何烈山
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: חֹרֵב
+    strong: '2722'
+  semantic:
+    sdbh:
+    - '002507001001000'
+    lexdomain:
+    - 003001008
+  lxx:
+    text: ξωρηβ

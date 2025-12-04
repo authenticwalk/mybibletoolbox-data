@@ -1,0 +1,480 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: REV 17:12
+text: καὶ τὰ δέκα κέρατα ἃ εἶδες δέκα βασιλεῖς εἰσιν, οἵτινες βασιλείαν οὔπω ἔλαβον,
+  ἀλλὰ ἐξουσίαν ὡς βασιλεῖς μίαν ὥραν λαμβάνουσιν μετὰ τοῦ θηρίου.
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 17:12!1
+    wordID: n66017012001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: τὰ
+  lemma: ὁ
+  normalized: τά
+  ids:
+    ref: REV 17:12!2
+    wordID: n66017012002
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: δέκα
+  lemma: δέκα
+  normalized: δέκα
+  ids:
+    ref: REV 17:12!3
+    wordID: n66017012003
+  translation:
+    gloss: ten
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1176'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.19'
+- position: 4
+  text: κέρατα
+  lemma: κέρας
+  normalized: κέρατα
+  ids:
+    ref: REV 17:12!4
+    wordID: n66017012004
+  translation:
+    gloss: horns
+  morphology:
+    class: noun
+    morph: N-NPN
+    gender: neuter
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '2768'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.17'
+- position: 5
+  text: ἃ
+  lemma: ὅς
+  normalized: ἅ
+  ids:
+    ref: REV 17:12!5
+    wordID: n66017012005
+  translation:
+    gloss: which
+  morphology:
+    class: pron
+    morph: R-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+  discourse:
+    referent: n66017012004
+- position: 6
+  text: εἶδες
+  lemma: ὁράω
+  normalized: εἶδες
+  ids:
+    ref: REV 17:12!6
+    wordID: n66017012006
+  translation:
+    gloss: you saw
+  morphology:
+    class: verb
+    morph: V-2AAI-2S
+    number: singular
+    person: second
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n66001009002 A1:n66017012005
+  discourse:
+    subject: n66001009002
+- position: 7
+  text: εἰσιν
+  lemma: εἰμί
+  normalized: εἰσιν
+  ids:
+    ref: REV 17:12!9
+    wordID: n66017012009
+  translation:
+    gloss: are
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1510'
+  syntax:
+    role: vc
+    discontinuous: 'true'
+- position: 8
+  text: δέκα
+  lemma: δέκα
+  normalized: δέκα
+  ids:
+    ref: REV 17:12!7
+    wordID: n66017012007
+  translation:
+    gloss: ten
+  morphology:
+    class: num
+    morph: A-NUI
+  lexical:
+    strong: '1176'
+  semantic:
+    semanticDomain: '060002'
+    ln: '60.19'
+- position: 9
+  text: βασιλεῖς
+  lemma: βασιλεύς
+  normalized: βασιλεῖς
+  ids:
+    ref: REV 17:12!8
+    wordID: n66017012008
+  translation:
+    gloss: kings
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '935'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.67'
+- position: 10
+  text: οἵτινες
+  lemma: ὅστις
+  normalized: οἵτινες
+  ids:
+    ref: REV 17:12!10
+    wordID: n66017012010
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
+  discourse:
+    referent: n66017012008
+- position: 11
+  text: βασιλείαν
+  lemma: βασιλεία
+  normalized: βασιλείαν
+  ids:
+    ref: REV 17:12!11
+    wordID: n66017012011
+  translation:
+    gloss: a kingdom
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '932'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.64'
+  syntax:
+    role: o
+- position: 12
+  text: οὔπω
+  lemma: οὔπω
+  normalized: οὔπω
+  ids:
+    ref: REV 17:12!12
+    wordID: n66017012012
+  translation:
+    gloss: not yet
+  morphology:
+    class: adv
+    morph: ADV-N
+  lexical:
+    strong: '3768'
+  semantic:
+    semanticDomain: '067006'
+    ln: '67.129'
+  syntax:
+    role: adv
+- position: 13
+  text: ἔλαβον
+  lemma: λαμβάνω
+  normalized: ἔλαβον
+  ids:
+    ref: REV 17:12!13
+    wordID: n66017012013
+  translation:
+    gloss: have received
+  morphology:
+    class: verb
+    morph: V-2AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.65'
+  syntax:
+    role: v
+    frame: A0:n66017012010 A1:n66017012011
+- position: 14
+  text: ἀλλὰ
+  lemma: ἀλλά
+  normalized: ἀλλά
+  ids:
+    ref: REV 17:12!14
+    wordID: n66017012014
+  translation:
+    gloss: but
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '235'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.125'
+- position: 15
+  text: ἐξουσίαν
+  lemma: ἐξουσία
+  normalized: ἐξουσίαν
+  ids:
+    ref: REV 17:12!15
+    wordID: n66017012015
+  translation:
+    gloss: authority
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1849'
+  semantic:
+    semanticDomain: '037003'
+    ln: '37.35'
+  syntax:
+    role: o
+- position: 16
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: REV 17:12!16
+    wordID: n66017012016
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 17
+  text: βασιλεῖς
+  lemma: βασιλεύς
+  normalized: βασιλεῖς
+  ids:
+    ref: REV 17:12!17
+    wordID: n66017012017
+  translation:
+    gloss: kings
+  morphology:
+    class: noun
+    morph: N-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '935'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.67'
+- position: 18
+  text: μίαν
+  lemma: εἷς
+  normalized: μίαν
+  ids:
+    ref: REV 17:12!18
+    wordID: n66017012018
+  translation:
+    gloss: one
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '1520'
+- position: 19
+  text: ὥραν
+  lemma: ὥρα
+  normalized: ὥραν
+  ids:
+    ref: REV 17:12!19
+    wordID: n66017012019
+  translation:
+    gloss: hour
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '5610'
+  semantic:
+    semanticDomain: 067009
+    ln: '67.199'
+- position: 20
+  text: λαμβάνουσιν
+  lemma: λαμβάνω
+  normalized: λαμβάνουσιν
+  ids:
+    ref: REV 17:12!20
+    wordID: n66017012020
+  translation:
+    gloss: receive
+  morphology:
+    class: verb
+    morph: V-PAI-3P
+    number: plural
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.65'
+  syntax:
+    role: v
+    frame: A0:n66017012008 A1:n66017012015
+  discourse:
+    subject: n66017012008
+- position: 21
+  text: μετὰ
+  lemma: μετά
+  normalized: μετά
+  ids:
+    ref: REV 17:12!21
+    wordID: n66017012021
+  translation:
+    gloss: along with
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '3326'
+- position: 22
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: REV 17:12!22
+    wordID: n66017012022
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 23
+  text: θηρίου
+  lemma: θηρίον
+  normalized: θηρίου
+  ids:
+    ref: REV 17:12!23
+    wordID: n66017012023
+  translation:
+    gloss: beast
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2342'
+  semantic:
+    semanticDomain: '004001'
+    ln: '4.4'

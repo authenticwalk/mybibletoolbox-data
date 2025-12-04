@@ -1,0 +1,411 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 14:10
+text: כֻּלָּ֣ם יַֽעֲנ֔וּ וְיֹאמְר֖וּ אֵלֶ֑יךָ גַּם־אַתָּ֛ה חֻלֵּ֥יתָ כָמ֖וֹנוּ אֵלֵ֥ינוּ
+  נִמְשָֽׁלְתָּ׃
+words:
+- position: 1
+  text: כֻּלָּ֣
+  lemma: כֹּל
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!1
+    wordID: o230140100011
+  translation:
+    english: all
+    mandarin: 都
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πάντες
+    strong: '3956'
+- position: 2
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!1
+    wordID: o230140100012
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  discourse:
+    participant: '230140090161'
+- position: 3
+  text: יַֽעֲנ֔וּ
+  lemma: עָנָה
+  transliteration: yaʿănû
+  ids:
+    ref: ISA 14:10!2
+    wordID: o230140100021
+  translation:
+    english: respond
+    mandarin: 发言
+    gloss: they.will.answer
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָנָה
+    strong: '6030'
+  semantic:
+    sdbh:
+    - '005536001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἀποκριθήσονται
+    strong: '611'
+  syntax:
+    role: v
+    frame: A0:230140100012;
+- position: 4
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 14:10!3
+    wordID: o230140100031
+  translation:
+    english: and
+    mandarin: 并
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: יֹאמְר֖וּ
+  lemma: אָמַר
+  transliteration: yōʾmərû
+  ids:
+    ref: ISA 14:10!3
+    wordID: o230140100032
+  translation:
+    english: say
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐροῦσίν
+    strong: '2046'
+  syntax:
+    role: v
+    frame: A0:230140090161;
+  discourse:
+    subject: '230140090161'
+- position: 6
+  text: אֵלֶ֑י
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!4
+    wordID: o230140100041
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 7
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!4
+    wordID: o230140100042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '230140040051'
+- position: 8
+  text: גַּם
+  lemma: גַּם
+  transliteration: gam-
+  ids:
+    ref: ISA 14:10!5
+    wordID: o230140100051
+  translation:
+    english: too
+    mandarin: 也
+    gloss: also
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: אַתָּ֛ה
+  lemma: אַתָּה
+  transliteration: ʾattāh
+  ids:
+    ref: ISA 14:10!6
+    wordID: o230140100061
+  translation:
+    english: you
+    mandarin: 你
+    gloss: you
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתָּה
+    strong: 0859
+  lxx:
+    text: σὺ
+    strong: '4771'
+  discourse:
+    participant: '230140040051'
+- position: 10
+  text: חֻלֵּ֥יתָ
+  lemma: חָלָה
+  transliteration: ḥullēyṯā
+  ids:
+    ref: ISA 14:10!7
+    wordID: o230140100071
+  translation:
+    english: become ~ weak
+    mandarin: 衰弱
+    gloss: you.have.been.made.weak
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: pual
+    type: qatal
+  lexical:
+    stronglemma: חָלָה
+    strong: '2470'
+  semantic:
+    sdbh:
+    - 002280001001000
+    lexdomain:
+    - '002001001065'
+    coredomain:
+    - '172'
+    - 019
+    sense: '3'
+  lxx:
+    text: ἑάλως
+  syntax:
+    role: v
+    frame: A0:230140100061;
+- position: 11
+  text: כָמ֖וֹ
+  lemma: כְּמוֹ
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!8
+    wordID: o230140100081
+  translation:
+    english: as ~ as
+    mandarin: 像~一样
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: כְּמוֹ
+    strong: '3644'
+  lxx:
+    text: ὥσπερ
+    strong: '5618'
+- position: 12
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!8
+    wordID: o230140100082
+  translation:
+    english: we
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμεῖς
+    strong: '2249'
+  discourse:
+    participant: '230140090161'
+- position: 13
+  text: אֵלֵ֥י
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!9
+    wordID: o230140100091
+  translation:
+    english: as
+    mandarin: 和
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 14
+  text: נוּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 14:10!9
+    wordID: o230140100092
+  translation:
+    english: us
+    mandarin: 我们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cp
+    gender: common
+    number: plural
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5105a
+  lxx:
+    text: ἡμῖν
+    strong: '2254'
+  discourse:
+    participant: '230140090161'
+- position: 15
+  text: נִמְשָֽׁלְתָּ
+  lemma: מָשַׁל
+  transliteration: 'nimšālətā:'
+  ids:
+    ref: ISA 14:10!10
+    wordID: o230140100101
+  translation:
+    english: become like
+    mandarin: 相似
+    gloss: you.have.become.like
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: niphal
+    type: qatal
+  lexical:
+    stronglemma: מָשַׁל
+    strong: '4911'
+  semantic:
+    sdbh:
+    - 004497001001000
+    lexdomain:
+    - '002004002003'
+    sense: '1'
+  lxx:
+    text: κατελογίσθης
+  syntax:
+    role: v
+    frame: A0:230140040051;
+  discourse:
+    subject: '230140040051'

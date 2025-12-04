@@ -1,0 +1,441 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: HEB 12:5
+text: καὶ ἐκλέλησθε τῆς παρακλήσεως, ἥτις ὑμῖν ὡς υἱοῖς διαλέγεται Υἱέ μου, μὴ ὀλιγώρει
+  παιδείας Κυρίου, μηδὲ ἐκλύου ὑπ’ αὐτοῦ ἐλεγχόμενος·
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: HEB 12:5!1
+    wordID: n58012005001
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: ἐκλέλησθε
+  lemma: ἐκλανθάνομαι
+  normalized: ἐκλέλησθε
+  ids:
+    ref: HEB 12:5!2
+    wordID: n58012005002
+  translation:
+    gloss: you have forgotten
+  morphology:
+    class: verb
+    morph: V-RPI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1585'
+  semantic:
+    semanticDomain: 029003
+    ln: '29.15'
+  syntax:
+    role: v
+    frame: A0:n58010019003 A1:n58012005004
+  discourse:
+    subject: n58010019003
+- position: 3
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: HEB 12:5!3
+    wordID: n58012005003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: παρακλήσεως
+  lemma: παράκλησις
+  normalized: παρακλήσεως
+  ids:
+    ref: HEB 12:5!4
+    wordID: n58012005004
+  translation:
+    gloss: exhortation
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3874'
+  semantic:
+    semanticDomain: '025013'
+    ln: '25.150'
+- position: 5
+  text: ἥτις
+  lemma: ὅστις
+  normalized: ἥτις
+  ids:
+    ref: HEB 12:5!5
+    wordID: n58012005005
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-NSF
+    gender: feminine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3748'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.18'
+  syntax:
+    role: s
+  discourse:
+    referent: n58012005004
+- position: 6
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: HEB 12:5!6
+    wordID: n58012005006
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  syntax:
+    role: io
+  discourse:
+    referent: n58010019003
+- position: 7
+  text: ὡς
+  lemma: ὡς
+  normalized: ὡς
+  ids:
+    ref: HEB 12:5!7
+    wordID: n58012005007
+  translation:
+    gloss: as
+  morphology:
+    class: conj
+    morph: ADV
+  lexical:
+    strong: '5613'
+  semantic:
+    semanticDomain: '064'
+    ln: '64.12'
+- position: 8
+  text: υἱοῖς
+  lemma: υἱός
+  normalized: υἱοῖς
+  ids:
+    ref: HEB 12:5!8
+    wordID: n58012005008
+  translation:
+    gloss: to sons
+  morphology:
+    class: noun
+    morph: N-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: 009005 010002
+    ln: 10.42 9.46
+  syntax:
+    role: io
+- position: 9
+  text: διαλέγεται
+  lemma: διαλέγομαι
+  normalized: διαλέγεται
+  ids:
+    ref: HEB 12:5!9
+    wordID: n58012005009
+  translation:
+    gloss: addresses
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1256'
+  semantic:
+    semanticDomain: '033004'
+    ln: '33.26'
+  syntax:
+    role: v
+    frame: A0:n58012005005 A2:n58012005006
+- position: 10
+  text: Υἱέ
+  lemma: υἱός
+  normalized: Υἱέ
+  ids:
+    ref: HEB 12:5!10
+    wordID: n58012005010
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: 009005 010002
+    ln: 10.42 9.46
+- position: 11
+  text: μου
+  lemma: ἐγώ
+  normalized: μου
+  ids:
+    ref: HEB 12:5!11
+    wordID: n58012005011
+  translation:
+    gloss: of Me
+  morphology:
+    class: pron
+    morph: P-1GS
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1473'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.1'
+  discourse:
+    referent: n58012002026
+- position: 12
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: HEB 12:5!12
+    wordID: n58012005012
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 13
+  text: ὀλιγώρει
+  lemma: ὀλιγωρέω
+  normalized: ὀλιγώρει
+  ids:
+    ref: HEB 12:5!13
+    wordID: n58012005013
+  translation:
+    gloss: regard lightly
+  morphology:
+    class: verb
+    morph: V-PAM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3643'
+  semantic:
+    semanticDomain: 088025
+    ln: '88.197'
+  syntax:
+    role: v
+    frame: A0:n58012005010 A1:n58012005014
+  discourse:
+    subject: n58012005010
+- position: 14
+  text: παιδείας
+  lemma: παιδεία
+  normalized: παιδείας
+  ids:
+    ref: HEB 12:5!14
+    wordID: n58012005014
+  translation:
+    gloss: '[the] discipline'
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '3809'
+  semantic:
+    semanticDomain: 033017 036002 038001
+    ln: 33.226 36.10 38.4
+- position: 15
+  text: Κυρίου
+  lemma: κύριος
+  normalized: Κυρίου
+  ids:
+    ref: HEB 12:5!15
+    wordID: n58012005015
+  translation:
+    gloss: of [the] Lord
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2962'
+  semantic:
+    semanticDomain: '012001'
+    ln: '12.9'
+- position: 16
+  text: μηδὲ
+  lemma: μηδέ
+  normalized: μηδέ
+  ids:
+    ref: HEB 12:5!16
+    wordID: n58012005016
+  translation:
+    gloss: nor
+  morphology:
+    class: conj
+    morph: CONJ-N
+  lexical:
+    strong: '3366'
+  semantic:
+    semanticDomain: 069003
+    ln: '69.7'
+- position: 17
+  text: ἐκλύου
+  lemma: ἐκλύω
+  normalized: ἐκλύου
+  ids:
+    ref: HEB 12:5!17
+    wordID: n58012005017
+  translation:
+    gloss: faint
+  morphology:
+    class: verb
+    morph: V-PPM-2S
+    number: singular
+    person: second
+    tense: present
+    voice: passive
+    mood: imperative
+  lexical:
+    strong: '1590'
+  semantic:
+    semanticDomain: '025024'
+    ln: '25.288'
+  syntax:
+    role: v
+    frame: A1:n58012005010
+  discourse:
+    subject: n58012005010
+- position: 18
+  text: ὑπ’
+  lemma: ὑπό
+  normalized: ὑπ’
+  ids:
+    ref: HEB 12:5!18
+    wordID: n58012005018
+  translation:
+    gloss: by
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5259'
+  semantic:
+    semanticDomain: 090001
+    ln: '90.1'
+- position: 19
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: HEB 12:5!19
+    wordID: n58012005019
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n58012005015
+- position: 20
+  text: ἐλεγχόμενος
+  lemma: ἐλέγχω
+  normalized: ἐλεγχόμενος
+  ids:
+    ref: HEB 12:5!20
+    wordID: n58012005020
+  translation:
+    gloss: being reproved
+  morphology:
+    class: verb
+    morph: V-PPP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: passive
+    mood: participle
+  lexical:
+    strong: '1651'
+  semantic:
+    semanticDomain: '033046'
+    ln: '33.417'
+  syntax:
+    role: v
+    frame: A1:n58012005010
+  discourse:
+    subject: n58012005010

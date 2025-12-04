@@ -1,0 +1,397 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 32:2
+text: אַ֥שְֽׁרֵי אָדָ֗ם לֹ֤א יַחְשֹׁ֬ב יְהוָ֣ה ל֣וֹ עָוֺ֑ן וְאֵ֖ין בְּרוּח֣וֹ רְמִיָּה׃
+words:
+- position: 1
+  text: אַ֥שְֽׁרֵי
+  lemma: אֶשֶׁר
+  transliteration: ʾašərê
+  ids:
+    ref: PSA 32:2!1
+    wordID: o190320020011
+  translation:
+    english: blessed
+    mandarin: 有福
+    gloss: how.blessed!
+  morphology:
+    class: ij
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶשֶׁר
+    strong: 0835a
+  semantic:
+    sdbh:
+    - 000779001001000
+    lexdomain:
+    - 002004001009009
+    - '002001002024'
+    coredomain:
+    - 093
+    - '170'
+    - '196'
+  lxx:
+    text: μακάριος
+    strong: '3107'
+  syntax:
+    role: p
+- position: 2
+  text: אָדָ֗ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: PSA 32:2!2
+    wordID: o190320020021
+  translation:
+    english: man
+    mandarin: 人
+    gloss: '[is].a.person'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἀνήρ
+    strong: '435'
+- position: 3
+  text: לֹ֤א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PSA 32:2!3
+    wordID: o190320020031
+  translation:
+    english: not
+    mandarin: 不
+    gloss: '[whom].not'
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 4
+  text: יַחְשֹׁ֬ב
+  lemma: חָשַׁב
+  transliteration: yaḥšōḇ
+  ids:
+    ref: PSA 32:2!4
+    wordID: o190320020041
+  translation:
+    english: impute
+    mandarin: 算为
+    gloss: he.reckons
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָשַׁב
+    strong: '2803'
+  semantic:
+    sdbh:
+    - 002577001009000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    - '145'
+    sense: '2'
+  lxx:
+    text: λογίσηται
+    strong: '3049'
+  syntax:
+    role: v
+    frame: A0:190320020051; A1:190320020071;
+- position: 5
+  text: יְהוָ֣ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 32:2!5
+    wordID: o190320020051
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 6
+  text: ל֣
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 32:2!6
+    wordID: o190320020061
+  translation:
+    english: to
+    mandarin: 为
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 32:2!6
+    wordID: o190320020062
+  translation:
+    english: whom
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  discourse:
+    participant: '190320020021'
+- position: 8
+  text: עָוֺ֑ן
+  lemma: עָוֺן
+  transliteration: ʿāwōn
+  ids:
+    ref: PSA 32:2!7
+    wordID: o190320020071
+  translation:
+    english: iniquity
+    mandarin: 罪
+    gloss: iniquity
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָוֺן
+    strong: '5771'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: ἁμαρτίαν
+    strong: '266'
+  syntax:
+    role: o
+- position: 9
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 32:2!8
+    wordID: o190320020081
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: οὐδὲ
+    strong: '3761'
+- position: 10
+  text: אֵ֖ין
+  lemma: אַיִן
+  transliteration: ʾēyn
+  ids:
+    ref: PSA 32:2!8
+    wordID: o190320020082
+  translation:
+    english: 'no'
+    mandarin: 没有
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַיִן
+    strong: 0369
+  lxx:
+    text: ἔστιν
+    strong: '2076'
+  syntax:
+    role: p
+- position: 11
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 32:2!9
+    wordID: o190320020091
+  translation:
+    english: in
+    mandarin: 里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 12
+  text: רוּח֣
+  lemma: רוּחַ
+  transliteration: ''
+  ids:
+    ref: PSA 32:2!9
+    wordID: o190320020092
+  translation:
+    english: spirit
+    mandarin: 心
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רוּחַ
+    strong: '7307'
+  semantic:
+    sdbh:
+    - 006718001002000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '106'
+    sense: '1'
+- position: 13
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 32:2!9
+    wordID: o190320020093
+  translation:
+    english: whose
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 006718001002000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - '106'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190320020021'
+- position: 14
+  text: רְמִיָּה
+  lemma: רְמִיָּה
+  transliteration: 'rəmiyyâ:'
+  ids:
+    ref: PSA 32:2!10
+    wordID: o190320020101
+  translation:
+    english: deceit
+    mandarin: 诡诈
+    gloss: deceit
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רְמִיָּה
+    strong: 7423a
+  semantic:
+    sdbh:
+    - 006823002001000
+    lexdomain:
+    - '002001003007'
+    coredomain:
+    - '184'
+    sense: '1'
+  lxx:
+    text: δόλος
+    strong: '1388'
+  syntax:
+    role: s

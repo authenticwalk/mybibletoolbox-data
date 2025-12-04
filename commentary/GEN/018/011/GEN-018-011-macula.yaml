@@ -1,0 +1,407 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 18:11
+text: וְאַבְרָהָ֤ם וְשָׂרָה֙ זְקֵנִ֔ים בָּאִ֖ים בַּיָּמִ֑ים חָדַל֙ לִהְי֣וֹת לְשָׂרָ֔ה
+  אֹ֖רַח כַּנָּשִֽׁים׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 18:11!1
+    wordID: o010180110011
+  translation:
+    english: now
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: אַבְרָהָ֤ם
+  lemma: אַבְרָהָם
+  transliteration: ʾaḇrāhām
+  ids:
+    ref: GEN 18:11!1
+    wordID: o010180110012
+  translation:
+    english: Abraham
+    mandarin: 亚伯拉罕
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: אַבְרָהָם
+    strong: 0085
+  semantic:
+    sdbh:
+    - 000084001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: αβρααμ
+    strong: '11'
+- position: 3
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 18:11!2
+    wordID: o010180110021
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 4
+  text: שָׂרָה֙
+  lemma: שָׂרָה
+  transliteration: śārāh
+  ids:
+    ref: GEN 18:11!2
+    wordID: o010180110022
+  translation:
+    english: Sarah
+    mandarin: 撒拉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שָׂרָה
+    strong: '8283'
+  semantic:
+    sdbh:
+    - 007093002001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: σαρρα
+    strong: '4564'
+- position: 5
+  text: זְקֵנִ֔ים
+  lemma: זָקֵן
+  transliteration: zəqēniym
+  ids:
+    ref: GEN 18:11!3
+    wordID: o010180110031
+  translation:
+    english: old
+    mandarin: 老迈
+    gloss: '[were].old'
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: זָקֵן
+    strong: '2205'
+  semantic:
+    sdbh:
+    - '002033001001000'
+    lexdomain:
+    - 002001001038
+    coredomain:
+    - '005'
+    sense: '2'
+  lxx:
+    text: πρεσβύτεροι
+    strong: '4245'
+  syntax:
+    role: p
+- position: 6
+  text: בָּאִ֖ים
+  lemma: בּוֹא
+  transliteration: bāʾiym
+  ids:
+    ref: GEN 18:11!4
+    wordID: o010180110041
+  translation:
+    english: advanced
+    mandarin: 上
+    gloss: '[having].come'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: בּוֹא
+    strong: 0935
+  semantic:
+    sense: '8'
+  lxx:
+    text: προβεβηκότες
+    strong: '4260'
+  syntax:
+    role: v
+    frame: A0:010180110012;010180110022;
+  discourse:
+    subject: 010180110012 010180110022
+- position: 7
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: GEN 18:11!5
+    wordID: o010180110051
+  translation:
+    english: in
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 8
+  text: יָּמִ֑ים
+  lemma: יוֹם
+  transliteration: yyāmiym
+  ids:
+    ref: GEN 18:11!5
+    wordID: o010180110052
+  translation:
+    english: age
+    mandarin: 年纪
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: יוֹם
+    strong: '3117'
+  semantic:
+    sdbh:
+    - 002854001016000
+    lexdomain:
+    - 002001001038
+    coredomain:
+    - '005'
+    sense: '14'
+  lxx:
+    text: ἡμερῶν
+    strong: '2250'
+- position: 9
+  text: חָדַל֙
+  lemma: חָדַל
+  transliteration: ḥāḏal
+  ids:
+    ref: GEN 18:11!6
+    wordID: o010180110061
+  translation:
+    english: ceased
+    mandarin: 停止
+    gloss: it.had.ceased
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: חָדַל
+    strong: '2308'
+  semantic:
+    sdbh:
+    - '002134001002000'
+    lexdomain:
+    - '002003003011'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:010180110091;
+- position: 10
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: GEN 18:11!7
+    wordID: o010180110071
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 11
+  text: הְי֣וֹת
+  lemma: הָיָה
+  transliteration: həyôṯ
+  ids:
+    ref: GEN 18:11!7
+    wordID: o010180110072
+  translation:
+    english: be
+    mandarin: 都
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: σαρρα
+    strong: '4564'
+  syntax:
+    role: v
+    frame: A0:010180110091;
+  discourse:
+    subject: 010180110091
+- position: 12
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: GEN 18:11!8
+    wordID: o010180110081
+  translation:
+    english: with
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 13
+  text: שָׂרָ֔ה
+  lemma: שָׂרָה
+  transliteration: śārāh
+  ids:
+    ref: GEN 18:11!8
+    wordID: o010180110082
+  translation:
+    english: Sarah
+    mandarin: 撒拉
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: שָׂרָה
+    strong: '8283'
+  semantic:
+    sdbh:
+    - 007093002001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: γίνεσθαι
+    strong: '1096'
+- position: 14
+  text: אֹ֖רַח
+  lemma: אֹרַח
+  transliteration: ʾōraḥ
+  ids:
+    ref: GEN 18:11!9
+    wordID: o010180110091
+  translation:
+    english: way
+    mandarin: 月讯
+    gloss: a.way
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֹרַח
+    strong: '0734'
+  semantic:
+    sdbh:
+    - '000676001003000'
+    lexdomain:
+    - '002002002001'
+    coredomain:
+    - '017'
+    sense: '4'
+- position: 15
+  text: כַּ
+  lemma: כְּ
+  transliteration: ka
+  ids:
+    ref: GEN 18:11!10
+    wordID: o010180110101
+  translation:
+    english: of
+    mandarin: 如
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+- position: 16
+  text: נָּשִֽׁים
+  lemma: אִשָּׁה
+  transliteration: 'nnāšiym:'
+  ids:
+    ref: GEN 18:11!10
+    wordID: o010180110102
+  translation:
+    english: women
+    mandarin: 女人们
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִשָּׁה
+    strong: 0802
+  semantic:
+    sdbh:
+    - 000738001001000
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 082
+    sense: '2'

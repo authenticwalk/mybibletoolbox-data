@@ -1,0 +1,75 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MRK 12:16
+text: οἱ δὲ ἤνεγκαν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MRK 12:16!2
+    wordID: n41012016002
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: οἱ
+  lemma: ὁ
+  normalized: οἱ
+  ids:
+    ref: MRK 12:16!1
+    wordID: n41012016001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-NPM
+    gender: masculine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+  syntax:
+    role: s
+  discourse:
+    referent: n41012013005
+- position: 3
+  text: ἤνεγκαν
+  lemma: φέρω
+  normalized: ἤνεγκαν
+  ids:
+    ref: MRK 12:16!3
+    wordID: n41012016003
+  translation:
+    gloss: they brought [it]
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5342'
+  semantic:
+    semanticDomain: '015023'
+    ln: '15.166'
+  syntax:
+    role: v
+    frame: A0:n41012016001

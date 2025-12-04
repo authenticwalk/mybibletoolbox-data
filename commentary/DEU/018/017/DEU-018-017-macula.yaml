@@ -1,0 +1,237 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 18:17
+text: וַיֹּ֥אמֶר יְהוָ֖ה אֵלָ֑י הֵיטִ֖יבוּ אֲשֶׁ֥ר דִּבֵּֽרוּ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: DEU 18:17!1
+    wordID: o050180170011
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יֹּ֥אמֶר
+  lemma: אָמַר
+  transliteration: yyōʾmer
+  ids:
+    ref: DEU 18:17!1
+    wordID: o050180170012
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:050180170021;
+- position: 3
+  text: יְהוָ֖ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 18:17!2
+    wordID: o050180170021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 4
+  text: אֵלָ֑
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: DEU 18:17!3
+    wordID: o050180170031
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: πρός
+    strong: '4314'
+- position: 5
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 18:17!3
+    wordID: o050180170032
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: με
+    strong: '3165'
+  discourse:
+    participant: '050050010021'
+- position: 6
+  text: הֵיטִ֖יבוּ
+  lemma: יָטַב
+  transliteration: hêṭiyḇû
+  ids:
+    ref: DEU 18:17!4
+    wordID: o050180170041
+  translation:
+    english: right
+    mandarin: 对
+    gloss: they.have.done.well
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: יָטַב
+    strong: '3190'
+  semantic:
+    sdbh:
+    - 002919001008000
+    lexdomain:
+    - '002001003014'
+    coredomain:
+    - '017'
+    sense: '5'
+  lxx:
+    text: ὀρθῶς
+    strong: '3723'
+  syntax:
+    role: v
+    frame: AA:050180060071; A0:050180170061;
+  discourse:
+    subject: 050180060071
+- position: 7
+  text: אֲשֶׁ֥ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 18:17!5
+    wordID: o050180170051
+  translation:
+    english: what
+    mandarin: 所~的
+    gloss: '[that].which'
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὅσα
+    strong: '3745'
+- position: 8
+  text: דִּבֵּֽרוּ
+  lemma: דָבַר
+  transliteration: 'dibbērû:'
+  ids:
+    ref: DEU 18:17!6
+    wordID: o050180170061
+  translation:
+    english: spoken
+    mandarin: 说
+    gloss: they.have.spoken
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐλάλησαν
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A0:050180060071;
+  discourse:
+    subject: 050180060071

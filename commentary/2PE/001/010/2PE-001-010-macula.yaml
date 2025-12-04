@@ -1,0 +1,237 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: 2PE 1:10
+text: 2PE 1:10 διὸ μᾶλλον, ἀδελφοί, σπουδάσατε βεβαίαν ὑμῶν τὴν κλῆσιν καὶ ἐκλογὴν
+  ποιεῖσθαι·
+words:
+- position: 1
+  text: διὸ
+  lemma: διό
+  normalized: διό
+  ids:
+    ref: 2PE 1:10!1
+    wordID: n61001010001
+  translation:
+    gloss: Therefore
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1352'
+  semantic:
+    semanticDomain: 089008
+    ln: '89.47'
+- position: 2
+  text: ἀδελφοί
+  lemma: ἀδελφός
+  normalized: ἀδελφοί
+  ids:
+    ref: 2PE 1:10!3
+    wordID: n61001010003
+  translation:
+    gloss: brothers
+  morphology:
+    class: noun
+    morph: N-VPM
+    gender: masculine
+    number: plural
+    case: vocative
+    type: common
+  lexical:
+    strong: '80'
+  semantic:
+    semanticDomain: '011002'
+    ln: '11.23'
+  syntax:
+    role: aux
+    discontinuous: 'true'
+- position: 3
+  text: μᾶλλον
+  lemma: μᾶλλον
+  normalized: μᾶλλον
+  ids:
+    ref: 2PE 1:10!2
+    wordID: n61001010002
+  translation:
+    gloss: rather
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '3123'
+  semantic:
+    semanticDomain: 078002
+    ln: '78.28'
+  syntax:
+    role: adv
+- position: 4
+  text: σπουδάσατε
+  lemma: σπουδάζω
+  normalized: σπουδάσατε
+  ids:
+    ref: 2PE 1:10!4
+    wordID: n61001010004
+  translation:
+    gloss: be diligent
+  morphology:
+    class: verb
+    morph: V-AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '4704'
+  semantic:
+    semanticDomain: 068006
+    ln: '68.63'
+  syntax:
+    role: v
+    frame: A0:n61001010003 A1:n61001010011
+  discourse:
+    subject: n61001010003
+- position: 5
+  text: βεβαίαν
+  lemma: βέβαιος
+  normalized: βεβαίαν
+  ids:
+    ref: 2PE 1:10!5
+    wordID: n61001010005
+  translation:
+    gloss: sure
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '949'
+  semantic:
+    semanticDomain: '071003'
+    ln: '71.15'
+  syntax:
+    role: o2
+- position: 6
+  text: ὑμῶν
+  lemma: σύ
+  normalized: ὑμῶν
+  ids:
+    ref: 2PE 1:10!6
+    wordID: n61001010006
+  translation:
+    gloss: your
+  morphology:
+    class: pron
+    morph: P-2GP
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4771'
+  discourse:
+    referent: n61001010003
+- position: 7
+  text: τὴν
+  lemma: ὁ
+  normalized: τήν
+  ids:
+    ref: 2PE 1:10!7
+    wordID: n61001010007
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: κλῆσιν
+  lemma: κλῆσις
+  normalized: κλῆσιν
+  ids:
+    ref: 2PE 1:10!8
+    wordID: n61001010008
+  translation:
+    gloss: calling
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2821'
+  semantic:
+    semanticDomain: 033029
+    ln: '33.312'
+- position: 9
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: 2PE 1:10!9
+    wordID: n61001010009
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 10
+  text: ἐκλογὴν
+  lemma: ἐκλογή
+  normalized: ἐκλογήν
+  ids:
+    ref: 2PE 1:10!10
+    wordID: n61001010010
+  translation:
+    gloss: election
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '1589'
+  semantic:
+    semanticDomain: '030006'
+    ln: '30.92'
+- position: 11
+  text: ποιεῖσθαι
+  lemma: ποιέω
+  normalized: ποιεῖσθαι
+  ids:
+    ref: 2PE 1:10!11
+    wordID: n61001010011
+  translation:
+    gloss: to make
+  morphology:
+    class: verb
+    morph: V-PMN
+    tense: present
+    voice: middle
+    mood: infinitive
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: 090011
+    ln: '90.45'
+  syntax:
+    role: v
+    frame: A0:n61001010003 A1:n61001010008;n61001010010
+  discourse:
+    subject: n61001010003

@@ -1,0 +1,251 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 22:28
+text: אַל־תַּ֭סֵּג גְּב֣וּל עוֹלָ֑ם אֲשֶׁ֖ר עָשׂ֣וּ אֲבוֹתֶֽיךָ׃
+words:
+- position: 1
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PRO 22:28!1
+    wordID: o200220280011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 2
+  text: תַּ֭סֵּג
+  lemma: סוּג
+  transliteration: tassēḡ
+  ids:
+    ref: PRO 22:28!2
+    wordID: o200220280021
+  translation:
+    english: move
+    mandarin: 挪移
+    gloss: displace
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: jussive
+  lexical:
+    stronglemma: סוּג
+    strong: '5472'
+  semantic:
+    sense: '3'
+  lxx:
+    text: μέταιρε
+  syntax:
+    role: v
+    frame: AA:200190270021; A0:200220280031;
+  discourse:
+    subject: '200190270021'
+- position: 3
+  text: גְּב֣וּל
+  lemma: גְּבוּל
+  transliteration: gəḇûl
+  ids:
+    ref: PRO 22:28!3
+    wordID: o200220280031
+  translation:
+    english: boundary
+    mandarin: 地界
+    gloss: a.boundary
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: גְּבוּל
+    strong: '1366'
+  semantic:
+    sdbh:
+    - '001257001001000'
+    lexdomain:
+    - 002003001008
+    sense: '1'
+  lxx:
+    text: ὅρια
+    strong: '3725'
+- position: 4
+  text: עוֹלָ֑ם
+  lemma: עוֹלָם
+  transliteration: ʿôlām
+  ids:
+    ref: PRO 22:28!4
+    wordID: o200220280041
+  translation:
+    english: ancient
+    mandarin: 古时
+    gloss: of.antiquity
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '3'
+  lxx:
+    text: αἰώνια
+    strong: '166'
+- position: 5
+  text: אֲשֶׁ֖ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: PRO 22:28!5
+    wordID: o200220280051
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ἃ
+    strong: '3739'
+- position: 6
+  text: עָשׂ֣וּ
+  lemma: עָשָׂה
+  transliteration: ʿāśû
+  ids:
+    ref: PRO 22:28!6
+    wordID: o200220280061
+  translation:
+    english: set up
+    mandarin: 立
+    gloss: they.made
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001007000
+    lexdomain:
+    - '002002003003'
+    coredomain:
+    - '041'
+    - 098
+    sense: '2'
+  lxx:
+    text: ἔθεντο
+    strong: '5087'
+  syntax:
+    role: v
+    frame: A0:200220280071; A1:200220280031;
+  discourse:
+    subject: '200220280071'
+- position: 7
+  text: אֲבוֹתֶֽי
+  lemma: אָב
+  transliteration: ''
+  ids:
+    ref: PRO 22:28!7
+    wordID: o200220280071
+  translation:
+    english: fathers
+    mandarin: 祖先
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אָב
+    strong: '0001'
+  semantic:
+    sdbh:
+    - '000003001002000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '129'
+    sense: '2'
+  lxx:
+    text: πατέρες
+    strong: '3962'
+- position: 8
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 22:28!7
+    wordID: o200220280072
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '000003001002000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '129'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '200190270021'

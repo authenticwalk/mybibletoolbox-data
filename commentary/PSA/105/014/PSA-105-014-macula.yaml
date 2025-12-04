@@ -1,0 +1,310 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 105:14
+text: לֹֽא־הִנִּ֣יחַ אָדָ֣ם לְעָשְׁקָ֑ם וַיּ֖וֹכַח עֲלֵיהֶ֣ם מְלָכִֽים׃
+words:
+- position: 1
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: PSA 105:14!1
+    wordID: o191050140011
+  translation:
+    english: 'no'
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: הִנִּ֣יחַ
+  lemma: נוח
+  transliteration: hinniyᵃḥ
+  ids:
+    ref: PSA 105:14!2
+    wordID: o191050140021
+  translation:
+    english: allowed
+    mandarin: 容
+    gloss: he.permitted
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: qatal
+  lexical:
+    stronglemma: נוח
+    strong: '5117'
+  semantic:
+    sdbh:
+    - 004691001020000
+    lexdomain:
+    - 002001002028
+    coredomain:
+    - '197'
+    sense: '8'
+  lxx:
+    text: ἀφῆκεν
+    strong: '863'
+  syntax:
+    role: v
+    frame: AA:191050040021; A0:191050140031;
+  discourse:
+    subject: '191050040021'
+- position: 3
+  text: אָדָ֣ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: PSA 105:14!3
+    wordID: o191050140031
+  translation:
+    english: one
+    mandarin: 人
+    gloss: anyone
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἄνθρωπον
+    strong: '444'
+  syntax:
+    role: o
+- position: 4
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 105:14!4
+    wordID: o191050140041
+  translation:
+    english: to
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 5
+  text: עָשְׁקָ֑
+  lemma: עָשַׁק
+  transliteration: ''
+  ids:
+    ref: PSA 105:14!4
+    wordID: o191050140042
+  translation:
+    english: oppress
+    mandarin: 欺负
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: עָשַׁק
+    strong: '6231'
+  semantic:
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:191050140031; A1:191050140043;
+  discourse:
+    subject: '191050140031'
+- position: 6
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 105:14!4
+    wordID: o191050140043
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  syntax:
+    role: o
+  discourse:
+    participant: '191050100042'
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 105:14!5
+    wordID: o191050140051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: יּ֖וֹכַח
+  lemma: יָכַח
+  transliteration: yyôḵaḥ
+  ids:
+    ref: PSA 105:14!5
+    wordID: o191050140052
+  translation:
+    english: rebuked
+    mandarin: 责备
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: יָכַח
+    strong: '3198'
+  semantic:
+    sdbh:
+    - 002925001002000
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '140'
+    - '006'
+    sense: '1'
+  lxx:
+    text: ἤλεγχεν
+  syntax:
+    role: v
+    frame: AA:191050040021; A0:191050140071;
+  discourse:
+    subject: '191050040021'
+- position: 9
+  text: עֲלֵי
+  lemma: עַל
+  transliteration: ''
+  ids:
+    ref: PSA 105:14!6
+    wordID: o191050140061
+  translation:
+    english: on ~ account
+    mandarin: 为~的缘故
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ὑπὲρ
+    strong: '5228'
+- position: 10
+  text: הֶ֣ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 105:14!6
+    wordID: o191050140062
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  discourse:
+    participant: '191050100042'
+- position: 11
+  text: מְלָכִֽים
+  lemma: מֶלֶךְ
+  transliteration: 'məlāḵiym:'
+  ids:
+    ref: PSA 105:14!7
+    wordID: o191050140071
+  translation:
+    english: kings
+    mandarin: 君王
+    gloss: kings
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מֶלֶךְ
+    strong: '4428'
+  semantic:
+    sdbh:
+    - 004048001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    - '170'
+    - 095
+    sense: '1'
+  lxx:
+    text: βασιλεῖς
+    strong: '935'
+  syntax:
+    role: o

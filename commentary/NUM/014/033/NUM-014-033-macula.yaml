@@ -1,0 +1,601 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: NUM 14:33
+text: וּ֠בְנֵיכֶם יִהְי֨וּ רֹעִ֤ים בַּמִּדְבָּר֙ אַרְבָּעִ֣ים שָׁנָ֔ה וְנָשְׂא֖וּ
+  אֶת־זְנוּתֵיכֶ֑ם עַד־תֹּ֥ם פִּגְרֵיכֶ֖ם בַּמִּדְבָּֽר׃
+words:
+- position: 1
+  text: וּ֠
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: NUM 14:33!1
+    wordID: o040140330011
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: בְנֵי
+  lemma: בֵּן
+  transliteration: ''
+  ids:
+    ref: NUM 14:33!1
+    wordID: o040140330012
+  translation:
+    english: children
+    mandarin: 儿女
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '5'
+  lxx:
+    text: υἱοὶ
+    strong: '5207'
+- position: 3
+  text: כֶם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 14:33!1
+    wordID: o040140330013
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: 040140290061
+- position: 4
+  text: יִהְי֨וּ
+  lemma: הָיָה
+  transliteration: yihyû
+  ids:
+    ref: NUM 14:33!2
+    wordID: o040140330021
+  translation:
+    english: be
+    mandarin: 做
+    gloss: they.will.be
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἔσονται
+    strong: '2071'
+  syntax:
+    role: v
+    frame: A0:040140330012;
+- position: 5
+  text: רֹעִ֤ים
+  lemma: רָעָה
+  transliteration: rōʿiym
+  ids:
+    ref: NUM 14:33!3
+    wordID: o040140330031
+  translation:
+    english: shepherds
+    mandarin: 流浪
+    gloss: shepherds
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: רָעָה
+    strong: '7473'
+  semantic:
+    sdbh:
+    - 006856001006000
+    lexdomain:
+    - 001001002003009
+    coredomain:
+    - '200'
+    - '157'
+    sense: '1'
+  lxx:
+    text: νεμόμενοι
+  syntax:
+    role: o
+    frame: A0:040140330012;
+  discourse:
+    subject: '040140330012'
+- position: 6
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: NUM 14:33!4
+    wordID: o040140330041
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 7
+  text: מִּדְבָּר֙
+  lemma: מִדְבָּר
+  transliteration: mmiḏbār
+  ids:
+    ref: NUM 14:33!4
+    wordID: o040140330042
+  translation:
+    english: wilderness
+    mandarin: 旷野
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִדְבָּר
+    strong: '4057'
+  semantic:
+    sdbh:
+    - '003713001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ἐρήμῳ
+    strong: '2048'
+- position: 8
+  text: אַרְבָּעִ֣ים
+  lemma: אַרְבַּע
+  transliteration: ʾarbāʿiym
+  ids:
+    ref: NUM 14:33!5
+    wordID: o040140330051
+  translation:
+    english: forty
+    mandarin: 四十
+    gloss: forty
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acbpa
+    gender: both
+    number: plural
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אַרְבַּע
+    strong: '0705'
+  semantic:
+    sdbh:
+    - 000649001002000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: τεσσαράκοντα
+    strong: '1540'
+- position: 9
+  text: שָׁנָ֔ה
+  lemma: שָׁנָה
+  transliteration: šānāh
+  ids:
+    ref: NUM 14:33!6
+    wordID: o040140330061
+  translation:
+    english: years
+    mandarin: 年
+    gloss: year[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנָה
+    strong: '8141'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἔτη
+    strong: '2094'
+- position: 10
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: NUM 14:33!7
+    wordID: o040140330071
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 11
+  text: נָשְׂא֖וּ
+  lemma: נָשָׂא
+  transliteration: nāśʾû
+  ids:
+    ref: NUM 14:33!7
+    wordID: o040140330072
+  translation:
+    english: suffer
+    mandarin: 担当
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: נָשָׂא
+    strong: '5375'
+  semantic:
+    sdbh:
+    - 004924001010000
+    lexdomain:
+    - '002003003003'
+    coredomain:
+    - '145'
+    sense: '3'
+  lxx:
+    text: ἀνοίσουσιν
+    strong: '399'
+  syntax:
+    role: v
+    frame: A0:040140330012; A1:040140330091;
+  discourse:
+    subject: '040140330012'
+- position: 12
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: NUM 14:33!8
+    wordID: o040140330081
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 13
+  text: זְנוּתֵי
+  lemma: זְנוּת
+  transliteration: ''
+  ids:
+    ref: NUM 14:33!9
+    wordID: o040140330091
+  translation:
+    english: unfaithfulness
+    mandarin: 不信
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: זְנוּת
+    strong: '2184'
+  semantic:
+    sdbh:
+    - '002015001001000'
+    lexdomain:
+    - '002001002027'
+    coredomain:
+    - 085
+    sense: '1'
+  lxx:
+    text: πορνείαν
+    strong: '4202'
+- position: 14
+  text: כֶ֑ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 14:33!9
+    wordID: o040140330092
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - '002015001001000'
+    lexdomain:
+    - '002001002027'
+    coredomain:
+    - 085
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: 040140290061
+- position: 15
+  text: עַד
+  lemma: עַד
+  transliteration: ʿaḏ-
+  ids:
+    ref: NUM 14:33!10
+    wordID: o040140330101
+  translation:
+    english: until
+    mandarin: 直到
+    gloss: until
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001003000'
+    lexdomain:
+    - '002002003'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 16
+  text: תֹּ֥ם
+  lemma: תָּמַם
+  transliteration: tōm
+  ids:
+    ref: NUM 14:33!11
+    wordID: o040140330111
+  translation:
+    english: fallen
+    mandarin: 灭尽
+    gloss: are.finished
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: תָּמַם
+    strong: '8552'
+  semantic:
+    sdbh:
+    - 007847001010000
+    lexdomain:
+    - '002001001042'
+    coredomain:
+    - '138'
+    sense: '1'
+  lxx:
+    text: ἀναλωθῇ
+    strong: '355'
+  syntax:
+    role: v
+    frame: A0:040140330121;
+- position: 17
+  text: פִּגְרֵי
+  lemma: פֶּגֶר
+  transliteration: ''
+  ids:
+    ref: NUM 14:33!12
+    wordID: o040140330121
+  translation:
+    english: corpses
+    mandarin: 尸体
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פֶּגֶר
+    strong: '6297'
+  semantic:
+    sdbh:
+    - 005778001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 099
+    - '147'
+    sense: '1'
+  lxx:
+    text: κῶλα
+    strong: '2966'
+- position: 18
+  text: כֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: NUM 14:33!12
+    wordID: o040140330122
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - 005778001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 099
+    - '147'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: 040140290061
+- position: 19
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: NUM 14:33!13
+    wordID: o040140330131
+  translation:
+    english: in
+    mandarin: 在
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 20
+  text: מִּדְבָּֽר
+  lemma: מִדְבָּר
+  transliteration: 'mmiḏbār:'
+  ids:
+    ref: NUM 14:33!13
+    wordID: o040140330132
+  translation:
+    english: wilderness
+    mandarin: 旷野
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מִדְבָּר
+    strong: '4057'
+  semantic:
+    sdbh:
+    - '003713001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - '115'
+    sense: '1'
+  lxx:
+    text: ἐρήμῳ
+    strong: '2048'

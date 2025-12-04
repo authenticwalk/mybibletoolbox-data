@@ -1,0 +1,373 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:29
+text: τῷ γὰρ ἔχοντι παντὶ δοθήσεται καὶ περισσευθήσεται· τοῦ δὲ μὴ ἔχοντος καὶ ὃ ἔχει
+  ἀρθήσεται ἀπ’ αὐτοῦ.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: MAT 25:29!2
+    wordID: n40025029002
+  translation:
+    gloss: For
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: τῷ
+  lemma: ὁ
+  normalized: τῷ
+  ids:
+    ref: MAT 25:29!1
+    wordID: n40025029001
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 3
+  text: ἔχοντι
+  lemma: ἔχω
+  normalized: ἔχοντι
+  ids:
+    ref: MAT 25:29!3
+    wordID: n40025029003
+  translation:
+    gloss: having
+  morphology:
+    class: verb
+    morph: V-PAP-DSM
+    gender: masculine
+    number: singular
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 4
+  text: παντὶ
+  lemma: πᾶς
+  normalized: παντί
+  ids:
+    ref: MAT 25:29!4
+    wordID: n40025029004
+  translation:
+    gloss: to everyone
+  morphology:
+    class: adj
+    morph: A-DSM
+    gender: masculine
+    number: singular
+    case: dative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 5
+  text: δοθήσεται
+  lemma: δίδωμι
+  normalized: δοθήσεται
+  ids:
+    ref: MAT 25:29!5
+    wordID: n40025029005
+  translation:
+    gloss: will be given
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1325'
+  semantic:
+    semanticDomain: 057008
+    ln: '57.71'
+  syntax:
+    role: v
+    frame: A1:n00000000000 A2:n40025029003
+- position: 6
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 25:29!6
+    wordID: n40025029006
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 7
+  text: περισσευθήσεται
+  lemma: περισσεύω
+  normalized: περισσευθήσεται
+  ids:
+    ref: MAT 25:29!7
+    wordID: n40025029007
+  translation:
+    gloss: he will have in abundance
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '4052'
+  semantic:
+    semanticDomain: 059006
+    ln: '59.54'
+  syntax:
+    role: v
+    frame: A1:n40025029003
+  discourse:
+    subject: n40025029003
+- position: 8
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: MAT 25:29!9
+    wordID: n40025029009
+  translation:
+    gloss: however
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  semantic:
+    semanticDomain: 089023
+    ln: '89.124'
+  syntax:
+    discontinuous: 'true'
+- position: 9
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: MAT 25:29!8
+    wordID: n40025029008
+  translation:
+    gloss: the [one]
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: μὴ
+  lemma: μή
+  normalized: μή
+  ids:
+    ref: MAT 25:29!10
+    wordID: n40025029010
+  translation:
+    gloss: not
+  morphology:
+    class: adv
+    morph: PRT-N
+  lexical:
+    strong: '3361'
+  semantic:
+    semanticDomain: 069002
+    ln: '69.3'
+  syntax:
+    role: adv
+- position: 11
+  text: ἔχοντος
+  lemma: ἔχω
+  normalized: ἔχοντος
+  ids:
+    ref: MAT 25:29!11
+    wordID: n40025029011
+  translation:
+    gloss: having
+  morphology:
+    class: verb
+    morph: V-PAP-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n00000000000
+- position: 12
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 25:29!12
+    wordID: n40025029012
+  translation:
+    gloss: even
+  morphology:
+    class: adv
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 13
+  text: ὃ
+  lemma: ὅς
+  normalized: ὅ
+  ids:
+    ref: MAT 25:29!13
+    wordID: n40025029013
+  translation:
+    gloss: that which
+  morphology:
+    class: pron
+    morph: R-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  semantic:
+    semanticDomain: 092006
+    ln: '92.27'
+  syntax:
+    role: o
+- position: 14
+  text: ἔχει
+  lemma: ἔχω
+  normalized: ἔχει
+  ids:
+    ref: MAT 25:29!14
+    wordID: n40025029014
+  translation:
+    gloss: he has
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2192'
+  semantic:
+    semanticDomain: '057001'
+    ln: '57.1'
+  syntax:
+    role: v
+    frame: A0:n40025029011 A1:n40025029013
+  discourse:
+    subject: n40025029011
+- position: 15
+  text: ἀρθήσεται
+  lemma: αἴρω
+  normalized: ἀρθήσεται
+  ids:
+    ref: MAT 25:29!15
+    wordID: n40025029015
+  translation:
+    gloss: will be taken away
+  morphology:
+    class: verb
+    morph: V-FPI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '142'
+  semantic:
+    semanticDomain: 090014
+    ln: '90.96'
+  syntax:
+    role: v
+    frame: A1:n40025029014
+- position: 16
+  text: ἀπ’
+  lemma: ἀπό
+  normalized: ἀπ’
+  ids:
+    ref: MAT 25:29!16
+    wordID: n40025029016
+  translation:
+    gloss: from
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '575'
+- position: 17
+  text: αὐτοῦ
+  lemma: αὐτός
+  normalized: αὐτοῦ
+  ids:
+    ref: MAT 25:29!17
+    wordID: n40025029017
+  translation:
+    gloss: him
+  morphology:
+    class: pron
+    morph: P-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  discourse:
+    referent: n40025029011

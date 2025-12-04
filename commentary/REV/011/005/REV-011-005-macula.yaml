@@ -1,0 +1,354 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: REV 11:5
+text: καὶ εἴ τις αὐτοὺς θέλει ἀδικῆσαι, πῦρ ἐκπορεύεται ἐκ τοῦ στόματος αὐτῶν καὶ
+  κατεσθίει τοὺς ἐχθροὺς αὐτῶν·
+words:
+- position: 1
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 11:5!1
+    wordID: n66011005001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 2
+  text: εἴ
+  lemma: εἰ
+  normalized: εἴ
+  ids:
+    ref: REV 11:5!2
+    wordID: n66011005002
+  translation:
+    gloss: if
+  morphology:
+    class: conj
+    morph: COND
+  lexical:
+    strong: '1487'
+- position: 3
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: REV 11:5!3
+    wordID: n66011005003
+  translation:
+    gloss: anyone
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  syntax:
+    role: s
+- position: 4
+  text: θέλει
+  lemma: θέλω
+  normalized: θέλει
+  ids:
+    ref: REV 11:5!5
+    wordID: n66011005005
+  translation:
+    gloss: should desire
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2309'
+  semantic:
+    semanticDomain: '030004'
+    ln: '30.58'
+  syntax:
+    role: v
+    frame: A0:n66011005003 A1:n66011005006
+    discontinuous: 'true'
+- position: 5
+  text: αὐτοὺς
+  lemma: αὐτός
+  normalized: αὐτούς
+  ids:
+    ref: REV 11:5!4
+    wordID: n66011005004
+  translation:
+    gloss: them
+  morphology:
+    class: pron
+    morph: P-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    referent: n66011003005
+- position: 6
+  text: ἀδικῆσαι
+  lemma: ἀδικέω
+  normalized: ἀδικῆσαι
+  ids:
+    ref: REV 11:5!6
+    wordID: n66011005006
+  translation:
+    gloss: to harm
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '91'
+  semantic:
+    semanticDomain: '020002'
+    ln: '20.25'
+  syntax:
+    role: v
+    frame: A0:n66011005003 A1:n66011005004
+  discourse:
+    subject: n66011005003
+- position: 7
+  text: πῦρ
+  lemma: πῦρ
+  normalized: πῦρ
+  ids:
+    ref: REV 11:5!7
+    wordID: n66011005007
+  translation:
+    gloss: fire
+  morphology:
+    class: noun
+    morph: N-NSN
+    gender: neuter
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '4442'
+  semantic:
+    semanticDomain: '002003'
+    ln: '2.3'
+  syntax:
+    role: s
+- position: 8
+  text: ἐκπορεύεται
+  lemma: ἐκπορεύομαι
+  normalized: ἐκπορεύεται
+  ids:
+    ref: REV 11:5!8
+    wordID: n66011005008
+  translation:
+    gloss: goes out
+  morphology:
+    class: verb
+    morph: V-PNI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: middlepassive
+    mood: indicative
+  lexical:
+    strong: '1607'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.40'
+  syntax:
+    role: v
+    frame: A0:n66011005007
+- position: 9
+  text: ἐκ
+  lemma: ἐκ
+  normalized: ἐκ
+  ids:
+    ref: REV 11:5!9
+    wordID: n66011005009
+  translation:
+    gloss: of
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1537'
+- position: 10
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: REV 11:5!10
+    wordID: n66011005010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: στόματος
+  lemma: στόμα
+  normalized: στόματος
+  ids:
+    ref: REV 11:5!11
+    wordID: n66011005011
+  translation:
+    gloss: mouth
+  morphology:
+    class: noun
+    morph: N-GSN
+    gender: neuter
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '4750'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.19'
+- position: 12
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: REV 11:5!12
+    wordID: n66011005012
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  discourse:
+    referent: n66011003005
+- position: 13
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: REV 11:5!13
+    wordID: n66011005013
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+- position: 14
+  text: κατεσθίει
+  lemma: κατεσθίω
+  normalized: κατεσθίει
+  ids:
+    ref: REV 11:5!14
+    wordID: n66011005014
+  translation:
+    gloss: devours
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2719'
+  semantic:
+    semanticDomain: '020003'
+    ln: '20.45'
+  syntax:
+    role: v
+    frame: A0:n66011005007 A1:n66011005016
+  discourse:
+    subject: n66011005007
+- position: 15
+  text: τοὺς
+  lemma: ὁ
+  normalized: τούς
+  ids:
+    ref: REV 11:5!15
+    wordID: n66011005015
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APM
+    gender: masculine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 16
+  text: ἐχθροὺς
+  lemma: ἐχθρός
+  normalized: ἐχθρούς
+  ids:
+    ref: REV 11:5!16
+    wordID: n66011005016
+  translation:
+    gloss: enemies
+  morphology:
+    class: adj
+    morph: A-APM
+    gender: masculine
+    number: plural
+    case: accusative
+  lexical:
+    strong: '2190'
+  semantic:
+    semanticDomain: 039001
+    ln: '39.11'
+- position: 17
+  text: αὐτῶν
+  lemma: αὐτός
+  normalized: αὐτῶν
+  ids:
+    ref: REV 11:5!17
+    wordID: n66011005017
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: P-GPM
+    gender: masculine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '846'
+  discourse:
+    referent: n66011003005

@@ -1,0 +1,491 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 22:9
+text: לֹא־תִזְרַ֥ע כַּרְמְךָ֖ כִּלְאָ֑יִם פֶּן־תִּקְדַּ֗שׁ הַֽמְלֵאָ֤ה הַזֶּ֨רַע֙
+  אֲשֶׁ֣ר תִּזְרָ֔ע וּתְבוּאַ֖ת הַכָּֽרֶם׃ס
+words:
+- position: 1
+  text: לֹא
+  lemma: לֹא
+  transliteration: lōʾ-
+  ids:
+    ref: DEU 22:9!1
+    wordID: o050220090011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: תִזְרַ֥ע
+  lemma: זָרַע
+  transliteration: ṯizraʿ
+  ids:
+    ref: DEU 22:9!2
+    wordID: o050220090021
+  translation:
+    english: sow
+    mandarin: 种
+    gloss: you.will.sow
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: זָרַע
+    strong: '2232'
+  semantic:
+    sdbh:
+    - 002058001001000
+    lexdomain:
+    - '002002001014'
+    coredomain:
+    - '125'
+    - '007'
+    sense: '1'
+  lxx:
+    text: κατασπερεῖς
+  syntax:
+    role: v
+    frame: A0:050210210111; A1:050220090031;
+  discourse:
+    subject: '050210210111'
+- position: 3
+  text: כַּרְמְ
+  lemma: כֶּרֶם
+  transliteration: ''
+  ids:
+    ref: DEU 22:9!3
+    wordID: o050220090031
+  translation:
+    english: vineyard
+    mandarin: 葡萄园
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֶּרֶם
+    strong: '3754'
+  semantic:
+    sdbh:
+    - '003434001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    - '007'
+    sense: '1'
+- position: 4
+  text: ךָ֖
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 22:9!3
+    wordID: o050220090032
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '003434001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    - '007'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '050210210111'
+- position: 5
+  text: כִּלְאָ֑יִם
+  lemma: כִּלְאַיִם
+  transliteration: kilʾāyim
+  ids:
+    ref: DEU 22:9!4
+    wordID: o050220090041
+  translation:
+    english: two kinds of seed
+    mandarin: 两样种子
+    gloss: two.kinds
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmda
+    gender: masculine
+    number: dual
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כִּלְאַיִם
+    strong: '3610'
+  semantic:
+    sdbh:
+    - '003307001001000'
+    lexdomain:
+    - '002001'
+    sense: '1'
+  lxx:
+    text: διάφορον
+    strong: '1313'
+  syntax:
+    role: adv
+- position: 6
+  text: פֶּן
+  lemma: פֶּן
+  transliteration: pen-
+  ids:
+    ref: DEU 22:9!5
+    wordID: o050220090051
+  translation:
+    english: or
+    mandarin: 免得
+    gloss: lest
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: פֶּן
+    strong: '6435'
+  lxx:
+    text: μὴ
+    strong: '3361'
+- position: 7
+  text: תִּקְדַּ֗שׁ
+  lemma: קָדַשׁ
+  transliteration: tiqdaš
+  ids:
+    ref: DEU 22:9!6
+    wordID: o050220090061
+  translation:
+    english: defiled
+    mandarin: 分别为圣
+    gloss: it.should.be.set.apart
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָדַשׁ
+    strong: '6942'
+  semantic:
+    sdbh:
+    - 006392001003000
+    lexdomain:
+    - '002001001030'
+    coredomain:
+    - 079
+    sense: '1'
+  lxx:
+    text: ἁγιασθῇ
+    strong: '37'
+  syntax:
+    role: v
+    frame: A0:050220090072;050220090112;
+- position: 8
+  text: הַֽ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 22:9!7
+    wordID: o050220090071
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸ
+    strong: '3588'
+- position: 9
+  text: מְלֵאָ֤ה
+  lemma: מְלֵאָה
+  transliteration: məlēʾāh
+  ids:
+    ref: DEU 22:9!7
+    wordID: o050220090072
+  translation:
+    english: harvest
+    mandarin: 收成
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מְלֵאָה
+    strong: '4395'
+  semantic:
+    sdbh:
+    - '004015001001000'
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - '007'
+    sense: '1'
+  lxx:
+    text: γένημα
+- position: 10
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 22:9!8
+    wordID: o050220090081
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸ
+    strong: '3588'
+- position: 11
+  text: זֶּ֨רַע֙
+  lemma: זֶרַע
+  transliteration: zzeraʿ
+  ids:
+    ref: DEU 22:9!8
+    wordID: o050220090082
+  translation:
+    english: crop
+    mandarin: 结的籽粒
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: זֶרַע
+    strong: '2233'
+  semantic:
+    sdbh:
+    - '002061001001000'
+    lexdomain:
+    - '001003001'
+    coredomain:
+    - '125'
+    sense: '1'
+  lxx:
+    text: σπέρμα
+    strong: '4690'
+- position: 12
+  text: אֲשֶׁ֣ר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer
+  ids:
+    ref: DEU 22:9!9
+    wordID: o050220090091
+  translation:
+    english: that
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὃ
+    strong: '3739'
+- position: 13
+  text: תִּזְרָ֔ע
+  lemma: זָרַע
+  transliteration: tizrāʿ
+  ids:
+    ref: DEU 22:9!10
+    wordID: o050220090101
+  translation:
+    english: sown
+    mandarin: 撒种
+    gloss: you.will.sow
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: זָרַע
+    strong: '2232'
+  semantic:
+    sdbh:
+    - 002058001001000
+    lexdomain:
+    - '002002001014'
+    coredomain:
+    - '125'
+    - '007'
+    sense: '1'
+  lxx:
+    text: σπείρῃς
+  syntax:
+    role: v
+    frame: A0:050210210111; A1:050220090082;
+  discourse:
+    subject: '050210210111'
+- position: 14
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: DEU 22:9!11
+    wordID: o050220090111
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 15
+  text: תְבוּאַ֖ת
+  lemma: תְּבוּאָה
+  transliteration: ṯəḇûʾaṯ
+  ids:
+    ref: DEU 22:9!11
+    wordID: o050220090112
+  translation:
+    english: yield
+    mandarin: 出产
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsc
+    gender: feminine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: תְּבוּאָה
+    strong: '8393'
+  semantic:
+    sdbh:
+    - 007699001001000
+    lexdomain:
+    - '001004003002'
+    coredomain:
+    - '125'
+    - '007'
+    sense: '1'
+  lxx:
+    text: γενήματος
+    strong: '1081'
+- position: 16
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 22:9!12
+    wordID: o050220090121
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 17
+  text: כָּֽרֶם
+  lemma: כֶּרֶם
+  transliteration: 'kārem:'
+  ids:
+    ref: DEU 22:9!12
+    wordID: o050220090122
+  translation:
+    english: vineyard
+    mandarin: 葡萄园
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֶּרֶם
+    strong: '3754'
+  semantic:
+    sdbh:
+    - '003434001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    - '007'
+    sense: '1'

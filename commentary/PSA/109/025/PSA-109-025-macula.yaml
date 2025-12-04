@@ -1,0 +1,352 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 109:25
+text: וַאֲנִ֤י׀הָיִ֣יתִי חֶרְפָּ֣ה לָהֶ֑ם יִ֝רְא֗וּנִי יְנִיע֥וּן רֹאשָֽׁם׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 109:25!1
+    wordID: o191090250011
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אֲנִ֤י
+  lemma: אֲנִי
+  transliteration: ʾăniy
+  ids:
+    ref: PSA 109:25!1
+    wordID: o191090250012
+  translation:
+    english: I
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '191090010022'
+- position: 3
+  text: הָיִ֣יתִי
+  lemma: הָיָה
+  transliteration: hāyiyṯî
+  ids:
+    ref: PSA 109:25!2
+    wordID: o191090250021
+  translation:
+    english: am
+    mandarin: 成
+    gloss: I.have.become
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἐγενήθην
+    strong: '1096'
+  syntax:
+    role: v
+    frame: A0:191090250012;
+- position: 4
+  text: חֶרְפָּ֣ה
+  lemma: חֶרְפָּה
+  transliteration: ḥerpāh
+  ids:
+    ref: PSA 109:25!3
+    wordID: o191090250031
+  translation:
+    english: object of scorn
+    mandarin: 嘲弄的目标
+    gloss: a.reproach
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶרְפָּה
+    strong: '2781'
+  semantic:
+    sdbh:
+    - '002557001004000'
+    lexdomain:
+    - '002001002025'
+    coredomain:
+    - '170'
+    - '196'
+    sense: '1'
+  lxx:
+    text: ὄνειδος
+    strong: '3681'
+  syntax:
+    role: o
+- position: 5
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!4
+    wordID: o191090250041
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 6
+  text: הֶ֑ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!4
+    wordID: o191090250042
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: 191090200031 191090200063
+- position: 7
+  text: יִ֝רְא֗וּ
+  lemma: רָאָה
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!5
+    wordID: o191090250051
+  translation:
+    english: see
+    mandarin: 看见
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: רָאָה
+    strong: '7200'
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+    sense: '1'
+  lxx:
+    text: εἴδοσάν
+  syntax:
+    role: v
+    frame: A0:191090200031;191090200063; A1:191090250052;
+  discourse:
+    subject: 191090200031 191090200063
+- position: 8
+  text: נִי
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!5
+    wordID: o191090250052
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - '006634001001000'
+    lexdomain:
+    - '002004001005'
+    coredomain:
+    - '154'
+  lxx:
+    text: με
+    strong: '3165'
+  syntax:
+    role: o
+  discourse:
+    participant: '191090010022'
+- position: 9
+  text: יְנִיע֥וּ
+  lemma: נוּעַ
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!6
+    wordID: o191090250061
+  translation:
+    english: shake
+    mandarin: 摇
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: hiphil
+    type: yiqtol
+  lexical:
+    stronglemma: נוּעַ
+    strong: '5128'
+  semantic:
+    sdbh:
+    - '004700001006000'
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+    sense: '1'
+  syntax:
+    frame: AA:191090200031;191090200063; A0:191090250071;
+  discourse:
+    subject: 191090200031 191090200063
+- position: 10
+  text: ן
+  lemma: נ
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!6
+    wordID: o191090250062
+  morphology:
+    class: x
+    pos: suffix
+    morph: Sn
+    type: paragogic nun
+  lexical:
+    stronglemma: נ
+    strong: 4993b
+  semantic:
+    sdbh:
+    - '004700001006000'
+    lexdomain:
+    - 002001001058
+    coredomain:
+    - 019
+  lxx:
+    text: ἐσάλευσαν
+- position: 11
+  text: רֹאשָֽׁ
+  lemma: רֹאשׁ
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!7
+    wordID: o191090250071
+  translation:
+    english: heads
+    mandarin: ~的头
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: רֹאשׁ
+    strong: '7218'
+  semantic:
+    sdbh:
+    - 006648001001000
+    lexdomain:
+    - '001001002'
+    sense: '1'
+  lxx:
+    text: κεφαλὰς
+    strong: '2776'
+- position: 12
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 109:25!7
+    wordID: o191090250072
+  translation:
+    english: their
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - 006648001001000
+    lexdomain:
+    - '001001002'
+  lxx:
+    text: αὐτῶν
+    strong: '846'
+  discourse:
+    participant: 191090200031 191090200063

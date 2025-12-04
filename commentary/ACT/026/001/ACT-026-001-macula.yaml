@@ -1,0 +1,240 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: ACT 26:1
+text: Ἀγρίππας δὲ πρὸς τὸν Παῦλον ἔφη Ἐπιτρέπεταί σοι ὑπὲρ σεαυτοῦ λέγειν.
+words:
+- position: 1
+  text: δὲ
+  lemma: δέ
+  normalized: δέ
+  ids:
+    ref: ACT 26:1!2
+    wordID: n44026001002
+  translation:
+    gloss: then
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1161'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: Ἀγρίππας
+  lemma: Ἀγρίππας
+  normalized: Ἀγρίππας
+  ids:
+    ref: ACT 26:1!1
+    wordID: n44026001001
+  translation:
+    gloss: Agrippa
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: proper
+  lexical:
+    strong: '67'
+  semantic:
+    semanticDomain: 093001
+    ln: '93.10'
+  syntax:
+    role: s
+- position: 3
+  text: πρὸς
+  lemma: πρός
+  normalized: πρός
+  ids:
+    ref: ACT 26:1!3
+    wordID: n44026001003
+  translation:
+    gloss: to
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 090013
+    ln: '90.58'
+- position: 4
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: ACT 26:1!4
+    wordID: n44026001004
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: Παῦλον
+  lemma: Παῦλος
+  normalized: Παῦλον
+  ids:
+    ref: ACT 26:1!5
+    wordID: n44026001005
+  translation:
+    gloss: Paul
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '3972'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.294a
+- position: 6
+  text: ἔφη
+  lemma: φημί
+  normalized: ἔφη
+  ids:
+    ref: ACT 26:1!6
+    wordID: n44026001006
+  translation:
+    gloss: was saying
+  morphology:
+    class: verb
+    morph: V-IAI-3S
+    number: singular
+    person: third
+    tense: imperfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5346'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n44026001001
+- position: 7
+  text: Ἐπιτρέπεταί
+  lemma: ἐπιτρέπω
+  normalized: Ἐπιτρέπεται
+  ids:
+    ref: ACT 26:1!7
+    wordID: n44026001007
+  translation:
+    gloss: It is permitted
+  morphology:
+    class: verb
+    morph: V-PPI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '2010'
+  semantic:
+    semanticDomain: '013004'
+    ln: '13.138'
+  syntax:
+    role: v
+    frame: A2:n44026001008 A1:n44026001011
+- position: 8
+  text: σοι
+  lemma: σύ
+  normalized: σοι
+  ids:
+    ref: ACT 26:1!8
+    wordID: n44026001008
+  translation:
+    gloss: you
+  morphology:
+    class: pron
+    morph: P-2DS
+    number: singular
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.6'
+  syntax:
+    role: io
+  discourse:
+    referent: n44026001005
+- position: 9
+  text: ὑπὲρ
+  lemma: ὑπέρ
+  normalized: ὑπέρ
+  ids:
+    ref: ACT 26:1!9
+    wordID: n44026001009
+  translation:
+    gloss: for
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '5228'
+- position: 10
+  text: σεαυτοῦ
+  lemma: σεαυτοῦ
+  normalized: σεαυτοῦ
+  ids:
+    ref: ACT 26:1!10
+    wordID: n44026001010
+  translation:
+    gloss: yourself
+  morphology:
+    class: pron
+    morph: F-2GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: personal
+  lexical:
+    strong: '4572'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.10'
+  discourse:
+    referent: n44026001005
+- position: 11
+  text: λέγειν
+  lemma: λέγω
+  normalized: λέγειν
+  ids:
+    ref: ACT 26:1!11
+    wordID: n44026001011
+  translation:
+    gloss: to speak
+  morphology:
+    class: verb
+    morph: V-PAN
+    tense: present
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n44026001005
+  discourse:
+    subject: n44026001005

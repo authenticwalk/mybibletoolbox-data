@@ -1,0 +1,518 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 106:48
+text: בָּר֤וּךְ־יְהוָ֨ה אֱלֹהֵ֪י יִשְׂרָאֵ֡ל מִן־הָ֤עוֹלָ֨ם׀וְעַ֬ד הָעוֹלָ֗ם וְאָמַ֖ר
+  כָּל־הָעָ֥ם אָמֵ֗ן הַֽלְלוּ־יָֽהּ׃
+words:
+- position: 1
+  text: בָּר֤וּךְ
+  lemma: בָּרַךְ
+  transliteration: bārûḵ-
+  ids:
+    ref: PSA 106:48!1
+    wordID: o191060480011
+  translation:
+    english: blessed
+    mandarin: 称颂
+    gloss: '[be].blessed'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: בָּרַךְ
+    strong: '1288'
+  semantic:
+    sdbh:
+    - 001187002002000
+    lexdomain:
+    - '002003002004'
+    coredomain:
+    - '196'
+    sense: '2'
+  lxx:
+    text: εὐλογητὸς
+    strong: '2128'
+  syntax:
+    role: v
+    frame: A1:191060480021;
+- position: 2
+  text: יְהוָ֨ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 106:48!2
+    wordID: o191060480021
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 3
+  text: אֱלֹהֵ֪י
+  lemma: אֱלֹהִים
+  transliteration: ʾĕlōhēy
+  ids:
+    ref: PSA 106:48!3
+    wordID: o191060480031
+  translation:
+    english: God
+    mandarin: 神/上帝
+    gloss: the.God
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+- position: 4
+  text: יִשְׂרָאֵ֡ל
+  lemma: יִשְׂרָאֵל
+  transliteration: yiśrāʾēl
+  ids:
+    ref: PSA 106:48!4
+    wordID: o191060480041
+  translation:
+    english: Israel
+    mandarin: 以色列
+    gloss: of.Israel
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יִשְׂרָאֵל
+    strong: '3478'
+  semantic:
+    sdbh:
+    - 003188001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+  lxx:
+    text: ισραηλ
+    strong: '2474'
+- position: 5
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: PSA 106:48!5
+    wordID: o191060480051
+  translation:
+    english: from
+    mandarin: 从
+    gloss: from
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἀπὸ
+    strong: '575'
+- position: 6
+  text: הָ֤
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 106:48!6
+    wordID: o191060480061
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 7
+  text: עוֹלָ֨ם
+  lemma: עוֹלָם
+  transliteration: ʿôlām
+  ids:
+    ref: PSA 106:48!6
+    wordID: o191060480062
+  translation:
+    english: everlasting
+    mandarin: 亘古
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: αἰῶνος
+    strong: '165'
+- position: 8
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 106:48!7
+    wordID: o191060480071
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: עַ֬ד
+  lemma: עַד
+  transliteration: ʿaḏ
+  ids:
+    ref: PSA 106:48!7
+    wordID: o191060480072
+  translation:
+    english: to
+    mandarin: 到
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַד
+    strong: '5704'
+  semantic:
+    sdbh:
+    - '005237001002000'
+    lexdomain:
+    - '002002002010'
+  lxx:
+    text: ἕως
+    strong: '2193'
+- position: 10
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 106:48!8
+    wordID: o191060480081
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 11
+  text: עוֹלָ֗ם
+  lemma: עוֹלָם
+  transliteration: ʿôlām
+  ids:
+    ref: PSA 106:48!8
+    wordID: o191060480082
+  translation:
+    english: everlasting
+    mandarin: 永远
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עוֹלָם
+    strong: '5769'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: αἰῶνος
+    strong: '165'
+- position: 12
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 106:48!9
+    wordID: o191060480091
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 13
+  text: אָמַ֖ר
+  lemma: אָמַר
+  transliteration: ʾāmar
+  ids:
+    ref: PSA 106:48!9
+    wordID: o191060480092
+  translation:
+    english: say
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqq3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: weqatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐρεῖ
+    strong: '2046'
+  syntax:
+    role: v
+    frame: A0:191060480112; A1:191060480121;
+- position: 14
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: PSA 106:48!10
+    wordID: o191060480101
+  translation:
+    english: all
+    mandarin: 众
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶς
+    strong: '3956'
+- position: 15
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 106:48!11
+    wordID: o191060480111
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: ὁ
+    strong: '3588'
+- position: 16
+  text: עָ֥ם
+  lemma: עַם
+  transliteration: ʿām
+  ids:
+    ref: PSA 106:48!11
+    wordID: o191060480112
+  translation:
+    english: people
+    mandarin: 民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαός
+    strong: '2992'
+- position: 17
+  text: אָמֵ֗ן
+  lemma: אָמֵן
+  transliteration: ʾāmēn
+  ids:
+    ref: PSA 106:48!12
+    wordID: o191060480121
+  translation:
+    english: amen
+    mandarin: 阿们
+    gloss: amen
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: אָמֵן
+    strong: '0543'
+  semantic:
+    sdbh:
+    - 000497001001000
+    lexdomain:
+    - '004001'
+  lxx:
+    text: γένοιτο
+    strong: '1096'
+  syntax:
+    role: o
+- position: 18
+  text: הַֽלְלוּ
+  lemma: הָלַל
+  transliteration: haləlû-
+  ids:
+    ref: PSA 106:48!13
+    wordID: o191060480131
+  translation:
+    english: praise
+    mandarin: 赞美
+    gloss: praise
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: piel
+    type: imperative
+  lexical:
+    stronglemma: הָלַל
+    strong: 1984a
+  semantic:
+    sdbh:
+    - 001827002001000
+    lexdomain:
+    - 002004001009009
+    coredomain:
+    - '041'
+    - '130'
+    - '170'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:191060480112; A1:191060480141;
+  discourse:
+    subject: '191060480112'
+- position: 19
+  text: יָֽהּ
+  lemma: יָהּ
+  transliteration: 'yāẖ:'
+  ids:
+    ref: PSA 106:48!14
+    wordID: o191060480141
+  translation:
+    english: Lord
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יָהּ
+    strong: '3050'
+  semantic:
+    sdbh:
+    - 002810001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: αλληλουια
+    strong: '239'
+  syntax:
+    role: o

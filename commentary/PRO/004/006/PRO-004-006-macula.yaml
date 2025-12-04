@@ -1,0 +1,353 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 4:6
+text: אַל־תַּעַזְבֶ֥הָ וְתִשְׁמְרֶ֑ךָּ אֱהָבֶ֥הָ וְתִצְּרֶֽךָּ׃
+words:
+- position: 1
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PRO 4:6!1
+    wordID: o200040060011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μηδὲ
+    strong: '3366'
+  syntax:
+    role: adv
+- position: 2
+  text: תַּעַזְבֶ֥
+  lemma: עָזַב
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!2
+    wordID: o200040060021
+  translation:
+    english: forsake
+    mandarin: 离弃
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: עָזַב
+    strong: '5800'
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+    sense: '1'
+  lxx:
+    text: ἐγκαταλίπῃς
+  syntax:
+    role: v
+    frame: A0:200010010021; A1:200040060022;
+  discourse:
+    subject: '200010010021'
+- position: 3
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!2
+    wordID: o200040060022
+  translation:
+    english: her
+    mandarin: 它
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+  lxx:
+    text: αὐτήν
+    strong: '848'
+  syntax:
+    role: o
+  discourse:
+    participant: 200040050021 200040050041 200040050092
+- position: 4
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 4:6!3
+    wordID: o200040060031
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: תִשְׁמְרֶ֑
+  lemma: שָׁמַר
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!3
+    wordID: o200040060032
+  translation:
+    english: guard
+    mandarin: 保守
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁמַר
+    strong: '8104'
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '4'
+  lxx:
+    text: ἀνθέχεταί
+  syntax:
+    role: v
+    frame: A0:200040050021;200040050041;200040050092; A1:200040060033;
+  discourse:
+    subject: 200040050021 200040050041 200040050092
+- position: 6
+  text: ךָּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!3
+    wordID: o200040060033
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 007493001008000
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+  lxx:
+    text: σου
+    strong: '4675'
+  syntax:
+    role: o
+  discourse:
+    participant: '200010010021'
+- position: 7
+  text: אֱהָבֶ֥
+  lemma: אָהֵב
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!4
+    wordID: o200040060041
+  translation:
+    english: love
+    mandarin: 爱
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: אָהֵב
+    strong: '0157'
+  semantic:
+    sdbh:
+    - '000156001001000'
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+    sense: '1'
+  lxx:
+    text: ἐράσθητι
+  syntax:
+    role: v
+    frame: A0:200010010021; A1:200040060042;
+  discourse:
+    subject: '200010010021'
+- position: 8
+  text: הָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!4
+    wordID: o200040060042
+  translation:
+    english: her
+    mandarin: 她
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3fs
+    gender: feminine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 1886d
+  semantic:
+    sdbh:
+    - '000156001001000'
+    lexdomain:
+    - 002001002018
+    coredomain:
+    - '004'
+  lxx:
+    text: αὐτῆς
+    strong: '846'
+  syntax:
+    role: o
+  discourse:
+    participant: 200040050021 200040050041 200040050092
+- position: 9
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PRO 4:6!5
+    wordID: o200040060051
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: תִצְּרֶֽ
+  lemma: נָצַר
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!5
+    wordID: o200040060052
+  translation:
+    english: guard
+    mandarin: 守护
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: נָצַר
+    strong: '5341'
+  semantic:
+    sdbh:
+    - 004893001008000
+    lexdomain:
+    - 002003003018
+    sense: '2'
+  lxx:
+    text: τηρήσει
+    strong: '5083'
+  syntax:
+    role: v
+    frame: A0:200040050021;200040050041;200040050092; A1:200040060053;
+  discourse:
+    subject: 200040050021 200040050041 200040050092
+- position: 11
+  text: ךָּ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 4:6!5
+    wordID: o200040060053
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 004893001008000
+    lexdomain:
+    - 002003003018
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '200010010021'

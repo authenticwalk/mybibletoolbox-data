@@ -1,0 +1,285 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 3:19
+text: יְֽהוָ֗ה בְּחָכְמָ֥ה יָֽסַד־אָ֑רֶץ כּוֹנֵ֥ן שָׁ֝מַ֗יִם בִּתְבוּנָֽה׃
+words:
+- position: 1
+  text: יְֽהוָ֗ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PRO 3:19!1
+    wordID: o200030190011
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: θεὸς
+    strong: '2316'
+  syntax:
+    role: s
+- position: 2
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PRO 3:19!2
+    wordID: o200030190021
+  translation:
+    english: by
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: τῇ
+    strong: '3588'
+- position: 3
+  text: חָכְמָ֥ה
+  lemma: חׇכְמָה
+  transliteration: ḥoḵmāh
+  ids:
+    ref: PRO 3:19!2
+    wordID: o200030190022
+  translation:
+    english: wisdom
+    mandarin: 智慧
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חׇכְמָה
+    strong: '2451'
+  semantic:
+    sdbh:
+    - '002265001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '199'
+    sense: '1'
+  lxx:
+    text: σοφίᾳ
+    strong: '4678'
+- position: 4
+  text: יָֽסַד
+  lemma: יָסַד
+  transliteration: yāsaḏ-
+  ids:
+    ref: PRO 3:19!3
+    wordID: o200030190031
+  translation:
+    english: founded
+    mandarin: 奠定
+    gloss: he.founded
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָסַד
+    strong: '3245'
+  semantic:
+    sdbh:
+    - 002967001003000
+    lexdomain:
+    - '002002002005'
+    sense: '2'
+  lxx:
+    text: ἐθεμελίωσεν
+  syntax:
+    role: v
+    frame: A0:200030190011; A1:200030190041;
+- position: 5
+  text: אָ֑רֶץ
+  lemma: אֶרֶץ
+  transliteration: ʾāreṣ
+  ids:
+    ref: PRO 3:19!4
+    wordID: o200030190041
+  translation:
+    english: earth
+    mandarin: 世界
+    gloss: '[the].earth'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֶרֶץ
+    strong: '0776'
+  semantic:
+    sdbh:
+    - '000715001001000'
+    lexdomain:
+    - '001005002002001'
+    coredomain:
+    - '185'
+    - 097
+    - '007'
+    sense: '2'
+  lxx:
+    text: γῆν
+    strong: '1093'
+  syntax:
+    role: o
+- position: 6
+  text: כּוֹנֵ֥ן
+  lemma: כּוּן
+  transliteration: kônēn
+  ids:
+    ref: PRO 3:19!5
+    wordID: o200030190051
+  translation:
+    english: established
+    mandarin: 设定
+    gloss: he.established
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vop3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: polel
+    type: qatal
+  lexical:
+    stronglemma: כּוּן
+    strong: '3559'
+  semantic:
+    sdbh:
+    - '003263001002000'
+    lexdomain:
+    - 002001001059
+    coredomain:
+    - '166'
+    sense: '2'
+  lxx:
+    text: ἡτοίμασεν
+    strong: '2090'
+  syntax:
+    role: v
+    frame: A0:200030190011; A1:200030190061;
+  discourse:
+    subject: '200030190011'
+- position: 7
+  text: שָׁ֝מַ֗יִם
+  lemma: שָׁמַיִם
+  transliteration: šāmayim
+  ids:
+    ref: PRO 3:19!6
+    wordID: o200030190061
+  translation:
+    english: heavens
+    mandarin: 天
+    gloss: '[the].heavens'
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁמַיִם
+    strong: '8064'
+  semantic:
+    sdbh:
+    - 007459001001000
+    lexdomain:
+    - '001005002001'
+    coredomain:
+    - '185'
+    sense: '1'
+  lxx:
+    text: οὐρανοὺς
+    strong: '3772'
+  syntax:
+    role: o
+- position: 8
+  text: בִּ
+  lemma: בְּ
+  transliteration: bi
+  ids:
+    ref: PRO 3:19!7
+    wordID: o200030190071
+  translation:
+    english: by
+    mandarin: 以
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: תְבוּנָֽה
+  lemma: תְּבוּנָה
+  transliteration: 'ṯəḇûnāh:'
+  ids:
+    ref: PRO 3:19!7
+    wordID: o200030190072
+  translation:
+    english: understanding
+    mandarin: 聪明
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּבוּנָה
+    strong: '8394'
+  semantic:
+    sdbh:
+    - '007700001001000'
+    lexdomain:
+    - 002001002029
+    coredomain:
+    - '106'
+    - '199'
+    sense: '1'
+  lxx:
+    text: φρονήσει
+    strong: '5428'

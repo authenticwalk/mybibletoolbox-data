@@ -1,0 +1,238 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 118:17
+text: לֹֽא אָמ֥וּת כִּי־אֶֽחְיֶ֑ה וַ֝אֲסַפֵּ֗ר מַֽעֲשֵׂ֥י יָֽהּ׃
+words:
+- position: 1
+  text: לֹֽא
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: PSA 118:17!1
+    wordID: o191180170011
+  translation:
+    english: not
+    mandarin: 不至于
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: אָמ֥וּת
+  lemma: מוּת
+  transliteration: ʾāmûṯ
+  ids:
+    ref: PSA 118:17!2
+    wordID: o191180170021
+  translation:
+    english: die
+    mandarin: 死
+    gloss: I.will.die
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: מוּת
+    strong: '4191'
+  semantic:
+    sdbh:
+    - 003823001001000
+    lexdomain:
+    - 002001001019
+    sense: '1'
+  lxx:
+    text: ἀποθανοῦμαι
+    strong: '599'
+  syntax:
+    role: v
+    frame: A0:191180050052;
+  discourse:
+    subject: '191180050052'
+- position: 3
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: PSA 118:17!3
+    wordID: o191180170031
+  translation:
+    english: but
+    mandarin: 而
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ἀλλὰ
+    strong: '235'
+- position: 4
+  text: אֶֽחְיֶ֑ה
+  lemma: חָיָה
+  transliteration: ʾeḥəyeh
+  ids:
+    ref: PSA 118:17!4
+    wordID: o191180170041
+  translation:
+    english: live
+    mandarin: 活
+    gloss: I.will.live
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: חָיָה
+    strong: '2421'
+  semantic:
+    sdbh:
+    - '002232001001000'
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: ζήσομαι
+  syntax:
+    role: v
+    frame: A0:191180050052;
+  discourse:
+    subject: '191180050052'
+- position: 5
+  text: וַ֝
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 118:17!5
+    wordID: o191180170051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 6
+  text: אֲסַפֵּ֗ר
+  lemma: סָפַר
+  transliteration: ʾăsappēr
+  ids:
+    ref: PSA 118:17!5
+    wordID: o191180170052
+  translation:
+    english: proclaim
+    mandarin: 宣扬
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: סָפַר
+    strong: '5608'
+  semantic:
+    sdbh:
+    - 005148001007000
+    lexdomain:
+    - 002004001009008
+    sense: '1'
+  lxx:
+    text: ἐκδιηγήσομαι
+  syntax:
+    role: v
+    frame: A0:191180050052; A1:191180170061;
+  discourse:
+    subject: '191180050052'
+- position: 7
+  text: מַֽעֲשֵׂ֥י
+  lemma: מַעֲשֶׂה
+  transliteration: maʿăśēy
+  ids:
+    ref: PSA 118:17!6
+    wordID: o191180170061
+  translation:
+    english: works
+    mandarin: 作为
+    gloss: the.deeds
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מַעֲשֶׂה
+    strong: '4639'
+  semantic:
+    sdbh:
+    - '004247001001000'
+    lexdomain:
+    - '002002003003'
+    sense: '1'
+  lxx:
+    text: ἔργα
+    strong: '2041'
+- position: 8
+  text: יָֽהּ
+  lemma: יָהּ
+  transliteration: 'yāẖ:'
+  ids:
+    ref: PSA 118:17!7
+    wordID: o191180170071
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: of.Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יָהּ
+    strong: '3050'
+  semantic:
+    sdbh:
+    - 002810001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κυρίου
+    strong: '2962'

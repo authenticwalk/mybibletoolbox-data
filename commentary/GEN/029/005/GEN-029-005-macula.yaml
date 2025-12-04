@@ -1,0 +1,377 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 29:5
+text: וַיֹּ֣אמֶר לָהֶ֔ם הַיְדַעְתֶּ֖ם אֶת־לָבָ֣ן בֶּן־נָח֑וֹר וַיֹּאמְר֖וּ יָדָֽעְנוּ׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 29:5!1
+    wordID: o010290050011
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: יֹּ֣אמֶר
+  lemma: אָמַר
+  transliteration: yyōʾmer
+  ids:
+    ref: GEN 29:5!1
+    wordID: o010290050012
+  translation:
+    english: said
+    mandarin: 问
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπεν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:010290040031;
+  discourse:
+    subject: 010290040031
+- position: 3
+  text: לָ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: GEN 29:5!2
+    wordID: o010290050021
+  translation:
+    english: to
+    mandarin: 对
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 4
+  text: הֶ֔ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: GEN 29:5!2
+    wordID: o010290050022
+  translation:
+    english: them
+    mandarin: 他们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  lxx:
+    text: αὐτοῖς
+    strong: '846'
+  discourse:
+    participant: 010290040022
+- position: 5
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: GEN 29:5!3
+    wordID: o010290050031
+  translation:
+    english: '?'
+    mandarin: 吗
+  morphology:
+    class: ptcl
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: הַ
+    strong: 1886b
+  semantic:
+    sdbh:
+    - '001736001001000'
+    lexdomain:
+    - '004001'
+- position: 6
+  text: יְדַעְתֶּ֖ם
+  lemma: יָדַע
+  transliteration: yəḏaʿtem
+  ids:
+    ref: GEN 29:5!3
+    wordID: o010290050032
+  translation:
+    english: know
+    mandarin: 认识
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: γινώσκετε
+    strong: '1097'
+  syntax:
+    role: v
+    frame: A0:010290040022; A1:010290050051;
+  discourse:
+    subject: 010290040022
+- position: 7
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 29:5!4
+    wordID: o010290050041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 8
+  text: לָבָ֣ן
+  lemma: לָבָן
+  transliteration: lāḇān
+  ids:
+    ref: GEN 29:5!5
+    wordID: o010290050051
+  translation:
+    english: Laban
+    mandarin: 拉班
+    gloss: Laban
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: לָבָן
+    strong: '3837'
+  semantic:
+    sdbh:
+    - 003509002001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: λαβαν
+- position: 9
+  text: בֶּן
+  lemma: בֵּן
+  transliteration: ben-
+  ids:
+    ref: GEN 29:5!6
+    wordID: o010290050061
+  translation:
+    english: son
+    mandarin: 孙子
+    gloss: the.son
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: בֵּן
+    strong: '1121'
+  semantic:
+    sdbh:
+    - '001040001001000'
+    lexdomain:
+    - '001001002003012'
+    coredomain:
+    - '062'
+    - '121'
+    - '129'
+    sense: '11'
+  lxx:
+    text: υἱὸν
+    strong: '5207'
+- position: 10
+  text: נָח֑וֹר
+  lemma: נָחוֹר
+  transliteration: nāḥôr
+  ids:
+    ref: GEN 29:5!7
+    wordID: o010290050071
+  translation:
+    english: Nahor
+    mandarin: 拿鹤
+    gloss: of.Nahor
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: נָחוֹר
+    strong: '5152'
+  semantic:
+    sdbh:
+    - '004723001002000'
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ναξωρ
+- position: 11
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: GEN 29:5!8
+    wordID: o010290050081
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 12
+  text: יֹּאמְר֖וּ
+  lemma: אָמַר
+  transliteration: yyōʾmərû
+  ids:
+    ref: GEN 29:5!8
+    wordID: o010290050082
+  translation:
+    english: said
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqw3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: wayyiqtol
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπαν
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:010290040022;
+  discourse:
+    subject: 010290040022
+- position: 13
+  text: יָדָֽעְנוּ
+  lemma: יָדַע
+  transliteration: 'yāḏāʿənû:'
+  ids:
+    ref: GEN 29:5!9
+    wordID: o010290050091
+  translation:
+    english: know
+    mandarin: 认识
+    gloss: we.know.[him]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cp
+    gender: common
+    number: plural
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: יָדַע
+    strong: '3045'
+  semantic:
+    sdbh:
+    - 002806001001000
+    lexdomain:
+    - '002004002007'
+    coredomain:
+    - '106'
+    sense: '1'
+  lxx:
+    text: γινώσκομεν
+    strong: '1097'
+  syntax:
+    role: v
+    frame: A0:010290040022; A1:010290050051;
+  discourse:
+    subject: 010290040022

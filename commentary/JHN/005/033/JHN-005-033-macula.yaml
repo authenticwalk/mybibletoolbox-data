@@ -1,0 +1,179 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 5:33
+text: ὑμεῖς ἀπεστάλκατε πρὸς Ἰωάνην, καὶ μεμαρτύρηκεν τῇ ἀληθείᾳ·
+words:
+- position: 1
+  text: ὑμεῖς
+  lemma: σύ
+  normalized: ὑμεῖς
+  ids:
+    ref: JHN 5:33!1
+    wordID: n43005033001
+  translation:
+    gloss: You
+  morphology:
+    class: pron
+    morph: P-2NP
+    number: plural
+    case: nominative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: s
+  discourse:
+    referent: n43005018008
+- position: 2
+  text: ἀπεστάλκατε
+  lemma: ἀποστέλλω
+  normalized: ἀπεστάλκατε
+  ids:
+    ref: JHN 5:33!2
+    wordID: n43005033002
+  translation:
+    gloss: have sent
+  morphology:
+    class: verb
+    morph: V-RAI-2P
+    number: plural
+    person: second
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '649'
+  semantic:
+    semanticDomain: '015004'
+    ln: '15.67'
+  syntax:
+    role: v
+    frame: A0:n43005033001
+- position: 3
+  text: πρὸς
+  lemma: πρός
+  normalized: πρός
+  ids:
+    ref: JHN 5:33!3
+    wordID: n43005033003
+  translation:
+    gloss: unto
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '4314'
+  semantic:
+    semanticDomain: 084002
+    ln: '84.18'
+- position: 4
+  text: Ἰωάνην
+  lemma: Ἰωάννης
+  normalized: Ἰωάνην
+  ids:
+    ref: JHN 5:33!4
+    wordID: n43005033004
+  translation:
+    gloss: John
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: proper
+  lexical:
+    strong: '2491'
+  semantic:
+    semanticDomain: 093001
+    ln: 93.190a
+- position: 5
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: JHN 5:33!5
+    wordID: n43005033005
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 6
+  text: μεμαρτύρηκεν
+  lemma: μαρτυρέω
+  normalized: μεμαρτύρηκεν
+  ids:
+    ref: JHN 5:33!6
+    wordID: n43005033006
+  translation:
+    gloss: he has borne witness
+  morphology:
+    class: verb
+    morph: V-RAI-3S
+    number: singular
+    person: third
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '3140'
+  semantic:
+    semanticDomain: '033020'
+    ln: '33.262'
+  syntax:
+    role: v
+    frame: A0:n43005033004 A2:n43005033008
+  discourse:
+    subject: n43005033004
+- position: 7
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: JHN 5:33!7
+    wordID: n43005033007
+  translation:
+    gloss: to the
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 8
+  text: ἀληθείᾳ
+  lemma: ἀλήθεια
+  normalized: ἀληθείᾳ
+  ids:
+    ref: JHN 5:33!8
+    wordID: n43005033008
+  translation:
+    gloss: truth
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '225'
+  semantic:
+    semanticDomain: '072001'
+    ln: '72.2'

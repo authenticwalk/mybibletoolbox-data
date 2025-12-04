@@ -1,0 +1,487 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 39:12
+text: בְּֽתוֹכָ֘ח֤וֹת עַל־עָוֺ֨ן׀יִסַּ֬רְתָּ אִ֗ישׁ וַתֶּ֣מֶס כָּעָ֣שׁ חֲמוּד֑וֹ אַ֤ךְ
+  הֶ֖בֶל כָּל־אָדָ֣ם סֶֽלָה׃
+words:
+- position: 1
+  text: בְּֽ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: PSA 39:12!1
+    wordID: o190390120011
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 2
+  text: תוֹכָ֘ח֤וֹת
+  lemma: תּוֹכַחַת
+  transliteration: ṯôḵāḥôṯ
+  ids:
+    ref: PSA 39:12!1
+    wordID: o190390120012
+  translation:
+    english: punishment
+    mandarin: 责罚
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpa
+    gender: feminine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תּוֹכַחַת
+    strong: 8433a
+  semantic:
+    sdbh:
+    - '007740001002000'
+    lexdomain:
+    - '002003002006'
+    sense: '1'
+  lxx:
+    text: ἐλεγμοῖς
+- position: 3
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PSA 39:12!2
+    wordID: o190390120021
+  translation:
+    english: for
+    mandarin: 因
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ὑπὲρ
+    strong: '5228'
+- position: 4
+  text: עָוֺ֨ן
+  lemma: עָוֺן
+  transliteration: ʿāwōn
+  ids:
+    ref: PSA 39:12!3
+    wordID: o190390120031
+  translation:
+    english: sin
+    mandarin: 罪孽
+    gloss: iniquity
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָוֺן
+    strong: '5771'
+  semantic:
+    sdbh:
+    - 005298001001000
+    lexdomain:
+    - '002002002010'
+    sense: '1'
+  lxx:
+    text: ἀνομίας
+    strong: '458'
+- position: 5
+  text: יִסַּ֬רְתָּ
+  lemma: יָסַר
+  transliteration: yissarətā
+  ids:
+    ref: PSA 39:12!4
+    wordID: o190390120041
+  translation:
+    english: discipline
+    mandarin: 管教
+    gloss: you.have.disciplined
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpp2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: piel
+    type: qatal
+  lexical:
+    stronglemma: יָסַר
+    strong: '3256'
+  semantic:
+    sdbh:
+    - 002976001001000
+    lexdomain:
+    - '002003002006'
+    coredomain:
+    - '015'
+    - '140'
+    - '017'
+    sense: '1'
+  lxx:
+    text: ἐπαίδευσας
+  syntax:
+    role: v
+    frame: A0:190390080041; A1:190390120051;
+  discourse:
+    subject: '190390080041'
+- position: 6
+  text: אִ֗ישׁ
+  lemma: אִישׁ
+  transliteration: ʾiyš
+  ids:
+    ref: PSA 39:12!5
+    wordID: o190390120051
+  translation:
+    english: man
+    mandarin: 人
+    gloss: a.person
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אִישׁ
+    strong: '0376'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἄνθρωπον
+    strong: '444'
+  syntax:
+    role: o
+- position: 7
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: PSA 39:12!6
+    wordID: o190390120061
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: תֶּ֣מֶס
+  lemma: מָסָה
+  transliteration: temes
+  ids:
+    ref: PSA 39:12!6
+    wordID: o190390120062
+  translation:
+    english: consume
+    mandarin: 消失
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhw2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: wayyiqtol
+  lexical:
+    stronglemma: מָסָה
+    strong: '4529'
+  semantic:
+    sdbh:
+    - '004146001003000'
+    lexdomain:
+    - '002002002006'
+    sense: '1'
+  lxx:
+    text: ἐχέτηχας
+  syntax:
+    role: v
+    frame: AA:190390080041; A0:190390120081;
+  discourse:
+    subject: '190390080041'
+- position: 9
+  text: כָּ
+  lemma: כְּ
+  transliteration: kā
+  ids:
+    ref: PSA 39:12!7
+    wordID: o190390120071
+  translation:
+    english: like
+    mandarin: 如
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: כְּ
+    strong: 3509a
+  lxx:
+    text: ὡς
+    strong: '5613'
+- position: 10
+  text: עָ֣שׁ
+  lemma: עָשׁ
+  transliteration: ʿāš
+  ids:
+    ref: PSA 39:12!7
+    wordID: o190390120072
+  translation:
+    english: moth
+    mandarin: 蛀虫
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עָשׁ
+    strong: '6211'
+  semantic:
+    sdbh:
+    - 005695001001000
+    lexdomain:
+    - '001001002001006'
+    coredomain:
+    - '010'
+    sense: '1'
+  lxx:
+    text: ἀράξνην
+- position: 11
+  text: חֲמוּד֑
+  lemma: חָמַד
+  transliteration: ''
+  ids:
+    ref: PSA 39:12!8
+    wordID: o190390120081
+  translation:
+    english: dear
+    mandarin: 喜爱
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsc
+    gender: masculine
+    number: singular
+    state: construct
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: חָמַד
+    strong: '2530'
+  semantic:
+    sdbh:
+    - 002329001001000
+    lexdomain:
+    - '002004002001001'
+    coredomain:
+    - '106'
+    sense: '5'
+- position: 12
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 39:12!8
+    wordID: o190390120082
+  translation:
+    english: him
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - 002329001001000
+    lexdomain:
+    - '002004002001001'
+    coredomain:
+    - '106'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190390120051'
+- position: 13
+  text: אַ֤ךְ
+  lemma: אַךְ
+  transliteration: ʾaḵ
+  ids:
+    ref: PSA 39:12!9
+    wordID: o190390120091
+  translation:
+    english: surely
+    mandarin: 不过
+    gloss: '[is].only'
+  morphology:
+    class: adv
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: אַךְ
+    strong: 0389
+  semantic:
+    sdbh:
+    - '000364001004000'
+    lexdomain:
+    - '004003'
+  lxx:
+    text: πλὴν
+    strong: '4133'
+  syntax:
+    role: adv
+- position: 14
+  text: הֶ֖בֶל
+  lemma: הֶבֶל
+  transliteration: heḇel
+  ids:
+    ref: PSA 39:12!10
+    wordID: o190390120101
+  translation:
+    english: breath
+    mandarin: 虚幻
+    gloss: vanity
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: הֶבֶל
+    strong: '1892'
+  semantic:
+    sdbh:
+    - '001743001003000'
+    lexdomain:
+    - '002003003012'
+    coredomain:
+    - '173'
+    sense: '1'
+  lxx:
+    text: μάτην
+    strong: '3155'
+  syntax:
+    role: p
+- position: 15
+  text: כָּל
+  lemma: כֹּל
+  transliteration: kol-
+  ids:
+    ref: PSA 39:12!11
+    wordID: o190390120111
+  translation:
+    english: every
+    mandarin: 一切
+    gloss: all
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶς
+    strong: '3956'
+- position: 16
+  text: אָדָ֣ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: PSA 39:12!12
+    wordID: o190390120121
+  translation:
+    english: man
+    mandarin: 世人
+    gloss: humankind
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἄνθρωπος
+    strong: '444'
+- position: 17
+  text: סֶֽלָה
+  lemma: סֶלָה
+  transliteration: 'selâ:'
+  ids:
+    ref: PSA 39:12!13
+    wordID: o190390120131
+  translation:
+    english: selah
+    mandarin: 细拉
+    gloss: Selah
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tj
+    type: interjection
+  lexical:
+    stronglemma: סֶלָה
+    strong: '5542'
+  lxx:
+    text: διάψαλμα

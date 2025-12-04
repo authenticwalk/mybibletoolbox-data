@@ -1,0 +1,713 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ISA 55:2
+text: לָ֤מָּה תִשְׁקְלוּ־כֶ֨סֶף֙ בְּֽלוֹא־לֶ֔חֶם וִיגִיעֲכֶ֖ם בְּל֣וֹא לְשָׂבְעָ֑ה
+  שִׁמְע֨וּ שָׁמ֤וֹעַ אֵלַי֙ וְאִכְלוּ־ט֔וֹב וְתִתְעַנַּ֥ג בַּדֶּ֖שֶׁן נַפְשְׁכֶֽם׃
+words:
+- position: 1
+  text: לָ֤
+  lemma: לָמָה
+  transliteration: lā
+  ids:
+    ref: ISA 55:2!1
+    wordID: o230550020011
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לָמָה
+    strong: 3807a
+  semantic:
+    sdbh:
+    - 003592001001000
+    lexdomain:
+    - '003002003'
+  lxx:
+    text: ἵνα
+    strong: '2443'
+- position: 2
+  text: מָּה
+  lemma: מָה
+  transliteration: mmâ
+  ids:
+    ref: ISA 55:2!1
+    wordID: o230550020012
+  translation:
+    english: why?
+    mandarin: 为什么
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - 003592001001000
+    lexdomain:
+    - '003002003'
+  lxx:
+    text: τί
+    strong: '5101'
+- position: 3
+  text: תִשְׁקְלוּ
+  lemma: שָׁקַל
+  transliteration: ṯišqəlû-
+  ids:
+    ref: ISA 55:2!2
+    wordID: o230550020021
+  translation:
+    english: spend
+    mandarin: 把~花
+    gloss: do.you.weigh.out
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: שָׁקַל
+    strong: '8254'
+  semantic:
+    sdbh:
+    - '007611001001000'
+    lexdomain:
+    - 002004002009
+    coredomain:
+    - '154'
+    - '190'
+    sense: '3'
+  lxx:
+    text: τιμᾶσθε
+  syntax:
+    role: v
+    frame: A0:230550010071; A1:230550020031;
+  discourse:
+    subject: '230550010071'
+- position: 4
+  text: כֶ֨סֶף֙
+  lemma: כֶּסֶף
+  transliteration: ḵesep̄
+  ids:
+    ref: ISA 55:2!3
+    wordID: o230550020031
+  translation:
+    english: money
+    mandarin: 银子
+    gloss: money
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כֶּסֶף
+    strong: '3701'
+  semantic:
+    sdbh:
+    - 003385001001000
+    lexdomain:
+    - 001006008
+    sense: '1'
+  lxx:
+    text: ἀργυρίου
+    strong: '694'
+  syntax:
+    role: o
+- position: 5
+  text: בְּֽ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: ISA 55:2!4
+    wordID: o230550020041
+  translation:
+    english: for
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 6
+  text: לוֹא
+  lemma: לֹא
+  transliteration: lôʾ-
+  ids:
+    ref: ISA 55:2!4
+    wordID: o230550020042
+  translation:
+    english: not
+    mandarin: 不是
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+- position: 7
+  text: לֶ֔חֶם
+  lemma: לֶחֶם
+  transliteration: leḥem
+  ids:
+    ref: ISA 55:2!5
+    wordID: o230550020051
+  translation:
+    english: bread
+    mandarin: 食物
+    gloss: bread
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לֶחֶם
+    strong: '3899'
+  semantic:
+    sdbh:
+    - '003565001001000'
+    lexdomain:
+    - '001004003001'
+    - '001004003'
+    sense: '1'
+- position: 8
+  text: וִ
+  lemma: וְ
+  transliteration: wi
+  ids:
+    ref: ISA 55:2!6
+    wordID: o230550020061
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 9
+  text: יגִיעֲ
+  lemma: יְגִיעַ
+  transliteration: ''
+  ids:
+    ref: ISA 55:2!6
+    wordID: o230550020062
+  translation:
+    english: labor
+    mandarin: 劳碌得来的
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: יְגִיעַ
+    strong: '3018'
+  semantic:
+    sdbh:
+    - '002777001002000'
+    lexdomain:
+    - '002003002020'
+    sense: '1'
+- position: 10
+  text: כֶ֖ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 55:2!6
+    wordID: o230550020063
+  translation:
+    english: your
+    mandarin: 你们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - '002777001002000'
+    lexdomain:
+    - '002003002020'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '230550010071'
+- position: 11
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: ISA 55:2!7
+    wordID: o230550020071
+  translation:
+    english: 'on'
+    mandarin: 在~上
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 12
+  text: ל֣וֹא
+  lemma: לֹא
+  transliteration: lôʾ
+  ids:
+    ref: ISA 55:2!7
+    wordID: o230550020072
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐκ
+    strong: '3756'
+- position: 13
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: ISA 55:2!8
+    wordID: o230550020081
+  translation:
+    english: for
+    mandarin: 致
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 14
+  text: שָׂבְעָ֑ה
+  lemma: שׇׂבְעָה
+  transliteration: śāḇʿāh
+  ids:
+    ref: ISA 55:2!8
+    wordID: o230550020082
+  translation:
+    english: satisfy
+    mandarin: 饱足
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שׇׂבְעָה
+    strong: '7654'
+  semantic:
+    sdbh:
+    - 006972001001000
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: πλησμονήν
+    strong: '4140'
+- position: 15
+  text: שִׁמְע֨וּ
+  lemma: שָׁמַע
+  transliteration: šimʿû
+  ids:
+    ref: ISA 55:2!9
+    wordID: o230550020091
+  translation:
+    english: listen
+    mandarin: 听
+    gloss: listen
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '3'
+  lxx:
+    text: ἀκούσατέ
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:230550010071;
+  discourse:
+    subject: '230550010071'
+- position: 16
+  text: שָׁמ֤וֹעַ
+  lemma: שָׁמַע
+  transliteration: šāmôᵃʿ
+  ids:
+    ref: ISA 55:2!10
+    wordID: o230550020101
+  translation:
+    english: listen
+    mandarin: 听
+    gloss: carefully.(listen)
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqa
+    stem: qal
+    type: infinitive absolute
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '3'
+  syntax:
+    role: adv
+- position: 17
+  text: אֵלַ
+  lemma: אֶל
+  transliteration: ''
+  ids:
+    ref: ISA 55:2!11
+    wordID: o230550020111
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+- position: 18
+  text: י֙
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 55:2!11
+    wordID: o230550020112
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '230540170201'
+- position: 19
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 55:2!12
+    wordID: o230550020121
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 20
+  text: אִכְלוּ
+  lemma: אָכַל
+  transliteration: ʾiḵlû-
+  ids:
+    ref: ISA 55:2!12
+    wordID: o230550020122
+  translation:
+    english: eat
+    mandarin: 吃
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2mp
+    gender: masculine
+    number: plural
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: אָכַל
+    strong: 0398
+  semantic:
+    sdbh:
+    - '000373001001000'
+    lexdomain:
+    - '002001001024'
+    coredomain:
+    - 069
+    sense: '1'
+  lxx:
+    text: φάγεσθε
+    strong: '2068'
+  syntax:
+    role: v
+    frame: A0:230550010071; A1:230550020131;
+  discourse:
+    subject: '230550010071'
+- position: 21
+  text: ט֔וֹב
+  lemma: טוֹב
+  transliteration: ṭôḇ
+  ids:
+    ref: ISA 55:2!13
+    wordID: o230550020131
+  translation:
+    english: what is good
+    mandarin: 美物
+    gloss: good.thing[s]
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aamsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: adjective
+  lexical:
+    stronglemma: טוֹב
+    strong: '2896'
+  semantic:
+    sdbh:
+    - '002666001001000'
+    lexdomain:
+    - 002001001028
+    coredomain:
+    - '137'
+    sense: '1'
+  lxx:
+    text: ἀγαθά
+    strong: '18'
+  syntax:
+    role: o
+- position: 22
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ISA 55:2!14
+    wordID: o230550020141
+  translation:
+    english: and
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 23
+  text: תִתְעַנַּ֥ג
+  lemma: עָנֹג
+  transliteration: ṯiṯʿannaḡ
+  ids:
+    ref: ISA 55:2!14
+    wordID: o230550020142
+  translation:
+    english: delight
+    mandarin: 喜乐
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vti3fs
+    gender: feminine
+    number: singular
+    person: third
+    stem: hithpael
+    type: yiqtol
+  lexical:
+    stronglemma: עָנֹג
+    strong: '6026'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐντρυφήσει
+  syntax:
+    role: v
+    frame: A0:230550020161;
+- position: 24
+  text: בַּ
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: ISA 55:2!15
+    wordID: o230550020151
+  translation:
+    english: in
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 25
+  text: דֶּ֖שֶׁן
+  lemma: דֶּשֶׁן
+  transliteration: dešen
+  ids:
+    ref: ISA 55:2!15
+    wordID: o230550020152
+  translation:
+    english: rich food
+    mandarin: 肥甘
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: דֶּשֶׁן
+    strong: '1880'
+  semantic:
+    sdbh:
+    - 001728001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    - '137'
+    sense: '2'
+  lxx:
+    text: ἀγαθοῖς
+    strong: '18'
+- position: 26
+  text: נַפְשְׁ
+  lemma: נֶפֶשׁ
+  transliteration: ''
+  ids:
+    ref: ISA 55:2!16
+    wordID: o230550020161
+  translation:
+    english: soul
+    mandarin: 心灵
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶפֶשׁ
+    strong: '5315'
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+    sense: '1'
+  lxx:
+    text: ψυξὴ
+    strong: '5590'
+- position: 27
+  text: כֶֽם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: ISA 55:2!16
+    wordID: o230550020162
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2mp
+    gender: masculine
+    number: plural
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3641b
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+  lxx:
+    text: ὑμῶν
+    strong: '5216'
+  discourse:
+    participant: '230550010071'

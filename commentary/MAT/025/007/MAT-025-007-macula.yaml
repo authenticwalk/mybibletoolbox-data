@@ -1,0 +1,244 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: MAT 25:7
+text: τότε ἠγέρθησαν πᾶσαι αἱ παρθένοι ἐκεῖναι καὶ ἐκόσμησαν τὰς λαμπάδας ἑαυτῶν.
+words:
+- position: 1
+  text: τότε
+  lemma: τότε
+  normalized: τότε
+  ids:
+    ref: MAT 25:7!1
+    wordID: n40025007001
+  translation:
+    gloss: Then
+  morphology:
+    class: adv
+    morph: ADV
+  lexical:
+    strong: '5119'
+  semantic:
+    semanticDomain: '067002'
+    ln: '67.47'
+  syntax:
+    role: adv
+- position: 2
+  text: ἠγέρθησαν
+  lemma: ἐγείρω
+  normalized: ἠγέρθησαν
+  ids:
+    ref: MAT 25:7!2
+    wordID: n40025007002
+  translation:
+    gloss: arose
+  morphology:
+    class: verb
+    morph: V-API-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: passive
+    mood: indicative
+  lexical:
+    strong: '1453'
+  semantic:
+    semanticDomain: '017001'
+    ln: '17.9'
+  syntax:
+    role: v
+    frame: A1:n40025007005
+- position: 3
+  text: πᾶσαι
+  lemma: πᾶς
+  normalized: πᾶσαι
+  ids:
+    ref: MAT 25:7!3
+    wordID: n40025007003
+  translation:
+    gloss: all
+  morphology:
+    class: adj
+    morph: A-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+  lexical:
+    strong: '3956'
+  semantic:
+    semanticDomain: 059003
+    ln: '59.23'
+- position: 4
+  text: αἱ
+  lemma: ὁ
+  normalized: αἱ
+  ids:
+    ref: MAT 25:7!4
+    wordID: n40025007004
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 5
+  text: παρθένοι
+  lemma: παρθένος
+  normalized: παρθένοι
+  ids:
+    ref: MAT 25:7!5
+    wordID: n40025007005
+  translation:
+    gloss: virgins
+  morphology:
+    class: noun
+    morph: N-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: common
+  lexical:
+    strong: '3933'
+  semantic:
+    semanticDomain: 009003
+    ln: '9.39'
+- position: 6
+  text: ἐκεῖναι
+  lemma: ἐκεῖνος
+  normalized: ἐκεῖναι
+  ids:
+    ref: MAT 25:7!6
+    wordID: n40025007006
+  translation:
+    gloss: those
+  morphology:
+    class: pron
+    morph: D-NPF
+    gender: feminine
+    number: plural
+    case: nominative
+    type: demonstrative
+  lexical:
+    strong: '1565'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.30'
+  discourse:
+    referent: n40025001008
+- position: 7
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: MAT 25:7!7
+    wordID: n40025007007
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089015
+    ln: '89.87'
+- position: 8
+  text: ἐκόσμησαν
+  lemma: κοσμέω
+  normalized: ἐκόσμησαν
+  ids:
+    ref: MAT 25:7!8
+    wordID: n40025007008
+  translation:
+    gloss: trimmed
+  morphology:
+    class: verb
+    morph: V-AAI-3P
+    number: plural
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2885'
+  semantic:
+    semanticDomain: 079004
+    ln: '79.12'
+  syntax:
+    role: v
+    frame: A0:n40025007005 A1:n40025007010
+  discourse:
+    subject: n40025007005
+- position: 9
+  text: τὰς
+  lemma: ὁ
+  normalized: τάς
+  ids:
+    ref: MAT 25:7!9
+    wordID: n40025007009
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 10
+  text: λαμπάδας
+  lemma: λαμπάς
+  normalized: λαμπάδας
+  ids:
+    ref: MAT 25:7!10
+    wordID: n40025007010
+  translation:
+    gloss: lamps
+  morphology:
+    class: noun
+    morph: N-APF
+    gender: feminine
+    number: plural
+    case: accusative
+    type: common
+  lexical:
+    strong: '2985'
+  semantic:
+    semanticDomain: '006014'
+    ln: '6.104'
+- position: 11
+  text: ἑαυτῶν
+  lemma: ἑαυτοῦ
+  normalized: ἑαυτῶν
+  ids:
+    ref: MAT 25:7!11
+    wordID: n40025007011
+  translation:
+    gloss: of them
+  morphology:
+    class: pron
+    morph: F-3GPF
+    gender: feminine
+    number: plural
+    case: genitive
+    type: personal
+  lexical:
+    strong: '1438'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.25'
+  discourse:
+    referent: n40025007005

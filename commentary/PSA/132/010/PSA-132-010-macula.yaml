@@ -1,0 +1,302 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 132:10
+text: בַּ֭עֲבוּר דָּוִ֣ד עַבְדֶּ֑ךָ אַל־תָּ֝שֵׁ֗ב פְּנֵ֣י מְשִׁיחֶֽךָ׃
+words:
+- position: 1
+  text: בַּ֭
+  lemma: בְּ
+  transliteration: ba
+  ids:
+    ref: PSA 132:10!1
+    wordID: o191320100011
+  translation:
+    english: for
+    mandarin: 因
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 2
+  text: עֲבוּר
+  lemma: עָבוּר
+  transliteration: ʿăḇûr
+  ids:
+    ref: PSA 132:10!1
+    wordID: o191320100012
+  translation:
+    english: sake
+    mandarin: 缘故
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עָבוּר
+    strong: '5668'
+  semantic:
+    sdbh:
+    - '001071001002000'
+    lexdomain:
+    - '002004'
+    sense: '1'
+  lxx:
+    text: ἕνεκεν
+    strong: '1752'
+- position: 3
+  text: דָּוִ֣ד
+  lemma: דָּוִד
+  transliteration: dāwiḏ
+  ids:
+    ref: PSA 132:10!2
+    wordID: o191320100021
+  translation:
+    english: David
+    mandarin: 大卫
+    gloss: David
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: דָּוִד
+    strong: '1732'
+  semantic:
+    sdbh:
+    - 001591001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: δαυιδ
+    strong: '1138'
+- position: 4
+  text: עַבְדֶּ֑
+  lemma: עֶבֶד
+  transliteration: ''
+  ids:
+    ref: PSA 132:10!3
+    wordID: o191320100031
+  translation:
+    english: servant
+    mandarin: 仆人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֶבֶד
+    strong: '5650'
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+    sense: '1'
+- position: 5
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 132:10!3
+    wordID: o191320100032
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 005189001001000
+    lexdomain:
+    - '001001002003001'
+    - '001001002003007'
+    - '002003002024'
+    coredomain:
+    - '015'
+    - '170'
+    - 082
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191320080021'
+- position: 6
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 132:10!4
+    wordID: o191320100041
+  translation:
+    english: not
+    mandarin: 不要
+    gloss: do.not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 7
+  text: תָּ֝שֵׁ֗ב
+  lemma: שׁוּב
+  transliteration: tāšēḇ
+  ids:
+    ref: PSA 132:10!5
+    wordID: o191320100051
+  translation:
+    english: turn away
+    mandarin: 转回
+    gloss: turn.away
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhj2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: hiphil
+    type: jussive
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - '007226001077000'
+    lexdomain:
+    - '002001002031'
+    coredomain:
+    - '197'
+    sense: '5'
+  lxx:
+    text: ἀποστρέψῃς
+    strong: '654'
+  syntax:
+    role: v
+    frame: AA:191320080021; A0:191320100061;
+  discourse:
+    subject: '191320080021'
+- position: 8
+  text: פְּנֵ֣י
+  lemma: פָּנֶה
+  transliteration: pənēy
+  ids:
+    ref: PSA 132:10!6
+    wordID: o191320100061
+  translation:
+    english: face
+    mandarin: 脸
+    gloss: the.face
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbpc
+    gender: both
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: פָּנֶה
+    strong: '6440'
+  semantic:
+    sense: '2'
+  lxx:
+    text: πρόσωπον
+    strong: '4383'
+- position: 9
+  text: מְשִׁיחֶֽ
+  lemma: מָשִׁיחַ
+  transliteration: ''
+  ids:
+    ref: PSA 132:10!7
+    wordID: o191320100071
+  translation:
+    english: anointed
+    mandarin: 受膏者
+  morphology:
+    class: adj
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: מָשִׁיחַ
+    strong: '4899'
+  semantic:
+    sdbh:
+    - 004486001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+    sense: '1'
+- position: 10
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 132:10!7
+    wordID: o191320100072
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 004486001001000
+    lexdomain:
+    - '001001002003005'
+    coredomain:
+    - '015'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '191320080021'

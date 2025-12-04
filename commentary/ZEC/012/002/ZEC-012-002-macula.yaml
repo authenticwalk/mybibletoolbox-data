@@ -1,0 +1,539 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: ZEC 12:2
+text: הִנֵּ֣ה אָ֠נֹכִי שָׂ֣ם אֶת־יְרוּשָׁלִַ֧ם סַף־רַ֛עַל לְכָל־הָעַמִּ֖ים סָבִ֑יב
+  וְגַ֧ם עַל־יְהוּדָ֛ה יִֽהְיֶ֥ה בַמָּצ֖וֹר עַל־יְרוּשָׁלִָֽם׃
+words:
+- position: 1
+  text: הִנֵּ֣ה
+  lemma: הִנֵּה
+  transliteration: hinnēh
+  ids:
+    ref: ZEC 12:2!1
+    wordID: o380120020011
+  translation:
+    english: behold
+    mandarin: 看
+    gloss: here!
+  morphology:
+    class: ij
+    pos: particle
+    morph: Tm
+    type: demonstrative
+  lexical:
+    stronglemma: הִנֵּה
+    strong: '2009'
+  lxx:
+    text: ἰδοὺ
+    strong: '2400'
+- position: 2
+  text: אָ֠נֹכִי
+  lemma: אָנֹכִי
+  transliteration: ʾānōḵî
+  ids:
+    ref: ZEC 12:2!2
+    wordID: o380120020021
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אָנֹכִי
+    strong: 0595
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '380120010071'
+- position: 3
+  text: שָׂ֣ם
+  lemma: שׂים
+  transliteration: śām
+  ids:
+    ref: ZEC 12:2!3
+    wordID: o380120020031
+  translation:
+    english: make
+    mandarin: 使~成为
+    gloss: '[am].about.to.make'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: שׂים
+    strong: '7760'
+  semantic:
+    sdbh:
+    - 007028001006000
+    lexdomain:
+    - '002001001020'
+    coredomain:
+    - '160'
+    sense: '2'
+  lxx:
+    text: τίθημι
+    strong: '5087'
+  syntax:
+    role: v
+    frame: A0:380120020021; A1:380120020051;
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: ZEC 12:2!4
+    wordID: o380120020041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: יְרוּשָׁלִַ֧ם
+  lemma: יְרוּשָׁלִַ͏ם
+  transliteration: yərûšālaim
+  ids:
+    ref: ZEC 12:2!5
+    wordID: o380120020051
+  translation:
+    english: Jerusalem
+    mandarin: 耶路撒冷
+    gloss: Jerusalem
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְרוּשָׁלִַ͏ם
+    strong: '3389'
+  semantic:
+    sdbh:
+    - 003099001001000
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: ιερουσαλημ
+    strong: '2414'
+- position: 6
+  text: סַף
+  lemma: סַף
+  transliteration: sap̄-
+  ids:
+    ref: ZEC 12:2!6
+    wordID: o380120020061
+  translation:
+    english: cup
+    mandarin: 杯
+    gloss: a.basin
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: סַף
+    strong: 5592a
+  semantic:
+    sdbh:
+    - '005133001001000'
+    lexdomain:
+    - '001004001003'
+    coredomain:
+    - '027'
+    - '171'
+    sense: '1'
+  lxx:
+    text: πρόθυρα
+- position: 7
+  text: רַ֛עַל
+  lemma: רַעַל
+  transliteration: raʿal
+  ids:
+    ref: ZEC 12:2!7
+    wordID: o380120020071
+  translation:
+    english: reeling
+    mandarin: 踉跄
+    gloss: of.reeling
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רַעַל
+    strong: '7478'
+  semantic:
+    sense: '1'
+  lxx:
+    text: σαλευόμενα
+    strong: '4531'
+- position: 8
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: ZEC 12:2!8
+    wordID: o380120020081
+  translation:
+    english: for
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 9
+  text: כָל
+  lemma: כֹּל
+  transliteration: ḵol-
+  ids:
+    ref: ZEC 12:2!8
+    wordID: o380120020082
+  translation:
+    english: all
+    mandarin: 所有
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶσι
+    strong: '3956'
+- position: 10
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: ZEC 12:2!9
+    wordID: o380120020091
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῖς
+    strong: '3588'
+- position: 11
+  text: עַמִּ֖ים
+  lemma: עַם
+  transliteration: ʿammiym
+  ids:
+    ref: ZEC 12:2!9
+    wordID: o380120020092
+  translation:
+    english: peoples
+    mandarin: 国家
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοῖς
+    strong: '2992'
+- position: 12
+  text: סָבִ֑יב
+  lemma: סָבִיב
+  transliteration: sāḇiyḇ
+  ids:
+    ref: ZEC 12:2!10
+    wordID: o380120020101
+  translation:
+    english: surrounding
+    mandarin: 四围
+    gloss: all.around
+  morphology:
+    class: adv
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: סָבִיב
+    strong: '5439'
+  lxx:
+    text: κύκλῳ
+    strong: '2945'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: ZEC 12:2!11
+    wordID: o380120020111
+  translation:
+    english: and
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: גַ֧ם
+  lemma: גַּם
+  transliteration: ḡam
+  ids:
+    ref: ZEC 12:2!11
+    wordID: o380120020112
+  translation:
+    english: also
+    mandarin: 也
+  morphology:
+    class: cj
+    pos: particle
+    morph: Ta
+    type: affirmation
+  lexical:
+    stronglemma: גַּם
+    strong: '1571'
+  semantic:
+    sdbh:
+    - 001439001001000
+    lexdomain:
+    - '004004'
+- position: 15
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: ZEC 12:2!12
+    wordID: o380120020121
+  translation:
+    english: against
+    mandarin: 论到
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 16
+  text: יְהוּדָ֛ה
+  lemma: יְהוּדָה
+  transliteration: yəhûḏāh
+  ids:
+    ref: ZEC 12:2!13
+    wordID: o380120020131
+  translation:
+    english: Judah
+    mandarin: 犹大
+    gloss: Judah
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְהוּדָה
+    strong: '3063'
+  semantic:
+    sdbh:
+    - 002819001001000
+    lexdomain:
+    - '003001007'
+    - '003001006'
+    - '003001010'
+- position: 17
+  text: יִֽהְיֶ֥ה
+  lemma: הָיָה
+  transliteration: yihəyeh
+  ids:
+    ref: ZEC 12:2!14
+    wordID: o380120020141
+  translation:
+    english: be
+    mandarin: 将
+    gloss: it.will.be
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  lxx:
+    text: ἔσται
+    strong: '2071'
+  syntax:
+    role: v
+    frame: A0:380120020061;
+  discourse:
+    subject: '380120020061'
+- position: 18
+  text: בַ
+  lemma: בְּ
+  transliteration: ḇa
+  ids:
+    ref: ZEC 12:2!15
+    wordID: o380120020151
+  translation:
+    english: in
+    mandarin: 时候
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 19
+  text: מָּצ֖וֹר
+  lemma: מָצוֹר
+  transliteration: mmāṣôr
+  ids:
+    ref: ZEC 12:2!15
+    wordID: o380120020152
+  translation:
+    english: siege
+    mandarin: 围困
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: מָצוֹר
+    strong: '4692'
+  semantic:
+    sdbh:
+    - 004297002001000
+    lexdomain:
+    - '002002001001'
+    coredomain:
+    - '158'
+    - '188'
+    - '182'
+    sense: '1'
+  lxx:
+    text: περιοξὴ
+    strong: '4042'
+- position: 20
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: ZEC 12:2!16
+    wordID: o380120020161
+  translation:
+    english: against
+    mandarin: 于
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 21
+  text: יְרוּשָׁלִָֽם
+  lemma: יְרוּשָׁלִַ͏ם
+  transliteration: 'yərûšālāim:'
+  ids:
+    ref: ZEC 12:2!17
+    wordID: o380120020171
+  translation:
+    english: Jerusalem
+    mandarin: 耶路撒冷
+    gloss: Jerusalem
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְרוּשָׁלִַ͏ם
+    strong: '3389'
+  semantic:
+    sdbh:
+    - 003099001001000
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: ιερουσαλημ
+    strong: '2414'

@@ -1,0 +1,118 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JHN 16:25
+text: Ταῦτα ἐν παροιμίαις λελάληκα ὑμῖν·
+words:
+- position: 1
+  text: Ταῦτα
+  lemma: οὗτος
+  normalized: Ταῦτα
+  ids:
+    ref: JHN 16:25!1
+    wordID: n43016025001
+  translation:
+    gloss: These things
+  morphology:
+    class: pron
+    morph: D-APN
+    gender: neuter
+    number: plural
+    case: accusative
+    type: demonstrative
+  lexical:
+    strong: '3778'
+  semantic:
+    semanticDomain: 092007
+    ln: '92.29'
+  syntax:
+    role: o
+- position: 2
+  text: ἐν
+  lemma: ἐν
+  normalized: ἐν
+  ids:
+    ref: JHN 16:25!2
+    wordID: n43016025002
+  translation:
+    gloss: in
+  morphology:
+    class: prep
+    morph: PREP
+  lexical:
+    strong: '1722'
+  semantic:
+    semanticDomain: 089012
+    ln: '89.76'
+- position: 3
+  text: παροιμίαις
+  lemma: παροιμία
+  normalized: παροιμίαις
+  ids:
+    ref: JHN 16:25!3
+    wordID: n43016025003
+  translation:
+    gloss: allegories
+  morphology:
+    class: noun
+    morph: N-DPF
+    gender: feminine
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '3942'
+  semantic:
+    semanticDomain: '033003'
+    ln: '33.15'
+- position: 4
+  text: λελάληκα
+  lemma: λαλέω
+  normalized: λελάληκα
+  ids:
+    ref: JHN 16:25!4
+    wordID: n43016025004
+  translation:
+    gloss: I have spoken
+  morphology:
+    class: verb
+    morph: V-RAI-1S
+    number: singular
+    person: first
+    tense: perfect
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2980'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.70'
+  syntax:
+    role: v
+    frame: A0:n43016019002 A1:n43016025001 A2:n43016025005
+  discourse:
+    subject: n43016019002
+- position: 5
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: JHN 16:25!5
+    wordID: n43016025005
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n43016017005

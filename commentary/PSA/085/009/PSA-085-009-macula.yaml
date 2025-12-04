@@ -1,0 +1,576 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 85:9
+text: אֶשְׁמְעָ֗ה מַה־יְדַבֵּר֮ הָאֵ֪ל׀יְה֫וָ֥ה כִּ֤י׀יְדַבֵּ֬ר שָׁל֗וֹם אֶל־עַמּ֥וֹ
+  וְאֶל־חֲסִידָ֑יו וְֽאַל־יָשׁ֥וּבוּ לְכִסְלָֽה׃
+words:
+- position: 1
+  text: אֶשְׁמְעָ֗ה
+  lemma: שָׁמַע
+  transliteration: ʾešməʿāh
+  ids:
+    ref: PSA 85:9!1
+    wordID: o190850090011
+  translation:
+    english: hear
+    mandarin: 听
+    gloss: I.will.listen.to
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqh1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: cohortative
+  lexical:
+    stronglemma: שָׁמַע
+    strong: '8085'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἀκούσομαι
+    strong: '191'
+  syntax:
+    role: v
+    frame: A0:190850010022; A1:190850090031;
+  discourse:
+    subject: '190850010022'
+- position: 2
+  text: מַה
+  lemma: מָה
+  transliteration: mah-
+  ids:
+    ref: PSA 85:9!2
+    wordID: o190850090021
+  translation:
+    english: what
+    mandarin: 所~的
+    gloss: whatever
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: o
+- position: 3
+  text: יְדַבֵּר֮
+  lemma: דָבַר
+  transliteration: yəḏabbēr
+  ids:
+    ref: PSA 85:9!3
+    wordID: o190850090031
+  translation:
+    english: say
+    mandarin: 说
+    gloss: he.will.say
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λαλήσει
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A1:190850090021; A0:190850090042;
+- position: 4
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 85:9!4
+    wordID: o190850090041
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 5
+  text: אֵ֪ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: PSA 85:9!4
+    wordID: o190850090042
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 6
+  text: יְה֫וָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 85:9!5
+    wordID: o190850090051
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 7
+  text: כִּ֤י
+  lemma: כִּי
+  transliteration: kiy
+  ids:
+    ref: PSA 85:9!6
+    wordID: o190850090061
+  translation:
+    english: for
+    mandarin: 因为
+    gloss: (dm)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ὅτι
+    strong: '3754'
+- position: 8
+  text: יְדַבֵּ֬ר
+  lemma: דָבַר
+  transliteration: yəḏabbēr
+  ids:
+    ref: PSA 85:9!7
+    wordID: o190850090071
+  translation:
+    english: speak
+    mandarin: 应许
+    gloss: he.will.speak
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: דָבַר
+    strong: '1696'
+  semantic:
+    sdbh:
+    - '001555002001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '3'
+  lxx:
+    text: λαλήσει
+    strong: '2980'
+  syntax:
+    role: v
+    frame: A0:190850090042; A1:190850090081;
+  discourse:
+    subject: '190850090042'
+- position: 9
+  text: שָׁל֗וֹם
+  lemma: שָׁלוֹם
+  transliteration: šālôm
+  ids:
+    ref: PSA 85:9!8
+    wordID: o190850090081
+  translation:
+    english: peace
+    mandarin: 平安
+    gloss: peace
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁלוֹם
+    strong: '7965'
+  semantic:
+    sense: '1'
+  lxx:
+    text: εἰρήνην
+    strong: '1515'
+  syntax:
+    role: o
+- position: 10
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: PSA 85:9!9
+    wordID: o190850090091
+  translation:
+    english: to
+    mandarin: 给
+    gloss: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 11
+  text: עַמּ֥
+  lemma: עַם
+  transliteration: ''
+  ids:
+    ref: PSA 85:9!10
+    wordID: o190850090101
+  translation:
+    english: people
+    mandarin: 子民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαὸν
+    strong: '2992'
+- position: 12
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 85:9!10
+    wordID: o190850090102
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190850090042'
+- position: 13
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 85:9!11
+    wordID: o190850090111
+  translation:
+    english: even
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 14
+  text: אֶל
+  lemma: אֶל
+  transliteration: ʾel-
+  ids:
+    ref: PSA 85:9!11
+    wordID: o190850090112
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: אֶל
+    strong: '0413'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 15
+  text: חֲסִידָ֑י
+  lemma: חָסִיד
+  transliteration: ''
+  ids:
+    ref: PSA 85:9!12
+    wordID: o190850090121
+  translation:
+    english: faithful
+    mandarin: 圣民
+  morphology:
+    class: adj
+    pos: adjective
+    morph: Aampc
+    gender: masculine
+    number: plural
+    state: construct
+    type: adjective
+  lexical:
+    stronglemma: חָסִיד
+    strong: '2623'
+  semantic:
+    sdbh:
+    - '002416001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    - '046'
+    sense: '1'
+  lxx:
+    text: ὁσίους
+    strong: '3741'
+- position: 16
+  text: ו
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 85:9!12
+    wordID: o190850090122
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '002416001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    - '046'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190850090042'
+- position: 17
+  text: וְֽ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: PSA 85:9!13
+    wordID: o190850090131
+  translation:
+    english: but
+    mandarin: 而
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 18
+  text: אַל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PSA 85:9!13
+    wordID: o190850090132
+  translation:
+    english: not
+    mandarin: 不
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+  syntax:
+    role: adv
+- position: 19
+  text: יָשׁ֥וּבוּ
+  lemma: שׁוּב
+  transliteration: yāšûḇû
+  ids:
+    ref: PSA 85:9!14
+    wordID: o190850090141
+  translation:
+    english: return
+    mandarin: 转去
+    gloss: let.them.return
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: שׁוּב
+    strong: '7725'
+  semantic:
+    sdbh:
+    - '007226001012000'
+    lexdomain:
+    - '002003003010'
+    sense: '7'
+  syntax:
+    role: v
+    frame: A0:190850090101;190850090121;
+  discourse:
+    subject: 190850090101 190850090121
+- position: 20
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 85:9!15
+    wordID: o190850090151
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 21
+  text: כִסְלָֽה
+  lemma: כִּסְלָה
+  transliteration: 'ḵislāh:'
+  ids:
+    ref: PSA 85:9!15
+    wordID: o190850090152
+  translation:
+    english: folly
+    mandarin: 愚昧
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: כִּסְלָה
+    strong: '3690'
+  semantic:
+    sdbh:
+    - '003373002001000'
+    lexdomain:
+    - '002001002010'
+    coredomain:
+    - '199'
+    sense: '2'
+  lxx:
+    text: καρδίαν
+    strong: '2588'

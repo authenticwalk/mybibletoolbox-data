@@ -1,0 +1,258 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 18:4
+text: מְ֭הֻלָּל אֶקְרָ֣א יְהוָ֑ה וּמִן־אֹ֝יְבַ֗י אִוָּשֵֽׁעַ׃
+words:
+- position: 1
+  text: מְ֭הֻלָּל
+  lemma: הָלַל
+  transliteration: məhullāl
+  ids:
+    ref: PSA 18:4!1
+    wordID: o190180040011
+  translation:
+    english: worthy to be praised
+    mandarin: 赞美
+    gloss: '[the.one.who.is].to.be.praised'
+  morphology:
+    class: verb
+    pos: verb
+    morph: VPsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: pual
+    type: participle passive
+  lexical:
+    stronglemma: הָלַל
+    strong: 1984a
+  semantic:
+    sdbh:
+    - 001827002002000
+    lexdomain:
+    - '002001002012'
+    coredomain:
+    - '041'
+    - '130'
+    - '170'
+    sense: '1'
+  lxx:
+    text: αἰνῶν
+    strong: '134'
+  syntax:
+    frame: A1:190180040031;
+  discourse:
+    subject: '190180040031'
+- position: 2
+  text: יְהוָ֑ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 18:4!3
+    wordID: o190180040031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριον
+    strong: '2962'
+- position: 3
+  text: אֶקְרָ֣א
+  lemma: קָרָא
+  transliteration: ʾeqrāʾ
+  ids:
+    ref: PSA 18:4!2
+    wordID: o190180040021
+  translation:
+    english: call
+    mandarin: 呼求
+    gloss: I.call.out.to
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָרָא
+    strong: '7121'
+  semantic:
+    sdbh:
+    - '006556001001000'
+    lexdomain:
+    - 002004001009005
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: ἐπικαλέσομαι
+    strong: '1941'
+  syntax:
+    role: v
+    frame: A0:190180010042; A1:190180040011;
+  discourse:
+    subject: '190180010042'
+- position: 4
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 18:4!4
+    wordID: o190180040041
+  translation:
+    english: and
+    mandarin: 就
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 5
+  text: מִן
+  lemma: מִן
+  transliteration: min-
+  ids:
+    ref: PSA 18:4!4
+    wordID: o190180040042
+  translation:
+    english: from
+    mandarin: 脱离
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐκ
+    strong: '1537'
+- position: 6
+  text: אֹ֝יְבַ֗
+  lemma: אָיַב
+  transliteration: ''
+  ids:
+    ref: PSA 18:4!5
+    wordID: o190180040051
+  translation:
+    english: enemies
+    mandarin: 仇敌
+  morphology:
+    class: noun
+    pos: verb
+    morph: Vqrmpc
+    gender: masculine
+    number: plural
+    state: construct
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: אָיַב
+    strong: '0341'
+  semantic:
+    sdbh:
+    - 000318001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+    sense: '1'
+  lxx:
+    text: ἐξθρῶν
+    strong: '2190'
+- position: 7
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 18:4!5
+    wordID: o190180040052
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - 000318001002000
+    lexdomain:
+    - '001001002003002'
+    coredomain:
+    - '044'
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190180010042'
+- position: 8
+  text: אִוָּשֵֽׁעַ
+  lemma: יָשַׁע
+  transliteration: 'ʾiwwāšēᵃʿ:'
+  ids:
+    ref: PSA 18:4!6
+    wordID: o190180040061
+  translation:
+    english: saved
+    mandarin: 救
+    gloss: I.am.delivered
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi1cs
+    gender: common
+    number: singular
+    person: first
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: יָשַׁע
+    strong: '3467'
+  semantic:
+    sdbh:
+    - '003176001002000'
+    lexdomain:
+    - 002003003018
+    coredomain:
+    - '152'
+    - '196'
+    sense: '1'
+  lxx:
+    text: σωθήσομαι
+    strong: '4982'
+  syntax:
+    role: v
+    frame: A1:190180010042;
+  discourse:
+    subject: '190180010042'

@@ -1,0 +1,496 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: DEU 16:5
+text: לֹ֥א תוּכַ֖ל לִזְבֹּ֣חַ אֶת־הַפָּ֑סַח בְּאַחַ֣ד שְׁעָרֶ֔יךָ אֲשֶׁר־יְהוָ֥ה אֱלֹהֶ֖יךָ
+  נֹתֵ֥ן לָֽךְ׃
+words:
+- position: 1
+  text: לֹ֥א
+  lemma: לֹא
+  transliteration: lōʾ
+  ids:
+    ref: DEU 16:5!1
+    wordID: o050160050011
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: לֹא
+    strong: '3808'
+  lxx:
+    text: οὐ
+    strong: '3756'
+  syntax:
+    role: adv
+- position: 2
+  text: תוּכַ֖ל
+  lemma: יָכֹל
+  transliteration: ṯûḵal
+  ids:
+    ref: DEU 16:5!2
+    wordID: o050160050021
+  translation:
+    english: allowed
+    mandarin: 可
+    gloss: you.will.be.able
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: יָכֹל
+    strong: '3201'
+  semantic:
+    sdbh:
+    - 002929001001000
+    lexdomain:
+    - '002001001001'
+    coredomain:
+    - '001'
+    sense: '1'
+  lxx:
+    text: δυνήσῃ
+    strong: '1410'
+  syntax:
+    role: v
+    frame: A0:050130120021;
+  discourse:
+    subject: '050130120021'
+- position: 3
+  text: לִ
+  lemma: לְ
+  transliteration: li
+  ids:
+    ref: DEU 16:5!3
+    wordID: o050160050031
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 4
+  text: זְבֹּ֣חַ
+  lemma: זָבַח
+  transliteration: zəbōᵃḥ
+  ids:
+    ref: DEU 16:5!3
+    wordID: o050160050032
+  translation:
+    english: sacrifice
+    mandarin: 宰杀
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: זָבַח
+    strong: '2076'
+  semantic:
+    sdbh:
+    - 001921001002000
+    lexdomain:
+    - '002003002022'
+    coredomain:
+    - 099
+    - '149'
+    sense: '1'
+  lxx:
+    text: θῦσαι
+  syntax:
+    role: v
+    frame: A0:050130120021; A1:050160050052;
+  discourse:
+    subject: '050130120021'
+- position: 5
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: DEU 16:5!4
+    wordID: o050160050041
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 6
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: DEU 16:5!5
+    wordID: o050160050051
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸ
+    strong: '3588'
+- position: 7
+  text: פָּ֑סַח
+  lemma: פֶּסַח
+  transliteration: pāsaḥ
+  ids:
+    ref: DEU 16:5!5
+    wordID: o050160050052
+  translation:
+    english: passover
+    mandarin: 逾越节祭牲
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פֶּסַח
+    strong: '6453'
+  semantic:
+    sdbh:
+    - 005930001002000
+    lexdomain:
+    - '001001002001'
+    coredomain:
+    - '149'
+    - '066'
+    sense: '1'
+  lxx:
+    text: πασξα
+    strong: '3957'
+- position: 8
+  text: בְּ
+  lemma: בְּ
+  transliteration: bə
+  ids:
+    ref: DEU 16:5!6
+    wordID: o050160050061
+  translation:
+    english: in
+    mandarin: 在~里
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 9
+  text: אַחַ֣ד
+  lemma: אֶחָד
+  transliteration: ʾaḥaḏ
+  ids:
+    ref: DEU 16:5!6
+    wordID: o050160050062
+  translation:
+    english: any
+    mandarin: 任何
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: cardinal number
+  lexical:
+    stronglemma: אֶחָד
+    strong: 0259
+  semantic:
+    sdbh:
+    - '000244001001000'
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: οὐδεμιᾷ
+- position: 10
+  text: שְׁעָרֶ֔י
+  lemma: שַׁעַר
+  transliteration: ''
+  ids:
+    ref: DEU 16:5!7
+    wordID: o050160050071
+  translation:
+    english: towns
+    mandarin: 城
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שַׁעַר
+    strong: '8179'
+  semantic:
+    sdbh:
+    - '007551001002000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+    sense: '1'
+- position: 11
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 16:5!7
+    wordID: o050160050072
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '007551001002000'
+    lexdomain:
+    - '001005001010'
+    coredomain:
+    - '182'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '050130120021'
+- position: 12
+  text: אֲשֶׁר
+  lemma: אֲשֶׁר
+  transliteration: ʾăšer-
+  ids:
+    ref: DEU 16:5!8
+    wordID: o050160050081
+  translation:
+    english: that
+    mandarin: 所~的
+    gloss: which
+  morphology:
+    class: rel
+    pos: particle
+    morph: Tr
+    type: relative
+  lexical:
+    stronglemma: אֲשֶׁר
+    strong: 0834
+  lxx:
+    text: ὧν
+    strong: '3739'
+- position: 13
+  text: יְהוָ֥ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: DEU 16:5!9
+    wordID: o050160050091
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+- position: 14
+  text: אֱלֹהֶ֖י
+  lemma: אֱלֹהִים
+  transliteration: ''
+  ids:
+    ref: DEU 16:5!10
+    wordID: o050160050101
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֱלֹהִים
+    strong: '0430'
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+    sense: '1'
+  lxx:
+    text: θεός
+    strong: '2316'
+- position: 15
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 16:5!10
+    wordID: o050160050102
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 000397001002000
+    lexdomain:
+    - '001001001'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '050130120021'
+- position: 16
+  text: נֹתֵ֥ן
+  lemma: נָתַן
+  transliteration: nōṯēn
+  ids:
+    ref: DEU 16:5!11
+    wordID: o050160050111
+  translation:
+    english: giving
+    mandarin: 赐给
+    gloss: '[is].about.to.give'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: נָתַן
+    strong: '5414'
+  semantic:
+    sense: '1'
+  lxx:
+    text: δίδωσίν
+    strong: '1325'
+  syntax:
+    role: v
+    frame: A0:050160050091; A1:050160050071;
+- position: 17
+  text: לָֽ
+  lemma: לְ
+  transliteration: ''
+  ids:
+    ref: DEU 16:5!12
+    wordID: o050160050121
+  translation:
+    english: to
+    mandarin: 给
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 18
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: DEU 16:5!12
+    wordID: o050160050122
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  lxx:
+    text: σοι
+    strong: '4671'
+  discourse:
+    participant: '050130120021'

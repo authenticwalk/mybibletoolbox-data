@@ -1,0 +1,515 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PRO 3:3
+text: חֶ֥סֶד וֶאֱמֶ֗ת אַֽל־יַעַ֫זְבֻ֥ךָ קָשְׁרֵ֥ם עַל־גַּרְגְּרוֹתֶ֑יךָ כָּ֝תְבֵ֗ם
+  עַל־ל֥וּחַ לִבֶּֽךָ׃
+words:
+- position: 1
+  text: חֶ֥סֶד
+  lemma: חֶסֶד
+  transliteration: ḥeseḏ
+  ids:
+    ref: PRO 3:3!1
+    wordID: o200030030011
+  translation:
+    english: loyalty
+    mandarin: 慈爱
+    gloss: loyalty
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: חֶסֶד
+    strong: '2617'
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: ἐλεημοσύναι
+    strong: '1654'
+- position: 2
+  text: וֶ
+  lemma: וְ
+  transliteration: we
+  ids:
+    ref: PRO 3:3!2
+    wordID: o200030030021
+  translation:
+    english: and
+    mandarin: 和
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 3
+  text: אֱמֶ֗ת
+  lemma: אֱמֶת
+  transliteration: ʾĕmeṯ
+  ids:
+    ref: PRO 3:3!2
+    wordID: o200030030022
+  translation:
+    english: faithfulness
+    mandarin: 信实
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אֱמֶת
+    strong: '0571'
+  semantic:
+    sdbh:
+    - '000524001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: πίστεις
+    strong: '4102'
+- position: 4
+  text: אַֽל
+  lemma: אַל
+  transliteration: ʾal-
+  ids:
+    ref: PRO 3:3!3
+    wordID: o200030030031
+  translation:
+    english: not
+    mandarin: 不
+    gloss: not
+  morphology:
+    class: adv
+    pos: particle
+    morph: Tn
+    type: negative
+  lexical:
+    stronglemma: אַל
+    strong: 0408
+  lxx:
+    text: μὴ
+    strong: '3361'
+  syntax:
+    role: adv
+- position: 5
+  text: יַעַ֫זְבֻ֥
+  lemma: עָזַב
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!4
+    wordID: o200030030041
+  translation:
+    english: leave
+    mandarin: 离开
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqj3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: qal
+    type: jussive
+  lexical:
+    stronglemma: עָזַב
+    strong: '5800'
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+    sense: '1'
+  lxx:
+    text: ἐκλιπέτωσάν
+  syntax:
+    role: v
+    frame: A0:200030030011;200030030022; A1:200030030042;
+- position: 6
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!4
+    wordID: o200030030042
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - '005324001004000'
+    lexdomain:
+    - '002001002027'
+  lxx:
+    text: σε
+    strong: '4571'
+  syntax:
+    role: o
+  discourse:
+    participant: '200030010011'
+- position: 7
+  text: קָשְׁרֵ֥
+  lemma: קָשַׁר
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!5
+    wordID: o200030030051
+  translation:
+    english: bind
+    mandarin: 系
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: קָשַׁר
+    strong: '7194'
+  semantic:
+    sdbh:
+    - '006627001004000'
+    lexdomain:
+    - '002003001001'
+    sense: '3'
+  syntax:
+    role: v
+    frame: A0:200030010011; A1:200030030052;
+  discourse:
+    subject: '200030010011'
+- position: 8
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!5
+    wordID: o200030030052
+  translation:
+    english: them
+    mandarin: 它们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '006627001004000'
+    lexdomain:
+    - '002003001001'
+  syntax:
+    role: o
+  discourse:
+    participant: 200030030011 200030030022
+- position: 9
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PRO 3:3!6
+    wordID: o200030030061
+  translation:
+    english: around
+    mandarin: 在~上
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ἐπὶ
+    strong: '1909'
+- position: 10
+  text: גַּרְגְּרוֹתֶ֑י
+  lemma: גַּרְגְּרֹת
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!7
+    wordID: o200030030071
+  translation:
+    english: neck
+    mandarin: 颈项
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfpc
+    gender: feminine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: גַּרְגְּרֹת
+    strong: '1621'
+  semantic:
+    sdbh:
+    - 001486001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: τραξήλῳ
+    strong: '5137'
+- position: 11
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!7
+    wordID: o200030030072
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 001486001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: σῷ
+    strong: '4674'
+  discourse:
+    participant: '200030010011'
+- position: 12
+  text: כָּ֝תְבֵ֗
+  lemma: כָּתַב
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!8
+    wordID: o200030030081
+  translation:
+    english: write
+    mandarin: 刻
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqv2ms
+    gender: masculine
+    number: singular
+    person: second
+    stem: qal
+    type: imperative
+  lexical:
+    stronglemma: כָּתַב
+    strong: '3789'
+  semantic:
+    sdbh:
+    - '003466001001000'
+    lexdomain:
+    - 002001001069
+    coredomain:
+    - '041'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:200030010011; A1:200030030082;
+  discourse:
+    subject: '200030010011'
+- position: 13
+  text: ם
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!8
+    wordID: o200030030082
+  translation:
+    english: them
+    mandarin: 它们
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3mp
+    gender: masculine
+    number: plural
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3963a
+  semantic:
+    sdbh:
+    - '003466001001000'
+    lexdomain:
+    - 002001001069
+    coredomain:
+    - '041'
+  lxx:
+    text: ’’
+  syntax:
+    role: o
+  discourse:
+    participant: 200030030011 200030030022
+- position: 14
+  text: עַל
+  lemma: עַל
+  transliteration: ʿal-
+  ids:
+    ref: PRO 3:3!9
+    wordID: o200030030091
+  translation:
+    english: 'on'
+    mandarin: 在~上
+    gloss: 'on'
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עַל
+    strong: '5921'
+  lxx:
+    text: ’’
+- position: 15
+  text: ל֥וּחַ
+  lemma: לוּחַ
+  transliteration: lûᵃḥ
+  ids:
+    ref: PRO 3:3!10
+    wordID: o200030030101
+  translation:
+    english: tablet
+    mandarin: 版
+    gloss: the.tablet
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: לוּחַ
+    strong: '3871'
+  semantic:
+    sdbh:
+    - '003540001002000'
+    lexdomain:
+    - '001004001014'
+    coredomain:
+    - '191'
+    - '041'
+    - '120'
+    sense: '1'
+  lxx:
+    text: ’’
+- position: 16
+  text: לִבֶּֽ
+  lemma: לֵב
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!11
+    wordID: o200030030111
+  translation:
+    english: heart
+    mandarin: 心底
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: לֵב
+    strong: '3820'
+  semantic:
+    sdbh:
+    - 003495001002000
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+    sense: '1'
+- position: 17
+  text: ךָ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PRO 3:3!11
+    wordID: o200030030112
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2ms
+    gender: masculine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509b
+  semantic:
+    sdbh:
+    - 003495001002000
+    lexdomain:
+    - '002004002014'
+    coredomain:
+    - '106'
+  lxx:
+    text: ’’
+  discourse:
+    participant: '200030010011'

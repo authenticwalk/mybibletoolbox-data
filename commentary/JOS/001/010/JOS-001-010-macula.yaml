@@ -1,0 +1,241 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JOS 1:10
+text: וַיְצַ֣ו יְהוֹשֻׁ֔עַ אֶת־שֹׁטְרֵ֥י הָעָ֖ם לֵאמֹֽר׃
+words:
+- position: 1
+  text: וַ
+  lemma: וְ
+  transliteration: wa
+  ids:
+    ref: JOS 1:10!1
+    wordID: o060010100011
+  translation:
+    english: so
+    mandarin: 于是
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: יְצַ֣ו
+  lemma: צָוָה
+  transliteration: yəṣaw
+  ids:
+    ref: JOS 1:10!1
+    wordID: o060010100012
+  translation:
+    english: commanded
+    mandarin: 吩咐
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpw3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: wayyiqtol
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐνετείλατο
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:060010100021; A1:060010100041;
+- position: 3
+  text: יְהוֹשֻׁ֔עַ
+  lemma: יְהֹושֻׁעַ
+  transliteration: yəhôšuᵃʿ
+  ids:
+    ref: JOS 1:10!2
+    wordID: o060010100021
+  translation:
+    english: Joshua
+    mandarin: 约书亚
+    gloss: Joshua
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יְהֹושֻׁעַ
+    strong: '3091'
+  semantic:
+    sdbh:
+    - 002839001001000
+    lexdomain:
+    - '003001007'
+  lxx:
+    text: ἰησοῦς
+    strong: '2424'
+  syntax:
+    role: s
+- position: 4
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: JOS 1:10!3
+    wordID: o060010100031
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 5
+  text: שֹׁטְרֵ֥י
+  lemma: שֹׁטֵר
+  transliteration: šōṭərēy
+  ids:
+    ref: JOS 1:10!4
+    wordID: o060010100041
+  translation:
+    english: officers
+    mandarin: 官长
+    gloss: the.officers
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שֹׁטֵר
+    strong: '7860'
+  semantic:
+    sdbh:
+    - '007244001001000'
+    lexdomain:
+    - '001001002003005'
+    - '001001002003007'
+    coredomain:
+    - '015'
+    sense: '1'
+  lxx:
+    text: γραμματεῦσιν
+    strong: '1122'
+- position: 6
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: JOS 1:10!5
+    wordID: o060010100051
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τοῦ
+    strong: '3588'
+- position: 7
+  text: עָ֖ם
+  lemma: עַם
+  transliteration: ʿām
+  ids:
+    ref: JOS 1:10!5
+    wordID: o060010100052
+  translation:
+    english: people
+    mandarin: 人民
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: עַם
+    strong: '5971'
+  semantic:
+    sense: '1'
+  lxx:
+    text: λαοῦ
+    strong: '2992'
+- position: 8
+  text: לֵ
+  lemma: לְ
+  transliteration: lē
+  ids:
+    ref: JOS 1:10!6
+    wordID: o060010100061
+  translation:
+    english: to
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 9
+  text: אמֹֽר
+  lemma: אָמַר
+  transliteration: 'ʾmōr:'
+  ids:
+    ref: JOS 1:10!6
+    wordID: o060010100062
+  translation:
+    english: saying
+    mandarin: 说
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: λέγων
+    strong: '3004'
+  syntax:
+    role: v
+    frame: A0:060010100021;
+  discourse:
+    subject: '060010100021'

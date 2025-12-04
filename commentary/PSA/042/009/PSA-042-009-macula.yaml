@@ -1,0 +1,477 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 42:9
+text: יוֹמָ֤ם׀יְצַוֶּ֬ה יְהוָ֨ה׀חַסְדּ֗וֹ וּ֭בַלַּיְלָה שִׁיר֣וֹ עִמִּ֑י תְּ֝פִלָּ֗ה
+  לְאֵ֣ל חַיָּֽי׃
+words:
+- position: 1
+  text: יוֹמָ֤ם
+  lemma: יוֹמָם
+  transliteration: yômām
+  ids:
+    ref: PSA 42:9!1
+    wordID: o190420090011
+  translation:
+    english: by day
+    mandarin: 白天
+    gloss: by.day
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: יוֹמָם
+    strong: '3119'
+  semantic:
+    sdbh:
+    - 002855001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+  lxx:
+    text: ἡμέρας
+    strong: '2250'
+  syntax:
+    role: adv
+- position: 2
+  text: יְצַוֶּ֬ה
+  lemma: צָוָה
+  transliteration: yəṣawweh
+  ids:
+    ref: PSA 42:9!2
+    wordID: o190420090021
+  translation:
+    english: commands
+    mandarin: 显示
+    gloss: he.commands
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: צָוָה
+    strong: '6680'
+  semantic:
+    sense: '1'
+  lxx:
+    text: ἐντελεῖται
+    strong: '1781'
+  syntax:
+    role: v
+    frame: A0:190420090031; A1:190420090041;
+- position: 3
+  text: יְהוָ֨ה
+  lemma: יהוה
+  transliteration: yəhwāh
+  ids:
+    ref: PSA 42:9!3
+    wordID: o190420090031
+  translation:
+    english: LORD
+    mandarin: 耶和华
+    gloss: Yahweh
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: יהוה
+    strong: '3068'
+  semantic:
+    sdbh:
+    - 002823001001000
+    lexdomain:
+    - '003001004'
+  lxx:
+    text: κύριος
+    strong: '2962'
+  syntax:
+    role: s
+- position: 4
+  text: חַסְדּ֗
+  lemma: חֶסֶד
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!4
+    wordID: o190420090041
+  translation:
+    english: steadfast love
+    mandarin: 慈爱
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חֶסֶד
+    strong: '2617'
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+    sense: '1'
+  lxx:
+    text: ἔλεος
+    strong: '1656'
+- position: 5
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!4
+    wordID: o190420090042
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  semantic:
+    sdbh:
+    - '002411001001000'
+    lexdomain:
+    - 002001002008
+    coredomain:
+    - '061'
+  lxx:
+    text: αὐτοῦ
+    strong: '846'
+  discourse:
+    participant: '190420090031'
+- position: 6
+  text: וּ֭
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: PSA 42:9!5
+    wordID: o190420090051
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 7
+  text: בַ
+  lemma: בְּ
+  transliteration: ḇa
+  ids:
+    ref: PSA 42:9!5
+    wordID: o190420090052
+  translation:
+    english: in
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 8
+  text: לַּיְלָה
+  lemma: לַיְלָה
+  transliteration: llayəlâ
+  ids:
+    ref: PSA 42:9!5
+    wordID: o190420090053
+  translation:
+    english: night
+    mandarin: 黑夜
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: לַיְלָה
+    strong: '3915'
+  semantic:
+    sdbh:
+    - 003580001001000
+    lexdomain:
+    - '002002002010'
+    coredomain:
+    - '180'
+    - '100'
+    sense: '1'
+  lxx:
+    text: νυκτὸς
+    strong: '3571'
+- position: 9
+  text: שִׁיר֣
+  lemma: שִׁיר
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!7
+    wordID: o190420090071
+  translation:
+    english: song
+    mandarin: 歌颂
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: שִׁיר
+    strong: '7892'
+  semantic:
+    sense: '1'
+- position: 10
+  text: וֹ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!7
+    wordID: o190420090072
+  translation:
+    english: his
+    mandarin: 他
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp3ms
+    gender: masculine
+    number: singular
+    person: third
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2050c
+  lxx:
+    text: ᾠδὴ
+  discourse:
+    participant: '190420090031'
+- position: 11
+  text: עִמִּ֑
+  lemma: עִם
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!8
+    wordID: o190420090081
+  translation:
+    english: with
+    mandarin: 与~相伴
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: עִם
+    strong: '5973'
+  lxx:
+    text: παρ’
+    strong: '3844'
+- position: 12
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!8
+    wordID: o190420090082
+  translation:
+    english: me
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  lxx:
+    text: ἐμοί
+    strong: '1698'
+  discourse:
+    participant: '190420010032'
+- position: 13
+  text: תְּ֝פִלָּ֗ה
+  lemma: תְּפִלָּה
+  transliteration: təp̄illāh
+  ids:
+    ref: PSA 42:9!9
+    wordID: o190420090091
+  translation:
+    english: prayer
+    mandarin: 祷告
+    gloss: a.prayer
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncfsa
+    gender: feminine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: תְּפִלָּה
+    strong: '8605'
+  semantic:
+    sdbh:
+    - 007898001001000
+    lexdomain:
+    - 002004001009010
+    coredomain:
+    - '041'
+    - '131'
+    sense: '1'
+  lxx:
+    text: προσευξὴ
+    strong: '4335'
+  syntax:
+    role: s
+- position: 14
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: PSA 42:9!10
+    wordID: o190420090101
+  translation:
+    english: to
+    mandarin: 向
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: τῷ
+    strong: '3588'
+- position: 15
+  text: אֵ֣ל
+  lemma: אֵל
+  transliteration: ʾēl
+  ids:
+    ref: PSA 42:9!10
+    wordID: o190420090102
+  translation:
+    english: God
+    mandarin: 神/上帝
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: אֵל
+    strong: '0410'
+  semantic:
+    sdbh:
+    - 000382001002000
+    lexdomain:
+    - '001001001'
+    coredomain:
+    - '055'
+    sense: '1'
+  lxx:
+    text: θεῷ
+    strong: '2316'
+- position: 16
+  text: חַיָּֽ
+  lemma: חַיִּים
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!11
+    wordID: o190420090111
+  translation:
+    english: life
+    mandarin: 生命
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpc
+    gender: masculine
+    number: plural
+    state: construct
+    type: common
+  lexical:
+    stronglemma: חַיִּים
+    strong: '2416'
+  semantic:
+    sdbh:
+    - '002237001001000'
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+    sense: '1'
+  lxx:
+    text: ζωῆς
+    strong: '2222'
+- position: 17
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 42:9!11
+    wordID: o190420090112
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 2967a
+  semantic:
+    sdbh:
+    - '002237001001000'
+    lexdomain:
+    - '002001001003'
+    coredomain:
+    - 099
+  lxx:
+    text: μου
+    strong: '3450'
+  discourse:
+    participant: '190420010032'

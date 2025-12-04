@@ -1,0 +1,418 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: JAS 1:12
+text: Μακάριος ἀνὴρ ὃς ὑπομένει πειρασμόν, ὅτι δόκιμος γενόμενος λήμψεται τὸν στέφανον
+  τῆς ζωῆς, ὃν ἐπηγγείλατο τοῖς ἀγαπῶσιν αὐτόν.
+words:
+- position: 1
+  text: Μακάριος
+  lemma: μακάριος
+  normalized: Μακάριος
+  ids:
+    ref: JAS 1:12!1
+    wordID: n59001012001
+  translation:
+    gloss: Blessed [is the]
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '3107'
+  semantic:
+    semanticDomain: '025011'
+    ln: '25.119'
+  syntax:
+    role: p
+- position: 2
+  text: ἀνὴρ
+  lemma: ἀνήρ
+  normalized: ἀνήρ
+  ids:
+    ref: JAS 1:12!2
+    wordID: n59001012002
+  translation:
+    gloss: man
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '435'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.1'
+- position: 3
+  text: ὃς
+  lemma: ὅς
+  normalized: ὅς
+  ids:
+    ref: JAS 1:12!3
+    wordID: n59001012003
+  translation:
+    gloss: who
+  morphology:
+    class: pron
+    morph: R-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: s
+  discourse:
+    referent: n59001012002
+- position: 4
+  text: ὑπομένει
+  lemma: ὑπομένω
+  normalized: ὑπομένει
+  ids:
+    ref: JAS 1:12!4
+    wordID: n59001012004
+  translation:
+    gloss: endures
+  morphology:
+    class: verb
+    morph: V-PAI-3S
+    number: singular
+    person: third
+    tense: present
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '5278'
+  semantic:
+    semanticDomain: 025015 039003 068002
+    ln: 25.175 39.20 68.17
+  syntax:
+    role: v
+    frame: A0:n59001012003 A1:n59001012005
+- position: 5
+  text: πειρασμόν
+  lemma: πειρασμός
+  normalized: πειρασμόν
+  ids:
+    ref: JAS 1:12!5
+    wordID: n59001012005
+  translation:
+    gloss: trial
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '3986'
+  semantic:
+    semanticDomain: 027004 088038
+    ln: 27.46 88.308
+  syntax:
+    role: o
+- position: 6
+  text: ὅτι
+  lemma: ὅτι
+  normalized: ὅτι
+  ids:
+    ref: JAS 1:12!6
+    wordID: n59001012006
+  translation:
+    gloss: because
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '3754'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.33'
+- position: 7
+  text: δόκιμος
+  lemma: δόκιμος
+  normalized: δόκιμος
+  ids:
+    ref: JAS 1:12!7
+    wordID: n59001012007
+  translation:
+    gloss: approved
+  morphology:
+    class: adj
+    morph: A-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+  lexical:
+    strong: '1384'
+  semantic:
+    semanticDomain: '030007'
+    ln: '30.115'
+  syntax:
+    role: p
+- position: 8
+  text: γενόμενος
+  lemma: γίνομαι
+  normalized: γενόμενος
+  ids:
+    ref: JAS 1:12!8
+    wordID: n59001012008
+  translation:
+    gloss: having been
+  morphology:
+    class: verb
+    morph: V-2ADP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: middle
+    mood: participle
+  lexical:
+    strong: '1096'
+  semantic:
+    semanticDomain: '013002'
+    ln: '13.48'
+  syntax:
+    role: vc
+  discourse:
+    subject: n59001012002
+- position: 9
+  text: λήμψεται
+  lemma: λαμβάνω
+  normalized: λήμψεται
+  ids:
+    ref: JAS 1:12!9
+    wordID: n59001012009
+  translation:
+    gloss: he will receive
+  morphology:
+    class: verb
+    morph: V-FDI-3S
+    number: singular
+    person: third
+    tense: future
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '2983'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.125'
+  syntax:
+    role: v
+    frame: A0:n59001012002 A1:n59001012011
+  discourse:
+    subject: n59001012002
+- position: 10
+  text: τὸν
+  lemma: ὁ
+  normalized: τόν
+  ids:
+    ref: JAS 1:12!10
+    wordID: n59001012010
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: στέφανον
+  lemma: στέφανος
+  normalized: στέφανον
+  ids:
+    ref: JAS 1:12!11
+    wordID: n59001012011
+  translation:
+    gloss: crown
+  morphology:
+    class: noun
+    morph: N-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '4735'
+  semantic:
+    semanticDomain: 006018 057008
+    ln: 57.121 6.192
+- position: 12
+  text: τῆς
+  lemma: ὁ
+  normalized: τῆς
+  ids:
+    ref: JAS 1:12!12
+    wordID: n59001012012
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 13
+  text: ζωῆς
+  lemma: ζωή
+  normalized: ζωῆς
+  ids:
+    ref: JAS 1:12!13
+    wordID: n59001012013
+  translation:
+    gloss: of life
+  morphology:
+    class: noun
+    morph: N-GSF
+    gender: feminine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '2222'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+- position: 14
+  text: ὃν
+  lemma: ὅς
+  normalized: ὅν
+  ids:
+    ref: JAS 1:12!14
+    wordID: n59001012014
+  translation:
+    gloss: that
+  morphology:
+    class: pron
+    morph: R-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: relative
+  lexical:
+    strong: '3739'
+  syntax:
+    role: o
+  discourse:
+    referent: n59001012011
+- position: 15
+  text: ἐπηγγείλατο
+  lemma: ἐπαγγέλλομαι
+  normalized: ἐπηγγείλατο
+  ids:
+    ref: JAS 1:12!15
+    wordID: n59001012015
+  translation:
+    gloss: He has promised
+  morphology:
+    class: verb
+    morph: V-ADI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: middle
+    mood: indicative
+  lexical:
+    strong: '1861'
+  semantic:
+    semanticDomain: '033025'
+    ln: '33.286'
+  syntax:
+    role: v
+    frame: A0:n59001007012 A1:n59001012014 A2:n59001012017
+  discourse:
+    subject: n59001007012
+- position: 16
+  text: τοῖς
+  lemma: ὁ
+  normalized: τοῖς
+  ids:
+    ref: JAS 1:12!16
+    wordID: n59001012016
+  translation:
+    gloss: to those
+  morphology:
+    class: det
+    morph: T-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 17
+  text: ἀγαπῶσιν
+  lemma: ἀγαπάω
+  normalized: ἀγαπῶσιν
+  ids:
+    ref: JAS 1:12!17
+    wordID: n59001012017
+  translation:
+    gloss: loving
+  morphology:
+    class: verb
+    morph: V-PAP-DPM
+    gender: masculine
+    number: plural
+    case: dative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '25'
+  semantic:
+    semanticDomain: '025003'
+    ln: '25.43'
+  syntax:
+    role: v
+    frame: A0:n00000000000 A1:n59001012018
+- position: 18
+  text: αὐτόν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: JAS 1:12!18
+    wordID: n59001012018
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n59001007012

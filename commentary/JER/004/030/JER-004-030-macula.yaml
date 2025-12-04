@@ -1,0 +1,837 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: JER 4:30
+text: וְאַ֨תְּ שָׁד֜וּד מַֽה־תַּעֲשִׂ֗י כִּֽי־תִלְבְּשִׁ֨י שָׁנִ֜י כִּי־תַעְדִּ֣י
+  עֲדִי־זָהָ֗ב כִּֽי־תִקְרְעִ֤י בַפּוּךְ֙ עֵינַ֔יִךְ לַשָּׁ֖וְא תִּתְיַפִּ֑י מָאֲסוּ־בָ֥ךְ
+  עֹגְבִ֖ים נַפְשֵׁ֥ךְ יְבַקֵּֽשׁוּ׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: '**wə'
+  ids:
+    ref: JER 4:30!2
+    wordID: o240040300021
+  translation:
+    english: and
+    mandarin: '@而'
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 2
+  text: אַ֨תְּ
+  lemma: אַתְּ
+  transliteration: '**ʾatə'
+  ids:
+    ref: JER 4:30!2
+    wordID: o240040300022
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: personal
+  lexical:
+    stronglemma: אַתְּ
+    strong: 0859b
+  discourse:
+    participant: '240040300031'
+- position: 3
+  text: שָׁד֜וּד
+  lemma: שָׁדַד
+  transliteration: šāḏûḏ
+  ids:
+    ref: JER 4:30!3
+    wordID: o240040300031
+  translation:
+    english: devastated
+    mandarin: 毁坏
+    gloss: O.devastated.[one]
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqsmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle passive
+  lexical:
+    stronglemma: שָׁדַד
+    strong: '7703'
+  semantic:
+    sdbh:
+    - '007210001001000'
+    lexdomain:
+    - '002001001023'
+    - 002001001019
+    - '002003002020'
+    - '002003003021'
+    coredomain:
+    - '006'
+    - '196'
+    sense: '1'
+  discourse:
+    subject: '240040160061'
+- position: 4
+  text: מַֽה
+  lemma: מָה
+  transliteration: mah-
+  ids:
+    ref: JER 4:30!4
+    wordID: o240040300041
+  translation:
+    english: what
+    mandarin: 什么
+    gloss: what?
+  morphology:
+    class: pron
+    pos: particle
+    morph: Ti
+    type: interrogative
+  lexical:
+    stronglemma: מָה
+    strong: '4100'
+  semantic:
+    sdbh:
+    - '003745001001000'
+    lexdomain:
+    - '003001'
+  lxx:
+    text: τί
+    strong: '5101'
+  syntax:
+    role: o
+- position: 5
+  text: תַּעֲשִׂ֗י
+  lemma: עָשָׂה
+  transliteration: taʿăśiy
+  ids:
+    ref: JER 4:30!5
+    wordID: o240040300051
+  translation:
+    english: doing
+    mandarin: 干
+    gloss: are.you.doing
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָשָׂה
+    strong: '6213'
+  semantic:
+    sdbh:
+    - 005698001002000
+    lexdomain:
+    - '002003003010'
+    sense: '1'
+  lxx:
+    text: ποιήσεις
+    strong: '4160'
+  syntax:
+    role: v
+    frame: A0:240040300031; A1:240040300041;
+  discourse:
+    subject: '240040300031'
+- position: 6
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: JER 4:30!6
+    wordID: o240040300061
+  translation:
+    english: that
+    mandarin: 即使~也
+    gloss: (cmp)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 7
+  text: תִלְבְּשִׁ֨י
+  lemma: לָבֵשׁ
+  transliteration: ṯilbəšiy
+  ids:
+    ref: JER 4:30!7
+    wordID: o240040300071
+  translation:
+    english: dress
+    mandarin: 穿上
+    gloss: you.are.dressing
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: לָבֵשׁ
+    strong: '3847'
+  semantic:
+    sdbh:
+    - '003516001002000'
+    lexdomain:
+    - '002003001007'
+    coredomain:
+    - 019
+    - '033'
+    sense: '1'
+  lxx:
+    text: περιβάλῃ
+    strong: '4016'
+  syntax:
+    role: v
+    frame: A0:240040300031; A1:240040300081;
+  discourse:
+    subject: '240040300031'
+- position: 8
+  text: שָׁנִ֜י
+  lemma: שָׁנִי
+  transliteration: šāniy
+  ids:
+    ref: JER 4:30!8
+    wordID: o240040300081
+  translation:
+    english: scarlet
+    mandarin: 朱红
+    gloss: scarlet
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁנִי
+    strong: '8144'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κόκκινον
+    strong: '2847'
+  syntax:
+    role: o
+- position: 9
+  text: כִּי
+  lemma: כִּי
+  transliteration: kî-
+  ids:
+    ref: JER 4:30!9
+    wordID: o240040300091
+  translation:
+    english: that
+    mandarin: 尽管
+    gloss: (cmp)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  lxx:
+    text: καὶ
+    strong: '2532'
+- position: 10
+  text: תַעְדִּ֣י
+  lemma: עָדָה
+  transliteration: ṯaʿdiy
+  ids:
+    ref: JER 4:30!10
+    wordID: o240040300101
+  translation:
+    english: adorn
+    mandarin: 佩戴
+    gloss: you.adorn.yourself
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: עָדָה
+    strong: 5710a
+  semantic:
+    sense: '1'
+  lxx:
+    text: κοσμήσῃ
+  syntax:
+    role: v
+    frame: A0:240040300031; A1:240040300111;
+  discourse:
+    subject: '240040300031'
+- position: 11
+  text: עֲדִי
+  lemma: עֲדִי
+  transliteration: ʿăḏî-
+  ids:
+    ref: JER 4:30!11
+    wordID: o240040300111
+  translation:
+    english: ornaments
+    mandarin: 饰物
+    gloss: ornament[s]
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עֲדִי
+    strong: '5716'
+  semantic:
+    sense: '1'
+  lxx:
+    text: κόσμῳ
+    strong: '2889'
+- position: 12
+  text: זָהָ֗ב
+  lemma: זָהָב
+  transliteration: zāhāḇ
+  ids:
+    ref: JER 4:30!12
+    wordID: o240040300121
+  translation:
+    english: gold
+    mandarin: 黄金
+    gloss: of.gold
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: זָהָב
+    strong: '2091'
+  semantic:
+    sdbh:
+    - 001934001001000
+    lexdomain:
+    - 001006008
+    sense: '1'
+  lxx:
+    text: ξρυσῷ
+    strong: '5557'
+- position: 13
+  text: כִּֽי
+  lemma: כִּי
+  transliteration: kiy-
+  ids:
+    ref: JER 4:30!13
+    wordID: o240040300131
+  translation:
+    english: that
+    mandarin: 尽管~都
+    gloss: (cmp)
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: כִּי
+    strong: '3588'
+  semantic:
+    sdbh:
+    - 006598001004000
+    lexdomain:
+    - '002001001034'
+    coredomain:
+    - 019
+    - '016'
+  lxx:
+    text: ἐὰν
+    strong: '1437'
+- position: 14
+  text: תִקְרְעִ֤י
+  lemma: קָרַע
+  transliteration: ṯiqrəʿiy
+  ids:
+    ref: JER 4:30!14
+    wordID: o240040300141
+  translation:
+    english: enlarge
+    mandarin: 修饰
+    gloss: you.tear.open
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqi2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: qal
+    type: yiqtol
+  lexical:
+    stronglemma: קָרַע
+    strong: '7167'
+  semantic:
+    sense: '3'
+  lxx:
+    text: ἐγξρίσῃ
+  syntax:
+    role: v
+    frame: A0:240040300031; A1:240040300161;
+  discourse:
+    subject: '240040300031'
+- position: 15
+  text: בַ
+  lemma: בְּ
+  transliteration: ḇa
+  ids:
+    ref: JER 4:30!15
+    wordID: o240040300151
+  translation:
+    english: with
+    mandarin: 用
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+- position: 16
+  text: פּוּךְ֙
+  lemma: פּוּךְ
+  transliteration: pûḵə
+  ids:
+    ref: JER 4:30!15
+    wordID: o240040300152
+  translation:
+    english: paint
+    mandarin: 颜料
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: פּוּךְ
+    strong: '6320'
+  semantic:
+    sense: '1'
+  lxx:
+    text: στίβι
+- position: 17
+  text: עֵינַ֔יִ
+  lemma: עַיִן
+  transliteration: ''
+  ids:
+    ref: JER 4:30!16
+    wordID: o240040300161
+  translation:
+    english: eyes
+    mandarin: 眼睛
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbdc
+    gender: both
+    number: dual
+    state: construct
+    type: common
+  lexical:
+    stronglemma: עַיִן
+    strong: '5869'
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+    sense: '1'
+  lxx:
+    text: ὀφθαλμούς
+    strong: '3788'
+- position: 18
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 4:30!16
+    wordID: o240040300162
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  semantic:
+    sdbh:
+    - 005389001001000
+    lexdomain:
+    - '001001002'
+    coredomain:
+    - 019
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '240040300031'
+- position: 19
+  text: לַ
+  lemma: לְ
+  transliteration: la
+  ids:
+    ref: JER 4:30!17
+    wordID: o240040300171
+  translation:
+    english: in
+  morphology:
+    class: prep
+    pos: preposition
+    morph: Rd
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 20
+  text: שָּׁ֖וְא
+  lemma: שָׁוְא
+  transliteration: ššāwəʾ
+  ids:
+    ref: JER 4:30!17
+    wordID: o240040300172
+  translation:
+    english: vain
+    mandarin: 徒然
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: שָׁוְא
+    strong: '7723'
+  semantic:
+    sdbh:
+    - '007223001003000'
+    lexdomain:
+    - '002003003012'
+    coredomain:
+    - '173'
+    sense: '2'
+  lxx:
+    text: μάτην
+    strong: '3155'
+- position: 21
+  text: תִּתְיַפִּ֑י
+  lemma: יָפָה
+  transliteration: tiṯyappiy
+  ids:
+    ref: JER 4:30!18
+    wordID: o240040300181
+  translation:
+    english: beautify
+    mandarin: 美化
+    gloss: you.beautify.yourself
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vti2fs
+    gender: feminine
+    number: singular
+    person: second
+    stem: hithpael
+    type: yiqtol
+  lexical:
+    stronglemma: יָפָה
+    strong: '3302'
+  semantic:
+    sdbh:
+    - 003019001002000
+    lexdomain:
+    - 002001001028
+    coredomain:
+    - '016'
+    sense: '2'
+  syntax:
+    role: v
+    frame: A0:240040300031;
+  discourse:
+    subject: '240040300031'
+- position: 22
+  text: מָאֲסוּ
+  lemma: מָאַס
+  transliteration: māʾăsû-
+  ids:
+    ref: JER 4:30!19
+    wordID: o240040300191
+  translation:
+    english: despise
+    mandarin: 藐视
+    gloss: they.have.rejected
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3cp
+    gender: common
+    number: plural
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: מָאַס
+    strong: '3988'
+  semantic:
+    sdbh:
+    - 003649001001000
+    lexdomain:
+    - '002001002014'
+    - '002001002031'
+    - '002001002005'
+    coredomain:
+    - '197'
+    - '004'
+    - '170'
+    sense: '1'
+  lxx:
+    text: ἀπώσαντό
+    strong: '683'
+  syntax:
+    role: v
+    frame: A0:240040300211;
+- position: 23
+  text: בָ֥
+  lemma: בְּ
+  transliteration: ''
+  ids:
+    ref: JER 4:30!20
+    wordID: o240040300201
+  translation:
+    english: to
+    mandarin: 于
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  semantic:
+    sdbh:
+    - '005223001002000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 019
+    - '155'
+- position: 24
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 4:30!20
+    wordID: o240040300202
+  translation:
+    english: you
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  semantic:
+    sdbh:
+    - '005223001002000'
+    lexdomain:
+    - '001001002003'
+    coredomain:
+    - 019
+    - '155'
+  lxx:
+    text: σε
+    strong: '4571'
+  discourse:
+    participant: '240040300031'
+- position: 25
+  text: עֹגְבִ֖ים
+  lemma: עָגַב
+  transliteration: ʿōḡəḇiym
+  ids:
+    ref: JER 4:30!21
+    wordID: o240040300211
+  translation:
+    english: lovers
+    mandarin: 情人
+    gloss: lovers
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: עָגַב
+    strong: '5689'
+  semantic:
+    sense: '1'
+  syntax:
+    role: s
+- position: 26
+  text: נַפְשֵׁ֥
+  lemma: נֶפֶשׁ
+  transliteration: ''
+  ids:
+    ref: JER 4:30!22
+    wordID: o240040300221
+  translation:
+    english: life
+    mandarin: 性命
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsc
+    gender: both
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: נֶפֶשׁ
+    strong: '5315'
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+    sense: '2'
+  lxx:
+    text: ψυξήν
+    strong: '5590'
+- position: 27
+  text: ךְ
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: JER 4:30!22
+    wordID: o240040300222
+  translation:
+    english: your
+    mandarin: 你
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp2fs
+    gender: feminine
+    number: singular
+    person: second
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 3509c
+  semantic:
+    sdbh:
+    - 004873001003000
+    lexdomain:
+    - '003001016'
+  lxx:
+    text: σου
+    strong: '4675'
+  discourse:
+    participant: '240040300031'
+- position: 28
+  text: יְבַקֵּֽשׁוּ
+  lemma: בָּקַשׁ
+  transliteration: 'yəḇaqqēšû:'
+  ids:
+    ref: JER 4:30!23
+    wordID: o240040300231
+  translation:
+    english: seek
+    mandarin: 寻索
+    gloss: they.seek
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vpi3mp
+    gender: masculine
+    number: plural
+    person: third
+    stem: piel
+    type: yiqtol
+  lexical:
+    stronglemma: בָּקַשׁ
+    strong: '1245'
+  semantic:
+    sdbh:
+    - '001152001001000'
+    lexdomain:
+    - '002002001015'
+    coredomain:
+    - 078
+    sense: '1'
+  lxx:
+    text: ζητοῦσιν
+    strong: '2212'
+  syntax:
+    role: v
+    frame: A0:240040300211; A1:240040300221;
+  discourse:
+    subject: '240040300211'

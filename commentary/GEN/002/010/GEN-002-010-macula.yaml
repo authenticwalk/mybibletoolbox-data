@@ -1,0 +1,486 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: GEN 2:10
+text: וְנָהָרּ֙יֹצֵ֣א מֵעֵ֔דֶן לְהַשְׁק֖וֹת אֶת־הַגָּ֑ן וּמִשָּׁם֙ יִפָּרֵ֔ד וְהָיָ֖ה
+  לְאַרְבָּעָ֥ה רָאשִֽׁים׃
+words:
+- position: 1
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 2:10!1
+    wordID: o010020100011
+  translation:
+    english: and
+    mandarin: 又
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+  lxx:
+    text: δὲ
+    strong: '1161'
+- position: 2
+  text: נָהָרּ֙
+  lemma: נָהָר
+  transliteration: nāhār
+  ids:
+    ref: GEN 2:10!1
+    wordID: o010020100012
+  translation:
+    english: river
+    mandarin: 河
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: נָהָר
+    strong: '5104'
+  semantic:
+    sdbh:
+    - 004680001002000
+    lexdomain:
+    - '001005002002005'
+    coredomain:
+    - '189'
+    sense: '1'
+  lxx:
+    text: ποταμὸς
+    strong: '4215'
+  syntax:
+    role: s
+- position: 3
+  text: יֹצֵ֣א
+  lemma: יָצָא
+  transliteration: yōṣēʾ
+  ids:
+    ref: GEN 2:10!2
+    wordID: o010020100021
+  translation:
+    english: flowed
+    mandarin: 流出来
+    gloss: '[was].going.out'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: יָצָא
+    strong: '3318'
+  semantic:
+    sdbh:
+    - '003035001001000'
+    lexdomain:
+    - '002002001011'
+    sense: '12'
+  lxx:
+    text: ἐκπορεύεται
+    strong: '1607'
+  syntax:
+    role: v
+    frame: A0:010020100012;
+- position: 4
+  text: מֵ
+  lemma: מִן
+  transliteration: mē
+  ids:
+    ref: GEN 2:10!3
+    wordID: o010020100031
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+  lxx:
+    text: ἐχ
+    strong: '1537'
+- position: 5
+  text: עֵ֔דֶן
+  lemma: עֵדֶן
+  transliteration: ʿēḏen
+  ids:
+    ref: GEN 2:10!3
+    wordID: o010020100032
+  translation:
+    english: Eden
+    mandarin: 伊甸
+  morphology:
+    class: noun
+    pos: noun
+    morph: Np
+    type: proper
+  lexical:
+    stronglemma: עֵדֶן
+    strong: '5731'
+  semantic:
+    sdbh:
+    - '005260002001000'
+    lexdomain:
+    - '003001010'
+  lxx:
+    text: εδεμ
+- position: 6
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: GEN 2:10!4
+    wordID: o010020100041
+  translation:
+    english: to
+    mandarin: 来
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+- position: 7
+  text: הַשְׁק֖וֹת
+  lemma: שָׁקָה
+  transliteration: hašqôṯ
+  ids:
+    ref: GEN 2:10!4
+    wordID: o010020100042
+  translation:
+    english: water
+    mandarin: 灌溉
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vhc
+    stem: hiphil
+    type: infinitive construct
+  lexical:
+    stronglemma: שָׁקָה
+    strong: '8248'
+  semantic:
+    sdbh:
+    - '007606001002000'
+    lexdomain:
+    - '002001001067'
+    coredomain:
+    - '101'
+    sense: '2'
+  lxx:
+    text: ποτίζειν
+  syntax:
+    role: v
+    frame: AA:010020100012; A0:010020100062;
+  discourse:
+    subject: '010020100012'
+- position: 8
+  text: אֶת
+  lemma: אֵת
+  transliteration: ʾeṯ-
+  ids:
+    ref: GEN 2:10!5
+    wordID: o010020100051
+  translation:
+    gloss: (et)
+  morphology:
+    class: om
+    pos: particle
+    morph: To
+    type: direct object marker
+  lexical:
+    stronglemma: אֵת
+    strong: 0853
+  semantic:
+    sdbh:
+    - 000792003001000
+    lexdomain:
+    - '001004001017'
+    coredomain:
+    - '027'
+    - '007'
+- position: 9
+  text: הַ
+  lemma: הַ
+  transliteration: ha
+  ids:
+    ref: GEN 2:10!6
+    wordID: o010020100061
+  translation:
+    english: the
+    mandarin: 那
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+  lxx:
+    text: τὸν
+    strong: '3588'
+- position: 10
+  text: גָּ֑ן
+  lemma: גַּן
+  transliteration: gān
+  ids:
+    ref: GEN 2:10!6
+    wordID: o010020100062
+  translation:
+    english: garden
+    mandarin: 园子
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncbsa
+    gender: both
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: גַּן
+    strong: '1588'
+  semantic:
+    sdbh:
+    - '001455001001000'
+    lexdomain:
+    - '001005002002003'
+    coredomain:
+    - 097
+    - '125'
+    sense: '1'
+  lxx:
+    text: παράδεισον
+    strong: '3857'
+- position: 11
+  text: וּ
+  lemma: וְ
+  transliteration: û
+  ids:
+    ref: GEN 2:10!7
+    wordID: o010020100071
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 12
+  text: מִ
+  lemma: מִן
+  transliteration: mi
+  ids:
+    ref: GEN 2:10!7
+    wordID: o010020100072
+  translation:
+    english: from
+    mandarin: 从
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: מִן
+    strong: '4480'
+- position: 13
+  text: שָּׁם֙
+  lemma: שָׁם
+  transliteration: ššām
+  ids:
+    ref: GEN 2:10!7
+    wordID: o010020100073
+  translation:
+    english: there
+    mandarin: 那里
+  morphology:
+    class: adv
+    pos: adverb
+    morph: D
+  lexical:
+    stronglemma: שָׁם
+    strong: '8033'
+  lxx:
+    text: ἐκεῖθεν
+    strong: '1564'
+- position: 14
+  text: יִפָּרֵ֔ד
+  lemma: פָּרַד
+  transliteration: yippārēḏ
+  ids:
+    ref: GEN 2:10!8
+    wordID: o010020100081
+  translation:
+    english: divided
+    mandarin: 分支
+    gloss: it.divided
+  morphology:
+    class: verb
+    pos: verb
+    morph: VNi3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: niphal
+    type: yiqtol
+  lexical:
+    stronglemma: פָּרַד
+    strong: '6504'
+  semantic:
+    sdbh:
+    - 005981001001000
+    lexdomain:
+    - 002003001008
+    sense: '1'
+  lxx:
+    text: ἀφορίζεται
+    strong: '873'
+  syntax:
+    role: v
+    frame: A0:010020100012;
+  discourse:
+    subject: '010020100012'
+- position: 15
+  text: וְ
+  lemma: וְ
+  transliteration: wə
+  ids:
+    ref: GEN 2:10!9
+    wordID: o010020100091
+  translation:
+    english: and
+  morphology:
+    class: cj
+    pos: conjunction
+    morph: C
+  lexical:
+    stronglemma: וְ
+    strong: 2050b
+- position: 16
+  text: הָיָ֖ה
+  lemma: הָיָה
+  transliteration: hāyāh
+  ids:
+    ref: GEN 2:10!9
+    wordID: o010020100092
+  translation:
+    english: became
+    mandarin: 成
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp3ms
+    gender: masculine
+    number: singular
+    person: third
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: הָיָה
+    strong: '1961'
+  syntax:
+    role: v
+    frame: A0:010020100012;
+  discourse:
+    subject: '010020100012'
+- position: 17
+  text: לְ
+  lemma: לְ
+  transliteration: lə
+  ids:
+    ref: GEN 2:10!10
+    wordID: o010020100101
+  translation:
+    english: into
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: לְ
+    strong: 3807a
+  lxx:
+    text: εἰς
+    strong: '1519'
+- position: 18
+  text: אַרְבָּעָ֥ה
+  lemma: אַרְבַּע
+  transliteration: ʾarbāʿāh
+  ids:
+    ref: GEN 2:10!10
+    wordID: o010020100102
+  translation:
+    english: four
+    mandarin: 四
+  morphology:
+    class: num
+    pos: adjective
+    morph: Acmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: cardinal number
+  lexical:
+    stronglemma: אַרְבַּע
+    strong: '0702'
+  semantic:
+    sdbh:
+    - 000649001001000
+    lexdomain:
+    - '002001001042'
+    - 002001003009
+    coredomain:
+    - '138'
+  lxx:
+    text: τέσσαρας
+    strong: '5064'
+- position: 19
+  text: רָאשִֽׁים
+  lemma: רֹאשׁ
+  transliteration: 'rāʾšiym:'
+  ids:
+    ref: GEN 2:10!11
+    wordID: o010020100111
+  translation:
+    english: branches
+    mandarin: 源头
+    gloss: heads
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmpa
+    gender: masculine
+    number: plural
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: רֹאשׁ
+    strong: '7218'
+  semantic:
+    sdbh:
+    - 006648001013000
+    lexdomain:
+    - '001002'
+    sense: '1'
+  lxx:
+    text: ἀρξάς
+    strong: '746'

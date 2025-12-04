@@ -1,0 +1,306 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 18:18
+text: Καὶ ἐπηρώτησέν τις αὐτὸν ἄρχων λέγων Διδάσκαλε ἀγαθέ, τί ποιήσας ζωὴν αἰώνιον
+  κληρονομήσω;
+words:
+- position: 1
+  text: Καὶ
+  lemma: καί
+  normalized: Καί
+  ids:
+    ref: LUK 18:18!1
+    wordID: n42018018001
+  translation:
+    gloss: And
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 091001
+    ln: '91.1'
+- position: 2
+  text: ἐπηρώτησέν
+  lemma: ἐπερωτάω
+  normalized: ἐπηρώτησεν
+  ids:
+    ref: LUK 18:18!2
+    wordID: n42018018002
+  translation:
+    gloss: asked
+  morphology:
+    class: verb
+    morph: V-AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1905'
+  semantic:
+    semanticDomain: '033014'
+    ln: '33.180'
+  syntax:
+    role: v
+    frame: A0:n42018018005 A1:n42018018004
+- position: 3
+  text: τις
+  lemma: τὶς
+  normalized: τις
+  ids:
+    ref: LUK 18:18!3
+    wordID: n42018018003
+  translation:
+    gloss: a certain
+  morphology:
+    class: pron
+    morph: X-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: indefinite
+  lexical:
+    strong: '5100'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.12'
+- position: 4
+  text: ἄρχων
+  lemma: ἄρχων
+  normalized: ἄρχων
+  ids:
+    ref: LUK 18:18!5
+    wordID: n42018018005
+  translation:
+    gloss: ruler
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '758'
+  semantic:
+    semanticDomain: '037004'
+    ln: '37.56'
+  syntax:
+    discontinuous: 'true'
+- position: 5
+  text: αὐτὸν
+  lemma: αὐτός
+  normalized: αὐτόν
+  ids:
+    ref: LUK 18:18!4
+    wordID: n42018018004
+  translation:
+    gloss: Him
+  morphology:
+    class: pron
+    morph: P-ASM
+    gender: masculine
+    number: singular
+    case: accusative
+    type: personal
+  lexical:
+    strong: '846'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.11'
+  syntax:
+    role: o
+  discourse:
+    referent: n42018016003
+- position: 6
+  text: λέγων
+  lemma: λέγω
+  normalized: λέγων
+  ids:
+    ref: LUK 18:18!6
+    wordID: n42018018006
+  translation:
+    gloss: saying
+  morphology:
+    class: verb
+    morph: V-PAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: present
+    voice: active
+    mood: participle
+  lexical:
+    strong: '3004'
+  semantic:
+    semanticDomain: '033006'
+    ln: '33.69'
+  syntax:
+    role: v
+    frame: A0:n42018018005
+  discourse:
+    subject: n42018018005
+- position: 7
+  text: Διδάσκαλε
+  lemma: διδάσκαλος
+  normalized: Διδάσκαλε
+  ids:
+    ref: LUK 18:18!7
+    wordID: n42018018007
+  translation:
+    gloss: Teacher
+  morphology:
+    class: noun
+    morph: N-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+    type: common
+  lexical:
+    strong: '1320'
+  semantic:
+    semanticDomain: '033017'
+    ln: '33.243'
+- position: 8
+  text: ἀγαθέ
+  lemma: ἀγαθός
+  normalized: ἀγαθέ
+  ids:
+    ref: LUK 18:18!8
+    wordID: n42018018008
+  translation:
+    gloss: good
+  morphology:
+    class: adj
+    morph: A-VSM
+    gender: masculine
+    number: singular
+    case: vocative
+  lexical:
+    strong: '18'
+  semantic:
+    semanticDomain: 088001
+    ln: '88.1'
+- position: 9
+  text: τί
+  lemma: τίς
+  normalized: τί
+  ids:
+    ref: LUK 18:18!9
+    wordID: n42018018009
+  translation:
+    gloss: what
+  morphology:
+    class: pron
+    morph: I-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    type: interrogative
+  lexical:
+    strong: '5101'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.14'
+  syntax:
+    role: o
+- position: 10
+  text: ποιήσας
+  lemma: ποιέω
+  normalized: ποιήσας
+  ids:
+    ref: LUK 18:18!10
+    wordID: n42018018010
+  translation:
+    gloss: having done
+  morphology:
+    class: verb
+    morph: V-AAP-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    tense: aorist
+    voice: active
+    mood: participle
+  lexical:
+    strong: '4160'
+  semantic:
+    semanticDomain: '042002'
+    ln: '42.7'
+  syntax:
+    role: v
+    frame: A0:n42018018005 A1:n42018018009
+  discourse:
+    subject: n42018018005
+- position: 11
+  text: ζωὴν
+  lemma: ζωή
+  normalized: ζωήν
+  ids:
+    ref: LUK 18:18!11
+    wordID: n42018018011
+  translation:
+    gloss: life
+  morphology:
+    class: noun
+    morph: N-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+    type: common
+  lexical:
+    strong: '2222'
+  semantic:
+    semanticDomain: '023007'
+    ln: '23.88'
+- position: 12
+  text: αἰώνιον
+  lemma: αἰώνιος
+  normalized: αἰώνιον
+  ids:
+    ref: LUK 18:18!12
+    wordID: n42018018012
+  translation:
+    gloss: eternal
+  morphology:
+    class: adj
+    morph: A-ASF
+    gender: feminine
+    number: singular
+    case: accusative
+  lexical:
+    strong: '166'
+  semantic:
+    semanticDomain: '067005'
+    ln: '67.96'
+- position: 13
+  text: κληρονομήσω
+  lemma: κληρονομέω
+  normalized: κληρονομήσω
+  ids:
+    ref: LUK 18:18!13
+    wordID: n42018018013
+  translation:
+    gloss: will I inherit
+  morphology:
+    class: verb
+    morph: V-FAI-1S
+    number: singular
+    person: first
+    tense: future
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2816'
+  semantic:
+    semanticDomain: 057009
+    ln: '57.131'
+  syntax:
+    role: v
+    frame: A0:n42018018005 A1:n42018018011
+  discourse:
+    subject: n42018018005

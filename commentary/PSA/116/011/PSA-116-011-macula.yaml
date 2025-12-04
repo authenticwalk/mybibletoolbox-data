@@ -1,0 +1,271 @@
+source: macula-hebrew
+version: 1.0.0
+language: heb
+verse: PSA 116:11
+text: אֲ֭נִי אָמַ֣רְתִּי בְחָפְזִ֑י כָּֽל־הָאָדָ֥ם כֹּזֵֽב׃
+words:
+- position: 1
+  text: אֲ֭נִי
+  lemma: אֲנִי
+  transliteration: ʾănî
+  ids:
+    ref: PSA 116:11!1
+    wordID: o191160110011
+  translation:
+    english: I
+    mandarin: 我
+    gloss: I
+  morphology:
+    class: pron
+    pos: pronoun
+    morph: Pp1cs
+    gender: common
+    number: singular
+    person: first
+    type: personal
+  lexical:
+    stronglemma: אֲנִי
+    strong: 0589
+  lxx:
+    text: ἐγὼ
+    strong: '1473'
+  syntax:
+    role: s
+  discourse:
+    participant: '191160010062'
+- position: 2
+  text: אָמַ֣רְתִּי
+  lemma: אָמַר
+  transliteration: ʾāmarətî
+  ids:
+    ref: PSA 116:11!2
+    wordID: o191160110021
+  translation:
+    english: said
+    mandarin: 说
+    gloss: I.said
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqp1cs
+    gender: common
+    number: singular
+    person: first
+    stem: qal
+    type: qatal
+  lexical:
+    stronglemma: אָמַר
+    strong: 0559
+  semantic:
+    sdbh:
+    - '000512001001000'
+    lexdomain:
+    - 002004001009008
+    coredomain:
+    - '041'
+    sense: '1'
+  lxx:
+    text: εἶπα
+    strong: '2036'
+  syntax:
+    role: v
+    frame: A0:191160110011;
+- position: 3
+  text: בְ
+  lemma: בְּ
+  transliteration: ḇə
+  ids:
+    ref: PSA 116:11!3
+    wordID: o191160110031
+  translation:
+    english: in
+    mandarin: 在~时
+  morphology:
+    class: prep
+    pos: preposition
+    morph: R
+  lexical:
+    stronglemma: בְּ
+    strong: 0871a
+  lxx:
+    text: ἐν
+    strong: '1722'
+- position: 4
+  text: חָפְזִ֑
+  lemma: חָפַז
+  transliteration: ''
+  ids:
+    ref: PSA 116:11!3
+    wordID: o191160110032
+  translation:
+    english: alarm
+    mandarin: 惊惶
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqc
+    stem: qal
+    type: infinitive construct
+  lexical:
+    stronglemma: חָפַז
+    strong: '2648'
+  semantic:
+    sdbh:
+    - 002439001001000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '196'
+    sense: '1'
+  syntax:
+    role: v
+    frame: A0:191160110033;
+- position: 5
+  text: י
+  lemma: הוּא
+  transliteration: ''
+  ids:
+    ref: PSA 116:11!3
+    wordID: o191160110033
+  translation:
+    english: my
+    mandarin: 我
+  morphology:
+    class: pron
+    pos: suffix
+    morph: Sp1cs
+    gender: common
+    number: singular
+    person: first
+    type: pronominal
+  lexical:
+    stronglemma: הוּא
+    strong: 5204a
+  semantic:
+    sdbh:
+    - 002439001001000
+    lexdomain:
+    - '002001002001'
+    coredomain:
+    - '043'
+    - '196'
+  lxx:
+    text: μου
+    strong: '3450'
+  syntax:
+    role: s
+  discourse:
+    participant: '191160010062'
+- position: 6
+  text: כָּֽל
+  lemma: כֹּל
+  transliteration: kāl-
+  ids:
+    ref: PSA 116:11!4
+    wordID: o191160110041
+  translation:
+    english: all
+    mandarin: 都
+    gloss: every
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsc
+    gender: masculine
+    number: singular
+    state: construct
+    type: common
+  lexical:
+    stronglemma: כֹּל
+    strong: '3605'
+  lxx:
+    text: πᾶς
+    strong: '3956'
+- position: 7
+  text: הָ
+  lemma: הַ
+  transliteration: hā
+  ids:
+    ref: PSA 116:11!5
+    wordID: o191160110051
+  translation:
+    english: the
+  morphology:
+    class: art
+    pos: particle
+    morph: Td
+    type: definite article
+  lexical:
+    stronglemma: הַ
+    strong: 1886a
+- position: 8
+  text: אָדָ֥ם
+  lemma: אָדָם
+  transliteration: ʾāḏām
+  ids:
+    ref: PSA 116:11!5
+    wordID: o191160110052
+  translation:
+    english: men
+    mandarin: 人
+  morphology:
+    class: noun
+    pos: noun
+    morph: Ncmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    type: common
+  lexical:
+    stronglemma: אָדָם
+    strong: '0120'
+  semantic:
+    sdbh:
+    - '000124001001000'
+    lexdomain:
+    - '001001002003'
+    sense: '1'
+  lxx:
+    text: ἄνθρωπος
+    strong: '444'
+- position: 9
+  text: כֹּזֵֽב
+  lemma: כָּזַב
+  transliteration: 'kōzēḇ:'
+  ids:
+    ref: PSA 116:11!6
+    wordID: o191160110061
+  translation:
+    english: liar
+    mandarin: 说谎
+    gloss: '[is].a.liar'
+  morphology:
+    class: verb
+    pos: verb
+    morph: Vqrmsa
+    gender: masculine
+    number: singular
+    state: absolute
+    stem: qal
+    type: participle active
+  lexical:
+    stronglemma: כָּזַב
+    strong: '3576'
+  semantic:
+    sdbh:
+    - '003275001001000'
+    lexdomain:
+    - '002001003007'
+    coredomain:
+    - '061'
+    - '041'
+    sense: '1'
+  lxx:
+    text: ψεύστης
+    strong: '5583'
+  syntax:
+    role: p
+    frame: A0:191160110052;
+  discourse:
+    subject: '191160110052'

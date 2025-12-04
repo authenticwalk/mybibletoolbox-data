@@ -1,0 +1,192 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: GAL 6:11
+text: Ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί.
+words:
+- position: 1
+  text: Ἴδετε
+  lemma: ὁράω
+  normalized: Ἴδετε
+  ids:
+    ref: GAL 6:11!1
+    wordID: n48006011001
+  translation:
+    gloss: See
+  morphology:
+    class: verb
+    morph: V-2AAM-2P
+    number: plural
+    person: second
+    tense: aorist
+    voice: active
+    mood: imperative
+  lexical:
+    strong: '3708'
+  semantic:
+    semanticDomain: '024001'
+    ln: '24.1'
+  syntax:
+    role: v
+    frame: A0:n48006001011
+  discourse:
+    subject: n48006001011
+- position: 2
+  text: πηλίκοις
+  lemma: πηλίκος
+  normalized: πηλίκοις
+  ids:
+    ref: GAL 6:11!2
+    wordID: n48006011002
+  translation:
+    gloss: in how large
+  morphology:
+    class: adj
+    morph: A-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: interrogative
+  lexical:
+    strong: '4080'
+  semantic:
+    semanticDomain: 079028
+    ln: '79.126'
+- position: 3
+  text: γράμμασιν
+  lemma: γράμμα
+  normalized: γράμμασιν
+  ids:
+    ref: GAL 6:11!4
+    wordID: n48006011004
+  translation:
+    gloss: letters
+  morphology:
+    class: noun
+    morph: N-DPN
+    gender: neuter
+    number: plural
+    case: dative
+    type: common
+  lexical:
+    strong: '1121'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.35'
+  syntax:
+    discontinuous: 'true'
+- position: 4
+  text: ὑμῖν
+  lemma: σύ
+  normalized: ὑμῖν
+  ids:
+    ref: GAL 6:11!3
+    wordID: n48006011003
+  translation:
+    gloss: to you
+  morphology:
+    class: pron
+    morph: P-2DP
+    number: plural
+    case: dative
+    type: personal
+  lexical:
+    strong: '4771'
+  semantic:
+    semanticDomain: 092003
+    ln: '92.7'
+  syntax:
+    role: io
+  discourse:
+    referent: n48006001011
+- position: 5
+  text: ἔγραψα
+  lemma: γράφω
+  normalized: ἔγραψα
+  ids:
+    ref: GAL 6:11!5
+    wordID: n48006011005
+  translation:
+    gloss: I have written
+  morphology:
+    class: verb
+    morph: V-AAI-1S
+    number: singular
+    person: first
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '1125'
+  semantic:
+    semanticDomain: '033005'
+    ln: '33.61'
+  syntax:
+    role: v
+    frame: A0:n48005002003 A2:n48006011003
+  discourse:
+    subject: n48005002003
+- position: 6
+  text: τῇ
+  lemma: ὁ
+  normalized: τῇ
+  ids:
+    ref: GAL 6:11!6
+    wordID: n48006011006
+  translation:
+    gloss: with
+  morphology:
+    class: det
+    morph: T-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 7
+  text: ἐμῇ
+  lemma: ἐμός
+  normalized: ἐμῇ
+  ids:
+    ref: GAL 6:11!7
+    wordID: n48006011007
+  translation:
+    gloss: my own
+  morphology:
+    class: adj
+    morph: S-1SDSF
+    gender: feminine
+    number: singular
+    case: dative
+  lexical:
+    strong: '1699'
+  semantic:
+    semanticDomain: 092001
+    ln: '92.2'
+  discourse:
+    referent: n48005002003
+- position: 8
+  text: χειρί
+  lemma: χείρ
+  normalized: χειρί
+  ids:
+    ref: GAL 6:11!8
+    wordID: n48006011008
+  translation:
+    gloss: hand
+  morphology:
+    class: noun
+    morph: N-DSF
+    gender: feminine
+    number: singular
+    case: dative
+    type: common
+  lexical:
+    strong: '5495'
+  semantic:
+    semanticDomain: 008002
+    ln: '8.30'

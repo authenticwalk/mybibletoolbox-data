@@ -1,0 +1,246 @@
+source: macula-greek
+version: 1.0.0
+language: grc
+verse: LUK 19:10
+text: ἦλθεν γὰρ ὁ Υἱὸς τοῦ ἀνθρώπου ζητῆσαι καὶ σῶσαι τὸ ἀπολωλός.
+words:
+- position: 1
+  text: γὰρ
+  lemma: γάρ
+  normalized: γάρ
+  ids:
+    ref: LUK 19:10!2
+    wordID: n42019010002
+  translation:
+    gloss: for
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '1063'
+  semantic:
+    semanticDomain: 089007
+    ln: '89.23'
+  syntax:
+    discontinuous: 'true'
+- position: 2
+  text: ἦλθεν
+  lemma: ἔρχομαι
+  normalized: ἦλθεν
+  ids:
+    ref: LUK 19:10!1
+    wordID: n42019010001
+  translation:
+    gloss: Came
+  morphology:
+    class: verb
+    morph: V-2AAI-3S
+    number: singular
+    person: third
+    tense: aorist
+    voice: active
+    mood: indicative
+  lexical:
+    strong: '2064'
+  semantic:
+    semanticDomain: '015006'
+    ln: '15.81'
+  syntax:
+    role: v
+    frame: A0:n42019010004
+- position: 3
+  text: ὁ
+  lemma: ὁ
+  normalized: ὁ
+  ids:
+    ref: LUK 19:10!3
+    wordID: n42019010003
+  translation:
+    gloss: the
+  morphology:
+    class: det
+    morph: T-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 4
+  text: Υἱὸς
+  lemma: υἱός
+  normalized: Υἱός
+  ids:
+    ref: LUK 19:10!4
+    wordID: n42019010004
+  translation:
+    gloss: Son
+  morphology:
+    class: noun
+    morph: N-NSM
+    gender: masculine
+    number: singular
+    case: nominative
+    type: common
+  lexical:
+    strong: '5207'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.3'
+- position: 5
+  text: τοῦ
+  lemma: ὁ
+  normalized: τοῦ
+  ids:
+    ref: LUK 19:10!5
+    wordID: n42019010005
+  translation:
+    gloss: '-'
+  morphology:
+    class: det
+    morph: T-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 6
+  text: ἀνθρώπου
+  lemma: ἄνθρωπος
+  normalized: ἀνθρώπου
+  ids:
+    ref: LUK 19:10!6
+    wordID: n42019010006
+  translation:
+    gloss: of Man
+  morphology:
+    class: noun
+    morph: N-GSM
+    gender: masculine
+    number: singular
+    case: genitive
+    type: common
+  lexical:
+    strong: '444'
+  semantic:
+    semanticDomain: 009001
+    ln: '9.3'
+- position: 7
+  text: ζητῆσαι
+  lemma: ζητέω
+  normalized: ζητῆσαι
+  ids:
+    ref: LUK 19:10!7
+    wordID: n42019010007
+  translation:
+    gloss: to seek
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '2212'
+  semantic:
+    semanticDomain: '027004'
+    ln: '27.41'
+  syntax:
+    frame: A0:n42019010004 A1:n42019010011
+  discourse:
+    subject: n42019010004
+- position: 8
+  text: καὶ
+  lemma: καί
+  normalized: καί
+  ids:
+    ref: LUK 19:10!8
+    wordID: n42019010008
+  translation:
+    gloss: and
+  morphology:
+    class: conj
+    morph: CONJ
+  lexical:
+    strong: '2532'
+  semantic:
+    semanticDomain: 089017
+    ln: '89.92'
+- position: 9
+  text: σῶσαι
+  lemma: σῴζω
+  normalized: σῶσαι
+  ids:
+    ref: LUK 19:10!9
+    wordID: n42019010009
+  translation:
+    gloss: to save
+  morphology:
+    class: verb
+    morph: V-AAN
+    tense: aorist
+    voice: active
+    mood: infinitive
+  lexical:
+    strong: '4982'
+  semantic:
+    semanticDomain: '021006'
+    ln: '21.27'
+  syntax:
+    frame: A0:n42019010004 A1:n42019010011
+  discourse:
+    subject: n42019010004
+- position: 10
+  text: τὸ
+  lemma: ὁ
+  normalized: τό
+  ids:
+    ref: LUK 19:10!10
+    wordID: n42019010010
+  translation:
+    gloss: that
+  morphology:
+    class: det
+    morph: T-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    has_article: true
+  lexical:
+    strong: '3588'
+  semantic:
+    semanticDomain: 092004
+    ln: '92.24'
+- position: 11
+  text: ἀπολωλός
+  lemma: ἀπόλλυμι
+  normalized: ἀπολωλός
+  ids:
+    ref: LUK 19:10!11
+    wordID: n42019010011
+  translation:
+    gloss: having been lost
+  morphology:
+    class: verb
+    morph: V-2RAP-ASN
+    gender: neuter
+    number: singular
+    case: accusative
+    tense: perfect
+    voice: active
+    mood: participle
+  lexical:
+    strong: '622'
+  semantic:
+    semanticDomain: '021006'
+    ln: '21.32'
+  syntax:
+    role: v
+    frame: A0:n00000000000
